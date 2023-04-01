@@ -1,5 +1,6 @@
 const AdminService = require('../services/admin.service');
 const Boom = require('boom');
+const bcrypt = require("bcrypt");
 const Joi = require("joi");
 const multer = require("multer");
 
@@ -7,6 +8,55 @@ class AdminController {
     constructor() {
         this.adminService = new AdminService();
     }
+
+    signup = async(req,res,next) => {
+        try {
+            const { adminEmail, adminPassword, confirmPassword } = req.body;
+            const isExistingEmail = await this.adminService.isExistingEmail(adminEmail);
+            if (isExistingEmail) {
+                throw Boom.conflict("중복된 이메일입니다.");
+            }
+            if(adminPassword !== confirmPassword) {
+                throw Boom.preconditionFailed("패스워드가 일치하지 않습니다.");
+            } 
+            const salt = await bcrypt.genSalt();
+            const hashedPassword = await bcrypt.hash(adminPassword, salt);
+
+            await this.adminService.signup(adminEmail, hashedPassword);
+            res.status(201).json({message:'어드민 가입에 성공했습니다.'});
+        } catch (error) {
+            if (Boom.isBoom(error)) {
+                return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message }); 
+            } else {
+                res.status(400).json({ errorMessage: "어드민 가입에 실패하였습니다." });
+            }
+        }
+    };
+
+    login = async(req,res,next) => {
+        try {
+            const { adminEmail, adminPassword } = req.body;
+            const token = await this.adminService.auth(adminEmail, adminPassword);
+            // const reToken = await this.adminService.refreshToken(adminEmail);
+            res.set("authorization", `Bearer ${token}`);
+            return res.status(201).json({message: "로그인에 성공하였습니다."});
+        } catch (error) {
+            if (Boom.isBoom(error)) {
+                return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message });
+            } else {
+                res.status(400).json({ error: error });
+            }
+        }
+    };
+
+    logout = async (req,res,next) => {
+        try {
+            res.clearHeaders;
+            res.status(200).json({ message: "로그아웃 되었습니다." });
+        } catch (error) {
+            next(error);
+        }
+    };
 
     getAllShops = async (req, res, next) => {
         try {

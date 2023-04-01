@@ -5,6 +5,24 @@ const { Op } = require('sequelize');
 class AdminRepository {
     constructor() {}
 
+    signup = async (adminEmail, hashedPassword) => {
+        const admin = await Admins.create({
+            AdminPassword: hashedPassword,
+            adminEmail: adminEmail
+        });
+        return admin;
+    }
+
+    isExistingEmail = async (adminEmail) => {
+        const isExist = await Admins.findOne({where: {adminEmail}});
+        return !!isExist;
+    }
+
+    findOndAdmin = async (adminEmail) => {
+        const admin = await Admins.findOne({where: { adminEmail }});
+        return admin;
+    };
+
     getAllShops = async () => {
         const allShops = await Shops.findAll({
             attributes: [ 'shopName', 'category', 'address'],

@@ -8,6 +8,9 @@ const { upload } = require('../middlewares/multer');
 const AdminController = require("../controllers/admin.controller");
 const adminController = new AdminController();
 
+router.post("/login", authMiddleware, adminController.login);
+router.post("/signup", adminController.signup);
+router.get("/logout", adminController.logout);
 router.get("/list", authMiddleware, adminController.getAllShops);
 router.get("/detail/:shopId", authMiddleware, adminController.getOneShopInfo);
 router.post("/register",  authMiddleware, upload.single('thumbnail'), adminController.postShop);
