@@ -20,19 +20,31 @@ class AdminService {
     }
 
     auth = async(adminEmail, adminPassword) => {
-        const admin = await this.adminRepository.findOndAdmin(adminEmail);
-        const hashedPassword = await admin.adminPassword;
-        const passwordVal = await bcrypt.compare(adminPassword, hashedPassword);
-        if (passwordVal) {
-            const token = jwt.sign(
-                {adminEmail : admin.adminEmail}, 
-                process.env.SECRET_KEY,
-                {expiresIn: '10d'});
-            return token;
-        } else {
-            throw Boom.unauthorized("비밀번호가 일치하지 않습니다.");
+        try {
+            const admin = await this.adminRepository.findOneAdmin(adminEmail);
+            console.log(admin);
+            if(!admin) {
+                throw Boom.notFound("해당 메일로 가입된 정보가 없습니다.");
+            }
+            const hashedPassword = await admin.adminPassword;
+            const passwordVal = await bcrypt.compare(adminPassword, hashedPassword);
+            if (passwordVal) {
+                const token = jwt.sign(
+                    {adminEmail : admin.adminEmail}, 
+                    process.env.SECRET_KEY,
+                    {expiresIn: '10d'});
+                return token;
+            } else {
+                throw Boom.unauthorized("비밀번호가 일치하지 않습니다.");
+            }
+        } catch (error) {
+            if (Boom.isBoom(error)) {
+                return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message }); 
+            } else {
+                throw error;
+            }
         }
-    }
+    };
 
     // refreshToken = async(adminEmail) => {
     //     const reToken = jwt.sign({}, process.env.SECRET_KEY, { expiresIn: "70d" });
@@ -58,10 +70,35 @@ class AdminService {
           }
     };
 
-    postShop = async(adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption) => {
-        const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption);
-        return createdshop;
+    postInfo = async(adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
+        const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail);
+        if (!!createdshop) {
+            const shopId = createdshop.shopId;
+            const menulist = [];
+
+            for (let i = 0; i < menuWithPictures.length; i++) {
+                const { menuName, price, menuDescription, picture } = menuWithPictures[i];
+                const createdMenu = await this.adminRepository.postMenu(shopId, menuName, price, menuDescription, picture);
+                menulist.push(createdMenu);
+            }
+            return (createdshop, menulist);
+        }
     };
+
+    // postShop = async(adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail) => {
+    //     const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail);
+    //     return createdshop;
+    // };
+
+    // postMenu = async(menuItems) => {
+    //     const menus = [];
+    //     for (let i = 0; i < menuItems.length; i++) {
+    //         const { menuName, price, menuDescription } = menuItems[i];
+    //         const createdMenu = await this.adminRepository.postMenu(menuName, price, menuDescription);
+    //         menus.push(createdMenu);
+    //       }
+    //     return menus;
+    // };
 
     updateShop = async(shopId, adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption) => {
         const foundShop = await this.adminRepository.findOneShop(shopId);

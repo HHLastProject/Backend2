@@ -12,17 +12,14 @@ module.exports = async (req, res, next) => {
     const [authType, token] = (authorization ?? "").split(" ");
 
     if (authType !== "Bearer" || !token) {
-        return res.status(403).json({
-          errorMsg : "로그인 후에 이용할 수 있는 기능입니다.",
-        });
-      }
+      throw Boom.unauthorized("로그인 후에 이용할 수 있는 기능입니다.");
+    }
     
     const { adminEmail } = jwt.verify(token, process.env.SECRET_KEY);
-    const admin = await adminRepository.findOndAdmin(adminEmail);
+    const admin = await adminRepository.findOneAdmin(adminEmail);
 
     if (!admin) {
-      res.status(401).json({ errorMsg: "사용자가 존재하지 않습니다." });
-      return;
+      throw Boom.unauthorized("사용자가 존재하지 않습니다.");
     }
 
     res.locals.admin = admin;
