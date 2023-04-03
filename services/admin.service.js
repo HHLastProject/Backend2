@@ -100,18 +100,49 @@ class AdminService {
     //     return menus;
     // };
 
-    updateShop = async(shopId, adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption) => {
+    // updateInfo = async (adminId, shopId, updateData) => {
+    //     const foundShop = await this.adminRepository.findOneShop(shopId);
+    //     if (!foundShop) {
+    //         throw Boom.preconditionFailed("업체가 존재하지 않습니다.");
+    //     }
+    //     if (foundShop.AdminId !== adminId) {
+    //         throw Boom.preconditionFailed("업체 수정 권한이 없습니다.");
+    //     }
+    //     await this.adminRepository.updateShop(shopId, updateData);
+    // };
+
+    updateInfo = async(adminId, shopId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
         const foundShop = await this.adminRepository.findOneShop(shopId);
         if (!foundShop) {
             throw Boom.preconditionFailed("업체가 존재하지 않습니다.");
         }
-        if (foundShop.AdminId == adminId) {
-            const updatedShop = await this.adminRepository.updateShop(shopId, adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption);
-            return updatedShop;
+        if (foundShop.AdminId === adminId) {
+            const updatedShop = await this.adminRepository.updateShop(shopId, shopName, category, address, operatingTime, phoneNumber, thumbnail);
+            const ShopId = foundShop.shopId;
+            const menulist = [];
+            for (let i = 0; i < menuWithPictures.length; i++) {
+                const { menuName, price, menuDescription, picture } = menuWithPictures[i];
+                const updatedMenu = await this.adminRepository.updateMenu(ShopId, menuName, price, menuDescription, picture);
+                menulist.push(updatedMenu);
+            }
+            return (updatedShop, menulist);
         } else {
-            throw Boom.preconditionFailed("삭제 권한이 없습니다.");
+            throw Boom.preconditionFailed("업체 수정 권한이 없습니다.");
         } 
     };
+
+    // updateShop = async(shopId, adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption) => {
+    //     const foundShop = await this.adminRepository.findOneShop(shopId);
+    //     if (!foundShop) {
+    //         throw Boom.preconditionFailed("업체가 존재하지 않습니다.");
+    //     }
+    //     if (foundShop.AdminId == adminId) {
+    //         const updatedShop = await this.adminRepository.updateShop(shopId, adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption);
+    //         return updatedShop;
+    //     } else {
+    //         throw Boom.preconditionFailed("삭제 권한이 없습니다.");
+    //     } 
+    // };
 
     deleteShop = async(adminId, shopId) => {  
         const foundShop = await this.adminRepository.findOneShop(shopId);
