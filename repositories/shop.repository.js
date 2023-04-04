@@ -34,14 +34,15 @@ class ShopRepository {
     }
     // 상세 조회
     getFindOneShop = async ({shopId}) => {
-        const shop = await Shops.findByPk(shopId, {
+        const shop = await Shops.findOne({
+            where : {shopId}, 
             attributes: [
                 "shopName",
                 "thumbnail",
                 "category",
                 "address",
-                // "operatingTime",
-                // "phoneNumber",
+                "operatingTime",
+                "phoneNumber",
             ],
             include: [
                 {
@@ -54,22 +55,13 @@ class ShopRepository {
                     ]
                 }
             ],
-            raw: true, // JSON 형태로 반환된 데이터를 처리
-            nest: true, // include된 데이터를 객체 내부에 중첩
         });
         if (!shop) {
             return null;
         }
         
-        const menu = shop.Menus ? shop.Menus.map((menu) => ({
-            menuName: menu.menuName,
-            price: menu.price,
-            menuDescription: menu.menuDescription,
-            picture: menu.picture || null,
-        })) : [];
-        
-        delete shop.Menus;
-        return { ...shop, menu };
+
+        return shop;
     }
 }
 

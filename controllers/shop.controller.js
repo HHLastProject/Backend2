@@ -20,10 +20,10 @@ class ShopController {
     getFindOneShop = async (req, res, next) => {
         const { shopId } = req.params;
         try {
-            const shop = await this.ShopService.getFindOneShop({ shopId });
+            const shop = await this.ShopService.getFindOneShop({shopId});
             if (!shop) {
                 return res.status(404).json({ errorMsg: "맛집이 존재하지 않습니다."});
-            } // 해당 부분이 에러메시지가 나타나지 않고 있다 왜지? ㅠㅠ
+            }
             res.status(200).json({ shop : shop });
         } catch(error) {
             console.log(error);
