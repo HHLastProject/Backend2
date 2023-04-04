@@ -7,10 +7,12 @@ class ShopRepository {
         return await Shops.findAll({
             attributes: [
                 "shopId",
-                "address",
+                "roadAddress",
+                "jibunAddress",
+                "x",
+                "y",
                 "shopName",
                 "thumbnail",
-                "category",
                 [
                     Sequelize.fn('max', Sequelize.col('Menus.price')),
                     'maxPrice'
@@ -18,7 +20,8 @@ class ShopRepository {
                 [
                     Sequelize.fn('min', Sequelize.col('Menus.price')),
                     'minPrice'
-                ]
+                ],
+                "category",
             ],
             include: [
                 {
@@ -40,7 +43,10 @@ class ShopRepository {
                 "shopName",
                 "thumbnail",
                 "category",
-                "address",
+                "roadAddress",
+                "jibunAddress",
+                "x",
+                "y",
                 "operatingTime",
                 "phoneNumber",
             ],
