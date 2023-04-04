@@ -3,21 +3,18 @@ const qs = require('querystring');
 const router = express.Router();
 const session = require('express-session');
 
-// const KAKAO_CLIENT_ID = process.env.KAKAO_CLIENT_ID;
-// const KAKAO_REDIRECT_URI = process.env.KAKAO_REDIRECT_URI
+const KAKAO_CLIENT_ID = process.env.KAKAO_CLIENT_ID;
+const KAKAO_REDIRECT_URI = process.env.KAKAO_REDIRECT_URI
 const axios = require('axios');
 
 router.get("/login",async(req,res)=> {
-
-    const { code } = req.query;
-
+  const { code } = req.body;
     const data = {
       grant_type: 'authorization_code',
       client_id: KAKAO_CLIENT_ID,
       redirect_uri: KAKAO_REDIRECT_URI,
       code,
     };
-    
 
     try {
       const responseToken = await axios.post('https://kauth.kakao.com/oauth/token', qs.stringify(data), {
