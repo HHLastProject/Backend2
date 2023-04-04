@@ -1,4 +1,4 @@
-const { Admins, Shops, Menus, Likes, Reviews } = require('../models');
+const { Admin, Shops, Menus, Likes, Reviews } = require('../models');
 const { parseModelToFlatObject } = require('../helpers/sequelize.helper');
 const { Op } = require('sequelize');
 
@@ -6,76 +6,93 @@ class AdminRepository {
     constructor() {}
 
     signup = async (adminEmail, hashedPassword) => {
-        const admin = await Admins.create({
-            AdminPassword: hashedPassword,
+        const admin = await Admin.create({
+            adminPassword: hashedPassword,
             adminEmail: adminEmail
         });
         return admin;
     }
 
     isExistingEmail = async (adminEmail) => {
-        const isExist = await Admins.findOne({where: {adminEmail}});
+        const isExist = await Admin.findOne({
+            where: {adminEmail}
+        });
         return !!isExist;
     }
 
-    findOndAdmin = async (adminEmail) => {
-        const admin = await Admins.findOne({where: { adminEmail }});
+    findOneAdmin = async (adminEmail) => {
+        const admin = await Admin.findOne({where: { adminEmail }});
+        console.log(admin);
         return admin;
     };
 
     getAllShops = async () => {
         const allShops = await Shops.findAll({
-            attributes: [ 'shopName', 'category', 'address'],
+            attributes: [ 'shopId', 'shopName', 'category', 'address'],
             order: [['createdAt', 'DESC']]
         });
         return allShops;
     };
 
-    postShop = async (adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption) => {
+    postShop = async (adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail) => {
+        console.log (adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail)
         const createdShop = await Shops.create({
-            adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail
+            AdminId: adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail
         });
-        if(createdShop) {
-            const shopId = createdShop.shopId;
-            await Menus.create({
-                ShopId:shopId, menuName, price, menuDesciption
-            })
-        }
+        console.log(createdShop);
         return createdShop;
     };
 
-    updateShop = async (shopId, adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption) => {
+    postMenu = async (shopId, menuName, price, menuDescription, picture) => {
+        const createdMenu = await Menus.create({
+            ShopId: shopId, menuName, price, menuDescription, picture
+        });
+        return createdMenu;
+    }
+ 
+
+    updateShop = async (shopId, shopName, category, address, operatingTime, phoneNumber, thumbnail) => {
         const updatedShop = await Shops.update(
-            { adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail },
+            { shopName, category, address, operatingTime, phoneNumber, thumbnail },
             { where: { shopId } }
             );
-        if(updatedShop) {
-            await Menus.update(
-                { menuName, price, menuDesciption },
-                { where: { ShopId: shopId } }
-            )
-        }
         return updatedShop;
     };
 
+    updateMenu = async ( ShopId, menuName, price, menuDescription, picture ) => {
+        const updatedMenu = await Menus.update(
+            { menuName, price, menuDescription, picture },
+            { where: { ShopId } }
+        )
+        return updatedMenu;
+    };
+
+    // if(updatedShop) {
+    //     await Menus.update(
+    //         { menuName, price, menuDesciption },
+    //         { where: { ShopId: shopId } }
+    //     )
+    // }
+
+
     getOneShopInfo = async (shopId) => {
         const shopInfo = await Shops.findOne({
-            attributes: ['adminId', 'shopName', 'category', 'address', 'operatingTime', 'phoneNumber', 'thumbnail'],
+            attributes: ['shopId', 'adminId', 'shopName', 'category', 'address', 'operatingTime', 'phoneNumber', 'thumbnail'],
             where: {shopId},
             include: [
                 {
                     model: Menus,
-                    attributes: ['menuName', 'price', 'menuDesciption'],
-                    where: {shopId}
+                    attributes: ['menuId', 'menuName', 'price', 'menuDescription','picture'],
                 }
             ],
-            raw: true,
-        }).then(parseModelToFlatObject);
+        });
         return shopInfo;
     };
 
+
     findOneShop = async (shopId) => {
         const shop = await Shops.findOne({where: {shopId}});
+        console.log('🟫',shop );
         return shop;
     };
 

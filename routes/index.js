@@ -5,8 +5,8 @@ const userRouter = require("./user.route");
 const shopRouter = require("./shop.route");
 const adminRouter = require('./admin.route');
 
-router.use("/users", userRouter);
-router.use("/shop", shopRouter);
-router.use('/admin', adminRouter);
+router.use("/api/users", userRouter);
+router.use("/api/shop", shopRouter);
+router.use('/api/admin', adminRouter);
 
 module.exports = router;

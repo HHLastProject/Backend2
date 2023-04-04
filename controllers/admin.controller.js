@@ -4,6 +4,8 @@ const bcrypt = require("bcrypt");
 const Joi = require("joi");
 const multer = require("multer");
 
+
+
 class AdminController {
     constructor() {
         this.adminService = new AdminService();
@@ -12,9 +14,10 @@ class AdminController {
     signup = async(req,res,next) => {
         try {
             const { adminEmail, adminPassword, confirmPassword } = req.body;
-            const isExistingEmail = await this.adminService.isExistingEmail(adminEmail);
-            if (isExistingEmail) {
+            const isExist = await this.adminService.isExistingEmail(adminEmail);
+            if (isExist) {
                 throw Boom.conflict("중복된 이메일입니다.");
+
             }
             if(adminPassword !== confirmPassword) {
                 throw Boom.preconditionFailed("패스워드가 일치하지 않습니다.");
@@ -37,15 +40,10 @@ class AdminController {
         try {
             const { adminEmail, adminPassword } = req.body;
             const token = await this.adminService.auth(adminEmail, adminPassword);
-            // const reToken = await this.adminService.refreshToken(adminEmail);
             res.set("authorization", `Bearer ${token}`);
             return res.status(201).json({message: "로그인에 성공하였습니다."});
         } catch (error) {
-            if (Boom.isBoom(error)) {
-                return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message });
-            } else {
-                res.status(400).json({ error: error });
-            }
+            res.status(500).json({ errorMsg : "요청한 데이터 형식이 올바르지 않습니다." });
         }
     };
 
@@ -88,40 +86,82 @@ class AdminController {
         }
     }
 
-    postShop = async (req, res, next) => {
-        try {
-            const { shopName, category, address, operatingTime, phoneNumber, menuName, price, menuDesciption} = req.body;
-            const { adminId } = res.locals.admin; //어드민 로그인을 위해서 어드민 로그인 페이지가 필요함!(FE) 회원가입, 로그인 api 만들어서 auth토큰 발급이 필요함 
-            const file = req.file;
-            if(!file){
-                res.status(404).json({ errorMessage: "대표이미지 파일을 등록해주세요." });
-            }
-            const filename = req.file.filename;
-            const thumbnail = `http://52.78.166.176:3000/uploads/${filename}`
-            await this.adminService.postShop( adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption);
-            return res.status(201).json({ message: "업체 정보 등록이 완료되었습니다." });
-        } catch (error) {
-            if (Boom.isBoom(error)) {
-                return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message }); 
-            } else {
-                res.status(400).json({ errorMessage: "업체 등록에 실패하였습니다." });
-            }
-        }
-    };
 
-    updateShop = async (req, res, next) => {
+    // postInfo = async (req, res, next) => {
+    //     try {
+    //         const { shopName, category, address, operatingTime, phoneNumber, menu} = req.body;
+    //         const { adminId } = res.locals.admin;
+    //         const files = req.files;
+    //         const thumbImg = req.files.thumbnail[0];
+    //         if(!thumbImg){
+    //             res.status(404).json({ errorMessage: "대표이미지 파일을 등록해주세요." });
+    //         }
+    //         // const filename = req.file.thumbnail.filename;
+    //         // const thumbnail = `http://localhost:3060/uploads/${filename}` //나중에 ec2로 바꿔야함
+    //         const thumbnailFilename = req.files.thumbnail[0].filename;
+    //         const menuPictureFilenames = req.files.menuPictures.map(file => file.filename);
+
+    //         const thumbnail = `http://localhost:3060/uploads/${thumbnailFilename}`;
+    //         const base_url = "http://localhost:3060/uploads/";
+    //         const pictures = menuPictureFilenames.map(filename => base_url + filename);
+
+    //         const parsedMenu = JSON.parse(menu);
+    //         await this.adminService.postInfo( adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, parsedMenu, pictures);
+    //         return res.status(201).json({ message: "업체 정보 등록이 완료되었습니다." });
+    //     } catch (error) {
+    //         if (Boom.isBoom(error)) {
+    //             return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message }); 
+    //         } else {
+    //             res.status(400).json({ errorMessage: "업체 등록에 실패하였습니다." });
+    //         }
+    //     }
+    // };
+
+    postInfo = async (req, res, next) => {
         try {
-            const { shopName, category, address, operatingTime, phoneNumber, menuName, price, menuDesciption} = req.body;
+          const { shopName, category, address, operatingTime, phoneNumber, menu } = req.body;
+          const { adminId } = res.locals.admin;
+          const thumbnailFilename = req.files.thumbnail[0].filename;
+          const thumbnail = `http://localhost:3060/uploads/${thumbnailFilename}`;
+          const menuItems = JSON.parse(menu);
+          const menuWithPictures = [];
+          const menuPictureFilenames = req.files.menuPictures.map(file => file.filename);
+          for (let i = 0; i < menuItems.length; i++) {
+            const pictureFilename = menuPictureFilenames[i];
+            const picture = pictureFilename ? `http://localhost:3060/uploads/${pictureFilename}` : null;
+            menuWithPictures.push({ ...menuItems[i], picture });
+          }
+          await this.adminService.postInfo(adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuWithPictures);
+          return res.status(201).json({message: "업체 정보 등록이 완료되었습니다."});
+        } catch (error) {
+          if (Boom.isBoom(error)) {
+            return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message });
+          } else {
+            res.status(400).json({ errorMessage: "업체 등록에 실패하였습니다." });
+          }
+        }
+      }
+      
+    
+    updateInfo = async (req, res, next) => {
+        try {
+            const { shopName, category, address, operatingTime, phoneNumber, menu } = req.body;
             const { adminId } = res.locals.admin;
             const { shopId } = req.params;
-            const file = req.file;
-            if(!file){
-                res.status(404).json({ errorMessage: "대표이미지 파일을 등록해주세요." });
+            const thumbnailFilename = req.files.thumbnail[0].filename;
+            const thumbnail = `http://localhost:3060/uploads/${thumbnailFilename}`;
+
+            const menuItems = JSON.parse(menu);
+            const menuWithPictures = [];
+            const menuPictureFilenames = req.files.menuPictures.map(file => file.filename);
+            for (let i = 0; i < menuItems.length; i++) {
+                const pictureFilename = menuPictureFilenames[i];
+                const picture = pictureFilename ? `http://localhost:3060/uploads/${pictureFilename}` : null;
+                menuWithPictures.push({ ...menuItems[i], picture });
             }
-            const filename = req.file.filename;
-            const thumbnail = `http://52.78.166.176:3000/uploads/${filename}`
-            await this.adminService.updateShop(shopId, adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption);
-            return res.status(201).json({ message: "업체 정보 수정이 완료되었습니다." });
+
+            const updatedInfo = await this.adminService.updateInfo(adminId, shopId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuWithPictures);
+            return res.status(201).json({ message: "업체 정보 수정이 완료되었습니다."});
         } catch (error) {
             if (Boom.isBoom(error)) {
                 return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message }); 
@@ -130,6 +170,29 @@ class AdminController {
             }
         }        
     };
+
+    // updateShop = async (req, res, next) => {
+    //     try {
+    //         const { shopName, category, address, operatingTime, phoneNumber, menuName, price, menuDesciption} = req.body;
+    //         const { adminId } = res.locals.admin;
+    //         const { shopId } = req.params;
+    //         const file = req.file;
+    //         if(!file){
+    //             res.status(404).json({ errorMessage: "대표이미지 파일을 등록해주세요." });
+    //         }
+    //         const filename = req.file.filename;
+    //         const thumbnail = `http://52.78.166.176:3000/uploads/${filename}`
+    //         await this.adminService.updateShop(shopId, adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, menuName, price, menuDesciption);
+    //         return res.status(201).json({ message: "업체 정보 수정이 완료되었습니다." });
+    //     } catch (error) {
+    //         if (Boom.isBoom(error)) {
+    //             return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message }); 
+    //         } else {
+    //             res.status(400).json({ errorMessage: "업체 수정에 실패하였습니다." });
+    //         }
+    //     }        
+    // };
+
 
     deleteShop = async (req, res, next) => {
         try {

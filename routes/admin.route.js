@@ -1,20 +1,21 @@
 const multer = require('multer');
 const express = require("express");
 const router = express.Router();
-const authMiddleware = require('../middlewares/authMiddleware');
+const adminAuthmiddleware = require('../middlewares/adminAuthmiddleware');
 
 const { upload } = require('../middlewares/multer');
 
 const AdminController = require("../controllers/admin.controller");
 const adminController = new AdminController();
 
-router.post("/login", authMiddleware, adminController.login);
+router.post("/login", adminController.login);
 router.post("/signup", adminController.signup);
-router.get("/logout", adminController.logout);
-router.get("/list", authMiddleware, adminController.getAllShops);
-router.get("/detail/:shopId", authMiddleware, adminController.getOneShopInfo);
-router.post("/register",  authMiddleware, upload.single('thumbnail'), adminController.postShop);
-router.put("/update/:shopId",  authMiddleware, upload.single('thumbnail'), adminController.updateShop);
-router.delete("/delete/:shopId", authMiddleware, adminController.deleteShop);
+router.get("/logout", adminAuthmiddleware, adminController.logout);
+router.get("/shoplist", adminAuthmiddleware, adminController.getAllShops);
+router.get("/detail/:shopId", adminAuthmiddleware, adminController.getOneShopInfo);
+router.post("/register",  adminAuthmiddleware, upload.fields([{ name: 'thumbnail', maxCount: 1 },{ name: 'menuPictures'}]), adminController.postInfo);
+router.put("/update/:shopId",  adminAuthmiddleware, upload.fields([{ name: 'thumbnail', maxCount: 1 },{ name: 'menuPictures'}]), adminController.updateInfo);
+// router.put("/update/:shopId",  adminAuthmiddleware, upload.single('thumbnail'), adminController.updateShop);
+router.delete("/delete/:shopId", adminAuthmiddleware, adminController.deleteShop);
 
 module.exports = router;
