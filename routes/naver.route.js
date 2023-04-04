@@ -5,12 +5,12 @@ const session = require('express-session');
 const axios = require('axios');
 require("dotenv").config();
 
-// var client_id = process.env.NAVER_CLIENT_ID
-// var client_secret = process.env.NAVER_CLIENT_SECRET
-// var redirectURI = encodeURI(process.env.NAVER_REDIRECT_URI); 
+var client_id = process.env.NAVER_CLIENT_ID
+var client_secret = process.env.NAVER_CLIENT_SECRET
+var redirectURI = encodeURI(process.env.NAVER_REDIRECT_URI); 
 
 router.get('/login', async (req, res) => {
-    const { code } = req.query;
+  const { code } = req.body;
   
     const data = {
       grant_type: 'authorization_code',
