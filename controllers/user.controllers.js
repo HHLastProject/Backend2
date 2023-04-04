@@ -2,17 +2,6 @@ const UserService = require("../services/user.services.js");
 const jwt = require('jsonwebtoken');                    
 const axios = require('axios');
 
-
-//소셜로그인에서 가져온것
-const qs = require('querystring');
-const session = require('express-session');
-const KAKAO_CLIENT_ID = '92e15ddd07c08d5fd1734a941c3f539c';
-const KAKAO_REDIRECT_URI = "http://localhost:3060/users/login/kakao";
-
-
-
-
-
 class UsersController { 
 
     userService = new UserService();
@@ -22,7 +11,6 @@ class UsersController {
         
         console.log("email = " , email);
         
-
         const result = await this.userService.signupUser({
             email,
             password,

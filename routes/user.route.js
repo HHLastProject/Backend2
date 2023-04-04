@@ -6,11 +6,9 @@ const userController = new UserController();
 
 // 회원가입
 router.post("/signup", userController.userSignup);
-// router.get("/login/kakao",userController.userSingupKaKao);
 
-// router.get("/singup/naver",userController.userSingupNaver);
 // 로그인
-// router.post("/login", userController.userLogin);
+router.post("/login", userController.userLogin);
 
 router.get("/checkMiddleware",authLoginMiddleware, userController.checkMiddleware);
 

@@ -21,7 +21,14 @@ class UserRepository {
     loginUser = async({  email }) => { 
         console.log("레파지토리입니다");
 
-        const findUser= await Users.findOne({email});
+        const findUser= await Users.findOne({
+        
+        attributes: ['email', "nickname"],
+        where : {
+            email : email
+        }
+        
+    });
 
         return findUser;
 
