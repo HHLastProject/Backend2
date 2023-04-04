@@ -45,11 +45,19 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.STRING
     },
-    address: {
+    roadAddress: {
       allowNull: false,
       type: DataTypes.STRING
     },
-    category: {
+    jibunAddress: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    x: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    y: {
       allowNull: false,
       type: DataTypes.STRING
     },

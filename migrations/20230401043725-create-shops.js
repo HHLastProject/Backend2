@@ -22,11 +22,31 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
-      address: {
+      category: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      category: {
+      roadAddress: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      jibunAddress: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      x: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      y: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      operatingTime: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      phoneNumber: {
         allowNull: false,
         type: Sequelize.STRING
       },
@@ -44,16 +64,16 @@ module.exports = {
         type: Sequelize.DATE,
         defaultValue: Sequelize.fn("now"),
       },
-      likeCount: {
-        type: DataTypes.VIRTUAL,
-        get() {
-          const subquery = sequelize.literal(`
-            (SELECT COUNT(*) FROM Likes WHERE Likes.PostId = Posts.postId)
-          `);
-          return sequelize.query(subquery, { type: Sequelize.QueryTypes.SELECT })
-            .then(result => result[0].count);
-        },
-      },
+      // likeCount: {
+      //   type: Sequelize.VIRTUAL,
+      //   get() {
+      //     const subquery = sequelize.literal(`
+      //       (SELECT COUNT(*) FROM Likes WHERE Likes.PostId = Posts.postId)
+      //     `);
+      //     return sequelize.query(subquery, { type: Sequelize.QueryTypes.SELECT })
+      //       .then(result => result[0].count);
+      //   },
+      // },
     });
   },
   async down(queryInterface, Sequelize) {
