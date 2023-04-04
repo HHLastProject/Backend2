@@ -43,7 +43,17 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE,
         defaultValue: Sequelize.fn("now"),
-      }
+      },
+      likeCount: {
+        type: DataTypes.VIRTUAL,
+        get() {
+          const subquery = sequelize.literal(`
+            (SELECT COUNT(*) FROM Likes WHERE Likes.PostId = Posts.postId)
+          `);
+          return sequelize.query(subquery, { type: Sequelize.QueryTypes.SELECT })
+            .then(result => result[0].count);
+        },
+      },
     });
   },
   async down(queryInterface, Sequelize) {
