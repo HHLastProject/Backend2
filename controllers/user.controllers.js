@@ -9,8 +9,6 @@ class UsersController {
     userSignup = async (req, res, next) => { 
         const {email,password, nickname, gender } = req.body; 
         
-        console.log("email = " , email);
-        
         const result = await this.userService.signupUser({
             email,
             password,
