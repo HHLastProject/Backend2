@@ -1,17 +1,28 @@
 const express = require("express");
 const router = express.Router();
-// const authLoginMiddleware = require("../middlewares/auth-login-middleware");
-// const authMiddleware = require('../middlewares/authMiddleware');
+const authLoginMiddleware = require("../middlewares/auth-middleware");
+const UserController = require("../controllers/user.controllers");
+const userController = new UserController();
 
-// const UserController = require("../controllers/user.controller");
-// const userController = new UserController();
+// 회원가입
+router.post("/signup", userController.userSignup);
+// router.get("/login/kakao",userController.userSingupKaKao);
 
-// // 회원가입
-// router.post("/signup", userController.userSignup);
-// // 회원 조회
-// router.get("/allUsers", userController.getAllusers);
-// // 로그인
-// router.post("/login", authLoginMiddleware, userController.userLogin);
+// router.get("/singup/naver",userController.userSingupNaver);
+// 로그인
+// router.post("/login", userController.userLogin);
+
+router.get("/checkMiddleware",authLoginMiddleware, userController.checkMiddleware);
+
 // // 로그 아웃
 // router.get("/logout", userController.userlogout);
+
+// // 회원 조회
+// router.get("/allUsers", userController.getAllusers);
+
+
+// 소셜 로그인에서 가져온것
+
+
+
 module.exports = router;
