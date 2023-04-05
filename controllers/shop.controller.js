@@ -12,7 +12,7 @@ class ShopController {
             res.status(200).json({ shop : shops })
         } catch(error) {
             console.log(error)
-            res.status(400).json({msg: "예기치 못한 오류가 발생했습니다"});
+            res.status(400).json({ errorMsg: "예기치 못한 오류가 발생했습니다" });
             return;
         }
     }

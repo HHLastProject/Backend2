@@ -5,7 +5,6 @@ const session = require("express-session");
 
 const KAKAO_CLIENT_ID = process.env.KAKAO_CLIENT_ID;
 const KAKAO_REDIRECT_URI = process.env.KAKAO_REDIRECT_URI;
-const KAKAO_REDIRECT_URI2 = process.env.KAKAO_REDIRECT_URI2;
 const axios = require("axios");
 
 /////////////////////////////////////////////////////////
@@ -19,24 +18,18 @@ const axios = require("axios");
 //   const kakaoLoginUrl = `https://kauth.kakao.com/oauth/authorize?client_id=${KAKAO_CLIENT_ID}&redirect_uri=${KAKAO_REDIRECT_URI}&response_type=code`;
 //   res.redirect(kakaoLoginUrl);
 // });
-/////////////////////////////////////////////////////////
-
+///////////////////////////////////////////////////////// 
+/*
 router.get("/login", async (req, res) => {
   const { code } = req.query;
+  console.log(code)
+
   const data = {
     grant_type: "authorization_code",
-    client_id: "92e15ddd07c08d5fd1734a941c3f539c",
-    redirect_uri: "http://localhost:3060/api/kakao/login",
+    client_id: KAKAO_CLIENT_ID,
+    redirect_uri: KAKAO_REDIRECT_URI,
     code,
   };
-
-  // const { code } = req.query;
-  //   const data = {
-  //     grant_type: 'authorization_code',
-  //     client_id: KAKAO_CLIENT_ID,
-  //     redirect_uri: KAKAO_REDIRECT_URI,
-  //     code,
-  //   };
 
   try {
     const responseToken = await axios.post(
@@ -48,7 +41,7 @@ router.get("/login", async (req, res) => {
         },
       }
     );
-
+    
     const { access_token: accessToken } = responseToken.data;
 
     req.session.accessToken = accessToken;
@@ -57,24 +50,24 @@ router.get("/login", async (req, res) => {
       return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
     }
 
-    //axios.get() 메서드를 이용하여 사용자 정보를 가져오고, 필요한 정보를 userInfo 객체에 저장합니다.
-    const responseUser = await axios.get("https://kapi.kakao.com/v2/user/me", {
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-      },
-    });
+    // axios.get() 메서드를 이용하여 사용자 정보를 가져오고, 필요한 정보를 userInfo 객체에 저장합니다.
+    // const responseUser = await axios.get("https://kapi.kakao.com/v2/user/me", {
+    //   headers: {
+    //     Authorization: `Bearer ${accessToken}`,
+    //   },
+    // });
 
-    const { id, properties, kakao_account } = responseUser.data;
+    // const { id, properties, kakao_account } = responseUser.data;
 
-    const userInfo = {
-      id,
-      nickname: properties.nickname,
-      email: kakao_account.email,
-      gender: kakao_account.gender,
-      age: kakao_account.age_range,
-    };
+    // const userInfo = {
+    //   id,
+    //   nickname: properties.nickname,
+    //   email: kakao_account.email,
+    //   gender: kakao_account.gender,
+    //   age: kakao_account.age_range,
+    // };
 
-    console.log(userInfo);
+    // console.log(userInfo);
     res.status(200).json({ accessToken });
   } catch (error) {
     console.error(error);
@@ -82,29 +75,23 @@ router.get("/login", async (req, res) => {
     // res.status(400).send({"errorMsg" : '카카오톡 로그인에 실패하였습니다.'});
   }
 });
+*/
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////              모든걸 제외하고 code 들어오는지 확인
+/////////////////////////////////          내 id  프론트 uri
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-router.post("/login2", async (req, res) => {
-  const { code } = req.body;
-  console.log(code);
-  res.status(400).send({ "받은 code은 잘 출력되나": code });
-});
+router.get("/login", async (req, res) => {
+   const { code } = req.query;
+  
+  console.log("11111111111111111111111111111111111");
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////// 프론트 id   프론트 url
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-router.post("/login9", async (req, res) => {
-  const { code } = req.body;
-
-  console.log(code );
   const data = {
     grant_type: "authorization_code",
-    client_id: "552308e28dcc9e6296fed9c2a196525e",
+    client_id: KAKAO_CLIENT_ID,
     redirect_uri: "http://localhost:3000/redirect/kakao",
-    code,
+    code ,
   };
+  console.log("222222222222222222222222222222222222222");
 
   try {
     const responseToken = await axios.post(
@@ -116,38 +103,128 @@ router.post("/login9", async (req, res) => {
         },
       }
     );
+    console.log("3333333333333333333333333333333333333");
+
 
     const { access_token: accessToken } = responseToken.data;
+    console.log("44444444444444444444444444444444444444444");
 
     req.session.accessToken = accessToken;
 
+    console.log("55555555555555555555555555555555555555555555");
     if (!accessToken) {
       return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
     }
 
-    //axios.get() 메서드를 이용하여 사용자 정보를 가져오고, 필요한 정보를 userInfo 객체에 저장합니다.
-    const responseUser = await axios.get("https://kapi.kakao.com/v2/user/me", {
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-      },
-    });
+    console.log("66666666666666666666666666666666666666666666");
 
-    const { id, properties, kakao_account } = responseUser.data;
-
-    const userInfo = {
-      id,
-      nickname: properties.nickname,
-      email: kakao_account.email,
-      gender: kakao_account.gender,
-      age: kakao_account.age_range,
-    };
-
-    console.log(userInfo);
     res.status(200).json({ accessToken });
   } catch (error) {
-    // console.error(error);
+    console.error(error);
+    res.status(400).send(error);
+    // res.status(400).send({"errorMsg" : '카카오톡 로그인에 실패하였습니다.'});
+  }
+});
 
-    res.status(400).send({ errorMsg: "카카오톡 로그인에 실패하였습니다." });
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////          내 id  프론트 uri
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+router.post("/login2", async (req, res) => {
+  const { code } = req.body;
+  console.log("11111111111111111111111111111111111");
+
+  const data = {
+    grant_type: "authorization_code",
+    client_id: KAKAO_CLIENT_ID,
+    redirect_uri: "http://localhost:3000/redirect/kakao",
+    code,
+  };
+  console.log("222222222222222222222222222222222222222");
+
+  try {
+    const responseToken = await axios.post(
+      "https://kauth.kakao.com/oauth/token",
+      qs.stringify(data),
+      {
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded;charset=utf-8",
+        },
+      }
+    );
+    console.log("3333333333333333333333333333333333333");
+
+
+    const { access_token: accessToken } = responseToken.data;
+    console.log("44444444444444444444444444444444444444444");
+
+    req.session.accessToken = accessToken;
+
+    console.log("55555555555555555555555555555555555555555555");
+    if (!accessToken) {
+      return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
+    }
+
+    console.log("66666666666666666666666666666666666666666666");
+
+    res.status(200).json({ accessToken });
+  } catch (error) {
+    console.error(error);
+    res.status(400).send(error);
+    // res.status(400).send({"errorMsg" : '카카오톡 로그인에 실패하였습니다.'});
+  }
+});
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////// 프론트 id   프론트 url
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+router.post("/login3", async (req, res) => {
+  const { code } = req.body;
+  console.log("11111111111111111111111111111111111")
+
+
+  const data = {
+    grant_type: "authorization_code",
+    client_id: '552308e28dcc9e6296fed9c2a196525e',
+    redirect_uri: "http://localhost:3000/redirect/kakao",
+    code,
+  };
+
+  console.log("222222222222222222222222222222222")
+  
+  try {
+    const responseToken = await axios.post(
+      "https://kauth.kakao.com/oauth/token",
+      qs.stringify(data),
+      {
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded;charset=utf-8",
+        },
+      }
+    );
+  
+    console.log("33333333333333333333333333333333333333") 
+
+    const { access_token: accessToken } = responseToken.data;
+
+    console.log("44444444444444444444444444444444444") 
+
+    req.session.accessToken = accessToken;
+
+    console.log("5555555555555555555555555555555") 
+    if (!accessToken) {
+      return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
+    }
+
+    console.log("6666666666666666666666666666666666666666") 
+    res.status(200).json({ accessToken });
+  } catch (error) {
+    console.error(error);
+    res.status(400).send(error);
+    // res.status(400).send({"errorMsg" : '카카오톡 로그인에 실패하였습니다.'}); 
   }
 });
 
