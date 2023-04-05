@@ -21,11 +21,6 @@ const routes = require("./routes");
 /////////////////////////////////////////////////////////////
 
 // const session = require('express-session');
-// // const KAKAO_CLIENT_ID = '92e15ddd07c08d5fd1734a941c3f539c';
-// // const KAKAO_REDIRECT_URI = "http://localhost:3060/api/kakao/login";
-// // const NAVER_CLIENT_ID = 'YSfVb5xeudW6t45hvDNG';
-// // const NAVER_REDIRECT_URI = encodeURI("http://localhost:3060/api/naver/login"); 
-
 // const KAKAO_CLIENT_ID = process.env.KAKAO_CLIENT_ID;
 // const KAKAO_REDIRECT_URI = process.env.KAKAO_REDIRECT_URI
 // const NAVER_CLIENT_ID =  process.env.NAVER_CLIENT_ID
