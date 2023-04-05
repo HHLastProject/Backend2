@@ -56,7 +56,7 @@ router.post("/login10", async (req, res) => {
 
   const data = {
     grant_type: "authorization_code",  
-    client_id: KAKAO_CLIENT_ID,       // 로컬Id
+    client_id: KAKAO_CLIENT_ID,       // 백Id
     redirect_uri: "http://localhost:3000/redirect/kakao",  // 프론트 url
     code,
   };
