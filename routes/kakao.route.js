@@ -19,10 +19,10 @@ const axios = require("axios");
 //   res.redirect(kakaoLoginUrl);
 // });
 ///////////////////////////////////////////////////////// 
-/*
 router.get("/login", async (req, res) => {
   const { code } = req.query;
-  console.log(code)
+
+  console.log(code);
 
   const data = {
     grant_type: "authorization_code",
@@ -43,14 +43,13 @@ router.get("/login", async (req, res) => {
     );
     
     const { access_token: accessToken } = responseToken.data;
-
     req.session.accessToken = accessToken;
 
     if (!accessToken) {
       return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
     }
 
-    // axios.get() 메서드를 이용하여 사용자 정보를 가져오고, 필요한 정보를 userInfo 객체에 저장합니다.
+ 
     // const responseUser = await axios.get("https://kapi.kakao.com/v2/user/me", {
     //   headers: {
     //     Authorization: `Bearer ${accessToken}`,
@@ -75,15 +74,16 @@ router.get("/login", async (req, res) => {
     // res.status(400).send({"errorMsg" : '카카오톡 로그인에 실패하였습니다.'});
   }
 });
-*/
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////          내 id  프론트 uri
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 router.get("/login", async (req, res) => {
-   const { code } = req.query;
-  
-  console.log("11111111111111111111111111111111111");
+   
+  const { code } = req.query;
+  console.log("code값은");
+  console.log(code);
 
   const data = {
     grant_type: "authorization_code",
@@ -91,7 +91,6 @@ router.get("/login", async (req, res) => {
     redirect_uri: "http://localhost:3000/redirect/kakao",
     code ,
   };
-  console.log("222222222222222222222222222222222222222");
 
   try {
     const responseToken = await axios.post(
@@ -103,25 +102,19 @@ router.get("/login", async (req, res) => {
         },
       }
     );
-    console.log("3333333333333333333333333333333333333");
-
 
     const { access_token: accessToken } = responseToken.data;
-    console.log("44444444444444444444444444444444444444444");
-
+  
     req.session.accessToken = accessToken;
 
-    console.log("55555555555555555555555555555555555555555555");
     if (!accessToken) {
       return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
     }
 
-    console.log("66666666666666666666666666666666666666666666");
-
     res.status(200).json({ accessToken });
   } catch (error) {
-    console.error(error);
-    res.status(400).send(error);
+    // console.error(error);
+    // res.status(400).send(error);
     // res.status(400).send({"errorMsg" : '카카오톡 로그인에 실패하였습니다.'});
   }
 });
@@ -134,15 +127,15 @@ router.get("/login", async (req, res) => {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 router.post("/login2", async (req, res) => {
   const { code } = req.body;
-  console.log("11111111111111111111111111111111111");
-
+  
   const data = {
     grant_type: "authorization_code",
-    client_id: KAKAO_CLIENT_ID,
-    redirect_uri: "http://localhost:3000/redirect/kakao",
+    client_id: KAKAO_CLIENT_ID,  //백 id
+    redirect_uri: "http://localhost:3000/redirect/kakao", //프론트 url
     code,
   };
-  console.log("222222222222222222222222222222222222222");
+
+  console.log(data);
 
   try {
     const responseToken = await axios.post(
@@ -228,4 +221,10 @@ router.post("/login3", async (req, res) => {
   }
 });
 
+
+router.post("/login4", async (req, res) => {
+  const { code } = req.body;
+  
+  res.send("전달받은code는" , code);
+});
 module.exports = router;
