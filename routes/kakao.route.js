@@ -21,8 +21,7 @@ const axios = require("axios");
 ///////////////////////////////////////////////////////// 
 router.get("/login", async (req, res) => {
   const { code } = req.query;
-  console.log("===================================");
-  console.log("code값은");
+
   console.log(code);
 
   const data = {
@@ -222,4 +221,10 @@ router.post("/login3", async (req, res) => {
   }
 });
 
+
+router.post("/login4", async (req, res) => {
+  const { code } = req.body;
+  
+  res.send("전달받은code는" , code);
+});
 module.exports = router;

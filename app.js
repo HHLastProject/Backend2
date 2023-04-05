@@ -21,26 +21,24 @@ const routes = require("./routes");
 /////////////////////////////////////////////////////////////
 
 
-//로컬에서만 할때만 사용
-//원격에서는 모두 주석처리
-const session = require('express-session');
+// //로컬에서만 할때만 사용
+// //원격에서는 모두 주석처리
+// const session = require('express-session');
 
-app.use(session({
-  secret: 'YOUR_SESSION_SECRET',
-  resave: false,
-  saveUninitialized: true,
-}));
+// app.use(session({
+//   secret: 'YOUR_SESSION_SECRET',
+//   resave: false,
+//   saveUninitialized: true,
+// }));
 
-const KAKAO_CLIENT_ID = process.env.KAKAO_CLIENT_ID;
-const KAKAO_REDIRECT_URI = process.env.KAKAO_REDIRECT_URI
+// const KAKAO_CLIENT_ID = process.env.KAKAO_CLIENT_ID;
+// const KAKAO_REDIRECT_URI = process.env.KAKAO_REDIRECT_URI
 
-app.get('/kakaologin', (req, res) => { 
-  //  (1,2)과정  (31,32번 자료를 보내며) 인가코드를 주세요 
-  const kakaoLoginUrl = `https://kauth.kakao.com/oauth/authorize?client_id=${KAKAO_CLIENT_ID}&redirect_uri=${KAKAO_REDIRECT_URI}&response_type=code`;
-  console.log("kakaoLoginUrl값은");
-  console.log(kakaoLoginUrl);
-  res.redirect(kakaoLoginUrl);
-});
+// app.get('/kakaologin', (req, res) => { 
+//   //  (1,2)과정  (31,32번 자료를 보내며) 인가코드를 주세요 
+//   const kakaoLoginUrl = `https://kauth.kakao.com/oauth/authorize?client_id=${KAKAO_CLIENT_ID}&redirect_uri=${KAKAO_REDIRECT_URI}&response_type=code`;
+//   res.redirect(kakaoLoginUrl);
+// });
 
 
 //로컬에서 네이버 로그인을 할때 사용
