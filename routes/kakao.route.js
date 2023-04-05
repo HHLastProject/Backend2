@@ -127,14 +127,17 @@ router.get("/login", async (req, res) => {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 router.post("/login2", async (req, res) => {
   const { code } = req.body;
-  
+  console.log("coder 값은");
+  console.log(code);
+
+
   const data = {
     grant_type: "authorization_code",
-    client_id: KAKAO_CLIENT_ID,  //백 id
+    client_id: "552308e28dcc9e6296fed9c2a196525e",  //v프론트 id
     redirect_uri: "http://localhost:3000/redirect/kakao", //프론트 url
     code,
   };
-
+  console.log("data값은");
   console.log(data);
 
   try {
