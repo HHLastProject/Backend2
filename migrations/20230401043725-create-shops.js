@@ -26,20 +26,16 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
-      roadAddress: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      jibunAddress: {
+      address: {
         allowNull: false,
         type: Sequelize.STRING
       },
       x: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.STRING
       },
       y: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.STRING
       },
       operatingTime: {
