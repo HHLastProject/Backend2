@@ -21,20 +21,31 @@ const routes = require("./routes");
 /////////////////////////////////////////////////////////////
 
 // const session = require('express-session');
-// const KAKAO_CLIENT_ID = process.env.KAKAO_CLIENT_ID;
-// const KAKAO_REDIRECT_URI = process.env.KAKAO_REDIRECT_URI
-// const NAVER_CLIENT_ID =  process.env.NAVER_CLIENT_ID
-// const NAVER_REDIRECT_URI = encodeURI(process.env.NAVER_REDIRECT_URI); 
+
 // app.use(session({
 //   secret: 'YOUR_SESSION_SECRET',
 //   resave: false,
 //   saveUninitialized: true,
 // }));
 
+// const KAKAO_CLIENT_ID = process.env.KAKAO_CLIENT_ID;
+// const KAKAO_REDIRECT_URI = process.env.KAKAO_REDIRECT_URI
+// const NAVER_CLIENT_ID =  process.env.NAVER_CLIENT_ID
+// const NAVER_REDIRECT_URI = encodeURI(process.env.NAVER_REDIRECT_URI); 
+
+
+// app.get('/kakaologin', (req, res) => { 
+//   const kakaoLoginUrl = `https://kauth.kakao.com/oauth/authorize?client_id=${"92e15ddd07c08d5fd1734a941c3f539c"}&redirect_uri=${"http://localhost:3060/api/kakao/login"}&response_type=code`;
+//   console.log(kakaoLoginUrl);
+//   console.log("===========================");
+//   res.redirect(kakaoLoginUrl);
+// });
+
 // app.get('/kakaologin', (req, res) => { 
 //   const kakaoLoginUrl = `https://kauth.kakao.com/oauth/authorize?client_id=${KAKAO_CLIENT_ID}&redirect_uri=${KAKAO_REDIRECT_URI}&response_type=code`;
 //   res.redirect(kakaoLoginUrl);
 // });
+
  
 
 // app.get("/naverlogin", function (req, res) {
