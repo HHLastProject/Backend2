@@ -150,24 +150,23 @@ router.post("/login2", async (req, res) => {
         },
       }
     );
-    
-  console.log("responseToken값은");
-  console.log(responseToken);
 
 
-    const { access_token: accessToken } = responseToken.data;
+    const { access_token : access_token } = responseToken.data;
   
-    req.session.accessToken = accessToken;
+    // req.session.accessToken = accessToken;
 
-    console.log("accessToken값은");
-    console.log(accessToken);
+    // console.log("accessToken값은");
+    // console.log(accessToken);
 
+      console.log("access_token =========================")
+      console.log(access_token)
    
-    if (!accessToken) {
+    if (!access_token) {
       return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
-    }
+    } 
 
-    res.status(200).json({ accessToken });
+    res.status(200).json({ access_token });
   } catch (error) {
     console.error(error);
     res.status(400).send(error);
