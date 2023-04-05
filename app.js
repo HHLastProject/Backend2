@@ -20,13 +20,13 @@ const PORT = process.env.SERVER_PORT;
 const routes = require("./routes");
 /////////////////////////////////////////////////////////////
 
-// const session = require('express-session');
+const session = require('express-session');
 
-// app.use(session({
-//   secret: 'YOUR_SESSION_SECRET',
-//   resave: false,
-//   saveUninitialized: true,
-// }));
+app.use(session({
+  secret: 'YOUR_SESSION_SECRET',
+  resave: false,
+  saveUninitialized: true,
+}));
 
 // const KAKAO_CLIENT_ID = process.env.KAKAO_CLIENT_ID;
 // const KAKAO_REDIRECT_URI = process.env.KAKAO_REDIRECT_URI
