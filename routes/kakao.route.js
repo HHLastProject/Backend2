@@ -79,6 +79,7 @@ router.get("/login", async (req, res) => {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////          내 id  프론트 uri
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 router.get("/login", async (req, res) => {
    const { code } = req.query;
   
@@ -184,6 +185,7 @@ router.post("/login3", async (req, res) => {
   const { code } = req.body;
   console.log("11111111111111111111111111111111111")
 
+
   const data = {
     grant_type: "authorization_code",
     client_id: '552308e28dcc9e6296fed9c2a196525e',
@@ -222,7 +224,7 @@ router.post("/login3", async (req, res) => {
   } catch (error) {
     console.error(error);
     res.status(400).send(error);
-    // res.status(400).send({"errorMsg" : '카카오톡 로그인에 실패하였습니다.'});
+    // res.status(400).send({"errorMsg" : '카카오톡 로그인에 실패하였습니다.'}); 
   }
 });
 
