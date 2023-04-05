@@ -222,9 +222,11 @@ router.post("/login3", async (req, res) => {
 });
 
 
+
 router.post("/login4", async (req, res) => {
   const { code } = req.body;
-  
-  res.send("전달받은code는" , code);
+  console.log(code);
+  res.json({"전달받은code는 " : code});
 });
+
 module.exports = router;
