@@ -37,7 +37,8 @@ const KAKAO_REDIRECT_URI = process.env.KAKAO_REDIRECT_URI
 app.get('/kakaologin', (req, res) => { 
   //  (1,2)과정  (31,32번 자료를 보내며) 인가코드를 주세요 
   const kakaoLoginUrl = `https://kauth.kakao.com/oauth/authorize?client_id=${KAKAO_CLIENT_ID}&redirect_uri=${KAKAO_REDIRECT_URI}&response_type=code`;
-  // (3)과정 가코드 받아 왔어요
+  console.log("kakaoLoginUrl값은");
+  console.log(kakaoLoginUrl);
   res.redirect(kakaoLoginUrl);
 });
 

@@ -37,7 +37,27 @@ router.get("/login10", async (req, res) => {
       return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
     }
 
-    res.status(200).json({ accessToken });
+
+    //여기서 부터는 유저의 정보를 가져오는 과정입니다
+    const responseUser = await axios.get("https://kapi.kakao.com/v2/user/me", {
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+      },
+    });
+
+    const { id, properties, kakao_account } = responseUser.data;
+
+    const userInfo = {
+      id,
+      nickname: properties.nickname,
+      email: kakao_account.email,
+      gender: kakao_account.gender,
+      age: kakao_account.age_range,
+    };
+
+    console.log(userInfo);
+
+    res.status(200).json({ userInfo });
   } catch (error) {
     console.error(error);
     res.status(400).send({"errorMsg" : '카카오톡 로그인에 실패하였습니다.'});

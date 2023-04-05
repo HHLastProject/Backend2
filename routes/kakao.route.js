@@ -19,10 +19,11 @@ const axios = require("axios");
 //   res.redirect(kakaoLoginUrl);
 // });
 ///////////////////////////////////////////////////////// 
-
 router.get("/login", async (req, res) => {
   const { code } = req.query;
-  console.log(code)
+  console.log("===================================");
+  console.log("code값은");
+  console.log(code);
 
   const data = {
     grant_type: "authorization_code",
@@ -43,32 +44,31 @@ router.get("/login", async (req, res) => {
     );
     
     const { access_token: accessToken } = responseToken.data;
-
     req.session.accessToken = accessToken;
 
     if (!accessToken) {
       return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
     }
 
-    //axios.get() 메서드를 이용하여 사용자 정보를 가져오고, 필요한 정보를 userInfo 객체에 저장합니다.
-    const responseUser = await axios.get("https://kapi.kakao.com/v2/user/me", {
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-      },
-    });
+ 
+    // const responseUser = await axios.get("https://kapi.kakao.com/v2/user/me", {
+    //   headers: {
+    //     Authorization: `Bearer ${accessToken}`,
+    //   },
+    // });
 
-    const { id, properties, kakao_account } = responseUser.data;
+    // const { id, properties, kakao_account } = responseUser.data;
 
-    const userInfo = {
-      id,
-      nickname: properties.nickname,
-      email: kakao_account.email,
-      gender: kakao_account.gender,
-      age: kakao_account.age_range,
-    };
+    // const userInfo = {
+    //   id,
+    //   nickname: properties.nickname,
+    //   email: kakao_account.email,
+    //   gender: kakao_account.gender,
+    //   age: kakao_account.age_range,
+    // };
 
-    console.log(userInfo);
-    res.status(200).json({ userInfo });
+    // console.log(userInfo);
+    res.status(200).json({ accessToken });
   } catch (error) {
     console.error(error);
     res.status(400).send(error);
@@ -79,11 +79,12 @@ router.get("/login", async (req, res) => {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////          내 id  프론트 uri
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
+
 router.get("/login", async (req, res) => {
-   const { code } = req.query;
-  
-  console.log("11111111111111111111111111111111111");
+   
+  const { code } = req.query;
+  console.log("code값은");
+  console.log(code);
 
   const data = {
     grant_type: "authorization_code",
@@ -102,32 +103,26 @@ router.get("/login", async (req, res) => {
         },
       }
     );
-    console.log("3333333333333333333333333333333333333");
-
 
     const { access_token: accessToken } = responseToken.data;
-    console.log("44444444444444444444444444444444444444444");
-
+  
     req.session.accessToken = accessToken;
 
-    console.log("55555555555555555555555555555555555555555555");
     if (!accessToken) {
       return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
     }
 
-    console.log("66666666666666666666666666666666666666666666");
-
     res.status(200).json({ accessToken });
   } catch (error) {
-    console.error(error);
-    res.status(400).send(error);
+    // console.error(error);
+    // res.status(400).send(error);
     // res.status(400).send({"errorMsg" : '카카오톡 로그인에 실패하였습니다.'});
   }
 });
 
 
 
-*/
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////          내 id  프론트 uri
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
