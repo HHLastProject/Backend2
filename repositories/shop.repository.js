@@ -7,8 +7,7 @@ class ShopRepository {
         return await Shops.findAll({
             attributes: [
                 "shopId",
-                "roadAddress",
-                "jibunAddress",
+                "address",
                 "x",
                 "y",
                 "shopName",
@@ -43,8 +42,7 @@ class ShopRepository {
                 "shopName",
                 "thumbnail",
                 "category",
-                "roadAddress",
-                "jibunAddress",
+                "address",
                 "x",
                 "y",
                 "operatingTime",
