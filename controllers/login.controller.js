@@ -18,7 +18,7 @@ class LoginController {
       console.log(resultToken);
       console.log("================================");
 
-      // const resultUser = await this.loginServices.getKaKaoUserInfo(resultToken);
+      const resultUser = await this.loginServices.getKaKaoUserInfo(resultToken);
 
       // console.log("resultUser");
       // console.log(resultUser);
