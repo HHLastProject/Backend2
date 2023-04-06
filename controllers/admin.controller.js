@@ -123,6 +123,8 @@ class AdminController {
           console.log('🟥',shopName, category, address, x, y, operatingTime, phoneNumber, menu);
           const { adminId } = res.locals.admin;
           console.log('🟥',adminId);
+          console.log('>>>>>', req.file);
+          console.log('>>>>>', req);
           const thumbnailFile = await req.file;
           const thumbnailFilename = await req.file.filename;
         //   const thumbnailFilename = await req.files.thumbnail[0].filename;
