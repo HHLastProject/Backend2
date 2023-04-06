@@ -123,13 +123,13 @@ class AdminController {
           console.log('🟥',shopName, category, address, x, y, operatingTime, phoneNumber, menu);
           const { adminId } = res.locals.admin;
           console.log('🟥',adminId);
-          const thumbnailFilename = req.files.thumbnail[0].filename;
+          const thumbnailFilename = await req.files.thumbnail[0].filename;
           console.log('🟥',thumbnailFilename);
           const thumbnail = `http://54.180.105.213:3060/uploads/${thumbnailFilename}`;
           const menuItems = JSON.parse(menu);
           console.log('🟥',menuItems);
           const menuWithPictures = [];
-          const menuPictureFilenames = req.files.menuPictures.map(file => file.filename);
+          const menuPictureFilenames = await req.files.menuPictures.map(file => file.filename);
           for (let i = 0; i < menuItems.length; i++) {
             const pictureFilename = menuPictureFilenames[i];
             const picture = pictureFilename ? `http://54.180.105.213:3060/uploads/${pictureFilename}` : null;
