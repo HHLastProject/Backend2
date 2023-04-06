@@ -11,8 +11,6 @@ const loginRouter = require('./login.route');
 router.use("/api/users", userRouter);
 router.use("/api/shop", shopRouter);
 router.use('/api/admin', adminRouter);
-router.use('/api/kakao', kakaoRouter);
-router.use('/api/naver', naverRouter);
 router.use('/api/login', loginRouter);
 
 module.exports = router;
