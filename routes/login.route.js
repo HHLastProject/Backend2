@@ -1,4 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const UserController = require("../controllers/user.controllers");
-const userController = new UserController();
+const LoginController = require("../controllers/login.controller");
+const loginController = new LoginController();
+
+router.get("/loginKakao", loginController.loginKakao);
+router.get("/loginNaver", loginController.loginNaver);
+router.post("/logintest", loginController.logintest);
+module.exports = router;
