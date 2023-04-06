@@ -18,7 +18,7 @@ class LoginController {
       console.log(resultToken);
       console.log("================================");
 
-      // const resultUser = await this.loginServices.getKaKaoUserInfo(resultToken);
+      const resultUser = await this.loginServices.getKaKaoUserInfo(resultToken);
 
       // console.log("resultUser");
       // console.log(resultUser);
@@ -43,7 +43,7 @@ class LoginController {
       const { code } = req.body
 
       const resultToken = await this.loginServices.getNaverToken(code);
-      const resultUser = await this.loginServices.getNaverUserInfo(resultToken);
+      // const resultUser = await this.loginServices.getNaverUserInfo(resultToken);
 
       //유저정보저장
       // this.loginServices.saveUser(resultUser);
