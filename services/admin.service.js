@@ -72,13 +72,17 @@ class AdminService {
 
     postInfo = async(adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
         const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail);
+        console.log('🟩', createdshop);
         if (!!createdshop) {
             const shopId = createdshop.shopId;
+            console.log('🟩', shopId);
             const menulist = [];
 
             for (let i = 0; i < menuWithPictures.length; i++) {
                 const { menuName, price, menuDescription, picture } = menuWithPictures[i];
+                console.log('🟩', menuName, price, menuDescription, picture);
                 const createdMenu = await this.adminRepository.postMenu(shopId, menuName, price, menuDescription, picture);
+                console.log('🟩', createdMenu);
                 menulist.push(createdMenu);
             }
             return (createdshop, menulist);
