@@ -54,6 +54,7 @@ class LoginService {
     }
 
     return access_token;
+
   };
 
   getKaKaoUserInfo = async (resultToken) => {
@@ -78,7 +79,6 @@ class LoginService {
   };
 
   getNaverToken = async (code) => {
-    
     const data = {
       grant_type: 'authorization_code',
       client_id : NAVER_CLIENT_ID,
