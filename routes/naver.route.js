@@ -10,7 +10,7 @@ var client_secret = process.env.NAVER_CLIENT_SECRET
 var redirectURI = encodeURI(process.env.NAVER_REDIRECT_URI); 
 
 router.get('/login', async (req, res) => {
-  const { code } = req.body;
+  const { code } = req.query;
   
     const data = {
       grant_type: 'authorization_code',
@@ -28,28 +28,24 @@ router.get('/login', async (req, res) => {
         },
       });
   
-      const { access_token: accessToken } = response.data;
-      req.session.accessToken = accessToken;
-
-      if (!accessToken) {
+      const { access_token } = response.data;
+      
+      if (!access_token) {
         return res.status(401).send({"errorMsg" : '로그인이 필요합니다.'});
       }
   
-  
+      //유저 정보 가져오기
       const meResponse = await axios.get('https://openapi.naver.com/v1/nid/me', {
         headers: {
-          Authorization: `Bearer ${accessToken}`,
+          Authorization: `Bearer ${access_token}`,
         },
       });
-  
       const { response: userInfo } = meResponse.data; 
 
-      console.log(userInfo);
 
-      res.status(200).json({accessToken});
+      res.status(200).json({access_token});
     } catch (error) {
       console.error(error);
-
       res.status(400).send({"errorMsg" :'네이버 로그인에 실패하였습니다.'});
     }
   });

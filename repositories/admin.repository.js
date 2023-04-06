@@ -28,16 +28,16 @@ class AdminRepository {
 
     getAllShops = async () => {
         const allShops = await Shops.findAll({
-            attributes: [ 'shopId', 'shopName', 'category', 'roadAddress', 'jibunAddress', 'x', 'y'],
+            attributes: [ 'shopId', 'shopName', 'category', 'address', 'x', 'y'],
             order: [['createdAt', 'DESC']]
         });
         return allShops;
     };
 
-    postShop = async (adminId, shopName, category, roadAddress, jibunAddress, x, y, operatingTime, phoneNumber, thumbnail) => {
-        console.log (adminId, shopName, category, roadAddress, jibunAddress, x, y, operatingTime, phoneNumber, thumbnail)
+    postShop = async (adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail) => {
+        console.log (adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail)
         const createdShop = await Shops.create({
-            AdminId: adminId, shopName, category, roadAddress, jibunAddress, x, y, operatingTime, phoneNumber, thumbnail
+            AdminId: adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail
         });
         console.log(createdShop);
         return createdShop;
@@ -51,9 +51,9 @@ class AdminRepository {
     }
  
 
-    updateShop = async (shopId, shopName, category,roadAddress, jibunAddress, x, y, operatingTime, phoneNumber, thumbnail) => {
+    updateShop = async (shopId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail) => {
         const updatedShop = await Shops.update(
-            { shopName, category, roadAddress, jibunAddress, x, y, operatingTime, phoneNumber, thumbnail },
+            { shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail },
             { where: { shopId } }
             );
         return updatedShop;
@@ -77,7 +77,7 @@ class AdminRepository {
 
     getOneShopInfo = async (shopId) => {
         const shopInfo = await Shops.findOne({
-            attributes: ['shopId', 'adminId', 'shopName', 'category', 'roadAddress', 'jibunAddress', 'x', 'y', 'operatingTime', 'phoneNumber', 'thumbnail'],
+            attributes: ['shopId', 'adminId', 'shopName', 'category', 'address', 'x', 'y', 'operatingTime', 'phoneNumber', 'thumbnail'],
             where: {shopId},
             include: [
                 {
