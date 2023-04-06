@@ -120,10 +120,14 @@ class AdminController {
     postInfo = async (req, res, next) => {
         try {
           const { shopName, category, address, x, y, operatingTime, phoneNumber, menu } = req.body;
+          console.log('🟥',shopName, category, address, x, y, operatingTime, phoneNumber, menu);
           const { adminId } = res.locals.admin;
+          console.log('🟥',adminId);
           const thumbnailFilename = req.files.thumbnail[0].filename;
+          console.log('🟥',thumbnailFilename);
           const thumbnail = `http://54.180.105.213:3060/uploads/${thumbnailFilename}`;
           const menuItems = JSON.parse(menu);
+          console.log('🟥',menuItems);
           const menuWithPictures = [];
           const menuPictureFilenames = req.files.menuPictures.map(file => file.filename);
           for (let i = 0; i < menuItems.length; i++) {
@@ -131,6 +135,7 @@ class AdminController {
             const picture = pictureFilename ? `http://54.180.105.213:3060/uploads/${pictureFilename}` : null;
             menuWithPictures.push({ ...menuItems[i], picture });
           }
+          console.log('🟥',menuPictureFilenames);
           await this.adminService.postInfo(adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
           return res.status(201).json({message: "업체 정보 등록이 완료되었습니다."});
         } catch (error) {
