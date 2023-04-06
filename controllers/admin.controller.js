@@ -124,8 +124,8 @@ class AdminController {
           const { adminId } = res.locals.admin;
           console.log('🟥',adminId);
           console.log('>>>>>', req.file);
-          console.log('>>>>>', req);
           const thumbnailFile = await req.file;
+          
           const thumbnailFilename = await req.file.filename;
         //   const thumbnailFilename = await req.files.thumbnail[0].filename;
           console.log('🟥',thumbnailFile);
@@ -144,6 +144,7 @@ class AdminController {
           await this.adminService.postInfo(adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
           return res.status(201).json({message: "업체 정보 등록이 완료되었습니다."});
         } catch (error) {
+            console.error(error)
           if (Boom.isBoom(error)) {
             return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message });
           } else {
