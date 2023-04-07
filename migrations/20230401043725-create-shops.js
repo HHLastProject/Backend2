@@ -30,6 +30,10 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
+      detailAddress: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
       x: {
         allowNull: true,
         type: Sequelize.STRING
