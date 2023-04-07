@@ -1,4 +1,5 @@
 const { Shops, Menus, Sequelize } = require("../models");
+const { Op } = Sequelize;
 
 class ShopRepository {
     constructor() { }
@@ -12,6 +13,7 @@ class ShopRepository {
                 "y",
                 "shopName",
                 "thumbnail",
+                "Menus.menuName",
                 [
                     Sequelize.fn('max', Sequelize.col('Menus.price')),
                     'maxPrice'
@@ -34,6 +36,40 @@ class ShopRepository {
             raw: true, // JSON 형태로 반환된 데이터를 처리
         })
     }
+
+    // 전체 조회 (거리 계산 반영)
+    // getAllMainShop2 = async (x, y, range) => {
+    //     return await Shops.findAll({
+    //         attributes: [
+    //             "shopId",
+    //             "address",
+    //             "x",
+    //             "y",
+    //             "shopName",
+    //             "thumbnail",
+    //             "Menus.menuName",
+    //             [
+    //                 Sequelize.fn('max', Sequelize.col('Menus.price')),
+    //                 'maxPrice'
+    //             ],
+    //             [
+    //                 Sequelize.fn('min', Sequelize.col('Menus.price')),
+    //                 'minPrice'
+    //             ],
+    //             "category",
+    //         ],
+    //         include: [
+    //             {
+    //                 model: Menus,
+    //                 attributes: [],
+    //             }
+    //         ],
+    //         order: [['createdAt', 'DESC']],
+    //         group: ['Shops.shopId'],
+    //         raw: true,
+    //     });
+    // };
+
     // 상세 조회
     getFindOneShop = async ({shopId}) => {
         const shop = await Shops.findOne({
