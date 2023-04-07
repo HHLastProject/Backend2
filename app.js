@@ -21,8 +21,6 @@ const routes = require("./routes");
 /////////////////////////////////////////////////////////////
 
 
-// //로컬에서만 할때만 사용
-// // //원격에서는 모두 주석처리
 // const session = require('express-session');
 
 // app.use(session({
@@ -47,10 +45,8 @@ const routes = require("./routes");
 // const NAVER_CLIENT_ID =  process.env.NAVER_CLIENT_ID
 // const NAVER_REDIRECT_URI = encodeURI(process.env.NAVER_REDIRECT_URI); 
 // app.get("/naverlogin", function (req, res) {
-
 //   var api_url ="https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=" +
 //   NAVER_CLIENT_ID + "&redirect_uri=" + NAVER_REDIRECT_URI;
-
 //   res.end(
 //     "<a href='" +
 //       api_url +
@@ -58,6 +54,9 @@ const routes = require("./routes");
 //   );
 // });
 
+
+// api_url = 'https://nid.naver.com/oauth2.0/token?grant_type=authorization_code&client_id='
+//      + client_id + '&client_secret=' + client_secret + '&redirect_uri=' + redirectURI + '&code=' + code + '&state=' + state;
 //////////////////////////////////////////////////////////////
 
 
