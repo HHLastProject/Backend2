@@ -30,19 +30,19 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER
     },
     email: {
-      allowNull: false,
+      allowNull: true,
       type: DataTypes.STRING,
     },
     password: {
-      allowNull: false,
+      allowNull: true,
       type: DataTypes.STRING
     },
     nickname: {
-      allowNull: false,
+      allowNull: true,
       type: DataTypes.STRING
     },
     gender: {
-      allowNull: false,
+      allowNull: true,
       type: DataTypes.STRING
     },
     createdAt: {
