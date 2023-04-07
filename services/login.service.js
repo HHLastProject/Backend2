@@ -36,28 +36,28 @@ class LoginService {
       }
     );
    
-    console.log("1번 responseToken.data");
-    console.log(responseToken.data);
-    console.log("================================");
+    // console.log("1번 responseToken.data");
+    // console.log(responseToken.data);
+    // console.log("================================");
 
     const { access_token } = responseToken.data;
     // req.session.accessToken = access_token;   //이게 어떠한 기능인지 알아보기
 
 
-    console.log("2번 access_token");
-    console.log(access_token);
-    console.log("================================");
+    // console.log("2번 access_token");
+    // console.log(access_token);
+    // console.log("================================");
 
 
     if (!access_token) {
       return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
     }
-
     return access_token;
-
   };
 
   getKaKaoUserInfo = async (resultToken) => {
+
+    console.log("유저 info 서비스입니다");
 
     const responseUser = await axios.get("https://kapi.kakao.com/v2/user/me", {
       headers: {
@@ -67,12 +67,12 @@ class LoginService {
 
     const { id, properties, kakao_account } = responseUser.data;
 
+    console.log("★responseUser.data");
+    console.log(responseUser.data);
+    console.log("======================");
+
     const userInfo = {
-      id,
-      nickname: properties.nickname,
-      email: kakao_account.email,
-      gender: kakao_account.gender,
-      age: kakao_account.age_range,
+      id
     };
 
     return userInfo;
@@ -87,10 +87,7 @@ class LoginService {
       code,
       state: 'naver',
     };
-  
-    console.log("1번 data");
-    console.log(data);
-    console.log("================================");
+
 
       const response = await axios.post('https://nid.naver.com/oauth2.0/token', qs.stringify(data), {
         headers: {
@@ -98,10 +95,6 @@ class LoginService {
         },
       });
   
-      console.log("2번 response");
-      console.log(response.data);
-      console.log("================================");
-
 
       const { access_token } = response.data;
       
@@ -112,43 +105,43 @@ class LoginService {
       return access_token;
   };
 
-  getNaverUserInfo = async (resultToken) => {
+  getNaverUserInfo = async (code) => {
     console.log("서비스 입니다");
 
     const meResponse = await axios.get('https://openapi.naver.com/v1/nid/me', {
       headers: {
-        Authorization: `Bearer ${resultToken}`,
+        Authorization: `Bearer ${code}`,
       },
     });
 
     console.log("1번 meResponse");
-    console.log(meResponse.data);
+    console.log(meResponse);
     console.log("===============================");
 
     const { response } = meResponse.data; 
 
     console.log("2번 response");
-    console.log(response);
+    console.log(response.data);
     console.log("===============================");
 
-    let gender = "male"
-    if(response.gender == "M"){ 
-      gender = "male"
-    } else { 
-      gender = "women"
-    }
+    // let gender = "male"
+    // if(response.gender == "M"){ 
+    //   gender = "male"
+    // } else { 
+    //   gender = "women"
+    // }
 
-    const result = { 
-      //원하는 정보만 얻고 싶을때 
-      id : response.id,
-      nickname : response.nickname,
-      age : response.age,
-      gender : gender,
-      email : response.email,
-    }
+    // const result = { 
+    //   //원하는 정보만 얻고 싶을때 
+    //   id : response.id,
+    //   nickname : response.nickname,
+    //   age : response.age,
+    //   gender : response.gender,
+    //   email : response.email,
+    // }
 
 
-    return result;
+    return response;
   };
 
   saveUser = async (resultUser) => {
