@@ -72,17 +72,17 @@ class AdminService {
 
     postInfo = async(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
         const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail);
-        console.log('🟩', createdshop);
+        
         if (!!createdshop) {
             const shopId = createdshop.shopId;
-            console.log('🟩', shopId);
+        
             const menulist = [];
 
             for (let i = 0; i < menuWithPictures.length; i++) {
                 const { menuName, price, menuDescription, picture } = menuWithPictures[i];
-                console.log('🟩', menuName, price, menuDescription, picture);
+               
                 const createdMenu = await this.adminRepository.postMenu(shopId, menuName, price, menuDescription, picture);
-                console.log('🟩', createdMenu);
+   
                 menulist.push(createdMenu);
             }
             return (createdshop, menulist);
@@ -117,6 +117,7 @@ class AdminService {
 
     updateInfo = async(adminId, shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
         const foundShop = await this.adminRepository.findOneShop(shopId);
+        
         if (!foundShop) {
             throw Boom.preconditionFailed("업체가 존재하지 않습니다.");
         }
@@ -124,9 +125,12 @@ class AdminService {
             const updatedShop = await this.adminRepository.updateShop(shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail);
             const ShopId = foundShop.shopId;
             const menulist = [];
-            for (let i = 0; i < menuWithPictures.length; i++) {
-                const { menuName, price, menuDescription, picture } = menuWithPictures[i];
-                const updatedMenu = await this.adminRepository.updateMenu(ShopId, menuName, price, menuDescription, picture);
+
+        
+            for (let i = 0; i < menuWithPictures.length; i++) {                                          
+                let  { menuName, price, menuDescription, picture } = menuWithPictures[i];
+        
+                let updatedMenu = await this.adminRepository.updateMenu(ShopId, menuName, price, menuDescription, picture);
                 menulist.push(updatedMenu);
             }
             return (updatedShop, menulist);
