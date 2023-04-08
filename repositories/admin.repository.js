@@ -35,20 +35,20 @@ class AdminRepository {
     };
 
     postShop = async (adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail) => {
-        console.log ('🟦', adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail)
+        
         const createdShop = await Shops.create({
             AdminId: adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail
         });
-        console.log('🟦', createdShop);
+
         return createdShop;
     };
 
     postMenu = async (shopId, menuName, price, menuDescription, picture) => {
-        console.log('🟫', shopId, menuName, price, menuDescription, picture);
+
         const createdMenu = await Menus.create({
             ShopId: shopId, menuName, price, menuDescription, picture
         });
-        console.log('🟫', createdMenu);
+   
         return createdMenu;
     }
  
@@ -62,10 +62,13 @@ class AdminRepository {
     };
 
     updateMenu = async ( ShopId, menuName, price, menuDescription, picture ) => {
-        const updatedMenu = await Menus.update(
+
+     
+        let updatedMenu = await Menus.update(
             { menuName, price, menuDescription, picture },
             { where: { ShopId } }
         )
+
         return updatedMenu;
     };
 
@@ -94,7 +97,7 @@ class AdminRepository {
 
     findOneShop = async (shopId) => {
         const shop = await Shops.findOne({where: {shopId}});
-        console.log('🟫',shop );
+      
         return shop;
     };
 
