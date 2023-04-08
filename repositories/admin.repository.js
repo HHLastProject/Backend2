@@ -53,9 +53,9 @@ class AdminRepository {
     }
  
 
-    updateShop = async (shopId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail) => {
+    updateShop = async (shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail) => {
         const updatedShop = await Shops.update(
-            { shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail },
+            { shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail },
             { where: { shopId } }
             );
         return updatedShop;
