@@ -70,8 +70,8 @@ class AdminService {
           }
     };
 
-    postInfo = async(adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
-        const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail);
+    postInfo = async(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
+        const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail);
         console.log('🟩', createdshop);
         if (!!createdshop) {
             const shopId = createdshop.shopId;

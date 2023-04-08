@@ -34,10 +34,10 @@ class AdminRepository {
         return allShops;
     };
 
-    postShop = async (adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail) => {
-        console.log ('🟦', adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail)
+    postShop = async (adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail) => {
+        console.log ('🟦', adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail)
         const createdShop = await Shops.create({
-            AdminId: adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail
+            AdminId: adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail
         });
         console.log('🟦', createdShop);
         return createdShop;

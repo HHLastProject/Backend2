@@ -119,8 +119,8 @@ class AdminController {
 
     postInfo = async (req, res, next) => {
         try {
-          const { shopName, category, address, x, y, operatingTime, phoneNumber, menu } = req.body;
-          console.log('🟥',shopName, category, address, x, y, operatingTime, phoneNumber, menu);
+          const { shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
+          console.log('🟥',shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, menu);
           const { adminId } = res.locals.admin;
           console.log('🟥',adminId);
           console.log('>>>>>', req);
@@ -148,7 +148,7 @@ class AdminController {
                 menuWithPictures.push({ ...menuItems[i], picture });
               }
         //   console.log('🟥',menuPictureFilenames);
-          await this.adminService.postInfo(adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
+          await this.adminService.postInfo(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
           return res.status(201).json({message: "업체 정보 등록이 완료되었습니다."});
         } catch (error) {
             console.error(error)
