@@ -68,12 +68,20 @@ class LoginService {
     const { id, properties, kakao_account } = responseUser.data;
 
     console.log("★responseUser.data");
-    console.log(responseUser.data);
+    console.log(properties, kakao_account);
     console.log("======================");
 
     const userInfo = {
-      id
+      id,
     };
+
+    // 유저 정보 저장하기
+    // const userInfo = {
+    //   id,
+    //   nickname : properties.nickname,
+    //   gender : kakao_account.gender,
+    //   email : kakao_account.email
+    // };
 
     return userInfo;
   };

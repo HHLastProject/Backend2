@@ -4,8 +4,6 @@ const bcrypt = require("bcrypt");
 const Joi = require("joi");
 const multer = require("multer");
 
-
-
 class AdminController {
     constructor() {
         this.adminService = new AdminService();
@@ -87,37 +85,137 @@ class AdminController {
     }
 
 
-    // postInfo = async (req, res, next) => {
-    //     try {
-    //         const { shopName, category, address, operatingTime, phoneNumber, menu} = req.body;
-    //         const { adminId } = res.locals.admin;
-    //         const files = req.files;
-    //         const thumbImg = req.files.thumbnail[0];
-    //         if(!thumbImg){
-    //             res.status(404).json({ errorMessage: "대표이미지 파일을 등록해주세요." });
-    //         }
-    //         // const filename = req.file.thumbnail.filename;
-    //         // const thumbnail = `http://localhost:3060/uploads/${filename}` //나중에 ec2로 바꿔야함
-    //         const thumbnailFilename = req.files.thumbnail[0].filename;
-    //         const menuPictureFilenames = req.files.menuPictures.map(file => file.filename);
 
-    //         const thumbnail = `http://localhost:3060/uploads/${thumbnailFilename}`;
-    //         const base_url = "http://localhost:3060/uploads/";
-    //         const pictures = menuPictureFilenames.map(filename => base_url + filename);
+        postInfo = async (req, res, next) => {
+        try {
+            const { shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
+            const { adminId } = res.locals.admin;
+ 
+            // 썸네일 메인 사진을 0번째 껄로 선택한다
+            const thumbnailFilename = await req.files.thumbnail[0].filename;
+            const thumbnail = thumbnailFilename;
+  
+            //menu에 넣었던 배열들 가져오기
+            const menuItems = JSON.parse(menu);
+            let menuWithPictures = [];
+        
+            //사진의 대한 정보(크기,이름)등등 가져온다
+            let menuPictureFilenames = await req.files.thumbnail;
+            //사진의 대한 정보중 이름 파일명들만 가져온다
+            menuPictureFilenames = menuPictureFilenames.map(file => ({ filename: file.filename }));
+        
+            for (let i = 0; i < menuItems.length; i++) {
+                //사진에 대한 이름 값만 가져온다
+                const pictureFilename = menuPictureFilenames.map(file => file.filename)[i];
+                console.log(pictureFilename);
+                // const picture = pictureFilename ? `http://localhost:3060/uploads/${pictureFilename}` : null;
+                const picture = pictureFilename ? pictureFilename : null;
+                menuWithPictures[i] = ({...menuItems[i], picture});
+          
+            }
+            console.log("=======================");
+ 
+            await this.adminService.postInfo(adminId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
+            return res.status(201).json({ message: "업체 등록 완료되었습니다."});
+        } catch (error) {
+            if (Boom.isBoom(error)) {
+                return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message }); 
+            } else {
+                console.log(error);
+                res.status(400).json({ errorMessage: "업체 등록에 실패하였습니다." });
+            }
+        }        
+    };
 
-    //         const parsedMenu = JSON.parse(menu);
-    //         await this.adminService.postInfo( adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail, parsedMenu, pictures);
-    //         return res.status(201).json({ message: "업체 정보 등록이 완료되었습니다." });
-    //     } catch (error) {
-    //         if (Boom.isBoom(error)) {
-    //             return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message }); 
-    //         } else {
-    //             res.status(400).json({ errorMessage: "업체 등록에 실패하였습니다." });
-    //         }
-    //     }
-    // };
+      updateInfo = async (req, res, next) => {
+        try {
+            const { shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
+            const { adminId } = res.locals.admin;
+            const { shopId } = req.params;
+ 
+            // 썸네일 메인 사진을 0번째 껄로 선택한다
+            const thumbnailFilename = req.files.thumbnail[0].filename;
+            const thumbnail = thumbnailFilename;
 
-    /*
+            //menu에 넣었던 배열들 가져오기
+            const menuItems = JSON.parse(menu);
+            let menuWithPictures = [];
+         
+            //사진의 대한 정보(크기,이름)등등 가져온다
+            let menuPictureFilenames = req.files.thumbnail;
+            //사진의 대한 정보중 이름 파일명들만 가져온다
+            menuPictureFilenames = menuPictureFilenames.map(file => ({ filename: file.filename }));
+
+
+            console.log("menuPictureFilenames");
+            console.log(menuPictureFilenames);
+            console.log("============================");
+          
+
+
+            for (let i = 0; i < menuItems.length; i++) {
+                //사진에 대한 이름 값만 가져온다
+                const pictureFilename = menuPictureFilenames.map(file => file.filename)[i];
+                console.log(pictureFilename);
+                // const picture = pictureFilename ? `http://localhost:3060/uploads/${pictureFilename}` : null;
+                const picture = pictureFilename ? pictureFilename : null;
+                menuWithPictures[i] = ({...menuItems[i], picture});
+          
+            }
+            console.log("=======================");
+ 
+            await this.adminService.updateInfo(adminId, shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
+            return res.status(201).json({ message: "업체 정보 수정이 완료되었습니다."});
+        } catch (error) {
+            if (Boom.isBoom(error)) {
+                return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message }); 
+            } else {
+                console.log(error);
+                res.status(400).json({ errorMessage: "업체 수정에 실패하였습니다." });
+            }
+        }        
+    };
+ /*
+    postInfo = async (req, res, next) => {
+        try {
+          const { shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
+          const { adminId } = res.locals.admin;
+
+            //const thumbnailFilename = await req.file.filename;
+            //const thumbnail = `http://3.34.122.88:3060/uploads/${thumbnailFilename}`;
+            //const thumbnail = thumbnailFilename;
+            const thumbnailFilename = req.files.thumbnail[0].filename;
+            const thumbnail = thumbnailFilename;
+   
+        
+          const menuItems = JSON.parse(menu);
+          const menuWithPictures = [];
+
+           //사진의 대한 정보(크기,이름)등등 가져온다
+           let menuPictureFilenames = req.files.thumbnail;
+           //사진의 대한 정보중 이름 파일명들만 가져온다
+           menuPictureFilenames = menuPictureFilenames.map(file => ({ filename: file.filename }));
+
+          for (let i = 0; i < menuItems.length; i++) {
+            const pictureFilename = thumbnail;
+            const picture = pictureFilename ? pictureFilename : null;
+            menuWithPictures.push({ ...menuItems[i], picture });
+          }
+
+     
+        await this.adminService.postInfo(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
+        return res.status(201).json({message: "업체 정보 등록이 완료되었습니다."});
+        } catch (error) {
+            console.error(error)
+          if (Boom.isBoom(error)) {
+            return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message });
+          } else {
+            res.status(400).json({ errorMessage: "업체 등록에 실패하였습니다." });
+          }
+        }
+      }
+
+   
     postInfo = async (req, res, next) => {
         try {
           const { shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
@@ -154,93 +252,101 @@ class AdminController {
           }
         }
       }
-      */
-
-      postInfo = async (req, res, next) => {
-        try {
-
-          const { shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
-          const { adminId } = res.locals.admin;
-
-          const thumbnailFile = await req.file;
-   
-          const thumbnailFilename = await req.file.filename;
-        //   const thumbnail = `http://3.34.122.88:3060/uploads/${thumbnailFilename}`;
-          const thumbnail = `http://3.34.122.88:3060/uploads/${thumbnailFilename}`;
-          const menuItems = JSON.parse(menu);
-    
-          const menuWithPictures = [];
-    
-        for (let i = 0; i < menuItems.length; i++) {
-                const pictureFilename = thumbnail;
-                const picture = pictureFilename ? `${pictureFilename}` : null;
-                menuWithPictures.push({ ...menuItems[i], picture });
-              }
-
-           await this.adminService.postInfo(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
-          return res.status(201).json({message: "업체 정보 등록이 완료되었습니다."});
-        } catch (error) {
-            console.error(error)
-          if (Boom.isBoom(error)) {
-            return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message });
-          } else {
-            res.status(400).json({ errorMessage: "업체 등록에 실패하였습니다." });
-          }
-        }
-      }
+       */
 
 
-
-    updateInfo = async (req, res, next) => {
-        try {
-            const { shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
-            const { adminId } = res.locals.admin;
-            const { shopId } = req.params;
+    //   postInfo = async (req, res, next) => {
+    //     try {
+    //         const { shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
+    //         const { adminId } = res.locals.admin;
  
-
-            // 썸네일 메인 사진을 0번째 껄로 선택한다
-            const thumbnailFilename = req.files.thumbnail[0].filename;
-            const thumbnail = thumbnailFilename;
-            // const thumbnail = `http://localhost:3060/uploads/${thumbnailFilename}`;
-
-            
-      
-            //menu에 넣었던 배열들 가져오기
-            const menuItems = JSON.parse(menu);
-            let menuWithPictures = [];
-            
-
-            // const menuPictureFilenames = req.files.menuPictures.map(file => file.filename);
-
-            //사진의 대한 정보(크기,이름)등등 가져온다
-            let  menuPictureFilenames = req.files.thumbnail;
-            
-            //사진의 대한 정보중 이름 파일명만 가져온다
-            menuPictureFilenames = menuPictureFilenames.map(file => ({ filename: file.filename }));
-            
-      
-            for (let i = 0; i < menuItems.length; i++) {
-                //사진에 대한 이름 값만 가져온다
-                const pictureFilename = menuPictureFilenames.map(file => file.filename)[i];
-
-                const picture = pictureFilename ? `http://localhost:3060/uploads/${pictureFilename}` : null;
-                // const picture = pictureFilename ? pictureFilename : null;
-                menuWithPictures[i] = ({...menuItems[i], picture});
+    //         // 썸네일 메인 사진을 0번째 껄로 선택한다
+    //         const thumbnailFilename = await req.files.thumbnail[0].filename;
+    //         const thumbnail = thumbnailFilename;
+  
+    //         //menu에 넣었던 배열들 가져오기
+    //         const menuItems = JSON.parse(menu);
+    //         let menuWithPictures = [];
+        
+    //         //사진의 대한 정보(크기,이름)등등 가져온다
+    //         let menuPictureFilenames = await req.files.thumbnail;
+    //         //사진의 대한 정보중 이름 파일명들만 가져온다
+    //         menuPictureFilenames = menuPictureFilenames.map(file => ({ filename: file.filename }));
+    //         console.log("menuPictureFilenames");
+    //         console.log(menuPictureFilenames);
+    //         console.log("============================");
+       
           
-            }
-
+    //         for (let i = 0; i < menuItems.length; i++) {
+    //             //사진에 대한 이름 값만 가져온다
+    //             const pictureFilename = menuPictureFilenames.map(file => file.filename)[i];
+    //             console.log(pictureFilename);
+    //             // const picture = pictureFilename ? `http://localhost:3060/uploads/${pictureFilename}` : null;
+    //             const picture = pictureFilename ? pictureFilename : null;
+    //             menuWithPictures[i] = ({...menuItems[i], picture});
+          
+    //         }
+    //         console.log("=======================");
  
-            await this.adminService.updateInfo(adminId, shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
-            return res.status(201).json({ message: "업체 정보 수정이 완료되었습니다."});
-        } catch (error) {
-            if (Boom.isBoom(error)) {
-                return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message }); 
-            } else {
-                console.log(error);
-                res.status(400).json({ errorMessage: "업체 수정에 실패하였습니다." });
-            }
-        }        
-    };
+    //         await this.adminService.postInfo(adminId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
+    //         return res.status(201).json({ message: "업체 등록 완료되었습니다."});
+    //     } catch (error) {
+    //         if (Boom.isBoom(error)) {
+    //             return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message }); 
+    //         } else {
+    //             console.log(error);
+    //             res.status(400).json({ errorMessage: "업체 등록에 실패하였습니다." });
+    //         }
+    //     }        
+    // };
+
+      //어드민 post수정중 오류 발생
+    // postInfo = async (req, res, next) => {
+    //     try {
+    //         const { shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
+    //                 const { adminId } = res.locals.admin;
+         
+    //                 // 썸네일 메인 사진을 0번째 껄로 선택한다
+    //                 const thumbnailFilename = await req.files.thumbnail[0].filename;
+    //                 const thumbnail = thumbnailFilename;
+    //     console.log("req.thumbnailFilename");   
+    //     console.log(thumbnailFilename);
+    //     res.send("end")
+    //     return 0;
+    //       const menuItems = await JSON.parse(menu);
+    //       let menuWithPictures = [];
+
+    //        //사진의 대한 정보(크기,이름)등등 가져온다
+    //        let menuPictureFilenames = await req.files.thumbnail;
+    //        //사진의 대한 정보중 이름 파일명들만 가져온다
+    //        menuPictureFilenames = menuPictureFilenames.map(file => ({ filename: file.filename }));
+
+           
+    //        console.log("menuPictureFilenames");
+    //        console.log(menuPictureFilenames);
+    //        console.log("=========================="); 
+ 
+    //        for (let i = 0; i < menuItems.length; i++) {
+    //         //사진에 대한 이름 값만 가져온다
+    //         const pictureFilename = await menuPictureFilenames.map(file => file.filename)[i];
+        
+    //         // const picture = pictureFilename ? `http://localhost:3060/uploads/${pictureFilename}` : null;
+    //         const picture = pictureFilename ? pictureFilename : null;
+    //         menuWithPictures[i] = ({...menuItems[i], picture});
+    //     }
+  
+    //     await this.adminService.postInfo(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
+    //     return res.status(201).json({message: "업체 정보 등록이 완료되었습니다."});
+    //     } catch (error) {
+    //         console.error(error)
+    //       if (Boom.isBoom(error)) {
+    //         return res.status(error.output.statusCode).json({ errorMessage: error.output.payload.message });
+    //       } else {
+    //         res.status(400).json({ errorMessage: "업체 등록에 실패하였습니다." });
+    //       }
+    //     }
+    //   }
+    
 
     // updateShop = async (req, res, next) => {
     //     try {
