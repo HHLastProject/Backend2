@@ -70,17 +70,26 @@ class AdminService {
           }
     };
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     postInfo = async(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
         const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail);
         
-        if (!!createdshop) {
+        if (createdshop) {
             const shopId = createdshop.shopId;
-        
             const menulist = [];
 
             for (let i = 0; i < menuWithPictures.length; i++) {
                 const { menuName, price, menuDescription, picture } = menuWithPictures[i];
-               
+                console.log("menuWithPictures[i]");
+                console.log(menuWithPictures[i]);
+                console.log("===========================");
+
+                let menuPictures =menuWithPictures[i];
                 const createdMenu = await this.adminRepository.postMenu(shopId, menuName, price, menuDescription, picture);
    
                 menulist.push(createdMenu);
@@ -88,7 +97,11 @@ class AdminService {
             return (createdshop, menulist);
         }
     };
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // postShop = async(adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail) => {
     //     const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, operatingTime, phoneNumber, thumbnail);
     //     return createdshop;
@@ -125,8 +138,7 @@ class AdminService {
             const updatedShop = await this.adminRepository.updateShop(shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail);
             const ShopId = foundShop.shopId;
             const menulist = [];
-            
-            
+
             //가져온 shopId에서 menuIds를 가져온다
             let shop = await this.adminRepository.getOneShopInfo(shopId);
             const menuIds = shop.Menus.map(menu => menu.menuId);
