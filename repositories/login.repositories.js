@@ -8,13 +8,13 @@ class LoginRepository {
         // console.log(resultUser);
         // console.log("========================");
         
-        const makeUser= await Users.create({
+        const makeUser = await Users.create({
             email : resultUser.email,
-            password : "temp",
+            password : resultUser.password,
             nickname : resultUser.nickname,
             gender : resultUser.gender,
-        });
-
+        }); 
+        return makeUser;
     };
 }
 module.exports = LoginRepository;
