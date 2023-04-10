@@ -70,19 +70,19 @@ class AdminService {
           }
     };
 
-    postInfo = async(adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
-        const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail);
-        console.log('🟩', createdshop);
+    postInfo = async(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
+        const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail);
+        
         if (!!createdshop) {
             const shopId = createdshop.shopId;
-            console.log('🟩', shopId);
+        
             const menulist = [];
 
             for (let i = 0; i < menuWithPictures.length; i++) {
                 const { menuName, price, menuDescription, picture } = menuWithPictures[i];
-                console.log('🟩', menuName, price, menuDescription, picture);
+               
                 const createdMenu = await this.adminRepository.postMenu(shopId, menuName, price, menuDescription, picture);
-                console.log('🟩', createdMenu);
+   
                 menulist.push(createdMenu);
             }
             return (createdshop, menulist);
@@ -115,18 +115,29 @@ class AdminService {
     //     await this.adminRepository.updateShop(shopId, updateData);
     // };
 
-    updateInfo = async(adminId, shopId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
+    updateInfo = async(adminId, shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
         const foundShop = await this.adminRepository.findOneShop(shopId);
+        
         if (!foundShop) {
             throw Boom.preconditionFailed("업체가 존재하지 않습니다.");
         }
         if (foundShop.AdminId === adminId) {
-            const updatedShop = await this.adminRepository.updateShop(shopId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail);
+            const updatedShop = await this.adminRepository.updateShop(shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail);
             const ShopId = foundShop.shopId;
             const menulist = [];
-            for (let i = 0; i < menuWithPictures.length; i++) {
-                const { menuName, price, menuDescription, picture } = menuWithPictures[i];
-                const updatedMenu = await this.adminRepository.updateMenu(ShopId, menuName, price, menuDescription, picture);
+            
+            
+            //가져온 shopId에서 menuIds를 가져온다
+            let shop = await this.adminRepository.getOneShopInfo(shopId);
+            const menuIds = shop.Menus.map(menu => menu.menuId);
+    
+          
+            for (let i = 0; i < menuWithPictures.length; i++) {                                          
+                let  { menuName, price, menuDescription, picture } = menuWithPictures[i];
+
+                let menuId = menuIds[i];
+                let updatedMenu = await this.adminRepository.updateMenu(ShopId, menuId ,menuName, price, menuDescription, picture,);
+         
                 menulist.push(updatedMenu);
             }
             return (updatedShop, menulist);

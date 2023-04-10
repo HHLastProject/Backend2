@@ -34,48 +34,42 @@ class AdminRepository {
         return allShops;
     };
 
-    postShop = async (adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail) => {
-        console.log ('🟦', adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail)
+    postShop = async (adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail) => {
+        
         const createdShop = await Shops.create({
-            AdminId: adminId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail
+            AdminId: adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail
         });
-        console.log('🟦', createdShop);
+
         return createdShop;
     };
 
     postMenu = async (shopId, menuName, price, menuDescription, picture) => {
-        console.log('🟫', shopId, menuName, price, menuDescription, picture);
+
         const createdMenu = await Menus.create({
             ShopId: shopId, menuName, price, menuDescription, picture
         });
-        console.log('🟫', createdMenu);
+   
         return createdMenu;
     }
  
 
-    updateShop = async (shopId, shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail) => {
+    updateShop = async (shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail) => {
         const updatedShop = await Shops.update(
-            { shopName, category, address, x, y, operatingTime, phoneNumber, thumbnail },
+            { shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail },
             { where: { shopId } }
             );
         return updatedShop;
     };
 
-    updateMenu = async ( ShopId, menuName, price, menuDescription, picture ) => {
-        const updatedMenu = await Menus.update(
+    //shopId를 대신 menuId로 변경
+    updateMenu = async ( ShopId, menuId, menuName, price, menuDescription, picture ) => {
+
+        let updatedMenu = await Menus.update(
             { menuName, price, menuDescription, picture },
-            { where: { ShopId } }
+            { where: { menuId : menuId } }
         )
         return updatedMenu;
     };
-
-    // if(updatedShop) {
-    //     await Menus.update(
-    //         { menuName, price, menuDesciption },
-    //         { where: { ShopId: shopId } }
-    //     )
-    // }
-
 
     getOneShopInfo = async (shopId) => {
         const shopInfo = await Shops.findOne({
@@ -94,7 +88,7 @@ class AdminRepository {
 
     findOneShop = async (shopId) => {
         const shop = await Shops.findOne({where: {shopId}});
-        console.log('🟫',shop );
+      
         return shop;
     };
 
