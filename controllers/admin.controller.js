@@ -165,6 +165,7 @@ class AdminController {
           const thumbnailFile = await req.file;
    
           const thumbnailFilename = await req.file.filename;
+        //   const thumbnail = `http://3.34.122.88:3060/uploads/${thumbnailFilename}`;
           const thumbnail = `http://3.34.122.88:3060/uploads/${thumbnailFilename}`;
           const menuItems = JSON.parse(menu);
     
@@ -189,31 +190,23 @@ class AdminController {
       }
 
 
-    
+
     updateInfo = async (req, res, next) => {
         try {
             const { shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
             const { adminId } = res.locals.admin;
             const { shopId } = req.params;
-            // let shop = await this.adminService.getOneShopInfo(shopId);
-            // const menuId = shop.Menus.map(menu => menu.menuId);
-     
-          
+ 
+
             // 썸네일 메인 사진을 0번째 껄로 선택한다
             const thumbnailFilename = req.files.thumbnail[0].filename;
             const thumbnail = thumbnailFilename;
             // const thumbnail = `http://localhost:3060/uploads/${thumbnailFilename}`;
 
-            // console.log("req.files");
-            // console.log(req.files);
-            // console.log("=====================");
             
       
             //menu에 넣었던 배열들 가져오기
             const menuItems = JSON.parse(menu);
-            // console.log("menuItems");
-            // console.log(menuItems);
-            // console.log("========================");
             let menuWithPictures = [];
             
 
@@ -231,20 +224,12 @@ class AdminController {
                 const pictureFilename = menuPictureFilenames.map(file => file.filename)[i];
 
                 const picture = pictureFilename ? `http://localhost:3060/uploads/${pictureFilename}` : null;
-                // menuWithPictures.push({ ...menuItems[i], picture});
-
+                // const picture = pictureFilename ? pictureFilename : null;
                 menuWithPictures[i] = ({...menuItems[i], picture});
-                // console.log("menuWithPictures");
-                // console.log(menuWithPictures);
-                // console.log("====================");
+          
             }
 
-            // console.log("menuWithPictures");
-            // console.log(menuWithPictures);
-            // console.log("====================");
-
-
-            
+ 
             await this.adminService.updateInfo(adminId, shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
             return res.status(201).json({ message: "업체 정보 수정이 완료되었습니다."});
         } catch (error) {

@@ -125,12 +125,19 @@ class AdminService {
             const updatedShop = await this.adminRepository.updateShop(shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail);
             const ShopId = foundShop.shopId;
             const menulist = [];
-
-        
+            
+            
+            //가져온 shopId에서 menuIds를 가져온다
+            let shop = await this.adminRepository.getOneShopInfo(shopId);
+            const menuIds = shop.Menus.map(menu => menu.menuId);
+    
+          
             for (let i = 0; i < menuWithPictures.length; i++) {                                          
                 let  { menuName, price, menuDescription, picture } = menuWithPictures[i];
-        
-                let updatedMenu = await this.adminRepository.updateMenu(ShopId, menuName, price, menuDescription, picture);
+
+                let menuId = menuIds[i];
+                let updatedMenu = await this.adminRepository.updateMenu(ShopId, menuId ,menuName, price, menuDescription, picture,);
+         
                 menulist.push(updatedMenu);
             }
             return (updatedShop, menulist);

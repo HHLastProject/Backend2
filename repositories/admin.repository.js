@@ -61,24 +61,15 @@ class AdminRepository {
         return updatedShop;
     };
 
-    updateMenu = async ( ShopId, menuName, price, menuDescription, picture ) => {
+    //shopId를 대신 menuId로 변경
+    updateMenu = async ( ShopId, menuId, menuName, price, menuDescription, picture ) => {
 
-     
         let updatedMenu = await Menus.update(
             { menuName, price, menuDescription, picture },
-            { where: { ShopId } }
+            { where: { menuId : menuId } }
         )
-
         return updatedMenu;
     };
-
-    // if(updatedShop) {
-    //     await Menus.update(
-    //         { menuName, price, menuDesciption },
-    //         { where: { ShopId: shopId } }
-    //     )
-    // }
-
 
     getOneShopInfo = async (shopId) => {
         const shopInfo = await Shops.findOne({
