@@ -10,7 +10,7 @@ router.get('/main', shopController.getAllMainShop);
 
 // 메인페이지 업체리스팅 API (거리 계산 반영)
 // localhost:3060/api/shop/main
-// router.get('/main2', shopController.getAllMainShop2);
+router.get('/main2', shopController.getAllMainShop2);
 
 // 상세페이지 업체정보 API
 // localhost:3060/api/shop/:shopId
