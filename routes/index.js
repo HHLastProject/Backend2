@@ -12,4 +12,8 @@ router.use("/api/shop", shopRouter);
 router.use('/api/admin', adminRouter);
 router.use('/api/login', loginRouter);
 
+
+const tempRouter = require('./temp.js');
+router.use('/api/temp', tempRouter);
+
 module.exports = router;
