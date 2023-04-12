@@ -38,37 +38,37 @@ class ShopRepository {
     }
 
     // 전체 조회 (거리 계산 반영)
-    // getAllMainShop2 = async (x, y, range) => {
-    //     return await Shops.findAll({
-    //         attributes: [
-    //             "shopId",
-    //             "address",
-    //             "x",
-    //             "y",
-    //             "shopName",
-    //             "thumbnail",
-    //             "Menus.menuName",
-    //             [
-    //                 Sequelize.fn('max', Sequelize.col('Menus.price')),
-    //                 'maxPrice'
-    //             ],
-    //             [
-    //                 Sequelize.fn('min', Sequelize.col('Menus.price')),
-    //                 'minPrice'
-    //             ],
-    //             "category",
-    //         ],
-    //         include: [
-    //             {
-    //                 model: Menus,
-    //                 attributes: [],
-    //             }
-    //         ],
-    //         order: [['createdAt', 'DESC']],
-    //         group: ['Shops.shopId'],
-    //         raw: true,
-    //     });
-    // };
+    getAllMainShop2 = async () => {
+        return await Shops.findAll({
+            attributes: [
+                "shopId",
+                "address",
+                "x",
+                "y",
+                "shopName",
+                "thumbnail",
+                "Menus.menuName",
+                [
+                    Sequelize.fn('max', Sequelize.col('Menus.price')),
+                    'maxPrice'
+                ],
+                [
+                    Sequelize.fn('min', Sequelize.col('Menus.price')),
+                    'minPrice'
+                ],
+                "category",
+            ],
+            include: [
+                {
+                    model: Menus,
+                    attributes: [],
+                }
+            ],
+            order: [['createdAt', 'DESC']],
+            group: ['Shops.shopId'],
+            raw: true,
+        });
+    };
 
     // 상세 조회
     getFindOneShop = async ({shopId}) => {
