@@ -14,7 +14,8 @@ module.exports = (sequelize, DataTypes) => {
       this.hasMany(models.Shops, {
         sourceKey: 'adminId',
         foreignKey: 'AdminId',
-        });
+        onDelete: "CASCADE",
+      });
     }
   }
   Admin.init({

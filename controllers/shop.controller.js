@@ -32,37 +32,17 @@ class ShopController {
         const { x, y, range } = req.body;
         try {
             const shops = await this.ShopService.getAllMainShop2();
-            // const shops = await Shops.findAll({
-            //     attributes: [
-            //         "shopId",
-            //         "address",
-            //         "x",
-            //         "y",
-            //         "shopName",
-            //         "thumbnail",
-            //         "Menus.menuName",
-            //         [
-            //             Sequelize.fn('max', Sequelize.col('Menus.price')),
-            //             'maxPrice'
-            //         ],
-            //         [
-            //             Sequelize.fn('min', Sequelize.col('Menus.price')),
-            //             'minPrice'
-            //         ],
-            //         "category",
-            //     ],
-            //     include: [
-            //         {
-            //             model: Menus,
-            //             attributes: [],
-            //             // where: { ShopId: shopId }
-            //         }
-            //     ],
-            //     order: [['createdAt', 'DESC']],
-            //     group: ['Shops.shopId'], // Shops 테이블의 primary key로 그룹화
-            //     raw: true, // JSON 형태로 반환된 데이터를 처리
-            // })
 
+            // totalDistance 거리가 짧은 순대로 sort 함수를 사용 (chatGPT 활용)
+            shops.sort((a, b) => {
+                const userLocate = { latitude: x, longitude: y };
+                const shopALocate = { latitude: a.x, longitude: a.y };
+                const shopBLocate = { latitude: b.x, longitude: b.y };
+                const distanceA = haversine(userLocate, shopALocate, { unit: 'meter' });
+                const distanceB = haversine(userLocate, shopBLocate, { unit: 'meter' });
+                return distanceA - distanceB;
+            });
+            
             let result = [];
             // 2. for문을 만든다 , 반복횟수 : 전체가게 갯수
             for (let i = 0; i < shops.length; i++) {
@@ -72,11 +52,25 @@ class ShopController {
                 const shopLocate = { latitude: shops[i].x, longitude: shops[i].y };
                 const distance = haversine(userLocate, shopLocate, { unit: 'meter' }); // meter가 미터를 뜻함
                 console.log(distance.toFixed(2) + " m");
+                const shopInfo = {
+                    shopId: shops[i].shopId,
+                    address: shops[i].address,
+                    x: shops[i].x,
+                    y: shops[i].y,
+                    shopName: shops[i].shopName,
+                    thumbnail: shops[i].thumbnail,
+                    menuName: shops[i].menuName,
+                    maxPrice: shops[i].maxPrice,
+                    minPrice: shops[i].minPrice,
+                    category: shops[i].category,
+                    totalDistance: distance.toFixed(0) + " m"
+                };
                 // 5. 그 계산한 값이 if문을 사용해서 range(예시에는 500) 값보다 작는 조건문을 쓴다. => 3번의 자료를 저장한다
                 if (distance <= range) {
-                    result.push(shops[i]); // 6. 조건에 맞는 가게 정보를 push함수를 사용해서 result 배열에 추가한다
-                } // 7. for문이 끝난다
-            }
+                    // result.push(shops[i]);
+                    result.push(shopInfo); // 6. 조건에 맞는 가게 정보를 push함수를 사용해서 result 배열에 추가한다
+                }
+            } // 7. for문이 끝난다
             // 8. 그 조건에 맞는 가게들만 API 명세서에 있는 대로 모두 다 출력해서 해당 조건에 맞는 가게 정보의 모든 조회를 도출 한다
             res.status(200).json({ shops : result }) 
         } catch (error) {
