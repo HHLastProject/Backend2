@@ -8,16 +8,14 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      this.hasMany(models.Reviews, {
+      this.hasMany(models.Feeds, {
         sourceKey: "userId",
         foreignKey: "UserId",
-        onDelete: "CASCADE",
       });
 
-      this.hasMany(models.Likes, {
+      this.hasMany(models.Scrap, {
         sourceKey: "userId",
         foreignKey: "UserId",
-        onDelete: "CASCADE",
       });
     }
   }
@@ -29,15 +27,15 @@ module.exports = (sequelize, DataTypes) => {
       primaryKey: true,
       type: DataTypes.INTEGER
     },
-    email: {
+    prifilePic: {
       allowNull: true,
       type: DataTypes.STRING,
     },
-    password: {
+    nickname: {
       allowNull: true,
       type: DataTypes.STRING
     },
-    nickname: {
+    email: {
       allowNull: true,
       type: DataTypes.STRING
     },

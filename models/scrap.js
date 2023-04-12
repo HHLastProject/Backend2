@@ -3,14 +3,14 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Reviews extends Model {
+  class Scrap extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-
+      // define association here
       this.belongsTo(models.Users, {
         targetKey: "userId",
         foreignKey: "UserId",
@@ -24,28 +24,20 @@ module.exports = (sequelize, DataTypes) => {
       });
     }
   }
-  Reviews.init( {
-    reviewId: {
+  Scrap.init({
+    scrapId: {
       allowNull: false,
       autoIncrement: true,
       primaryKey: true,
       type: DataTypes.INTEGER
     },
-    ShopId: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-    },
     UserId: {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    content: {
-      type: DataTypes.STRING,
+    ShopId: {
+      type: DataTypes.INTEGER,
       allowNull: false,
-    },
-    reviewImage: {
-      type: DataTypes.STRING,
-      allowNull: true,
     },
     createdAt: {
       allowNull: false,
@@ -59,7 +51,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }, {
     sequelize,
-    modelName: 'Reviews',
+    modelName: 'Scrap',
   });
-  return Reviews;
+  return Scrap;
 };
