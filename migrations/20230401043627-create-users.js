@@ -9,15 +9,19 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
+      id: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      email: {
+        allowNull: true,
+        type: Sequelize.STRING
+      },
       prifilePic: {
         allowNull: true,
         type: Sequelize.STRING,
       },
       nickname: {
-        allowNull: true,
-        type: Sequelize.STRING
-      },
-      email: {
         allowNull: true,
         type: Sequelize.STRING
       },

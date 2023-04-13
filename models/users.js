@@ -27,15 +27,19 @@ module.exports = (sequelize, DataTypes) => {
       primaryKey: true,
       type: DataTypes.INTEGER
     },
+    id: {
+      allowNull: false,
+      type: DataTypes.STRING,
+    },
+    email: {
+      allowNull: true,
+      type: DataTypes.STRING
+    },
     prifilePic: {
       allowNull: true,
       type: DataTypes.STRING,
     },
     nickname: {
-      allowNull: true,
-      type: DataTypes.STRING
-    },
-    email: {
       allowNull: true,
       type: DataTypes.STRING
     },
