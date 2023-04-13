@@ -32,7 +32,7 @@ class AdminService {
                 const token = jwt.sign(
                     {adminEmail : admin.adminEmail}, 
                     process.env.SECRET_KEY,
-                    {expiresIn: '10d'});
+                    {expiresIn: '60d'});
                 return token;
             } else {
                 throw Boom.unauthorized("비밀번호가 일치하지 않습니다.");
@@ -76,8 +76,8 @@ class AdminService {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    postInfo = async(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
-        const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, detailAddress, x, y, operatingTime, phoneNumber, thumbnail);
+    postInfo = async(adminId, shopName, category, address, lng, lat, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
+        const createdshop = await this.adminRepository.postShop(adminId, shopName, category, address, lng, lat, operatingTime, phoneNumber, thumbnail);
         
         if (createdshop) {
             const shopId = createdshop.shopId;
@@ -128,14 +128,14 @@ class AdminService {
     //     await this.adminRepository.updateShop(shopId, updateData);
     // };
 
-    updateInfo = async(adminId, shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
+    updateInfo = async(adminId, shopId, shopName, category, address, lng, lat, operatingTime, phoneNumber, thumbnail, menuWithPictures) => {
         const foundShop = await this.adminRepository.findOneShop(shopId);
         
         if (!foundShop) {
             throw Boom.preconditionFailed("업체가 존재하지 않습니다.");
         }
         if (foundShop.AdminId === adminId) {
-            const updatedShop = await this.adminRepository.updateShop(shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail);
+            const updatedShop = await this.adminRepository.updateShop(shopId, shopName, category, address, lng, lat, operatingTime, phoneNumber, thumbnail);
             const ShopId = foundShop.shopId;
             const menulist = [];
 

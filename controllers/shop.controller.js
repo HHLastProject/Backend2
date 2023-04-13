@@ -29,14 +29,14 @@ class ShopController {
 
     getAllMainShop2 = async (req, res, next) => {
         // 1. 유저 현 위치 좌표(x, y)와 반경 거리 안에 있는 range를 프론트에서 받아와서 request body로 받는다.
-        const { x, y, range } = req.body;
+        const { lng, lat, range } = req.body;
         try {
             const shops = await this.ShopService.getAllMainShop2();
             // totalDistance 거리가 짧은 순대로 sort 함수를 사용 (chatGPT 활용)
             shops.sort((a, b) => {
-                const userLocate = { latitude: x, longitude: y };
-                const shopALocate = { latitude: a.x, longitude: a.y };
-                const shopBLocate = { latitude: b.x, longitude: b.y };
+                const userLocate = { latitude: lng, longitude: lat };
+                const shopALocate = { latitude: a.lng, longitude: a.lat };
+                const shopBLocate = { latitude: b.lng, longitude: b.lat };
                 const distanceA = haversine(userLocate, shopALocate, { unit: 'meter' });
                 const distanceB = haversine(userLocate, shopBLocate, { unit: 'meter' });
                 return distanceA - distanceB;
@@ -46,26 +46,26 @@ class ShopController {
             // 2. for문을 만든다 , 반복횟수 : 전체가게 갯수
             for (let i = 0; i < shops.length; i++) {
                 // 3. 가게 하나 현 위치 좌표인 shop 테이블의 x, y 값을 가져온다.
-                const userLocate = { latitude: x, longitude: y };
+                const userLocate = { latitude: lng, longitude: lat };
                 // 4. 유저 현 위치 좌표(x, y)와 가게 현위치 좌표(x, y)를 참고해서 계산을 한다.
-                const shopLocate = { latitude: shops[i].x, longitude: shops[i].y };
-                const distance = haversine(userLocate, shopLocate, { unit: 'meter' }); // meter가 미터를 뜻함
-                console.log(distance.toFixed(2) + " m");
+                const shopLocate = { latitude: shops[i].lng, longitude: shops[i].lat };
+                const totalDistance = haversine(userLocate, shopLocate, { unit: 'meter' }); // meter가 미터를 뜻함
+                console.log(totalDistance.toFixed(2) + " m");
                 const shopInfo = {
                     shopId: shops[i].shopId,
                     address: shops[i].address,
-                    x: shops[i].x,
-                    y: shops[i].y,
+                    lng: shops[i].lng,
+                    lat: shops[i].lat,
                     shopName: shops[i].shopName,
                     thumbnail: shops[i].thumbnail,
                     menuName: shops[i].menuName,
                     maxPrice: shops[i].maxPrice,
                     minPrice: shops[i].minPrice,
                     category: shops[i].category,
-                    totalDistance: distance.toFixed(0) + " m"
+                    distance: totalDistance.toFixed(0) + " m"
                 };
                 // 5. 그 계산한 값이 if문을 사용해서 range(예시에는 500) 값보다 작는 조건문을 쓴다. => 3번의 자료를 저장한다
-                if (distance <= range) {
+                if (totalDistance <= range) {
                     // result.push(shops[i]);
                     result.push(shopInfo); // 6. 조건에 맞는 가게 정보를 push함수를 사용해서 result 배열에 추가한다
                 }
