@@ -9,7 +9,7 @@ class LoginRepository {
         // console.log("========================");
         
         const makeUser = await Users.create({
-            userId : resultUser.id,
+            id : resultUser.id,
             email : resultUser.email,
             nickname : resultUser.nickname,
             gender : resultUser.gender,

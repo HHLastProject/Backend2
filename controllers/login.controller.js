@@ -10,8 +10,8 @@ class LoginController {
 
   loginKakao = async (req, res, next) => {
     try {
-      const { code } = req.query;
-      // const {code} = req.body
+      // const { code } = req.query;   //백에서만 할때
+      const {code} = req.body         //프론트에 배포할때
 
        const resultToken = await this.loginServices.getKakaoToken(code);
 
@@ -22,8 +22,7 @@ class LoginController {
 
       const token = jwt.sign(
         { 
-          userId :  resultUser.id,
-          nickname : resultUser.nickname
+          id :  resultUser.id,
         },
         "key",
         );
@@ -92,9 +91,9 @@ class LoginController {
 
   test = async (req,res,next) => { 
     console.log("==============================");
-    const {nickname} = res.locals.user
+    const {nickname, id} = res.locals.user
 
-    console.log(nickname);
+    console.log(nickname, id);
     return res.send(nickname)
   }
 
