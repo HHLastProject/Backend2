@@ -22,8 +22,7 @@ class LoginController {
 
       const token = jwt.sign(
         { 
-          userId :  resultUser.id,
-          nickname : resultUser.nickname
+          id :  resultUser.id,
         },
         "key",
         );
@@ -92,9 +91,9 @@ class LoginController {
 
   test = async (req,res,next) => { 
     console.log("==============================");
-    const {nickname} = res.locals.user
+    const {nickname, id} = res.locals.user
 
-    console.log(nickname);
+    console.log(nickname, id);
     return res.send(nickname)
   }
 

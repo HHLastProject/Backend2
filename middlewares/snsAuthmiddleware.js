@@ -19,8 +19,8 @@ module.exports = async (req, res, next) => {
 
 
     
-    const { userId} = jwt.verify(token, "key");
-    const user = await Users.findOne( {where: {userId}});
+    const { id} = jwt.verify(token, "key");
+    const user = await Users.findOne( {where: {id}});
 
     if (!user) {
       throw Boom.unauthorized("사용자가 존재하지 않습니다.");
