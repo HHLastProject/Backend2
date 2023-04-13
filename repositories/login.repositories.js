@@ -9,12 +9,14 @@ class LoginRepository {
         // console.log("========================");
         
         const makeUser = await Users.create({
+            userId : resultUser.id,
             email : resultUser.email,
-            password : resultUser.password,
             nickname : resultUser.nickname,
             gender : resultUser.gender,
         }); 
         return makeUser;
     };
+
+    
 }
 module.exports = LoginRepository;

@@ -32,7 +32,6 @@ class ShopController {
         const { x, y, range } = req.body;
         try {
             const shops = await this.ShopService.getAllMainShop2();
-
             // totalDistance 거리가 짧은 순대로 sort 함수를 사용 (chatGPT 활용)
             shops.sort((a, b) => {
                 const userLocate = { latitude: x, longitude: y };

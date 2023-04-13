@@ -1,44 +1,39 @@
 const LoginServices = require("../services/login.service");
 const jwt = require("jsonwebtoken");
 
+const {Users}= require("../models");
+
+// reuqire
 class LoginController {
 
   loginServices = new LoginServices();
 
   loginKakao = async (req, res, next) => {
     try {
-      // const { code } = req.query;
-      const {code} = req.body
+      const { code } = req.query;
+      // const {code} = req.body
 
-      // console.log("code");
-      // console.log(code);
-      // console.log("================================");
        const resultToken = await this.loginServices.getKakaoToken(code);
-
-      console.log("resultToken");
-      console.log(resultToken);
-      console.log("================================");
 
       const resultUser = await this.loginServices.getKaKaoUserInfo(resultToken);
 
-      console.log("resultUser");
-      console.log(resultUser);
-      console.log("================================");
+      //유저정보 저장
+      await this.loginServices.saveUser(resultUser);
 
-      // //유저정보 저장
-      // // await this.loginServices.saveUser(resultUser);
-
-      const userData = jwt.sign(
+      const token = jwt.sign(
         { 
-          id :  resultUser.id,
+          userId :  resultUser.id,
+          nickname : resultUser.nickname
         },
         "key",
         );
 
-      res.set("authorization", `Bearer ${userData}`);  
-      res.status(200).json({ "유저정보 jwt": " id 를 보냈습니다"});
-      // res.set("authorization", `Bearer ${resultToken}`);
-      // res.status(200).json({"msg" : resultToken});
+      res.set("authorization", `Bearer ${token}`);  
+      res.status(200).json({ "유저정보 jwt": `Bearer ${token}`});
+     
+     //프론트에게 돌려주어야 한값 
+      // res.set("authorization", `Bearer ${userData}`);
+      // res.status(200).json({"msg" : userData});
     } catch (err) {
       console.log(err);
       res.status(400).json({ errorMsg: "예기치 못한 오류가 발생했습니다" });
@@ -89,10 +84,19 @@ class LoginController {
     }
   };
 
-  // saveUser = async () => {
-  //   console.log("컨트롤러 입니다");
-  //   const result = this.loginServices.saveUser();
-  // };
+  saveUser = async () => {
+    console.log("컨트롤러 입니다");
+    const result = this.loginServices.saveUser();
+  };
+
+
+  test = async (req,res,next) => { 
+    console.log("==============================");
+    const {nickname} = res.locals.user
+
+    console.log(nickname);
+    return res.send(nickname)
+  }
 
 }
 module.exports = LoginController;
