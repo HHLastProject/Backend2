@@ -10,23 +10,25 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
+      this.belongsTo(models.Admin, {
+        targetKey: "adminId",
+        foreignKey: "AdminId",
+        onDelete: "CASCADE",
+      })
 
-      this.hasMany(models.Reviews, {
+      this.hasMany(models.Feeds, {
         sourceKey: "shopId",
         foreignKey: "ShopId",
-        onDelete: "CASCADE",
       });
 
-      this.hasMany(models.Likes, {
+      this.hasMany(models.Scrap, {
         sourceKey: "shopId",
         foreignKey: "ShopId",
-        onDelete: "CASCADE",
       });
 
       this.hasMany(models.Menus, {
         sourceKey: "shopId",
         foreignKey: "ShopId",
-        onDelete: "CASCADE",
       });
     }
   }
@@ -45,23 +47,19 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.STRING
     },
-    category: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
     address: {
       allowNull: false,
       type: DataTypes.STRING
     },
-    detailAddress: {
+    category: {
       allowNull: false,
       type: DataTypes.STRING
     },
-    x: {
+    lng: {
       allowNull: true,
       type: DataTypes.STRING
     },
-    y: {
+    lat: {
       allowNull: true,
       type: DataTypes.STRING
     },

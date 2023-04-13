@@ -88,7 +88,7 @@ class AdminController {
 
         postInfo = async (req, res, next) => {
         try {
-            const { shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
+            const { shopName, category, address, lng, lat, operatingTime, phoneNumber, menu } = req.body;
             const { adminId } = res.locals.admin;
  
             // 썸네일 메인 사진을 0번째 껄로 선택한다
@@ -115,7 +115,7 @@ class AdminController {
             }
             console.log("=======================");
  
-            await this.adminService.postInfo(adminId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
+            await this.adminService.postInfo(adminId, shopName, category, address, lng, lat, operatingTime, phoneNumber, thumbnail, menuWithPictures);
             return res.status(201).json({ message: "업체 등록 완료되었습니다."});
         } catch (error) {
             if (Boom.isBoom(error)) {
@@ -129,7 +129,7 @@ class AdminController {
 
       updateInfo = async (req, res, next) => {
         try {
-            const { shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, menu } = req.body;
+            const { shopName, category, address, lng, lat, operatingTime, phoneNumber, menu } = req.body;
             const { adminId } = res.locals.admin;
             const { shopId } = req.params;
  
@@ -164,7 +164,7 @@ class AdminController {
             }
             console.log("=======================");
  
-            await this.adminService.updateInfo(adminId, shopId, shopName, category, address,detailAddress, x, y, operatingTime, phoneNumber, thumbnail, menuWithPictures);
+            await this.adminService.updateInfo(adminId, shopId, shopName, category, address, lng, lat, operatingTime, phoneNumber, thumbnail, menuWithPictures);
             return res.status(201).json({ message: "업체 정보 수정이 완료되었습니다."});
         } catch (error) {
             if (Boom.isBoom(error)) {
