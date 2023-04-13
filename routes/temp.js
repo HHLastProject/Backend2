@@ -12,7 +12,7 @@ let operatingTime = "연중무휴";
 let phoneNumber = "010-1111-2222";
 
 router.get("/test", async (req,res)=> { 
-  for (let i = 1; i < 15; i++) {
+  for (let i = 0; i < 15; i++) {
   
     let flontNumber  = Math.ceil(getRandomArbitrary(1000,9999));
     let backNumber = Math.ceil(getRandomArbitrary(1000,9999));
@@ -25,7 +25,7 @@ router.get("/test", async (req,res)=> {
       thumbnail = "dog.jpg";
     }else if("사주카페" == data[i].category){
       thumbnail = "sandbar.jpg"
-    }else if("일반카페" == data[i].category){
+    }else if("카페" == data[i].category){
       thumbnail = "cafe.jpg";
     }else { 
       console.log("존재하지 않는 카페가 있습니다")

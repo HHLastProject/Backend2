@@ -13,7 +13,7 @@ const data = [
   {
     "shopName": "싱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 80",
     "roadAddress": "서울특별시 송파구 송파대로28길 27",
     "lng": 127.1200802,
@@ -22,7 +22,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아청담에스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 118-17",
     "roadAddress": "서울특별시 강남구 압구정로 461",
     "lng": 127.0472158,
@@ -40,7 +40,7 @@ const data = [
   {
     "shopName": "커피팡",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 봉익동 10-1",
     "roadAddress": "서울특별시 종로구 율곡로10길 105",
     "lng": 126.9922243,
@@ -49,7 +49,7 @@ const data = [
   {
     "shopName": "이디아커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 556-2",
     "roadAddress": "서울특별시 강동구 성내로6길 20",
     "lng": 127.1223269,
@@ -67,7 +67,7 @@ const data = [
   {
     "shopName": "COFFEEBEAN영동2교사거리점",
     "branchName": "영동2교사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 425",
     "roadAddress": "서울특별시 강남구 논현로 136",
     "lng": 127.0432328,
@@ -76,7 +76,7 @@ const data = [
   {
     "shopName": "토프레소",
     "branchName": "석관점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 석관동 261-194",
     "roadAddress": "서울특별시 성북구 화랑로32길 149",
     "lng": 127.0603741,
@@ -85,7 +85,7 @@ const data = [
   {
     "shopName": "엔제리너스",
     "branchName": "강동롯데시네마점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 44-1",
     "roadAddress": "서울특별시 강동구 천호옛길 85",
     "lng": 127.1253154,
@@ -94,7 +94,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "가로수길점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 529-10",
     "roadAddress": "서울특별시 강남구 논현로175길 94",
     "lng": 127.0216293,
@@ -103,7 +103,7 @@ const data = [
   {
     "shopName": "카페띠아모",
     "branchName": "광희점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 광희동2가 319",
     "roadAddress": "서울특별시 중구 퇴계로 320",
     "lng": 127.0074461,
@@ -112,7 +112,7 @@ const data = [
   {
     "shopName": "심리카페COM",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 164-33",
     "roadAddress": "서울특별시 마포구 어울마당로 133",
     "lng": 126.9246431,
@@ -121,7 +121,7 @@ const data = [
   {
     "shopName": "커피엔진",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 행당동 192-29",
     "roadAddress": "서울특별시 성동구 고산자로 284",
     "lng": 127.0367839,
@@ -130,7 +130,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "개봉중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 개봉동 358-20",
     "roadAddress": "서울특별시 구로구 개봉로3길 26",
     "lng": 126.8548716,
@@ -139,7 +139,7 @@ const data = [
   {
     "shopName": "숲",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 742",
     "roadAddress": "서울특별시 노원구 화랑로 556",
     "lng": 127.0877351,
@@ -148,7 +148,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "서강대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신수동 63-14",
     "roadAddress": "서울특별시 마포구 백범로 23",
     "lng": 126.9375433,
@@ -157,7 +157,7 @@ const data = [
   {
     "shopName": "메디찌커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 188-2",
     "roadAddress": "서울특별시 광진구 아차산로78길 147",
     "lng": 127.1099585,
@@ -166,7 +166,7 @@ const data = [
   {
     "shopName": "할리스",
     "branchName": "백석예술대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 981-7",
     "roadAddress": "서울특별시 서초구 방배로9길 23",
     "lng": 126.9968837,
@@ -175,7 +175,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "씨제이프레시웨이강남세브란스병원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 146-92",
     "roadAddress": "서울특별시 강남구 언주로 211",
     "lng": 127.0462939,
@@ -184,7 +184,7 @@ const data = [
   {
     "shopName": "언덕위에카파",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 정릉동 716-10",
     "roadAddress": "서울특별시 성북구 솔샘로15다길 17",
     "lng": 127.0040626,
@@ -193,7 +193,7 @@ const data = [
   {
     "shopName": "북해빙수",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 19-3",
     "roadAddress": "서울특별시 서초구 신반포로 176",
     "lng": 127.0023932,
@@ -202,7 +202,7 @@ const data = [
   {
     "shopName": "카페알토바이밀도",
     "branchName": "알토바이밀도",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로2가 181",
     "roadAddress": "서울특별시 용산구 한강대로 112",
     "lng": 126.9683983,
@@ -211,7 +211,7 @@ const data = [
   {
     "shopName": "영플랜츠&갤러리영",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 713-15",
     "roadAddress": "서울특별시 도봉구 도봉로135길 28",
     "lng": 127.0390797,
@@ -220,7 +220,7 @@ const data = [
   {
     "shopName": "루시",
     "branchName": "드커피",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 89-17",
     "roadAddress": "서울특별시 은평구 은평로9길 9",
     "lng": 126.9212581,
@@ -229,7 +229,7 @@ const data = [
   {
     "shopName": "신사장",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 잠원동 15-8",
     "roadAddress": "서울특별시 서초구 나루터로 65",
     "lng": 127.0168649,
@@ -238,7 +238,7 @@ const data = [
   {
     "shopName": "미홍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 490",
     "roadAddress": "서울특별시 마포구 양화로 45",
     "lng": 126.9139374,
@@ -247,7 +247,7 @@ const data = [
   {
     "shopName": "뚜또오케이고대점",
     "branchName": "고대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 15-102",
     "roadAddress": "서울특별시 성북구 개운사길 31",
     "lng": 127.0290725,
@@ -256,7 +256,7 @@ const data = [
   {
     "shopName": "젤라또랩",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 1004",
     "roadAddress": "서울특별시 강남구 테헤란로114길 38",
     "lng": 127.0670824,
@@ -265,7 +265,7 @@ const data = [
   {
     "shopName": "카페커피씨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍은동 410-39",
     "roadAddress": "서울특별시 서대문구 증가로10길 66",
     "lng": 126.9254624,
@@ -274,7 +274,7 @@ const data = [
   {
     "shopName": "빽다방공덕새창로점",
     "branchName": "공덕새창로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 도화동 25-5",
     "roadAddress": "서울특별시 마포구 새창로 15-1",
     "lng": 126.9518216,
@@ -292,7 +292,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "파미에파크점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 118-3",
     "roadAddress": "서울특별시 서초구 사평대로 205",
     "lng": 127.0078261,
@@ -301,7 +301,7 @@ const data = [
   {
     "shopName": "마운틴뷰",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 1007-4",
     "roadAddress": "서울특별시 노원구 동일로242길 64",
     "lng": 127.0585065,
@@ -310,7 +310,7 @@ const data = [
   {
     "shopName": "별별다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 종로4가 188",
     "roadAddress": "서울특별시 종로구 종로32길 2",
     "lng": 127.000395,
@@ -319,7 +319,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "코엑스몰점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 159",
     "roadAddress": "서울특별시 강남구 영동대로 513",
     "lng": 127.0591391,
@@ -328,7 +328,7 @@ const data = [
   {
     "shopName": "이나디토",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 251-44",
     "roadAddress": "서울특별시 광진구 자양로22길 23",
     "lng": 127.0845776,
@@ -337,7 +337,7 @@ const data = [
   {
     "shopName": "블랙벤자민",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 966-17",
     "roadAddress": "서울특별시 강서구 까치산로18길 17",
     "lng": 126.8500593,
@@ -346,7 +346,7 @@ const data = [
   {
     "shopName": "골드브라운",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 53-11",
     "roadAddress": "서울특별시 영등포구 국제금융로 112",
     "lng": 126.9338858,
@@ -355,7 +355,7 @@ const data = [
   {
     "shopName": "카페라리방이점",
     "branchName": "방이점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 183-6",
     "roadAddress": "서울특별시 송파구 위례성대로 134",
     "lng": 127.1262246,
@@ -364,7 +364,7 @@ const data = [
   {
     "shopName": "카페하파라이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 906-16",
     "roadAddress": "서울특별시 강남구 선릉로76길 40",
     "lng": 127.0537299,
@@ -373,7 +373,7 @@ const data = [
   {
     "shopName": "카페이탈리아노",
     "branchName": "이탈리아노",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 316",
     "roadAddress": "서울특별시 강남구 삼성로 212",
     "lng": 127.0658971,
@@ -382,7 +382,7 @@ const data = [
   {
     "shopName": "동빙고다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 동빙고동 114",
     "roadAddress": "서울특별시 용산구 서빙고로75길 17",
     "lng": 126.9967448,
@@ -391,7 +391,7 @@ const data = [
   {
     "shopName": "아인",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 299-188",
     "roadAddress": "서울특별시 성동구 아차산로5길 37",
     "lng": 127.0541496,
@@ -400,7 +400,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "안국역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 안국동 163",
     "roadAddress": "서울특별시 종로구 율곡로 47",
     "lng": 126.984571,
@@ -409,7 +409,7 @@ const data = [
   {
     "shopName": "125coffee",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 갈현동 409-2",
     "roadAddress": "서울특별시 은평구 통일로87길 5-4",
     "lng": 126.9188888,
@@ -418,7 +418,7 @@ const data = [
   {
     "shopName": "스타벅스을지로입구",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 삼각동 115",
     "roadAddress": "서울특별시 중구 남대문로10길 9",
     "lng": 126.9832121,
@@ -427,7 +427,7 @@ const data = [
   {
     "shopName": "NEO",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대현동 37-3",
     "roadAddress": "서울특별시 서대문구 이화여대7길 30",
     "lng": 126.9438814,
@@ -445,7 +445,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "산티아고",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 391-18",
     "roadAddress": "서울특별시 마포구 양화로7길 6-5",
     "lng": 126.9151794,
@@ -454,7 +454,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "미스리",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 303",
     "roadAddress": "서울특별시 송파구 도곡로64길 8",
     "lng": 127.0788577,
@@ -463,7 +463,7 @@ const data = [
   {
     "shopName": "도투루커피",
     "branchName": "화양점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 228",
     "roadAddress": "서울특별시 광진구 능동로 185",
     "lng": 127.0736115,
@@ -472,7 +472,7 @@ const data = [
   {
     "shopName": "엘에스씨푸드티타임동아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 용두동 252-5",
     "roadAddress": "서울특별시 동대문구 무학로25길 16",
     "lng": 127.0296087,
@@ -481,7 +481,7 @@ const data = [
   {
     "shopName": "어반테라스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 171-62",
     "roadAddress": "서울특별시 강북구 도봉로97길 73",
     "lng": 127.0256761,
@@ -490,7 +490,7 @@ const data = [
   {
     "shopName": "구름정원커피집",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 불광동 25",
     "roadAddress": "서울특별시 은평구 불광로18길 32",
     "lng": 126.9346892,
@@ -499,7 +499,7 @@ const data = [
   {
     "shopName": "지원스터디카페",
     "branchName": "크레마",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 208-5",
     "roadAddress": "서울특별시 노원구 공릉로 198",
     "lng": 127.0785856,
@@ -517,7 +517,7 @@ const data = [
   {
     "shopName": "쿠카쿠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 642",
     "roadAddress": "서울특별시 송파구 송파대로 201",
     "lng": 127.1205807,
@@ -526,7 +526,7 @@ const data = [
   {
     "shopName": "바오밥나무",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 녹번동 165-8",
     "roadAddress": "서울특별시 은평구 서오릉로4길 10",
     "lng": 126.9258453,
@@ -535,7 +535,7 @@ const data = [
   {
     "shopName": "빅밤",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 70-3",
     "roadAddress": "서울특별시 광진구 군자로 156",
     "lng": 127.0764232,
@@ -544,7 +544,7 @@ const data = [
   {
     "shopName": "커피방앗간",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 중림동 149",
     "roadAddress": "서울특별시 중구 서소문로6길 34",
     "lng": 126.9672091,
@@ -553,7 +553,7 @@ const data = [
   {
     "shopName": "커피솔브즈에브리띵",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 고척동 50-54",
     "roadAddress": "서울특별시 구로구 경인로47길 95-4",
     "lng": 126.8638589,
@@ -571,7 +571,7 @@ const data = [
   {
     "shopName": "오츠커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 원효로1가 48-8",
     "roadAddress": "서울특별시 용산구 원효로89길 13-12",
     "lng": 126.9677455,
@@ -580,7 +580,7 @@ const data = [
   {
     "shopName": "CAFEAZITO",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 457-3",
     "roadAddress": "서울특별시 강남구 논현로26길 46-6",
     "lng": 127.0460039,
@@ -589,7 +589,7 @@ const data = [
   {
     "shopName": "웨스트엔드문화카페",
     "branchName": "웨스트엔드문화",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 내발산동 119",
     "roadAddress": "서울특별시 강서구 공항대로 340",
     "lng": 126.8448721,
@@ -598,7 +598,7 @@ const data = [
   {
     "shopName": "김밥천국",
     "branchName": "푸드카페",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 34-9",
     "roadAddress": "서울특별시 강동구 양재대로 1579",
     "lng": 127.1428195,
@@ -607,7 +607,7 @@ const data = [
   {
     "shopName": "카페아띠끄",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 91-12",
     "roadAddress": "서울특별시 강남구 도산대로 421",
     "lng": 127.041938,
@@ -616,7 +616,7 @@ const data = [
   {
     "shopName": "515티룸",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍은동 401-1",
     "roadAddress": "서울특별시 서대문구 명지대2길 14",
     "lng": 126.9252042,
@@ -625,7 +625,7 @@ const data = [
   {
     "shopName": "카페폴로라",
     "branchName": "플로라",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 도화동 2-342",
     "roadAddress": "서울특별시 마포구 도화4길 51",
     "lng": 126.9519127,
@@ -634,7 +634,7 @@ const data = [
   {
     "shopName": "카페네꼬",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 423-13",
     "roadAddress": "서울특별시 도봉구 삼양로146길 10",
     "lng": 127.0132055,
@@ -643,7 +643,7 @@ const data = [
   {
     "shopName": "카페라또",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 불광동 274-3",
     "roadAddress": "서울특별시 은평구 불광로 37-7",
     "lng": 126.9293255,
@@ -652,7 +652,7 @@ const data = [
   {
     "shopName": "컴앤드씨카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 276-20",
     "roadAddress": "서울특별시 노원구 초안산로2라길 37",
     "lng": 127.0583972,
@@ -661,7 +661,7 @@ const data = [
   {
     "shopName": "죠샌드위치선릉점",
     "branchName": "선릉점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 143-9",
     "roadAddress": "서울특별시 강남구 테헤란로77길 13",
     "lng": 127.0542646,
@@ -670,7 +670,7 @@ const data = [
   {
     "shopName": "제이디비스퀘어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 395-15",
     "roadAddress": "서울특별시 마포구 잔다리로 31",
     "lng": 126.9195657,
@@ -679,7 +679,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "구로디지털뉴스테이점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 1126",
     "roadAddress": "서울특별시 영등포구 시흥대로 595",
     "lng": 126.9033374,
@@ -697,7 +697,7 @@ const data = [
   {
     "shopName": "소프트리",
     "branchName": "압구정새서울점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 575-1",
     "roadAddress": "서울특별시 강남구 압구정로 154",
     "lng": 127.0265049,
@@ -706,7 +706,7 @@ const data = [
   {
     "shopName": "카페바른생활",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 101-2",
     "roadAddress": "서울특별시 성북구 고려대로27길 15",
     "lng": 127.0296944,
@@ -715,7 +715,7 @@ const data = [
   {
     "shopName": "테이큰",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 504-2",
     "roadAddress": "서울특별시 광진구 능동로16길 51",
     "lng": 127.0758172,
@@ -724,7 +724,7 @@ const data = [
   {
     "shopName": "두더지손",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동6가 110-42",
     "roadAddress": "서울특별시 영등포구 당산로52길 31-1",
     "lng": 126.9051499,
@@ -733,7 +733,7 @@ const data = [
   {
     "shopName": "애니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 146-11",
     "roadAddress": "서울특별시 금천구 시흥대로141길 66",
     "lng": 126.8978721,
@@ -742,7 +742,7 @@ const data = [
   {
     "shopName": "더카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 128-18",
     "roadAddress": "서울특별시 양천구 목동중앙로13길 25",
     "lng": 126.8816285,
@@ -751,7 +751,7 @@ const data = [
   {
     "shopName": "카페57",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 온수동 7-5",
     "roadAddress": "서울특별시 구로구 부일로9길 57",
     "lng": 126.8254002,
@@ -760,7 +760,7 @@ const data = [
   {
     "shopName": "탐앤탐스탐스커버리아셈타",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 77-15",
     "roadAddress": "서울특별시 강남구 봉은사로 543",
     "lng": 127.0593452,
@@ -769,7 +769,7 @@ const data = [
   {
     "shopName": "커피볶는집낙타",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 13-304",
     "roadAddress": "서울특별시 성동구 상원6나길 6",
     "lng": 127.0492734,
@@ -778,7 +778,7 @@ const data = [
   {
     "shopName": "마이카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 688-3",
     "roadAddress": "서울특별시 동대문구 사가정로17길 15",
     "lng": 127.059987,
@@ -787,7 +787,7 @@ const data = [
   {
     "shopName": "제노까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 461-5",
     "roadAddress": "서울특별시 구로구 구로동로 179",
     "lng": 126.8825233,
@@ -796,7 +796,7 @@ const data = [
   {
     "shopName": "커피야",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 25-3",
     "roadAddress": "서울특별시 송파구 백제고분로41길 22",
     "lng": 127.1073951,
@@ -805,7 +805,7 @@ const data = [
   {
     "shopName": "ARISTACOFFEE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 1000-2",
     "roadAddress": "서울특별시 강남구 테헤란로108길 22",
     "lng": 127.0659178,
@@ -814,7 +814,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "신세계DF명동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 충무로1가 52-5",
     "roadAddress": "서울특별시 중구 소공로 63",
     "lng": 126.9809659,
@@ -823,7 +823,7 @@ const data = [
   {
     "shopName": "브이엑스메이트카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 395-17",
     "roadAddress": "서울특별시 마포구 잔다리로 23",
     "lng": 126.9202182,
@@ -832,7 +832,7 @@ const data = [
   {
     "shopName": "스칼라티움",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 828-10",
     "roadAddress": "서울특별시 강남구 논현로79길 72",
     "lng": 127.0328626,
@@ -841,7 +841,7 @@ const data = [
   {
     "shopName": "벤투라커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 75-148",
     "roadAddress": "서울특별시 강북구 도봉로10다길 7-1",
     "lng": 127.0312054,
@@ -850,7 +850,7 @@ const data = [
   {
     "shopName": "투썸플레이스양재역점",
     "branchName": "양재역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 24",
     "roadAddress": "서울특별시 서초구 강남대로 213",
     "lng": 127.0349336,
@@ -859,7 +859,7 @@ const data = [
   {
     "shopName": "성북동콩집",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 성북동 161-15",
     "roadAddress": "서울특별시 성북구 성북로 58",
     "lng": 127.0024302,
@@ -868,7 +868,7 @@ const data = [
   {
     "shopName": "허준",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 901",
     "roadAddress": "서울특별시 금천구 시흥대로50길 12",
     "lng": 126.9029099,
@@ -877,7 +877,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "인중독목동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 1005-8",
     "roadAddress": "서울특별시 양천구 오목로50길 24",
     "lng": 126.8640746,
@@ -886,7 +886,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "화곡DT점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 772-67",
     "roadAddress": "서울특별시 강서구 등촌로 57",
     "lng": 126.8631698,
@@ -895,7 +895,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 하월곡동 225-3",
     "roadAddress": "서울특별시 성북구 오패산로16길 37",
     "lng": 127.0382182,
@@ -904,7 +904,7 @@ const data = [
   {
     "shopName": "AMELATTE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 7-4",
     "roadAddress": "서울특별시 송파구 올림픽로 305",
     "lng": 127.1042,
@@ -913,7 +913,7 @@ const data = [
   {
     "shopName": "카페22",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 11-22",
     "roadAddress": "서울특별시 광진구 아차산로31길 54",
     "lng": 127.0704566,
@@ -940,7 +940,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아연대동문회관점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대신동 50-5",
     "roadAddress": "서울특별시 서대문구 성산로 515",
     "lng": 126.9433127,
@@ -949,7 +949,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "안암역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 92",
     "roadAddress": "서울특별시 성북구 고려대로 102-2",
     "lng": 127.0307477,
@@ -967,7 +967,7 @@ const data = [
   {
     "shopName": "앤츠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 대방동 501",
     "roadAddress": "서울특별시 동작구 여의대방로44길 10",
     "lng": 126.9244994,
@@ -976,7 +976,7 @@ const data = [
   {
     "shopName": "갤러리힐링카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 622",
     "roadAddress": "서울특별시 노원구 동일로174길 27",
     "lng": 127.0768966,
@@ -985,7 +985,7 @@ const data = [
   {
     "shopName": "카페디엠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 397-7",
     "roadAddress": "서울특별시 서초구 논현로5길 38",
     "lng": 127.0479661,
@@ -994,7 +994,7 @@ const data = [
   {
     "shopName": "와플",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 명륜1가 30-1",
     "roadAddress": "서울특별시 종로구 성균관로16길 15",
     "lng": 126.9989234,
@@ -1003,7 +1003,7 @@ const data = [
   {
     "shopName": "커피빈코리아서초역1번출구점",
     "branchName": "코리아서초역1번출구점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1553-3",
     "roadAddress": "서울특별시 서초구 서초대로 250",
     "lng": 127.0092578,
@@ -1012,7 +1012,7 @@ const data = [
   {
     "shopName": "그대를위한커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 506-1",
     "roadAddress": "서울특별시 서대문구 신촌로1길 26",
     "lng": 126.9287661,
@@ -1021,7 +1021,7 @@ const data = [
   {
     "shopName": "와플반트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 520-3",
     "roadAddress": "서울특별시 서초구 반포대로 217",
     "lng": 127.0033232,
@@ -1030,7 +1030,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "신세계도곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 467-17",
     "roadAddress": "서울특별시 강남구 언주로30길 57",
     "lng": 127.0541634,
@@ -1039,7 +1039,7 @@ const data = [
   {
     "shopName": "메핏커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 연지동 173",
     "roadAddress": "서울특별시 종로구 종로31길 48",
     "lng": 126.9989487,
@@ -1048,7 +1048,7 @@ const data = [
   {
     "shopName": "VOGUM",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 구기동 226-27",
     "roadAddress": "서울특별시 종로구 비봉5길 20",
     "lng": 126.9540305,
@@ -1057,7 +1057,7 @@ const data = [
   {
     "shopName": "LaundryProject",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 용산동2가 15-13",
     "roadAddress": "서울특별시 용산구 신흥로 78",
     "lng": 126.9864781,
@@ -1066,7 +1066,7 @@ const data = [
   {
     "shopName": "카페뮤",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동소문동3가 77",
     "roadAddress": "서울특별시 성북구 동소문로 64",
     "lng": 127.0127105,
@@ -1075,7 +1075,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아동부이촌점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이촌동 301-160",
     "roadAddress": "서울특별시 용산구 이촌로 303",
     "lng": 126.9811415,
@@ -1084,7 +1084,7 @@ const data = [
   {
     "shopName": "에트리움카페",
     "branchName": "스위스그랜드호텔",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍은동 201-1",
     "roadAddress": "서울특별시 서대문구 연희로 353",
     "lng": 126.9350006,
@@ -1093,7 +1093,7 @@ const data = [
   {
     "shopName": "귀천",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 관훈동 83",
     "roadAddress": "서울특별시 종로구 인사동14길 14",
     "lng": 126.9848752,
@@ -1102,7 +1102,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "반포역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 잠원동 58-24",
     "roadAddress": "서울특별시 서초구 나루터로4길 61",
     "lng": 127.0119225,
@@ -1111,7 +1111,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "강북수유점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 231-5",
     "roadAddress": "서울특별시 강북구 한천로 1095",
     "lng": 127.0217544,
@@ -1120,7 +1120,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "여의도공원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 12",
     "roadAddress": "서울특별시 영등포구 여의공원로 101",
     "lng": 126.9248723,
@@ -1129,7 +1129,7 @@ const data = [
   {
     "shopName": "설빙",
     "branchName": "성신여대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동1가 26",
     "roadAddress": "서울특별시 성북구 동소문로22길 36",
     "lng": 127.017962,
@@ -1138,7 +1138,7 @@ const data = [
   {
     "shopName": "탐앤탐스서울대입구점",
     "branchName": "서울대입구점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 862-3",
     "roadAddress": "서울특별시 관악구 관악로 173",
     "lng": 126.9522407,
@@ -1147,7 +1147,7 @@ const data = [
   {
     "shopName": "툴스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 1049-15",
     "roadAddress": "서울특별시 양천구 중앙로36길 22-5",
     "lng": 126.8565435,
@@ -1156,7 +1156,7 @@ const data = [
   {
     "shopName": "곳간",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 420-1",
     "roadAddress": "서울특별시 서대문구 성산로 317",
     "lng": 126.9255362,
@@ -1165,7 +1165,7 @@ const data = [
   {
     "shopName": "요거프레소",
     "branchName": "장승배기역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 365-1",
     "roadAddress": "서울특별시 동작구 상도로 177",
     "lng": 126.9382661,
@@ -1174,7 +1174,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "청담스타점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 89-4",
     "roadAddress": "서울특별시 강남구 도산대로57길 24",
     "lng": 127.0418193,
@@ -1183,7 +1183,7 @@ const data = [
   {
     "shopName": "보나비아티제",
     "branchName": "삼성생명본관점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 태평로2가 150",
     "roadAddress": "서울특별시 중구 세종대로 55",
     "lng": 126.9749573,
@@ -1192,7 +1192,7 @@ const data = [
   {
     "shopName": "다기전",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 102",
     "roadAddress": "서울특별시 광진구 아차산로78길 75",
     "lng": 127.1109711,
@@ -1201,7 +1201,7 @@ const data = [
   {
     "shopName": "종암중앙교회",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 종암동 70-110",
     "roadAddress": "서울특별시 성북구 종암로19길 18",
     "lng": 127.0336981,
@@ -1228,7 +1228,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "광운대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 465-10",
     "roadAddress": "서울특별시 노원구 광운로 29",
     "lng": 127.0584078,
@@ -1237,7 +1237,7 @@ const data = [
   {
     "shopName": "커피셀러",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 세곡동 515-2",
     "roadAddress": "서울특별시 강남구 헌릉로570길 32-1",
     "lng": 127.1033515,
@@ -1246,7 +1246,7 @@ const data = [
   {
     "shopName": "엘카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 782-3",
     "roadAddress": "서울특별시 영등포구 대림로 223",
     "lng": 126.897009,
@@ -1255,7 +1255,7 @@ const data = [
   {
     "shopName": "지하철",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 종로5가 182-4",
     "roadAddress": "서울특별시 종로구 동호로 408",
     "lng": 127.0022049,
@@ -1264,7 +1264,7 @@ const data = [
   {
     "shopName": "사튀로스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이촌동 302-48",
     "roadAddress": "서울특별시 용산구 이촌로62길 9",
     "lng": 126.9694708,
@@ -1273,7 +1273,7 @@ const data = [
   {
     "shopName": "커피식스",
     "branchName": "쥬스식스합정한강푸르지오점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 합정동 472",
     "roadAddress": "서울특별시 마포구 월드컵로1길 14",
     "lng": 126.9120459,
@@ -1282,7 +1282,7 @@ const data = [
   {
     "shopName": "503갤러리카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 50-3",
     "roadAddress": "서울특별시 강북구 덕릉로24길 26",
     "lng": 127.0216245,
@@ -1291,7 +1291,7 @@ const data = [
   {
     "shopName": "쥬씨",
     "branchName": "신천장미상가점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 17-4",
     "roadAddress": "서울특별시 송파구 올림픽로37길 130",
     "lng": 127.1044814,
@@ -1300,7 +1300,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아구로지밸리몰점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 188-25",
     "roadAddress": "서울특별시 구로구 디지털로 300",
     "lng": 126.8965278,
@@ -1309,7 +1309,7 @@ const data = [
   {
     "shopName": "까페파비노",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 거여동 42",
     "roadAddress": "서울특별시 송파구 거마로8길 6",
     "lng": 127.1455845,
@@ -1318,7 +1318,7 @@ const data = [
   {
     "shopName": "카페샹베르공덕코어점",
     "branchName": "공덕코어점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신공덕동 9-26",
     "roadAddress": "서울특별시 마포구 만리재로 47",
     "lng": 126.9558906,
@@ -1327,7 +1327,7 @@ const data = [
   {
     "shopName": "아리스타커피다동점",
     "branchName": "다동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 다동 117",
     "roadAddress": "서울특별시 중구 남대문로9길 12",
     "lng": 126.9817226,
@@ -1345,7 +1345,7 @@ const data = [
   {
     "shopName": "쥬씨위례트랜짓몰2호점",
     "branchName": "위례트랜짓몰2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 장지동 884",
     "roadAddress": "서울특별시 송파구 위례광장로 230",
     "lng": 127.1437439,
@@ -1354,7 +1354,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아여의도34번지점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 34-1",
     "roadAddress": "서울특별시 영등포구 국제금융로 52",
     "lng": 126.9294913,
@@ -1363,7 +1363,7 @@ const data = [
   {
     "shopName": "RABBITHOLE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 105-8",
     "roadAddress": "서울특별시 서초구 사평대로22길 32",
     "lng": 126.9975495,
@@ -1372,7 +1372,7 @@ const data = [
   {
     "shopName": "365차버블티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 917-6",
     "roadAddress": "서울특별시 양천구 목동동로 309",
     "lng": 126.875987,
@@ -1381,7 +1381,7 @@ const data = [
   {
     "shopName": "마리웨일마카롱상암SBA점",
     "branchName": "상암SBA점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1602",
     "roadAddress": "서울특별시 마포구 월드컵북로 400",
     "lng": 126.8898775,
@@ -1399,7 +1399,7 @@ const data = [
   {
     "shopName": "투썸플레이스쌍문중앙점",
     "branchName": "쌍문중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 659-4",
     "roadAddress": "서울특별시 도봉구 도봉로 482",
     "lng": 127.0349919,
@@ -1408,7 +1408,7 @@ const data = [
   {
     "shopName": "빈스앤와플",
     "branchName": "센트럴시티점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 19-3",
     "roadAddress": "서울특별시 서초구 신반포로 176",
     "lng": 127.0023932,
@@ -1417,7 +1417,7 @@ const data = [
   {
     "shopName": "구대회커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신수동 102-13",
     "roadAddress": "서울특별시 마포구 창전로2길 9",
     "lng": 126.9334561,
@@ -1426,7 +1426,7 @@ const data = [
   {
     "shopName": "콩닥콩닥써니카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 상봉동 50-8",
     "roadAddress": "서울특별시 중랑구 망우로55길 25",
     "lng": 127.0934647,
@@ -1435,7 +1435,7 @@ const data = [
   {
     "shopName": "투썸플레이스상도해링턴플레이스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 536",
     "roadAddress": "서울특별시 동작구 상도로 207",
     "lng": 126.9419637,
@@ -1444,7 +1444,7 @@ const data = [
   {
     "shopName": "쥬시",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 미근동 215",
     "roadAddress": "서울특별시 서대문구 충정로6길 59",
     "lng": 126.9685187,
@@ -1462,7 +1462,7 @@ const data = [
   {
     "shopName": "카페395",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남대문로5가 395",
     "roadAddress": "서울특별시 중구 소월로 50",
     "lng": 126.9754832,
@@ -1471,7 +1471,7 @@ const data = [
   {
     "shopName": "쥬씨구로역남부점",
     "branchName": "구로역남부점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 497-3",
     "roadAddress": "서울특별시 구로구 구로동로 241",
     "lng": 126.8822808,
@@ -1480,7 +1480,7 @@ const data = [
   {
     "shopName": "미스터투고",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 896-40",
     "roadAddress": "서울특별시 강남구 선릉로82길 43",
     "lng": 127.0534862,
@@ -1489,7 +1489,7 @@ const data = [
   {
     "shopName": "닥터스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 292-59",
     "roadAddress": "서울특별시 노원구 월계로 336",
     "lng": 127.057809,
@@ -1498,7 +1498,7 @@ const data = [
   {
     "shopName": "쥬씨독산점",
     "branchName": "독산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 286-8",
     "roadAddress": "서울특별시 금천구 시흥대로 406",
     "lng": 126.8984486,
@@ -1507,7 +1507,7 @@ const data = [
   {
     "shopName": "코지스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 가양동 1498",
     "roadAddress": "서울특별시 강서구 양천로 401",
     "lng": 126.8476262,
@@ -1516,7 +1516,7 @@ const data = [
   {
     "shopName": "오른손푸드카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1620-45",
     "roadAddress": "서울특별시 관악구 관악로14길 111",
     "lng": 126.9584865,
@@ -1525,7 +1525,7 @@ const data = [
   {
     "shopName": "쁘띠므띠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 상일동 172",
     "roadAddress": "서울특별시 강동구 상암로 309",
     "lng": 127.1565266,
@@ -1534,7 +1534,7 @@ const data = [
   {
     "shopName": "마피아커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1621-1",
     "roadAddress": "서울특별시 서초구 서초중앙로 50",
     "lng": 127.0157207,
@@ -1543,7 +1543,7 @@ const data = [
   {
     "shopName": "떼루와떼루와자양2호점",
     "branchName": "떼루와자양2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 608-19",
     "roadAddress": "서울특별시 광진구 뚝섬로 596",
     "lng": 127.0759248,
@@ -1552,7 +1552,7 @@ const data = [
   {
     "shopName": "루체에살레",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 북가좌동 335-2",
     "roadAddress": "서울특별시 서대문구 응암로 151",
     "lng": 126.9151486,
@@ -1561,7 +1561,7 @@ const data = [
   {
     "shopName": "커피볶는집",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 북가좌동 316-14",
     "roadAddress": "서울특별시 서대문구 거북골로 208",
     "lng": 126.9083085,
@@ -1570,7 +1570,7 @@ const data = [
   {
     "shopName": "슬로윗카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 1-2",
     "roadAddress": "서울특별시 성북구 안암로 145",
     "lng": 127.0317018,
@@ -1579,7 +1579,7 @@ const data = [
   {
     "shopName": "떼루와우면2호점",
     "branchName": "우면2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 우면동 755",
     "roadAddress": "서울특별시 서초구 양재대로2길 100-48",
     "lng": 127.0153507,
@@ -1588,7 +1588,7 @@ const data = [
   {
     "shopName": "맥다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 773",
     "roadAddress": "서울특별시 중구 마장로 3",
     "lng": 127.0105405,
@@ -1597,7 +1597,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "발산역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 내발산동 646",
     "roadAddress": "서울특별시 강서구 공항대로 284",
     "lng": 126.8390947,
@@ -1606,7 +1606,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "녹번동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 녹번동 131-158",
     "roadAddress": "서울특별시 은평구 진흥로 156",
     "lng": 126.9269573,
@@ -1615,7 +1615,7 @@ const data = [
   {
     "shopName": "에덴커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 392-33",
     "roadAddress": "서울특별시 마포구 양화로7길 6-16",
     "lng": 126.9157682,
@@ -1624,7 +1624,7 @@ const data = [
   {
     "shopName": "그린비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 698-6",
     "roadAddress": "서울특별시 강남구 테헤란로53길 57-17",
     "lng": 127.043739,
@@ -1642,7 +1642,7 @@ const data = [
   {
     "shopName": "ELLE커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 신사동 21-1",
     "roadAddress": "서울특별시 은평구 은평로 52",
     "lng": 126.9136402,
@@ -1651,7 +1651,7 @@ const data = [
   {
     "shopName": "딥다이브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 435-2",
     "roadAddress": "서울특별시 서초구 방배천로18길 36-5",
     "lng": 126.9848819,
@@ -1660,7 +1660,7 @@ const data = [
   {
     "shopName": "카페코나퀸즈",
     "branchName": "마포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 도화동 292-20",
     "roadAddress": "서울특별시 마포구 마포대로 34",
     "lng": 126.9461376,
@@ -1669,7 +1669,7 @@ const data = [
   {
     "shopName": "코코라",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 598-3",
     "roadAddress": "서울특별시 강남구 논현로 838",
     "lng": 127.02863,
@@ -1678,7 +1678,7 @@ const data = [
   {
     "shopName": "달콤커피서래마을점",
     "branchName": "서래마을점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 92-14",
     "roadAddress": "서울특별시 서초구 사평대로26길 26-7",
     "lng": 126.9985345,
@@ -1687,7 +1687,7 @@ const data = [
   {
     "shopName": "달콤커피",
     "branchName": "한남동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 634-14",
     "roadAddress": "서울특별시 용산구 한남대로21길 32",
     "lng": 127.006277,
@@ -1696,7 +1696,7 @@ const data = [
   {
     "shopName": "탐앤탐스삼성오라클점",
     "branchName": "삼성오라클점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 144-17",
     "roadAddress": "서울특별시 강남구 삼성로 511",
     "lng": 127.0555606,
@@ -1705,7 +1705,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "신월7동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 932-1",
     "roadAddress": "서울특별시 양천구 지양로 79",
     "lng": 126.8329747,
@@ -1714,7 +1714,7 @@ const data = [
   {
     "shopName": "RORI",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 우면동 8-6",
     "roadAddress": "서울특별시 서초구 바우뫼로2길 69",
     "lng": 127.0275854,
@@ -1723,7 +1723,7 @@ const data = [
   {
     "shopName": "벤센느",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 둔촌동 430-5",
     "roadAddress": "서울특별시 강동구 천호대로182길 22",
     "lng": 127.1405243,
@@ -1732,7 +1732,7 @@ const data = [
   {
     "shopName": "커피빈코리아선릉로93길점",
     "branchName": "코리아선릉로93길점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 696-42",
     "roadAddress": "서울특별시 강남구 선릉로93길 6",
     "lng": 127.0478832,
@@ -1741,7 +1741,7 @@ const data = [
   {
     "shopName": "더리터",
     "branchName": "신림점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1441-28",
     "roadAddress": "서울특별시 관악구 신림로71길 46",
     "lng": 126.9258132,
@@ -1750,7 +1750,7 @@ const data = [
   {
     "shopName": "아미엘리소호앤노호",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 92-6",
     "roadAddress": "서울특별시 강남구 도산대로50길 8",
     "lng": 127.0373039,
@@ -1759,7 +1759,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "서교동사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 374-20",
     "roadAddress": "서울특별시 마포구 양화로 105",
     "lng": 126.9185611,
@@ -1777,7 +1777,7 @@ const data = [
   {
     "shopName": "엔제리너스",
     "branchName": "상일경희병원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 상일동 149",
     "roadAddress": "서울특별시 강동구 동남로 892",
     "lng": 127.1569476,
@@ -1786,7 +1786,7 @@ const data = [
   {
     "shopName": "일이COFFEESHOP",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 277-17",
     "roadAddress": "서울특별시 성동구 성수이로 118",
     "lng": 127.0578375,
@@ -1795,7 +1795,7 @@ const data = [
   {
     "shopName": "로지커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 원효로1가 43-19",
     "roadAddress": "서울특별시 용산구 백범로87길 48-5",
     "lng": 126.9693902,
@@ -1804,7 +1804,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "동대문디자인플라자점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로7가 2-1",
     "roadAddress": "서울특별시 중구 을지로 281",
     "lng": 127.0108895,
@@ -1813,7 +1813,7 @@ const data = [
   {
     "shopName": "에스뚜체",
     "branchName": "도곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 467-24",
     "roadAddress": "서울특별시 강남구 언주로 118",
     "lng": 127.0518416,
@@ -1822,7 +1822,7 @@ const data = [
   {
     "shopName": "북카페뉴스타파",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 필동2가 19-5",
     "roadAddress": "서울특별시 중구 퇴계로 212-13",
     "lng": 126.9956715,
@@ -1831,7 +1831,7 @@ const data = [
   {
     "shopName": "산유화카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 부암동 95-7",
     "roadAddress": "서울특별시 종로구 백석동길 203",
     "lng": 126.968132,
@@ -1840,7 +1840,7 @@ const data = [
   {
     "shopName": "요거프레소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 60-27",
     "roadAddress": "서울특별시 금천구 디지털로 188",
     "lng": 126.8876625,
@@ -1849,7 +1849,7 @@ const data = [
   {
     "shopName": "코스트코코리아푸드코트커피코너",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 217-6",
     "roadAddress": "서울특별시 서초구 양재대로 159",
     "lng": 127.036139,
@@ -1858,7 +1858,7 @@ const data = [
   {
     "shopName": "선주카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 126-1",
     "roadAddress": "서울특별시 광진구 강변북로 2230",
     "lng": 127.0678009,
@@ -1867,7 +1867,7 @@ const data = [
   {
     "shopName": "과일나라커피공주",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 9-7",
     "roadAddress": "서울특별시 송파구 송이로 202",
     "lng": 127.1281336,
@@ -1876,7 +1876,7 @@ const data = [
   {
     "shopName": "토프레소양평동사거리점",
     "branchName": "양평동사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동6가 346-2",
     "roadAddress": "서울특별시 영등포구 양평로12가길 2",
     "lng": 126.9007157,
@@ -1885,7 +1885,7 @@ const data = [
   {
     "shopName": "스터디카페36.5",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 삼전동 133-6",
     "roadAddress": "서울특별시 송파구 백제고분로 263",
     "lng": 127.0957841,
@@ -1948,7 +1948,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "열공다방스터디",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 장위동 218-32",
     "roadAddress": "서울특별시 성북구 월계로 172",
     "lng": 127.0448733,
@@ -1957,7 +1957,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "열린문타로",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 652",
     "roadAddress": "서울특별시 도봉구 해등로 155",
     "lng": 127.0390337,
@@ -1966,7 +1966,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 234-14",
     "roadAddress": "서울특별시 중랑구 중랑역로 242",
     "lng": 127.0755238,
@@ -1975,7 +1975,7 @@ const data = [
   {
     "shopName": "모리티아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 284-63",
     "roadAddress": "서울특별시 성동구 아차산로5길 10",
     "lng": 127.052568,
@@ -1984,7 +1984,7 @@ const data = [
   {
     "shopName": "공부인스터디카페노원마들센타",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 651-4",
     "roadAddress": "서울특별시 노원구 동일로 1547",
     "lng": 127.0569173,
@@ -1993,7 +1993,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "길음역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 길음동 1276",
     "roadAddress": "서울특별시 성북구 동소문로 248",
     "lng": 127.0235872,
@@ -2002,7 +2002,7 @@ const data = [
   {
     "shopName": "찬스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동4가 80",
     "roadAddress": "서울특별시 영등포구 선유로49길 23",
     "lng": 126.8950373,
@@ -2011,7 +2011,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "그로잉스터디",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 440-23",
     "roadAddress": "서울특별시 강동구 양재대로 1311",
     "lng": 127.1341679,
@@ -2020,7 +2020,7 @@ const data = [
   {
     "shopName": "빽다방월계광운대점",
     "branchName": "월계광운대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 393-14",
     "roadAddress": "서울특별시 노원구 광운로 43",
     "lng": 127.0589953,
@@ -2029,7 +2029,7 @@ const data = [
   {
     "shopName": "오설록현대백화점목동점",
     "branchName": "현대백화점목동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 916",
     "roadAddress": "서울특별시 양천구 목동동로 257",
     "lng": 126.8746818,
@@ -2038,7 +2038,7 @@ const data = [
   {
     "shopName": "한경헌",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 가회동 11-61",
     "roadAddress": "서울특별시 종로구 창덕궁길 170",
     "lng": 126.986561,
@@ -2047,7 +2047,7 @@ const data = [
   {
     "shopName": "이야기커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 359",
     "roadAddress": "서울특별시 노원구 상계로3길 50",
     "lng": 127.0629484,
@@ -2056,7 +2056,7 @@ const data = [
   {
     "shopName": "달콤",
     "branchName": "커피영등포로터리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동1가 94-2",
     "roadAddress": "서울특별시 영등포구 경인로 900",
     "lng": 126.9128317,
@@ -2065,7 +2065,7 @@ const data = [
   {
     "shopName": "카페롱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 삼전동 31-4",
     "roadAddress": "서울특별시 송파구 백제고분로22길 16",
     "lng": 127.0887184,
@@ -2074,7 +2074,7 @@ const data = [
   {
     "shopName": "카페담",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 87-14",
     "roadAddress": "서울특별시 서대문구 연희로20길 17",
     "lng": 126.934469,
@@ -2083,7 +2083,7 @@ const data = [
   {
     "shopName": "마노커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 407-26",
     "roadAddress": "서울특별시 마포구 잔다리로 7",
     "lng": 126.9221447,
@@ -2092,7 +2092,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "신림점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1432-72",
     "roadAddress": "서울특별시 관악구 신림로 353-1",
     "lng": 126.9292248,
@@ -2110,7 +2110,7 @@ const data = [
   {
     "shopName": "시모네타의정원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 59-11",
     "roadAddress": "서울특별시 강남구 삼성로122길 42",
     "lng": 127.0557017,
@@ -2119,7 +2119,7 @@ const data = [
   {
     "shopName": "셀렉토커피",
     "branchName": "목동남부법원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 1009-4",
     "roadAddress": "서울특별시 양천구 신월로 387",
     "lng": 126.8639795,
@@ -2128,7 +2128,7 @@ const data = [
   {
     "shopName": "엘카페커피로스터스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동5가 2-1",
     "roadAddress": "서울특별시 영등포구 양평로21나길 7",
     "lng": 126.8923473,
@@ -2137,7 +2137,7 @@ const data = [
   {
     "shopName": "래핑폭스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 128-25",
     "roadAddress": "서울특별시 서대문구 연희로11나길 5",
     "lng": 126.9283077,
@@ -2146,7 +2146,7 @@ const data = [
   {
     "shopName": "카페벨라노이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 829",
     "roadAddress": "서울특별시 강서구 금낭화로 287-50",
     "lng": 126.8124598,
@@ -2155,7 +2155,7 @@ const data = [
   {
     "shopName": "보그너커피",
     "branchName": "영등포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동2가 147",
     "roadAddress": "서울특별시 영등포구 영등포로53길 1",
     "lng": 126.9118675,
@@ -2164,7 +2164,7 @@ const data = [
   {
     "shopName": "파스쿠찌",
     "branchName": "스페이스본점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 사직동 9",
     "roadAddress": "서울특별시 종로구 사직로8길 4",
     "lng": 126.9685989,
@@ -2173,7 +2173,7 @@ const data = [
   {
     "shopName": "커피보니또",
     "branchName": "등촌점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 630-6",
     "roadAddress": "서울특별시 강서구 양천로60길 19",
     "lng": 126.8591804,
@@ -2182,7 +2182,7 @@ const data = [
   {
     "shopName": "던킨",
     "branchName": "삼성GEC점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 상일동 500",
     "roadAddress": "서울특별시 강동구 상일로6길 26",
     "lng": 127.1753075,
@@ -2191,7 +2191,7 @@ const data = [
   {
     "shopName": "마녀주스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 36-2",
     "roadAddress": "서울특별시 영등포구 국제금융로6길 33",
     "lng": 126.9268944,
@@ -2200,7 +2200,7 @@ const data = [
   {
     "shopName": "노블",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 신사동 1-91",
     "roadAddress": "서울특별시 은평구 갈현로4길 46",
     "lng": 126.9146149,
@@ -2209,7 +2209,7 @@ const data = [
   {
     "shopName": "커피사피엔스",
     "branchName": "신방화역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 739-2",
     "roadAddress": "서울특별시 강서구 마곡중앙5로 87",
     "lng": 126.8177536,
@@ -2218,7 +2218,7 @@ const data = [
   {
     "shopName": "엘리스토리커피볶는집",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 332-1",
     "roadAddress": "서울특별시 서초구 강남대로8길 39-15",
     "lng": 127.0421838,
@@ -2227,7 +2227,7 @@ const data = [
   {
     "shopName": "오프커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 316-5",
     "roadAddress": "서울특별시 성동구 연무장길 29-17",
     "lng": 127.052663,
@@ -2236,7 +2236,7 @@ const data = [
   {
     "shopName": "커피브라더",
     "branchName": "강남점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 664-16",
     "roadAddress": "서울특별시 강남구 언주로99길 21-3",
     "lng": 127.0391912,
@@ -2245,7 +2245,7 @@ const data = [
   {
     "shopName": "더카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 159",
     "roadAddress": "서울특별시 강남구 영동대로 513",
     "lng": 127.0591391,
@@ -2254,7 +2254,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "신세계플라워",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 동작동 산41-2",
     "roadAddress": "서울특별시 동작구 현충로 210",
     "lng": 126.9783926,
@@ -2263,7 +2263,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "베데스다",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 270-55",
     "roadAddress": "서울특별시 강북구 노해로23길 104",
     "lng": 127.0185677,
@@ -2272,7 +2272,7 @@ const data = [
   {
     "shopName": "OFFOF",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1672-19",
     "roadAddress": "서울특별시 관악구 행운1길 30",
     "lng": 126.9576298,
@@ -2281,7 +2281,7 @@ const data = [
   {
     "shopName": "아마폴라델리선릉점",
     "branchName": "선릉점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 700-6",
     "roadAddress": "서울특별시 강남구 언주로 510",
     "lng": 127.0423238,
@@ -2290,7 +2290,7 @@ const data = [
   {
     "shopName": "투썸플레이스올리브영본점",
     "branchName": "올리브영본점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 명동1가 8-1",
     "roadAddress": "서울특별시 중구 명동길 53",
     "lng": 126.9851561,
@@ -2299,7 +2299,7 @@ const data = [
   {
     "shopName": "잭카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 481-11",
     "roadAddress": "서울특별시 금천구 가마산로 96",
     "lng": 126.8774476,
@@ -2308,7 +2308,7 @@ const data = [
   {
     "shopName": "cafecurve",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 신대방동 346-17",
     "roadAddress": "서울특별시 동작구 보라매로 98-6",
     "lng": 126.9284332,
@@ -2326,7 +2326,7 @@ const data = [
   {
     "shopName": "스플24스터디카페한티역센터",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 936-15",
     "roadAddress": "서울특별시 강남구 선릉로64길 18",
     "lng": 127.0537151,
@@ -2344,7 +2344,7 @@ const data = [
   {
     "shopName": "키브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 828-5",
     "roadAddress": "서울특별시 강남구 테헤란로8길 33",
     "lng": 127.0324904,
@@ -2353,7 +2353,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "신촌CGV스윗바점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 20-25",
     "roadAddress": "서울특별시 서대문구 신촌로 129",
     "lng": 126.9403142,
@@ -2362,7 +2362,7 @@ const data = [
   {
     "shopName": "하우즈커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 195-6",
     "roadAddress": "서울특별시 송파구 백제고분로9길 5",
     "lng": 127.0796427,
@@ -2371,7 +2371,7 @@ const data = [
   {
     "shopName": "루나스터디카페",
     "branchName": "루나스터디",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 107-6",
     "roadAddress": "서울특별시 강동구 올림픽로 580",
     "lng": 127.121891,
@@ -2380,7 +2380,7 @@ const data = [
   {
     "shopName": "평상시",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 419-8",
     "roadAddress": "서울특별시 마포구 망원로 23",
     "lng": 126.8995719,
@@ -2389,7 +2389,7 @@ const data = [
   {
     "shopName": "커피나무",
     "branchName": "어린이대공원역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 38-1",
     "roadAddress": "서울특별시 광진구 면목로3길 40-22",
     "lng": 127.0744472,
@@ -2398,7 +2398,7 @@ const data = [
   {
     "shopName": "파브리끄",
     "branchName": "역삼GFC점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 738-1",
     "roadAddress": "서울특별시 강남구 역삼로17길 64",
     "lng": 127.0366044,
@@ -2425,7 +2425,7 @@ const data = [
   {
     "shopName": "메가박스",
     "branchName": "중앙스템커피",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 656-335",
     "roadAddress": "서울특별시 성동구 왕십리로 50",
     "lng": 127.0448881,
@@ -2434,7 +2434,7 @@ const data = [
   {
     "shopName": "마카롱쿠튀르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 523-33",
     "roadAddress": "서울특별시 강남구 압구정로4길 13-4",
     "lng": 127.0205165,
@@ -2443,7 +2443,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "석수역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 979-4",
     "roadAddress": "서울특별시 금천구 시흥대로 8",
     "lng": 126.9034703,
@@ -2452,7 +2452,7 @@ const data = [
   {
     "shopName": "DUSK",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 570-1",
     "roadAddress": "서울특별시 강남구 논현로167길 19",
     "lng": 127.0264657,
@@ -2461,7 +2461,7 @@ const data = [
   {
     "shopName": "카페앤",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 통인동 112",
     "roadAddress": "서울특별시 종로구 자하문로 49-1",
     "lng": 126.9709178,
@@ -2470,7 +2470,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "까치산로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1167",
     "roadAddress": "서울특별시 강서구 까치산로 182",
     "lng": 126.8538719,
@@ -2479,7 +2479,7 @@ const data = [
   {
     "shopName": "빈트리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 241-69",
     "roadAddress": "서울특별시 은평구 백련산로 83",
     "lng": 126.9228331,
@@ -2488,7 +2488,7 @@ const data = [
   {
     "shopName": "아러바우트",
     "branchName": "한남",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 665-29",
     "roadAddress": "서울특별시 용산구 대사관로8길 15",
     "lng": 127.0008252,
@@ -2497,7 +2497,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "묵동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 169-12",
     "roadAddress": "서울특별시 중랑구 동일로 952",
     "lng": 127.0768659,
@@ -2515,7 +2515,7 @@ const data = [
   {
     "shopName": "샤크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 770",
     "roadAddress": "서울특별시 강남구 역삼로 214",
     "lng": 127.0406506,
@@ -2542,7 +2542,7 @@ const data = [
   {
     "shopName": "스위트룸카페",
     "branchName": "명동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 명동2가 53-11",
     "roadAddress": "서울특별시 중구 명동4길 31",
     "lng": 126.9840723,
@@ -2551,7 +2551,7 @@ const data = [
   {
     "shopName": "초심스터디카페",
     "branchName": "강서화곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1008-26",
     "roadAddress": "서울특별시 강서구 강서로45길 29",
     "lng": 126.8345261,
@@ -2560,7 +2560,7 @@ const data = [
   {
     "shopName": "에딕티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 명동2가 54-26",
     "roadAddress": "서울특별시 중구 명동4길 15",
     "lng": 126.9837898,
@@ -2569,7 +2569,7 @@ const data = [
   {
     "shopName": "레이디언트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 142-36",
     "roadAddress": "서울특별시 광진구 능동로38길 41",
     "lng": 127.0821008,
@@ -2578,7 +2578,7 @@ const data = [
   {
     "shopName": "빵어니스타",
     "branchName": "여의도점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 34-8",
     "roadAddress": "서울특별시 영등포구 국제금융로8길 16",
     "lng": 126.9288669,
@@ -2587,7 +2587,7 @@ const data = [
   {
     "shopName": "토팡가커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 537-16",
     "roadAddress": "서울특별시 강동구 성내로5길 21",
     "lng": 127.1235611,
@@ -2596,7 +2596,7 @@ const data = [
   {
     "shopName": "카페노어스(cafenous)",
     "branchName": "노어스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 610",
     "roadAddress": "서울특별시 광진구 구의강변로 94",
     "lng": 127.0950517,
@@ -2605,7 +2605,7 @@ const data = [
   {
     "shopName": "디열커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 72-8",
     "roadAddress": "서울특별시 성동구 성수일로 10",
     "lng": 127.0488112,
@@ -2614,7 +2614,7 @@ const data = [
   {
     "shopName": "비에이블스터디카페",
     "branchName": "마포도화센터",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 도화동 205-14",
     "roadAddress": "서울특별시 마포구 삼개로 27",
     "lng": 126.9475593,
@@ -2623,7 +2623,7 @@ const data = [
   {
     "shopName": "만랩커피광화문로얄빌딩점",
     "branchName": "광화문로얄빌딩점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 당주동 5",
     "roadAddress": "서울특별시 종로구 새문안로5길 19",
     "lng": 126.9742713,
@@ -2632,7 +2632,7 @@ const data = [
   {
     "shopName": "브라운시티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 합정동 412-4",
     "roadAddress": "서울특별시 마포구 독막로 27",
     "lng": 126.9165724,
@@ -2641,7 +2641,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "방이초교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 167-1",
     "roadAddress": "서울특별시 송파구 가락로 280",
     "lng": 127.1199837,
@@ -2650,7 +2650,7 @@ const data = [
   {
     "shopName": "유즈풀",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 120-34",
     "roadAddress": "서울특별시 은평구 응암로21가길 29",
     "lng": 126.9181338,
@@ -2659,7 +2659,7 @@ const data = [
   {
     "shopName": "데이원커피바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 남영동 98-5",
     "roadAddress": "서울특별시 용산구 한강대로76길 11-18",
     "lng": 126.97374,
@@ -2668,7 +2668,7 @@ const data = [
   {
     "shopName": "더박스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 503",
     "roadAddress": "서울특별시 광진구 광나루로 369",
     "lng": 127.0710369,
@@ -2677,7 +2677,7 @@ const data = [
   {
     "shopName": "소울컵",
     "branchName": "잠실점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 29",
     "roadAddress": "서울특별시 송파구 올림픽로 300",
     "lng": 127.1042839,
@@ -2686,7 +2686,7 @@ const data = [
   {
     "shopName": "뭄미",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 197-10",
     "roadAddress": "서울특별시 강서구 양천로30길 56",
     "lng": 126.822577,
@@ -2695,7 +2695,7 @@ const data = [
   {
     "shopName": "커피지인",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1337-6",
     "roadAddress": "서울특별시 서초구 강남대로51길 10",
     "lng": 127.0292715,
@@ -2704,7 +2704,7 @@ const data = [
   {
     "shopName": "사이사",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 656-1004",
     "roadAddress": "서울특별시 성동구 왕십리로14길 34-8",
     "lng": 127.0475674,
@@ -2713,7 +2713,7 @@ const data = [
   {
     "shopName": "오후홍콩",
     "branchName": "대학로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 명륜4가 134-1",
     "roadAddress": "서울특별시 종로구 대학로9길 29",
     "lng": 127.000235,
@@ -2722,7 +2722,7 @@ const data = [
   {
     "shopName": "위넌스터디카페",
     "branchName": "상왕십리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 황학동 1101-1",
     "roadAddress": "서울특별시 중구 난계로 185",
     "lng": 127.0232482,
@@ -2731,7 +2731,7 @@ const data = [
   {
     "shopName": "그리다꿈숭실대점",
     "branchName": "숭실대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 505-6",
     "roadAddress": "서울특별시 동작구 사당로 20",
     "lng": 126.9566984,
@@ -2740,7 +2740,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "달레트",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동1가 20",
     "roadAddress": "서울특별시 영등포구 영등포로12길 8",
     "lng": 126.887017,
@@ -2749,7 +2749,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "소을갤러리",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 326-6",
     "roadAddress": "서울특별시 마포구 와우산로 161",
     "lng": 126.9303149,
@@ -2758,7 +2758,7 @@ const data = [
   {
     "shopName": "알키미스타",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 592-61",
     "roadAddress": "서울특별시 은평구 응암로9길 24",
     "lng": 126.9138736,
@@ -2767,7 +2767,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "SRT수서역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 수서동 214-2",
     "roadAddress": "서울특별시 강남구 밤고개로 99",
     "lng": 127.1045418,
@@ -2776,7 +2776,7 @@ const data = [
   {
     "shopName": "뷰클랜드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 45-18",
     "roadAddress": "서울특별시 송파구 백제고분로43길 10",
     "lng": 127.1095726,
@@ -2785,7 +2785,7 @@ const data = [
   {
     "shopName": "R카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 익선동 166-6",
     "roadAddress": "서울특별시 종로구 돈화문로11다길 27",
     "lng": 126.9903729,
@@ -2794,7 +2794,7 @@ const data = [
   {
     "shopName": "몽비현스터디카페",
     "branchName": "압구정점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 525-20",
     "roadAddress": "서울특별시 강남구 압구정로8길 10",
     "lng": 127.0212954,
@@ -2803,7 +2803,7 @@ const data = [
   {
     "shopName": "바빈스커피",
     "branchName": "성수역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 289-319",
     "roadAddress": "서울특별시 성동구 성수이로 147",
     "lng": 127.057552,
@@ -2812,7 +2812,7 @@ const data = [
   {
     "shopName": "커피스위트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 468-4",
     "roadAddress": "서울특별시 금천구 벚꽃로 309",
     "lng": 126.8825452,
@@ -2821,7 +2821,7 @@ const data = [
   {
     "shopName": "커피온리",
     "branchName": "종로3가점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 종로3가 103-2",
     "roadAddress": "서울특별시 종로구 수표로 98",
     "lng": 126.9895821,
@@ -2830,7 +2830,7 @@ const data = [
   {
     "shopName": "그레트힐란",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 229-17",
     "roadAddress": "서울특별시 용산구 회나무로 60-1",
     "lng": 126.9932442,
@@ -2839,7 +2839,7 @@ const data = [
   {
     "shopName": "새검정",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 합정동 366-3",
     "roadAddress": "서울특별시 마포구 독막로2길 17",
     "lng": 126.9147493,
@@ -2848,7 +2848,7 @@ const data = [
   {
     "shopName": "모므로살롱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 668-40",
     "roadAddress": "서울특별시 성동구 서울숲2길 45-1",
     "lng": 127.0438124,
@@ -2857,7 +2857,7 @@ const data = [
   {
     "shopName": "산재카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1365-7",
     "roadAddress": "서울특별시 서초구 강남대로37길 49",
     "lng": 127.0308843,
@@ -2866,7 +2866,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "자양동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 624-33",
     "roadAddress": "서울특별시 광진구 자양로13길 28",
     "lng": 127.0825403,
@@ -2875,7 +2875,7 @@ const data = [
   {
     "shopName": "카페드파리",
     "branchName": "명동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 충무로2가 66-5",
     "roadAddress": "서울특별시 중구 명동10길 40",
     "lng": 126.9855913,
@@ -2884,7 +2884,7 @@ const data = [
   {
     "shopName": "일월십사일",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 130-36",
     "roadAddress": "서울특별시 광진구 군자로 113",
     "lng": 127.0722589,
@@ -2893,7 +2893,7 @@ const data = [
   {
     "shopName": "어나더쏭",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 55-4",
     "roadAddress": "서울특별시 광진구 긴고랑로30길 10",
     "lng": 127.0867142,
@@ -2902,7 +2902,7 @@ const data = [
   {
     "shopName": "오후의파이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 석촌동 12",
     "roadAddress": "서울특별시 송파구 삼학사로16길 4",
     "lng": 127.0976752,
@@ -2911,7 +2911,7 @@ const data = [
   {
     "shopName": "헤이보울",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 321-70",
     "roadAddress": "서울특별시 성동구 성수이로7가길 13",
     "lng": 127.0550441,
@@ -2920,7 +2920,7 @@ const data = [
   {
     "shopName": "덤앤더머",
     "branchName": "홍대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 404-5",
     "roadAddress": "서울특별시 마포구 독막로7길 48",
     "lng": 126.9199028,
@@ -2947,7 +2947,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "연세암병원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 신촌동 134",
     "roadAddress": "서울특별시 서대문구 연세로 50",
     "lng": 126.9429168,
@@ -2956,7 +2956,7 @@ const data = [
   {
     "shopName": "카페아르크",
     "branchName": "아르크",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 사직동 262-4",
     "roadAddress": "서울특별시 종로구 인왕산로 3",
     "lng": 126.9671689,
@@ -2965,7 +2965,7 @@ const data = [
   {
     "shopName": "코런트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 계동 3-2",
     "roadAddress": "서울특별시 종로구 계동길 128",
     "lng": 126.9869945,
@@ -2974,7 +2974,7 @@ const data = [
   {
     "shopName": "익선동사주카페",
     "branchName": "마당플라워",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 익선동 166-23",
     "roadAddress": "서울특별시 종로구 수표로28길 33-12",
     "lng": 126.9901884,
@@ -2983,7 +2983,7 @@ const data = [
   {
     "shopName": "루디먼트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 289-75",
     "roadAddress": "서울특별시 성동구 아차산로7길 15-8",
     "lng": 127.0545026,
@@ -2992,7 +2992,7 @@ const data = [
   {
     "shopName": "꾸꾸커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 233-2",
     "roadAddress": "서울특별시 강남구 논현로114길 18",
     "lng": 127.0348926,
@@ -3001,7 +3001,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "셀독24스터디",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 544-13",
     "roadAddress": "서울특별시 강남구 도곡로22길 5",
     "lng": 127.0396953,
@@ -3010,7 +3010,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 797-1",
     "roadAddress": "서울특별시 강서구 공항대로 247",
     "lng": 126.8348098,
@@ -3028,7 +3028,7 @@ const data = [
   {
     "shopName": "커피보헤미안사람들",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 171",
     "roadAddress": "서울특별시 송파구 위례성대로 58",
     "lng": 127.1191004,
@@ -3037,7 +3037,7 @@ const data = [
   {
     "shopName": "샌드위치카페",
     "branchName": "하이나",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 911-1",
     "roadAddress": "서울특별시 서초구 방배로13길 19",
     "lng": 126.9953825,
@@ -3046,7 +3046,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "여의도롯데캐슬아이비점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 43-4",
     "roadAddress": "서울특별시 영등포구 국제금융로 86",
     "lng": 126.9317785,
@@ -3055,7 +3055,7 @@ const data = [
   {
     "shopName": "원모어프로포즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 223-44",
     "roadAddress": "서울특별시 마포구 성미산로31길 13",
     "lng": 126.9255188,
@@ -3064,7 +3064,7 @@ const data = [
   {
     "shopName": "르쉬드서울",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 164-5",
     "roadAddress": "서울특별시 송파구 위례성대로12길 18",
     "lng": 127.1218014,
@@ -3073,7 +3073,7 @@ const data = [
   {
     "shopName": "륜",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 136-4",
     "roadAddress": "서울특별시 송파구 동남로11길 13",
     "lng": 127.1273866,
@@ -3082,7 +3082,7 @@ const data = [
   {
     "shopName": "민트하임",
     "branchName": "홍대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 366-28",
     "roadAddress": "서울특별시 마포구 잔다리로6길 28",
     "lng": 126.9206161,
@@ -3091,7 +3091,7 @@ const data = [
   {
     "shopName": "더리터",
     "branchName": "상수역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상수동 86-55",
     "roadAddress": "서울특별시 마포구 와우산로 57",
     "lng": 126.922871,
@@ -3100,7 +3100,7 @@ const data = [
   {
     "shopName": "바이엠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 32-6",
     "roadAddress": "서울특별시 동작구 상도로34길 1",
     "lng": 126.9461392,
@@ -3109,7 +3109,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "신길성애병원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 466-1",
     "roadAddress": "서울특별시 영등포구 여의대방로53길 27",
     "lng": 126.9215363,
@@ -3118,7 +3118,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "합정홈플러스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 490",
     "roadAddress": "서울특별시 마포구 양화로 45",
     "lng": 126.9139374,
@@ -3127,7 +3127,7 @@ const data = [
   {
     "shopName": "컨딩커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 37-77",
     "roadAddress": "서울특별시 광진구 아차산로21길 64",
     "lng": 127.0664102,
@@ -3136,7 +3136,7 @@ const data = [
   {
     "shopName": "커피앤키",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 1032-8",
     "roadAddress": "서울특별시 양천구 중앙로 256",
     "lng": 126.8536004,
@@ -3145,7 +3145,7 @@ const data = [
   {
     "shopName": "RJPOT",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 400-3",
     "roadAddress": "서울특별시 마포구 독막로7길 27",
     "lng": 126.9190416,
@@ -3154,7 +3154,7 @@ const data = [
   {
     "shopName": "달콤",
     "branchName": "한위로",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 성북동1가 47",
     "roadAddress": "서울특별시 성북구 창경궁로43길 24",
     "lng": 127.0041795,
@@ -3163,7 +3163,7 @@ const data = [
   {
     "shopName": "라딧프로젝트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 15-6",
     "roadAddress": "서울특별시 송파구 송파대로 450",
     "lng": 127.1061295,
@@ -3172,7 +3172,7 @@ const data = [
   {
     "shopName": "셀독24스터디카페",
     "branchName": "신림역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1640-44",
     "roadAddress": "서울특별시 관악구 신림로 323",
     "lng": 126.9295351,
@@ -3181,7 +3181,7 @@ const data = [
   {
     "shopName": "코너스톤엠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 명일동 250-14",
     "roadAddress": "서울특별시 강동구 양재대로134길 77",
     "lng": 127.1478966,
@@ -3190,7 +3190,7 @@ const data = [
   {
     "shopName": "천상가옥",
     "branchName": "성수점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 322-4",
     "roadAddress": "서울특별시 성동구 성수이로14길 14",
     "lng": 127.0568891,
@@ -3199,7 +3199,7 @@ const data = [
   {
     "shopName": "롯데월드잠실고메브릿지커피사피엔스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 40-1",
     "roadAddress": "서울특별시 송파구 송파대로 521",
     "lng": 127.0981244,
@@ -3208,7 +3208,7 @@ const data = [
   {
     "shopName": "카페넬비코로",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 내발산동 658",
     "roadAddress": "서울특별시 강서구 공항대로38길 80",
     "lng": 126.8420339,
@@ -3217,7 +3217,7 @@ const data = [
   {
     "shopName": "커농커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 행당동 70-6",
     "roadAddress": "서울특별시 성동구 살곶이길 346",
     "lng": 127.0411063,
@@ -3226,7 +3226,7 @@ const data = [
   {
     "shopName": "후엘고커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 염리동 128-7",
     "roadAddress": "서울특별시 마포구 마포대로11길 118",
     "lng": 126.9478671,
@@ -3235,7 +3235,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "동교동삼거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 374",
     "roadAddress": "서울특별시 서대문구 신촌로 1",
     "lng": 126.9273785,
@@ -3244,7 +3244,7 @@ const data = [
   {
     "shopName": "화유재",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로3가 40-37",
     "roadAddress": "서울특별시 용산구 이촌로29길 21-2",
     "lng": 126.9601536,
@@ -3253,7 +3253,7 @@ const data = [
   {
     "shopName": "카페베네서울대역점",
     "branchName": "서울대역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1601-1",
     "roadAddress": "서울특별시 관악구 남부순환로 1840",
     "lng": 126.9542807,
@@ -3262,7 +3262,7 @@ const data = [
   {
     "shopName": "망고3",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 647-47",
     "roadAddress": "서울특별시 관악구 봉천로23길 50",
     "lng": 126.9362895,
@@ -3271,7 +3271,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "가재울뉴타운점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 남가좌동 385",
     "roadAddress": "서울특별시 서대문구 가재울미래로 2",
     "lng": 126.9178279,
@@ -3280,7 +3280,7 @@ const data = [
   {
     "shopName": "레이니레인",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 94-25",
     "roadAddress": "서울특별시 광진구 능동로 166",
     "lng": 127.0734753,
@@ -3289,7 +3289,7 @@ const data = [
   {
     "shopName": "심포니오브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 107-80",
     "roadAddress": "서울특별시 서초구 사평대로18길 38",
     "lng": 126.9965263,
@@ -3298,7 +3298,7 @@ const data = [
   {
     "shopName": "벨라디저트카페",
     "branchName": "벨라디저트",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 335-8",
     "roadAddress": "서울특별시 금천구 두산로5길 7",
     "lng": 126.8900301,
@@ -3307,7 +3307,7 @@ const data = [
   {
     "shopName": "더앨리",
     "branchName": "홍대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 358-53",
     "roadAddress": "서울특별시 마포구 어울마당로 88",
     "lng": 126.9218741,
@@ -3316,7 +3316,7 @@ const data = [
   {
     "shopName": "오타르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1306-8",
     "roadAddress": "서울특별시 서초구 강남대로 415",
     "lng": 127.0263258,
@@ -3325,7 +3325,7 @@ const data = [
   {
     "shopName": "헬무트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 453-22",
     "roadAddress": "서울특별시 서초구 방배천로6길 3-10",
     "lng": 126.9828589,
@@ -3334,7 +3334,7 @@ const data = [
   {
     "shopName": "시너리",
     "branchName": "이수점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 155-13",
     "roadAddress": "서울특별시 동작구 사당로25가길 1",
     "lng": 126.9775194,
@@ -3343,7 +3343,7 @@ const data = [
   {
     "shopName": "ASSOULINE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 631-36",
     "roadAddress": "서울특별시 강남구 도산대로45길 11",
     "lng": 127.0351957,
@@ -3352,7 +3352,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "목동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 907-17",
     "roadAddress": "서울특별시 양천구 목동동로 379",
     "lng": 126.878696,
@@ -3361,7 +3361,7 @@ const data = [
   {
     "shopName": "쑤다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 가리봉동 134-31",
     "roadAddress": "서울특별시 구로구 남부순환로105나길 32-1",
     "lng": 126.8926484,
@@ -3370,7 +3370,7 @@ const data = [
   {
     "shopName": "플랜스터디카페",
     "branchName": "묵동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 240-174",
     "roadAddress": "서울특별시 중랑구 동일로163길 37",
     "lng": 127.0750645,
@@ -3379,7 +3379,7 @@ const data = [
   {
     "shopName": "타임유스터디카페",
     "branchName": "상일동역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 고덕동 210-3",
     "roadAddress": "서울특별시 강동구 고덕로83길 12",
     "lng": 127.1688953,
@@ -3388,7 +3388,7 @@ const data = [
   {
     "shopName": "중심",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 353-2",
     "roadAddress": "서울특별시 마포구 양화로 129",
     "lng": 126.9206541,
@@ -3397,7 +3397,7 @@ const data = [
   {
     "shopName": "로이즈",
     "branchName": "제2롯데월드몰점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 29",
     "roadAddress": "서울특별시 송파구 올림픽로 300",
     "lng": 127.1042839,
@@ -3406,7 +3406,7 @@ const data = [
   {
     "shopName": "모호",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 117-2",
     "roadAddress": "서울특별시 서초구 양재천로7길 1",
     "lng": 127.0360487,
@@ -3415,7 +3415,7 @@ const data = [
   {
     "shopName": "FRESHJOY",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 49-17",
     "roadAddress": "서울특별시 강남구 강남대로 562",
     "lng": 127.0212303,
@@ -3424,7 +3424,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "포레스트",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 323-25",
     "roadAddress": "서울특별시 동작구 국사봉길 13",
     "lng": 126.9290105,
@@ -3442,7 +3442,7 @@ const data = [
   {
     "shopName": "폴바셋",
     "branchName": "여의도IFC몰점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 23",
     "roadAddress": "서울특별시 영등포구 국제금융로 10",
     "lng": 126.9248631,
@@ -3451,7 +3451,7 @@ const data = [
   {
     "shopName": "캐치카페",
     "branchName": "서울대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 863-1",
     "roadAddress": "서울특별시 관악구 관악로 165",
     "lng": 126.9520914,
@@ -3460,7 +3460,7 @@ const data = [
   {
     "shopName": "애담커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 527-11",
     "roadAddress": "서울특별시 관악구 난곡로66길 14",
     "lng": 126.9152194,
@@ -3469,7 +3469,7 @@ const data = [
   {
     "shopName": "세인트앤드류스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 175-9",
     "roadAddress": "서울특별시 송파구 올림픽로 82",
     "lng": 127.0796744,
@@ -3478,7 +3478,7 @@ const data = [
   {
     "shopName": "빵카페목동점1",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 329-10",
     "roadAddress": "서울특별시 양천구 목동동로 150",
     "lng": 126.8704499,
@@ -3487,7 +3487,7 @@ const data = [
   {
     "shopName": "러브낚시카페",
     "branchName": "신림점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 892-23",
     "roadAddress": "서울특별시 관악구 봉천로 421",
     "lng": 126.9470069,
@@ -3496,7 +3496,7 @@ const data = [
   {
     "shopName": "버드더카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남산동1가 13-6",
     "roadAddress": "서울특별시 중구 퇴계로18길 46",
     "lng": 126.9844426,
@@ -3505,7 +3505,7 @@ const data = [
   {
     "shopName": "JHIDDENHOUSE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 종로6가 94",
     "roadAddress": "서울특별시 종로구 종로 269-4",
     "lng": 127.0079463,
@@ -3514,7 +3514,7 @@ const data = [
   {
     "shopName": "모조커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 1042-8",
     "roadAddress": "서울특별시 동작구 동작대로1길 8",
     "lng": 126.9809481,
@@ -3523,7 +3523,7 @@ const data = [
   {
     "shopName": "투썸플레이스선유도역점",
     "branchName": "선유도역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동4가 191-1",
     "roadAddress": "서울특별시 영등포구 양평로22길 10",
     "lng": 126.8946304,
@@ -3532,7 +3532,7 @@ const data = [
   {
     "shopName": "봄날과자점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 316-18",
     "roadAddress": "서울특별시 강북구 삼양로 461",
     "lng": 127.0156446,
@@ -3541,7 +3541,7 @@ const data = [
   {
     "shopName": "카페엔젤",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 암사동 414-18",
     "roadAddress": "서울특별시 강동구 고덕로 133",
     "lng": 127.1403318,
@@ -3550,7 +3550,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "데이지",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 1-34",
     "roadAddress": "서울특별시 서대문구 모래내로 380",
     "lng": 126.9378363,
@@ -3595,7 +3595,7 @@ const data = [
   {
     "shopName": "그루스터디카페송파동센터",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 98-3",
     "roadAddress": "서울특별시 송파구 가락로 142",
     "lng": 127.1116803,
@@ -3604,7 +3604,7 @@ const data = [
   {
     "shopName": "디톡스마켓",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 573",
     "roadAddress": "서울특별시 구로구 구로중앙로 146-1",
     "lng": 126.882759,
@@ -3613,7 +3613,7 @@ const data = [
   {
     "shopName": "엔",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 팔판동 49-1",
     "roadAddress": "서울특별시 종로구 삼청로 77",
     "lng": 126.9815538,
@@ -3622,7 +3622,7 @@ const data = [
   {
     "shopName": "그루스터디카페",
     "branchName": "은평응암센터점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 103-1",
     "roadAddress": "서울특별시 은평구 응암로 328",
     "lng": 126.9225624,
@@ -3631,7 +3631,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "명일역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 명일동 312-42",
     "roadAddress": "서울특별시 강동구 양재대로 1641",
     "lng": 127.1438427,
@@ -3640,7 +3640,7 @@ const data = [
   {
     "shopName": "백스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 연건동 78-4",
     "roadAddress": "서울특별시 종로구 대학로 79-1",
     "lng": 127.0019107,
@@ -3649,7 +3649,7 @@ const data = [
   {
     "shopName": "오드리토스트커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 329",
     "roadAddress": "서울특별시 양천구 목동동로 130",
     "lng": 126.871222,
@@ -3658,7 +3658,7 @@ const data = [
   {
     "shopName": "팀베리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 능동 276-3",
     "roadAddress": "서울특별시 광진구 능동로 302",
     "lng": 127.0795265,
@@ -3667,7 +3667,7 @@ const data = [
   {
     "shopName": "루크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상수동 319-2",
     "roadAddress": "서울특별시 마포구 독막로12길 3",
     "lng": 126.920162,
@@ -3676,7 +3676,7 @@ const data = [
   {
     "shopName": "지커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 352-11",
     "roadAddress": "서울특별시 마포구 동교로 156-4",
     "lng": 126.9194953,
@@ -3685,7 +3685,7 @@ const data = [
   {
     "shopName": "오렌즈",
     "branchName": "라운지",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 322-9",
     "roadAddress": "서울특별시 강동구 올림픽로 564",
     "lng": 127.1213763,
@@ -3694,7 +3694,7 @@ const data = [
   {
     "shopName": "금커피별빙수",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 224-9",
     "roadAddress": "서울특별시 강남구 봉은사로37길 43",
     "lng": 127.0351031,
@@ -3703,7 +3703,7 @@ const data = [
   {
     "shopName": "감자스터디카페",
     "branchName": "화곡2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 398-19",
     "roadAddress": "서울특별시 강서구 강서로18다길 8",
     "lng": 126.8477774,
@@ -3712,7 +3712,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "종로DGB점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 다동 85",
     "roadAddress": "서울특별시 중구 남대문로 125",
     "lng": 126.9822794,
@@ -3721,7 +3721,7 @@ const data = [
   {
     "shopName": "커파남",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 이문동 320-2",
     "roadAddress": "서울특별시 동대문구 이문로16길 30",
     "lng": 127.0603233,
@@ -3730,7 +3730,7 @@ const data = [
   {
     "shopName": "카페엘리스라운지",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1131-15",
     "roadAddress": "서울특별시 강서구 화곡로58길 51",
     "lng": 126.8537791,
@@ -3739,7 +3739,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "홍대거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 364-19",
     "roadAddress": "서울특별시 마포구 어울마당로 76-1",
     "lng": 126.9216848,
@@ -3748,7 +3748,7 @@ const data = [
   {
     "shopName": "가회",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 가회동 1-34",
     "roadAddress": "서울특별시 종로구 북촌로 96-7",
     "lng": 126.9857621,
@@ -3757,7 +3757,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "강동구청DT점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 550",
     "roadAddress": "서울특별시 강동구 성내로 32",
     "lng": 127.1237844,
@@ -3766,7 +3766,7 @@ const data = [
   {
     "shopName": "카페인중독",
     "branchName": "인중독서대문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 200",
     "roadAddress": "서울특별시 서대문구 세무서2길 42",
     "lng": 126.9477763,
@@ -3775,7 +3775,7 @@ const data = [
   {
     "shopName": "Salondetearoom미스홍자",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 136-7",
     "roadAddress": "서울특별시 송파구 동남로11길 17-1",
     "lng": 127.1270492,
@@ -3784,7 +3784,7 @@ const data = [
   {
     "shopName": "게이샤커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 관훈동 192-15",
     "roadAddress": "서울특별시 종로구 인사동길 35-4",
     "lng": 126.9848465,
@@ -3802,7 +3802,7 @@ const data = [
   {
     "shopName": "라라당",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로1가 32",
     "roadAddress": "서울특별시 중구 남대문로9길 51",
     "lng": 126.9794819,
@@ -3811,7 +3811,7 @@ const data = [
   {
     "shopName": "알카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 328-1",
     "roadAddress": "서울특별시 강동구 천중로 6",
     "lng": 127.122424,
@@ -3820,7 +3820,7 @@ const data = [
   {
     "shopName": "도티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 708-2",
     "roadAddress": "서울특별시 서초구 사평대로57길 139",
     "lng": 127.0205345,
@@ -3829,7 +3829,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "경희궁로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 당주동 128-27",
     "roadAddress": "서울특별시 종로구 새문안로3길 15",
     "lng": 126.9722834,
@@ -3838,7 +3838,7 @@ const data = [
   {
     "shopName": "카페마달",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 39-19",
     "roadAddress": "서울특별시 송파구 백제고분로45길 23-5",
     "lng": 127.108661,
@@ -3847,7 +3847,7 @@ const data = [
   {
     "shopName": "카페라또",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 107",
     "roadAddress": "서울특별시 은평구 진관2로 90",
     "lng": 126.9258127,
@@ -3865,7 +3865,7 @@ const data = [
   {
     "shopName": "호박",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 석촌동 290-2",
     "roadAddress": "서울특별시 송파구 송파대로 409",
     "lng": 127.1082731,
@@ -3874,7 +3874,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "엘더스터디",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1671-35",
     "roadAddress": "서울특별시 관악구 행운1길 40",
     "lng": 126.9573632,
@@ -3883,7 +3883,7 @@ const data = [
   {
     "shopName": "카페아몽",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 928-9",
     "roadAddress": "서울특별시 양천구 오목로 141",
     "lng": 126.852996,
@@ -3892,7 +3892,7 @@ const data = [
   {
     "shopName": "스크립트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 444-1",
     "roadAddress": "서울특별시 서대문구 연희로 34",
     "lng": 126.9273945,
@@ -3901,7 +3901,7 @@ const data = [
   {
     "shopName": "그루브앤골드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 401-18",
     "roadAddress": "서울특별시 마포구 망원로8길 67",
     "lng": 126.9060385,
@@ -3919,7 +3919,7 @@ const data = [
   {
     "shopName": "카페지음",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 903-20",
     "roadAddress": "서울특별시 관악구 은천로 66-6",
     "lng": 126.9425913,
@@ -3928,7 +3928,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "북서울꿈의숲점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 장위동 219-44",
     "roadAddress": "서울특별시 성북구 돌곶이로41가길 2",
     "lng": 127.0455836,
@@ -3937,7 +3937,7 @@ const data = [
   {
     "shopName": "할리스에프앤비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 합정동 374-1",
     "roadAddress": "서울특별시 마포구 양화로 36",
     "lng": 126.9133244,
@@ -3955,7 +3955,7 @@ const data = [
   {
     "shopName": "포트캔커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 38-4",
     "roadAddress": "서울특별시 동대문구 사가정로 147",
     "lng": 127.0611698,
@@ -3964,7 +3964,7 @@ const data = [
   {
     "shopName": "커피정",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 갈현동 462-52",
     "roadAddress": "서울특별시 은평구 연서로 177",
     "lng": 126.9174591,
@@ -3982,7 +3982,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "구의자양로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 78-8",
     "roadAddress": "서울특별시 광진구 자양로 251",
     "lng": 127.0892959,
@@ -3991,7 +3991,7 @@ const data = [
   {
     "shopName": "커피맵",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 219-5",
     "roadAddress": "서울특별시 금천구 디지털로10길 78",
     "lng": 126.8897162,
@@ -4000,7 +4000,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아종로관철동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 관철동 11-4",
     "roadAddress": "서울특별시 종로구 청계천로 83",
     "lng": 126.9867153,
@@ -4018,7 +4018,7 @@ const data = [
   {
     "shopName": "어니언수제어묵",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 신도림동 692",
     "roadAddress": "서울특별시 구로구 경인로 662",
     "lng": 126.8884846,
@@ -4027,7 +4027,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "상암MBC점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1603",
     "roadAddress": "서울특별시 마포구 성암로 267",
     "lng": 126.8909658,
@@ -4036,7 +4036,7 @@ const data = [
   {
     "shopName": "고디바파르나스몰점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 159-8",
     "roadAddress": "서울특별시 강남구 테헤란로 521",
     "lng": 127.0607897,
@@ -4045,7 +4045,7 @@ const data = [
   {
     "shopName": "글래드유케임",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 용산동2가 5-1161",
     "roadAddress": "서울특별시 용산구 신흥로 111",
     "lng": 126.9834396,
@@ -4054,7 +4054,7 @@ const data = [
   {
     "shopName": "카페베네",
     "branchName": "선릉역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 142-35",
     "roadAddress": "서울특별시 강남구 테헤란로 411",
     "lng": 127.0508489,
@@ -4072,7 +4072,7 @@ const data = [
   {
     "shopName": "카페에스토",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 문래동1가 97-7",
     "roadAddress": "서울특별시 영등포구 경인로 702",
     "lng": 126.8921309,
@@ -4081,7 +4081,7 @@ const data = [
   {
     "shopName": "삼성웰스토리리아체생명",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 태평로2가 150",
     "roadAddress": "서울특별시 중구 세종대로 55",
     "lng": 126.9749573,
@@ -4090,7 +4090,7 @@ const data = [
   {
     "shopName": "메누카",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 상일동 309-2",
     "roadAddress": "서울특별시 강동구 천호대로 1463",
     "lng": 127.1707868,
@@ -4099,7 +4099,7 @@ const data = [
   {
     "shopName": "제이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 냉천동 161-2",
     "roadAddress": "서울특별시 서대문구 통일로 143-7",
     "lng": 126.9647845,
@@ -4108,7 +4108,7 @@ const data = [
   {
     "shopName": "카페벨로주",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 402-6",
     "roadAddress": "서울특별시 마포구 독막로9길 8",
     "lng": 126.9197272,
@@ -4117,7 +4117,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "청구역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 309-18",
     "roadAddress": "서울특별시 중구 다산로 181-2",
     "lng": 127.013228,
@@ -4126,7 +4126,7 @@ const data = [
   {
     "shopName": "강북청소년드림센터움카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 177-11",
     "roadAddress": "서울특별시 강북구 한천로140길 5-26",
     "lng": 127.025987,
@@ -4135,7 +4135,7 @@ const data = [
   {
     "shopName": "카페드세라",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 가회동 10-6",
     "roadAddress": "서울특별시 종로구 창덕궁길 191",
     "lng": 126.9853049,
@@ -4144,7 +4144,7 @@ const data = [
   {
     "shopName": "502커피",
     "branchName": "가산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 426-5",
     "roadAddress": "서울특별시 금천구 가산디지털2로 123",
     "lng": 126.8786985,
@@ -4153,7 +4153,7 @@ const data = [
   {
     "shopName": "리디아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 내곡동 181-5",
     "roadAddress": "서울특별시 서초구 홍씨마을길 3",
     "lng": 127.0653444,
@@ -4162,7 +4162,7 @@ const data = [
   {
     "shopName": "바리스타마르코대림교회점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 965-1",
     "roadAddress": "서울특별시 영등포구 시흥대로183길 12",
     "lng": 126.906723,
@@ -4171,7 +4171,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "영등포본동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동3가 2-21",
     "roadAddress": "서울특별시 영등포구 영등포로 254",
     "lng": 126.909583,
@@ -4180,7 +4180,7 @@ const data = [
   {
     "shopName": "윙스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동4가 55-1",
     "roadAddress": "서울특별시 영등포구 선유로 259",
     "lng": 126.8973735,
@@ -4189,7 +4189,7 @@ const data = [
   {
     "shopName": "CAFE봄날",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 785",
     "roadAddress": "서울특별시 영등포구 도신로4길 6",
     "lng": 126.8953419,
@@ -4207,7 +4207,7 @@ const data = [
   {
     "shopName": "공차건대점",
     "branchName": "건대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 5-43",
     "roadAddress": "서울특별시 광진구 능동로 119",
     "lng": 127.0711993,
@@ -4216,7 +4216,7 @@ const data = [
   {
     "shopName": "에슬로우커피",
     "branchName": "서초2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1659-6",
     "roadAddress": "서울특별시 서초구 서초중앙로22길 28",
     "lng": 127.015417,
@@ -4225,7 +4225,7 @@ const data = [
   {
     "shopName": "커반",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1708-1",
     "roadAddress": "서울특별시 관악구 은천로 86",
     "lng": 126.944405,
@@ -4234,7 +4234,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "약수역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 368-66",
     "roadAddress": "서울특별시 중구 다산로 114",
     "lng": 127.0104075,
@@ -4243,7 +4243,7 @@ const data = [
   {
     "shopName": "작심스터디카페",
     "branchName": "서울세종대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 359",
     "roadAddress": "서울특별시 광진구 군자로 69",
     "lng": 127.0705951,
@@ -4252,7 +4252,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "바우하우스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 368-1",
     "roadAddress": "서울특별시 동대문구 답십리로 288",
     "lng": 127.0723644,
@@ -4261,7 +4261,7 @@ const data = [
   {
     "shopName": "스타벅스동묘앞역점동묘앞역점",
     "branchName": "동묘앞역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 숭인동 310",
     "roadAddress": "서울특별시 종로구 종로 344",
     "lng": 127.0160686,
@@ -4270,7 +4270,7 @@ const data = [
   {
     "shopName": "아담채카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 자곡동 619",
     "roadAddress": "서울특별시 강남구 자곡로3길 21",
     "lng": 127.0880771,
@@ -4279,7 +4279,7 @@ const data = [
   {
     "shopName": "CREMADORO",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 우면동 686-2",
     "roadAddress": "서울특별시 서초구 성촌1길 20",
     "lng": 127.0216806,
@@ -4288,7 +4288,7 @@ const data = [
   {
     "shopName": "크레센도",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1000",
     "roadAddress": "서울특별시 관악구 관악로 304",
     "lng": 126.9576913,
@@ -4297,7 +4297,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "용두동사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 용두동 119-1",
     "roadAddress": "서울특별시 동대문구 왕산로 68",
     "lng": 127.0308821,
@@ -4306,7 +4306,7 @@ const data = [
   {
     "shopName": "스타일커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 130-9",
     "roadAddress": "서울특별시 강남구 삼성로95길 24",
     "lng": 127.0537166,
@@ -4315,7 +4315,7 @@ const data = [
   {
     "shopName": "페라",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대현동 33-8",
     "roadAddress": "서울특별시 서대문구 이화여대길 52-45",
     "lng": 126.9453438,
@@ -4324,7 +4324,7 @@ const data = [
   {
     "shopName": "열매다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동1가 87-16",
     "roadAddress": "서울특별시 영등포구 영등포로 167",
     "lng": 126.9001041,
@@ -4333,7 +4333,7 @@ const data = [
   {
     "shopName": "내생애에스프레소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동2가 94-31",
     "roadAddress": "서울특별시 영등포구 버드나루로 24",
     "lng": 126.9124185,
@@ -4342,7 +4342,7 @@ const data = [
   {
     "shopName": "엠아이커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 850-34",
     "roadAddress": "서울특별시 서초구 서초대로25길 32",
     "lng": 126.9936432,
@@ -4351,7 +4351,7 @@ const data = [
   {
     "shopName": "레알이동통신",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 653-1",
     "roadAddress": "서울특별시 노원구 공릉로 98",
     "lng": 127.0784267,
@@ -4360,7 +4360,7 @@ const data = [
   {
     "shopName": "단골커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 891-23",
     "roadAddress": "서울특별시 강남구 선릉로90길 56",
     "lng": 127.0535121,
@@ -4369,7 +4369,7 @@ const data = [
   {
     "shopName": "커피소리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 177-99",
     "roadAddress": "서울특별시 노원구 상계로12길 32",
     "lng": 127.0690676,
@@ -4378,7 +4378,7 @@ const data = [
   {
     "shopName": "추억속의그다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1658-4",
     "roadAddress": "서울특별시 서초구 서초대로52길 25",
     "lng": 127.0148022,
@@ -4387,7 +4387,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "역삼GS점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 669-9",
     "roadAddress": "서울특별시 강남구 봉은사로30길 73",
     "lng": 127.0371055,
@@ -4396,7 +4396,7 @@ const data = [
   {
     "shopName": "파스쿠찌테크노마트점",
     "branchName": "테크노마트점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 546-4",
     "roadAddress": "서울특별시 광진구 광나루로56길 85",
     "lng": 127.0956807,
@@ -4405,7 +4405,7 @@ const data = [
   {
     "shopName": "칸타타",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 937",
     "roadAddress": "서울특별시 강남구 도곡로 401",
     "lng": 127.0532526,
@@ -4432,7 +4432,7 @@ const data = [
   {
     "shopName": "샌드위치&커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로3가 16-18",
     "roadAddress": "서울특별시 용산구 청파로 56",
     "lng": 126.9574693,
@@ -4441,7 +4441,7 @@ const data = [
   {
     "shopName": "카페루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 286-1",
     "roadAddress": "서울특별시 서대문구 포방터길 27",
     "lng": 126.9487415,
@@ -4450,7 +4450,7 @@ const data = [
   {
     "shopName": "카페보바타임",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 청진동 70",
     "roadAddress": "서울특별시 종로구 종로 33",
     "lng": 126.9814178,
@@ -4459,7 +4459,7 @@ const data = [
   {
     "shopName": "엔트런스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 268-3",
     "roadAddress": "서울특별시 강남구 선릉로 623",
     "lng": 127.0428796,
@@ -4468,7 +4468,7 @@ const data = [
   {
     "shopName": "몽크르스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 417-5",
     "roadAddress": "서울특별시 강동구 풍성로 210",
     "lng": 127.1349755,
@@ -4477,7 +4477,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 둔촌동 427-4",
     "roadAddress": "서울특별시 강동구 양재대로102길 27",
     "lng": 127.1399385,
@@ -4486,7 +4486,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "역삼중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 721-9",
     "roadAddress": "서울특별시 강남구 언주로81길 8",
     "lng": 127.0428615,
@@ -4495,7 +4495,7 @@ const data = [
   {
     "shopName": "지앤지카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 90-14",
     "roadAddress": "서울특별시 강남구 영동대로 626",
     "lng": 127.0596717,
@@ -4504,7 +4504,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "건설회관점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 71-2",
     "roadAddress": "서울특별시 강남구 언주로 711",
     "lng": 127.0334059,
@@ -4513,7 +4513,7 @@ const data = [
   {
     "shopName": "나인원라이브카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 방학동 671",
     "roadAddress": "서울특별시 도봉구 방학로 155",
     "lng": 127.0348808,
@@ -4531,7 +4531,7 @@ const data = [
   {
     "shopName": "쥬씨JUICY",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 도림동 216-6",
     "roadAddress": "서울특별시 영등포구 도영로 29",
     "lng": 126.8964681,
@@ -4540,7 +4540,7 @@ const data = [
   {
     "shopName": "카페리빈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 889-53",
     "roadAddress": "서울특별시 강남구 테헤란로64길 8",
     "lng": 127.0508652,
@@ -4549,7 +4549,7 @@ const data = [
   {
     "shopName": "노아스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 190-4",
     "roadAddress": "서울특별시 서대문구 연희로11가길 23",
     "lng": 126.9286739,
@@ -4558,7 +4558,7 @@ const data = [
   {
     "shopName": "까페모임",
     "branchName": "페모임",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 11-5",
     "roadAddress": "서울특별시 마포구 매봉산로 72",
     "lng": 126.8936605,
@@ -4576,7 +4576,7 @@ const data = [
   {
     "shopName": "카페디아이",
     "branchName": "디아이",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 204-34",
     "roadAddress": "서울특별시 마포구 월드컵북로4길 59",
     "lng": 126.922095,
@@ -4603,7 +4603,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "문정법조현대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 644",
     "roadAddress": "서울특별시 송파구 법원로11길 11",
     "lng": 127.1184237,
@@ -4612,7 +4612,7 @@ const data = [
   {
     "shopName": "95℃카페",
     "branchName": "95℃",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 550-1",
     "roadAddress": "서울특별시 금천구 가산디지털2로 98",
     "lng": 126.8810386,
@@ -4621,7 +4621,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "오쇼핑사옥점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 2724",
     "roadAddress": "서울특별시 서초구 과천대로 870-13",
     "lng": 126.987969,
@@ -4630,7 +4630,7 @@ const data = [
   {
     "shopName": "CAFEGL",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 355-8",
     "roadAddress": "서울특별시 마포구 홍익로5안길 36",
     "lng": 126.9208827,
@@ -4639,7 +4639,7 @@ const data = [
   {
     "shopName": "커피와쟁이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 세곡동 581",
     "roadAddress": "서울특별시 강남구 헌릉로 569",
     "lng": 127.1012154,
@@ -4648,7 +4648,7 @@ const data = [
   {
     "shopName": "좋아요카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남대문로3가 30-12",
     "roadAddress": "서울특별시 중구 남대문시장길 35",
     "lng": 126.977871,
@@ -4657,7 +4657,7 @@ const data = [
   {
     "shopName": "토프레소상도점",
     "branchName": "상도점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 214-295",
     "roadAddress": "서울특별시 동작구 양녕로26길 49",
     "lng": 126.9439696,
@@ -4666,7 +4666,7 @@ const data = [
   {
     "shopName": "스타벅스종암점",
     "branchName": "종암점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 종암동 3-686",
     "roadAddress": "서울특별시 성북구 종암로 122",
     "lng": 127.0339835,
@@ -4675,7 +4675,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "아에관악점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 851-3",
     "roadAddress": "서울특별시 관악구 관악로 204",
     "lng": 126.9542784,
@@ -4693,7 +4693,7 @@ const data = [
   {
     "shopName": "샤나쥬얼리카페",
     "branchName": "라파원적외선찜질",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 249-42",
     "roadAddress": "서울특별시 강서구 방화동로16길 2",
     "lng": 126.8126488,
@@ -4702,7 +4702,7 @@ const data = [
   {
     "shopName": "설빙동대문점",
     "branchName": "동대문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로6가 23",
     "roadAddress": "서울특별시 중구 을지로 254",
     "lng": 127.0062969,
@@ -4711,7 +4711,7 @@ const data = [
   {
     "shopName": "위미",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 성북동 260-88",
     "roadAddress": "서울특별시 성북구 성북로 148",
     "lng": 126.9930965,
@@ -4720,7 +4720,7 @@ const data = [
   {
     "shopName": "커피애비뉴평창동점",
     "branchName": "평창동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 평창동 158-1",
     "roadAddress": "서울특별시 종로구 평창문화로 75",
     "lng": 126.968991,
@@ -4729,7 +4729,7 @@ const data = [
   {
     "shopName": "카페글로리",
     "branchName": "사부작",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 망우동 146-43",
     "roadAddress": "서울특별시 중랑구 용마산로118길 95",
     "lng": 127.1052497,
@@ -4738,7 +4738,7 @@ const data = [
   {
     "shopName": "에이쓰리아카이브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로7가 2-1",
     "roadAddress": "서울특별시 중구 을지로 281",
     "lng": 127.0108895,
@@ -4747,7 +4747,7 @@ const data = [
   {
     "shopName": "카페베네",
     "branchName": "답십리역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 495-1",
     "roadAddress": "서울특별시 동대문구 천호대로 281",
     "lng": 127.0521898,
@@ -4765,7 +4765,7 @@ const data = [
   {
     "shopName": "강북청소년드림센터움(UM)카페",
     "branchName": "강북청소년드림센터움",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 177-11",
     "roadAddress": "서울특별시 강북구 한천로140길 5-26",
     "lng": 127.025987,
@@ -4774,7 +4774,7 @@ const data = [
   {
     "shopName": "올라카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 380-22",
     "roadAddress": "서울특별시 마포구 월드컵로13길 23",
     "lng": 126.908866,
@@ -4783,7 +4783,7 @@ const data = [
   {
     "shopName": "해피블럭카페",
     "branchName": "구로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 106-10",
     "roadAddress": "서울특별시 구로구 가마산로27길 24",
     "lng": 126.8916307,
@@ -4792,7 +4792,7 @@ const data = [
   {
     "shopName": "까페까마르도",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 묘동 206-1",
     "roadAddress": "서울특별시 종로구 돈화문로5가길 4",
     "lng": 126.9917868,
@@ -4801,7 +4801,7 @@ const data = [
   {
     "shopName": "일프로스터디카페",
     "branchName": "일월생",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 45-6",
     "roadAddress": "서울특별시 도봉구 해등로 180",
     "lng": 127.0368435,
@@ -4810,7 +4810,7 @@ const data = [
   {
     "shopName": "까페팰리스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 1-2",
     "roadAddress": "서울특별시 성북구 안암로 145",
     "lng": 127.0309577,
@@ -4819,7 +4819,7 @@ const data = [
   {
     "shopName": "커피데이",
     "branchName": "대치점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 900-67",
     "roadAddress": "서울특별시 강남구 역삼로69길 13",
     "lng": 127.0538158,
@@ -4828,7 +4828,7 @@ const data = [
   {
     "shopName": "잉글블럭&카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 거여동 290-1",
     "roadAddress": "서울특별시 송파구 양산로 14",
     "lng": 127.1437801,
@@ -4837,7 +4837,7 @@ const data = [
   {
     "shopName": "카페베네2",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 암사동 447-7",
     "roadAddress": "서울특별시 강동구 고덕로 89",
     "lng": 127.1352651,
@@ -4846,7 +4846,7 @@ const data = [
   {
     "shopName": "커피집",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 신대방동 344-4",
     "roadAddress": "서울특별시 동작구 보라매로 87",
     "lng": 126.9275939,
@@ -4855,7 +4855,7 @@ const data = [
   {
     "shopName": "카페스와니",
     "branchName": "스와니",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 330-239",
     "roadAddress": "서울특별시 서대문구 통일로39가길 5",
     "lng": 126.943543,
@@ -4873,7 +4873,7 @@ const data = [
   {
     "shopName": "공차롯데백화점청량리점",
     "branchName": "롯데백화점청량리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 591-53",
     "roadAddress": "서울특별시 동대문구 왕산로 210",
     "lng": 127.0511299,
@@ -4882,7 +4882,7 @@ const data = [
   {
     "shopName": "엑스골프식당",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 용답동 182-11",
     "roadAddress": "서울특별시 성동구 자동차시장길 42",
     "lng": 127.0557064,
@@ -4891,7 +4891,7 @@ const data = [
   {
     "shopName": "을지茶움",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로3가 65-13",
     "roadAddress": "서울특별시 중구 충무로9길 19",
     "lng": 126.9913353,
@@ -4900,7 +4900,7 @@ const data = [
   {
     "shopName": "티지이카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동5가 90-2",
     "roadAddress": "서울특별시 영등포구 양평로24길 12",
     "lng": 126.8933847,
@@ -4909,7 +4909,7 @@ const data = [
   {
     "shopName": "커피수기",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 105-4",
     "roadAddress": "서울특별시 강남구 도산대로46길 21",
     "lng": 127.0370792,
@@ -4918,7 +4918,7 @@ const data = [
   {
     "shopName": "카페쥬아쥬",
     "branchName": "103비스트로&",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 709-2",
     "roadAddress": "서울특별시 양천구 목동중앙남로 100",
     "lng": 126.8634692,
@@ -4927,7 +4927,7 @@ const data = [
   {
     "shopName": "온도씨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 487-1",
     "roadAddress": "서울특별시 광진구 광나루로 430",
     "lng": 127.0770231,
@@ -4936,7 +4936,7 @@ const data = [
   {
     "shopName": "카페브런스윅",
     "branchName": "브런스윅",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도1동 356-1",
     "roadAddress": "서울특별시 동작구 상도로47길 13",
     "lng": 126.9515415,
@@ -4945,7 +4945,7 @@ const data = [
   {
     "shopName": "아붕",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 계동 129-3",
     "roadAddress": "서울특별시 종로구 계동길 76",
     "lng": 126.9868216,
@@ -4954,7 +4954,7 @@ const data = [
   {
     "shopName": "둘리뮤지엄카페",
     "branchName": "둘리뮤지엄",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 산240-5",
     "roadAddress": "서울특별시 도봉구 시루봉로1길 6",
     "lng": 127.0276197,
@@ -4963,7 +4963,7 @@ const data = [
   {
     "shopName": "와우카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 남현동 1061-18",
     "roadAddress": "서울특별시 관악구 과천대로 939",
     "lng": 126.9814186,
@@ -4972,7 +4972,7 @@ const data = [
   {
     "shopName": "커피식스",
     "branchName": "쥬스식스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 11-4",
     "roadAddress": "서울특별시 송파구 올림픽로35가길 9",
     "lng": 127.1034234,
@@ -4990,7 +4990,7 @@ const data = [
   {
     "shopName": "달리는커피",
     "branchName": "천호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 길동 375-16",
     "roadAddress": "서울특별시 강동구 천중로40길 36",
     "lng": 127.1381581,
@@ -4999,7 +4999,7 @@ const data = [
   {
     "shopName": "커피뚜깡",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 노고산동 109-3",
     "roadAddress": "서울특별시 마포구 백범로2길 46",
     "lng": 126.9347238,
@@ -5017,7 +5017,7 @@ const data = [
   {
     "shopName": "맘스카페",
     "branchName": "소프트플레이코리아홈플러스상봉점상상노리",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 상봉동 500",
     "roadAddress": "서울특별시 중랑구 망우로 353",
     "lng": 127.0916054,
@@ -5026,7 +5026,7 @@ const data = [
   {
     "shopName": "달콤커피",
     "branchName": "신사역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 잠원동 12-25",
     "roadAddress": "서울특별시 서초구 강남대로 621",
     "lng": 127.0187669,
@@ -5035,7 +5035,7 @@ const data = [
   {
     "shopName": "SEE2카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 자곡동 600",
     "roadAddress": "서울특별시 강남구 자곡로 191",
     "lng": 127.1035597,
@@ -5044,7 +5044,7 @@ const data = [
   {
     "shopName": "라뜰리에",
     "branchName": "SPC스퀘어점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 831-23",
     "roadAddress": "서울특별시 강남구 강남대로 352",
     "lng": 127.0297857,
@@ -5053,7 +5053,7 @@ const data = [
   {
     "shopName": "CUP&COFFEE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 251-254",
     "roadAddress": "서울특별시 관악구 신림로11길 139",
     "lng": 126.9401429,
@@ -5062,7 +5062,7 @@ const data = [
   {
     "shopName": "자여느향",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 129-38",
     "roadAddress": "서울특별시 구로구 구로중앙로14길 27",
     "lng": 126.8921128,
@@ -5080,7 +5080,7 @@ const data = [
   {
     "shopName": "윤scoffee",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 용답동 65-9",
     "roadAddress": "서울특별시 성동구 용답29길 26",
     "lng": 127.0535941,
@@ -5089,7 +5089,7 @@ const data = [
   {
     "shopName": "루앤비까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 번동 472-1",
     "roadAddress": "서울특별시 강북구 도봉로102길 70",
     "lng": 127.0331045,
@@ -5098,7 +5098,7 @@ const data = [
   {
     "shopName": "널담은공간",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 용산동2가 19-12",
     "roadAddress": "서울특별시 용산구 신흥로15길 18-12",
     "lng": 126.9853978,
@@ -5107,7 +5107,7 @@ const data = [
   {
     "shopName": "카베하네",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 619-2",
     "roadAddress": "서울특별시 강남구 언주로173길 15",
     "lng": 127.0322478,
@@ -5125,7 +5125,7 @@ const data = [
   {
     "shopName": "롱블랙",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 용답동 77-1",
     "roadAddress": "서울특별시 성동구 용답중앙11길 12",
     "lng": 127.0519739,
@@ -5134,7 +5134,7 @@ const data = [
   {
     "shopName": "92문",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 이문동 320-2",
     "roadAddress": "서울특별시 동대문구 이문로16길 30",
     "lng": 127.0603233,
@@ -5143,7 +5143,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "상계역사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 169-461",
     "roadAddress": "서울특별시 노원구 한글비석로 409",
     "lng": 127.0708473,
@@ -5152,7 +5152,7 @@ const data = [
   {
     "shopName": "파머스빈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 157-27",
     "roadAddress": "서울특별시 강남구 테헤란로 501",
     "lng": 127.0568084,
@@ -5170,7 +5170,7 @@ const data = [
   {
     "shopName": "커넥츠커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 합정동 376-19",
     "roadAddress": "서울특별시 마포구 성지길 60",
     "lng": 126.9125673,
@@ -5179,7 +5179,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "위드유",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 문래동3가 78",
     "roadAddress": "서울특별시 영등포구 도림로 456",
     "lng": 126.892899,
@@ -5188,7 +5188,7 @@ const data = [
   {
     "shopName": "더썬카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 658",
     "roadAddress": "서울특별시 강서구 화곡로63길 31",
     "lng": 126.8511492,
@@ -5197,7 +5197,7 @@ const data = [
   {
     "shopName": "아짐커피로스터스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 팔판동 71",
     "roadAddress": "서울특별시 종로구 삼청로 65-2",
     "lng": 126.980956,
@@ -5206,7 +5206,7 @@ const data = [
   {
     "shopName": "카페온더",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 306-3",
     "roadAddress": "서울특별시 동대문구 장한로 147",
     "lng": 127.0713716,
@@ -5215,7 +5215,7 @@ const data = [
   {
     "shopName": "허형만의압구정커피집",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 압구정동 426",
     "roadAddress": "서울특별시 강남구 압구정로 151",
     "lng": 127.0244334,
@@ -5224,7 +5224,7 @@ const data = [
   {
     "shopName": "씨큐브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 83-3",
     "roadAddress": "서울특별시 강남구 도산대로55길 46",
     "lng": 127.0412726,
@@ -5233,7 +5233,7 @@ const data = [
   {
     "shopName": "와이블랙",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 내발산동 694-16",
     "roadAddress": "서울특별시 강서구 강서로45길 132-14",
     "lng": 126.8315612,
@@ -5242,7 +5242,7 @@ const data = [
   {
     "shopName": "반디벅스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 886",
     "roadAddress": "서울특별시 강서구 하늘길 38",
     "lng": 126.8029375,
@@ -5251,7 +5251,7 @@ const data = [
   {
     "shopName": "카페필름포럼",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대신동 85",
     "roadAddress": "서울특별시 서대문구 성산로 527",
     "lng": 126.9440719,
@@ -5260,7 +5260,7 @@ const data = [
   {
     "shopName": "STUDY101",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 종암동 124-40",
     "roadAddress": "서울특별시 성북구 종암로21길 128",
     "lng": 127.0304654,
@@ -5269,7 +5269,7 @@ const data = [
   {
     "shopName": "카페드림",
     "branchName": "브릿지",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 257-12",
     "roadAddress": "서울특별시 광진구 천호대로143길 27",
     "lng": 127.103479,
@@ -5278,7 +5278,7 @@ const data = [
   {
     "shopName": "슬로우잼",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 623-22",
     "roadAddress": "서울특별시 강남구 테헤란로13길 65",
     "lng": 127.0301094,
@@ -5287,7 +5287,7 @@ const data = [
   {
     "shopName": "대흥다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 대흥동 150-1",
     "roadAddress": "서울특별시 마포구 백범로 101",
     "lng": 126.942691,
@@ -5296,7 +5296,7 @@ const data = [
   {
     "shopName": "Poseidon",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1575-3",
     "roadAddress": "서울특별시 서초구 서초중앙로 113",
     "lng": 127.0137264,
@@ -5305,7 +5305,7 @@ const data = [
   {
     "shopName": "자빈휘르마",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 899-2",
     "roadAddress": "서울특별시 강남구 선릉로82길 20",
     "lng": 127.0516085,
@@ -5314,7 +5314,7 @@ const data = [
   {
     "shopName": "커피하우스",
     "branchName": "그라페",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 하월곡동 79-107",
     "roadAddress": "서울특별시 성북구 월계로 52",
     "lng": 127.0355495,
@@ -5323,7 +5323,7 @@ const data = [
   {
     "shopName": "보스커피&브런치",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 925-6",
     "roadAddress": "서울특별시 관악구 봉천로33길 7",
     "lng": 126.9434715,
@@ -5332,7 +5332,7 @@ const data = [
   {
     "shopName": "카페봄",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 옥인동 149-1",
     "roadAddress": "서울특별시 종로구 옥인길 18",
     "lng": 126.9675749,
@@ -5341,7 +5341,7 @@ const data = [
   {
     "shopName": "우지커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 연건동 72-2",
     "roadAddress": "서울특별시 종로구 대학로 85",
     "lng": 127.0018941,
@@ -5350,7 +5350,7 @@ const data = [
   {
     "shopName": "카페굿뉴스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 내발산동 680",
     "roadAddress": "서울특별시 강서구 강서로47길 34-8",
     "lng": 126.8344654,
@@ -5359,7 +5359,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "상계사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 749",
     "roadAddress": "서울특별시 노원구 동일로 1374",
     "lng": 127.0616775,
@@ -5368,7 +5368,7 @@ const data = [
   {
     "shopName": "어반플레이스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 47-13",
     "roadAddress": "서울특별시 노원구 석계로 2",
     "lng": 127.064827,
@@ -5377,7 +5377,7 @@ const data = [
   {
     "shopName": "탐앤탐스홈플러스강서점",
     "branchName": "홈플러스강서점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 639-11",
     "roadAddress": "서울특별시 강서구 화곡로 398",
     "lng": 126.8548002,
@@ -5386,7 +5386,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "문정로데오점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 125-6",
     "roadAddress": "서울특별시 송파구 동남로 141",
     "lng": 127.126233,
@@ -5395,7 +5395,7 @@ const data = [
   {
     "shopName": "고양이는귀여워",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 내발산동 694-16",
     "roadAddress": "서울특별시 강서구 강서로45길 132-14",
     "lng": 126.8315612,
@@ -5404,7 +5404,7 @@ const data = [
   {
     "shopName": "카페베네",
     "branchName": "본사",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 186-11",
     "roadAddress": "서울특별시 광진구 동일로 427",
     "lng": 127.0785194,
@@ -5413,7 +5413,7 @@ const data = [
   {
     "shopName": "압구정북카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 600-5",
     "roadAddress": "서울특별시 강남구 논현로168길 24",
     "lng": 127.0301772,
@@ -5422,7 +5422,7 @@ const data = [
   {
     "shopName": "투디",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1642-1",
     "roadAddress": "서울특별시 서초구 사임당로17길 68",
     "lng": 127.0169713,
@@ -5431,7 +5431,7 @@ const data = [
   {
     "shopName": "메이슨커피바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 417-5",
     "roadAddress": "서울특별시 강남구 논현로30길 43",
     "lng": 127.0451054,
@@ -5440,7 +5440,7 @@ const data = [
   {
     "shopName": "그라나다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 가양동 1470-2",
     "roadAddress": "서울특별시 강서구 허준로5길 37",
     "lng": 126.8510802,
@@ -5449,7 +5449,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "달빛아래핀",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 936",
     "roadAddress": "서울특별시 노원구 월계로42길 9",
     "lng": 127.0507681,
@@ -5458,7 +5458,7 @@ const data = [
   {
     "shopName": "오늘은커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 효창동 3-118",
     "roadAddress": "서울특별시 용산구 임정로11길 4",
     "lng": 126.958543,
@@ -5467,7 +5467,7 @@ const data = [
   {
     "shopName": "커피마심",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 246-15",
     "roadAddress": "서울특별시 영등포구 가마산로 515-2",
     "lng": 126.9136932,
@@ -5476,7 +5476,7 @@ const data = [
   {
     "shopName": "쉬즈베이글",
     "branchName": "사당점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 1131",
     "roadAddress": "서울특별시 동작구 사당로13길 31",
     "lng": 126.9712013,
@@ -5485,7 +5485,7 @@ const data = [
   {
     "shopName": "흑형커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 문래동3가 55-20",
     "roadAddress": "서울특별시 영등포구 경인로 775",
     "lng": 126.8975254,
@@ -5494,7 +5494,7 @@ const data = [
   {
     "shopName": "킹스빈커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 60-19",
     "roadAddress": "서울특별시 금천구 벚꽃로 278",
     "lng": 126.8846229,
@@ -5503,7 +5503,7 @@ const data = [
   {
     "shopName": "두루두루베이비카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 122-206",
     "roadAddress": "서울특별시 중랑구 동일로154길 17",
     "lng": 127.0792081,
@@ -5512,7 +5512,7 @@ const data = [
   {
     "shopName": "더카페동작구청점",
     "branchName": "동작구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 244-69",
     "roadAddress": "서울특별시 동작구 노량진로8길 60",
     "lng": 126.9386239,
@@ -5521,7 +5521,7 @@ const data = [
   {
     "shopName": "그리다꿈강남구청역점",
     "branchName": "강남구청역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 111-44",
     "roadAddress": "서울특별시 강남구 학동로 346",
     "lng": 127.041289,
@@ -5530,7 +5530,7 @@ const data = [
   {
     "shopName": "플로리스타커피바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 285-3",
     "roadAddress": "서울특별시 서초구 논현로11길 6-23",
     "lng": 127.047023,
@@ -5539,7 +5539,7 @@ const data = [
   {
     "shopName": "달콤",
     "branchName": "역삼역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 641-11",
     "roadAddress": "서울특별시 강남구 논현로 513",
     "lng": 127.0358342,
@@ -5548,7 +5548,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "충정래미안점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 중림동 1154",
     "roadAddress": "서울특별시 중구 중림로 21",
     "lng": 126.9660632,
@@ -5557,7 +5557,7 @@ const data = [
   {
     "shopName": "더브라운",
     "branchName": "베이커리GS점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 679-1",
     "roadAddress": "서울특별시 강남구 논현로 508",
     "lng": 127.0372774,
@@ -5566,7 +5566,7 @@ const data = [
   {
     "shopName": "모모공방&카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 460-2",
     "roadAddress": "서울특별시 광진구 뚝섬로38길 12",
     "lng": 127.0727374,
@@ -5575,7 +5575,7 @@ const data = [
   {
     "shopName": "이디야커피창신중앙점",
     "branchName": "창신중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 숭인동 65-10",
     "roadAddress": "서울특별시 종로구 지봉로 64",
     "lng": 127.0158139,
@@ -5584,7 +5584,7 @@ const data = [
   {
     "shopName": "베로아",
     "branchName": "면목점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 131-46",
     "roadAddress": "서울특별시 중랑구 봉우재로32길 37",
     "lng": 127.0848313,
@@ -5593,7 +5593,7 @@ const data = [
   {
     "shopName": "그냥커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 둔촌동 469-25",
     "roadAddress": "서울특별시 강동구 풍성로65길 67",
     "lng": 127.1410319,
@@ -5611,7 +5611,7 @@ const data = [
   {
     "shopName": "슬리핑피쉬",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1618-23",
     "roadAddress": "서울특별시 관악구 관악로12길 72",
     "lng": 126.9562555,
@@ -5620,7 +5620,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "가산대륭19차점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 345-29",
     "roadAddress": "서울특별시 금천구 가산디지털2로 70",
     "lng": 126.8823312,
@@ -5629,7 +5629,7 @@ const data = [
   {
     "shopName": "리플커피",
     "branchName": "건국대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 495-19",
     "roadAddress": "서울특별시 광진구 광나루로24길 20",
     "lng": 127.0763024,
@@ -5638,7 +5638,7 @@ const data = [
   {
     "shopName": "서울커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로1가 148",
     "roadAddress": "서울특별시 용산구 한강대로62길 5",
     "lng": 126.9739239,
@@ -5647,7 +5647,7 @@ const data = [
   {
     "shopName": "에이그레이트카페구로직영점",
     "branchName": "구로직영점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 222-12",
     "roadAddress": "서울특별시 구로구 디지털로30길 28",
     "lng": 126.8952689,
@@ -5656,7 +5656,7 @@ const data = [
   {
     "shopName": "CAFEFEEL",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 727-2",
     "roadAddress": "서울특별시 강남구 역삼로25길 27",
     "lng": 127.0389121,
@@ -5665,7 +5665,7 @@ const data = [
   {
     "shopName": "디초콜릿커피앤",
     "branchName": "드여의도파이낸스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 23-8",
     "roadAddress": "서울특별시 영등포구 국제금융로2길 32",
     "lng": 126.9241241,
@@ -5674,7 +5674,7 @@ const data = [
   {
     "shopName": "로즈드마이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 592-62",
     "roadAddress": "서울특별시 은평구 불광천길 312",
     "lng": 126.913895,
@@ -5683,7 +5683,7 @@ const data = [
   {
     "shopName": "커피뮤비트플렉스",
     "branchName": "왕십리역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 행당동 168-151",
     "roadAddress": "서울특별시 성동구 왕십리광장로 17",
     "lng": 127.0383792,
@@ -5692,7 +5692,7 @@ const data = [
   {
     "shopName": "마크커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 982-8",
     "roadAddress": "서울특별시 강남구 도곡로99길 23",
     "lng": 127.0654131,
@@ -5701,7 +5701,7 @@ const data = [
   {
     "shopName": "카페코야",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1024-14",
     "roadAddress": "서울특별시 강서구 강서로33가길 74",
     "lng": 126.836748,
@@ -5710,7 +5710,7 @@ const data = [
   {
     "shopName": "카페문",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 608-160",
     "roadAddress": "서울특별시 도봉구 도봉로110아길 25",
     "lng": 127.0376751,
@@ -5719,7 +5719,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "신림문화교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 808-368",
     "roadAddress": "서울특별시 관악구 신림로 262-1",
     "lng": 126.9326883,
@@ -5728,7 +5728,7 @@ const data = [
   {
     "shopName": "제주스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 509",
     "roadAddress": "서울특별시 노원구 동일로204가길 46",
     "lng": 127.067888,
@@ -5737,7 +5737,7 @@ const data = [
   {
     "shopName": "카페데일리에디션",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 5-6",
     "roadAddress": "서울특별시 강남구 도산대로 142",
     "lng": 127.0241673,
@@ -5746,7 +5746,7 @@ const data = [
   {
     "shopName": "매머드커피",
     "branchName": "마포합정점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 합정동 472",
     "roadAddress": "서울특별시 마포구 월드컵로1길 14",
     "lng": 126.9120459,
@@ -5755,7 +5755,7 @@ const data = [
   {
     "shopName": "카페곳",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 278-29",
     "roadAddress": "서울특별시 서대문구 간호대로 11-31",
     "lng": 126.9480436,
@@ -5764,7 +5764,7 @@ const data = [
   {
     "shopName": "다빼드림",
     "branchName": "금호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 금호동2가 1217",
     "roadAddress": "서울특별시 성동구 금호로 107",
     "lng": 127.0242942,
@@ -5773,7 +5773,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "보라매점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 729-24",
     "roadAddress": "서울특별시 관악구 보라매로5가길 7",
     "lng": 126.9253642,
@@ -5782,7 +5782,7 @@ const data = [
   {
     "shopName": "커피아마토르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 684-3",
     "roadAddress": "서울특별시 강서구 강서로 462",
     "lng": 126.8413864,
@@ -5791,7 +5791,7 @@ const data = [
   {
     "shopName": "국회의원식당카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 1",
     "roadAddress": "서울특별시 영등포구 의사당대로 1",
     "lng": 126.9163908,
@@ -5800,7 +5800,7 @@ const data = [
   {
     "shopName": "카페리맨즈메세나폴리스점",
     "branchName": "리맨즈메세나폴리스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 490",
     "roadAddress": "서울특별시 마포구 양화로 45",
     "lng": 126.9139374,
@@ -5809,7 +5809,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "신풍역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 3849",
     "roadAddress": "서울특별시 영등포구 신풍로 52-1",
     "lng": 126.9117668,
@@ -5818,7 +5818,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아상암DDMC점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1610",
     "roadAddress": "서울특별시 마포구 매봉산로 75",
     "lng": 126.8928847,
@@ -5836,7 +5836,7 @@ const data = [
   {
     "shopName": "메가커피",
     "branchName": "은행사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 366-9",
     "roadAddress": "서울특별시 노원구 한글비석로 270",
     "lng": 127.0773808,
@@ -5845,7 +5845,7 @@ const data = [
   {
     "shopName": "테일러커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 521-17",
     "roadAddress": "서울특별시 강남구 강남대로160길 31",
     "lng": 127.0211936,
@@ -5854,7 +5854,7 @@ const data = [
   {
     "shopName": "AMELATTE",
     "branchName": "길음점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 길음동 1285",
     "roadAddress": "서울특별시 성북구 길음로13길 22",
     "lng": 127.019267,
@@ -5863,7 +5863,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "사비나",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 9999-2",
     "roadAddress": "서울특별시 은평구 진관1로 93",
     "lng": 126.9292555,
@@ -5872,7 +5872,7 @@ const data = [
   {
     "shopName": "하루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 642-9",
     "roadAddress": "서울특별시 구로구 구일로8길 63",
     "lng": 126.8732782,
@@ -5881,7 +5881,7 @@ const data = [
   {
     "shopName": "카작",
     "branchName": "은평뉴타운점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 107",
     "roadAddress": "서울특별시 은평구 진관2로 90",
     "lng": 126.9258127,
@@ -5890,7 +5890,7 @@ const data = [
   {
     "shopName": "아마존슈라스카리아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 11-7",
     "roadAddress": "서울특별시 송파구 올림픽로 319",
     "lng": 127.105458,
@@ -5899,7 +5899,7 @@ const data = [
   {
     "shopName": "새날스토리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 개봉동 264-1",
     "roadAddress": "서울특별시 구로구 개봉로16길 18",
     "lng": 126.8571695,
@@ -5908,7 +5908,7 @@ const data = [
   {
     "shopName": "라프리앙",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 220-34",
     "roadAddress": "서울특별시 광진구 구의로 18-2",
     "lng": 127.0895258,
@@ -5917,7 +5917,7 @@ const data = [
   {
     "shopName": "CafeA:RO",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 912-14",
     "roadAddress": "서울특별시 양천구 지양로 95",
     "lng": 126.8317272,
@@ -5926,7 +5926,7 @@ const data = [
   {
     "shopName": "502커피로스터스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 736-1",
     "roadAddress": "서울특별시 강남구 테헤란로 142",
     "lng": 127.0349412,
@@ -5935,7 +5935,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "몰리한겨레점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 공덕동 116-25",
     "roadAddress": "서울특별시 마포구 효창목길 6",
     "lng": 126.9588053,
@@ -5944,7 +5944,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "움라우트",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1032-4",
     "roadAddress": "서울특별시 강서구 강서로33가길 52",
     "lng": 126.8375524,
@@ -5953,7 +5953,7 @@ const data = [
   {
     "shopName": "토스토스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 139-31",
     "roadAddress": "서울특별시 강남구 강남대로128길 36",
     "lng": 127.0250171,
@@ -5962,7 +5962,7 @@ const data = [
   {
     "shopName": "커피207",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 612-61",
     "roadAddress": "서울특별시 중랑구 사가정로 404-6",
     "lng": 127.089277,
@@ -5971,7 +5971,7 @@ const data = [
   {
     "shopName": "까페마음",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동 618-158",
     "roadAddress": "서울특별시 영등포구 영신로20길 12-3",
     "lng": 126.9091468,
@@ -5989,7 +5989,7 @@ const data = [
   {
     "shopName": "팔공티",
     "branchName": "대흥역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 염리동 159-10",
     "roadAddress": "서울특별시 마포구 백범로 134-1",
     "lng": 126.945818,
@@ -5998,7 +5998,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "성수SKV타워점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 315-61",
     "roadAddress": "서울특별시 성동구 연무장5가길 25",
     "lng": 127.0555947,
@@ -6007,7 +6007,7 @@ const data = [
   {
     "shopName": "카페코알라",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상수동 328-14",
     "roadAddress": "서울특별시 마포구 와우산로 29",
     "lng": 126.9227823,
@@ -6025,7 +6025,7 @@ const data = [
   {
     "shopName": "쥬씨",
     "branchName": "신월동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 961-5",
     "roadAddress": "서울특별시 양천구 지양로 74",
     "lng": 126.833803,
@@ -6034,7 +6034,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "서울역KTX플랫폼점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 동자동 43-205",
     "roadAddress": "서울특별시 용산구 한강대로 405",
     "lng": 126.9717115,
@@ -6043,7 +6043,7 @@ const data = [
   {
     "shopName": "스타벅스서소문배재점",
     "branchName": "서소문배재점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 서소문동 57-9",
     "roadAddress": "서울특별시 중구 서소문로 99",
     "lng": 126.9721669,
@@ -6052,7 +6052,7 @@ const data = [
   {
     "shopName": "꽃다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 547-64",
     "roadAddress": "서울특별시 광진구 뚝섬로31길 43",
     "lng": 127.0681966,
@@ -6061,7 +6061,7 @@ const data = [
   {
     "shopName": "카페루엔비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 60-24",
     "roadAddress": "서울특별시 금천구 벚꽃로 254",
     "lng": 126.885474,
@@ -6070,7 +6070,7 @@ const data = [
   {
     "shopName": "MANOFFIN",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 736-1",
     "roadAddress": "서울특별시 동작구 동작대로 117",
     "lng": 126.9821556,
@@ -6079,7 +6079,7 @@ const data = [
   {
     "shopName": "카페샘",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 상월곡동 57-23",
     "roadAddress": "서울특별시 성북구 화랑로15길 26-6",
     "lng": 127.0450598,
@@ -6088,7 +6088,7 @@ const data = [
   {
     "shopName": "김화자카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 657-19",
     "roadAddress": "서울특별시 도봉구 도봉로114길 50",
     "lng": 127.037112,
@@ -6097,7 +6097,7 @@ const data = [
   {
     "shopName": "카페루이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 보문동4가 116",
     "roadAddress": "서울특별시 성북구 고려대로2길 37",
     "lng": 127.0208404,
@@ -6106,7 +6106,7 @@ const data = [
   {
     "shopName": "커피드슈",
     "branchName": "논현역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 잠원동 37-14",
     "roadAddress": "서울특별시 서초구 신반포로 337",
     "lng": 127.0203967,
@@ -6115,7 +6115,7 @@ const data = [
   {
     "shopName": "하우스까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 내곡동 1-392",
     "roadAddress": "서울특별시 서초구 신흥안길 40-27",
     "lng": 127.0766981,
@@ -6124,7 +6124,7 @@ const data = [
   {
     "shopName": "커피온리",
     "branchName": "역삼초교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 837-13",
     "roadAddress": "서울특별시 강남구 강남대로66길 14",
     "lng": 127.0318328,
@@ -6133,7 +6133,7 @@ const data = [
   {
     "shopName": "카페오늘",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 776-5",
     "roadAddress": "서울특별시 영등포구 가마산로34길 4",
     "lng": 126.8962038,
@@ -6142,7 +6142,7 @@ const data = [
   {
     "shopName": "대림창고",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 322-32",
     "roadAddress": "서울특별시 성동구 성수이로 78",
     "lng": 127.0566259,
@@ -6151,7 +6151,7 @@ const data = [
   {
     "shopName": "감성커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 159",
     "roadAddress": "서울특별시 강남구 영동대로 513",
     "lng": 127.0591391,
@@ -6160,7 +6160,7 @@ const data = [
   {
     "shopName": "커피앤비어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 154-24",
     "roadAddress": "서울특별시 노원구 덕릉로83길 14-3",
     "lng": 127.0745995,
@@ -6169,7 +6169,7 @@ const data = [
   {
     "shopName": "하나커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 24-35",
     "roadAddress": "서울특별시 강북구 삼양로98길 40",
     "lng": 127.0193571,
@@ -6178,7 +6178,7 @@ const data = [
   {
     "shopName": "팬",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 화동 48",
     "roadAddress": "서울특별시 종로구 삼청로4길 10",
     "lng": 126.9818782,
@@ -6187,7 +6187,7 @@ const data = [
   {
     "shopName": "더리터",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 태평로2가 150",
     "roadAddress": "서울특별시 중구 세종대로 55",
     "lng": 126.9749573,
@@ -6196,7 +6196,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "드소리",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 462-3",
     "roadAddress": "서울특별시 동작구 상도로50길 4",
     "lng": 126.95103,
@@ -6205,7 +6205,7 @@ const data = [
   {
     "shopName": "포너",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 656",
     "roadAddress": "서울특별시 광진구 뚝섬로57길 40",
     "lng": 127.0828887,
@@ -6214,7 +6214,7 @@ const data = [
   {
     "shopName": "CoffeeMong",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 46-11",
     "roadAddress": "서울특별시 송파구 오금로36길 64",
     "lng": 127.121753,
@@ -6223,7 +6223,7 @@ const data = [
   {
     "shopName": "후식",
     "branchName": "묵동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 170-1",
     "roadAddress": "서울특별시 중랑구 동일로 932",
     "lng": 127.0775414,
@@ -6232,7 +6232,7 @@ const data = [
   {
     "shopName": "스터디101",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 59-5",
     "roadAddress": "서울특별시 도봉구 시루봉로 58",
     "lng": 127.0293889,
@@ -6241,7 +6241,7 @@ const data = [
   {
     "shopName": "카페아토",
     "branchName": "영등포구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 328",
     "roadAddress": "서울특별시 영등포구 양산로 127",
     "lng": 126.8971279,
@@ -6250,7 +6250,7 @@ const data = [
   {
     "shopName": "디자이너스라운지",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 창전동 5-129",
     "roadAddress": "서울특별시 마포구 와우산로30길 18",
     "lng": 126.9296335,
@@ -6268,7 +6268,7 @@ const data = [
   {
     "shopName": "노아스로스팅",
     "branchName": "신사점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 잠원동 27-11",
     "roadAddress": "서울특별시 서초구 강남대로95길 12",
     "lng": 127.0191256,
@@ -6277,7 +6277,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "마곡나루역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 760",
     "roadAddress": "서울특별시 강서구 마곡중앙5로 6",
     "lng": 126.8270032,
@@ -6286,7 +6286,7 @@ const data = [
   {
     "shopName": "PUESTO",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 명륜1가 31-2",
     "roadAddress": "서울특별시 종로구 성균관로 92",
     "lng": 126.9987465,
@@ -6295,7 +6295,7 @@ const data = [
   {
     "shopName": "비틀주스홍씨내",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 자곡동 638",
     "roadAddress": "서울특별시 강남구 자곡로 120",
     "lng": 127.0964811,
@@ -6304,7 +6304,7 @@ const data = [
   {
     "shopName": "샌드프레소",
     "branchName": "압구정점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 566-13",
     "roadAddress": "서울특별시 강남구 논현로159길 21",
     "lng": 127.0263959,
@@ -6313,7 +6313,7 @@ const data = [
   {
     "shopName": "컨플릭트스토어커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 551-24",
     "roadAddress": "서울특별시 강남구 논현로159길 46-5",
     "lng": 127.0242988,
@@ -6322,7 +6322,7 @@ const data = [
   {
     "shopName": "돌리팝",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 358-30",
     "roadAddress": "서울특별시 마포구 와우산로21길 4",
     "lng": 126.9237099,
@@ -6331,7 +6331,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "신세계강남점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 19-3",
     "roadAddress": "서울특별시 서초구 신반포로 176",
     "lng": 127.0023932,
@@ -6340,7 +6340,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "세종대후문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 103",
     "roadAddress": "서울특별시 광진구 군자로 108",
     "lng": 127.0721505,
@@ -6349,7 +6349,7 @@ const data = [
   {
     "shopName": "현스티",
     "branchName": "순화점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 순화동 217",
     "roadAddress": "서울특별시 중구 서소문로9길 28",
     "lng": 126.9700276,
@@ -6358,7 +6358,7 @@ const data = [
   {
     "shopName": "여기,다시",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신수동 85-30",
     "roadAddress": "서울특별시 마포구 광성로6길 56",
     "lng": 126.9396828,
@@ -6367,7 +6367,7 @@ const data = [
   {
     "shopName": "체리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 회현동1가 180-2",
     "roadAddress": "서울특별시 중구 퇴계로6길 5",
     "lng": 126.9783344,
@@ -6376,7 +6376,7 @@ const data = [
   {
     "shopName": "르카페랩",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 후암동 185-14",
     "roadAddress": "서울특별시 용산구 두텁바위로1나길 7",
     "lng": 126.9759872,
@@ -6385,7 +6385,7 @@ const data = [
   {
     "shopName": "카페모아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 931-7",
     "roadAddress": "서울특별시 관악구 남부순환로 1717",
     "lng": 126.9410835,
@@ -6394,7 +6394,7 @@ const data = [
   {
     "shopName": "슬롭커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 166-10",
     "roadAddress": "서울특별시 마포구 홍익로6길 67",
     "lng": 126.9247692,
@@ -6403,7 +6403,7 @@ const data = [
   {
     "shopName": "십사일커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 319-40",
     "roadAddress": "서울특별시 동작구 사당로20길 29",
     "lng": 126.9757545,
@@ -6412,7 +6412,7 @@ const data = [
   {
     "shopName": "가람커피로스터스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 신원동 445-4",
     "roadAddress": "서울특별시 서초구 본마을길 31",
     "lng": 127.0535303,
@@ -6421,7 +6421,7 @@ const data = [
   {
     "shopName": "더커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 자곡동 636",
     "roadAddress": "서울특별시 강남구 자곡로 114",
     "lng": 127.0960074,
@@ -6430,7 +6430,7 @@ const data = [
   {
     "shopName": "Eliot",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 538-30",
     "roadAddress": "서울특별시 관악구 난곡로65길 17",
     "lng": 126.9132801,
@@ -6439,7 +6439,7 @@ const data = [
   {
     "shopName": "헤이마",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 성북동 209-10",
     "roadAddress": "서울특별시 성북구 성북로23길 25-2",
     "lng": 126.9950506,
@@ -6448,7 +6448,7 @@ const data = [
   {
     "shopName": "할리스커피낙성대역점",
     "branchName": "낙성대역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1659-2",
     "roadAddress": "서울특별시 관악구 남부순환로 1922",
     "lng": 126.9627275,
@@ -6457,7 +6457,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "노원구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 705-1",
     "roadAddress": "서울특별시 노원구 노해로 449",
     "lng": 127.0579822,
@@ -6466,7 +6466,7 @@ const data = [
   {
     "shopName": "서울다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 17",
     "roadAddress": "서울특별시 영등포구 의사당대로 38",
     "lng": 126.9186738,
@@ -6475,7 +6475,7 @@ const data = [
   {
     "shopName": "커피집양재에이티점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 327-3",
     "roadAddress": "서울특별시 서초구 동산로 10",
     "lng": 127.0408967,
@@ -6484,7 +6484,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "더케이팝",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 253-7",
     "roadAddress": "서울특별시 광진구 광나루로 496",
     "lng": 127.0844912,
@@ -6493,7 +6493,7 @@ const data = [
   {
     "shopName": "사발커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 664-18",
     "roadAddress": "서울특별시 강남구 언주로97길 26",
     "lng": 127.0392727,
@@ -6502,7 +6502,7 @@ const data = [
   {
     "shopName": "소버스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 848-11",
     "roadAddress": "서울특별시 서초구 방배로26길 71-5",
     "lng": 126.9962129,
@@ -6511,7 +6511,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "식빵공방",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 하왕십리동 1070",
     "roadAddress": "서울특별시 성동구 왕십리로 410",
     "lng": 127.0240621,
@@ -6520,7 +6520,7 @@ const data = [
   {
     "shopName": "탐앤탐스",
     "branchName": "고대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 104-117",
     "roadAddress": "서울특별시 성북구 고려대로24길 63",
     "lng": 127.0296056,
@@ -6529,7 +6529,7 @@ const data = [
   {
     "shopName": "탐앤탐스",
     "branchName": "대방역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 대방동 88-19",
     "roadAddress": "서울특별시 동작구 여의대방로62길 1",
     "lng": 126.9270465,
@@ -6538,7 +6538,7 @@ const data = [
   {
     "shopName": "커피세븐",
     "branchName": "상계점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 459-6",
     "roadAddress": "서울특별시 노원구 한글비석로46가길 42",
     "lng": 127.0667316,
@@ -6547,7 +6547,7 @@ const data = [
   {
     "shopName": "언더프레셔",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 159",
     "roadAddress": "서울특별시 강남구 영동대로 513",
     "lng": 127.0591391,
@@ -6556,7 +6556,7 @@ const data = [
   {
     "shopName": "학화호두과자",
     "branchName": "강남직영점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 82-2",
     "roadAddress": "서울특별시 서초구 바우뫼로 188",
     "lng": 127.0405225,
@@ -6565,7 +6565,7 @@ const data = [
   {
     "shopName": "쿼터커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1626-37",
     "roadAddress": "서울특별시 관악구 관악로12길 99",
     "lng": 126.9578402,
@@ -6574,7 +6574,7 @@ const data = [
   {
     "shopName": "로뎀나무까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 989-12",
     "roadAddress": "서울특별시 금천구 시흥대로45길 32",
     "lng": 126.9000622,
@@ -6583,7 +6583,7 @@ const data = [
   {
     "shopName": "슈가커피전문점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 844",
     "roadAddress": "서울특별시 중구 다산로 32",
     "lng": 127.0056418,
@@ -6601,7 +6601,7 @@ const data = [
   {
     "shopName": "브타이거커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 1279",
     "roadAddress": "서울특별시 영등포구 영등포로86길 23",
     "lng": 126.9229078,
@@ -6610,7 +6610,7 @@ const data = [
   {
     "shopName": "리엘베이킹",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 888-38",
     "roadAddress": "서울특별시 서초구 방배로18길 91",
     "lng": 126.9997325,
@@ -6619,7 +6619,7 @@ const data = [
   {
     "shopName": "코지블루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 45-5",
     "roadAddress": "서울특별시 송파구 백제고분로45길 7",
     "lng": 127.1102751,
@@ -6628,7 +6628,7 @@ const data = [
   {
     "shopName": "만랩커피",
     "branchName": "이수역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 866-10",
     "roadAddress": "서울특별시 서초구 서초대로 13",
     "lng": 126.9838289,
@@ -6637,7 +6637,7 @@ const data = [
   {
     "shopName": "데일리",
     "branchName": "로스팅",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 977-20",
     "roadAddress": "서울특별시 금천구 독산로 312",
     "lng": 126.9035545,
@@ -6646,7 +6646,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "망원역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 441-11",
     "roadAddress": "서울특별시 마포구 월드컵로 82-1",
     "lng": 126.910211,
@@ -6655,7 +6655,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "달금하다",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 산천동 202",
     "roadAddress": "서울특별시 용산구 원효로 51",
     "lng": 126.9500493,
@@ -6664,7 +6664,7 @@ const data = [
   {
     "shopName": "롤링삐삐",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 967-14",
     "roadAddress": "서울특별시 강남구 역삼로92길 7",
     "lng": 127.0629584,
@@ -6673,7 +6673,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "오늘의기분",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 신문로1가 238",
     "roadAddress": "서울특별시 종로구 새문안로3길 12",
     "lng": 126.9729676,
@@ -6691,7 +6691,7 @@ const data = [
   {
     "shopName": "에그타르트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 안국동 175-57",
     "roadAddress": "서울특별시 종로구 윤보선길 31",
     "lng": 126.9836513,
@@ -6700,7 +6700,7 @@ const data = [
   {
     "shopName": "모리나리까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 회현동2가 60-2",
     "roadAddress": "서울특별시 중구 소공로 29",
     "lng": 126.9827945,
@@ -6709,7 +6709,7 @@ const data = [
   {
     "shopName": "브이커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 653-5",
     "roadAddress": "서울특별시 강서구 화곡로64길 98",
     "lng": 126.8581419,
@@ -6718,7 +6718,7 @@ const data = [
   {
     "shopName": "카페루이스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 충정로3가 465",
     "roadAddress": "서울특별시 서대문구 서소문로 27",
     "lng": 126.9648455,
@@ -6727,7 +6727,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "구산역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 구산동 1-1",
     "roadAddress": "서울특별시 은평구 연서로 137",
     "lng": 126.9168195,
@@ -6736,7 +6736,7 @@ const data = [
   {
     "shopName": "쥬씨",
     "branchName": "염창점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 염창동 246-17",
     "roadAddress": "서울특별시 강서구 양천로 657",
     "lng": 126.8704058,
@@ -6745,7 +6745,7 @@ const data = [
   {
     "shopName": "라온tree",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 413-8",
     "roadAddress": "서울특별시 노원구 덕릉로 591",
     "lng": 127.071846,
@@ -6754,7 +6754,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "지니얼",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 청파동2가 67-5",
     "roadAddress": "서울특별시 용산구 청파로49길 56",
     "lng": 126.9672062,
@@ -6763,7 +6763,7 @@ const data = [
   {
     "shopName": "한우리보호작업장",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1376-3",
     "roadAddress": "서울특별시 서초구 남부순환로 2584",
     "lng": 127.0326845,
@@ -6772,7 +6772,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "신림사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1433-51",
     "roadAddress": "서울특별시 관악구 남부순환로 1599-3",
     "lng": 126.9282507,
@@ -6781,7 +6781,7 @@ const data = [
   {
     "shopName": "북카페산책연남점",
     "branchName": "연남점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 487-35",
     "roadAddress": "서울특별시 마포구 성미산로17길 79",
     "lng": 126.9171594,
@@ -6790,7 +6790,7 @@ const data = [
   {
     "shopName": "엘리스파이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 압구정동 429",
     "roadAddress": "서울특별시 강남구 압구정로 165",
     "lng": 127.0274466,
@@ -6799,7 +6799,7 @@ const data = [
   {
     "shopName": "태능커피호프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 234-16",
     "roadAddress": "서울특별시 중랑구 중랑역로 234",
     "lng": 127.0754865,
@@ -6808,7 +6808,7 @@ const data = [
   {
     "shopName": "에스앤제이이노베이션",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 657-12",
     "roadAddress": "서울특별시 강남구 선릉로157길 23-4",
     "lng": 127.0376357,
@@ -6817,7 +6817,7 @@ const data = [
   {
     "shopName": "카페쟈스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 83",
     "roadAddress": "서울특별시 은평구 진관2로 77",
     "lng": 126.9277223,
@@ -6835,7 +6835,7 @@ const data = [
   {
     "shopName": "파파카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 1031-27",
     "roadAddress": "서울특별시 금천구 시흥대로 352",
     "lng": 126.8979085,
@@ -6844,7 +6844,7 @@ const data = [
   {
     "shopName": "선유도커피집은마",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 316",
     "roadAddress": "서울특별시 강남구 삼성로 212",
     "lng": 127.0658971,
@@ -6853,7 +6853,7 @@ const data = [
   {
     "shopName": "블루포트",
     "branchName": "건국대학교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 1",
     "roadAddress": "서울특별시 광진구 능동로 120",
     "lng": 127.0746953,
@@ -6871,7 +6871,7 @@ const data = [
   {
     "shopName": "브링미커피컴퍼니",
     "branchName": "자양점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 584-5",
     "roadAddress": "서울특별시 광진구 자양번영로 19",
     "lng": 127.0749032,
@@ -6880,7 +6880,7 @@ const data = [
   {
     "shopName": "달리는커피문정",
     "branchName": "법조타운점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 652-2",
     "roadAddress": "서울특별시 송파구 송파대로 145",
     "lng": 127.1230309,
@@ -6889,7 +6889,7 @@ const data = [
   {
     "shopName": "CafeQuerenciaC&C",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 잠원동 69-12",
     "roadAddress": "서울특별시 서초구 신반포로 205",
     "lng": 127.0064466,
@@ -6907,7 +6907,7 @@ const data = [
   {
     "shopName": "엠앤디",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 내곡동 6-42",
     "roadAddress": "서울특별시 서초구 능안말1길 5-2",
     "lng": 127.0668204,
@@ -6916,7 +6916,7 @@ const data = [
   {
     "shopName": "그라운드오리진",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 율현동 196-33",
     "roadAddress": "서울특별시 강남구 밤고개로23길 16",
     "lng": 127.1083019,
@@ -6925,7 +6925,7 @@ const data = [
   {
     "shopName": "백미당",
     "branchName": "현대백화점압구정점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 압구정동 429",
     "roadAddress": "서울특별시 강남구 압구정로 165",
     "lng": 127.0274466,
@@ -6934,7 +6934,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "광산사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 188-1",
     "roadAddress": "서울특별시 강북구 한천로 1083",
     "lng": 127.0226156,
@@ -6952,7 +6952,7 @@ const data = [
   {
     "shopName": "주경자구름떡카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 814-21",
     "roadAddress": "서울특별시 서초구 방배로33길 20",
     "lng": 126.9895834,
@@ -6961,7 +6961,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "염창역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 염창동 282-23",
     "roadAddress": "서울특별시 강서구 공항대로 627",
     "lng": 126.8745264,
@@ -6970,7 +6970,7 @@ const data = [
   {
     "shopName": "카페꿈틀서울시교육연수원점",
     "branchName": "꿈틀서울시교육연수원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 630",
     "roadAddress": "서울특별시 서초구 남부순환로 2248",
     "lng": 126.9970952,
@@ -6979,7 +6979,7 @@ const data = [
   {
     "shopName": "리지트커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 44-70",
     "roadAddress": "서울특별시 용산구 녹사평대로32길 33-1",
     "lng": 126.9905862,
@@ -6988,7 +6988,7 @@ const data = [
   {
     "shopName": "스타벅스회현역점",
     "branchName": "회현역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 회현동1가 206",
     "roadAddress": "서울특별시 중구 퇴계로 72",
     "lng": 126.9805829,
@@ -6997,7 +6997,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "도봉역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 도봉동 600-1",
     "roadAddress": "서울특별시 도봉구 도봉로 817",
     "lng": 127.0446159,
@@ -7015,7 +7015,7 @@ const data = [
   {
     "shopName": "쥬씨",
     "branchName": "강서화곡역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1066-10",
     "roadAddress": "서울특별시 강서구 화곡로 143",
     "lng": 126.8376053,
@@ -7042,7 +7042,7 @@ const data = [
   {
     "shopName": "22번가",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 신내동 587-4",
     "roadAddress": "서울특별시 중랑구 신내로14길 22",
     "lng": 127.096682,
@@ -7051,7 +7051,7 @@ const data = [
   {
     "shopName": "더치앤빈가산롯데IT",
     "branchName": "캐슬점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 550-1",
     "roadAddress": "서울특별시 금천구 가산디지털2로 98",
     "lng": 126.8810386,
@@ -7060,7 +7060,7 @@ const data = [
   {
     "shopName": "팬도로시",
     "branchName": "한양대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 행당동 17",
     "roadAddress": "서울특별시 성동구 왕십리로 220",
     "lng": 127.0424353,
@@ -7069,7 +7069,7 @@ const data = [
   {
     "shopName": "에스프레사멘테일리보라매점",
     "branchName": "보라매점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 신대방동 395-70",
     "roadAddress": "서울특별시 동작구 보라매로5길 15",
     "lng": 126.9242507,
@@ -7078,7 +7078,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "수서점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 수서동 713",
     "roadAddress": "서울특별시 강남구 밤고개로1길 10",
     "lng": 127.1018421,
@@ -7087,7 +7087,7 @@ const data = [
   {
     "shopName": "면목4동주민센터",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 378-9",
     "roadAddress": "서울특별시 중랑구 면목로 246",
     "lng": 127.0855867,
@@ -7096,7 +7096,7 @@ const data = [
   {
     "shopName": "쥬씨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 295-2",
     "roadAddress": "서울특별시 영등포구 당산로 114",
     "lng": 126.8966105,
@@ -7105,7 +7105,7 @@ const data = [
   {
     "shopName": "빽다방신림역2호점",
     "branchName": "신림역2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1641-12",
     "roadAddress": "서울특별시 관악구 신림로 322",
     "lng": 126.9300815,
@@ -7114,7 +7114,7 @@ const data = [
   {
     "shopName": "킹스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 종암동 82-19",
     "roadAddress": "서울특별시 성북구 종암로21길 65-3",
     "lng": 127.0323643,
@@ -7123,7 +7123,7 @@ const data = [
   {
     "shopName": "텐포티커피컴퍼니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 768-2",
     "roadAddress": "서울특별시 강서구 마곡서로 101",
     "lng": 126.8235863,
@@ -7132,7 +7132,7 @@ const data = [
   {
     "shopName": "베브릿지",
     "branchName": "성신여대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동1가 84-2",
     "roadAddress": "서울특별시 성북구 보문로34길 69",
     "lng": 127.0190399,
@@ -7141,7 +7141,7 @@ const data = [
   {
     "shopName": "하프카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1316-17",
     "roadAddress": "서울특별시 서초구 강남대로61길 19",
     "lng": 127.0252111,
@@ -7150,7 +7150,7 @@ const data = [
   {
     "shopName": "에스엠씨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1639-59",
     "roadAddress": "서울특별시 관악구 관천로 34",
     "lng": 126.9277736,
@@ -7159,7 +7159,7 @@ const data = [
   {
     "shopName": "카페누리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 95-154",
     "roadAddress": "서울특별시 영등포구 영등포로78길 13",
     "lng": 126.9200798,
@@ -7168,7 +7168,7 @@ const data = [
   {
     "shopName": "솔샘커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 791-1886",
     "roadAddress": "서울특별시 강북구 인수봉로12길 7",
     "lng": 127.013403,
@@ -7177,7 +7177,7 @@ const data = [
   {
     "shopName": "커피플란트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 거여동 37-6",
     "roadAddress": "서울특별시 송파구 거마로 4",
     "lng": 127.1448415,
@@ -7186,7 +7186,7 @@ const data = [
   {
     "shopName": "에스에이치오리진커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동4가 15-5",
     "roadAddress": "서울특별시 영등포구 선유로43길 32",
     "lng": 126.8922753,
@@ -7195,7 +7195,7 @@ const data = [
   {
     "shopName": "꽃다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 926-27",
     "roadAddress": "서울특별시 금천구 금하로24길 73",
     "lng": 126.9090521,
@@ -7204,7 +7204,7 @@ const data = [
   {
     "shopName": "커피와닷컴",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 248-10",
     "roadAddress": "서울특별시 송파구 삼전로7길 16",
     "lng": 127.086927,
@@ -7213,7 +7213,7 @@ const data = [
   {
     "shopName": "루틴",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 106-8",
     "roadAddress": "서울특별시 강남구 영동대로112길 9",
     "lng": 127.0609294,
@@ -7222,7 +7222,7 @@ const data = [
   {
     "shopName": "컬러오브커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 하왕십리동 1070",
     "roadAddress": "서울특별시 성동구 왕십리로 410",
     "lng": 127.0240621,
@@ -7231,7 +7231,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "베란다",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 남가좌동 5-123",
     "roadAddress": "서울특별시 서대문구 명지대3길 26",
     "lng": 126.9222559,
@@ -7240,7 +7240,7 @@ const data = [
   {
     "shopName": "오가다청담",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 4-1",
     "roadAddress": "서울특별시 강남구 도산대로 442",
     "lng": 127.0441068,
@@ -7249,7 +7249,7 @@ const data = [
   {
     "shopName": "파스쿠찌",
     "branchName": "김포공항국내선점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 공항동 1373-5",
     "roadAddress": "서울특별시 강서구 하늘길 112",
     "lng": 126.8084568,
@@ -7258,7 +7258,7 @@ const data = [
   {
     "shopName": "말랑슬라임",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 895-4",
     "roadAddress": "서울특별시 강남구 남부순환로365길 56",
     "lng": 127.0402458,
@@ -7267,7 +7267,7 @@ const data = [
   {
     "shopName": "이디야커피신당중앙점",
     "branchName": "신당중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 황학동 2480",
     "roadAddress": "서울특별시 중구 퇴계로 455",
     "lng": 127.022309,
@@ -7276,7 +7276,7 @@ const data = [
   {
     "shopName": "이디야커피용두점",
     "branchName": "용두점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 용두동 40-1",
     "roadAddress": "서울특별시 동대문구 고산자로 413-1",
     "lng": 127.0379119,
@@ -7285,7 +7285,7 @@ const data = [
   {
     "shopName": "오르컴퍼니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 경운동 1-8",
     "roadAddress": "서울특별시 종로구 삼일대로32길 22",
     "lng": 126.9880837,
@@ -7294,7 +7294,7 @@ const data = [
   {
     "shopName": "더착한커피",
     "branchName": "지하이시티구로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 237",
     "roadAddress": "서울특별시 구로구 디지털로 243",
     "lng": 126.8923309,
@@ -7303,7 +7303,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 735-2",
     "roadAddress": "서울특별시 노원구 동일로217가길 39",
     "lng": 127.0581872,
@@ -7312,7 +7312,7 @@ const data = [
   {
     "shopName": "CARANdACHE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1348-10",
     "roadAddress": "서울특별시 서초구 서운로11길 71",
     "lng": 127.0261932,
@@ -7321,7 +7321,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "가산대륭20차점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 691",
     "roadAddress": "서울특별시 금천구 가산디지털1로 5",
     "lng": 126.8867002,
@@ -7330,7 +7330,7 @@ const data = [
   {
     "shopName": "커피코트",
     "branchName": "순화동더샵점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 순화동 151",
     "roadAddress": "서울특별시 중구 칠패로 27",
     "lng": 126.9720218,
@@ -7339,7 +7339,7 @@ const data = [
   {
     "shopName": "베리굿슬라임",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 길음동 1280-1",
     "roadAddress": "서울특별시 성북구 길음로13길 39",
     "lng": 127.0162,
@@ -7348,7 +7348,7 @@ const data = [
   {
     "shopName": "프레이커피바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 204-2",
     "roadAddress": "서울특별시 성동구 성덕정길 152",
     "lng": 127.0601783,
@@ -7357,7 +7357,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "송파개롱역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 166-9",
     "roadAddress": "서울특별시 송파구 동남로 236",
     "lng": 127.1335072,
@@ -7366,7 +7366,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "성수세종타워점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 284-62",
     "roadAddress": "서울특별시 성동구 성수일로10길 26",
     "lng": 127.0531361,
@@ -7375,7 +7375,7 @@ const data = [
   {
     "shopName": "소담커피&쥬스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 35",
     "roadAddress": "서울특별시 송파구 잠실로 62",
     "lng": 127.0902691,
@@ -7384,7 +7384,7 @@ const data = [
   {
     "shopName": "얼반그레이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 467-24",
     "roadAddress": "서울특별시 강남구 언주로 118",
     "lng": 127.0518416,
@@ -7393,7 +7393,7 @@ const data = [
   {
     "shopName": "카페테라",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 1002",
     "roadAddress": "서울특별시 강남구 영동대로 416",
     "lng": 127.0653126,
@@ -7402,7 +7402,7 @@ const data = [
   {
     "shopName": "빌리엔젤",
     "branchName": "딜리버리센터잠실점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 217-10",
     "roadAddress": "서울특별시 송파구 백제고분로13길 9",
     "lng": 127.0819852,
@@ -7411,7 +7411,7 @@ const data = [
   {
     "shopName": "프롬테오커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 373-13",
     "roadAddress": "서울특별시 마포구 동교로 227-7",
     "lng": 126.9235836,
@@ -7420,7 +7420,7 @@ const data = [
   {
     "shopName": "카페숨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 증산동 167-1",
     "roadAddress": "서울특별시 은평구 증산로9길 13",
     "lng": 126.908805,
@@ -7429,7 +7429,7 @@ const data = [
   {
     "shopName": "마차롱카페",
     "branchName": "3호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 691",
     "roadAddress": "서울특별시 금천구 가산디지털1로 5",
     "lng": 126.8867002,
@@ -7438,7 +7438,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "CJ남산사옥점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남대문로5가 500",
     "roadAddress": "서울특별시 중구 소월로2길 12",
     "lng": 126.9759589,
@@ -7456,7 +7456,7 @@ const data = [
   {
     "shopName": "카페뮤즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 983-3",
     "roadAddress": "서울특별시 서초구 방배로10길 10-4",
     "lng": 126.9985605,
@@ -7465,7 +7465,7 @@ const data = [
   {
     "shopName": "이케아",
     "branchName": "푸드랩",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 280",
     "roadAddress": "서울특별시 성동구 아차산로17길 48",
     "lng": 127.0661369,
@@ -7474,7 +7474,7 @@ const data = [
   {
     "shopName": "카페터울",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 삼선동5가 301",
     "roadAddress": "서울특별시 성북구 보문로 170",
     "lng": 127.0161925,
@@ -7483,7 +7483,7 @@ const data = [
   {
     "shopName": "통툰",
     "branchName": "서울대입구역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 853-2",
     "roadAddress": "서울특별시 관악구 관악로16길 13",
     "lng": 126.9534319,
@@ -7492,7 +7492,7 @@ const data = [
   {
     "shopName": "슈가링스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 534-10",
     "roadAddress": "서울특별시 강동구 성내로9길 35-6",
     "lng": 127.1246173,
@@ -7501,7 +7501,7 @@ const data = [
   {
     "shopName": "벌스데이투미",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 223-93",
     "roadAddress": "서울특별시 마포구 성미산로29안길 26",
     "lng": 126.923639,
@@ -7510,7 +7510,7 @@ const data = [
   {
     "shopName": "소소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 종로2가 55-1",
     "roadAddress": "서울특별시 종로구 종로 104",
     "lng": 126.9890951,
@@ -7519,7 +7519,7 @@ const data = [
   {
     "shopName": "찐Days",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 84",
     "roadAddress": "서울특별시 은평구 진관2로 57-37",
     "lng": 126.9279118,
@@ -7537,7 +7537,7 @@ const data = [
   {
     "shopName": "매머드익스프레스",
     "branchName": "창동이마트점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 135-26",
     "roadAddress": "서울특별시 도봉구 노해로65길 4",
     "lng": 127.0466801,
@@ -7555,7 +7555,7 @@ const data = [
   {
     "shopName": "롯데마트중계점",
     "branchName": "중계점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 361",
     "roadAddress": "서울특별시 노원구 노원로 330",
     "lng": 127.0709241,
@@ -7564,7 +7564,7 @@ const data = [
   {
     "shopName": "로스팅포인트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 871-58",
     "roadAddress": "서울특별시 강서구 곰달래로31가길 34",
     "lng": 126.8532247,
@@ -7573,7 +7573,7 @@ const data = [
   {
     "shopName": "카페희제",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 433-4",
     "roadAddress": "서울특별시 동대문구 장한로 22",
     "lng": 127.066111,
@@ -7582,7 +7582,7 @@ const data = [
   {
     "shopName": "파스타8½",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 동숭동 129-130",
     "roadAddress": "서울특별시 종로구 낙산길 21",
     "lng": 127.0056968,
@@ -7591,7 +7591,7 @@ const data = [
   {
     "shopName": "스위트레코드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 41-1",
     "roadAddress": "서울특별시 광진구 아차산로21길 77",
     "lng": 127.0665493,
@@ -7600,7 +7600,7 @@ const data = [
   {
     "shopName": "디저트39",
     "branchName": "화곡역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1067-19",
     "roadAddress": "서울특별시 강서구 화곡로 135",
     "lng": 126.8367147,
@@ -7609,7 +7609,7 @@ const data = [
   {
     "shopName": "커피상담원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 326-17",
     "roadAddress": "서울특별시 강서구 양천로30길 22",
     "lng": 126.822554,
@@ -7618,7 +7618,7 @@ const data = [
   {
     "shopName": "카페바움",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 751-1",
     "roadAddress": "서울특별시 노원구 동일로214길 21",
     "lng": 127.0627422,
@@ -7627,7 +7627,7 @@ const data = [
   {
     "shopName": "빌로우",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 신도림동 692",
     "roadAddress": "서울특별시 구로구 경인로 662",
     "lng": 126.8884846,
@@ -7636,7 +7636,7 @@ const data = [
   {
     "shopName": "우리지금여기",
     "branchName": "은평점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 역촌동 9-53",
     "roadAddress": "서울특별시 은평구 역말로 51",
     "lng": 126.9161573,
@@ -7645,7 +7645,7 @@ const data = [
   {
     "shopName": "엘티커피바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 233-5",
     "roadAddress": "서울특별시 금천구 디지털로10길 69",
     "lng": 126.8908999,
@@ -7654,7 +7654,7 @@ const data = [
   {
     "shopName": "헤이데이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 235-7",
     "roadAddress": "서울특별시 영등포구 가마산로 505",
     "lng": 126.9126361,
@@ -7672,7 +7672,7 @@ const data = [
   {
     "shopName": "유니유니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 길음동 1276",
     "roadAddress": "서울특별시 성북구 동소문로 248",
     "lng": 127.0245428,
@@ -7681,7 +7681,7 @@ const data = [
   {
     "shopName": "로비카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 내발산동 678-7",
     "roadAddress": "서울특별시 강서구 강서로 307",
     "lng": 126.8362066,
@@ -7690,7 +7690,7 @@ const data = [
   {
     "shopName": "공작",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 449-7",
     "roadAddress": "서울특별시 마포구 동교로19길 56",
     "lng": 126.9171167,
@@ -7699,7 +7699,7 @@ const data = [
   {
     "shopName": "커피엔빵",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 신대방동 707",
     "roadAddress": "서울특별시 동작구 여의대방로 28",
     "lng": 126.9116763,
@@ -7708,7 +7708,7 @@ const data = [
   {
     "shopName": "일일육커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동7가 203",
     "roadAddress": "서울특별시 영등포구 국회대로54길 10",
     "lng": 126.9064232,
@@ -7717,7 +7717,7 @@ const data = [
   {
     "shopName": "바틀브로스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 하월곡동 88-470",
     "roadAddress": "서울특별시 성북구 동소문로46길 10",
     "lng": 127.0293458,
@@ -7735,7 +7735,7 @@ const data = [
   {
     "shopName": "오버스토리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 성북동 8-28",
     "roadAddress": "서울특별시 성북구 선잠로2다길 13-13",
     "lng": 126.9996005,
@@ -7744,7 +7744,7 @@ const data = [
   {
     "shopName": "김마왕",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 111",
     "roadAddress": "서울특별시 노원구 상계로 305",
     "lng": 127.0789968,
@@ -7753,7 +7753,7 @@ const data = [
   {
     "shopName": "진부책방스튜디오",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 458-1",
     "roadAddress": "서울특별시 마포구 잔다리로 112",
     "lng": 126.9143896,
@@ -7762,7 +7762,7 @@ const data = [
   {
     "shopName": "던킨NC신구로",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 573",
     "roadAddress": "서울특별시 구로구 구로중앙로 146-1",
     "lng": 126.8824086,
@@ -7780,7 +7780,7 @@ const data = [
   {
     "shopName": "카페리에또",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 암사동 494-33",
     "roadAddress": "서울특별시 강동구 암사길 12",
     "lng": 127.1309767,
@@ -7789,7 +7789,7 @@ const data = [
   {
     "shopName": "카페띠아모",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 신도림동 643",
     "roadAddress": "서울특별시 구로구 신도림로 87",
     "lng": 126.8822206,
@@ -7798,7 +7798,7 @@ const data = [
   {
     "shopName": "더카페",
     "branchName": "모모랑라이",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 610-9",
     "roadAddress": "서울특별시 광진구 동일로 341",
     "lng": 127.0745759,
@@ -7825,7 +7825,7 @@ const data = [
   {
     "shopName": "예니네",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 224-11",
     "roadAddress": "서울특별시 동작구 솔밭로 108",
     "lng": 126.9686015,
@@ -7879,7 +7879,7 @@ const data = [
   {
     "shopName": "파이앤브라우니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 창전동 442",
     "roadAddress": "서울특별시 마포구 창전로 45",
     "lng": 126.9319761,
@@ -7888,7 +7888,7 @@ const data = [
   {
     "shopName": "cafeonus",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 35",
     "roadAddress": "서울특별시 송파구 잠실로 62",
     "lng": 127.0902691,
@@ -7897,7 +7897,7 @@ const data = [
   {
     "shopName": "루시오",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 326-8",
     "roadAddress": "서울특별시 노원구 노해로83길 18-10",
     "lng": 127.0647345,
@@ -7906,7 +7906,7 @@ const data = [
   {
     "shopName": "크레이저커피",
     "branchName": "마곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 774-9",
     "roadAddress": "서울특별시 강서구 마곡중앙6로 42",
     "lng": 126.8320702,
@@ -7915,7 +7915,7 @@ const data = [
   {
     "shopName": "띵크커피",
     "branchName": "캐딜락하우스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 61-5",
     "roadAddress": "서울특별시 강남구 도산대로 224",
     "lng": 127.0315424,
@@ -7924,7 +7924,7 @@ const data = [
   {
     "shopName": "다락방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 1030",
     "roadAddress": "서울특별시 금천구 시흥대로73길 50",
     "lng": 126.896731,
@@ -7933,7 +7933,7 @@ const data = [
   {
     "shopName": "캔커피자나",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 387-10",
     "roadAddress": "서울특별시 노원구 상계로 146",
     "lng": 127.0707117,
@@ -7942,7 +7942,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아대치한티점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 924-9",
     "roadAddress": "서울특별시 강남구 선릉로64길 23",
     "lng": 127.0541518,
@@ -7951,7 +7951,7 @@ const data = [
   {
     "shopName": "시즌",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 358-6",
     "roadAddress": "서울특별시 노원구 상계로3길 38-2",
     "lng": 127.0627053,
@@ -7960,7 +7960,7 @@ const data = [
   {
     "shopName": "커피테이크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 고척동 195-8",
     "roadAddress": "서울특별시 구로구 고척로 225",
     "lng": 126.8579422,
@@ -7969,7 +7969,7 @@ const data = [
   {
     "shopName": "옥수서재",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 옥수동 360",
     "roadAddress": "서울특별시 성동구 한림말1길 16-1",
     "lng": 127.0163949,
@@ -7978,7 +7978,7 @@ const data = [
   {
     "shopName": "커피집단카페소프트",
     "branchName": "구로지점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 222-22",
     "roadAddress": "서울특별시 구로구 디지털로26길 72",
     "lng": 126.8965177,
@@ -7987,7 +7987,7 @@ const data = [
   {
     "shopName": "Sapper커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 951-11",
     "roadAddress": "서울특별시 서초구 서초대로4길 17",
     "lng": 126.9854709,
@@ -7996,7 +7996,7 @@ const data = [
   {
     "shopName": "엔제리너스",
     "branchName": "커피영등포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동3가 10-16",
     "roadAddress": "서울특별시 영등포구 영중로 6",
     "lng": 126.906633,
@@ -8005,7 +8005,7 @@ const data = [
   {
     "shopName": "블루포트이대서울병원점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 808",
     "roadAddress": "서울특별시 강서구 공항대로 260",
     "lng": 126.8362457,
@@ -8014,7 +8014,7 @@ const data = [
   {
     "shopName": "펫즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 96-8",
     "roadAddress": "서울특별시 강남구 언주로148길 31-2",
     "lng": 127.0371294,
@@ -8023,7 +8023,7 @@ const data = [
   {
     "shopName": "티아커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 519",
     "roadAddress": "서울특별시 중랑구 사가정로72길 47",
     "lng": 127.0957539,
@@ -8032,7 +8032,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "예금보험공사점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 다동 33",
     "roadAddress": "서울특별시 중구 청계천로 30",
     "lng": 126.9807834,
@@ -8041,7 +8041,7 @@ const data = [
   {
     "shopName": "홍베이팡마곡",
     "branchName": "발산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 795-5",
     "roadAddress": "서울특별시 강서구 마곡중앙6로 85",
     "lng": 126.8368671,
@@ -8050,7 +8050,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "증산동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 증산동 186-8",
     "roadAddress": "서울특별시 은평구 증산서길 78",
     "lng": 126.9065343,
@@ -8059,7 +8059,7 @@ const data = [
   {
     "shopName": "렛츠롱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 103-9",
     "roadAddress": "서울특별시 도봉구 우이천로24길 50",
     "lng": 127.0319935,
@@ -8068,7 +8068,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "서울대치과병원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 연건동 28-21",
     "roadAddress": "서울특별시 종로구 대학로 101",
     "lng": 126.9971841,
@@ -8077,7 +8077,7 @@ const data = [
   {
     "shopName": "솔바람소리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 445-4",
     "roadAddress": "서울특별시 마포구 동교로 163",
     "lng": 126.9201406,
@@ -8086,7 +8086,7 @@ const data = [
   {
     "shopName": "비샵",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대현동 56-47",
     "roadAddress": "서울특별시 서대문구 이화여대3길 18",
     "lng": 126.9447178,
@@ -8095,7 +8095,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "올림픽공원역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 88",
     "roadAddress": "서울특별시 송파구 올림픽로 424",
     "lng": 127.1157765,
@@ -8104,7 +8104,7 @@ const data = [
   {
     "shopName": "데니스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 풍납동 490-13",
     "roadAddress": "서울특별시 송파구 올림픽로59길 3",
     "lng": 127.1216775,
@@ -8113,7 +8113,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "화랑대역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 90-1",
     "roadAddress": "서울특별시 노원구 노원로1길 9",
     "lng": 127.086421,
@@ -8122,7 +8122,7 @@ const data = [
   {
     "shopName": "와플대학",
     "branchName": "종각캠퍼스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 종로2가 11-1",
     "roadAddress": "서울특별시 종로구 종로 75",
     "lng": 126.9857606,
@@ -8131,7 +8131,7 @@ const data = [
   {
     "shopName": "오.로.시",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 221-3",
     "roadAddress": "서울특별시 관악구 낙성대로3길 21-6",
     "lng": 126.9604327,
@@ -8140,7 +8140,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "오델리",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 410-15",
     "roadAddress": "서울특별시 강동구 풍성로51길 8",
     "lng": 127.1329359,
@@ -8149,7 +8149,7 @@ const data = [
   {
     "shopName": "앤티앤스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 333-1",
     "roadAddress": "서울특별시 노원구 마들로3길 13",
     "lng": 127.0619664,
@@ -8158,7 +8158,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "스테어스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 184-3",
     "roadAddress": "서울특별시 중랑구 동일로109길 28",
     "lng": 127.0795975,
@@ -8167,7 +8167,7 @@ const data = [
   {
     "shopName": "앙카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 663-32",
     "roadAddress": "서울특별시 강남구 언주로99길 10",
     "lng": 127.0401103,
@@ -8176,7 +8176,7 @@ const data = [
   {
     "shopName": "레드엘리펀트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 651-1",
     "roadAddress": "서울특별시 양천구 등촌로 184",
     "lng": 126.8628543,
@@ -8185,7 +8185,7 @@ const data = [
   {
     "shopName": "만랩커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 151-7",
     "roadAddress": "서울특별시 강남구 삼성로 534",
     "lng": 127.0555239,
@@ -8194,7 +8194,7 @@ const data = [
   {
     "shopName": "정월",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 618-21",
     "roadAddress": "서울특별시 강남구 강남대로102길 46",
     "lng": 127.0286137,
@@ -8203,7 +8203,7 @@ const data = [
   {
     "shopName": "브루클린커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 내발산동 652",
     "roadAddress": "서울특별시 강서구 강서로52길 16",
     "lng": 126.8389324,
@@ -8212,7 +8212,7 @@ const data = [
   {
     "shopName": "엘루이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 산천동 202",
     "roadAddress": "서울특별시 용산구 원효로 51",
     "lng": 126.9500493,
@@ -8221,7 +8221,7 @@ const data = [
   {
     "shopName": "플라네",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 남현동 1079-42",
     "roadAddress": "서울특별시 관악구 남현8길 9",
     "lng": 126.9751885,
@@ -8230,7 +8230,7 @@ const data = [
   {
     "shopName": "슬로우빈커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 111-27",
     "roadAddress": "서울특별시 강남구 선릉로 709",
     "lng": 127.0406537,
@@ -8239,7 +8239,7 @@ const data = [
   {
     "shopName": "카페온",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 553-453",
     "roadAddress": "서울특별시 광진구 능동로4길 3",
     "lng": 127.0682395,
@@ -8248,7 +8248,7 @@ const data = [
   {
     "shopName": "동원홈푸드K2코리아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 자곡동 648",
     "roadAddress": "서울특별시 강남구 자곡로 174-14",
     "lng": 127.1031853,
@@ -8257,7 +8257,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "송파풍납점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 풍납동 399-11",
     "roadAddress": "서울특별시 송파구 강동대로9길 17-1",
     "lng": 127.1165223,
@@ -8266,7 +8266,7 @@ const data = [
   {
     "shopName": "생각나니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 고덕동 655",
     "roadAddress": "서울특별시 강동구 고덕로61길 148",
     "lng": 127.1513438,
@@ -8275,7 +8275,7 @@ const data = [
   {
     "shopName": "쿠키굽는고양이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 782",
     "roadAddress": "서울특별시 영등포구 도신로4길 27",
     "lng": 126.8965377,
@@ -8293,7 +8293,7 @@ const data = [
   {
     "shopName": "와겐커피",
     "branchName": "방학점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 방학동 716-14",
     "roadAddress": "서울특별시 도봉구 도봉로150마길 15",
     "lng": 127.0449457,
@@ -8302,7 +8302,7 @@ const data = [
   {
     "shopName": "와플대학",
     "branchName": "명보사거리캠퍼스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 초동 70-4",
     "roadAddress": "서울특별시 중구 마른내로 42",
     "lng": 126.9924326,
@@ -8311,7 +8311,7 @@ const data = [
   {
     "shopName": "착한커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 번동 468-5",
     "roadAddress": "서울특별시 강북구 도봉로96길 19",
     "lng": 127.0298276,
@@ -8320,7 +8320,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "수락산역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 1132-63",
     "roadAddress": "서울특별시 노원구 동일로243길 13",
     "lng": 127.0543664,
@@ -8329,7 +8329,7 @@ const data = [
   {
     "shopName": "티파니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 중화동 298-13",
     "roadAddress": "서울특별시 중랑구 중랑역로 18",
     "lng": 127.0764398,
@@ -8347,7 +8347,7 @@ const data = [
   {
     "shopName": "8GALLERY-EIGHT",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 590-14",
     "roadAddress": "서울특별시 강남구 논현로152길 21",
     "lng": 127.0297869,
@@ -8356,7 +8356,7 @@ const data = [
   {
     "shopName": "오커피랩",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 605-292",
     "roadAddress": "서울특별시 강북구 삼각산로 117",
     "lng": 127.0172313,
@@ -8365,7 +8365,7 @@ const data = [
   {
     "shopName": "WL맥주커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 역촌동 83-16",
     "roadAddress": "서울특별시 은평구 연서로 33",
     "lng": 126.9155806,
@@ -8374,7 +8374,7 @@ const data = [
   {
     "shopName": "꽃다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 미근동 72-5",
     "roadAddress": "서울특별시 서대문구 충정로6안길 17-2",
     "lng": 126.9671617,
@@ -8383,7 +8383,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 갈현동 548",
     "roadAddress": "서울특별시 은평구 갈현로 300",
     "lng": 126.9173978,
@@ -8392,7 +8392,7 @@ const data = [
   {
     "shopName": "1989COFFEE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 293-10",
     "roadAddress": "서울특별시 강동구 구천면로 297",
     "lng": 127.1338923,
@@ -8401,7 +8401,7 @@ const data = [
   {
     "shopName": "트루비커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 녹번동 118-47",
     "roadAddress": "서울특별시 은평구 진흥로 184",
     "lng": 126.9298415,
@@ -8410,7 +8410,7 @@ const data = [
   {
     "shopName": "cafeheaven",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍은동 366-3",
     "roadAddress": "서울특별시 서대문구 가좌로 116",
     "lng": 126.925857,
@@ -8419,7 +8419,7 @@ const data = [
   {
     "shopName": "와플대학",
     "branchName": "쌍문캠퍼스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 45-15",
     "roadAddress": "서울특별시 도봉구 해등로 176",
     "lng": 127.037083,
@@ -8428,7 +8428,7 @@ const data = [
   {
     "shopName": "디노비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대현동 37-61",
     "roadAddress": "서울특별시 서대문구 이화여대7길 31",
     "lng": 126.9438842,
@@ -8437,7 +8437,7 @@ const data = [
   {
     "shopName": "띠그래블랑코",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 718-1",
     "roadAddress": "서울특별시 서초구 주흥길 64-17",
     "lng": 127.0193829,
@@ -8446,7 +8446,7 @@ const data = [
   {
     "shopName": "라떼",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 193-2",
     "roadAddress": "서울특별시 중구 다산로 293",
     "lng": 127.0149721,
@@ -8455,7 +8455,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "석계역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 46-1",
     "roadAddress": "서울특별시 노원구 화랑로 337",
     "lng": 127.065155,
@@ -8464,7 +8464,7 @@ const data = [
   {
     "shopName": "샐러드봉봉",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 121-38",
     "roadAddress": "서울특별시 강남구 삼성로103길 12",
     "lng": 127.0533771,
@@ -8473,7 +8473,7 @@ const data = [
   {
     "shopName": "씨지커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 304-2",
     "roadAddress": "서울특별시 강북구 도봉로 191",
     "lng": 127.02603,
@@ -8482,7 +8482,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "북가좌점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 북가좌동 292-1",
     "roadAddress": "서울특별시 서대문구 응암로 108",
     "lng": 126.9133223,
@@ -8491,7 +8491,7 @@ const data = [
   {
     "shopName": "배꽃커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대현동 34-52",
     "roadAddress": "서울특별시 서대문구 이화여대길 72-4",
     "lng": 126.9445193,
@@ -8500,7 +8500,7 @@ const data = [
   {
     "shopName": "스테이블커피로스터스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 873-23",
     "roadAddress": "서울특별시 서초구 방배로25길 25",
     "lng": 126.991588,
@@ -8509,7 +8509,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "마천시장점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 마천동 178-1",
     "roadAddress": "서울특별시 송파구 마천로41길 32",
     "lng": 127.1509314,
@@ -8518,7 +8518,7 @@ const data = [
   {
     "shopName": "트웬티트웬티커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 183-21",
     "roadAddress": "서울특별시 중랑구 봉우재로13길 8",
     "lng": 127.0776879,
@@ -8527,7 +8527,7 @@ const data = [
   {
     "shopName": "스타벅스연대동문",
     "branchName": "연대동문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대신동 115",
     "roadAddress": "서울특별시 서대문구 성산로 565",
     "lng": 126.9463211,
@@ -8536,7 +8536,7 @@ const data = [
   {
     "shopName": "리히트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 441",
     "roadAddress": "서울특별시 서대문구 연희로4길 10",
     "lng": 126.9277579,
@@ -8545,7 +8545,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "독바위역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 불광동 13-22",
     "roadAddress": "서울특별시 은평구 불광로 128",
     "lng": 126.9332899,
@@ -8599,7 +8599,7 @@ const data = [
   {
     "shopName": "탐앤탐스",
     "branchName": "인덕대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 648",
     "roadAddress": "서울특별시 노원구 초안산로 12",
     "lng": 127.0544862,
@@ -8608,7 +8608,7 @@ const data = [
   {
     "shopName": "커피빈코리아테헤란로하이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 890-60",
     "roadAddress": "서울특별시 강남구 테헤란로70길 12",
     "lng": 127.0531431,
@@ -8617,7 +8617,7 @@ const data = [
   {
     "shopName": "소소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 용문동 32-74",
     "roadAddress": "서울특별시 용산구 새창로 100",
     "lng": 126.9595117,
@@ -8626,7 +8626,7 @@ const data = [
   {
     "shopName": "매머드커피묵동자이점",
     "branchName": "묵동자이점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 170-1",
     "roadAddress": "서울특별시 중랑구 동일로 932",
     "lng": 127.0775414,
@@ -8635,7 +8635,7 @@ const data = [
   {
     "shopName": "커피홀",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 425-1",
     "roadAddress": "서울특별시 서초구 방배천로 92",
     "lng": 126.9833265,
@@ -8644,7 +8644,7 @@ const data = [
   {
     "shopName": "스포애니불광역커피마마",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 대조동 14-19",
     "roadAddress": "서울특별시 은평구 통일로 727-3",
     "lng": 126.9293819,
@@ -8653,7 +8653,7 @@ const data = [
   {
     "shopName": "카페문화",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 원효로4가 19",
     "roadAddress": "서울특별시 용산구 효창원로12길 37",
     "lng": 126.9528623,
@@ -8671,7 +8671,7 @@ const data = [
   {
     "shopName": "공간산마루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신공덕동 159",
     "roadAddress": "서울특별시 마포구 만리재로 74",
     "lng": 126.9588576,
@@ -8680,7 +8680,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "은평신사점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 신사동 7-4",
     "roadAddress": "서울특별시 은평구 갈현로 44",
     "lng": 126.9104557,
@@ -8689,7 +8689,7 @@ const data = [
   {
     "shopName": "남산스퀘어약국",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 충무로3가 60-1",
     "roadAddress": "서울특별시 중구 퇴계로 173",
     "lng": 126.9910387,
@@ -8698,7 +8698,7 @@ const data = [
   {
     "shopName": "겟썸커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 551-32",
     "roadAddress": "서울특별시 강남구 논현로159길 46-6",
     "lng": 127.0244448,
@@ -8707,7 +8707,7 @@ const data = [
   {
     "shopName": "커피타임",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 석관동 127-73",
     "roadAddress": "서울특별시 성북구 한천로78길 43",
     "lng": 127.0642824,
@@ -8716,7 +8716,7 @@ const data = [
   {
     "shopName": "쉼터올래",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 만리동2가 37-2",
     "roadAddress": "서울특별시 중구 만리재로 175",
     "lng": 126.9639578,
@@ -8725,7 +8725,7 @@ const data = [
   {
     "shopName": "블레스인커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 799-2",
     "roadAddress": "서울특별시 강서구 공항대로 190",
     "lng": 126.8286235,
@@ -8734,7 +8734,7 @@ const data = [
   {
     "shopName": "작약",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 659-1",
     "roadAddress": "서울특별시 도봉구 도봉로118길 10",
     "lng": 127.035654,
@@ -8752,7 +8752,7 @@ const data = [
   {
     "shopName": "커피집단카페소프트",
     "branchName": "여의도지점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 23",
     "roadAddress": "서울특별시 영등포구 국제금융로 10",
     "lng": 126.9248631,
@@ -8761,7 +8761,7 @@ const data = [
   {
     "shopName": "어느날오늘",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 상봉동 314-69",
     "roadAddress": "서울특별시 중랑구 봉화산로30길 98",
     "lng": 127.0851337,
@@ -8770,7 +8770,7 @@ const data = [
   {
     "shopName": "띵굴",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 30-33",
     "roadAddress": "서울특별시 서대문구 신촌로 83",
     "lng": 126.9358278,
@@ -8779,7 +8779,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "충무로역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 필동2가 15-7",
     "roadAddress": "서울특별시 중구 퇴계로 206",
     "lng": 126.9947944,
@@ -8788,7 +8788,7 @@ const data = [
   {
     "shopName": "달나라고양이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 149-12",
     "roadAddress": "서울특별시 광진구 군자로 128",
     "lng": 127.073781,
@@ -8797,7 +8797,7 @@ const data = [
   {
     "shopName": "제주몰빵",
     "branchName": "동양미래대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 고척동 62-160",
     "roadAddress": "서울특별시 구로구 경인로 445",
     "lng": 126.8681568,
@@ -8806,7 +8806,7 @@ const data = [
   {
     "shopName": "터프커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 하계동 72-18",
     "roadAddress": "서울특별시 노원구 공릉로58길 122",
     "lng": 127.0750572,
@@ -8815,7 +8815,7 @@ const data = [
   {
     "shopName": "매머드익스프레스강남오거리점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 810-8",
     "roadAddress": "서울특별시 강남구 강남대로106길 7",
     "lng": 127.0262023,
@@ -8824,7 +8824,7 @@ const data = [
   {
     "shopName": "바리스타마르코악쓰는하마",
     "branchName": "고척점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 고척동 52-201",
     "roadAddress": "서울특별시 구로구 경인로47길 14",
     "lng": 126.8670335,
@@ -8833,7 +8833,7 @@ const data = [
   {
     "shopName": "스콘&와플",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 222-45",
     "roadAddress": "서울특별시 광진구 자양로26길 93",
     "lng": 127.088959,
@@ -8842,7 +8842,7 @@ const data = [
   {
     "shopName": "커피투데이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 신설동 104-29",
     "roadAddress": "서울특별시 동대문구 천호대로4길 16",
     "lng": 127.0251344,
@@ -8851,7 +8851,7 @@ const data = [
   {
     "shopName": "페이토커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1361-10",
     "roadAddress": "서울특별시 서초구 강남대로 259",
     "lng": 127.0326118,
@@ -8860,7 +8860,7 @@ const data = [
   {
     "shopName": "MMM",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 449",
     "roadAddress": "서울특별시 서대문구 연희로 30",
     "lng": 126.9271951,
@@ -8869,7 +8869,7 @@ const data = [
   {
     "shopName": "비젼카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 대조동 187-37",
     "roadAddress": "서울특별시 은평구 통일로75길 6-18",
     "lng": 126.9228248,
@@ -8878,7 +8878,7 @@ const data = [
   {
     "shopName": "로뎀나무",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 이문동 305-94",
     "roadAddress": "서울특별시 동대문구 휘경로2가길 21",
     "lng": 127.0619504,
@@ -8887,7 +8887,7 @@ const data = [
   {
     "shopName": "플라시보",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 순화동 151",
     "roadAddress": "서울특별시 중구 칠패로 27",
     "lng": 126.9720218,
@@ -8896,7 +8896,7 @@ const data = [
   {
     "shopName": "마이톡스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 87-4",
     "roadAddress": "서울특별시 강남구 도산대로 409",
     "lng": 127.0404702,
@@ -8905,7 +8905,7 @@ const data = [
   {
     "shopName": "디저트카페윰",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 둔촌동 59-6",
     "roadAddress": "서울특별시 강동구 명일로 165",
     "lng": 127.1444031,
@@ -8914,7 +8914,7 @@ const data = [
   {
     "shopName": "달리셔스팁스그라운드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 747-3",
     "roadAddress": "서울특별시 강남구 역삼로 169",
     "lng": 127.0375285,
@@ -8923,7 +8923,7 @@ const data = [
   {
     "shopName": "카페인중독",
     "branchName": "인중독",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 102-12",
     "roadAddress": "서울특별시 강서구 까치산로4길 65",
     "lng": 126.8462967,
@@ -8932,7 +8932,7 @@ const data = [
   {
     "shopName": "야미다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로6가 18-187",
     "roadAddress": "서울특별시 중구 장충단로13길 43",
     "lng": 127.0064397,
@@ -8941,7 +8941,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "잠실고분로2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 240-5",
     "roadAddress": "서울특별시 송파구 백제고분로19길 27",
     "lng": 127.0873932,
@@ -8950,7 +8950,7 @@ const data = [
   {
     "shopName": "퓨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 609-1",
     "roadAddress": "서울특별시 강남구 논현로105길 13",
     "lng": 127.0330994,
@@ -8959,7 +8959,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "한옥랑솜익선동",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 익선동 166-40",
     "roadAddress": "서울특별시 종로구 수표로28길 21-6",
     "lng": 126.9898096,
@@ -8968,7 +8968,7 @@ const data = [
   {
     "shopName": "CafeTILING",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 967-7",
     "roadAddress": "서울특별시 금천구 시흥대로150길 11-7",
     "lng": 126.8993712,
@@ -8977,7 +8977,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "압구정점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 573",
     "roadAddress": "서울특별시 강남구 압구정로 142",
     "lng": 127.0242793,
@@ -8986,7 +8986,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "천국신림점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 103-267",
     "roadAddress": "서울특별시 관악구 서림3길 9",
     "lng": 126.9392822,
@@ -8995,7 +8995,7 @@ const data = [
   {
     "shopName": "로칼커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 갈월동 66",
     "roadAddress": "서울특별시 용산구 한강대로 304",
     "lng": 126.9723048,
@@ -9004,7 +9004,7 @@ const data = [
   {
     "shopName": "커피니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 157-5",
     "roadAddress": "서울특별시 노원구 한글비석로 365",
     "lng": 127.074114,
@@ -9013,7 +9013,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "무악재역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 23-17",
     "roadAddress": "서울특별시 서대문구 통일로 360",
     "lng": 126.9505088,
@@ -9022,7 +9022,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "타라스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 292-8",
     "roadAddress": "서울특별시 강동구 풍성로 119-1",
     "lng": 127.1255507,
@@ -9031,7 +9031,7 @@ const data = [
   {
     "shopName": "헨리카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 923-6",
     "roadAddress": "서울특별시 양천구 목동서로 225",
     "lng": 126.8707346,
@@ -9040,7 +9040,7 @@ const data = [
   {
     "shopName": "토다서초",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1589-1",
     "roadAddress": "서울특별시 서초구 반포대로14길 26",
     "lng": 127.0125004,
@@ -9058,7 +9058,7 @@ const data = [
   {
     "shopName": "제이스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 248-6",
     "roadAddress": "서울특별시 동작구 사당로8길 9",
     "lng": 126.9695978,
@@ -9067,7 +9067,7 @@ const data = [
   {
     "shopName": "커피업",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 서계동 220-4",
     "roadAddress": "서울특별시 용산구 청파로 389",
     "lng": 126.9688312,
@@ -9076,7 +9076,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "수유점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 173-6",
     "roadAddress": "서울특별시 강북구 도봉로 379",
     "lng": 127.0284254,
@@ -9085,7 +9085,7 @@ const data = [
   {
     "shopName": "쥬스식스",
     "branchName": "수유역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 번동 446-47",
     "roadAddress": "서울특별시 강북구 오패산로 415",
     "lng": 127.025955,
@@ -9094,7 +9094,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1639-2",
     "roadAddress": "서울특별시 관악구 남부순환로 1590",
     "lng": 126.9273463,
@@ -9103,7 +9103,7 @@ const data = [
   {
     "shopName": "언택트카페무",
     "branchName": "방배점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 440-33",
     "roadAddress": "서울특별시 서초구 동작대로 54-1",
     "lng": 126.9822384,
@@ -9112,7 +9112,7 @@ const data = [
   {
     "shopName": "쥬스팩토리개봉역점",
     "branchName": "개봉역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 개봉동 202-19",
     "roadAddress": "서울특별시 구로구 남부순환로97길 20-10",
     "lng": 126.8585578,
@@ -9121,7 +9121,7 @@ const data = [
   {
     "shopName": "에스엠티서울",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 125-24",
     "roadAddress": "서울특별시 강남구 압구정로79길 58",
     "lng": 127.0519998,
@@ -9130,7 +9130,7 @@ const data = [
   {
     "shopName": "트롤비즈코리아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 668-51",
     "roadAddress": "서울특별시 성동구 서울숲4길 24",
     "lng": 127.0434755,
@@ -9139,7 +9139,7 @@ const data = [
   {
     "shopName": "비넨폴크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 111-26",
     "roadAddress": "서울특별시 강남구 선릉로 711",
     "lng": 127.0405722,
@@ -9148,7 +9148,7 @@ const data = [
   {
     "shopName": "브리지데이커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 북가좌동 377-34",
     "roadAddress": "서울특별시 서대문구 응암로 41",
     "lng": 126.9088645,
@@ -9157,7 +9157,7 @@ const data = [
   {
     "shopName": "MEGACOFFEE메가커피",
     "branchName": "동소문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동4가 42",
     "roadAddress": "서울특별시 성북구 아리랑로 14",
     "lng": 127.0163777,
@@ -9166,7 +9166,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "영등포구청한솔빌딩점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 92-15",
     "roadAddress": "서울특별시 영등포구 국회대로38길 6",
     "lng": 126.8989697,
@@ -9175,7 +9175,7 @@ const data = [
   {
     "shopName": "이디아",
     "branchName": "강서NC점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 674-2",
     "roadAddress": "서울특별시 강서구 강서로54길 11",
     "lng": 126.8393361,
@@ -9184,7 +9184,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "오스터디",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 돈암동 524",
     "roadAddress": "서울특별시 성북구 아리랑로 89",
     "lng": 127.0136042,
@@ -9193,7 +9193,7 @@ const data = [
   {
     "shopName": "커피소리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 126-6",
     "roadAddress": "서울특별시 강북구 솔매로50길 68",
     "lng": 127.0279169,
@@ -9202,7 +9202,7 @@ const data = [
   {
     "shopName": "마크레인커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 657-24",
     "roadAddress": "서울특별시 강남구 선릉로157길 23-5",
     "lng": 127.0378518,
@@ -9211,7 +9211,7 @@ const data = [
   {
     "shopName": "톨리커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 389-371",
     "roadAddress": "서울특별시 노원구 상계로9나길 9",
     "lng": 127.0680483,
@@ -9220,7 +9220,7 @@ const data = [
   {
     "shopName": "더쌍화커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 12-3",
     "roadAddress": "서울특별시 도봉구 노해로69길 21",
     "lng": 127.0505465,
@@ -9229,7 +9229,7 @@ const data = [
   {
     "shopName": "노르웨이숲",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 667-9",
     "roadAddress": "서울특별시 강서구 강서로54길 109",
     "lng": 126.8447234,
@@ -9238,7 +9238,7 @@ const data = [
   {
     "shopName": "지구마을",
     "branchName": "충무로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 필동2가 19-5",
     "roadAddress": "서울특별시 중구 퇴계로 212-13",
     "lng": 126.9956715,
@@ -9247,7 +9247,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "브레맨",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 청량리동 18-18",
     "roadAddress": "서울특별시 동대문구 왕산로 293",
     "lng": 127.0520034,
@@ -9274,7 +9274,7 @@ const data = [
   {
     "shopName": "카페더라온",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 연지동 136-56",
     "roadAddress": "서울특별시 종로구 김상옥로 30",
     "lng": 127.0006156,
@@ -9283,7 +9283,7 @@ const data = [
   {
     "shopName": "마당공간",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 익선동 166-23",
     "roadAddress": "서울특별시 종로구 수표로28길 33-12",
     "lng": 126.9901884,
@@ -9292,7 +9292,7 @@ const data = [
   {
     "shopName": "스터디카페U",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 남현동 1060-17",
     "roadAddress": "서울특별시 관악구 남부순환로 2082-37",
     "lng": 126.9801506,
@@ -9301,7 +9301,7 @@ const data = [
   {
     "shopName": "케틀커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 개봉동 407-12",
     "roadAddress": "서울특별시 구로구 개봉로20길 54",
     "lng": 126.8573432,
@@ -9328,7 +9328,7 @@ const data = [
   {
     "shopName": "서울로7017수국전망대",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남대문로5가 67-4",
     "roadAddress": "서울특별시 중구 퇴계로 33",
     "lng": 126.9765864,
@@ -9337,7 +9337,7 @@ const data = [
   {
     "shopName": "카페데미",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 111-15",
     "roadAddress": "서울특별시 송파구 중대로10길 25",
     "lng": 127.1230543,
@@ -9346,7 +9346,7 @@ const data = [
   {
     "shopName": "굿모닝프룻",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 24-3",
     "roadAddress": "서울특별시 관악구 관악로28길 38",
     "lng": 126.9581046,
@@ -9355,7 +9355,7 @@ const data = [
   {
     "shopName": "갤러리카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동4가 443",
     "roadAddress": "서울특별시 영등포구 문래로 180",
     "lng": 126.9019689,
@@ -9373,7 +9373,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "성산중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 성산동 228-1",
     "roadAddress": "서울특별시 마포구 성미산로 78",
     "lng": 126.9166392,
@@ -9382,7 +9382,7 @@ const data = [
   {
     "shopName": "폴제이코퍼레이션",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 150-6",
     "roadAddress": "서울특별시 마포구 양화로23길 48",
     "lng": 126.9244943,
@@ -9391,7 +9391,7 @@ const data = [
   {
     "shopName": "아더카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 364-6",
     "roadAddress": "서울특별시 마포구 와우산로19길 16",
     "lng": 126.9223357,
@@ -9400,7 +9400,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "도림동",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 도림동 186-5",
     "roadAddress": "서울특별시 영등포구 도영로 48",
     "lng": 126.8980725,
@@ -9409,7 +9409,7 @@ const data = [
   {
     "shopName": "프로맘킨더",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 685-696",
     "roadAddress": "서울특별시 성동구 서울숲2길 32-14",
     "lng": 127.0428934,
@@ -9418,7 +9418,7 @@ const data = [
   {
     "shopName": "인투고",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 용산동2가 38-9",
     "roadAddress": "서울특별시 용산구 신흥로 45",
     "lng": 126.9873046,
@@ -9427,7 +9427,7 @@ const data = [
   {
     "shopName": "어웨이크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 23-66",
     "roadAddress": "서울특별시 강북구 노해로11길 15",
     "lng": 127.0217569,
@@ -9436,7 +9436,7 @@ const data = [
   {
     "shopName": "행복한거북이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 필동2가 128-1",
     "roadAddress": "서울특별시 중구 퇴계로36가길 97",
     "lng": 126.9953951,
@@ -9445,7 +9445,7 @@ const data = [
   {
     "shopName": "만랩커피마곡역점",
     "branchName": "마곡역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 798-3",
     "roadAddress": "서울특별시 강서구 공항대로 168",
     "lng": 126.8261185,
@@ -9454,7 +9454,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "불광제일점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 대조동 14-20",
     "roadAddress": "서울특별시 은평구 불광로 28",
     "lng": 126.9291635,
@@ -9463,7 +9463,7 @@ const data = [
   {
     "shopName": "로켓샌드위치커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 125-9",
     "roadAddress": "서울특별시 동작구 상도로 406-1",
     "lng": 126.9561289,
@@ -9472,7 +9472,7 @@ const data = [
   {
     "shopName": "Takeashower",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 석촌동 181-1",
     "roadAddress": "서울특별시 송파구 송파대로47길 1",
     "lng": 127.1043347,
@@ -9481,7 +9481,7 @@ const data = [
   {
     "shopName": "공간크크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 장위동 214-12",
     "roadAddress": "서울특별시 성북구 돌곶이로37길 16",
     "lng": 127.0475319,
@@ -9490,7 +9490,7 @@ const data = [
   {
     "shopName": "플레이스엘엘송파파크하비오점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 618",
     "roadAddress": "서울특별시 송파구 송파대로 111",
     "lng": 127.1248723,
@@ -9499,7 +9499,7 @@ const data = [
   {
     "shopName": "커핀그루나루신도림역점",
     "branchName": "신도림역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 신도림동 337",
     "roadAddress": "서울특별시 구로구 경인로 661",
     "lng": 126.8869658,
@@ -9508,7 +9508,7 @@ const data = [
   {
     "shopName": "브로일링커피",
     "branchName": "강동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 560-9",
     "roadAddress": "서울특별시 강동구 성내로10길 9-6",
     "lng": 127.124938,
@@ -9517,7 +9517,7 @@ const data = [
   {
     "shopName": "트리스트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 664-17",
     "roadAddress": "서울특별시 강남구 압구정로56길 26",
     "lng": 127.0394995,
@@ -9526,7 +9526,7 @@ const data = [
   {
     "shopName": "나비루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 221-15",
     "roadAddress": "서울특별시 송파구 올림픽로10길 40",
     "lng": 127.0815577,
@@ -9535,7 +9535,7 @@ const data = [
   {
     "shopName": "셀파크뷰티리조트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 547-9",
     "roadAddress": "서울특별시 강남구 압구정로14길 22",
     "lng": 127.0231273,
@@ -9544,7 +9544,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "굽은다리역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 명일동 346-1",
     "roadAddress": "서울특별시 강동구 양재대로 1576",
     "lng": 127.1434352,
@@ -9553,7 +9553,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "압구정역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 582-3",
     "roadAddress": "서울특별시 강남구 압구정로28길 25",
     "lng": 127.027819,
@@ -9562,7 +9562,7 @@ const data = [
   {
     "shopName": "로이커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 163-37",
     "roadAddress": "서울특별시 강서구 강서로18길 112",
     "lng": 126.851719,
@@ -9571,7 +9571,7 @@ const data = [
   {
     "shopName": "늘봄북스양재",
     "branchName": "도서관점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 102-5",
     "roadAddress": "서울특별시 서초구 양재천로 33",
     "lng": 127.0335581,
@@ -9580,7 +9580,7 @@ const data = [
   {
     "shopName": "커피인더스트리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 452-9",
     "roadAddress": "서울특별시 서초구 방배천로4길 3",
     "lng": 126.9830618,
@@ -9589,7 +9589,7 @@ const data = [
   {
     "shopName": "동네커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 삼전동 46-8",
     "roadAddress": "서울특별시 송파구 백제고분로22길 11",
     "lng": 127.089156,
@@ -9598,7 +9598,7 @@ const data = [
   {
     "shopName": "그레이커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 내수동 72",
     "roadAddress": "서울특별시 종로구 사직로8길 34",
     "lng": 126.9717751,
@@ -9607,7 +9607,7 @@ const data = [
   {
     "shopName": "슈가플래닛",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 574-28",
     "roadAddress": "서울특별시 강서구 양천로24가길 28-2",
     "lng": 126.8140788,
@@ -9616,7 +9616,7 @@ const data = [
   {
     "shopName": "인컴솔루션",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 불광동 631-1",
     "roadAddress": "서울특별시 은평구 불광로 90",
     "lng": 126.9329828,
@@ -9625,7 +9625,7 @@ const data = [
   {
     "shopName": "우궁",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 인사동 10",
     "roadAddress": "서울특별시 종로구 인사동4길 9",
     "lng": 126.9866396,
@@ -9634,7 +9634,7 @@ const data = [
   {
     "shopName": "차이브커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 71-13",
     "roadAddress": "서울특별시 광진구 천호대로134길 2",
     "lng": 127.0906746,
@@ -9643,7 +9643,7 @@ const data = [
   {
     "shopName": "언더프레셔",
     "branchName": "도산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 645-28",
     "roadAddress": "서울특별시 강남구 압구정로42길 49",
     "lng": 127.0345173,
@@ -9652,7 +9652,7 @@ const data = [
   {
     "shopName": "딜리스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 740",
     "roadAddress": "서울특별시 노원구 공릉로 157",
     "lng": 127.0790016,
@@ -9661,7 +9661,7 @@ const data = [
   {
     "shopName": "스타벅스커피마포염리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 염리동 168-9",
     "roadAddress": "서울특별시 마포구 독막로 311",
     "lng": 126.9474628,
@@ -9670,7 +9670,7 @@ const data = [
   {
     "shopName": "옴니버스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 삼전동 179-3",
     "roadAddress": "서울특별시 송파구 삼학사로11길 6",
     "lng": 127.0961714,
@@ -9679,7 +9679,7 @@ const data = [
   {
     "shopName": "보문커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 보문동7가 22-14",
     "roadAddress": "서울특별시 성북구 보문로 56",
     "lng": 127.0222503,
@@ -9688,7 +9688,7 @@ const data = [
   {
     "shopName": "카페도츠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 4-1",
     "roadAddress": "서울특별시 강남구 도산대로 442",
     "lng": 127.0441068,
@@ -9697,7 +9697,7 @@ const data = [
   {
     "shopName": "카페자곡",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 자곡동 271-29",
     "roadAddress": "서울특별시 강남구 밤고개로14길 16",
     "lng": 127.1035693,
@@ -9706,7 +9706,7 @@ const data = [
   {
     "shopName": "라스베이글",
     "branchName": "명동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 명동2가 83-5",
     "roadAddress": "서울특별시 중구 명동길 14",
     "lng": 126.9828675,
@@ -9724,7 +9724,7 @@ const data = [
   {
     "shopName": "무인카페유유얼셀프",
     "branchName": "대림점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 785",
     "roadAddress": "서울특별시 영등포구 도신로4길 6",
     "lng": 126.8953419,
@@ -9733,7 +9733,7 @@ const data = [
   {
     "shopName": "언덕위에커피데이트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1648-1",
     "roadAddress": "서울특별시 관악구 인헌1나길 22",
     "lng": 126.9700144,
@@ -9742,7 +9742,7 @@ const data = [
   {
     "shopName": "스타가든",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 37-7",
     "roadAddress": "서울특별시 강남구 선릉로138길 42",
     "lng": 127.0439813,
@@ -9751,7 +9751,7 @@ const data = [
   {
     "shopName": "커피정류장",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 100-14",
     "roadAddress": "서울특별시 관악구 복은길 46",
     "lng": 126.9384901,
@@ -9760,7 +9760,7 @@ const data = [
   {
     "shopName": "앤틱박스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 665-3",
     "roadAddress": "서울특별시 도봉구 노해로62길 55",
     "lng": 127.0381599,
@@ -9769,7 +9769,7 @@ const data = [
   {
     "shopName": "나인커피로스터스개화산점(NINECOFFEEROASTERS)",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 533-9",
     "roadAddress": "서울특별시 강서구 양천로6길 15",
     "lng": 126.807682,
@@ -9778,7 +9778,7 @@ const data = [
   {
     "shopName": "카페티모르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 376-11",
     "roadAddress": "서울특별시 마포구 잔다리로 68",
     "lng": 126.9171176,
@@ -9787,7 +9787,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "신정네거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 1183-5",
     "roadAddress": "서울특별시 양천구 중앙로 265",
     "lng": 126.8526859,
@@ -9796,7 +9796,7 @@ const data = [
   {
     "shopName": "일레븐시스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 74-27",
     "roadAddress": "서울특별시 용산구 이태원로20가길 4",
     "lng": 126.9923819,
@@ -9805,7 +9805,7 @@ const data = [
   {
     "shopName": "카페레브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 132-1",
     "roadAddress": "서울특별시 양천구 남부순환로59길 6",
     "lng": 126.8319992,
@@ -9814,7 +9814,7 @@ const data = [
   {
     "shopName": "커피인류",
     "branchName": "대치은마점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 316",
     "roadAddress": "서울특별시 강남구 삼성로 212",
     "lng": 127.0658971,
@@ -9823,7 +9823,7 @@ const data = [
   {
     "shopName": "카페마마스잠실점",
     "branchName": "마마스잠실점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 7-18",
     "roadAddress": "서울특별시 송파구 올림픽로 269",
     "lng": 127.1005648,
@@ -9832,7 +9832,7 @@ const data = [
   {
     "shopName": "이바머스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 대흥동 468-2",
     "roadAddress": "서울특별시 마포구 백범로24길 21",
     "lng": 126.9444573,
@@ -9841,7 +9841,7 @@ const data = [
   {
     "shopName": "콘레드커피",
     "branchName": "방화점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 483-5",
     "roadAddress": "서울특별시 강서구 금낭화로 91-2",
     "lng": 126.811063,
@@ -9850,7 +9850,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "상암DDMC점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1610",
     "roadAddress": "서울특별시 마포구 매봉산로 75",
     "lng": 126.8928847,
@@ -9859,7 +9859,7 @@ const data = [
   {
     "shopName": "커피쿡마곡",
     "branchName": "시티점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 758",
     "roadAddress": "서울특별시 강서구 마곡서로 170",
     "lng": 126.8255984,
@@ -9868,7 +9868,7 @@ const data = [
   {
     "shopName": "컴포즈커피선유도점",
     "branchName": "선유도점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동4가 104-1",
     "roadAddress": "서울특별시 영등포구 선유로49길 36",
     "lng": 126.8939798,
@@ -9886,7 +9886,7 @@ const data = [
   {
     "shopName": "세라젬웰카페",
     "branchName": "신촌점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 72-12",
     "roadAddress": "서울특별시 서대문구 신촌로 73",
     "lng": 126.9345003,
@@ -9895,7 +9895,7 @@ const data = [
   {
     "shopName": "사이좋은카페",
     "branchName": "사이좋은",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 남가좌동 270-4",
     "roadAddress": "서울특별시 서대문구 수색로 48",
     "lng": 126.9135838,
@@ -9904,7 +9904,7 @@ const data = [
   {
     "shopName": "TIME",
     "branchName": "스터디카페",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1487-101",
     "roadAddress": "서울특별시 서초구 효령로40길 53",
     "lng": 127.0063888,
@@ -9913,7 +9913,7 @@ const data = [
   {
     "shopName": "모코커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 대방동 379-1",
     "roadAddress": "서울특별시 동작구 대방동길 57",
     "lng": 126.9252925,
@@ -9922,7 +9922,7 @@ const data = [
   {
     "shopName": "카페케일럽(CAFECALEB)",
     "branchName": "초코빈",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 100-3",
     "roadAddress": "서울특별시 은평구 통일로 1010",
     "lng": 126.9185561,
@@ -9931,7 +9931,7 @@ const data = [
   {
     "shopName": "루고",
     "branchName": "NC신구로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 573",
     "roadAddress": "서울특별시 구로구 구로중앙로 146-1",
     "lng": 126.8824086,
@@ -9940,7 +9940,7 @@ const data = [
   {
     "shopName": "착한커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 노고산동 56-6",
     "roadAddress": "서울특별시 마포구 신촌로16길 30",
     "lng": 126.9342444,
@@ -9949,7 +9949,7 @@ const data = [
   {
     "shopName": "YOUANDME",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 197-19",
     "roadAddress": "서울특별시 중구 퇴계로73길 54-13",
     "lng": 127.0143733,
@@ -9958,7 +9958,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "충정로역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 중림동 200",
     "roadAddress": "서울특별시 중구 중림로 10",
     "lng": 126.9645165,
@@ -9967,7 +9967,7 @@ const data = [
   {
     "shopName": "생활커피위례",
     "branchName": "광장점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 장지동 897",
     "roadAddress": "서울특별시 송파구 위례광장로 120",
     "lng": 127.1416026,
@@ -9976,7 +9976,7 @@ const data = [
   {
     "shopName": "타임투플레이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 구기동 135",
     "roadAddress": "서울특별시 종로구 비봉2길 6",
     "lng": 126.9567662,
@@ -9994,7 +9994,7 @@ const data = [
   {
     "shopName": "파모소카페",
     "branchName": "파모소",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 91-9",
     "roadAddress": "서울특별시 강남구 도산대로 427",
     "lng": 127.0425375,
@@ -10003,7 +10003,7 @@ const data = [
   {
     "shopName": "스타벅스화곡DT점",
     "branchName": "화곡DT점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 772-67",
     "roadAddress": "서울특별시 강서구 등촌로 57",
     "lng": 126.8631123,
@@ -10012,7 +10012,7 @@ const data = [
   {
     "shopName": "카페샌드파크",
     "branchName": "샌드파크",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 176-13",
     "roadAddress": "서울특별시 마포구 신촌로2안길 2",
     "lng": 126.9273179,
@@ -10030,7 +10030,7 @@ const data = [
   {
     "shopName": "소현초콜릿공방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 792-48",
     "roadAddress": "서울특별시 강남구 논현로67길 32",
     "lng": 127.0372699,
@@ -10039,7 +10039,7 @@ const data = [
   {
     "shopName": "블랙티엔",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 1353",
     "roadAddress": "서울특별시 강북구 솔샘로 174",
     "lng": 127.0105836,
@@ -10048,7 +10048,7 @@ const data = [
   {
     "shopName": "스타벅스문정하비오점",
     "branchName": "문정하비오점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 618",
     "roadAddress": "서울특별시 송파구 송파대로 111",
     "lng": 127.1248723,
@@ -10057,7 +10057,7 @@ const data = [
   {
     "shopName": "카페자우",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 종로1가 1",
     "roadAddress": "서울특별시 종로구 종로 1",
     "lng": 126.9779085,
@@ -10066,7 +10066,7 @@ const data = [
   {
     "shopName": "행인당",
     "branchName": "신세계영등포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동4가 434-5",
     "roadAddress": "서울특별시 영등포구 영중로 9",
     "lng": 126.9055549,
@@ -10075,7 +10075,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "아이담",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 28-28",
     "roadAddress": "서울특별시 강남구 학동로23길 29",
     "lng": 127.0275368,
@@ -10102,7 +10102,7 @@ const data = [
   {
     "shopName": "호아드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 사간동 7",
     "roadAddress": "서울특별시 종로구 율곡로1길 54-3",
     "lng": 126.9811503,
@@ -10111,7 +10111,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "조운북",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로1가 13-4",
     "roadAddress": "서울특별시 용산구 한강대로 206-5",
     "lng": 126.9746291,
@@ -10120,7 +10120,7 @@ const data = [
   {
     "shopName": "써니커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 212-16",
     "roadAddress": "서울특별시 구로구 디지털로27길 24",
     "lng": 126.8929869,
@@ -10138,7 +10138,7 @@ const data = [
   {
     "shopName": "이심전심",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 104-25",
     "roadAddress": "서울특별시 은평구 응암로 298",
     "lng": 126.9208718,
@@ -10156,7 +10156,7 @@ const data = [
   {
     "shopName": "동그림",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 명일동 328-1",
     "roadAddress": "서울특별시 강동구 구천면로 434",
     "lng": 127.1465615,
@@ -10165,7 +10165,7 @@ const data = [
   {
     "shopName": "이엔갤러리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 평창동 495-19",
     "roadAddress": "서울특별시 종로구 평창길 224",
     "lng": 126.9707614,
@@ -10174,7 +10174,7 @@ const data = [
   {
     "shopName": "시다모커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신수동 448-6",
     "roadAddress": "서울특별시 마포구 토정로 222",
     "lng": 126.9352796,
@@ -10183,7 +10183,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "코그",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 201-49",
     "roadAddress": "서울특별시 마포구 동교로 183-12",
     "lng": 126.9214118,
@@ -10192,7 +10192,7 @@ const data = [
   {
     "shopName": "Maon",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 보문동6가 9",
     "roadAddress": "서울특별시 성북구 보문로21길 34",
     "lng": 127.0185728,
@@ -10201,7 +10201,7 @@ const data = [
   {
     "shopName": "송화의카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 상일동 285-4",
     "roadAddress": "서울특별시 강동구 상일로3길 8",
     "lng": 127.1726032,
@@ -10210,7 +10210,7 @@ const data = [
   {
     "shopName": "디저트킴",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 대방동 397-26",
     "roadAddress": "서울특별시 동작구 상도로 17-8",
     "lng": 126.922642,
@@ -10228,7 +10228,7 @@ const data = [
   {
     "shopName": "VRAVO",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 7-6",
     "roadAddress": "서울특별시 광진구 아차산로 230",
     "lng": 127.0687171,
@@ -10237,7 +10237,7 @@ const data = [
   {
     "shopName": "길모퉁이커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 마장동 487-54",
     "roadAddress": "서울특별시 성동구 마장로35나길 4",
     "lng": 127.0395535,
@@ -10246,7 +10246,7 @@ const data = [
   {
     "shopName": "Hi키즈카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 338-6",
     "roadAddress": "서울특별시 강북구 삼양로 438",
     "lng": 127.0166555,
@@ -10255,7 +10255,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "국회대로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 14",
     "roadAddress": "서울특별시 영등포구 국회대로 786",
     "lng": 126.9195743,
@@ -10264,7 +10264,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "구파발역미켈란점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 73",
     "roadAddress": "서울특별시 은평구 진관2로 15-8",
     "lng": 126.9195381,
@@ -10273,7 +10273,7 @@ const data = [
   {
     "shopName": "카페말로덕성",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 419",
     "roadAddress": "서울특별시 도봉구 삼양로144길 33",
     "lng": 127.0163709,
@@ -10282,7 +10282,7 @@ const data = [
   {
     "shopName": "카페토스트",
     "branchName": "토스트",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 673-35",
     "roadAddress": "서울특별시 강남구 언주로93길 22",
     "lng": 127.0401513,
@@ -10300,7 +10300,7 @@ const data = [
   {
     "shopName": "빌리엔젤",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 908-13",
     "roadAddress": "서울특별시 서초구 효령로 127",
     "lng": 126.9980069,
@@ -10309,7 +10309,7 @@ const data = [
   {
     "shopName": "카페라끌레(CAFELA)",
     "branchName": "라끌레",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 신대방동 460-1",
     "roadAddress": "서울특별시 동작구 여의대방로16길 53",
     "lng": 126.9167506,
@@ -10318,7 +10318,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "김포공항점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 공항동 1373",
     "roadAddress": "서울특별시 강서구 하늘길 111",
     "lng": 126.8033425,
@@ -10336,7 +10336,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아대학로마로니에점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 동숭동 1-95",
     "roadAddress": "서울특별시 종로구 대학로12길 62",
     "lng": 127.0036928,
@@ -10354,7 +10354,7 @@ const data = [
   {
     "shopName": "팔공티",
     "branchName": "이대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대현동 60-8",
     "roadAddress": "서울특별시 서대문구 이화여대길 48",
     "lng": 126.9458589,
@@ -10372,7 +10372,7 @@ const data = [
   {
     "shopName": "프롬하츠커피앤베이커리성동구청점",
     "branchName": "성동구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 도선동 22-1",
     "roadAddress": "서울특별시 성동구 고산자로 253",
     "lng": 127.0355711,
@@ -10390,7 +10390,7 @@ const data = [
   {
     "shopName": "현대다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 용두동 235-4",
     "roadAddress": "서울특별시 동대문구 무학로 121",
     "lng": 127.0303587,
@@ -10399,7 +10399,7 @@ const data = [
   {
     "shopName": "터치까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 37-3",
     "roadAddress": "서울특별시 강남구 논현로131길 12",
     "lng": 127.0292205,
@@ -10417,7 +10417,7 @@ const data = [
   {
     "shopName": "티시스식음본부",
     "branchName": "신문로지점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 신문로1가 226",
     "roadAddress": "서울특별시 종로구 새문안로 68",
     "lng": 126.9721193,
@@ -10426,7 +10426,7 @@ const data = [
   {
     "shopName": "라부에노",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동1가 3",
     "roadAddress": "서울특별시 영등포구 선유로22길 12",
     "lng": 126.8909836,
@@ -10435,7 +10435,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "활력소",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 651-3",
     "roadAddress": "서울특별시 송파구 법원로 96",
     "lng": 127.1209539,
@@ -10444,7 +10444,7 @@ const data = [
   {
     "shopName": "마리웨일237",
     "branchName": "삼청동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 소격동 20-2",
     "roadAddress": "서울특별시 종로구 북촌로5가길 43",
     "lng": 126.9812656,
@@ -10471,7 +10471,7 @@ const data = [
   {
     "shopName": "떨기나무카페",
     "branchName": "떨기나무",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 922-53",
     "roadAddress": "서울특별시 금천구 독산로 20",
     "lng": 126.9052368,
@@ -10480,7 +10480,7 @@ const data = [
   {
     "shopName": "사라의정원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 474-68",
     "roadAddress": "서울특별시 도봉구 덕릉로60길 113",
     "lng": 127.0420819,
@@ -10498,7 +10498,7 @@ const data = [
   {
     "shopName": "디노월드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 용산동1가 8",
     "roadAddress": "서울특별시 용산구 이태원로 29",
     "lng": 126.9784469,
@@ -10507,7 +10507,7 @@ const data = [
   {
     "shopName": "카페수에르떼",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 266-183",
     "roadAddress": "서울특별시 서대문구 세검정로3길 72-10",
     "lng": 126.9474324,
@@ -10525,7 +10525,7 @@ const data = [
   {
     "shopName": "작업실",
     "branchName": "나무아래커피",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 염리동 9-3",
     "roadAddress": "서울특별시 마포구 숭문16길 24",
     "lng": 126.9477956,
@@ -10534,7 +10534,7 @@ const data = [
   {
     "shopName": "홉아이카페",
     "branchName": "본점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 89-1",
     "roadAddress": "서울특별시 송파구 중대로9길 39-8",
     "lng": 127.1182468,
@@ -10543,7 +10543,7 @@ const data = [
   {
     "shopName": "커피하우스",
     "branchName": "도레미",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 100-2",
     "roadAddress": "서울특별시 서대문구 증가로 48",
     "lng": 126.9293725,
@@ -10552,7 +10552,7 @@ const data = [
   {
     "shopName": "커피하우스",
     "branchName": "보헤미안",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 15-85",
     "roadAddress": "서울특별시 성북구 개운사길 22-3",
     "lng": 127.029439,
@@ -10561,7 +10561,7 @@ const data = [
   {
     "shopName": "보나비아티제",
     "branchName": "사당파스텔시티점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 444-3",
     "roadAddress": "서울특별시 서초구 방배천로 11",
     "lng": 126.9822214,
@@ -10570,7 +10570,7 @@ const data = [
   {
     "shopName": "식스플로어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 994-14",
     "roadAddress": "서울특별시 강남구 영동대로 211",
     "lng": 127.0688065,
@@ -10579,7 +10579,7 @@ const data = [
   {
     "shopName": "카페마당",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 350-22",
     "roadAddress": "서울특별시 노원구 공릉로27길 90",
     "lng": 127.077721,
@@ -10588,7 +10588,7 @@ const data = [
   {
     "shopName": "가을",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 잠원동 22-10",
     "roadAddress": "서울특별시 서초구 강남대로97길 26",
     "lng": 127.0182907,
@@ -10597,7 +10597,7 @@ const data = [
   {
     "shopName": "투썸플레이스압구정로데오역점",
     "branchName": "압구정로데오역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 664-6",
     "roadAddress": "서울특별시 강남구 선릉로 845",
     "lng": 127.0403644,
@@ -10606,7 +10606,7 @@ const data = [
   {
     "shopName": "마을가족카페너른마루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 135-1",
     "roadAddress": "서울특별시 도봉구 마들로11길 77",
     "lng": 127.0476911,
@@ -10624,7 +10624,7 @@ const data = [
   {
     "shopName": "디초콜릿커피",
     "branchName": "&동국대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 필동3가 26-1",
     "roadAddress": "서울특별시 중구 필동로1길 30",
     "lng": 126.9984996,
@@ -10633,7 +10633,7 @@ const data = [
   {
     "shopName": "파파스토리",
     "branchName": "노원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 371-2",
     "roadAddress": "서울특별시 노원구 노원로 456",
     "lng": 127.0667113,
@@ -10642,7 +10642,7 @@ const data = [
   {
     "shopName": "카페희다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 701-52",
     "roadAddress": "서울특별시 서초구 주흥15길 16-4",
     "lng": 127.0181052,
@@ -10651,7 +10651,7 @@ const data = [
   {
     "shopName": "정인카페로뎀",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 길음동 1284-12",
     "roadAddress": "서울특별시 성북구 서경로6길 70",
     "lng": 127.0194272,
@@ -10660,7 +10660,7 @@ const data = [
   {
     "shopName": "달콤커피",
     "branchName": "잠실롯데월드몰점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 29",
     "roadAddress": "서울특별시 송파구 올림픽로 300",
     "lng": 127.1042839,
@@ -10669,7 +10669,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "우장산역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1165-1",
     "roadAddress": "서울특별시 강서구 강서로 242",
     "lng": 126.8367501,
@@ -10678,7 +10678,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "예술의전당점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1459-12",
     "roadAddress": "서울특별시 서초구 반포대로 34",
     "lng": 127.0119792,
@@ -10687,7 +10687,7 @@ const data = [
   {
     "shopName": "더착한커피",
     "branchName": "독산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 1019-2",
     "roadAddress": "서울특별시 금천구 독산로75길 3",
     "lng": 126.9020439,
@@ -10696,7 +10696,7 @@ const data = [
   {
     "shopName": "파스쿠찌",
     "branchName": "롯데시네마수유점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 번동 449-1",
     "roadAddress": "서울특별시 강북구 도봉로 308",
     "lng": 127.0238161,
@@ -10741,7 +10741,7 @@ const data = [
   {
     "shopName": "뮤직카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 망우동 470-7",
     "roadAddress": "서울특별시 중랑구 용마산로115길 38",
     "lng": 127.0982466,
@@ -10750,7 +10750,7 @@ const data = [
   {
     "shopName": "커피플랜트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 159",
     "roadAddress": "서울특별시 강남구 영동대로 513",
     "lng": 127.0591391,
@@ -10759,7 +10759,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "롤다운",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 255-17",
     "roadAddress": "서울특별시 마포구 동교로39길 4-8",
     "lng": 126.923874,
@@ -10768,7 +10768,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "미아역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 203-5",
     "roadAddress": "서울특별시 강북구 도봉로 229",
     "lng": 127.0247637,
@@ -10777,7 +10777,7 @@ const data = [
   {
     "shopName": "소라다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 160-7",
     "roadAddress": "서울특별시 양천구 남부순환로40길 23",
     "lng": 126.8276954,
@@ -10786,7 +10786,7 @@ const data = [
   {
     "shopName": "카페에이전시",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 119",
     "roadAddress": "서울특별시 강남구 학동로 343",
     "lng": 127.0405958,
@@ -10795,7 +10795,7 @@ const data = [
   {
     "shopName": "씨27",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로6가 17-2",
     "roadAddress": "서울특별시 중구 장충단로13길 20",
     "lng": 127.0076538,
@@ -10804,7 +10804,7 @@ const data = [
   {
     "shopName": "카르페디엠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 일원동 681-7",
     "roadAddress": "서울특별시 강남구 일원로9길 17",
     "lng": 127.0829808,
@@ -10813,7 +10813,7 @@ const data = [
   {
     "shopName": "망원동티라미수",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1604-8",
     "roadAddress": "서울특별시 관악구 관악로14길 30",
     "lng": 126.9541656,
@@ -10822,7 +10822,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "강서초교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 514-2",
     "roadAddress": "서울특별시 양천구 오목로 48",
     "lng": 126.8429355,
@@ -10831,7 +10831,7 @@ const data = [
   {
     "shopName": "딜리커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 567-16",
     "roadAddress": "서울특별시 동대문구 서울시립대로 88",
     "lng": 127.0498764,
@@ -10840,7 +10840,7 @@ const data = [
   {
     "shopName": "커피체리까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 236-28",
     "roadAddress": "서울특별시 은평구 백련산로 87",
     "lng": 126.9229079,
@@ -10849,7 +10849,7 @@ const data = [
   {
     "shopName": "애플짐주스바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 잠원동 76-5",
     "roadAddress": "서울특별시 서초구 반포대로 304",
     "lng": 127.0009841,
@@ -10858,7 +10858,7 @@ const data = [
   {
     "shopName": "카페이클립스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 석촌동 24-11",
     "roadAddress": "서울특별시 송파구 송파대로49길 52",
     "lng": 127.0989676,
@@ -10867,7 +10867,7 @@ const data = [
   {
     "shopName": "블루샥",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 678-29",
     "roadAddress": "서울특별시 강남구 테헤란로33길 5",
     "lng": 127.0393661,
@@ -10876,7 +10876,7 @@ const data = [
   {
     "shopName": "쓰리팝피씨카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 120-18",
     "roadAddress": "서울특별시 강남구 삼성로 549",
     "lng": 127.0542568,
@@ -10885,7 +10885,7 @@ const data = [
   {
     "shopName": "커피가좋아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 저동2가 16-1",
     "roadAddress": "서울특별시 중구 수표로 42",
     "lng": 126.9900433,
@@ -10903,7 +10903,7 @@ const data = [
   {
     "shopName": "화이트브릿지커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 769-9",
     "roadAddress": "서울특별시 강남구 논현로72길 7",
     "lng": 127.0400835,
@@ -10912,7 +10912,7 @@ const data = [
   {
     "shopName": "커핀그루나루",
     "branchName": "상암GS점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1739",
     "roadAddress": "서울특별시 마포구 월드컵북로 496",
     "lng": 126.8801086,
@@ -10921,7 +10921,7 @@ const data = [
   {
     "shopName": "카페임",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 장위동 238-101",
     "roadAddress": "서울특별시 성북구 장월로 90",
     "lng": 127.048997,
@@ -10930,7 +10930,7 @@ const data = [
   {
     "shopName": "북카페레벤",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 123",
     "roadAddress": "서울특별시 강남구 학동로 116",
     "lng": 127.0236472,
@@ -10939,7 +10939,7 @@ const data = [
   {
     "shopName": "프리젠트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 상일동 485",
     "roadAddress": "서울특별시 강동구 상일로12길 54",
     "lng": 127.1742447,
@@ -10948,7 +10948,7 @@ const data = [
   {
     "shopName": "두블르쥬",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 745-13",
     "roadAddress": "서울특별시 용산구 이태원로45길 16",
     "lng": 126.9986793,
@@ -10966,7 +10966,7 @@ const data = [
   {
     "shopName": "킹콩쥬스앤커피",
     "branchName": "동대문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로6가 17-415",
     "roadAddress": "서울특별시 중구 장충단로13길 34",
     "lng": 127.006897,
@@ -10984,7 +10984,7 @@ const data = [
   {
     "shopName": "엘빈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 736-40",
     "roadAddress": "서울특별시 강남구 테헤란로22길 9",
     "lng": 127.0352517,
@@ -10993,7 +10993,7 @@ const data = [
   {
     "shopName": "아티제강남역점",
     "branchName": "강남역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 825-9",
     "roadAddress": "서울특별시 강남구 강남대로 378",
     "lng": 127.0286141,
@@ -11002,7 +11002,7 @@ const data = [
   {
     "shopName": "아티제",
     "branchName": "HDC신라면세점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로3가 40-999",
     "roadAddress": "서울특별시 용산구 한강대로21나길 7",
     "lng": 126.9632226,
@@ -11011,7 +11011,7 @@ const data = [
   {
     "shopName": "앤드커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 742-27",
     "roadAddress": "서울특별시 강남구 역삼로9길 24",
     "lng": 127.0339087,
@@ -11020,7 +11020,7 @@ const data = [
   {
     "shopName": "더치즈케익",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이촌동 300-301",
     "roadAddress": "서울특별시 용산구 이촌로 260",
     "lng": 126.9761352,
@@ -11029,7 +11029,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "당산역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동5가 33-1",
     "roadAddress": "서울특별시 영등포구 양평로 67",
     "lng": 126.8992988,
@@ -11047,7 +11047,7 @@ const data = [
   {
     "shopName": "더커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 852",
     "roadAddress": "서울특별시 중구 청구로 64",
     "lng": 127.0154328,
@@ -11056,7 +11056,7 @@ const data = [
   {
     "shopName": "마이빈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 232",
     "roadAddress": "서울특별시 서초구 강남대로 27",
     "lng": 127.0391217,
@@ -11065,7 +11065,7 @@ const data = [
   {
     "shopName": "수제상점행복담아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 731-66",
     "roadAddress": "서울특별시 도봉구 도봉로134길 28",
     "lng": 127.0417808,
@@ -11074,7 +11074,7 @@ const data = [
   {
     "shopName": "샤론",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 99-5",
     "roadAddress": "서울특별시 영등포구 영등포로 373",
     "lng": 126.9197383,
@@ -11083,7 +11083,7 @@ const data = [
   {
     "shopName": "정우커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 13-25",
     "roadAddress": "서울특별시 영등포구 은행로 29",
     "lng": 126.9218768,
@@ -11101,7 +11101,7 @@ const data = [
   {
     "shopName": "에클레시아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 233-6",
     "roadAddress": "서울특별시 강남구 봉은사로33길 11",
     "lng": 127.0354242,
@@ -11110,7 +11110,7 @@ const data = [
   {
     "shopName": "빈스빈스",
     "branchName": "HSBC본점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 봉래동1가 25",
     "roadAddress": "서울특별시 중구 칠패로 37",
     "lng": 126.9730089,
@@ -11119,7 +11119,7 @@ const data = [
   {
     "shopName": "세운나",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 방산동 19-1",
     "roadAddress": "서울특별시 중구 청계천로 246",
     "lng": 127.0047021,
@@ -11128,7 +11128,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "용산아이파크몰점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로3가 40-999",
     "roadAddress": "서울특별시 용산구 한강대로21나길 7",
     "lng": 126.9632226,
@@ -11137,7 +11137,7 @@ const data = [
   {
     "shopName": "희망카페",
     "branchName": "1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 322-11",
     "roadAddress": "서울특별시 양천구 목동동로 81",
     "lng": 126.8638432,
@@ -11146,7 +11146,7 @@ const data = [
   {
     "shopName": "스마일커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 62-9",
     "roadAddress": "서울특별시 강남구 도산대로92길 32",
     "lng": 127.0490944,
@@ -11155,7 +11155,7 @@ const data = [
   {
     "shopName": "카페밀크콩",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 1300",
     "roadAddress": "서울특별시 노원구 노원로30길 74",
     "lng": 127.0711143,
@@ -11164,7 +11164,7 @@ const data = [
   {
     "shopName": "티몬스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 706",
     "roadAddress": "서울특별시 성동구 상원길 63",
     "lng": 127.0470916,
@@ -11173,7 +11173,7 @@ const data = [
   {
     "shopName": "커피Ghouse",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 신사동 40-23",
     "roadAddress": "서울특별시 은평구 은평터널로 194",
     "lng": 126.9090038,
@@ -11182,7 +11182,7 @@ const data = [
   {
     "shopName": "난플라워카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 112-1",
     "roadAddress": "서울특별시 강남구 봉은사로 404",
     "lng": 127.0443314,
@@ -11191,7 +11191,7 @@ const data = [
   {
     "shopName": "담소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 14-21",
     "roadAddress": "서울특별시 영등포구 국회대로 780",
     "lng": 126.9192525,
@@ -11200,7 +11200,7 @@ const data = [
   {
     "shopName": "BOSSCOFFEE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 888-19",
     "roadAddress": "서울특별시 관악구 양녕로2가길 29",
     "lng": 126.9472431,
@@ -11209,7 +11209,7 @@ const data = [
   {
     "shopName": "놀숲외대후문점",
     "branchName": "외대후문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 이문동 264-409",
     "roadAddress": "서울특별시 동대문구 천장산로7길 4",
     "lng": 127.0575253,
@@ -11218,7 +11218,7 @@ const data = [
   {
     "shopName": "제이니씨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 능동 232-1",
     "roadAddress": "서울특별시 광진구 능동로32길 50",
     "lng": 127.081173,
@@ -11227,7 +11227,7 @@ const data = [
   {
     "shopName": "이너모스트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 494-4",
     "roadAddress": "서울특별시 노원구 동일로183길 12-14",
     "lng": 127.0729207,
@@ -11236,7 +11236,7 @@ const data = [
   {
     "shopName": "나라씨카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 133-9",
     "roadAddress": "서울특별시 양천구 곰달래로5길 29",
     "lng": 126.8332198,
@@ -11245,7 +11245,7 @@ const data = [
   {
     "shopName": "모눈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 고척동 253-38",
     "roadAddress": "서울특별시 구로구 고척로33길 25",
     "lng": 126.848568,
@@ -11254,7 +11254,7 @@ const data = [
   {
     "shopName": "쥬스식스",
     "branchName": "성대후문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 명륜3가 1-9",
     "roadAddress": "서울특별시 종로구 명륜길 33",
     "lng": 126.9950923,
@@ -11272,7 +11272,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "모퉁이",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 685-448",
     "roadAddress": "서울특별시 구로구 구일로4길 30",
     "lng": 126.8764325,
@@ -11281,7 +11281,7 @@ const data = [
   {
     "shopName": "위치커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 오류동 68-6",
     "roadAddress": "서울특별시 구로구 서해안로 2317",
     "lng": 126.8420494,
@@ -11290,7 +11290,7 @@ const data = [
   {
     "shopName": "브로일링커피컴퍼니",
     "branchName": "신용산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로2가 143-1",
     "roadAddress": "서울특별시 용산구 한강대로40길 14",
     "lng": 126.9699576,
@@ -11299,7 +11299,7 @@ const data = [
   {
     "shopName": "무지개노래방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 216-32",
     "roadAddress": "서울특별시 동대문구 한천로10길 32",
     "lng": 127.0629946,
@@ -11308,7 +11308,7 @@ const data = [
   {
     "shopName": "에이치에스알카페",
     "branchName": "에이치에스알",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 141-31",
     "roadAddress": "서울특별시 강남구 테헤란로 407",
     "lng": 127.0500924,
@@ -11317,7 +11317,7 @@ const data = [
   {
     "shopName": "컴퍼니맨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 819",
     "roadAddress": "서울특별시 강남구 강남대로94길 10",
     "lng": 127.0281853,
@@ -11326,7 +11326,7 @@ const data = [
   {
     "shopName": "카페24창업센터",
     "branchName": "성신여대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동2가 120",
     "roadAddress": "서울특별시 성북구 보문로30길 71",
     "lng": 127.0195469,
@@ -11335,7 +11335,7 @@ const data = [
   {
     "shopName": "모퉁이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 248-23",
     "roadAddress": "서울특별시 노원구 공릉로38길 58",
     "lng": 127.0824984,
@@ -11353,7 +11353,7 @@ const data = [
   {
     "shopName": "하워드커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 충무로2가 63-3",
     "roadAddress": "서울특별시 중구 명동8가길 26",
     "lng": 126.9864349,
@@ -11362,7 +11362,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "천호이마트점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 455-4",
     "roadAddress": "서울특별시 강동구 천호대로 1015-14",
     "lng": 127.1251976,
@@ -11371,7 +11371,7 @@ const data = [
   {
     "shopName": "헐리우스연세대점",
     "branchName": "연세대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대신동 111-14",
     "roadAddress": "서울특별시 서대문구 성산로 551",
     "lng": 126.9456571,
@@ -11380,7 +11380,7 @@ const data = [
   {
     "shopName": "탬핑에스프레소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 213-8",
     "roadAddress": "서울특별시 중구 마장로1길 22",
     "lng": 127.0127573,
@@ -11389,7 +11389,7 @@ const data = [
   {
     "shopName": "STORY1954",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 무학동 50-1",
     "roadAddress": "서울특별시 중구 퇴계로 390",
     "lng": 127.0149602,
@@ -11398,7 +11398,7 @@ const data = [
   {
     "shopName": "카페나무",
     "branchName": "영우홍익대학교도서관",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상수동 72-1",
     "roadAddress": "서울특별시 마포구 와우산로 94",
     "lng": 126.9249219,
@@ -11407,7 +11407,7 @@ const data = [
   {
     "shopName": "모노치츠",
     "branchName": "보라매공원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 신대방동 708",
     "roadAddress": "서울특별시 동작구 보라매로3길 29",
     "lng": 126.9248303,
@@ -11416,7 +11416,7 @@ const data = [
   {
     "shopName": "황토커피호프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 111-119",
     "roadAddress": "서울특별시 노원구 상계로 299-1",
     "lng": 127.0784761,
@@ -11425,7 +11425,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "55-1",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 이문동 288-87",
     "roadAddress": "서울특별시 동대문구 이문로30길 20",
     "lng": 127.0612109,
@@ -11434,7 +11434,7 @@ const data = [
   {
     "shopName": "카페다임",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1628-62",
     "roadAddress": "서울특별시 서초구 서리풀3길 24",
     "lng": 127.0181213,
@@ -11443,7 +11443,7 @@ const data = [
   {
     "shopName": "쥬스식스",
     "branchName": "쌍문역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 655-1",
     "roadAddress": "서울특별시 도봉구 도봉로110나길 27",
     "lng": 127.0348348,
@@ -11452,7 +11452,7 @@ const data = [
   {
     "shopName": "카페리시오",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 219-9",
     "roadAddress": "서울특별시 송파구 오금로29길 12",
     "lng": 127.1214915,
@@ -11461,7 +11461,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "순화ING점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 순화동 53",
     "roadAddress": "서울특별시 중구 세종대로7길 37",
     "lng": 126.9724678,
@@ -11470,7 +11470,7 @@ const data = [
   {
     "shopName": "설빙본사",
     "branchName": "본사",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 144-25",
     "roadAddress": "서울특별시 강남구 테헤란로 443",
     "lng": 127.0555809,
@@ -11479,7 +11479,7 @@ const data = [
   {
     "shopName": "투썸플레이스역삼르네상스점",
     "branchName": "역삼르네상스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 721-39",
     "roadAddress": "서울특별시 강남구 언주로 419",
     "lng": 127.0434506,
@@ -11488,7 +11488,7 @@ const data = [
   {
     "shopName": "우주라이크커피",
     "branchName": "문정법조프라자점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 651-3",
     "roadAddress": "서울특별시 송파구 법원로 96",
     "lng": 127.1209423,
@@ -11497,7 +11497,7 @@ const data = [
   {
     "shopName": "씨엔엔카페고려대서울캠퍼스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 1-2",
     "roadAddress": "서울특별시 성북구 안암로 145",
     "lng": 127.0317018,
@@ -11506,7 +11506,7 @@ const data = [
   {
     "shopName": "쥬씨",
     "branchName": "영등포시장역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동5가 46-5",
     "roadAddress": "서울특별시 영등포구 영중로 68",
     "lng": 126.9054791,
@@ -11515,7 +11515,7 @@ const data = [
   {
     "shopName": "구엄품",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 629-6",
     "roadAddress": "서울특별시 강남구 테헤란로25길 47",
     "lng": 127.034383,
@@ -11524,7 +11524,7 @@ const data = [
   {
     "shopName": "에세스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 신원동 210-2",
     "roadAddress": "서울특별시 서초구 청룡마을4길 11-3",
     "lng": 127.0575677,
@@ -11533,7 +11533,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "코리아현대미아점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 길음동 20-1",
     "roadAddress": "서울특별시 성북구 동소문로 315",
     "lng": 127.0287256,
@@ -11542,7 +11542,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아종각역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 관철동 16-5",
     "roadAddress": "서울특별시 종로구 종로 70",
     "lng": 126.9851564,
@@ -11551,7 +11551,7 @@ const data = [
   {
     "shopName": "강동역커피베이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 447-17",
     "roadAddress": "서울특별시 강동구 천호대로 1089",
     "lng": 127.1330784,
@@ -11560,7 +11560,7 @@ const data = [
   {
     "shopName": "쥬스식스",
     "branchName": "장안동튼튼병원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 294-11",
     "roadAddress": "서울특별시 동대문구 답십리로 261",
     "lng": 127.0693319,
@@ -11569,7 +11569,7 @@ const data = [
   {
     "shopName": "더블유카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 169",
     "roadAddress": "서울특별시 강남구 영동대로96길 20",
     "lng": 127.0641971,
@@ -11587,7 +11587,7 @@ const data = [
   {
     "shopName": "커피볶는집",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 33-1",
     "roadAddress": "서울특별시 마포구 월드컵북로44길 33",
     "lng": 126.8954753,
@@ -11596,7 +11596,7 @@ const data = [
   {
     "shopName": "flowercafetiffany",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 89-9",
     "roadAddress": "서울특별시 서초구 양재천로 135-10",
     "lng": 127.0418187,
@@ -11605,7 +11605,7 @@ const data = [
   {
     "shopName": "찰스커피컴파니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 427-108",
     "roadAddress": "서울특별시 은평구 응암로22길 5-6",
     "lng": 126.9188669,
@@ -11614,7 +11614,7 @@ const data = [
   {
     "shopName": "더치앤빈",
     "branchName": "선유도점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동4가 94",
     "roadAddress": "서울특별시 영등포구 선유로47길 34",
     "lng": 126.8934436,
@@ -11623,7 +11623,7 @@ const data = [
   {
     "shopName": "잇츠리얼타임카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 57-1",
     "roadAddress": "서울특별시 동작구 노량진로 140",
     "lng": 126.9416805,
@@ -11632,7 +11632,7 @@ const data = [
   {
     "shopName": "만랩커피",
     "branchName": "삼성1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 162-23",
     "roadAddress": "서울특별시 강남구 영동대로106길 33",
     "lng": 127.0638381,
@@ -11650,7 +11650,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "PAN",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 잠원동 21-7",
     "roadAddress": "서울특별시 서초구 강남대로 595",
     "lng": 127.019521,
@@ -11659,7 +11659,7 @@ const data = [
   {
     "shopName": "탄탈라이즈커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 72-13",
     "roadAddress": "서울특별시 용산구 이태원로20가길 7-6",
     "lng": 126.9926379,
@@ -11668,7 +11668,7 @@ const data = [
   {
     "shopName": "위치커피중랑망우점",
     "branchName": "중랑망우점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 망우동 356-35",
     "roadAddress": "서울특별시 중랑구 망우로71길 15",
     "lng": 127.1018998,
@@ -11677,7 +11677,7 @@ const data = [
   {
     "shopName": "공방카페클래스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 259-5",
     "roadAddress": "서울특별시 광진구 광장로 59",
     "lng": 127.1037106,
@@ -11686,7 +11686,7 @@ const data = [
   {
     "shopName": "서울다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남대문로1가 22-10",
     "roadAddress": "서울특별시 중구 남대문로 112",
     "lng": 126.9829974,
@@ -11695,7 +11695,7 @@ const data = [
   {
     "shopName": "에브리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 695-1",
     "roadAddress": "서울특별시 강서구 강서로62길 98",
     "lng": 126.8449941,
@@ -11704,7 +11704,7 @@ const data = [
   {
     "shopName": "카페드라무",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 784-6",
     "roadAddress": "서울특별시 강서구 강서로 443",
     "lng": 126.8399035,
@@ -11713,7 +11713,7 @@ const data = [
   {
     "shopName": "CNNCAFE",
     "branchName": "강남센터점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 820-8",
     "roadAddress": "서울특별시 강남구 강남대로 408",
     "lng": 127.0275177,
@@ -11722,7 +11722,7 @@ const data = [
   {
     "shopName": "스마트브릭",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 638-6",
     "roadAddress": "서울특별시 강남구 압구정로 312",
     "lng": 127.0354951,
@@ -11731,7 +11731,7 @@ const data = [
   {
     "shopName": "착형",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 수서동 724",
     "roadAddress": "서울특별시 강남구 광평로 280",
     "lng": 127.1030943,
@@ -11740,7 +11740,7 @@ const data = [
   {
     "shopName": "공작은가비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 449-7",
     "roadAddress": "서울특별시 마포구 동교로19길 56",
     "lng": 126.9171167,
@@ -11749,7 +11749,7 @@ const data = [
   {
     "shopName": "멜트커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 157-15",
     "roadAddress": "서울특별시 강남구 테헤란로81길 22",
     "lng": 127.0569073,
@@ -11758,7 +11758,7 @@ const data = [
   {
     "shopName": "온온커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 469-9",
     "roadAddress": "서울특별시 강동구 성내로18길 34",
     "lng": 127.1283075,
@@ -11767,7 +11767,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "대박보드",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 272-32",
     "roadAddress": "서울특별시 강남구 선릉로111길 42",
     "lng": 127.0397802,
@@ -11776,7 +11776,7 @@ const data = [
   {
     "shopName": "메가커피수색자이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 수색동 75",
     "roadAddress": "서울특별시 은평구 수색로 217",
     "lng": 126.8987092,
@@ -11785,7 +11785,7 @@ const data = [
   {
     "shopName": "다올북카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 중화동 287-3",
     "roadAddress": "서울특별시 중랑구 동일로134길 17",
     "lng": 127.0806422,
@@ -11794,7 +11794,7 @@ const data = [
   {
     "shopName": "신일룡호두파이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 원지동 419-5",
     "roadAddress": "서울특별시 서초구 원터6길 4",
     "lng": 127.0557485,
@@ -11803,7 +11803,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "대치삼성점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 996-1",
     "roadAddress": "서울특별시 강남구 테헤란로 620",
     "lng": 127.0655629,
@@ -11821,7 +11821,7 @@ const data = [
   {
     "shopName": "바빌Babil",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 47-22",
     "roadAddress": "서울특별시 강동구 양재대로125길 47",
     "lng": 127.1396615,
@@ -11830,7 +11830,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "서울과학기술대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 438-2",
     "roadAddress": "서울특별시 노원구 공릉로 225",
     "lng": 127.0766023,
@@ -11848,7 +11848,7 @@ const data = [
   {
     "shopName": "광진카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 112",
     "roadAddress": "서울특별시 광진구 아차산로78길 90",
     "lng": 127.1106039,
@@ -11866,7 +11866,7 @@ const data = [
   {
     "shopName": "아메리칸에그샌드",
     "branchName": "롯데몰김포공항점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 886",
     "roadAddress": "서울특별시 강서구 하늘길 38",
     "lng": 126.8029375,
@@ -11875,7 +11875,7 @@ const data = [
   {
     "shopName": "스튜디오잇시",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 416-14",
     "roadAddress": "서울특별시 마포구 망원로4길 3",
     "lng": 126.901879,
@@ -11893,7 +11893,7 @@ const data = [
   {
     "shopName": "커피마마",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 90-57",
     "roadAddress": "서울특별시 강북구 도봉로10라길 10",
     "lng": 127.03142,
@@ -11902,7 +11902,7 @@ const data = [
   {
     "shopName": "복서커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 606-17",
     "roadAddress": "서울특별시 광진구 뚝섬로 620",
     "lng": 127.078423,
@@ -11911,7 +11911,7 @@ const data = [
   {
     "shopName": "에스로우성수",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 317-5",
     "roadAddress": "서울특별시 성동구 성수이로 96",
     "lng": 127.0570218,
@@ -11920,7 +11920,7 @@ const data = [
   {
     "shopName": "더벤티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 615-1",
     "roadAddress": "서울특별시 강남구 압구정로 216",
     "lng": 127.0310125,
@@ -11929,7 +11929,7 @@ const data = [
   {
     "shopName": "까레포머",
     "branchName": "건대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 2-9",
     "roadAddress": "서울특별시 광진구 동일로20길 116",
     "lng": 127.069734,
@@ -11938,7 +11938,7 @@ const data = [
   {
     "shopName": "설레다커피테이블",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 651-48",
     "roadAddress": "서울특별시 도봉구 도봉로110길 55",
     "lng": 127.0366399,
@@ -11947,7 +11947,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "강서블루나인점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 염창동 240-21",
     "roadAddress": "서울특별시 강서구 양천로 583",
     "lng": 126.8643281,
@@ -11956,7 +11956,7 @@ const data = [
   {
     "shopName": "빙찌",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 111-32",
     "roadAddress": "서울특별시 송파구 송파대로42길 28",
     "lng": 127.1105843,
@@ -11965,7 +11965,7 @@ const data = [
   {
     "shopName": "미성패밀리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 삼전동 131-3",
     "roadAddress": "서울특별시 송파구 삼학사로 89",
     "lng": 127.0969196,
@@ -11974,7 +11974,7 @@ const data = [
   {
     "shopName": "감성커피",
     "branchName": "불광역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 대조동 14-1",
     "roadAddress": "서울특별시 은평구 통일로 731",
     "lng": 126.9294446,
@@ -11983,7 +11983,7 @@ const data = [
   {
     "shopName": "에스프레소바피코",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 663-9",
     "roadAddress": "서울특별시 강남구 언주로172길 56",
     "lng": 127.0382813,
@@ -11992,7 +11992,7 @@ const data = [
   {
     "shopName": "플라이팬커피",
     "branchName": "뚝섬점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 13-104",
     "roadAddress": "서울특별시 성동구 상원8길 1",
     "lng": 127.0482501,
@@ -12001,7 +12001,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "신세계백화점본점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 충무로1가 52-5",
     "roadAddress": "서울특별시 중구 소공로 63",
     "lng": 126.9809659,
@@ -12010,7 +12010,7 @@ const data = [
   {
     "shopName": 515,
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 둔촌동 489-8",
     "roadAddress": "서울특별시 강동구 양재대로 1390",
     "lng": 127.1375905,
@@ -12019,7 +12019,7 @@ const data = [
   {
     "shopName": "신월커피",
     "branchName": "이호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 624-4",
     "roadAddress": "서울특별시 양천구 목동중앙북로4길 39",
     "lng": 126.8641453,
@@ -12028,7 +12028,7 @@ const data = [
   {
     "shopName": "TheWitch",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 190-2",
     "roadAddress": "서울특별시 중랑구 중랑천로 53",
     "lng": 127.0731368,
@@ -12037,7 +12037,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "서여의도점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 14-31",
     "roadAddress": "서울특별시 영등포구 국회대로70길 18",
     "lng": 126.9203296,
@@ -12046,7 +12046,7 @@ const data = [
   {
     "shopName": "작업실",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 485-22",
     "roadAddress": "서울특별시 도봉구 우이천로48길 12",
     "lng": 127.0163897,
@@ -12064,7 +12064,7 @@ const data = [
   {
     "shopName": "푸드카페앤그릴",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 성북동 145-118",
     "roadAddress": "서울특별시 성북구 북악산로 637",
     "lng": 127.0054739,
@@ -12073,7 +12073,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "구로KT점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1668-15",
     "roadAddress": "서울특별시 관악구 남부순환로 1377",
     "lng": 126.9037329,
@@ -12082,7 +12082,7 @@ const data = [
   {
     "shopName": "아트앤씨Artnc",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 558-10",
     "roadAddress": "서울특별시 강남구 도산대로25길 17",
     "lng": 127.0269422,
@@ -12091,7 +12091,7 @@ const data = [
   {
     "shopName": "블루블루엣",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 23-5",
     "roadAddress": "서울특별시 영등포구 여의대로 56",
     "lng": 126.9228884,
@@ -12100,7 +12100,7 @@ const data = [
   {
     "shopName": "뉴욕핫도그앤커피",
     "branchName": "서울한양사이버대학교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 사근동 110",
     "roadAddress": "서울특별시 성동구 왕십리로 222",
     "lng": 127.0465947,
@@ -12109,7 +12109,7 @@ const data = [
   {
     "shopName": "라이트커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 일원동 716",
     "roadAddress": "서울특별시 강남구 광평로19길 15",
     "lng": 127.0847863,
@@ -12127,7 +12127,7 @@ const data = [
   {
     "shopName": "도이창카페은평",
     "branchName": "롯데마트점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 63",
     "roadAddress": "서울특별시 은평구 통일로 1050",
     "lng": 126.9178868,
@@ -12136,7 +12136,7 @@ const data = [
   {
     "shopName": "풀림",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 557-17",
     "roadAddress": "서울특별시 강남구 도산대로25길 29",
     "lng": 127.0264592,
@@ -12145,7 +12145,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "월곡역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 하월곡동 18-14",
     "roadAddress": "서울특별시 성북구 화랑로13길 7",
     "lng": 127.0425235,
@@ -12154,7 +12154,7 @@ const data = [
   {
     "shopName": "더블루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍은동 409-47",
     "roadAddress": "서울특별시 서대문구 거북골로 19-1",
     "lng": 126.9251477,
@@ -12163,7 +12163,7 @@ const data = [
   {
     "shopName": "해방촌이야기",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 용산동2가 19",
     "roadAddress": "서울특별시 용산구 소월로20길 27",
     "lng": 126.9853553,
@@ -12172,7 +12172,7 @@ const data = [
   {
     "shopName": "TOBIAS커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 449-7",
     "roadAddress": "서울특별시 강동구 강동대로 235",
     "lng": 127.1323786,
@@ -12181,7 +12181,7 @@ const data = [
   {
     "shopName": "스톤웰",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 345-88",
     "roadAddress": "서울특별시 금천구 가산디지털1로 94",
     "lng": 126.8851516,
@@ -12190,7 +12190,7 @@ const data = [
   {
     "shopName": "할리스커피합정역점",
     "branchName": "합정역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 합정동 374-1",
     "roadAddress": "서울특별시 마포구 양화로 36",
     "lng": 126.9133244,
@@ -12199,7 +12199,7 @@ const data = [
   {
     "shopName": "에슬로우커피",
     "branchName": "대치2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 943-26",
     "roadAddress": "서울특별시 강남구 테헤란로86길 13",
     "lng": 127.0594536,
@@ -12208,7 +12208,7 @@ const data = [
   {
     "shopName": "카페아마떼",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 732",
     "roadAddress": "서울특별시 도봉구 우이천로 367",
     "lng": 127.0240528,
@@ -12217,7 +12217,7 @@ const data = [
   {
     "shopName": "카페라리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1428-15",
     "roadAddress": "서울특별시 서초구 남부순환로337길 37",
     "lng": 127.0204074,
@@ -12226,7 +12226,7 @@ const data = [
   {
     "shopName": "삼익커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남창동 5",
     "roadAddress": "서울특별시 중구 남대문시장8길 7",
     "lng": 126.9789352,
@@ -12235,7 +12235,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "창동역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 13-2",
     "roadAddress": "서울특별시 도봉구 마들로11길 57",
     "lng": 127.0501353,
@@ -12244,7 +12244,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "외대정문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 이문동 329-1",
     "roadAddress": "서울특별시 동대문구 이문로 93",
     "lng": 127.0592664,
@@ -12253,7 +12253,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "마곡리더스타워점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 800-5",
     "roadAddress": "서울특별시 강서구 공항대로 228",
     "lng": 126.8326591,
@@ -12262,7 +12262,7 @@ const data = [
   {
     "shopName": "빵공장띠에리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 47",
     "roadAddress": "서울특별시 송파구 잠실로 124",
     "lng": 127.0981817,
@@ -12271,7 +12271,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "보라매대교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 729-21",
     "roadAddress": "서울특별시 관악구 보라매로3길 23",
     "lng": 126.9255222,
@@ -12280,7 +12280,7 @@ const data = [
   {
     "shopName": "부에노커피로스팅",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대현동 53-20",
     "roadAddress": "서울특별시 서대문구 이화여대2가길 18",
     "lng": 126.9462676,
@@ -12289,7 +12289,7 @@ const data = [
   {
     "shopName": "호밀밭의호두꾼합정점",
     "branchName": "합정점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 394-56",
     "roadAddress": "서울특별시 마포구 양화로 54",
     "lng": 126.914687,
@@ -12298,7 +12298,7 @@ const data = [
   {
     "shopName": "카페베네",
     "branchName": "한양사이버대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 행당동 17",
     "roadAddress": "서울특별시 성동구 왕십리로 220",
     "lng": 127.0474999,
@@ -12307,7 +12307,7 @@ const data = [
   {
     "shopName": "까페덴",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 565-11",
     "roadAddress": "서울특별시 마포구 연남로3길 43",
     "lng": 126.9203741,
@@ -12316,7 +12316,7 @@ const data = [
   {
     "shopName": "푸드카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 성북동 5-1",
     "roadAddress": "서울특별시 성북구 선잠로2길 29-8",
     "lng": 126.9988193,
@@ -12325,7 +12325,7 @@ const data = [
   {
     "shopName": "콜롬비아스페셜티커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 신도림동 337",
     "roadAddress": "서울특별시 구로구 경인로 661",
     "lng": 126.8869658,
@@ -12334,7 +12334,7 @@ const data = [
   {
     "shopName": "겟앤쇼카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 공덕동 467",
     "roadAddress": "서울특별시 마포구 마포대로 109",
     "lng": 126.9502698,
@@ -12343,7 +12343,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "송파방이DT점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 226-10",
     "roadAddress": "서울특별시 송파구 오금로 241",
     "lng": 127.1205658,
@@ -12352,7 +12352,7 @@ const data = [
   {
     "shopName": "스테이모어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 729-59",
     "roadAddress": "서울특별시 용산구 한남대로27가길 34",
     "lng": 127.0025363,
@@ -12361,7 +12361,7 @@ const data = [
   {
     "shopName": "타미하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 상일동 502-2",
     "roadAddress": "서울특별시 강동구 상일로6길 51",
     "lng": 127.1760656,
@@ -12370,7 +12370,7 @@ const data = [
   {
     "shopName": "카페함크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 고척동 253-216",
     "roadAddress": "서울특별시 구로구 고척로 141",
     "lng": 126.8494415,
@@ -12379,7 +12379,7 @@ const data = [
   {
     "shopName": "네스카페",
     "branchName": "도곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 544-2",
     "roadAddress": "서울특별시 강남구 도곡로 188",
     "lng": 127.0400076,
@@ -12388,7 +12388,7 @@ const data = [
   {
     "shopName": "커피코트",
     "branchName": "발산역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 795-2",
     "roadAddress": "서울특별시 강서구 마곡중앙8로 90",
     "lng": 126.8375752,
@@ -12397,7 +12397,7 @@ const data = [
   {
     "shopName": "커피엔수다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동4가 32-63",
     "roadAddress": "서울특별시 영등포구 당산로38길 8",
     "lng": 126.8989812,
@@ -12406,7 +12406,7 @@ const data = [
   {
     "shopName": "착형커피역삼점",
     "branchName": "역삼점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 832-2",
     "roadAddress": "서울특별시 강남구 강남대로 330",
     "lng": 127.0306106,
@@ -12424,7 +12424,7 @@ const data = [
   {
     "shopName": "카페알레",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 119",
     "roadAddress": "서울특별시 서대문구 신촌로1길 111",
     "lng": 126.9309588,
@@ -12433,7 +12433,7 @@ const data = [
   {
     "shopName": "카페7그램",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 장충동2가 187-22",
     "roadAddress": "서울특별시 중구 동호로24길 27",
     "lng": 127.0052854,
@@ -12442,7 +12442,7 @@ const data = [
   {
     "shopName": "반지캠퍼스카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 345-16",
     "roadAddress": "서울특별시 마포구 어울마당로 112-6",
     "lng": 126.9233531,
@@ -12451,7 +12451,7 @@ const data = [
   {
     "shopName": "와이샐러드카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 114-13",
     "roadAddress": "서울특별시 강남구 봉은사로 452",
     "lng": 127.0490531,
@@ -12460,7 +12460,7 @@ const data = [
   {
     "shopName": "아이엠바리스타",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 792-4",
     "roadAddress": "서울특별시 서초구 동광로 41",
     "lng": 126.9872442,
@@ -12469,7 +12469,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "올림픽공원북문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 468",
     "roadAddress": "서울특별시 강동구 강동대로 171",
     "lng": 127.1259321,
@@ -12478,7 +12478,7 @@ const data = [
   {
     "shopName": "네스카페",
     "branchName": "목동반디앤루니스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 916",
     "roadAddress": "서울특별시 양천구 목동동로 257",
     "lng": 126.8746818,
@@ -12487,7 +12487,7 @@ const data = [
   {
     "shopName": "빙설헌",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 61-3",
     "roadAddress": "서울특별시 영등포구 63로 40",
     "lng": 126.9391975,
@@ -12496,7 +12496,7 @@ const data = [
   {
     "shopName": "커피나무방배역점",
     "branchName": "방배역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 913-19",
     "roadAddress": "서울특별시 서초구 효령로29길 23",
     "lng": 126.9951241,
@@ -12505,7 +12505,7 @@ const data = [
   {
     "shopName": "스타벅스강남우성점",
     "branchName": "강남우성점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 832-3",
     "roadAddress": "서울특별시 강남구 강남대로 328",
     "lng": 127.0306939,
@@ -12514,7 +12514,7 @@ const data = [
   {
     "shopName": "모던팩토리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 계동 131-2",
     "roadAddress": "서울특별시 종로구 계동길 82",
     "lng": 126.9868176,
@@ -12523,7 +12523,7 @@ const data = [
   {
     "shopName": "3poppc카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 역촌동 62-1",
     "roadAddress": "서울특별시 은평구 연서로 73",
     "lng": 126.9150533,
@@ -12532,7 +12532,7 @@ const data = [
   {
     "shopName": "카페벗티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 366-440",
     "roadAddress": "서울특별시 중구 다산로 41",
     "lng": 127.0069968,
@@ -12541,7 +12541,7 @@ const data = [
   {
     "shopName": "커피퐁당",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 367-1",
     "roadAddress": "서울특별시 강서구 가로공원로 218",
     "lng": 126.8401975,
@@ -12559,7 +12559,7 @@ const data = [
   {
     "shopName": "까루나",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 361-6",
     "roadAddress": "서울특별시 서대문구 홍제내길 42",
     "lng": 126.9363872,
@@ -12568,7 +12568,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "가락시장역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 80",
     "roadAddress": "서울특별시 송파구 송파대로28길 27",
     "lng": 127.1200802,
@@ -12577,7 +12577,7 @@ const data = [
   {
     "shopName": "더카페",
     "branchName": "장한평튼튼병원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 294-11",
     "roadAddress": "서울특별시 동대문구 답십리로 261",
     "lng": 127.0693319,
@@ -12586,7 +12586,7 @@ const data = [
   {
     "shopName": "북카페초록",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 668-32",
     "roadAddress": "서울특별시 성동구 서울숲4길 28-3",
     "lng": 127.0439983,
@@ -12595,7 +12595,7 @@ const data = [
   {
     "shopName": "케이에스케이공인중개사사무소카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 창성동 138-2",
     "roadAddress": "서울특별시 종로구 자하문로 42",
     "lng": 126.9715727,
@@ -12604,7 +12604,7 @@ const data = [
   {
     "shopName": "포방터카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍은동 9-123",
     "roadAddress": "서울특별시 서대문구 포방터길 43",
     "lng": 126.9488787,
@@ -12613,7 +12613,7 @@ const data = [
   {
     "shopName": "별과꽃",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 장위동 77-11",
     "roadAddress": "서울특별시 성북구 돌곶이로32길 36",
     "lng": 127.0532473,
@@ -12631,7 +12631,7 @@ const data = [
   {
     "shopName": "홍s커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동2가 30-2",
     "roadAddress": "서울특별시 영등포구 영등포로 109",
     "lng": 126.8943817,
@@ -12640,7 +12640,7 @@ const data = [
   {
     "shopName": "다같이카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 남가좌동 296-13",
     "roadAddress": "서울특별시 서대문구 수색로 43",
     "lng": 126.9133895,
@@ -12649,7 +12649,7 @@ const data = [
   {
     "shopName": "3기동단카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 654",
     "roadAddress": "서울특별시 송파구 새말로 27",
     "lng": 127.1178703,
@@ -12658,7 +12658,7 @@ const data = [
   {
     "shopName": "하이제씨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 동숭동 129-164",
     "roadAddress": "서울특별시 종로구 동숭1길 12",
     "lng": 127.0050147,
@@ -12667,7 +12667,7 @@ const data = [
   {
     "shopName": "프레지에",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 218-1",
     "roadAddress": "서울특별시 광진구 아차산로 552",
     "lng": 127.1043874,
@@ -12676,7 +12676,7 @@ const data = [
   {
     "shopName": "카페포엠",
     "branchName": "본점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 525-14",
     "roadAddress": "서울특별시 강남구 압구정로4길 13-11",
     "lng": 127.0209621,
@@ -12685,7 +12685,7 @@ const data = [
   {
     "shopName": "앙쥬",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 226-5",
     "roadAddress": "서울특별시 송파구 오금로31길 3",
     "lng": 127.1211431,
@@ -12694,7 +12694,7 @@ const data = [
   {
     "shopName": "커피마리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 오금동 61-8",
     "roadAddress": "서울특별시 송파구 성내천로 64",
     "lng": 127.1363143,
@@ -12703,7 +12703,7 @@ const data = [
   {
     "shopName": "아시아나타운커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 오쇠동 47",
     "roadAddress": "서울특별시 강서구 오정로 443-83",
     "lng": 126.7971025,
@@ -12712,7 +12712,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "강남대로논현점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 736-2",
     "roadAddress": "서울특별시 서초구 강남대로85길 5",
     "lng": 127.0225824,
@@ -12721,7 +12721,7 @@ const data = [
   {
     "shopName": "티앤톡",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 오류동 165-3",
     "roadAddress": "서울특별시 구로구 서해안로24길 21-4",
     "lng": 126.8394008,
@@ -12730,7 +12730,7 @@ const data = [
   {
     "shopName": "티앤티라이프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 515-1",
     "roadAddress": "서울특별시 서대문구 연희로 6",
     "lng": 126.927045,
@@ -12739,7 +12739,7 @@ const data = [
   {
     "shopName": "한스텝씨즈캔디",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 118-3",
     "roadAddress": "서울특별시 서초구 사평대로 205",
     "lng": 127.0078261,
@@ -12748,7 +12748,7 @@ const data = [
   {
     "shopName": "더빅",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 도봉동 563",
     "roadAddress": "서울특별시 도봉구 도봉로 873",
     "lng": 127.0454358,
@@ -12766,7 +12766,7 @@ const data = [
   {
     "shopName": "고종의뜰굼터/더듀얼로스터즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 정릉동 260-29",
     "roadAddress": "서울특별시 성북구 보국문로20길 18",
     "lng": 127.0095125,
@@ -12775,7 +12775,7 @@ const data = [
   {
     "shopName": "더컵스토리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 계동 45",
     "roadAddress": "서울특별시 종로구 계동길 96",
     "lng": 126.9868657,
@@ -12793,7 +12793,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "연희동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 188-2",
     "roadAddress": "서울특별시 서대문구 연희로 97",
     "lng": 126.9305022,
@@ -12811,7 +12811,7 @@ const data = [
   {
     "shopName": "블랙빈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1082-25",
     "roadAddress": "서울특별시 강서구 화곡로20길 19",
     "lng": 126.8366321,
@@ -12820,7 +12820,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "구파발역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 70",
     "roadAddress": "서울특별시 은평구 진관2로 15-46",
     "lng": 126.9190721,
@@ -12829,7 +12829,7 @@ const data = [
   {
     "shopName": "카페바리스타아카데미",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 827-53",
     "roadAddress": "서울특별시 강남구 테헤란로6길 29",
     "lng": 127.0312709,
@@ -12838,7 +12838,7 @@ const data = [
   {
     "shopName": "카페10PM",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 805",
     "roadAddress": "서울특별시 금천구 독산로40길 32",
     "lng": 126.9062918,
@@ -12847,7 +12847,7 @@ const data = [
   {
     "shopName": "플랜트",
     "branchName": "2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 130-43",
     "roadAddress": "서울특별시 용산구 보광로 117",
     "lng": 126.9942086,
@@ -12856,7 +12856,7 @@ const data = [
   {
     "shopName": "써브웨이언주역점",
     "branchName": "언주역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 650-2",
     "roadAddress": "서울특별시 강남구 봉은사로 206",
     "lng": 127.0346412,
@@ -12865,7 +12865,7 @@ const data = [
   {
     "shopName": "드플로허",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 683-61",
     "roadAddress": "서울특별시 용산구 대사관로5길 34",
     "lng": 127.0002719,
@@ -12874,7 +12874,7 @@ const data = [
   {
     "shopName": "에드빗",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 123-33",
     "roadAddress": "서울특별시 강남구 봉은사로68길 41",
     "lng": 127.0519164,
@@ -12883,7 +12883,7 @@ const data = [
   {
     "shopName": "카페비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 345-3",
     "roadAddress": "서울특별시 도봉구 해등로 67",
     "lng": 127.0416875,
@@ -12892,7 +12892,7 @@ const data = [
   {
     "shopName": "스윗헤르츠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 879-1",
     "roadAddress": "서울특별시 관악구 쑥고개로21길 9",
     "lng": 126.9484357,
@@ -12901,7 +12901,7 @@ const data = [
   {
     "shopName": "커피볶는곰",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 923",
     "roadAddress": "서울특별시 강남구 선릉로68길 12",
     "lng": 127.0527741,
@@ -12910,7 +12910,7 @@ const data = [
   {
     "shopName": "웨이크업커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 86-4",
     "roadAddress": "서울특별시 강남구 논현로132길 15",
     "lng": 127.0317892,
@@ -12919,7 +12919,7 @@ const data = [
   {
     "shopName": "츄잉쥬스양재점",
     "branchName": "양재점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 959-10",
     "roadAddress": "서울특별시 강남구 남부순환로359길 26",
     "lng": 127.0362095,
@@ -12928,7 +12928,7 @@ const data = [
   {
     "shopName": "피티카페비엠에스점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 829",
     "roadAddress": "서울특별시 강남구 역삼로7길 22",
     "lng": 127.0328796,
@@ -12937,7 +12937,7 @@ const data = [
   {
     "shopName": "안다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 43-4",
     "roadAddress": "서울특별시 중랑구 용마산로93길 47",
     "lng": 127.0942542,
@@ -12946,7 +12946,7 @@ const data = [
   {
     "shopName": "탐앤탐스",
     "branchName": "제이제이점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 666-4",
     "roadAddress": "서울특별시 강남구 선릉로153길 5",
     "lng": 127.0389211,
@@ -12955,7 +12955,7 @@ const data = [
   {
     "shopName": "순카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 부암동 46-1",
     "roadAddress": "서울특별시 종로구 백석동1길 2",
     "lng": 126.9683731,
@@ -12964,7 +12964,7 @@ const data = [
   {
     "shopName": "카페눈코입",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 망우동 128-4",
     "roadAddress": "서울특별시 중랑구 양원역로 2",
     "lng": 127.1085963,
@@ -12973,7 +12973,7 @@ const data = [
   {
     "shopName": "아마스빈버블티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 727",
     "roadAddress": "서울특별시 도봉구 시루봉로 57",
     "lng": 127.0274476,
@@ -12982,7 +12982,7 @@ const data = [
   {
     "shopName": "앤레커피",
     "branchName": "코엑스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 159",
     "roadAddress": "서울특별시 강남구 영동대로 513",
     "lng": 127.0591391,
@@ -12991,7 +12991,7 @@ const data = [
   {
     "shopName": "빌리엔젤신라스테이점",
     "branchName": "신라스테이점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 675-3",
     "roadAddress": "서울특별시 강남구 언주로 517",
     "lng": 127.0414987,
@@ -13000,7 +13000,7 @@ const data = [
   {
     "shopName": "싱글오커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 81-3",
     "roadAddress": "서울특별시 서초구 바우뫼로 182-1",
     "lng": 127.0400427,
@@ -13009,7 +13009,7 @@ const data = [
   {
     "shopName": "에슬로우커피선릉2호점",
     "branchName": "선릉2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 889-56",
     "roadAddress": "서울특별시 강남구 테헤란로64길 14",
     "lng": 127.0509698,
@@ -13018,7 +13018,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "동대문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 광희동1가 185-1",
     "roadAddress": "서울특별시 중구 장충단로 229",
     "lng": 127.0071916,
@@ -13027,7 +13027,7 @@ const data = [
   {
     "shopName": "책과삶서점카페",
     "branchName": "책과삶서점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 397",
     "roadAddress": "서울특별시 영등포구 당산로27길 16",
     "lng": 126.8947458,
@@ -13036,7 +13036,7 @@ const data = [
   {
     "shopName": "셀렉토커피마포구청점",
     "branchName": "마포구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 성산동 590-4",
     "roadAddress": "서울특별시 마포구 모래내로1길 20",
     "lng": 126.9032723,
@@ -13045,7 +13045,7 @@ const data = [
   {
     "shopName": "에스메랄다",
     "branchName": "구로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 611-26",
     "roadAddress": "서울특별시 구로구 구로중앙로 207",
     "lng": 126.8769432,
@@ -13054,7 +13054,7 @@ const data = [
   {
     "shopName": "헨델과그레텔미니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 318-65",
     "roadAddress": "서울특별시 동작구 사당로20가길 26",
     "lng": 126.974097,
@@ -13063,7 +13063,7 @@ const data = [
   {
     "shopName": "소월길커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 후암동 445-8",
     "roadAddress": "서울특별시 용산구 소월로2길 27",
     "lng": 126.976661,
@@ -13072,7 +13072,7 @@ const data = [
   {
     "shopName": "카페트리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 쌍림동 146-1",
     "roadAddress": "서울특별시 중구 마른내로 140",
     "lng": 127.0035669,
@@ -13081,7 +13081,7 @@ const data = [
   {
     "shopName": "브런치가",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 204-29",
     "roadAddress": "서울특별시 마포구 월드컵북로4길 39",
     "lng": 126.9214476,
@@ -13090,7 +13090,7 @@ const data = [
   {
     "shopName": "보나비아티제일원로비점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 일원동 50",
     "roadAddress": "서울특별시 강남구 일원로 81",
     "lng": 127.0895788,
@@ -13099,7 +13099,7 @@ const data = [
   {
     "shopName": "카페몽타주",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 555-5",
     "roadAddress": "서울특별시 강동구 올림픽로48길 23-12",
     "lng": 127.121846,
@@ -13108,7 +13108,7 @@ const data = [
   {
     "shopName": "카페호메이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 896-36",
     "roadAddress": "서울특별시 강남구 선릉로86길 42",
     "lng": 127.0530965,
@@ -13117,7 +13117,7 @@ const data = [
   {
     "shopName": "세시셀라도산공원점",
     "branchName": "도산공원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 651-4",
     "roadAddress": "서울특별시 강남구 도산대로45길 10-4",
     "lng": 127.0361444,
@@ -13126,7 +13126,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "무교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 무교동 7",
     "roadAddress": "서울특별시 중구 무교로 28",
     "lng": 126.9795613,
@@ -13135,7 +13135,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "당산금강펜테리움점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동4가 74-2",
     "roadAddress": "서울특별시 영등포구 당산로 171",
     "lng": 126.898082,
@@ -13144,7 +13144,7 @@ const data = [
   {
     "shopName": "요거프레소길음뉴타운점",
     "branchName": "길음뉴타운점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 길음동 1286-10",
     "roadAddress": "서울특별시 성북구 길음로7길 6",
     "lng": 127.0223683,
@@ -13153,7 +13153,7 @@ const data = [
   {
     "shopName": "커피베이서울의료원점",
     "branchName": "서울의료원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 신내동 657",
     "roadAddress": "서울특별시 중랑구 신내로 127",
     "lng": 127.0956323,
@@ -13162,7 +13162,7 @@ const data = [
   {
     "shopName": "스토리웨이",
     "branchName": "본사",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 2-7",
     "roadAddress": "서울특별시 영등포구 국회대로 612",
     "lng": 126.9020353,
@@ -13171,7 +13171,7 @@ const data = [
   {
     "shopName": "SMC",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 홍지동 55-1",
     "roadAddress": "서울특별시 종로구 홍지문2길 7",
     "lng": 126.9559128,
@@ -13180,7 +13180,7 @@ const data = [
   {
     "shopName": "커피아이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 개봉동 353-14",
     "roadAddress": "서울특별시 구로구 경인로 324",
     "lng": 126.8561675,
@@ -13189,7 +13189,7 @@ const data = [
   {
     "shopName": "카페로올봄",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 326-29",
     "roadAddress": "서울특별시 마포구 와우산로35길 7",
     "lng": 126.9300977,
@@ -13207,7 +13207,7 @@ const data = [
   {
     "shopName": "삼청동커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 삼청동 80-6",
     "roadAddress": "서울특별시 종로구 삼청로 91",
     "lng": 126.9816876,
@@ -13216,7 +13216,7 @@ const data = [
   {
     "shopName": "티하임",
     "branchName": "성신여대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동2가 234",
     "roadAddress": "서울특별시 성북구 보문로30가길 11-16",
     "lng": 127.0206769,
@@ -13225,7 +13225,7 @@ const data = [
   {
     "shopName": "카페마마스강남역점",
     "branchName": "강남역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1321-6",
     "roadAddress": "서울특별시 서초구 서운로 138",
     "lng": 127.0252291,
@@ -13234,7 +13234,7 @@ const data = [
   {
     "shopName": "커피빈코리아강남역먹자골목점",
     "branchName": "코리아강남역먹자골목점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 816-6",
     "roadAddress": "서울특별시 강남구 테헤란로1길 29",
     "lng": 127.02728,
@@ -13243,7 +13243,7 @@ const data = [
   {
     "shopName": "샤론꽃방.",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 장충동1가 26-13",
     "roadAddress": "서울특별시 중구 장충단로 205",
     "lng": 127.0066192,
@@ -13252,7 +13252,7 @@ const data = [
   {
     "shopName": "빌리엔젤",
     "branchName": "강남358타워점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 821-1",
     "roadAddress": "서울특별시 강남구 테헤란로 101",
     "lng": 127.0280231,
@@ -13261,7 +13261,7 @@ const data = [
   {
     "shopName": "지붕",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 신내동 418-3",
     "roadAddress": "서울특별시 중랑구 용마산로 615",
     "lng": 127.1006067,
@@ -13270,7 +13270,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아목동트라팰리스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 962",
     "roadAddress": "서울특별시 양천구 오목로 299",
     "lng": 126.8703422,
@@ -13279,7 +13279,7 @@ const data = [
   {
     "shopName": "카페오월",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 길동 96-13",
     "roadAddress": "서울특별시 강동구 명일로 239",
     "lng": 127.1466281,
@@ -13288,7 +13288,7 @@ const data = [
   {
     "shopName": "스타벅스명동길점",
     "branchName": "명동길점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 충무로2가 7-1",
     "roadAddress": "서울특별시 중구 명동10길 41",
     "lng": 126.9858515,
@@ -13297,7 +13297,7 @@ const data = [
   {
     "shopName": "스무디킹",
     "branchName": "코엑스2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 159",
     "roadAddress": "서울특별시 강남구 영동대로 513",
     "lng": 127.0591391,
@@ -13306,7 +13306,7 @@ const data = [
   {
     "shopName": "감초다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 길동 228-7",
     "roadAddress": "서울특별시 강동구 진황도로49길 46",
     "lng": 127.1424903,
@@ -13315,7 +13315,7 @@ const data = [
   {
     "shopName": "커피로스팅",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 134-57",
     "roadAddress": "서울특별시 강북구 도봉로30길 38",
     "lng": 127.0304953,
@@ -13324,7 +13324,7 @@ const data = [
   {
     "shopName": "빈트리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 18",
     "roadAddress": "서울특별시 노원구 마들로 31",
     "lng": 127.0675173,
@@ -13333,7 +13333,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "선릉중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 897-8",
     "roadAddress": "서울특별시 강남구 선릉로86길 8",
     "lng": 127.0504838,
@@ -13342,7 +13342,7 @@ const data = [
   {
     "shopName": "브리즈피씨카페",
     "branchName": "신촌점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 18-29",
     "roadAddress": "서울특별시 서대문구 연세로 8-1",
     "lng": 126.9372841,
@@ -13351,7 +13351,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "목동7단지점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 923",
     "roadAddress": "서울특별시 양천구 목동서로 213",
     "lng": 126.8705959,
@@ -13360,7 +13360,7 @@ const data = [
   {
     "shopName": "SOMETEA",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 신내동 473-22",
     "roadAddress": "서울특별시 중랑구 용마산로125가길 41",
     "lng": 127.0983434,
@@ -13369,7 +13369,7 @@ const data = [
   {
     "shopName": "세인트빈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 묘동 78",
     "roadAddress": "서울특별시 종로구 돈화문로8길 15",
     "lng": 126.9919886,
@@ -13378,7 +13378,7 @@ const data = [
   {
     "shopName": "힐",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 회현동1가 133-1",
     "roadAddress": "서울특별시 중구 소공로3길 42",
     "lng": 126.9819722,
@@ -13387,7 +13387,7 @@ const data = [
   {
     "shopName": "포스빌미카사카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 26",
     "roadAddress": "서울특별시 구로구 새말로 102",
     "lng": 126.8913914,
@@ -13396,7 +13396,7 @@ const data = [
   {
     "shopName": "탐엔탐스",
     "branchName": "신도림테크노점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 3-25",
     "roadAddress": "서울특별시 구로구 새말로 97",
     "lng": 126.8902076,
@@ -13405,7 +13405,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아뉴교보타워옆점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1304",
     "roadAddress": "서울특별시 서초구 강남대로 449-3",
     "lng": 127.0248644,
@@ -13414,7 +13414,7 @@ const data = [
   {
     "shopName": "씨제이푸드빌콜드스톤크리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1606",
     "roadAddress": "서울특별시 마포구 상암산로 66",
     "lng": 126.8914724,
@@ -13423,7 +13423,7 @@ const data = [
   {
     "shopName": "인카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 272-10",
     "roadAddress": "서울특별시 서초구 언남길 71",
     "lng": 127.0446797,
@@ -13432,7 +13432,7 @@ const data = [
   {
     "shopName": "더퍼즐",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 대흥동 2-71",
     "roadAddress": "서울특별시 마포구 대흥로 188-1",
     "lng": 126.9461302,
@@ -13441,7 +13441,7 @@ const data = [
   {
     "shopName": "카페온",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 702-2",
     "roadAddress": "서울특별시 강남구 테헤란로 309",
     "lng": 127.0444153,
@@ -13450,7 +13450,7 @@ const data = [
   {
     "shopName": "씨제이푸드빌",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 40-1",
     "roadAddress": "서울특별시 송파구 송파대로 521",
     "lng": 127.0981244,
@@ -13459,7 +13459,7 @@ const data = [
   {
     "shopName": "공차코리아대치점",
     "branchName": "코리아대치점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 507-2",
     "roadAddress": "서울특별시 강남구 삼성로 155",
     "lng": 127.0629032,
@@ -13468,7 +13468,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "등촌역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 648-4",
     "roadAddress": "서울특별시 강서구 공항대로 519",
     "lng": 126.8641149,
@@ -13477,7 +13477,7 @@ const data = [
   {
     "shopName": "CNNCafe세빛둥둥섬점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 650",
     "roadAddress": "서울특별시 서초구 올림픽대로 2085-14",
     "lng": 126.9959457,
@@ -13486,7 +13486,7 @@ const data = [
   {
     "shopName": "고촌카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동1가 1-25",
     "roadAddress": "서울특별시 영등포구 문래북로 51-4",
     "lng": 126.8911534,
@@ -13495,7 +13495,7 @@ const data = [
   {
     "shopName": "익스페리멘탈커피바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 726-162",
     "roadAddress": "서울특별시 용산구 한남대로40길 10",
     "lng": 127.0033193,
@@ -13504,7 +13504,7 @@ const data = [
   {
     "shopName": "커피향기",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 1054-6",
     "roadAddress": "서울특별시 노원구 동일로237길 63",
     "lng": 127.0517084,
@@ -13513,7 +13513,7 @@ const data = [
   {
     "shopName": "커피라움",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 정릉동 966-7",
     "roadAddress": "서울특별시 성북구 서경로 2",
     "lng": 127.0149444,
@@ -13522,7 +13522,7 @@ const data = [
   {
     "shopName": "카페촉",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 109",
     "roadAddress": "서울특별시 강남구 영동대로112길 38",
     "lng": 127.0634378,
@@ -13531,7 +13531,7 @@ const data = [
   {
     "shopName": "커피앰비언스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 18",
     "roadAddress": "서울특별시 송파구 송이로17길 51",
     "lng": 127.1248311,
@@ -13540,7 +13540,7 @@ const data = [
   {
     "shopName": "블랙네오",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 35-63",
     "roadAddress": "서울특별시 광진구 능동로48길 57",
     "lng": 127.0856409,
@@ -13549,7 +13549,7 @@ const data = [
   {
     "shopName": "이케이바리스타에듀컨설팅",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 536",
     "roadAddress": "서울특별시 동작구 상도로 207",
     "lng": 126.9419637,
@@ -13558,7 +13558,7 @@ const data = [
   {
     "shopName": "투썸플레이스커피경희대점",
     "branchName": "커피경희대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 회기동 16-72",
     "roadAddress": "서울특별시 동대문구 경희대로 7-1",
     "lng": 127.0522045,
@@ -13567,7 +13567,7 @@ const data = [
   {
     "shopName": "개성평통보쌈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 금호동4가 548-1",
     "roadAddress": "서울특별시 성동구 독서당로 302",
     "lng": 127.0227135,
@@ -13576,7 +13576,7 @@ const data = [
   {
     "shopName": "제퍼커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로2가 157-2",
     "roadAddress": "서울특별시 용산구 한강대로38길 17",
     "lng": 126.9698521,
@@ -13585,7 +13585,7 @@ const data = [
   {
     "shopName": "카페157",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1701-1",
     "roadAddress": "서울특별시 서초구 서초중앙로 157",
     "lng": 127.0111089,
@@ -13594,7 +13594,7 @@ const data = [
   {
     "shopName": "파스쿠찌삼성역점",
     "branchName": "삼성역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 168-21",
     "roadAddress": "서울특별시 강남구 영동대로96길 8",
     "lng": 127.063193,
@@ -13612,7 +13612,7 @@ const data = [
   {
     "shopName": "커피드리즐",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 성산동 200-49",
     "roadAddress": "서울특별시 마포구 월드컵북로 179",
     "lng": 126.9085636,
@@ -13621,7 +13621,7 @@ const data = [
   {
     "shopName": "투썸플레이스현대",
     "branchName": "지식산업센터",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 291-1",
     "roadAddress": "서울특별시 금천구 두산로 70",
     "lng": 126.8956093,
@@ -13639,7 +13639,7 @@ const data = [
   {
     "shopName": "커피랩세아점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 490",
     "roadAddress": "서울특별시 마포구 양화로 45",
     "lng": 126.9139374,
@@ -13648,7 +13648,7 @@ const data = [
   {
     "shopName": "빈스앤베리즈",
     "branchName": "명품관이스트점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 압구정동 515",
     "roadAddress": "서울특별시 강남구 압구정로 407",
     "lng": 127.0418193,
@@ -13657,7 +13657,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "이수메가박스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 147-53",
     "roadAddress": "서울특별시 동작구 동작대로 89",
     "lng": 126.9816527,
@@ -13666,7 +13666,7 @@ const data = [
   {
     "shopName": "카페그랑",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 943-19",
     "roadAddress": "서울특별시 양천구 중앙로 300",
     "lng": 126.8518574,
@@ -13675,7 +13675,7 @@ const data = [
   {
     "shopName": "홀릭이스케이프",
     "branchName": "압구정본점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 663-7",
     "roadAddress": "서울특별시 강남구 선릉로157길 20-5",
     "lng": 127.0382052,
@@ -13684,7 +13684,7 @@ const data = [
   {
     "shopName": "대지다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 용답동 234",
     "roadAddress": "서울특별시 성동구 자동차시장1길 70",
     "lng": 127.0651278,
@@ -13693,7 +13693,7 @@ const data = [
   {
     "shopName": "스탠다드커피바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 618-17",
     "roadAddress": "서울특별시 강남구 강남대로102길 28",
     "lng": 127.0276983,
@@ -13702,7 +13702,7 @@ const data = [
   {
     "shopName": "메머드커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 703-3",
     "roadAddress": "서울특별시 강남구 테헤란로43길 12",
     "lng": 127.0439788,
@@ -13711,7 +13711,7 @@ const data = [
   {
     "shopName": "카페무세띠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1303-16",
     "roadAddress": "서울특별시 서초구 서초대로77길 62",
     "lng": 127.0238869,
@@ -13720,7 +13720,7 @@ const data = [
   {
     "shopName": "젬스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 일원동 685-11",
     "roadAddress": "서울특별시 강남구 양재대로27길 14",
     "lng": 127.0817794,
@@ -13729,7 +13729,7 @@ const data = [
   {
     "shopName": "쥬시&차얌",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 193",
     "roadAddress": "서울특별시 광진구 광나루로 386",
     "lng": 127.0723063,
@@ -13747,7 +13747,7 @@ const data = [
   {
     "shopName": "제이씨제이푸드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 정릉동 16-293",
     "roadAddress": "서울특별시 성북구 정릉로38가길 23",
     "lng": 127.0173491,
@@ -13756,7 +13756,7 @@ const data = [
   {
     "shopName": "제이엘디저트바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 744-34",
     "roadAddress": "서울특별시 용산구 이태원로55가길 38",
     "lng": 126.9995217,
@@ -13765,7 +13765,7 @@ const data = [
   {
     "shopName": "푸드케어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 상봉동 500",
     "roadAddress": "서울특별시 중랑구 망우로 353",
     "lng": 127.0916054,
@@ -13774,7 +13774,7 @@ const data = [
   {
     "shopName": "제이티코페아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 50-3",
     "roadAddress": "서울특별시 금천구 벚꽃로 298",
     "lng": 126.883859,
@@ -13792,7 +13792,7 @@ const data = [
   {
     "shopName": "팔공티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 148-91",
     "roadAddress": "서울특별시 동작구 노량진로 180",
     "lng": 126.9458795,
@@ -13801,7 +13801,7 @@ const data = [
   {
     "shopName": "요거프레소당산에스케이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동5가 7-23",
     "roadAddress": "서울특별시 영등포구 당산로41나길 12",
     "lng": 126.8973347,
@@ -13810,7 +13810,7 @@ const data = [
   {
     "shopName": "위드유상암카페",
     "branchName": "위드유상암",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1600",
     "roadAddress": "서울특별시 마포구 월드컵북로 416",
     "lng": 126.887714,
@@ -13819,7 +13819,7 @@ const data = [
   {
     "shopName": "레이너드커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 778-3",
     "roadAddress": "서울특별시 강서구 곰달래로 269",
     "lng": 126.8628809,
@@ -13828,7 +13828,7 @@ const data = [
   {
     "shopName": "두리안디저트카페",
     "branchName": "두리안디저트",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 151",
     "roadAddress": "서울특별시 구로구 도림로 101",
     "lng": 126.8940241,
@@ -13837,7 +13837,7 @@ const data = [
   {
     "shopName": "다빈치",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 645",
     "roadAddress": "서울특별시 송파구 법원로11길 25",
     "lng": 127.1162166,
@@ -13846,7 +13846,7 @@ const data = [
   {
     "shopName": "메고지고",
     "branchName": "가양홈플러스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 가양동 18-24",
     "roadAddress": "서울특별시 강서구 양천로 431",
     "lng": 126.8499461,
@@ -13855,7 +13855,7 @@ const data = [
   {
     "shopName": "클레어플레이스",
     "branchName": "양재1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 80",
     "roadAddress": "서울특별시 서초구 강남대로 148",
     "lng": 127.0391683,
@@ -13864,7 +13864,7 @@ const data = [
   {
     "shopName": "아임커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 1024-1",
     "roadAddress": "서울특별시 서초구 방배로 32",
     "lng": 127.0003547,
@@ -13873,7 +13873,7 @@ const data = [
   {
     "shopName": "김대기커피스쿨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 111-27",
     "roadAddress": "서울특별시 송파구 중대로10길 7-1",
     "lng": 127.1219996,
@@ -13882,7 +13882,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "라잌유",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 북창동 18-4",
     "roadAddress": "서울특별시 중구 남대문로1길 46",
     "lng": 126.9775049,
@@ -13891,7 +13891,7 @@ const data = [
   {
     "shopName": "카페토스피아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 173-6",
     "roadAddress": "서울특별시 중랑구 공릉로2길 19",
     "lng": 127.0790684,
@@ -13900,7 +13900,7 @@ const data = [
   {
     "shopName": "라치나타",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 삼청동 120-12",
     "roadAddress": "서울특별시 종로구 삼청로 123",
     "lng": 126.9815478,
@@ -13909,7 +13909,7 @@ const data = [
   {
     "shopName": "커피지원센터",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 226-16",
     "roadAddress": "서울특별시 광진구 아차산로39길 29",
     "lng": 127.0760551,
@@ -13918,7 +13918,7 @@ const data = [
   {
     "shopName": "헬카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 회현동1가 194-19",
     "roadAddress": "서울특별시 중구 퇴계로 65",
     "lng": 126.9793424,
@@ -13927,7 +13927,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "아현역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 북아현동 142-27",
     "roadAddress": "서울특별시 서대문구 북아현로 29",
     "lng": 126.9561442,
@@ -13936,7 +13936,7 @@ const data = [
   {
     "shopName": "하루샐러드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1718-4",
     "roadAddress": "서울특별시 서초구 법원로1길 11",
     "lng": 127.0092694,
@@ -13945,7 +13945,7 @@ const data = [
   {
     "shopName": "탐앤탐스",
     "branchName": "강서구청사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 657-3",
     "roadAddress": "서울특별시 강서구 공항대로 395",
     "lng": 126.8515334,
@@ -13954,7 +13954,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "건대스타시티2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 227-342",
     "roadAddress": "서울특별시 광진구 능동로 90",
     "lng": 127.070902,
@@ -13963,7 +13963,7 @@ const data = [
   {
     "shopName": "이앤지커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로3가 16-49",
     "roadAddress": "서울특별시 용산구 청파로 40",
     "lng": 126.9560294,
@@ -13972,7 +13972,7 @@ const data = [
   {
     "shopName": "백련다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 가리봉동 110-9",
     "roadAddress": "서울특별시 구로구 우마2길 21",
     "lng": 126.8891282,
@@ -13981,7 +13981,7 @@ const data = [
   {
     "shopName": "카페복희씨",
     "branchName": "구스토",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 흑석동 336",
     "roadAddress": "서울특별시 동작구 흑석한강로 27",
     "lng": 126.9661873,
@@ -13990,7 +13990,7 @@ const data = [
   {
     "shopName": "일리카페",
     "branchName": "대학로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 혜화동 85-3",
     "roadAddress": "서울특별시 종로구 창경궁로 285",
     "lng": 127.0016439,
@@ -13999,7 +13999,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "YTN점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 봉래동1가 132-2",
     "roadAddress": "서울특별시 중구 세종대로1길 11",
     "lng": 126.9725368,
@@ -14008,7 +14008,7 @@ const data = [
   {
     "shopName": "할리스커피광나루역점",
     "branchName": "광나루역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 580",
     "roadAddress": "서울특별시 광진구 천호대로 808",
     "lng": 127.1032542,
@@ -14017,7 +14017,7 @@ const data = [
   {
     "shopName": "플랫빈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동4가 278-4",
     "roadAddress": "서울특별시 영등포구 선유로54길 7",
     "lng": 126.899448,
@@ -14026,7 +14026,7 @@ const data = [
   {
     "shopName": "코나카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 청파동1가 161",
     "roadAddress": "서울특별시 용산구 청파로 319",
     "lng": 126.9697441,
@@ -14035,7 +14035,7 @@ const data = [
   {
     "shopName": "제이엠커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 330-25",
     "roadAddress": "서울특별시 강동구 천중로2길 10",
     "lng": 127.1230397,
@@ -14044,7 +14044,7 @@ const data = [
   {
     "shopName": "마실",
     "branchName": "로공방카페",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 744-12",
     "roadAddress": "서울특별시 영등포구 도림로53길 34-1",
     "lng": 126.899776,
@@ -14053,7 +14053,7 @@ const data = [
   {
     "shopName": "코코커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 774-2",
     "roadAddress": "서울특별시 강서구 공항대로 213",
     "lng": 126.8313523,
@@ -14062,7 +14062,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "안암오거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 104-121",
     "roadAddress": "서울특별시 성북구 고려대로24길 56",
     "lng": 127.0292961,
@@ -14071,7 +14071,7 @@ const data = [
   {
     "shopName": "Mrbkcoffee",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 382",
     "roadAddress": "서울특별시 영등포구 당산로27길 5",
     "lng": 126.8956783,
@@ -14080,7 +14080,7 @@ const data = [
   {
     "shopName": "무진장",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 34-58",
     "roadAddress": "서울특별시 용산구 녹사평대로 168-18",
     "lng": 126.9898968,
@@ -14098,7 +14098,7 @@ const data = [
   {
     "shopName": "파크15",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 용산동5가 2-28",
     "roadAddress": "서울특별시 용산구 한강대로38길 35",
     "lng": 126.9702026,
@@ -14107,7 +14107,7 @@ const data = [
   {
     "shopName": "커피하우스",
     "branchName": "꼼지락",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 249-16",
     "roadAddress": "서울특별시 광진구 자양로28길 40",
     "lng": 127.0862932,
@@ -14116,7 +14116,7 @@ const data = [
   {
     "shopName": "마호가니커피",
     "branchName": "여의도점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 23-3",
     "roadAddress": "서울특별시 영등포구 여의대로 66",
     "lng": 126.9236956,
@@ -14125,7 +14125,7 @@ const data = [
   {
     "shopName": "시그니처커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 쌍림동 22-1",
     "roadAddress": "서울특별시 중구 퇴계로 299",
     "lng": 127.0046473,
@@ -14134,7 +14134,7 @@ const data = [
   {
     "shopName": "와플대학",
     "branchName": "협동조합",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 우이동 215-9",
     "roadAddress": "서울특별시 강북구 삼양로179길 32",
     "lng": 127.0101692,
@@ -14143,7 +14143,7 @@ const data = [
   {
     "shopName": "카페소고",
     "branchName": "망우점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 망우동 489-29",
     "roadAddress": "서울특별시 중랑구 신내로1길 15",
     "lng": 127.0960986,
@@ -14152,7 +14152,7 @@ const data = [
   {
     "shopName": "프리카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 628-7",
     "roadAddress": "서울특별시 강서구 화곡로68길 15",
     "lng": 126.8553058,
@@ -14161,7 +14161,7 @@ const data = [
   {
     "shopName": "흑화당",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 358-124",
     "roadAddress": "서울특별시 마포구 와우산로21길 24",
     "lng": 126.9227172,
@@ -14170,7 +14170,7 @@ const data = [
   {
     "shopName": "IDCAFE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 풍납동 89-11",
     "roadAddress": "서울특별시 송파구 바람드리5길 23",
     "lng": 127.1188654,
@@ -14179,7 +14179,7 @@ const data = [
   {
     "shopName": "엘가커피",
     "branchName": "보라매점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 4326",
     "roadAddress": "서울특별시 영등포구 여의대방로 87",
     "lng": 126.9162967,
@@ -14188,7 +14188,7 @@ const data = [
   {
     "shopName": "카페마노",
     "branchName": "아CAFEMANOA",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 장위동 223-43",
     "roadAddress": "서울특별시 성북구 장월로23길 47-3",
     "lng": 127.0464087,
@@ -14197,7 +14197,7 @@ const data = [
   {
     "shopName": "당신의테이블",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 247-154",
     "roadAddress": "서울특별시 강서구 양천로24길 113",
     "lng": 126.8153605,
@@ -14206,7 +14206,7 @@ const data = [
   {
     "shopName": "스미다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 142-26",
     "roadAddress": "서울특별시 광진구 천호대로109길 18",
     "lng": 127.0812463,
@@ -14215,7 +14215,7 @@ const data = [
   {
     "shopName": "팔칠",
     "branchName": "팔커피",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 1023-16",
     "roadAddress": "서울특별시 양천구 중앙로36길 47",
     "lng": 126.859133,
@@ -14224,7 +14224,7 @@ const data = [
   {
     "shopName": "카페제이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 고덕동 294-1",
     "roadAddress": "서울특별시 강동구 동남로82길 19",
     "lng": 127.1579836,
@@ -14233,7 +14233,7 @@ const data = [
   {
     "shopName": "종로강남한의원식품사업부더쌍화",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 중화동 307-1",
     "roadAddress": "서울특별시 중랑구 동일로143길 19",
     "lng": 127.0776051,
@@ -14242,7 +14242,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "신림미성점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 587-22",
     "roadAddress": "서울특별시 관악구 난우길 43-1",
     "lng": 126.9170477,
@@ -14251,7 +14251,7 @@ const data = [
   {
     "shopName": "스무디킹중계롯데마트점",
     "branchName": "중계롯데마트점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 361",
     "roadAddress": "서울특별시 노원구 노원로 330",
     "lng": 127.0709241,
@@ -14260,7 +14260,7 @@ const data = [
   {
     "shopName": "블루보틀",
     "branchName": "성수1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 656-302",
     "roadAddress": "서울특별시 성동구 아차산로 7",
     "lng": 127.0456237,
@@ -14269,7 +14269,7 @@ const data = [
   {
     "shopName": "오에스인터내셔널카페데베르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 702-19",
     "roadAddress": "서울특별시 강남구 테헤란로 317",
     "lng": 127.0457446,
@@ -14278,7 +14278,7 @@ const data = [
   {
     "shopName": "디저트39",
     "branchName": "금천시흥점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 852-30",
     "roadAddress": "서울특별시 금천구 독산로 131-1",
     "lng": 126.9048767,
@@ -14287,7 +14287,7 @@ const data = [
   {
     "shopName": "에프이26",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 685-345",
     "roadAddress": "서울특별시 성동구 서울숲2길 12",
     "lng": 127.0399424,
@@ -14296,7 +14296,7 @@ const data = [
   {
     "shopName": "지유명차",
     "branchName": "성북점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 성북동1가 65",
     "roadAddress": "서울특별시 성북구 성북로 19",
     "lng": 127.0043865,
@@ -14305,7 +14305,7 @@ const data = [
   {
     "shopName": "오얏꽃",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 돈의동 18",
     "roadAddress": "서울특별시 종로구 돈화문로11다길 15",
     "lng": 126.9905362,
@@ -14314,7 +14314,7 @@ const data = [
   {
     "shopName": "엔제리너스",
     "branchName": "가산SKV1점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 371-41",
     "roadAddress": "서울특별시 금천구 가산디지털1로 171",
     "lng": 126.8803985,
@@ -14323,7 +14323,7 @@ const data = [
   {
     "shopName": "송스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 마천동 76",
     "roadAddress": "서울특별시 송파구 성내천로 208",
     "lng": 127.1508253,
@@ -14332,7 +14332,7 @@ const data = [
   {
     "shopName": "커피코트",
     "branchName": "그레이트밸리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 60-5",
     "roadAddress": "서울특별시 금천구 디지털로9길 32",
     "lng": 126.8872665,
@@ -14341,7 +14341,7 @@ const data = [
   {
     "shopName": "카페와이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1730",
     "roadAddress": "서울특별시 관악구 남부순환로 1430",
     "lng": 126.9090258,
@@ -14350,7 +14350,7 @@ const data = [
   {
     "shopName": "달콤스타",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 오금동 157-8",
     "roadAddress": "서울특별시 송파구 문정로 221",
     "lng": 127.1406128,
@@ -14359,7 +14359,7 @@ const data = [
   {
     "shopName": "달근프라페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 명일동 47-2",
     "roadAddress": "서울특별시 강동구 동남로75길 27",
     "lng": 127.1545958,
@@ -14368,7 +14368,7 @@ const data = [
   {
     "shopName": "커피사피엔스",
     "branchName": "문정점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 642",
     "roadAddress": "서울특별시 송파구 송파대로 201",
     "lng": 127.1206383,
@@ -14377,7 +14377,7 @@ const data = [
   {
     "shopName": "원커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 불광동 281-59",
     "roadAddress": "서울특별시 은평구 불광로 46",
     "lng": 126.9307254,
@@ -14386,7 +14386,7 @@ const data = [
   {
     "shopName": "커피코트",
     "branchName": "사이언스타점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 774-9",
     "roadAddress": "서울특별시 강서구 마곡중앙6로 42",
     "lng": 126.8318545,
@@ -14395,7 +14395,7 @@ const data = [
   {
     "shopName": "더즌",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 378-392",
     "roadAddress": "서울특별시 금천구 독산로 194",
     "lng": 126.9031717,
@@ -14404,7 +14404,7 @@ const data = [
   {
     "shopName": "커피드코리아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 796-26",
     "roadAddress": "서울특별시 강남구 도곡로21길 18",
     "lng": 127.0388128,
@@ -14413,7 +14413,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "도곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 422-2",
     "roadAddress": "서울특별시 강남구 논현로28길 54",
     "lng": 127.0461842,
@@ -14422,7 +14422,7 @@ const data = [
   {
     "shopName": "힐링카페멘토",
     "branchName": "종로부암점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 부암동 234",
     "roadAddress": "서울특별시 종로구 창의문로10길 21",
     "lng": 126.9641473,
@@ -14431,7 +14431,7 @@ const data = [
   {
     "shopName": "카페버즈앤벅스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 정동 32-1",
     "roadAddress": "서울특별시 중구 정동길 26",
     "lng": 126.9713066,
@@ -14440,7 +14440,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "하월곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 하월곡동 230",
     "roadAddress": "서울특별시 성북구 종암로 167",
     "lng": 127.0309775,
@@ -14458,7 +14458,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 100-23",
     "roadAddress": "서울특별시 양천구 곰달래로7길 58-1",
     "lng": 126.8327734,
@@ -14467,7 +14467,7 @@ const data = [
   {
     "shopName": "카페사이코바리스타",
     "branchName": "사이코바리스타",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 354-9",
     "roadAddress": "서울특별시 동작구 상도로 123-1",
     "lng": 126.9335678,
@@ -14476,7 +14476,7 @@ const data = [
   {
     "shopName": "유어마이커피브루어스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 69-5",
     "roadAddress": "서울특별시 서초구 바우뫼로33길 7-14",
     "lng": 127.0368193,
@@ -14485,7 +14485,7 @@ const data = [
   {
     "shopName": "커피볶는집시다모",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 현석동 10-1",
     "roadAddress": "서울특별시 마포구 신수로 30",
     "lng": 126.9343556,
@@ -14503,7 +14503,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "김포공항국내선점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 공항동 1373",
     "roadAddress": "서울특별시 강서구 하늘길 112",
     "lng": 126.8033425,
@@ -14521,7 +14521,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "학동역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 212-1",
     "roadAddress": "서울특별시 강남구 언주로129길 21",
     "lng": 127.0335481,
@@ -14530,7 +14530,7 @@ const data = [
   {
     "shopName": "코너빈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 310-51",
     "roadAddress": "서울특별시 동작구 장승배기로 96-2",
     "lng": 126.9402908,
@@ -14539,7 +14539,7 @@ const data = [
   {
     "shopName": "서울창업카페",
     "branchName": "천호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 451-20",
     "roadAddress": "서울특별시 강동구 천호대로 1057",
     "lng": 127.1294609,
@@ -14548,7 +14548,7 @@ const data = [
   {
     "shopName": "설빙",
     "branchName": "구로지밸리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 188-25",
     "roadAddress": "서울특별시 구로구 디지털로 300",
     "lng": 126.8965278,
@@ -14557,7 +14557,7 @@ const data = [
   {
     "shopName": "해피데이도봉구민회관점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 303",
     "roadAddress": "서울특별시 도봉구 도봉로 552",
     "lng": 127.0384319,
@@ -14566,7 +14566,7 @@ const data = [
   {
     "shopName": "블랑",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 803-21",
     "roadAddress": "서울특별시 강서구 곰달래로57길 23-15",
     "lng": 126.8609417,
@@ -14602,7 +14602,7 @@ const data = [
   {
     "shopName": "모네",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 적선동 80",
     "roadAddress": "서울특별시 종로구 사직로 130",
     "lng": 126.9733086,
@@ -14611,7 +14611,7 @@ const data = [
   {
     "shopName": "CafeSopia커피볶는집",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 89-11",
     "roadAddress": "서울특별시 송파구 양재대로 1222",
     "lng": 127.1310458,
@@ -14629,7 +14629,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "온수힐스테이트점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 온수동 155",
     "roadAddress": "서울특별시 구로구 부일로9길 127",
     "lng": 126.8205593,
@@ -14638,7 +14638,7 @@ const data = [
   {
     "shopName": "투어카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 395-25",
     "roadAddress": "서울특별시 영등포구 국회대로28길 17",
     "lng": 126.8942661,
@@ -14647,7 +14647,7 @@ const data = [
   {
     "shopName": "가배팩토리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 999-45",
     "roadAddress": "서울특별시 금천구 금하로 617-2",
     "lng": 126.8998981,
@@ -14656,7 +14656,7 @@ const data = [
   {
     "shopName": "도시보감",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 문래동3가 78",
     "roadAddress": "서울특별시 영등포구 도림로 456",
     "lng": 126.892899,
@@ -14665,7 +14665,7 @@ const data = [
   {
     "shopName": "더벤티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 내발산동 750-2",
     "roadAddress": "서울특별시 강서구 수명로 78",
     "lng": 126.8263184,
@@ -14674,7 +14674,7 @@ const data = [
   {
     "shopName": "더크림",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 330-9",
     "roadAddress": "서울특별시 동대문구 장한로28길 18",
     "lng": 127.0729868,
@@ -14683,7 +14683,7 @@ const data = [
   {
     "shopName": "베네토아이앤디",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 719",
     "roadAddress": "서울특별시 강남구 테헤란로 216",
     "lng": 127.0401333,
@@ -14692,7 +14692,7 @@ const data = [
   {
     "shopName": "포비아명동",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 명동2가 3-2",
     "roadAddress": "서울특별시 중구 명동10길 7-6",
     "lng": 126.985405,
@@ -14701,7 +14701,7 @@ const data = [
   {
     "shopName": "토프레소까치산점",
     "branchName": "까치산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 340-5",
     "roadAddress": "서울특별시 강서구 강서로18길 26",
     "lng": 126.8471544,
@@ -14710,7 +14710,7 @@ const data = [
   {
     "shopName": "카페티포트",
     "branchName": "티포트",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 692",
     "roadAddress": "서울특별시 노원구 동일로 1456",
     "lng": 127.06148,
@@ -14719,7 +14719,7 @@ const data = [
   {
     "shopName": "파머스빈",
     "branchName": "마곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 797",
     "roadAddress": "서울특별시 강서구 공항대로 237",
     "lng": 126.8338914,
@@ -14728,7 +14728,7 @@ const data = [
   {
     "shopName": "카페아이엠티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 159",
     "roadAddress": "서울특별시 강남구 영동대로 513",
     "lng": 127.0591391,
@@ -14737,7 +14737,7 @@ const data = [
   {
     "shopName": "라바토리카페N03",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 충정로3가 465",
     "roadAddress": "서울특별시 서대문구 서소문로 27",
     "lng": 126.9648455,
@@ -14746,7 +14746,7 @@ const data = [
   {
     "shopName": "카페인커뮤니케이션",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 656-591",
     "roadAddress": "서울특별시 성동구 상원1길 26",
     "lng": 127.0486244,
@@ -14755,7 +14755,7 @@ const data = [
   {
     "shopName": "요거프레소",
     "branchName": "북아현점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 북아현동 129-56",
     "roadAddress": "서울특별시 서대문구 북아현로 32-2",
     "lng": 126.9565835,
@@ -14764,7 +14764,7 @@ const data = [
   {
     "shopName": "다락방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 1010-1",
     "roadAddress": "서울특별시 동작구 동작대로13길 18",
     "lng": 126.9796199,
@@ -14773,7 +14773,7 @@ const data = [
   {
     "shopName": "플젠24",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 143-35",
     "roadAddress": "서울특별시 강남구 테헤란로69길 8",
     "lng": 127.0528272,
@@ -14782,7 +14782,7 @@ const data = [
   {
     "shopName": "더벤티",
     "branchName": "마곡나루역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 760-1",
     "roadAddress": "서울특별시 강서구 마곡중앙로 161-11",
     "lng": 126.8267068,
@@ -14791,7 +14791,7 @@ const data = [
   {
     "shopName": "증가로커피공방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 남가좌동 325-23",
     "roadAddress": "서울특별시 서대문구 증가로10길 36-55",
     "lng": 126.9245843,
@@ -14809,7 +14809,7 @@ const data = [
   {
     "shopName": "BOUNTE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 797-10",
     "roadAddress": "서울특별시 강서구 마곡동로4길 15",
     "lng": 126.8352327,
@@ -14818,7 +14818,7 @@ const data = [
   {
     "shopName": "Twosomeplace",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 795-7",
     "roadAddress": "서울특별시 강서구 마곡중앙6로 93",
     "lng": 126.8376838,
@@ -14836,7 +14836,7 @@ const data = [
   {
     "shopName": "커피기업",
     "branchName": "여의도직영점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 13-25",
     "roadAddress": "서울특별시 영등포구 은행로 29",
     "lng": 126.9218768,
@@ -14845,7 +14845,7 @@ const data = [
   {
     "shopName": "커피콩",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 211-19",
     "roadAddress": "서울특별시 용산구 회나무로28길 5",
     "lng": 126.991861,
@@ -14863,7 +14863,7 @@ const data = [
   {
     "shopName": "커피익스플로러",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1599-2",
     "roadAddress": "서울특별시 서초구 반포대로14길 71",
     "lng": 127.0145276,
@@ -14872,7 +14872,7 @@ const data = [
   {
     "shopName": "오초록",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 723",
     "roadAddress": "서울특별시 노원구 노해로 502",
     "lng": 127.063825,
@@ -14881,7 +14881,7 @@ const data = [
   {
     "shopName": "릴렉스까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 산69",
     "roadAddress": "서울특별시 노원구 마들로5가길 27-17",
     "lng": 127.0543461,
@@ -14890,7 +14890,7 @@ const data = [
   {
     "shopName": "언노운커피17",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 당주동 40",
     "roadAddress": "서울특별시 종로구 새문안로5길 11",
     "lng": 126.9747129,
@@ -14899,7 +14899,7 @@ const data = [
   {
     "shopName": "오늘,커피한잔",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1459-2",
     "roadAddress": "서울특별시 서초구 반포대로 38",
     "lng": 127.011909,
@@ -14908,7 +14908,7 @@ const data = [
   {
     "shopName": "호이안로스터리송리단길점",
     "branchName": "송리단길점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 46-13",
     "roadAddress": "서울특별시 송파구 백제고분로45길 3-18",
     "lng": 127.110215,
@@ -14917,7 +14917,7 @@ const data = [
   {
     "shopName": "토프레소",
     "branchName": "도곡렉슬점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 527",
     "roadAddress": "서울특별시 강남구 선릉로 221",
     "lng": 127.0497138,
@@ -14926,7 +14926,7 @@ const data = [
   {
     "shopName": "20카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 1019-10",
     "roadAddress": "서울특별시 노원구 동일로230가길 27",
     "lng": 127.057092,
@@ -14935,7 +14935,7 @@ const data = [
   {
     "shopName": "프롬하츠커피롯데월드몰점",
     "branchName": "롯데월드몰점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 29",
     "roadAddress": "서울특별시 송파구 올림픽로 300",
     "lng": 127.1042839,
@@ -14944,7 +14944,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "IGSS",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 구산동 27-41",
     "roadAddress": "서울특별시 은평구 갈현로15길 8",
     "lng": 126.9097911,
@@ -14962,7 +14962,7 @@ const data = [
   {
     "shopName": "히포커피",
     "branchName": "대학동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 127-72",
     "roadAddress": "서울특별시 관악구 신림로12길 25",
     "lng": 126.938752,
@@ -14971,7 +14971,7 @@ const data = [
   {
     "shopName": "소소한하루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 32-42",
     "roadAddress": "서울특별시 광진구 자양로50길 37",
     "lng": 127.0943022,
@@ -14980,7 +14980,7 @@ const data = [
   {
     "shopName": "더빈스11",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 461",
     "roadAddress": "서울특별시 서대문구 연희로2안길 7-3",
     "lng": 126.9276024,
@@ -14989,7 +14989,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "이대서울병원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 808",
     "roadAddress": "서울특별시 강서구 공항대로 260",
     "lng": 126.8362457,
@@ -14998,7 +14998,7 @@ const data = [
   {
     "shopName": "Minscoffee",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 38-104",
     "roadAddress": "서울특별시 동대문구 전농로16길 54",
     "lng": 127.0603549,
@@ -15007,7 +15007,7 @@ const data = [
   {
     "shopName": "TOWNCOFFEEBAR",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 413-44",
     "roadAddress": "서울특별시 마포구 포은로 70",
     "lng": 126.9062237,
@@ -15025,7 +15025,7 @@ const data = [
   {
     "shopName": "와플대학",
     "branchName": "상일동역캠퍼스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 고덕동 693",
     "roadAddress": "서울특별시 강동구 고덕로 333",
     "lng": 127.1594713,
@@ -15034,7 +15034,7 @@ const data = [
   {
     "shopName": "옹글",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 금호동1가 1823",
     "roadAddress": "서울특별시 성동구 금호로 140",
     "lng": 127.0219094,
@@ -15043,7 +15043,7 @@ const data = [
   {
     "shopName": "포라커피웍스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 신내동 262-1",
     "roadAddress": "서울특별시 중랑구 신내역로3길 40-36",
     "lng": 127.1040261,
@@ -15052,7 +15052,7 @@ const data = [
   {
     "shopName": "ELCAFECOFFEEROASTERS",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동5가 2-1",
     "roadAddress": "서울특별시 영등포구 양평로21나길 7",
     "lng": 126.8923473,
@@ -15061,7 +15061,7 @@ const data = [
   {
     "shopName": "스터디카페특별",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 194-3",
     "roadAddress": "서울특별시 동작구 노량진로 206",
     "lng": 126.9486371,
@@ -15070,7 +15070,7 @@ const data = [
   {
     "shopName": "와플대학",
     "branchName": "강남역지하상가캠퍼스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 821-1",
     "roadAddress": "서울특별시 강남구 테헤란로 101",
     "lng": 127.0280225,
@@ -15079,7 +15079,7 @@ const data = [
   {
     "shopName": "나우커피",
     "branchName": "독산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 1012-15",
     "roadAddress": "서울특별시 금천구 시흥대로 392",
     "lng": 126.898296,
@@ -15088,7 +15088,7 @@ const data = [
   {
     "shopName": "몽바커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 646-11",
     "roadAddress": "서울특별시 강남구 테헤란로21길 8",
     "lng": 127.0345771,
@@ -15097,7 +15097,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "그린버디",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 도봉동 8",
     "roadAddress": "서울특별시 도봉구 창포원로 45",
     "lng": 127.0470407,
@@ -15106,7 +15106,7 @@ const data = [
   {
     "shopName": "알리바바무인카페점",
     "branchName": "강남점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 858",
     "roadAddress": "서울특별시 강남구 강남대로 302-2",
     "lng": 127.0282892,
@@ -15124,7 +15124,7 @@ const data = [
   {
     "shopName": "더리터",
     "branchName": "역삼직영점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 738-12",
     "roadAddress": "서울특별시 강남구 논현로85길 5-7",
     "lng": 127.0371931,
@@ -15133,7 +15133,7 @@ const data = [
   {
     "shopName": "쏘나이스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 798-6",
     "roadAddress": "서울특별시 강서구 마곡중앙로 59-17",
     "lng": 126.8247773,
@@ -15142,7 +15142,7 @@ const data = [
   {
     "shopName": "카페울림",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 428-5",
     "roadAddress": "서울특별시 양천구 월정로 43",
     "lng": 126.8419393,
@@ -15151,7 +15151,7 @@ const data = [
   {
     "shopName": "구대회커피마포",
     "branchName": "하나점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 염리동 174-14",
     "roadAddress": "서울특별시 마포구 큰우물로 53",
     "lng": 126.9446126,
@@ -15169,7 +15169,7 @@ const data = [
   {
     "shopName": "알타미라",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 336-1",
     "roadAddress": "서울특별시 마포구 와우산로29길 21",
     "lng": 126.9285669,
@@ -15178,7 +15178,7 @@ const data = [
   {
     "shopName": "커피스퀘어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 1-2",
     "roadAddress": "서울특별시 성북구 안암로 145",
     "lng": 127.0316991,
@@ -15187,7 +15187,7 @@ const data = [
   {
     "shopName": "지유가오카핫쵸메",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 안국동 52-6",
     "roadAddress": "서울특별시 종로구 윤보선길 46",
     "lng": 126.9836641,
@@ -15196,7 +15196,7 @@ const data = [
   {
     "shopName": "커피홀",
     "branchName": "불광점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 불광동 643",
     "roadAddress": "서울특별시 은평구 통일로 796",
     "lng": 126.925738,
@@ -15205,7 +15205,7 @@ const data = [
   {
     "shopName": "커피팝",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 192-10",
     "roadAddress": "서울특별시 서대문구 연희맛로 5",
     "lng": 126.9284285,
@@ -15214,7 +15214,7 @@ const data = [
   {
     "shopName": "역삼아레나",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 797-15",
     "roadAddress": "서울특별시 강남구 논현로67길 6",
     "lng": 127.0394093,
@@ -15223,7 +15223,7 @@ const data = [
   {
     "shopName": "탐앤탐스디엠씨탐스커버리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 증산동 223-13",
     "roadAddress": "서울특별시 은평구 수색로 195",
     "lng": 126.9006607,
@@ -15232,7 +15232,7 @@ const data = [
   {
     "shopName": "케냐키암부",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 243-61",
     "roadAddress": "서울특별시 용산구 회나무로44길 36",
     "lng": 126.9955896,
@@ -15241,7 +15241,7 @@ const data = [
   {
     "shopName": "커피빈코리아포스코옆삼성로86길점",
     "branchName": "코리아포스코옆삼성로86길점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 942-16",
     "roadAddress": "서울특별시 강남구 삼성로86길 11",
     "lng": 127.0582863,
@@ -15250,7 +15250,7 @@ const data = [
   {
     "shopName": "도란도란카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 명일동 312-250",
     "roadAddress": "서울특별시 강동구 구천면로 395",
     "lng": 127.1428927,
@@ -15259,7 +15259,7 @@ const data = [
   {
     "shopName": "살레시오수녀회카페마인",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 4491",
     "roadAddress": "서울특별시 영등포구 여의대방로 65",
     "lng": 126.9131388,
@@ -15268,7 +15268,7 @@ const data = [
   {
     "shopName": "썸카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 52-1",
     "roadAddress": "서울특별시 강남구 삼성로 648",
     "lng": 127.0510072,
@@ -15277,7 +15277,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "종로4가점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 인의동 19",
     "roadAddress": "서울특별시 종로구 김상옥로 1",
     "lng": 126.9978773,
@@ -15295,7 +15295,7 @@ const data = [
   {
     "shopName": "카페파이드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 93-8",
     "roadAddress": "서울특별시 송파구 양재대로60길 3-12",
     "lng": 127.117253,
@@ -15304,7 +15304,7 @@ const data = [
   {
     "shopName": "컴플렉스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 952-2",
     "roadAddress": "서울특별시 강남구 역삼로 555",
     "lng": 127.063353,
@@ -15313,7 +15313,7 @@ const data = [
   {
     "shopName": "달보살롱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 177-86",
     "roadAddress": "서울특별시 노원구 상계로12길 22",
     "lng": 127.0687126,
@@ -15322,7 +15322,7 @@ const data = [
   {
     "shopName": "커피빈코리아고대참살이길점",
     "branchName": "코리아고대참살이길점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 102-10",
     "roadAddress": "서울특별시 성북구 고려대로24길 25",
     "lng": 127.0295271,
@@ -15331,7 +15331,7 @@ const data = [
   {
     "shopName": "터미널다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 546-1",
     "roadAddress": "서울특별시 광진구 강변역로 50",
     "lng": 127.0941674,
@@ -15340,7 +15340,7 @@ const data = [
   {
     "shopName": "카페자작나무",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 296-11",
     "roadAddress": "서울특별시 금천구 가산로 61",
     "lng": 126.8958945,
@@ -15349,7 +15349,7 @@ const data = [
   {
     "shopName": "공차현대아울렛가산점",
     "branchName": "현대아울렛가산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 60-8",
     "roadAddress": "서울특별시 금천구 디지털로10길 9",
     "lng": 126.8890376,
@@ -15367,7 +15367,7 @@ const data = [
   {
     "shopName": "착한커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 212-30",
     "roadAddress": "서울특별시 구로구 디지털로 273",
     "lng": 126.8940884,
@@ -15376,7 +15376,7 @@ const data = [
   {
     "shopName": "까페사이공",
     "branchName": "페사이공",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 문래동3가 58-57",
     "roadAddress": "서울특별시 영등포구 도림로 436",
     "lng": 126.8947686,
@@ -15394,7 +15394,7 @@ const data = [
   {
     "shopName": "MONSTERSCAFE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 29",
     "roadAddress": "서울특별시 송파구 올림픽로 300",
     "lng": 127.1042839,
@@ -15403,7 +15403,7 @@ const data = [
   {
     "shopName": "페라커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대현동 54-1",
     "roadAddress": "서울특별시 서대문구 이화여대8길 2",
     "lng": 126.9459439,
@@ -15412,7 +15412,7 @@ const data = [
   {
     "shopName": "FromtheBean",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 오금동 50-3",
     "roadAddress": "서울특별시 송파구 오금로 323",
     "lng": 127.1280092,
@@ -15421,7 +15421,7 @@ const data = [
   {
     "shopName": "한누리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 681",
     "roadAddress": "서울특별시 강남구 봉은사로 304",
     "lng": 127.0403528,
@@ -15430,7 +15430,7 @@ const data = [
   {
     "shopName": "공간PC방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신수동 27-2",
     "roadAddress": "서울특별시 마포구 서강대길 12",
     "lng": 126.9398972,
@@ -15439,7 +15439,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "잠실광고회관점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 7-11",
     "roadAddress": "서울특별시 송파구 올림픽로35길 137",
     "lng": 127.0995843,
@@ -15457,7 +15457,7 @@ const data = [
   {
     "shopName": "카페이유",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 암사동 461-11",
     "roadAddress": "서울특별시 강동구 고덕로 52-18",
     "lng": 127.1306139,
@@ -15466,7 +15466,7 @@ const data = [
   {
     "shopName": "쥬씨양재점",
     "branchName": "양재점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 11-86",
     "roadAddress": "서울특별시 서초구 남부순환로356길 24",
     "lng": 127.0378253,
@@ -15475,7 +15475,7 @@ const data = [
   {
     "shopName": "요요프레쉬티바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 629-15",
     "roadAddress": "서울특별시 강남구 도산대로 235",
     "lng": 127.0326238,
@@ -15484,7 +15484,7 @@ const data = [
   {
     "shopName": "카페마루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 427-13",
     "roadAddress": "서울특별시 양천구 월정로 61",
     "lng": 126.8411711,
@@ -15493,7 +15493,7 @@ const data = [
   {
     "shopName": "커피브레이크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신수동 63-8",
     "roadAddress": "서울특별시 마포구 백범로 29",
     "lng": 126.9376949,
@@ -15520,7 +15520,7 @@ const data = [
   {
     "shopName": "카페하임",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 둔촌동 517",
     "roadAddress": "서울특별시 강동구 양재대로 1384",
     "lng": 127.1373553,
@@ -15529,7 +15529,7 @@ const data = [
   {
     "shopName": "핸더스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 공항동 25-8",
     "roadAddress": "서울특별시 강서구 공항대로 47",
     "lng": 126.8125476,
@@ -15538,7 +15538,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 잠원동 21-7",
     "roadAddress": "서울특별시 서초구 강남대로 595",
     "lng": 127.019521,
@@ -15547,7 +15547,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "화곡중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 24-154",
     "roadAddress": "서울특별시 강서구 까치산로 79",
     "lng": 126.8474012,
@@ -15556,7 +15556,7 @@ const data = [
   {
     "shopName": "카베하네커피공방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 619-2",
     "roadAddress": "서울특별시 강남구 언주로173길 15",
     "lng": 127.0322478,
@@ -15565,7 +15565,7 @@ const data = [
   {
     "shopName": "썸주스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 746-1",
     "roadAddress": "서울특별시 강서구 공항대로 140",
     "lng": 126.8231776,
@@ -15574,7 +15574,7 @@ const data = [
   {
     "shopName": "여름커피로스터즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 170-189",
     "roadAddress": "서울특별시 서대문구 홍제천로 198",
     "lng": 126.934901,
@@ -15583,7 +15583,7 @@ const data = [
   {
     "shopName": "가회한경헌",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 가회동 11-61",
     "roadAddress": "서울특별시 종로구 창덕궁길 170",
     "lng": 126.986561,
@@ -15601,7 +15601,7 @@ const data = [
   {
     "shopName": "커피에반하다구로디지털단지점",
     "branchName": "구로디지털단지점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 826",
     "roadAddress": "서울특별시 구로구 디지털로26길 110",
     "lng": 126.8976897,
@@ -15628,7 +15628,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "중랑역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 상봉동 130-99",
     "roadAddress": "서울특별시 중랑구 망우로 198",
     "lng": 127.0748505,
@@ -15637,7 +15637,7 @@ const data = [
   {
     "shopName": "서울프린스호텔",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남산동2가 1-1",
     "roadAddress": "서울특별시 중구 퇴계로 130",
     "lng": 126.9862552,
@@ -15646,7 +15646,7 @@ const data = [
   {
     "shopName": "레미제라블",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 36-23",
     "roadAddress": "서울특별시 용산구 녹사평대로26길 24",
     "lng": 126.9916698,
@@ -15655,7 +15655,7 @@ const data = [
   {
     "shopName": "스터디나우한티역점",
     "branchName": "한티역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 765-8",
     "roadAddress": "서울특별시 강남구 선릉로 309",
     "lng": 127.0521527,
@@ -15664,7 +15664,7 @@ const data = [
   {
     "shopName": "IBeanCoffee",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 충무로5가 85-1",
     "roadAddress": "서울특별시 중구 서애로 10-1",
     "lng": 126.9980291,
@@ -15673,7 +15673,7 @@ const data = [
   {
     "shopName": "커피에반젤린",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 52-4",
     "roadAddress": "서울특별시 양천구 화곡로4길 14",
     "lng": 126.8274793,
@@ -15691,7 +15691,7 @@ const data = [
   {
     "shopName": "커피브론즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 안국동 113",
     "roadAddress": "서울특별시 종로구 율곡로5길 20",
     "lng": 126.9848325,
@@ -15700,7 +15700,7 @@ const data = [
   {
     "shopName": "생두",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 역촌동 40-7",
     "roadAddress": "서울특별시 은평구 진흥로5길 15",
     "lng": 126.9193445,
@@ -15709,7 +15709,7 @@ const data = [
   {
     "shopName": "더로비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 방학동 670-1",
     "roadAddress": "서울특별시 도봉구 방학로 171-5",
     "lng": 127.0332522,
@@ -15718,7 +15718,7 @@ const data = [
   {
     "shopName": "카페희원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 경운동 1-9",
     "roadAddress": "서울특별시 종로구 삼일대로32길 22-4",
     "lng": 126.9881074,
@@ -15727,7 +15727,7 @@ const data = [
   {
     "shopName": "그립지카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 금호동1가 1794",
     "roadAddress": "서울특별시 성동구 독서당로51길 15",
     "lng": 127.0264353,
@@ -15736,7 +15736,7 @@ const data = [
   {
     "shopName": "키다리아저씨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 석관동 268-5",
     "roadAddress": "서울특별시 성북구 돌곶이로 49",
     "lng": 127.0593747,
@@ -15745,7 +15745,7 @@ const data = [
   {
     "shopName": "탐앤탐스한성대점",
     "branchName": "한성대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동소문동3가 63",
     "roadAddress": "서울특별시 성북구 동소문로 48",
     "lng": 127.0109903,
@@ -15754,7 +15754,7 @@ const data = [
   {
     "shopName": "CafeB",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 갈현동 403-17",
     "roadAddress": "서울특별시 은평구 통일로83길 5-18",
     "lng": 126.9185858,
@@ -15763,7 +15763,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1073",
     "roadAddress": "서울특별시 강서구 화곡로 132",
     "lng": 126.8365547,
@@ -15772,7 +15772,7 @@ const data = [
   {
     "shopName": "티라레미수성수에스팩토리점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 273-13",
     "roadAddress": "서울특별시 성동구 연무장15길 11",
     "lng": 127.0588855,
@@ -15781,7 +15781,7 @@ const data = [
   {
     "shopName": "티에리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 772-5",
     "roadAddress": "서울특별시 강서구 마곡중앙6로 45",
     "lng": 126.8322901,
@@ -15790,7 +15790,7 @@ const data = [
   {
     "shopName": "카페드블록",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 장충동2가 173-2",
     "roadAddress": "서울특별시 중구 퇴계로 272",
     "lng": 127.001937,
@@ -15799,7 +15799,7 @@ const data = [
   {
     "shopName": "카페오로미아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 개포동 170",
     "roadAddress": "서울특별시 강남구 선릉로12길 5",
     "lng": 127.0602953,
@@ -15808,7 +15808,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "이마트가양점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 가양동 449-19",
     "roadAddress": "서울특별시 강서구 양천로 559",
     "lng": 126.8617991,
@@ -15826,7 +15826,7 @@ const data = [
   {
     "shopName": "비틀주스가산디지털단지점",
     "branchName": "가산디지털단지점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 60-11",
     "roadAddress": "서울특별시 금천구 디지털로9길 99",
     "lng": 126.884794,
@@ -15844,7 +15844,7 @@ const data = [
   {
     "shopName": "디초콜릿커피",
     "branchName": "왕십리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 행당동 1-41",
     "roadAddress": "서울특별시 성동구 마조로11길 13",
     "lng": 127.0399265,
@@ -15853,7 +15853,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "중계NC",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 509",
     "roadAddress": "서울특별시 노원구 동일로204가길 46",
     "lng": 127.067888,
@@ -15862,7 +15862,7 @@ const data = [
   {
     "shopName": "우리다방커피맥주",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 도봉동 615-37",
     "roadAddress": "서울특별시 도봉구 시루봉로27길 33",
     "lng": 127.0425897,
@@ -15871,7 +15871,7 @@ const data = [
   {
     "shopName": "잇커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 57-48",
     "roadAddress": "서울특별시 동작구 동작대로35가길 94",
     "lng": 126.977373,
@@ -15880,7 +15880,7 @@ const data = [
   {
     "shopName": "초이락컨텐츠팩토리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 온수동 11-1",
     "roadAddress": "서울특별시 구로구 부일로 869",
     "lng": 126.823618,
@@ -15889,7 +15889,7 @@ const data = [
   {
     "shopName": "카페올",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 125-2",
     "roadAddress": "서울특별시 광진구 긴고랑로 108",
     "lng": 127.0870628,
@@ -15898,7 +15898,7 @@ const data = [
   {
     "shopName": "비온후",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 흑석동 10",
     "roadAddress": "서울특별시 동작구 현충로 119",
     "lng": 126.9660368,
@@ -15907,7 +15907,7 @@ const data = [
   {
     "shopName": "쁘띠아르브르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 용답동 159-1",
     "roadAddress": "서울특별시 성동구 용답중앙길 42",
     "lng": 127.0508517,
@@ -15916,7 +15916,7 @@ const data = [
   {
     "shopName": "카페본스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 방학동 660-2",
     "roadAddress": "서울특별시 도봉구 도당로15길 6",
     "lng": 127.0369417,
@@ -15925,7 +15925,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "북가좌동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 북가좌동 329-35",
     "roadAddress": "서울특별시 서대문구 증가로 257",
     "lng": 126.9115148,
@@ -15934,7 +15934,7 @@ const data = [
   {
     "shopName": "아몬드블루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 흑석동 43-9",
     "roadAddress": "서울특별시 동작구 서달로14길 46",
     "lng": 126.9653977,
@@ -15943,7 +15943,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "역삼역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 643-10",
     "roadAddress": "서울특별시 강남구 테헤란로25길 17",
     "lng": 127.0352202,
@@ -15952,7 +15952,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "역촌사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 대조동 89-280",
     "roadAddress": "서울특별시 은평구 서오릉로 100",
     "lng": 126.9208838,
@@ -15970,7 +15970,7 @@ const data = [
   {
     "shopName": "타로카페드뷔시산장",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 행당동 20-17",
     "roadAddress": "서울특별시 성동구 마조로1길 2",
     "lng": 127.0402863,
@@ -15979,7 +15979,7 @@ const data = [
   {
     "shopName": "커피콩",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 1009-7",
     "roadAddress": "서울특별시 양천구 목동로9길 1",
     "lng": 126.8643604,
@@ -15988,7 +15988,7 @@ const data = [
   {
     "shopName": "라떼곰",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 중화동 308-31",
     "roadAddress": "서울특별시 중랑구 동일로139길 36",
     "lng": 127.0769455,
@@ -15997,7 +15997,7 @@ const data = [
   {
     "shopName": "베스킨라빈스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 652",
     "roadAddress": "서울특별시 노원구 동일로227길 25",
     "lng": 127.0562209,
@@ -16006,7 +16006,7 @@ const data = [
   {
     "shopName": "도기커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로6가 17-415",
     "roadAddress": "서울특별시 중구 장충단로13길 34",
     "lng": 127.006897,
@@ -16015,7 +16015,7 @@ const data = [
   {
     "shopName": "커피가맛있는집",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 315-37",
     "roadAddress": "서울특별시 동작구 성대로2길 11",
     "lng": 126.931389,
@@ -16042,7 +16042,7 @@ const data = [
   {
     "shopName": "모로티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 837-26",
     "roadAddress": "서울특별시 강남구 도곡로1길 14",
     "lng": 127.0322935,
@@ -16051,7 +16051,7 @@ const data = [
   {
     "shopName": "아바카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 개포동 1163-8",
     "roadAddress": "서울특별시 강남구 양재대로 333",
     "lng": 127.0510024,
@@ -16060,7 +16060,7 @@ const data = [
   {
     "shopName": "디저트39",
     "branchName": "서울대입구역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1612-10",
     "roadAddress": "서울특별시 관악구 봉천로 524",
     "lng": 126.9559375,
@@ -16078,7 +16078,7 @@ const data = [
   {
     "shopName": "커피애드립",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 휘경동 281-19",
     "roadAddress": "서울특별시 동대문구 망우로12가길 2",
     "lng": 127.0592621,
@@ -16087,7 +16087,7 @@ const data = [
   {
     "shopName": "노맨틱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 후암동 255-14",
     "roadAddress": "서울특별시 용산구 두텁바위로 59-1",
     "lng": 126.9788813,
@@ -16096,7 +16096,7 @@ const data = [
   {
     "shopName": "무너미",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 222-78",
     "roadAddress": "서울특별시 강북구 노해로8가길 40",
     "lng": 127.0235807,
@@ -16105,7 +16105,7 @@ const data = [
   {
     "shopName": "하우스터디",
     "branchName": "둔촌스터디카페",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 417-2",
     "roadAddress": "서울특별시 강동구 풍성로 204",
     "lng": 127.1343523,
@@ -16114,7 +16114,7 @@ const data = [
   {
     "shopName": "번트오렌지",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 합정동 360-1",
     "roadAddress": "서울특별시 마포구 독막로6길 27",
     "lng": 126.9171866,
@@ -16123,7 +16123,7 @@ const data = [
   {
     "shopName": "고망고",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 8-22",
     "roadAddress": "서울특별시 광진구 아차산로30길 8",
     "lng": 127.0675951,
@@ -16132,7 +16132,7 @@ const data = [
   {
     "shopName": "브라운래빗",
     "branchName": "대치1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 989",
     "roadAddress": "서울특별시 강남구 삼성로 238",
     "lng": 127.0613856,
@@ -16141,7 +16141,7 @@ const data = [
   {
     "shopName": "베러댄알콜",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 399-44",
     "roadAddress": "서울특별시 마포구 희우정로16길 50",
     "lng": 126.9047003,
@@ -16150,7 +16150,7 @@ const data = [
   {
     "shopName": "메가커피",
     "branchName": "가재울뉴타운점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 남가좌동 385",
     "roadAddress": "서울특별시 서대문구 가재울미래로 2",
     "lng": 126.9178279,
@@ -16159,7 +16159,7 @@ const data = [
   {
     "shopName": "블랙티드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 154-5",
     "roadAddress": "서울특별시 마포구 양화로21길 15",
     "lng": 126.9249671,
@@ -16177,7 +16177,7 @@ const data = [
   {
     "shopName": "헤븐온탑에맥앤볼리오스",
     "branchName": "DDP점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로7가 2-1",
     "roadAddress": "서울특별시 중구 을지로 281",
     "lng": 127.0108895,
@@ -16186,7 +16186,7 @@ const data = [
   {
     "shopName": "만옥당",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 45-4",
     "roadAddress": "서울특별시 송파구 백제고분로45길 9",
     "lng": 127.1101833,
@@ -16195,7 +16195,7 @@ const data = [
   {
     "shopName": "서울이스케이프룸",
     "branchName": "홍대1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 325-26",
     "roadAddress": "서울특별시 마포구 와우산로 156",
     "lng": 126.93039,
@@ -16204,7 +16204,7 @@ const data = [
   {
     "shopName": "오뚜기상조회오뚜기센터점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 1009-1",
     "roadAddress": "서울특별시 강남구 영동대로 308",
     "lng": 127.0676418,
@@ -16222,7 +16222,7 @@ const data = [
   {
     "shopName": "서울창업카페",
     "branchName": "상봉점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 상봉동 125-8",
     "roadAddress": "서울특별시 중랑구 봉우재로 93-5",
     "lng": 127.083241,
@@ -16231,7 +16231,7 @@ const data = [
   {
     "shopName": "랑데자뷰",
     "branchName": "석촌호수점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 삼전동 130-1",
     "roadAddress": "서울특별시 송파구 석촌호수로 174",
     "lng": 127.0962822,
@@ -16240,7 +16240,7 @@ const data = [
   {
     "shopName": "비마이디",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 684-97",
     "roadAddress": "서울특별시 용산구 대사관로5길 14",
     "lng": 127.0008488,
@@ -16249,7 +16249,7 @@ const data = [
   {
     "shopName": "디폴트벨류",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 192-17",
     "roadAddress": "서울특별시 서대문구 성산로 333",
     "lng": 126.9273303,
@@ -16258,7 +16258,7 @@ const data = [
   {
     "shopName": "시작스터디카페",
     "branchName": "상일동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 상일동 192",
     "roadAddress": "서울특별시 강동구 구천면로 656",
     "lng": 127.1707718,
@@ -16267,7 +16267,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "마포용강동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 용강동 112-2",
     "roadAddress": "서울특별시 마포구 토정로 295",
     "lng": 126.9422063,
@@ -16276,7 +16276,7 @@ const data = [
   {
     "shopName": "그릭데이",
     "branchName": "홍대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 486",
     "roadAddress": "서울특별시 마포구 홍익로 10",
     "lng": 126.9237401,
@@ -16294,7 +16294,7 @@ const data = [
   {
     "shopName": "아키비스트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 효자동 164-7",
     "roadAddress": "서울특별시 종로구 효자로13길 52",
     "lng": 126.9726597,
@@ -16303,7 +16303,7 @@ const data = [
   {
     "shopName": "유목커피바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동1가 85-151",
     "roadAddress": "서울특별시 성북구 동소문로24길 47",
     "lng": 127.0187413,
@@ -16312,7 +16312,7 @@ const data = [
   {
     "shopName": "오거트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 13-307",
     "roadAddress": "서울특별시 성동구 상원6나길 10",
     "lng": 127.0493996,
@@ -16321,7 +16321,7 @@ const data = [
   {
     "shopName": "리에주커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 45-16",
     "roadAddress": "서울특별시 광진구 군자로 160-1",
     "lng": 127.0768724,
@@ -16330,7 +16330,7 @@ const data = [
   {
     "shopName": "스타벅스마포일진빌딩점",
     "branchName": "마포일진빌딩점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 도화동 50-1",
     "roadAddress": "서울특별시 마포구 마포대로 45",
     "lng": 126.9463581,
@@ -16339,7 +16339,7 @@ const data = [
   {
     "shopName": "다들림",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 657-49",
     "roadAddress": "서울특별시 도봉구 도봉로114길 49",
     "lng": 127.0370197,
@@ -16348,7 +16348,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "고척사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 고척동 195-13",
     "roadAddress": "서울특별시 구로구 고척로 228-6",
     "lng": 126.8582294,
@@ -16357,7 +16357,7 @@ const data = [
   {
     "shopName": "테누커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 241-88",
     "roadAddress": "서울특별시 마포구 성미산로29안길 19-4",
     "lng": 126.9233205,
@@ -16366,7 +16366,7 @@ const data = [
   {
     "shopName": "톤톤",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 140-2",
     "roadAddress": "서울특별시 동대문구 답십리로63길 11",
     "lng": 127.0679329,
@@ -16375,7 +16375,7 @@ const data = [
   {
     "shopName": "엘레멘터리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 삼전동 163",
     "roadAddress": "서울특별시 송파구 백제고분로32길 6-33",
     "lng": 127.0937955,
@@ -16384,7 +16384,7 @@ const data = [
   {
     "shopName": "충무공",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 43-1",
     "roadAddress": "서울특별시 송파구 백제고분로45길 11",
     "lng": 127.1099672,
@@ -16393,7 +16393,7 @@ const data = [
   {
     "shopName": "폴바셋",
     "branchName": "신세계백화점영등포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동4가 442",
     "roadAddress": "서울특별시 영등포구 영중로 15",
     "lng": 126.9039142,
@@ -16402,7 +16402,7 @@ const data = [
   {
     "shopName": "요레스트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 228-23",
     "roadAddress": "서울특별시 마포구 동교로 262",
     "lng": 126.925237,
@@ -16411,7 +16411,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "신촌역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 18-46",
     "roadAddress": "서울특별시 서대문구 연세로2길 6",
     "lng": 126.9371323,
@@ -16420,7 +16420,7 @@ const data = [
   {
     "shopName": "설빙",
     "branchName": "광운대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 465-21",
     "roadAddress": "서울특별시 노원구 광운로 25",
     "lng": 127.0581958,
@@ -16429,7 +16429,7 @@ const data = [
   {
     "shopName": "팥시샘달",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 명동2가 50-6",
     "roadAddress": "서울특별시 중구 명동8길 2",
     "lng": 126.9844054,
@@ -16438,7 +16438,7 @@ const data = [
   {
     "shopName": "일룸",
     "branchName": "마포서대문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 87-5",
     "roadAddress": "서울특별시 서대문구 연희로 148",
     "lng": 126.9344372,
@@ -16447,7 +16447,7 @@ const data = [
   {
     "shopName": "카페설기",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 풍납동 265-2",
     "roadAddress": "서울특별시 송파구 토성로 44",
     "lng": 127.1148744,
@@ -16456,7 +16456,7 @@ const data = [
   {
     "shopName": "카페라티스",
     "branchName": "라티스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 우이동 71-12",
     "roadAddress": "서울특별시 강북구 삼양로141길 4-10",
     "lng": 127.0126371,
@@ -16465,7 +16465,7 @@ const data = [
   {
     "shopName": "메종드제니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 수색동 296-26",
     "roadAddress": "서울특별시 은평구 수색로 390-9",
     "lng": 126.8845475,
@@ -16474,7 +16474,7 @@ const data = [
   {
     "shopName": "에고",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 394-77",
     "roadAddress": "서울특별시 마포구 양화로8길 32-17",
     "lng": 126.9155973,
@@ -16483,7 +16483,7 @@ const data = [
   {
     "shopName": "그리네",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 64-1",
     "roadAddress": "서울특별시 광진구 군자로 137",
     "lng": 127.0746097,
@@ -16492,7 +16492,7 @@ const data = [
   {
     "shopName": "카페에일린",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 방학동 708-2",
     "roadAddress": "서울특별시 도봉구 방학로 76",
     "lng": 127.0437626,
@@ -16501,7 +16501,7 @@ const data = [
   {
     "shopName": "티팔레트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1548-13",
     "roadAddress": "서울특별시 서초구 반포대로22길 29",
     "lng": 127.0104334,
@@ -16510,7 +16510,7 @@ const data = [
   {
     "shopName": "커피스니퍼",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 북창동 11-3",
     "roadAddress": "서울특별시 중구 세종대로16길 27",
     "lng": 126.9784195,
@@ -16519,7 +16519,7 @@ const data = [
   {
     "shopName": "라뚜셩트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 368-34",
     "roadAddress": "서울특별시 마포구 잔다리로 30-32",
     "lng": 126.9200988,
@@ -16528,7 +16528,7 @@ const data = [
   {
     "shopName": "무궁화로스터즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 657-88",
     "roadAddress": "서울특별시 도봉구 도봉로112길 23",
     "lng": 127.0360203,
@@ -16537,7 +16537,7 @@ const data = [
   {
     "shopName": "트리플에이커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 638-13",
     "roadAddress": "서울특별시 강남구 테헤란로19길 30",
     "lng": 127.033012,
@@ -16546,7 +16546,7 @@ const data = [
   {
     "shopName": "카페유",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 오류동 108-1",
     "roadAddress": "서울특별시 구로구 경인로 20",
     "lng": 126.8255572,
@@ -16555,7 +16555,7 @@ const data = [
   {
     "shopName": "라이트니스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 240-64",
     "roadAddress": "서울특별시 마포구 성미산로 151-1",
     "lng": 126.9232002,
@@ -16564,7 +16564,7 @@ const data = [
   {
     "shopName": "아분드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 32-23",
     "roadAddress": "서울특별시 용산구 한남대로20길 47-18",
     "lng": 127.0102368,
@@ -16573,7 +16573,7 @@ const data = [
   {
     "shopName": "하프커피",
     "branchName": "강남점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 118-3",
     "roadAddress": "서울특별시 서초구 사평대로 205",
     "lng": 127.0078261,
@@ -16582,7 +16582,7 @@ const data = [
   {
     "shopName": "루시카토",
     "branchName": "용산아이파크몰점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로3가 40-999",
     "roadAddress": "서울특별시 용산구 한강대로21나길 7",
     "lng": 126.9632226,
@@ -16591,7 +16591,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "신촌점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 31-40",
     "roadAddress": "서울특별시 서대문구 연세로5가길 8-6",
     "lng": 126.9364187,
@@ -16600,7 +16600,7 @@ const data = [
   {
     "shopName": "코레일유통대방카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 대방동 345-1",
     "roadAddress": "서울특별시 동작구 여의대방로54길 18",
     "lng": 126.927207,
@@ -16609,7 +16609,7 @@ const data = [
   {
     "shopName": "커피사피엔스",
     "branchName": "성수현대테라스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 314-13",
     "roadAddress": "서울특별시 성동구 연무장5가길 7",
     "lng": 127.0536528,
@@ -16618,7 +16618,7 @@ const data = [
   {
     "shopName": "이유유",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 67-44",
     "roadAddress": "서울특별시 중구 퇴계로88길 47",
     "lng": 127.0203224,
@@ -16627,7 +16627,7 @@ const data = [
   {
     "shopName": "더조커",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 366-24",
     "roadAddress": "서울특별시 마포구 잔다리로2길 19",
     "lng": 126.9209734,
@@ -16636,7 +16636,7 @@ const data = [
   {
     "shopName": "마치마치",
     "branchName": "가로수길점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 517-29",
     "roadAddress": "서울특별시 강남구 도산대로11길 25",
     "lng": 127.022293,
@@ -16645,7 +16645,7 @@ const data = [
   {
     "shopName": "루터커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 옥천동 103",
     "roadAddress": "서울특별시 서대문구 독립문로 26",
     "lng": 126.9608775,
@@ -16654,7 +16654,7 @@ const data = [
   {
     "shopName": "달쿵이네",
     "branchName": "거여점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 거여동 178-18",
     "roadAddress": "서울특별시 송파구 거마로 25",
     "lng": 127.1450898,
@@ -16663,7 +16663,7 @@ const data = [
   {
     "shopName": "앤트러사이트커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 683-142",
     "roadAddress": "서울특별시 용산구 이태원로 240",
     "lng": 127.0001431,
@@ -16672,7 +16672,7 @@ const data = [
   {
     "shopName": "카페시크릿가든",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 와룡동 71",
     "roadAddress": "서울특별시 종로구 돈화문로 68-1",
     "lng": 126.9910817,
@@ -16681,7 +16681,7 @@ const data = [
   {
     "shopName": "카페클라츠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 갈현동 402-42",
     "roadAddress": "서울특별시 은평구 연서로29길 22-38",
     "lng": 126.9179822,
@@ -16690,7 +16690,7 @@ const data = [
   {
     "shopName": "파브커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 506-29",
     "roadAddress": "서울특별시 노원구 동일로186길 76",
     "lng": 127.0771497,
@@ -16699,7 +16699,7 @@ const data = [
   {
     "shopName": "성수빈티지",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 668-136",
     "roadAddress": "서울특별시 성동구 서울숲2길 44-13",
     "lng": 127.0432839,
@@ -16708,7 +16708,7 @@ const data = [
   {
     "shopName": "빌즈광화문",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 청진동 246",
     "roadAddress": "서울특별시 종로구 종로3길 17",
     "lng": 126.9788929,
@@ -16717,7 +16717,7 @@ const data = [
   {
     "shopName": "언톨드스위츠",
     "branchName": "명동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 명동2가 85-5",
     "roadAddress": "서울특별시 중구 남대문로 68-1",
     "lng": 126.9822587,
@@ -16726,7 +16726,7 @@ const data = [
   {
     "shopName": "나른한순간IDLEMOME",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 467-2",
     "roadAddress": "서울특별시 마포구 잔다리로 93",
     "lng": 126.9151475,
@@ -16744,7 +16744,7 @@ const data = [
   {
     "shopName": "가온길",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1575-3",
     "roadAddress": "서울특별시 관악구 남부순환로156길 17",
     "lng": 126.9204521,
@@ -16753,7 +16753,7 @@ const data = [
   {
     "shopName": "더카페",
     "branchName": "방이점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 오금동 23-3",
     "roadAddress": "서울특별시 송파구 마천로 79",
     "lng": 127.1291737,
@@ -16762,7 +16762,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "구로NC점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 573",
     "roadAddress": "서울특별시 구로구 구로중앙로 146-1",
     "lng": 126.882759,
@@ -16771,7 +16771,7 @@ const data = [
   {
     "shopName": "카페마에스트로",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 장위동 233-178",
     "roadAddress": "서울특별시 성북구 장위로24길 25-3",
     "lng": 127.044878,
@@ -16780,7 +16780,7 @@ const data = [
   {
     "shopName": "카페코보스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 13-12",
     "roadAddress": "서울특별시 영등포구 국회대로72길 9",
     "lng": 126.9205942,
@@ -16789,7 +16789,7 @@ const data = [
   {
     "shopName": "스타벅스역삼럭키",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 798-30",
     "roadAddress": "서울특별시 강남구 도곡로 183",
     "lng": 127.0393917,
@@ -16798,7 +16798,7 @@ const data = [
   {
     "shopName": "빌리엔젤",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1498-5",
     "roadAddress": "서울특별시 서초구 서초대로38길 12",
     "lng": 127.0053652,
@@ -16807,7 +16807,7 @@ const data = [
   {
     "shopName": "더커피샵",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 신설동 102-4",
     "roadAddress": "서울특별시 동대문구 왕산로2길 34",
     "lng": 127.0259909,
@@ -16816,7 +16816,7 @@ const data = [
   {
     "shopName": "까페T43",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 141-7",
     "roadAddress": "서울특별시 노원구 한글비석로20길 43",
     "lng": 127.074146,
@@ -16825,7 +16825,7 @@ const data = [
   {
     "shopName": "꿀카롱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 774-4",
     "roadAddress": "서울특별시 강서구 공항대로 227",
     "lng": 126.8326667,
@@ -16834,7 +16834,7 @@ const data = [
   {
     "shopName": "요거트맨",
     "branchName": "강남구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 5-1",
     "roadAddress": "서울특별시 강남구 선릉로130길 56",
     "lng": 127.0462877,
@@ -16843,7 +16843,7 @@ const data = [
   {
     "shopName": "더베네푸드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 771-7",
     "roadAddress": "서울특별시 강남구 역삼로 246",
     "lng": 127.0431458,
@@ -16852,7 +16852,7 @@ const data = [
   {
     "shopName": "산다미아노",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 정동 17-1",
     "roadAddress": "서울특별시 중구 정동길 9",
     "lng": 126.9702085,
@@ -16861,7 +16861,7 @@ const data = [
   {
     "shopName": "노빈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 18-49",
     "roadAddress": "서울특별시 서대문구 연세로 2",
     "lng": 126.9370317,
@@ -16870,7 +16870,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "학동역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 89-22",
     "roadAddress": "서울특별시 강남구 학동로 219",
     "lng": 127.0331047,
@@ -16879,7 +16879,7 @@ const data = [
   {
     "shopName": "오쉐이크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동6가 29-1",
     "roadAddress": "서울특별시 영등포구 양평로28사길 21",
     "lng": 126.8901866,
@@ -16888,7 +16888,7 @@ const data = [
   {
     "shopName": "커피니",
     "branchName": "도곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 467-23",
     "roadAddress": "서울특별시 강남구 언주로 120",
     "lng": 127.0512556,
@@ -16906,7 +16906,7 @@ const data = [
   {
     "shopName": "로맨틱타임",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1511-13",
     "roadAddress": "서울특별시 서초구 반포대로21길 34",
     "lng": 127.0080422,
@@ -16915,7 +16915,7 @@ const data = [
   {
     "shopName": "29-77카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 29-77",
     "roadAddress": "서울특별시 광진구 능동로 430",
     "lng": 127.0852361,
@@ -16924,7 +16924,7 @@ const data = [
   {
     "shopName": "까페봉주르마담",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 궁동 279",
     "roadAddress": "서울특별시 구로구 오리로 1316",
     "lng": 126.8293389,
@@ -16933,7 +16933,7 @@ const data = [
   {
     "shopName": "미스터빈커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 하월곡동 17-1",
     "roadAddress": "서울특별시 성북구 화랑로 103",
     "lng": 127.0430338,
@@ -16942,7 +16942,7 @@ const data = [
   {
     "shopName": "후니드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 신대방동 470-9",
     "roadAddress": "서울특별시 동작구 여의대방로 74",
     "lng": 126.9144757,
@@ -16951,7 +16951,7 @@ const data = [
   {
     "shopName": "NINEoCLOCK",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1075-1",
     "roadAddress": "서울특별시 강서구 화곡로 166",
     "lng": 126.8400583,
@@ -16960,7 +16960,7 @@ const data = [
   {
     "shopName": "애드리안윤카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 청진동 246",
     "roadAddress": "서울특별시 종로구 종로3길 17",
     "lng": 126.9788929,
@@ -16969,7 +16969,7 @@ const data = [
   {
     "shopName": "먼셀커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 377-3",
     "roadAddress": "서울특별시 동대문구 장한로13길 11-4",
     "lng": 127.0668028,
@@ -16987,7 +16987,7 @@ const data = [
   {
     "shopName": "이십사케이커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동2가 161-11",
     "roadAddress": "서울특별시 영등포구 양산로 90-5",
     "lng": 126.8930415,
@@ -16996,7 +16996,7 @@ const data = [
   {
     "shopName": "묠니르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 사직동 240",
     "roadAddress": "서울특별시 종로구 사직로 64-1",
     "lng": 126.9667384,
@@ -17005,7 +17005,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "서초중앙로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 52-6",
     "roadAddress": "서울특별시 서초구 서초중앙로 225",
     "lng": 127.0115392,
@@ -17014,7 +17014,7 @@ const data = [
   {
     "shopName": "아워홈서울의료원점업타운",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 신내동 316",
     "roadAddress": "서울특별시 중랑구 신내로 156",
     "lng": 127.0991733,
@@ -17023,7 +17023,7 @@ const data = [
   {
     "shopName": "블록원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 805-10",
     "roadAddress": "서울특별시 양천구 목동중앙서로6길 20-19",
     "lng": 126.8647501,
@@ -17032,7 +17032,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "상명아트홀점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 동숭동 1-38",
     "roadAddress": "서울특별시 종로구 동숭길 133",
     "lng": 127.0027155,
@@ -17041,7 +17041,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피천왕",
     "branchName": "이펜하우스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 천왕동 273",
     "roadAddress": "서울특별시 구로구 천왕로 29",
     "lng": 126.8384717,
@@ -17050,7 +17050,7 @@ const data = [
   {
     "shopName": "스콘카페안나",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 정릉동 266-405",
     "roadAddress": "서울특별시 성북구 서경로 106-2",
     "lng": 127.013556,
@@ -17059,7 +17059,7 @@ const data = [
   {
     "shopName": "팔공커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 1110-6",
     "roadAddress": "서울특별시 금천구 금하로1마길 21-6",
     "lng": 126.8897256,
@@ -17068,7 +17068,7 @@ const data = [
   {
     "shopName": "1리터커피공방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 707-34",
     "roadAddress": "서울특별시 강남구 테헤란로 322",
     "lng": 127.0465683,
@@ -17077,7 +17077,7 @@ const data = [
   {
     "shopName": "니드커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 효창동 5-34",
     "roadAddress": "서울특별시 용산구 효창원로69길 6",
     "lng": 126.9618107,
@@ -17086,7 +17086,7 @@ const data = [
   {
     "shopName": "언니가숨겨놓은과자상자",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 464-12",
     "roadAddress": "서울특별시 서초구 방배천로8길 36",
     "lng": 126.9846382,
@@ -17095,7 +17095,7 @@ const data = [
   {
     "shopName": "스트라다",
     "branchName": "을지로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로3가 5-33",
     "roadAddress": "서울특별시 중구 충무로9길 37",
     "lng": 126.9903956,
@@ -17104,7 +17104,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "상계보람점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 456-136",
     "roadAddress": "서울특별시 노원구 한글비석로 464",
     "lng": 127.066566,
@@ -17113,7 +17113,7 @@ const data = [
   {
     "shopName": "타이거슈가건대",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 5-5",
     "roadAddress": "서울특별시 광진구 능동로 123",
     "lng": 127.0712978,
@@ -17122,7 +17122,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "낙성대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1688-114",
     "roadAddress": "서울특별시 관악구 남부순환로247길 3",
     "lng": 126.9659227,
@@ -17131,7 +17131,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "시루뫼북",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 증산동 187-19",
     "roadAddress": "서울특별시 은평구 증산서길 89",
     "lng": 126.9070067,
@@ -17140,7 +17140,7 @@ const data = [
   {
     "shopName": "빡빡이커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 371-28",
     "roadAddress": "서울특별시 금천구 가산디지털1로 168",
     "lng": 126.882626,
@@ -17149,7 +17149,7 @@ const data = [
   {
     "shopName": "포비브라이트",
     "branchName": "광화문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 신문로1가 115",
     "roadAddress": "서울특별시 종로구 새문안로 76",
     "lng": 126.9731586,
@@ -17158,7 +17158,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 48-21",
     "roadAddress": "서울특별시 광진구 동일로22길 50",
     "lng": 127.0669565,
@@ -17167,7 +17167,7 @@ const data = [
   {
     "shopName": "체리피카",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 321-70",
     "roadAddress": "서울특별시 성동구 성수이로7가길 13",
     "lng": 127.0550441,
@@ -17176,7 +17176,7 @@ const data = [
   {
     "shopName": "카페in중독",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 신내동 614",
     "roadAddress": "서울특별시 중랑구 봉화산로53길 19",
     "lng": 127.0969509,
@@ -17185,7 +17185,7 @@ const data = [
   {
     "shopName": "아워홈카페클라시코",
     "branchName": "트윈점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 20",
     "roadAddress": "서울특별시 영등포구 여의대로 128",
     "lng": 126.9292801,
@@ -17194,7 +17194,7 @@ const data = [
   {
     "shopName": "오도씨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 98-4",
     "roadAddress": "서울특별시 중랑구 면목로76길 35",
     "lng": 127.0899149,
@@ -17203,7 +17203,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "미라클",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 706-5",
     "roadAddress": "서울특별시 영등포구 도림로 152-4",
     "lng": 126.8988318,
@@ -17212,7 +17212,7 @@ const data = [
   {
     "shopName": "설빙",
     "branchName": "롯데월드어드벤처점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 40-1",
     "roadAddress": "서울특별시 송파구 송파대로 521",
     "lng": 127.0981244,
@@ -17221,7 +17221,7 @@ const data = [
   {
     "shopName": "카페진",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 933",
     "roadAddress": "서울특별시 양천구 목동동로12길 45",
     "lng": 126.8763455,
@@ -17230,7 +17230,7 @@ const data = [
   {
     "shopName": "퍼피커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 홍익동 406",
     "roadAddress": "서울특별시 성동구 무학로 24-1",
     "lng": 127.0302785,
@@ -17239,7 +17239,7 @@ const data = [
   {
     "shopName": "매머드익스프레스마곡그랑",
     "branchName": "트윈타워점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 799-9",
     "roadAddress": "서울특별시 강서구 마곡중앙4로 18",
     "lng": 126.8285976,
@@ -17248,7 +17248,7 @@ const data = [
   {
     "shopName": "이디야당산",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동5가 11-33",
     "roadAddress": "서울특별시 영등포구 당산로 222",
     "lng": 126.9021984,
@@ -17257,7 +17257,7 @@ const data = [
   {
     "shopName": "카페푸릇",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1015-4",
     "roadAddress": "서울특별시 강서구 화곡로13길 119",
     "lng": 126.8335753,
@@ -17266,7 +17266,7 @@ const data = [
   {
     "shopName": "까페사이시옷",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 정릉동 181-19",
     "roadAddress": "서울특별시 성북구 서경로2길 21",
     "lng": 127.0155857,
@@ -17275,7 +17275,7 @@ const data = [
   {
     "shopName": "정지애",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 183-10",
     "roadAddress": "서울특별시 강남구 강남대로118길 28",
     "lng": 127.0256547,
@@ -17284,7 +17284,7 @@ const data = [
   {
     "shopName": "세라젬웰카페위례",
     "branchName": "중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 장지동 894",
     "roadAddress": "서울특별시 송파구 위례광장로 136",
     "lng": 127.1424359,
@@ -17293,7 +17293,7 @@ const data = [
   {
     "shopName": "하늘연달",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 오금동 149-4",
     "roadAddress": "서울특별시 송파구 성내천로12길 5",
     "lng": 127.1377134,
@@ -17302,7 +17302,7 @@ const data = [
   {
     "shopName": "공원커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 122-13",
     "roadAddress": "서울특별시 중구 다산로42나길 8",
     "lng": 127.0184798,
@@ -17311,7 +17311,7 @@ const data = [
   {
     "shopName": "블루포트",
     "branchName": "본점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 114",
     "roadAddress": "서울특별시 광진구 아차산로78길 44",
     "lng": 127.1098834,
@@ -17320,7 +17320,7 @@ const data = [
   {
     "shopName": "벙커",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 530-2",
     "roadAddress": "서울특별시 관악구 난곡로 327-1",
     "lng": 126.9139419,
@@ -17329,7 +17329,7 @@ const data = [
   {
     "shopName": "에스핀커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 973-6",
     "roadAddress": "서울특별시 금천구 독산로 325",
     "lng": 126.903331,
@@ -17338,7 +17338,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "천호공원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 332-2",
     "roadAddress": "서울특별시 강동구 올림픽로 715",
     "lng": 127.1254972,
@@ -17347,7 +17347,7 @@ const data = [
   {
     "shopName": "판다슈가",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 251-62",
     "roadAddress": "서울특별시 중구 퇴계로73길 35",
     "lng": 127.013713,
@@ -17356,7 +17356,7 @@ const data = [
   {
     "shopName": "커피온리&마리웨일&망원동티라미슈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 27",
     "roadAddress": "서울특별시 송파구 송파대로 567",
     "lng": 127.0930348,
@@ -17365,7 +17365,7 @@ const data = [
   {
     "shopName": "북카페리비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 하월곡동 225-9",
     "roadAddress": "서울특별시 성북구 오패산로16가길 99",
     "lng": 127.0373715,
@@ -17374,7 +17374,7 @@ const data = [
   {
     "shopName": "커피타는고양이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 35-27",
     "roadAddress": "서울특별시 강북구 도봉로 34-8",
     "lng": 127.0307933,
@@ -17383,7 +17383,7 @@ const data = [
   {
     "shopName": "어반블루메",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 하왕십리동 1070",
     "roadAddress": "서울특별시 성동구 왕십리로 410",
     "lng": 127.0240621,
@@ -17392,7 +17392,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "송파개롱점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 181-15",
     "roadAddress": "서울특별시 송파구 오금로46길 27",
     "lng": 127.1346554,
@@ -17401,7 +17401,7 @@ const data = [
   {
     "shopName": "coffeeB커피비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 774-1",
     "roadAddress": "서울특별시 강서구 공항대로 209",
     "lng": 126.830876,
@@ -17410,7 +17410,7 @@ const data = [
   {
     "shopName": "리즈앤틱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 개포동 12-2",
     "roadAddress": "서울특별시 강남구 개포로109길 69",
     "lng": 127.0761064,
@@ -17419,7 +17419,7 @@ const data = [
   {
     "shopName": "커피복스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 245-89",
     "roadAddress": "서울특별시 중랑구 동일로151길 13",
     "lng": 127.0772851,
@@ -17428,7 +17428,7 @@ const data = [
   {
     "shopName": "로모커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 둔촌동 493",
     "roadAddress": "서울특별시 강동구 풍성로63길 35",
     "lng": 127.1390737,
@@ -17437,7 +17437,7 @@ const data = [
   {
     "shopName": "르돌치1946",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 800-3",
     "roadAddress": "서울특별시 강서구 공항대로 220",
     "lng": 126.8317527,
@@ -17446,7 +17446,7 @@ const data = [
   {
     "shopName": "너드커피랩",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 동자동 43-23",
     "roadAddress": "서울특별시 용산구 한강대로 363-1",
     "lng": 126.9717779,
@@ -17455,7 +17455,7 @@ const data = [
   {
     "shopName": "에슬로우커피",
     "branchName": "삼성점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 157-10",
     "roadAddress": "서울특별시 강남구 테헤란로81길 26",
     "lng": 127.0567918,
@@ -17464,7 +17464,7 @@ const data = [
   {
     "shopName": "감성커피문정테라타워",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 651",
     "roadAddress": "서울특별시 송파구 송파대로 167",
     "lng": 127.1207441,
@@ -17473,7 +17473,7 @@ const data = [
   {
     "shopName": "성화커피전문점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동3가 9-13",
     "roadAddress": "서울특별시 영등포구 영중로 12",
     "lng": 126.9064876,
@@ -17482,7 +17482,7 @@ const data = [
   {
     "shopName": "커피물장수",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 408-125",
     "roadAddress": "서울특별시 관악구 신림로 203",
     "lng": 126.936401,
@@ -17491,7 +17491,7 @@ const data = [
   {
     "shopName": "스타벅스서울중앙우체국점",
     "branchName": "서울중앙우체국점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 충무로1가 21-1",
     "roadAddress": "서울특별시 중구 소공로 70",
     "lng": 126.9821565,
@@ -17500,7 +17500,7 @@ const data = [
   {
     "shopName": "캔앤커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 378-4",
     "roadAddress": "서울특별시 중랑구 면목로 238",
     "lng": 127.0850864,
@@ -17509,7 +17509,7 @@ const data = [
   {
     "shopName": "샐러드조이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 276-18",
     "roadAddress": "서울특별시 노원구 초안산로2라길 31",
     "lng": 127.0581918,
@@ -17518,7 +17518,7 @@ const data = [
   {
     "shopName": "한국바리스타알앤디서울",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 96-3",
     "roadAddress": "서울특별시 용산구 독서당로 39",
     "lng": 127.0071396,
@@ -17527,7 +17527,7 @@ const data = [
   {
     "shopName": "청자",
     "branchName": "목동파리공원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 907-17",
     "roadAddress": "서울특별시 양천구 목동동로 379",
     "lng": 126.878696,
@@ -17536,7 +17536,7 @@ const data = [
   {
     "shopName": "샌드그립",
     "branchName": "동대문역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 광희동1가 193",
     "roadAddress": "서울특별시 중구 장충단로 225",
     "lng": 127.0070252,
@@ -17545,7 +17545,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "면목중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 151-9",
     "roadAddress": "서울특별시 중랑구 동일로 612",
     "lng": 127.0801296,
@@ -17554,7 +17554,7 @@ const data = [
   {
     "shopName": "달콤",
     "branchName": "커피이수역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 147-101",
     "roadAddress": "서울특별시 동작구 동작대로 101",
     "lng": 126.981661,
@@ -17563,7 +17563,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "바로",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 279-44",
     "roadAddress": "서울특별시 성동구 동일로 133",
     "lng": 127.0648973,
@@ -17572,7 +17572,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "도르래",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 69-17",
     "roadAddress": "서울특별시 강남구 삼성로116길 5",
     "lng": 127.052864,
@@ -17581,7 +17581,7 @@ const data = [
   {
     "shopName": "더플랜트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로1가 50-1",
     "roadAddress": "서울특별시 중구 을지로 12",
     "lng": 126.9787593,
@@ -17590,7 +17590,7 @@ const data = [
   {
     "shopName": "베스트슬립힐링카페",
     "branchName": "목동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 962",
     "roadAddress": "서울특별시 양천구 오목로 299",
     "lng": 126.8703422,
@@ -17599,7 +17599,7 @@ const data = [
   {
     "shopName": "스카이드림엑스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대현동 34-49",
     "roadAddress": "서울특별시 서대문구 이화여대길 70",
     "lng": 126.9445203,
@@ -17608,7 +17608,7 @@ const data = [
   {
     "shopName": "커피메이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 576-17",
     "roadAddress": "서울특별시 노원구 동일로177길 8",
     "lng": 127.0738509,
@@ -17617,7 +17617,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "교대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1657-5",
     "roadAddress": "서울특별시 서초구 서초중앙로 118",
     "lng": 127.014217,
@@ -17635,7 +17635,7 @@ const data = [
   {
     "shopName": "디톡앤커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 종로1가 24",
     "roadAddress": "서울특별시 종로구 종로 19",
     "lng": 126.9799024,
@@ -17644,7 +17644,7 @@ const data = [
   {
     "shopName": "휘경아뜰리에",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 휘경동 268-1",
     "roadAddress": "서울특별시 동대문구 망우로 55",
     "lng": 127.0594552,
@@ -17653,7 +17653,7 @@ const data = [
   {
     "shopName": "P23",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 명일동 344-11",
     "roadAddress": "서울특별시 강동구 양재대로134길 20",
     "lng": 127.1446978,
@@ -17662,7 +17662,7 @@ const data = [
   {
     "shopName": "매머드익스프레스",
     "branchName": "화곡메가박스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1073-10",
     "roadAddress": "서울특별시 강서구 화곡로 142",
     "lng": 126.837569,
@@ -17671,7 +17671,7 @@ const data = [
   {
     "shopName": "엠디에프커피바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 18-3",
     "roadAddress": "서울특별시 서초구 반포대로 287",
     "lng": 127.0010418,
@@ -17680,7 +17680,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피대치학원가점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 941-32",
     "roadAddress": "서울특별시 강남구 도곡로77길 6",
     "lng": 127.0587262,
@@ -17689,7 +17689,7 @@ const data = [
   {
     "shopName": "아틀리에젠즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 115-18",
     "roadAddress": "서울특별시 강남구 봉은사로68길 23",
     "lng": 127.0509421,
@@ -17698,7 +17698,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "수유역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 223-7",
     "roadAddress": "서울특별시 강북구 노해로 34",
     "lng": 127.0230645,
@@ -17707,7 +17707,7 @@ const data = [
   {
     "shopName": "다정다감",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 772-5",
     "roadAddress": "서울특별시 강서구 마곡중앙6로 45",
     "lng": 126.8327073,
@@ -17716,7 +17716,7 @@ const data = [
   {
     "shopName": "보엘",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 128-25",
     "roadAddress": "서울특별시 서대문구 연희로11나길 5",
     "lng": 126.9283077,
@@ -17725,7 +17725,7 @@ const data = [
   {
     "shopName": "무지개",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 216-32",
     "roadAddress": "서울특별시 동대문구 한천로10길 32",
     "lng": 127.0629946,
@@ -17734,7 +17734,7 @@ const data = [
   {
     "shopName": "라니네",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 453-2",
     "roadAddress": "서울특별시 강서구 곰달래로33길 62",
     "lng": 126.8519433,
@@ -17743,7 +17743,7 @@ const data = [
   {
     "shopName": "코레우리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 812",
     "roadAddress": "서울특별시 강서구 마곡중앙로 136",
     "lng": 126.8328996,
@@ -17752,7 +17752,7 @@ const data = [
   {
     "shopName": "카페에스파니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 642-3",
     "roadAddress": "서울특별시 송파구 법원로 128",
     "lng": 127.120457,
@@ -17761,7 +17761,7 @@ const data = [
   {
     "shopName": "리사르커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 366-32",
     "roadAddress": "서울특별시 중구 다산로8길 16-7",
     "lng": 127.0104045,
@@ -17770,7 +17770,7 @@ const data = [
   {
     "shopName": "스타캐슬카페아띠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1445-3",
     "roadAddress": "서울특별시 서초구 효령로 304",
     "lng": 127.0177891,
@@ -17779,7 +17779,7 @@ const data = [
   {
     "shopName": "청춘술다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 갈현동 399-19",
     "roadAddress": "서울특별시 은평구 연서로29길 8-15",
     "lng": 126.9196336,
@@ -17788,7 +17788,7 @@ const data = [
   {
     "shopName": "샌드커피논탄토",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 153-14",
     "roadAddress": "서울특별시 마포구 동교로 212-16",
     "lng": 126.9241584,
@@ -17797,7 +17797,7 @@ const data = [
   {
     "shopName": "슈슈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 236-1",
     "roadAddress": "서울특별시 노원구 공릉로42길 17",
     "lng": 127.0806968,
@@ -17806,7 +17806,7 @@ const data = [
   {
     "shopName": "우리지금여기",
     "branchName": "양천점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 792-4",
     "roadAddress": "서울특별시 양천구 등촌로 32",
     "lng": 126.8641296,
@@ -17815,7 +17815,7 @@ const data = [
   {
     "shopName": "앨수애뇨부리또하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 423-96",
     "roadAddress": "서울특별시 도봉구 삼양로142길 3",
     "lng": 127.0135805,
@@ -17824,7 +17824,7 @@ const data = [
   {
     "shopName": "쥬스를만드는지금",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 44-14",
     "roadAddress": "서울특별시 관악구 중앙2길 16",
     "lng": 126.9539741,
@@ -17833,7 +17833,7 @@ const data = [
   {
     "shopName": "커피볶는성군",
     "branchName": "2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 326-5",
     "roadAddress": "서울특별시 동대문구 답십리로69길 75",
     "lng": 127.073891,
@@ -17842,7 +17842,7 @@ const data = [
   {
     "shopName": "디저트포레",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 세곡동 615",
     "roadAddress": "서울특별시 강남구 헌릉로569길 21-30",
     "lng": 127.1007108,
@@ -17851,7 +17851,7 @@ const data = [
   {
     "shopName": "후엘고",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 염리동 128-7",
     "roadAddress": "서울특별시 마포구 마포대로11길 118",
     "lng": 126.9478671,
@@ -17860,7 +17860,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "논현역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 잠원동 37-7",
     "roadAddress": "서울특별시 서초구 강남대로 557",
     "lng": 127.0206276,
@@ -17869,7 +17869,7 @@ const data = [
   {
     "shopName": "동심",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남산동2가 30-4",
     "roadAddress": "서울특별시 중구 퇴계로20길 24",
     "lng": 126.9855842,
@@ -17878,7 +17878,7 @@ const data = [
   {
     "shopName": "밀크팅",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1519-18",
     "roadAddress": "서울특별시 관악구 호암로24길 57",
     "lng": 126.9363785,
@@ -17887,7 +17887,7 @@ const data = [
   {
     "shopName": "마이그린테이블",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1674-13",
     "roadAddress": "서울특별시 관악구 행운1길 5",
     "lng": 126.9586886,
@@ -17896,7 +17896,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "남영역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 갈월동 101-49",
     "roadAddress": "서울특별시 용산구 한강대로 259",
     "lng": 126.9723916,
@@ -17905,7 +17905,7 @@ const data = [
   {
     "shopName": "허유산코리아",
     "branchName": "강남점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1309-9",
     "roadAddress": "서울특별시 서초구 서초대로77길 55",
     "lng": 127.0244504,
@@ -17914,7 +17914,7 @@ const data = [
   {
     "shopName": "혼밥대왕",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 226",
     "roadAddress": "서울특별시 강남구 봉은사로33길 34",
     "lng": 127.035021,
@@ -17923,7 +17923,7 @@ const data = [
   {
     "shopName": "클래직",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 인현동2가 99-16",
     "roadAddress": "서울특별시 중구 마른내로 62-1",
     "lng": 126.9946974,
@@ -17932,7 +17932,7 @@ const data = [
   {
     "shopName": "CAFEPAGE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 31-8",
     "roadAddress": "서울특별시 송파구 동남로4길 35",
     "lng": 127.125,
@@ -17941,7 +17941,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "왕십리역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 도선동 58-1",
     "roadAddress": "서울특별시 성동구 왕십리로 326",
     "lng": 127.0338801,
@@ -17950,7 +17950,7 @@ const data = [
   {
     "shopName": "카페미니어처",
     "branchName": "미니어처",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 578",
     "roadAddress": "서울특별시 노원구 중계로8길 103",
     "lng": 127.084597,
@@ -17959,7 +17959,7 @@ const data = [
   {
     "shopName": "빈트리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 내수동 5",
     "roadAddress": "서울특별시 종로구 새문안로5가길 13",
     "lng": 126.9737681,
@@ -17968,7 +17968,7 @@ const data = [
   {
     "shopName": "휴카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 364-22",
     "roadAddress": "서울특별시 마포구 와우산로21길 31-10",
     "lng": 126.9218283,
@@ -17986,7 +17986,7 @@ const data = [
   {
     "shopName": "고츄러스",
     "branchName": "필동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 필동3가 44-3",
     "roadAddress": "서울특별시 중구 필동로 31-1",
     "lng": 126.9962647,
@@ -17995,7 +17995,7 @@ const data = [
   {
     "shopName": "올어바웃카페",
     "branchName": "역삼점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 701",
     "roadAddress": "서울특별시 강남구 언주로 508",
     "lng": 127.042725,
@@ -18004,7 +18004,7 @@ const data = [
   {
     "shopName": "cafeFelice",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 108-4",
     "roadAddress": "서울특별시 송파구 오금로 151",
     "lng": 127.1117725,
@@ -18013,7 +18013,7 @@ const data = [
   {
     "shopName": "인버스YTN점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1607",
     "roadAddress": "서울특별시 마포구 상암산로 76",
     "lng": 126.8922963,
@@ -18022,7 +18022,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "동부이촌동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이촌동 302-60",
     "roadAddress": "서울특별시 용산구 이촌로 198",
     "lng": 126.9690527,
@@ -18031,7 +18031,7 @@ const data = [
   {
     "shopName": "2ro2ro",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 60-25",
     "roadAddress": "서울특별시 금천구 벚꽃로 234",
     "lng": 126.8861221,
@@ -18040,7 +18040,7 @@ const data = [
   {
     "shopName": "영우한양대학교커피점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 행당동 15-1",
     "roadAddress": "서울특별시 성동구 마조로 22-2",
     "lng": 127.0413247,
@@ -18049,7 +18049,7 @@ const data = [
   {
     "shopName": "폴바셋현대모터스튜디오서울점서울점",
     "branchName": "서울점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 91",
     "roadAddress": "서울특별시 강남구 언주로 738",
     "lng": 127.0343472,
@@ -18058,7 +18058,7 @@ const data = [
   {
     "shopName": "THEBRIDGE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 오금동 152-3",
     "roadAddress": "서울특별시 송파구 동남로24길 11",
     "lng": 127.137498,
@@ -18067,7 +18067,7 @@ const data = [
   {
     "shopName": "치킨라떼",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 173-46",
     "roadAddress": "서울특별시 중랑구 공릉로2길 17",
     "lng": 127.0789097,
@@ -18076,7 +18076,7 @@ const data = [
   {
     "shopName": "로팸",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 563-8",
     "roadAddress": "서울특별시 강북구 419로 61-1",
     "lng": 127.0077483,
@@ -18094,7 +18094,7 @@ const data = [
   {
     "shopName": "커피프로젝트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 제기동 148-51",
     "roadAddress": "서울특별시 동대문구 약령시로 12-1",
     "lng": 127.0312239,
@@ -18103,7 +18103,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피서울",
     "branchName": "만리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 만리동2가 176-1",
     "roadAddress": "서울특별시 중구 만리재로 175",
     "lng": 126.9645939,
@@ -18112,7 +18112,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "에이블CAFEABLE",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 보광동 264-57",
     "roadAddress": "서울특별시 용산구 보광로24길 29",
     "lng": 126.9999866,
@@ -18121,7 +18121,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "인중독대방점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 대방동 380-111",
     "roadAddress": "서울특별시 동작구 대방동27길 36",
     "lng": 126.9240749,
@@ -18139,7 +18139,7 @@ const data = [
   {
     "shopName": "달콤커피",
     "branchName": "경희의료원본관점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 회기동 1-5",
     "roadAddress": "서울특별시 동대문구 경희대로 23",
     "lng": 127.0507252,
@@ -18148,7 +18148,7 @@ const data = [
   {
     "shopName": "마리스샌드위치",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 회현동1가 74-1",
     "roadAddress": "서울특별시 중구 퇴계로10길 36",
     "lng": 126.9811407,
@@ -18157,7 +18157,7 @@ const data = [
   {
     "shopName": "망원동티라미수",
     "branchName": "약수점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 370-51",
     "roadAddress": "서울특별시 중구 다산로 155-1",
     "lng": 127.0120108,
@@ -18166,7 +18166,7 @@ const data = [
   {
     "shopName": "와이딘커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로3가 63-70",
     "roadAddress": "서울특별시 용산구 서빙고로 17",
     "lng": 126.9665514,
@@ -18175,7 +18175,7 @@ const data = [
   {
     "shopName": "DELIWITHME",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 684-101",
     "roadAddress": "서울특별시 용산구 이태원로54길 47",
     "lng": 127.0014309,
@@ -18184,7 +18184,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "백련스터디",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 578-16",
     "roadAddress": "서울특별시 은평구 응암로 235",
     "lng": 126.917592,
@@ -18193,7 +18193,7 @@ const data = [
   {
     "shopName": "날SEE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 신사동 27-24",
     "roadAddress": "서울특별시 은평구 증산로21길 16",
     "lng": 126.9130516,
@@ -18202,7 +18202,7 @@ const data = [
   {
     "shopName": "택스쳐성수",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 685-463",
     "roadAddress": "서울특별시 성동구 서울숲2길 16-12",
     "lng": 127.0401382,
@@ -18220,7 +18220,7 @@ const data = [
   {
     "shopName": "세라젬웰카페",
     "branchName": "답십리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 1012",
     "roadAddress": "서울특별시 동대문구 사가정로 80",
     "lng": 127.0549119,
@@ -18229,7 +18229,7 @@ const data = [
   {
     "shopName": "블라썸한강파티룸",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 102",
     "roadAddress": "서울특별시 광진구 아차산로78길 75",
     "lng": 127.1109711,
@@ -18238,7 +18238,7 @@ const data = [
   {
     "shopName": "디어쿠키",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 합정동 369-18",
     "roadAddress": "서울특별시 마포구 토정로 27-1",
     "lng": 126.9140324,
@@ -18247,7 +18247,7 @@ const data = [
   {
     "shopName": "인준",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 487-394",
     "roadAddress": "서울특별시 마포구 월드컵북로 52-4",
     "lng": 126.9178229,
@@ -18256,7 +18256,7 @@ const data = [
   {
     "shopName": "위넌스터디카페",
     "branchName": "먹골역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 239-91",
     "roadAddress": "서울특별시 중랑구 동일로157길 14",
     "lng": 127.0770343,
@@ -18265,7 +18265,7 @@ const data = [
   {
     "shopName": "쥬씨차얌",
     "branchName": "망우역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 망우동 479",
     "roadAddress": "서울특별시 중랑구 용마산로115길 127",
     "lng": 127.0936535,
@@ -18274,7 +18274,7 @@ const data = [
   {
     "shopName": "뎁스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 55-59",
     "roadAddress": "서울특별시 강서구 초록마을로 56",
     "lng": 126.8487682,
@@ -18283,7 +18283,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "단향스터디",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 19-15",
     "roadAddress": "서울특별시 도봉구 도당로 14",
     "lng": 127.0351438,
@@ -18292,7 +18292,7 @@ const data = [
   {
     "shopName": "바빈스커피",
     "branchName": "가양점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 가양동 57-11",
     "roadAddress": "서울특별시 강서구 양천로 396",
     "lng": 126.8455539,
@@ -18301,7 +18301,7 @@ const data = [
   {
     "shopName": "쥬씨차얌",
     "branchName": "구로깔깔거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 1124-21",
     "roadAddress": "서울특별시 구로구 디지털로32길 93",
     "lng": 126.9004323,
@@ -18337,7 +18337,7 @@ const data = [
   {
     "shopName": "토즈스터디센터",
     "branchName": "잠실5센터",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 294-3",
     "roadAddress": "서울특별시 송파구 백제고분로 122",
     "lng": 127.0803711,
@@ -18346,7 +18346,7 @@ const data = [
   {
     "shopName": "욜로",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 명일동 343-5",
     "roadAddress": "서울특별시 강동구 상암로 207",
     "lng": 127.1455113,
@@ -18355,7 +18355,7 @@ const data = [
   {
     "shopName": "DE1993JEWELRYCAFE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 암사동 446-2",
     "roadAddress": "서울특별시 강동구 고덕로19길 8",
     "lng": 127.1338591,
@@ -18364,7 +18364,7 @@ const data = [
   {
     "shopName": "다독다독",
     "branchName": "1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 379-17",
     "roadAddress": "서울특별시 강동구 양재대로 1419",
     "lng": 127.1376345,
@@ -18382,7 +18382,7 @@ const data = [
   {
     "shopName": "명칭없음",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 문래동2가 14-68",
     "roadAddress": "서울특별시 영등포구 도림로129길 6-1",
     "lng": 126.8951687,
@@ -18391,7 +18391,7 @@ const data = [
   {
     "shopName": "쿠자공방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 17-10",
     "roadAddress": "서울특별시 송파구 송이로17길 49",
     "lng": 127.1247083,
@@ -18400,7 +18400,7 @@ const data = [
   {
     "shopName": "SC커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 36-2",
     "roadAddress": "서울특별시 영등포구 국제금융로6길 33",
     "lng": 126.9268944,
@@ -18409,7 +18409,7 @@ const data = [
   {
     "shopName": "카페설리번",
     "branchName": "당산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동6가 311-1",
     "roadAddress": "서울특별시 영등포구 당산로 241",
     "lng": 126.9025195,
@@ -18418,7 +18418,7 @@ const data = [
   {
     "shopName": "커피반장",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1680-31",
     "roadAddress": "서울특별시 관악구 문성로 114",
     "lng": 126.9162392,
@@ -18427,7 +18427,7 @@ const data = [
   {
     "shopName": "세이버스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 하월곡동 230",
     "roadAddress": "서울특별시 성북구 종암로 167",
     "lng": 127.0309775,
@@ -18436,7 +18436,7 @@ const data = [
   {
     "shopName": "카페희다",
     "branchName": "당산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동 171-47",
     "roadAddress": "서울특별시 영등포구 영중로42길 7",
     "lng": 126.9065887,
@@ -18445,7 +18445,7 @@ const data = [
   {
     "shopName": "상진다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 문래동2가 14-84",
     "roadAddress": "서울특별시 영등포구 도림로133길 9",
     "lng": 126.8944561,
@@ -18454,7 +18454,7 @@ const data = [
   {
     "shopName": "상승공간",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동3가 77-53",
     "roadAddress": "서울특별시 영등포구 선유동2로 9",
     "lng": 126.8944603,
@@ -18463,7 +18463,7 @@ const data = [
   {
     "shopName": "테크네커피공방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 동작동 333",
     "roadAddress": "서울특별시 동작구 동작대로39길 22",
     "lng": 126.9819464,
@@ -18472,7 +18472,7 @@ const data = [
   {
     "shopName": "레드망고",
     "branchName": "구반포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 1166",
     "roadAddress": "서울특별시 서초구 신반포로 49",
     "lng": 126.9900437,
@@ -18481,7 +18481,7 @@ const data = [
   {
     "shopName": "PAL",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 553-27",
     "roadAddress": "서울특별시 강남구 논현로157길 28",
     "lng": 127.0257265,
@@ -18490,7 +18490,7 @@ const data = [
   {
     "shopName": "대치커피1696",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 316",
     "roadAddress": "서울특별시 강남구 삼성로 212",
     "lng": 127.0658971,
@@ -18508,7 +18508,7 @@ const data = [
   {
     "shopName": "대추와자몽",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 562",
     "roadAddress": "서울특별시 용산구 녹사평대로46길 1",
     "lng": 126.9871004,
@@ -18517,7 +18517,7 @@ const data = [
   {
     "shopName": "오우야에스프레소바",
     "branchName": "중곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 252-6",
     "roadAddress": "서울특별시 광진구 동일로 350",
     "lng": 127.0755326,
@@ -18526,7 +18526,7 @@ const data = [
   {
     "shopName": "제3화원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 199-2",
     "roadAddress": "서울특별시 양천구 남부순환로 402",
     "lng": 126.8307724,
@@ -18535,7 +18535,7 @@ const data = [
   {
     "shopName": "마일스톤커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 668-64",
     "roadAddress": "서울특별시 성동구 서울숲4길 20",
     "lng": 127.0429985,
@@ -18544,7 +18544,7 @@ const data = [
   {
     "shopName": "홍스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 300-15",
     "roadAddress": "서울특별시 서대문구 통일로40길 19",
     "lng": 126.9438887,
@@ -18553,7 +18553,7 @@ const data = [
   {
     "shopName": "열공다방스터디카페",
     "branchName": "사가정점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 626-10",
     "roadAddress": "서울특별시 중랑구 면목로 298-1",
     "lng": 127.0867462,
@@ -18562,7 +18562,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "황제쑥뜸힐링",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 240-5",
     "roadAddress": "서울특별시 중랑구 중랑역로 201",
     "lng": 127.0750645,
@@ -18571,7 +18571,7 @@ const data = [
   {
     "shopName": "컷바리스타",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 종암동 80",
     "roadAddress": "서울특별시 성북구 종암로25길 30",
     "lng": 127.0305746,
@@ -18580,7 +18580,7 @@ const data = [
   {
     "shopName": "론디네커피로스터스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 하왕십리동 1070",
     "roadAddress": "서울특별시 성동구 왕십리로 410",
     "lng": 127.0240621,
@@ -18589,7 +18589,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "7월1일북",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 도봉동 616-8",
     "roadAddress": "서울특별시 도봉구 도봉로157길 11",
     "lng": 127.0433743,
@@ -18598,7 +18598,7 @@ const data = [
   {
     "shopName": "바빈스커피",
     "branchName": "서울공릉점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 408-6",
     "roadAddress": "서울특별시 노원구 공릉로 181",
     "lng": 127.0793971,
@@ -18607,7 +18607,7 @@ const data = [
   {
     "shopName": "LATT",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 360-9",
     "roadAddress": "서울특별시 노원구 한글비석로 245",
     "lng": 127.0763442,
@@ -18652,7 +18652,7 @@ const data = [
   {
     "shopName": "메가커피",
     "branchName": "은평뉴타운점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 65",
     "roadAddress": "서울특별시 은평구 진관3로 21",
     "lng": 126.9191031,
@@ -18661,7 +18661,7 @@ const data = [
   {
     "shopName": "에프에프이이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 역촌동 54-24",
     "roadAddress": "서울특별시 은평구 갈현로 87",
     "lng": 126.9103408,
@@ -18670,7 +18670,7 @@ const data = [
   {
     "shopName": "나는꽃COFFEE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 길동 380-13",
     "roadAddress": "서울특별시 강동구 양재대로113길 30",
     "lng": 127.1382283,
@@ -18679,7 +18679,7 @@ const data = [
   {
     "shopName": "카페코지",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동2가 34-15",
     "roadAddress": "서울특별시 영등포구 영등포로5길 31",
     "lng": 126.8845167,
@@ -18688,7 +18688,7 @@ const data = [
   {
     "shopName": "드롭탑",
     "branchName": "선유도파크호텔점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동5가 62",
     "roadAddress": "서울특별시 영등포구 양평로 136",
     "lng": 126.8930431,
@@ -18697,7 +18697,7 @@ const data = [
   {
     "shopName": "위넌스터디카페",
     "branchName": "보라매점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 대방동 402-12",
     "roadAddress": "서울특별시 동작구 상도로 30",
     "lng": 126.9238835,
@@ -18706,7 +18706,7 @@ const data = [
   {
     "shopName": "ON&OFF",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 49-3",
     "roadAddress": "서울특별시 강남구 강남대로136길 6",
     "lng": 127.0211758,
@@ -18715,7 +18715,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "라스보드",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 642-1",
     "roadAddress": "서울특별시 강남구 언주로172길 36",
     "lng": 127.0366705,
@@ -18724,7 +18724,7 @@ const data = [
   {
     "shopName": "라뚜셩트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 갈현동 429-34",
     "roadAddress": "서울특별시 은평구 통일로83길 24",
     "lng": 126.917222,
@@ -18733,7 +18733,7 @@ const data = [
   {
     "shopName": "멜",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 641-1",
     "roadAddress": "서울특별시 강남구 테헤란로25길 36",
     "lng": 127.0351037,
@@ -18742,7 +18742,7 @@ const data = [
   {
     "shopName": "카페심재",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 423-2",
     "roadAddress": "서울특별시 강남구 논현로28길 34",
     "lng": 127.0449165,
@@ -18751,7 +18751,7 @@ const data = [
   {
     "shopName": "바빈스커피",
     "branchName": "종로더케이손해보험점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 인의동 112-1",
     "roadAddress": "서울특별시 종로구 창경궁로 117",
     "lng": 126.9970829,
@@ -18760,7 +18760,7 @@ const data = [
   {
     "shopName": "라그린",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 정동 32-1",
     "roadAddress": "서울특별시 중구 정동길 26",
     "lng": 126.9713066,
@@ -18769,7 +18769,7 @@ const data = [
   {
     "shopName": "라비앙코코",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 455-23",
     "roadAddress": "서울특별시 용산구 녹사평대로40길 51",
     "lng": 126.9886355,
@@ -18778,7 +18778,7 @@ const data = [
   {
     "shopName": "써머레인",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 738-13",
     "roadAddress": "서울특별시 용산구 이태원로55가길 49",
     "lng": 126.9992459,
@@ -18787,7 +18787,7 @@ const data = [
   {
     "shopName": "총알커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 668-31",
     "roadAddress": "서울특별시 성동구 왕십리로5길 9-2",
     "lng": 127.0440892,
@@ -18823,7 +18823,7 @@ const data = [
   {
     "shopName": "우주라이크커피PC앤카페",
     "branchName": "화곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 971-4",
     "roadAddress": "서울특별시 강서구 까치산로 101",
     "lng": 126.8485639,
@@ -18832,7 +18832,7 @@ const data = [
   {
     "shopName": "레프트커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 회기동 61-10",
     "roadAddress": "서울특별시 동대문구 회기로 164",
     "lng": 127.0541868,
@@ -18850,7 +18850,7 @@ const data = [
   {
     "shopName": "세라젬웰카페",
     "branchName": "영등포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동4가 67-1",
     "roadAddress": "서울특별시 영등포구 영등포로 210",
     "lng": 126.9044909,
@@ -18859,7 +18859,7 @@ const data = [
   {
     "shopName": "명칭없음",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 591-53",
     "roadAddress": "서울특별시 동대문구 왕산로 210",
     "lng": 127.0511299,
@@ -18886,7 +18886,7 @@ const data = [
   {
     "shopName": "쁠랑커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 823-20",
     "roadAddress": "서울특별시 강남구 테헤란로10길 16",
     "lng": 127.0323498,
@@ -18913,7 +18913,7 @@ const data = [
   {
     "shopName": "초이스커피호프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 불광동 310-179",
     "roadAddress": "서울특별시 은평구 연서로 249",
     "lng": 126.9224613,
@@ -18958,7 +18958,7 @@ const data = [
   {
     "shopName": "포드전시장",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 53-23",
     "roadAddress": "서울특별시 광진구 뚝섬로22가길 60",
     "lng": 127.0644853,
@@ -18976,7 +18976,7 @@ const data = [
   {
     "shopName": "인포메이션",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 830-67",
     "roadAddress": "서울특별시 강남구 역삼로 121",
     "lng": 127.0326396,
@@ -19003,7 +19003,7 @@ const data = [
   {
     "shopName": "멜로우시티3rd",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 648-68",
     "roadAddress": "서울특별시 동대문구 답십리로 64",
     "lng": 127.0480592,
@@ -19012,7 +19012,7 @@ const data = [
   {
     "shopName": "카페애드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 삼전동 49-14",
     "roadAddress": "서울특별시 송파구 백제고분로 222",
     "lng": 127.0910967,
@@ -19021,7 +19021,7 @@ const data = [
   {
     "shopName": "카페눈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 561",
     "roadAddress": "서울특별시 광진구 아차산로70길 17-21",
     "lng": 127.1032049,
@@ -19030,7 +19030,7 @@ const data = [
   {
     "shopName": "탱크6",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 성산동 670",
     "roadAddress": "서울특별시 마포구 증산로 87",
     "lng": 126.8950083,
@@ -19039,7 +19039,7 @@ const data = [
   {
     "shopName": "SUNNYSIDE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 955-42",
     "roadAddress": "서울특별시 관악구 은천로5길 11",
     "lng": 126.9379762,
@@ -19048,7 +19048,7 @@ const data = [
   {
     "shopName": "카페나루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 227-344",
     "roadAddress": "서울특별시 광진구 능동로 76",
     "lng": 127.070518,
@@ -19057,7 +19057,7 @@ const data = [
   {
     "shopName": "땡스롤리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 성북동 184-69",
     "roadAddress": "서울특별시 성북구 성북로 20-1",
     "lng": 127.0047332,
@@ -19066,7 +19066,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피여의도파크원점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 22",
     "roadAddress": "서울특별시 영등포구 여의대로 108",
     "lng": 126.9290941,
@@ -19075,7 +19075,7 @@ const data = [
   {
     "shopName": "YogurYogur",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 800-1",
     "roadAddress": "서울특별시 강서구 공항대로 212",
     "lng": 126.8307773,
@@ -19084,7 +19084,7 @@ const data = [
   {
     "shopName": "ISCOFFEE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 길동 385-4",
     "roadAddress": "서울특별시 강동구 양재대로111길 54",
     "lng": 127.1365028,
@@ -19093,7 +19093,7 @@ const data = [
   {
     "shopName": "캉골카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 401-20",
     "roadAddress": "서울특별시 마포구 독막로7길 28",
     "lng": 126.9193825,
@@ -19102,7 +19102,7 @@ const data = [
   {
     "shopName": "dencepts",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동3가 132",
     "roadAddress": "서울특별시 성북구 동소문로26가길 16",
     "lng": 127.020016,
@@ -19111,7 +19111,7 @@ const data = [
   {
     "shopName": "지트",
     "branchName": "성수동아",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 271-24",
     "roadAddress": "서울특별시 성동구 연무장길 81",
     "lng": 127.0582551,
@@ -19120,7 +19120,7 @@ const data = [
   {
     "shopName": "할리스",
     "branchName": "김포공항점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 공항동 1373-5",
     "roadAddress": "서울특별시 강서구 하늘길 112",
     "lng": 126.8084568,
@@ -19129,7 +19129,7 @@ const data = [
   {
     "shopName": "브루원츠커피서울가산",
     "branchName": "1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 345-33",
     "roadAddress": "서울특별시 금천구 가산디지털2로 67",
     "lng": 126.8810723,
@@ -19165,7 +19165,7 @@ const data = [
   {
     "shopName": "위드그레텔",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 69-43",
     "roadAddress": "서울특별시 도봉구 도봉로129길 32",
     "lng": 127.0366443,
@@ -19174,7 +19174,7 @@ const data = [
   {
     "shopName": "크라임씬카페퍼즐팩토리",
     "branchName": "강남2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1308-14",
     "roadAddress": "서울특별시 서초구 서초대로75길 34",
     "lng": 127.0251703,
@@ -19183,7 +19183,7 @@ const data = [
   {
     "shopName": "히엘",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 60-20",
     "roadAddress": "서울특별시 송파구 올림픽로32길 21-23",
     "lng": 127.1108279,
@@ -19192,7 +19192,7 @@ const data = [
   {
     "shopName": "espresso,그자체",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 장지동 895",
     "roadAddress": "서울특별시 송파구 위례광장로 270",
     "lng": 127.1436591,
@@ -19201,7 +19201,7 @@ const data = [
   {
     "shopName": "마을카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 560-37",
     "roadAddress": "서울특별시 도봉구 덕릉로60다길 25",
     "lng": 127.0395255,
@@ -19210,7 +19210,7 @@ const data = [
   {
     "shopName": "복고다방",
     "branchName": "사가정역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 627-1",
     "roadAddress": "서울특별시 중랑구 면목로 290",
     "lng": 127.0862981,
@@ -19219,7 +19219,7 @@ const data = [
   {
     "shopName": "메가엠지씨포방터",
     "branchName": "시장점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍은동 9-329",
     "roadAddress": "서울특별시 서대문구 홍은중앙로 101-1",
     "lng": 126.948411,
@@ -19228,7 +19228,7 @@ const data = [
   {
     "shopName": "ITTABLE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 834-55",
     "roadAddress": "서울특별시 강남구 역삼로14길 8",
     "lng": 127.0352292,
@@ -19237,7 +19237,7 @@ const data = [
   {
     "shopName": "삼손이네커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 966-4",
     "roadAddress": "서울특별시 강남구 역삼로 536",
     "lng": 127.0616826,
@@ -19246,7 +19246,7 @@ const data = [
   {
     "shopName": "그남자의손",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 302-36",
     "roadAddress": "서울특별시 성동구 연무장길 17",
     "lng": 127.051394,
@@ -19255,7 +19255,7 @@ const data = [
   {
     "shopName": "MERCI",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 묵정동 22-22",
     "roadAddress": "서울특별시 중구 퇴계로50길 53",
     "lng": 127.0011098,
@@ -19264,7 +19264,7 @@ const data = [
   {
     "shopName": "클로드커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 대흥동 244-2",
     "roadAddress": "서울특별시 마포구 백범로16안길 21",
     "lng": 126.94323,
@@ -19273,7 +19273,7 @@ const data = [
   {
     "shopName": "라이딩하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 806-9",
     "roadAddress": "서울특별시 광진구 자양번영로 66",
     "lng": 127.0765506,
@@ -19282,7 +19282,7 @@ const data = [
   {
     "shopName": "홀로",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 1020-15",
     "roadAddress": "서울특별시 동작구 동작대로9길 32",
     "lng": 126.9798172,
@@ -19291,7 +19291,7 @@ const data = [
   {
     "shopName": "퍼프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 334-6",
     "roadAddress": "서울특별시 마포구 와우산로29다길 10",
     "lng": 126.9276473,
@@ -19300,7 +19300,7 @@ const data = [
   {
     "shopName": "에그허그",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 245-7",
     "roadAddress": "서울특별시 광진구 천호대로143길 8-5",
     "lng": 127.1032625,
@@ -19309,7 +19309,7 @@ const data = [
   {
     "shopName": "cafeNOAH",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 768-6",
     "roadAddress": "서울특별시 양천구 목동중앙남로3길 23",
     "lng": 126.8663497,
@@ -19327,7 +19327,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "독바위역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 불광동 13-18",
     "roadAddress": "서울특별시 은평구 불광로 130-1",
     "lng": 126.9331843,
@@ -19336,7 +19336,7 @@ const data = [
   {
     "shopName": "뒤팡프레",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 2-45",
     "roadAddress": "서울특별시 마포구 성암로 217",
     "lng": 126.8956906,
@@ -19345,7 +19345,7 @@ const data = [
   {
     "shopName": "명칭없음",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 57-208",
     "roadAddress": "서울특별시 마포구 월드컵로11길 80",
     "lng": 126.9067633,
@@ -19381,7 +19381,7 @@ const data = [
   {
     "shopName": "고호재롯데월드몰점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 29",
     "roadAddress": "서울특별시 송파구 올림픽로 300",
     "lng": 127.1042839,
@@ -19390,7 +19390,7 @@ const data = [
   {
     "shopName": "레스토커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 77",
     "roadAddress": "서울특별시 광진구 군자로6길 50-5",
     "lng": 127.072056,
@@ -19399,7 +19399,7 @@ const data = [
   {
     "shopName": "토이토이토이&토마스커피랩",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 179-40",
     "roadAddress": "서울특별시 마포구 신촌로4길 5",
     "lng": 126.9286981,
@@ -19408,7 +19408,7 @@ const data = [
   {
     "shopName": "엄's김밥카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 227-6",
     "roadAddress": "서울특별시 광진구 아차산로 290",
     "lng": 127.0750998,
@@ -19417,7 +19417,7 @@ const data = [
   {
     "shopName": "냉큼오레오",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1115-35",
     "roadAddress": "서울특별시 강서구 화곡로58길 39",
     "lng": 126.8530644,
@@ -19426,7 +19426,7 @@ const data = [
   {
     "shopName": "에이에이에이비비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 986-8",
     "roadAddress": "서울특별시 양천구 지양로 25",
     "lng": 126.8369018,
@@ -19435,7 +19435,7 @@ const data = [
   {
     "shopName": "비하인드커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 404-26",
     "roadAddress": "서울특별시 마포구 어울마당로5길 18",
     "lng": 126.9196391,
@@ -19444,7 +19444,7 @@ const data = [
   {
     "shopName": "신대방커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 518-12",
     "roadAddress": "서울특별시 관악구 난곡로 365-5",
     "lng": 126.9132751,
@@ -19453,7 +19453,7 @@ const data = [
   {
     "shopName": "샐러데이중랑세무서점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 181-32",
     "roadAddress": "서울특별시 중랑구 봉우재로14길 26",
     "lng": 127.0780907,
@@ -19462,7 +19462,7 @@ const data = [
   {
     "shopName": "먹고싶지롱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 역촌동 24-23",
     "roadAddress": "서울특별시 은평구 진흥로1길 48",
     "lng": 126.9184654,
@@ -19480,7 +19480,7 @@ const data = [
   {
     "shopName": "더벤티",
     "branchName": "방학역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 도봉동 619-20",
     "roadAddress": "서울특별시 도봉구 도봉로153길 14",
     "lng": 127.0427049,
@@ -19489,7 +19489,7 @@ const data = [
   {
     "shopName": "행운보다행복",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 갈월동 53-21",
     "roadAddress": "서울특별시 용산구 두텁바위로1길 26",
     "lng": 126.9738406,
@@ -19507,7 +19507,7 @@ const data = [
   {
     "shopName": "비마이크림",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 2-35",
     "roadAddress": "서울특별시 광진구 군자로 8",
     "lng": 127.0718823,
@@ -19516,7 +19516,7 @@ const data = [
   {
     "shopName": "크레츄잇",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 94-29",
     "roadAddress": "서울특별시 관악구 신림로38길 25",
     "lng": 126.9383288,
@@ -19525,7 +19525,7 @@ const data = [
   {
     "shopName": "킹프레소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 502-1",
     "roadAddress": "서울특별시 중랑구 면목로 375",
     "lng": 127.0881718,
@@ -19534,7 +19534,7 @@ const data = [
   {
     "shopName": "카페은인",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 길동 343-1",
     "roadAddress": "서울특별시 강동구 천중로53길 6",
     "lng": 127.1454496,
@@ -19543,7 +19543,7 @@ const data = [
   {
     "shopName": "행운커피호프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 망우동 487-2",
     "roadAddress": "서울특별시 중랑구 망우로 431",
     "lng": 127.1000328,
@@ -19552,7 +19552,7 @@ const data = [
   {
     "shopName": "반코디",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 251-140",
     "roadAddress": "서울특별시 광진구 자양로26길 20",
     "lng": 127.0850406,
@@ -19561,7 +19561,7 @@ const data = [
   {
     "shopName": "디저트39",
     "branchName": "구의점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 248-94",
     "roadAddress": "서울특별시 광진구 아차산로51길 82",
     "lng": 127.0852794,
@@ -19570,7 +19570,7 @@ const data = [
   {
     "shopName": "디자인1팀",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대현동 90-105",
     "roadAddress": "서울특별시 서대문구 이화여대1안길 3",
     "lng": 126.9444665,
@@ -19579,7 +19579,7 @@ const data = [
   {
     "shopName": "캔캔커피",
     "branchName": "사당점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 169-8",
     "roadAddress": "서울특별시 동작구 사당로17길 52",
     "lng": 126.9720437,
@@ -19588,7 +19588,7 @@ const data = [
   {
     "shopName": "트릿",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로3가 63-70",
     "roadAddress": "서울특별시 용산구 서빙고로 17",
     "lng": 126.9665514,
@@ -19597,7 +19597,7 @@ const data = [
   {
     "shopName": "폴바셋AK플라자",
     "branchName": "홍대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 190-1",
     "roadAddress": "서울특별시 마포구 양화로 188",
     "lng": 126.926478,
@@ -19615,7 +19615,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "봉천중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 922-24",
     "roadAddress": "서울특별시 관악구 남부순환로 1742",
     "lng": 126.9434841,
@@ -19624,7 +19624,7 @@ const data = [
   {
     "shopName": "크로플각",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 하월곡동 60-145",
     "roadAddress": "서울특별시 성북구 오패산로 24-5",
     "lng": 127.0375984,
@@ -19633,7 +19633,7 @@ const data = [
   {
     "shopName": "명칭없음",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 383-82",
     "roadAddress": "서울특별시 마포구 동교로46길 42-5",
     "lng": 126.9267472,
@@ -19642,7 +19642,7 @@ const data = [
   {
     "shopName": "카페날개",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 397-28",
     "roadAddress": "서울특별시 은평구 응암로22길 16",
     "lng": 126.9197143,
@@ -19651,7 +19651,7 @@ const data = [
   {
     "shopName": "재즈런치",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 145-20",
     "roadAddress": "서울특별시 송파구 송이로23길 14",
     "lng": 127.1248337,
@@ -19660,7 +19660,7 @@ const data = [
   {
     "shopName": "뵈르마지",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 휘경동 336-9",
     "roadAddress": "서울특별시 동대문구 이문로 4",
     "lng": 127.0541222,
@@ -19669,7 +19669,7 @@ const data = [
   {
     "shopName": "에그맛있다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 노고산동 54-76",
     "roadAddress": "서울특별시 마포구 신촌로12길 19",
     "lng": 126.932724,
@@ -19678,7 +19678,7 @@ const data = [
   {
     "shopName": "프레셔나인커피로스터스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 633-5",
     "roadAddress": "서울특별시 광진구 동일로62길 17",
     "lng": 127.0751523,
@@ -19687,7 +19687,7 @@ const data = [
   {
     "shopName": "씨스터브레드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 224-51",
     "roadAddress": "서울특별시 마포구 동교로52길 20-4",
     "lng": 126.9271975,
@@ -19696,7 +19696,7 @@ const data = [
   {
     "shopName": "텅플래니트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 518-11",
     "roadAddress": "서울특별시 강남구 도산대로11길 31",
     "lng": 127.022095,
@@ -19705,7 +19705,7 @@ const data = [
   {
     "shopName": "TOUTdessert",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 986-14",
     "roadAddress": "서울특별시 양천구 목동로19길 38",
     "lng": 126.8602037,
@@ -19714,7 +19714,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "방배카페거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 761-7",
     "roadAddress": "서울특별시 서초구 방배중앙로 185",
     "lng": 126.9856091,
@@ -19723,7 +19723,7 @@ const data = [
   {
     "shopName": "GS25",
     "branchName": "마곡9단지점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 744",
     "roadAddress": "서울특별시 강서구 공항대로 103",
     "lng": 126.8191553,
@@ -19732,7 +19732,7 @@ const data = [
   {
     "shopName": "더150무인카페마곡보타닉",
     "branchName": "3점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 771-3",
     "roadAddress": "서울특별시 강서구 마곡중앙6로 11",
     "lng": 126.82864,
@@ -19741,7 +19741,7 @@ const data = [
   {
     "shopName": "은평다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 98-6",
     "roadAddress": "서울특별시 은평구 은평로12길 6",
     "lng": 126.9250603,
@@ -19750,7 +19750,7 @@ const data = [
   {
     "shopName": "카페정성",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 능동 380",
     "roadAddress": "서울특별시 광진구 천호대로112길 68",
     "lng": 127.0800088,
@@ -19759,7 +19759,7 @@ const data = [
   {
     "shopName": "파란새싹",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 409-256",
     "roadAddress": "서울특별시 관악구 서원10길 2",
     "lng": 126.9322821,
@@ -19768,7 +19768,7 @@ const data = [
   {
     "shopName": "디앤케이149",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 86-2",
     "roadAddress": "서울특별시 서대문구 연희로 149",
     "lng": 126.9338291,
@@ -19777,7 +19777,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "신길점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 2363",
     "roadAddress": "서울특별시 영등포구 신풍로 93",
     "lng": 126.9166252,
@@ -19786,7 +19786,7 @@ const data = [
   {
     "shopName": "요구르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 행당동 19-54",
     "roadAddress": "서울특별시 성동구 마조로 17",
     "lng": 127.0404521,
@@ -19795,7 +19795,7 @@ const data = [
   {
     "shopName": "커피데이즈",
     "branchName": "목동역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 925",
     "roadAddress": "서울특별시 양천구 목동로 186",
     "lng": 126.8663729,
@@ -19804,7 +19804,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "개포동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 개포동 186-13",
     "roadAddress": "서울특별시 강남구 개포로 504",
     "lng": 127.0671708,
@@ -19822,7 +19822,7 @@ const data = [
   {
     "shopName": "커넥트91CONNECT91",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 645",
     "roadAddress": "서울특별시 송파구 법원로11길 25",
     "lng": 127.1162166,
@@ -19831,7 +19831,7 @@ const data = [
   {
     "shopName": "하삼동커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 35-20",
     "roadAddress": "서울특별시 강북구 도봉로 40",
     "lng": 127.0304153,
@@ -19840,7 +19840,7 @@ const data = [
   {
     "shopName": "요거프레소",
     "branchName": "신목동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 753-12",
     "roadAddress": "서울특별시 양천구 목동중앙로 89",
     "lng": 126.8719493,
@@ -19849,7 +19849,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "촬영소사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 2-146",
     "roadAddress": "서울특별시 동대문구 답십리로 233",
     "lng": 127.0660685,
@@ -19858,7 +19858,7 @@ const data = [
   {
     "shopName": "니생각이났어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 413-38",
     "roadAddress": "서울특별시 마포구 포은로 72",
     "lng": 126.9059946,
@@ -19867,7 +19867,7 @@ const data = [
   {
     "shopName": "디저트39",
     "branchName": "거여역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 거여동 36-4",
     "roadAddress": "서울특별시 송파구 오금로 519",
     "lng": 127.1465068,
@@ -19885,7 +19885,7 @@ const data = [
   {
     "shopName": "블랙비치",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 340-67",
     "roadAddress": "서울특별시 중구 다산로18길 8",
     "lng": 127.0122818,
@@ -19894,7 +19894,7 @@ const data = [
   {
     "shopName": "더벤티",
     "branchName": "중계은행사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 366-6",
     "roadAddress": "서울특별시 노원구 한글비석로 264",
     "lng": 127.0773179,
@@ -19903,7 +19903,7 @@ const data = [
   {
     "shopName": "LIKEBAKESHOP",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 598-166",
     "roadAddress": "서울특별시 관악구 법원단지5나길 2",
     "lng": 126.9194441,
@@ -19912,7 +19912,7 @@ const data = [
   {
     "shopName": "고나카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 구산동 384",
     "roadAddress": "서울특별시 은평구 서오릉로21길 41",
     "lng": 126.9067258,
@@ -19921,7 +19921,7 @@ const data = [
   {
     "shopName": "일록",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 257-4",
     "roadAddress": "서울특별시 광진구 천호대로143길 34",
     "lng": 127.1038612,
@@ -19930,7 +19930,7 @@ const data = [
   {
     "shopName": "명칭없음",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 30-3",
     "roadAddress": "서울특별시 관악구 관악로24길 14",
     "lng": 126.9555329,
@@ -19939,7 +19939,7 @@ const data = [
   {
     "shopName": "카페비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동2가 34-15",
     "roadAddress": "서울특별시 영등포구 영등포로5길 31",
     "lng": 126.8845167,
@@ -19948,7 +19948,7 @@ const data = [
   {
     "shopName": "카페홈즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 800-3",
     "roadAddress": "서울특별시 강서구 공항대로 220",
     "lng": 126.8317527,
@@ -19957,7 +19957,7 @@ const data = [
   {
     "shopName": "탐앤탐스",
     "branchName": "마곡이너매스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 800-15",
     "roadAddress": "서울특별시 강서구 마곡중앙2로 35",
     "lng": 126.8305191,
@@ -19966,7 +19966,7 @@ const data = [
   {
     "shopName": "에그카페24",
     "branchName": "상도점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 210-213",
     "roadAddress": "서울특별시 동작구 양녕로25길 10",
     "lng": 126.9431498,
@@ -19984,7 +19984,7 @@ const data = [
   {
     "shopName": "5mei",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 회기동 3-16",
     "roadAddress": "서울특별시 동대문구 경희대로4길 38",
     "lng": 127.0543845,
@@ -20002,7 +20002,7 @@ const data = [
   {
     "shopName": "테베르베이크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 공항동 42-15",
     "roadAddress": "서울특별시 강서구 공항대로4길 16",
     "lng": 126.8106267,
@@ -20011,7 +20011,7 @@ const data = [
   {
     "shopName": "만랩커피",
     "branchName": "대치점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 976-8",
     "roadAddress": "서울특별시 강남구 삼성로72길 64",
     "lng": 127.063349,
@@ -20020,7 +20020,7 @@ const data = [
   {
     "shopName": "금남커퓌",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 320-1",
     "roadAddress": "서울특별시 노원구 노원로30길 45",
     "lng": 127.069742,
@@ -20029,7 +20029,7 @@ const data = [
   {
     "shopName": "카페진진",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 648-62",
     "roadAddress": "서울특별시 동대문구 답십리로 68",
     "lng": 127.0483891,
@@ -20038,7 +20038,7 @@ const data = [
   {
     "shopName": "폴바셋구로G",
     "branchName": "타워점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 832",
     "roadAddress": "서울특별시 구로구 디지털로26길 38",
     "lng": 126.8953022,
@@ -20056,7 +20056,7 @@ const data = [
   {
     "shopName": "더치프레소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 산56-1",
     "roadAddress": "서울특별시 관악구 관악로 1",
     "lng": 126.9592795,
@@ -20065,7 +20065,7 @@ const data = [
   {
     "shopName": "우주곰커피",
     "branchName": "영등포구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 328",
     "roadAddress": "서울특별시 영등포구 양산로 127",
     "lng": 126.8971279,
@@ -20074,7 +20074,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "에프오",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 800-1",
     "roadAddress": "서울특별시 강서구 공항대로 212",
     "lng": 126.8307769,
@@ -20083,7 +20083,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "대치한티점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 922-1",
     "roadAddress": "서울특별시 강남구 선릉로 324",
     "lng": 127.0520906,
@@ -20092,7 +20092,7 @@ const data = [
   {
     "shopName": "하우",
     "branchName": "잠실역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 8",
     "roadAddress": "서울특별시 송파구 올림픽로 265",
     "lng": 127.1006503,
@@ -20101,7 +20101,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "피글렛",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 석촌동 60-8",
     "roadAddress": "서울특별시 송파구 백제고분로36길 26",
     "lng": 127.1009915,
@@ -20110,7 +20110,7 @@ const data = [
   {
     "shopName": "컨티넨탈커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 용답동 43-8",
     "roadAddress": "서울특별시 성동구 용답23길 19",
     "lng": 127.0537613,
@@ -20119,7 +20119,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "홍제역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 315-12",
     "roadAddress": "서울특별시 서대문구 통일로37길 23",
     "lng": 126.9441941,
@@ -20128,7 +20128,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "트리니티",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 1017-6",
     "roadAddress": "서울특별시 동작구 동작대로11길 58",
     "lng": 126.9782934,
@@ -20137,7 +20137,7 @@ const data = [
   {
     "shopName": "예고",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1628-5",
     "roadAddress": "서울특별시 서초구 사임당로18길 18",
     "lng": 127.0190248,
@@ -20146,7 +20146,7 @@ const data = [
   {
     "shopName": "프롬하츠커피",
     "branchName": "응암점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 107-19",
     "roadAddress": "서울특별시 은평구 응암로 278",
     "lng": 126.9196501,
@@ -20155,7 +20155,7 @@ const data = [
   {
     "shopName": "벤티프레소",
     "branchName": "여의도점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 12-3",
     "roadAddress": "서울특별시 영등포구 은행로 54",
     "lng": 126.9245258,
@@ -20164,7 +20164,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "암사역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 암사동 502-18",
     "roadAddress": "서울특별시 강동구 올림픽로 777",
     "lng": 127.1273941,
@@ -20173,7 +20173,7 @@ const data = [
   {
     "shopName": "피넛커피",
     "branchName": "강동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 고덕동 165-9",
     "roadAddress": "서울특별시 강동구 아리수로 376-1",
     "lng": 127.1699348,
@@ -20182,7 +20182,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "토모무인",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 10",
     "roadAddress": "서울특별시 동대문구 사가정로 148",
     "lng": 127.0615165,
@@ -20200,7 +20200,7 @@ const data = [
   {
     "shopName": "cafe희&희",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 663-13",
     "roadAddress": "서울특별시 강서구 화곡로61길 122",
     "lng": 126.8457767,
@@ -20209,7 +20209,7 @@ const data = [
   {
     "shopName": "커피식구",
     "branchName": "삼성점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 38-30",
     "roadAddress": "서울특별시 강남구 봉은사로 415",
     "lng": 127.0455975,
@@ -20218,7 +20218,7 @@ const data = [
   {
     "shopName": "디저트로이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 636-30",
     "roadAddress": "서울특별시 강남구 압구정로42길 30",
     "lng": 127.0348502,
@@ -20227,7 +20227,7 @@ const data = [
   {
     "shopName": "그린페이지",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 상일동 298-9",
     "roadAddress": "서울특별시 강동구 천호대로221길 27",
     "lng": 127.172565,
@@ -20236,7 +20236,7 @@ const data = [
   {
     "shopName": "보니또커피문정테라",
     "branchName": "타워점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 651",
     "roadAddress": "서울특별시 송파구 송파대로 167",
     "lng": 127.1207441,
@@ -20245,7 +20245,7 @@ const data = [
   {
     "shopName": "로와이드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 685-290",
     "roadAddress": "서울특별시 성동구 서울숲2길 22-1",
     "lng": 127.0410326,
@@ -20254,7 +20254,7 @@ const data = [
   {
     "shopName": "오토빈스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 227-1",
     "roadAddress": "서울특별시 마포구 연희로 35",
     "lng": 126.9269836,
@@ -20263,7 +20263,7 @@ const data = [
   {
     "shopName": "메리버터",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 93-42",
     "roadAddress": "서울특별시 동대문구 사가정로25길 28-1",
     "lng": 127.0707231,
@@ -20272,7 +20272,7 @@ const data = [
   {
     "shopName": "쌍계명차티하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 1050-12",
     "roadAddress": "서울특별시 양천구 중앙로36길 14",
     "lng": 126.8555896,
@@ -20281,7 +20281,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "전농동아점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 645-2",
     "roadAddress": "서울특별시 동대문구 서울시립대로 31",
     "lng": 127.0458538,
@@ -20290,7 +20290,7 @@ const data = [
   {
     "shopName": "은솔카페&샵",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 암사동 488-17",
     "roadAddress": "서울특별시 강동구 구천면로 311-1",
     "lng": 127.1347164,
@@ -20299,7 +20299,7 @@ const data = [
   {
     "shopName": 428,
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 269-122",
     "roadAddress": "서울특별시 성동구 뚝섬로 428",
     "lng": 127.0579515,
@@ -20308,7 +20308,7 @@ const data = [
   {
     "shopName": "커피위드구루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 응암동 592-72",
     "roadAddress": "서울특별시 은평구 응암로13길 27",
     "lng": 126.9143827,
@@ -20317,7 +20317,7 @@ const data = [
   {
     "shopName": "감성커피",
     "branchName": "성신여대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동1가 3-1",
     "roadAddress": "서울특별시 성북구 동소문로20나길 18",
     "lng": 127.0176249,
@@ -20326,7 +20326,7 @@ const data = [
   {
     "shopName": "더비너브로",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 740-14",
     "roadAddress": "서울특별시 서초구 강남대로79길 42",
     "lng": 127.0217375,
@@ -20335,7 +20335,7 @@ const data = [
   {
     "shopName": "얼티밋",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 계동 100-1",
     "roadAddress": "서울특별시 종로구 계동길 57",
     "lng": 126.9865948,
@@ -20344,7 +20344,7 @@ const data = [
   {
     "shopName": "삼거리커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 313-3",
     "roadAddress": "서울특별시 동대문구 장한로 200",
     "lng": 127.0724665,
@@ -20353,7 +20353,7 @@ const data = [
   {
     "shopName": "삼삼공데이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 642-6",
     "roadAddress": "서울특별시 강남구 논현로 507",
     "lng": 127.0361391,
@@ -20362,7 +20362,7 @@ const data = [
   {
     "shopName": "카페게이트",
     "branchName": "북한산성점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 279-50",
     "roadAddress": "서울특별시 은평구 대서문길 23",
     "lng": 126.947926,
@@ -20371,7 +20371,7 @@ const data = [
   {
     "shopName": "카페그릭",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 651-3",
     "roadAddress": "서울특별시 송파구 법원로 96",
     "lng": 127.1209539,
@@ -20380,7 +20380,7 @@ const data = [
   {
     "shopName": "카페마음",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 36-2",
     "roadAddress": "서울특별시 영등포구 국제금융로6길 33",
     "lng": 126.9268944,
@@ -20389,7 +20389,7 @@ const data = [
   {
     "shopName": "운영카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 500-18",
     "roadAddress": "서울특별시 동작구 상도로 385",
     "lng": 126.9552437,
@@ -20398,7 +20398,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "봉일시장점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 951-1",
     "roadAddress": "서울특별시 관악구 은천로 36",
     "lng": 126.9392082,
@@ -20407,7 +20407,7 @@ const data = [
   {
     "shopName": "카페원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 신내동 546-23",
     "roadAddress": "서울특별시 중랑구 신내로 56-1",
     "lng": 127.0956899,
@@ -20416,7 +20416,7 @@ const data = [
   {
     "shopName": "비올레따양과점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 103-62",
     "roadAddress": "서울특별시 도봉구 도봉로109길 35-5",
     "lng": 127.0314445,
@@ -20425,7 +20425,7 @@ const data = [
   {
     "shopName": "케키포유",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 용두동 39-101",
     "roadAddress": "서울특별시 동대문구 천호대로37길 45",
     "lng": 127.0421645,
@@ -20443,7 +20443,7 @@ const data = [
   {
     "shopName": "어보블",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 794",
     "roadAddress": "서울특별시 강서구 방화대로37길 35",
     "lng": 126.8144752,
@@ -20452,7 +20452,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "종로공평점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 공평동 124",
     "roadAddress": "서울특별시 종로구 삼봉로 100",
     "lng": 126.9826953,
@@ -20461,7 +20461,7 @@ const data = [
   {
     "shopName": "데이원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 용강동 494-74",
     "roadAddress": "서울특별시 마포구 대흥로6길 6-1",
     "lng": 126.9383578,
@@ -20470,7 +20470,7 @@ const data = [
   {
     "shopName": "커피브라더",
     "branchName": "역촌점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 갈현동 468-5",
     "roadAddress": "서울특별시 은평구 연서로17길 9",
     "lng": 126.9161409,
@@ -20479,7 +20479,7 @@ const data = [
   {
     "shopName": "엠엠티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 1012",
     "roadAddress": "서울특별시 동대문구 사가정로 80",
     "lng": 127.0549119,
@@ -20488,7 +20488,7 @@ const data = [
   {
     "shopName": "아이캔커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 957-6",
     "roadAddress": "서울특별시 관악구 은천로 14",
     "lng": 126.9367761,
@@ -20497,7 +20497,7 @@ const data = [
   {
     "shopName": "카페뚜레쥬르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 우이동 71-34",
     "roadAddress": "서울특별시 강북구 삼양로 543",
     "lng": 127.0123795,
@@ -20506,7 +20506,7 @@ const data = [
   {
     "shopName": "레인드롭",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 219-5",
     "roadAddress": "서울특별시 은평구 연서로 524",
     "lng": 126.9375019,
@@ -20515,7 +20515,7 @@ const data = [
   {
     "shopName": "별담",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 874-6",
     "roadAddress": "서울특별시 금천구 시흥대로62길 58",
     "lng": 126.9027278,
@@ -20524,7 +20524,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "군자역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 능동 279-4",
     "roadAddress": "서울특별시 광진구 능동로 294",
     "lng": 127.0790829,
@@ -20542,7 +20542,7 @@ const data = [
   {
     "shopName": "더벤티",
     "branchName": "항동SKV1점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 항동 산51-1",
     "roadAddress": "서울특별시 구로구 부광로 88",
     "lng": 126.8167167,
@@ -20551,7 +20551,7 @@ const data = [
   {
     "shopName": "초월스터디카페",
     "branchName": "먹골점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 174-4",
     "roadAddress": "서울특별시 중랑구 공릉로2길 7",
     "lng": 127.0782521,
@@ -20569,7 +20569,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "휴그린",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동5가 15-31",
     "roadAddress": "서울특별시 성북구 개운사길 22-4",
     "lng": 127.0295088,
@@ -20587,7 +20587,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "넘버스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 개포동 1190-6",
     "roadAddress": "서울특별시 강남구 논현로6길 5",
     "lng": 127.0500824,
@@ -20605,7 +20605,7 @@ const data = [
   {
     "shopName": "파머스빈",
     "branchName": "가산디지털점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 60-3",
     "roadAddress": "서울특별시 금천구 디지털로9길 68",
     "lng": 126.8863971,
@@ -20614,7 +20614,7 @@ const data = [
   {
     "shopName": "커피감옥",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 623-44",
     "roadAddress": "서울특별시 중랑구 면목로40길 22",
     "lng": 127.0882776,
@@ -20623,7 +20623,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "사우스야라",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 120-12",
     "roadAddress": "서울특별시 광진구 용마산로3길 29",
     "lng": 127.0863694,
@@ -20632,7 +20632,7 @@ const data = [
   {
     "shopName": "티,파니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 371-59",
     "roadAddress": "서울특별시 금천구 가산디지털1로 149",
     "lng": 126.8818415,
@@ -20650,7 +20650,7 @@ const data = [
   {
     "shopName": "쿠쿠스무스카페24",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 346-31",
     "roadAddress": "서울특별시 마포구 홍익로2길 23",
     "lng": 126.9238396,
@@ -20668,7 +20668,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "리버티",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 258",
     "roadAddress": "서울특별시 용산구 독서당로 70",
     "lng": 127.0085606,
@@ -20677,7 +20677,7 @@ const data = [
   {
     "shopName": "오늘요거",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 57-88",
     "roadAddress": "서울특별시 마포구 월드컵로17길 37",
     "lng": 126.9080369,
@@ -20686,7 +20686,7 @@ const data = [
   {
     "shopName": "나절",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 신대방동 644-1",
     "roadAddress": "서울특별시 동작구 신대방2길 12",
     "lng": 126.9131841,
@@ -20695,7 +20695,7 @@ const data = [
   {
     "shopName": "아이캔커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 길동 396-3",
     "roadAddress": "서울특별시 강동구 천호대로185길 64",
     "lng": 127.1418354,
@@ -20704,7 +20704,7 @@ const data = [
   {
     "shopName": "한강에스프레소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 456-27",
     "roadAddress": "서울특별시 마포구 희우정로 97",
     "lng": 126.9018605,
@@ -20713,7 +20713,7 @@ const data = [
   {
     "shopName": "청순커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 구산동 15-18",
     "roadAddress": "서울특별시 은평구 갈현로 133",
     "lng": 126.9109035,
@@ -20722,7 +20722,7 @@ const data = [
   {
     "shopName": "몽타라이브스튜디오",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 47-7",
     "roadAddress": "서울특별시 강남구 강남대로136길 22",
     "lng": 127.0222019,
@@ -20731,7 +20731,7 @@ const data = [
   {
     "shopName": "조선호텔앤리조트센터필드라운지",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 676",
     "roadAddress": "서울특별시 강남구 테헤란로 231",
     "lng": 127.0413363,
@@ -20740,7 +20740,7 @@ const data = [
   {
     "shopName": "커피사피엔스파인스퀘어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 799-11",
     "roadAddress": "서울특별시 강서구 마곡중앙4로 22",
     "lng": 126.8292693,
@@ -20749,7 +20749,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "강서세무서점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 744",
     "roadAddress": "서울특별시 강서구 공항대로 103",
     "lng": 126.8191553,
@@ -20767,7 +20767,7 @@ const data = [
   {
     "shopName": "디카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 옥수동 471-2",
     "roadAddress": "서울특별시 성동구 독서당로39길 48",
     "lng": 127.0109581,
@@ -20785,7 +20785,7 @@ const data = [
   {
     "shopName": "해머스미스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1694-13",
     "roadAddress": "서울특별시 서초구 서초대로51길 11",
     "lng": 127.0140243,
@@ -20794,7 +20794,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "보스수유점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 483-13",
     "roadAddress": "서울특별시 강북구 삼양로77가길 18",
     "lng": 127.0165791,
@@ -20803,7 +20803,7 @@ const data = [
   {
     "shopName": "홍콩다방구로",
     "branchName": "지플러스타워점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 222-31",
     "roadAddress": "서울특별시 구로구 디지털로26길 123",
     "lng": 126.8976856,
@@ -20812,7 +20812,7 @@ const data = [
   {
     "shopName": "프린트카페숭실대",
     "branchName": "정문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 488",
     "roadAddress": "서울특별시 동작구 상도로 357",
     "lng": 126.9534955,
@@ -20821,7 +20821,7 @@ const data = [
   {
     "shopName": "웰스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 와룡동 94-1",
     "roadAddress": "서울특별시 종로구 돈화문로 82",
     "lng": 126.9907713,
@@ -20830,7 +20830,7 @@ const data = [
   {
     "shopName": "좋은카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 798-5",
     "roadAddress": "서울특별시 강서구 마곡중앙로 59-21",
     "lng": 126.8242244,
@@ -20839,7 +20839,7 @@ const data = [
   {
     "shopName": "건강한커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동3가 15-1",
     "roadAddress": "서울특별시 영등포구 양산로 53",
     "lng": 126.8889028,
@@ -20848,7 +20848,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "미아점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 310-1",
     "roadAddress": "서울특별시 강북구 도봉로 175",
     "lng": 127.0265928,
@@ -20857,7 +20857,7 @@ const data = [
   {
     "shopName": "콘레드커피",
     "branchName": "종로구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 청진동 2-2",
     "roadAddress": "서울특별시 종로구 삼봉로 60",
     "lng": 126.9804035,
@@ -20902,7 +20902,7 @@ const data = [
   {
     "shopName": "카페포스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 정릉동 712-71",
     "roadAddress": "서울특별시 성북구 솔샘로16길 11",
     "lng": 127.0057818,
@@ -20920,7 +20920,7 @@ const data = [
   {
     "shopName": "커피무드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 대조동 218-24",
     "roadAddress": "서울특별시 은평구 연서로24길 6",
     "lng": 126.9194774,
@@ -20938,7 +20938,7 @@ const data = [
   {
     "shopName": "장군커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 주교동 43-17",
     "roadAddress": "서울특별시 중구 창경궁로8길 33",
     "lng": 126.9997743,
@@ -21001,7 +21001,7 @@ const data = [
   {
     "shopName": "카페이월",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 260-23",
     "roadAddress": "서울특별시 강북구 삼양로124길 14-1",
     "lng": 127.016723,
@@ -21037,7 +21037,7 @@ const data = [
   {
     "shopName": "별커피호프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 147-6",
     "roadAddress": "서울특별시 구로구 도림로 94",
     "lng": 126.8935936,
@@ -21082,7 +21082,7 @@ const data = [
   {
     "shopName": "카페엘팡",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 711-3",
     "roadAddress": "서울특별시 강남구 언주로 420",
     "lng": 127.0442788,
@@ -21091,7 +21091,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "은평뉴타운점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 65",
     "roadAddress": "서울특별시 은평구 진관3로 21",
     "lng": 126.9189791,
@@ -21118,7 +21118,7 @@ const data = [
   {
     "shopName": "아쿠아리어스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 359-86",
     "roadAddress": "서울특별시 강서구 가로공원로76길 106",
     "lng": 126.8389491,
@@ -21127,7 +21127,7 @@ const data = [
   {
     "shopName": "민쓰커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 662-16",
     "roadAddress": "서울특별시 강서구 화곡로61길 64",
     "lng": 126.8488994,
@@ -21136,7 +21136,7 @@ const data = [
   {
     "shopName": "파이오니어커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 595",
     "roadAddress": "서울특별시 강동구 올림픽로 572",
     "lng": 127.121765,
@@ -21145,7 +21145,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "포에버24시무인",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 용두동 219-4",
     "roadAddress": "서울특별시 동대문구 왕산로9길 31",
     "lng": 127.0274951,
@@ -21217,7 +21217,7 @@ const data = [
   {
     "shopName": "붕붕이커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 409-43",
     "roadAddress": "서울특별시 강서구 초록마을로32길 21-42",
     "lng": 126.8461419,
@@ -21244,7 +21244,7 @@ const data = [
   {
     "shopName": "아재커피",
     "branchName": "충정로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 중림동 500",
     "roadAddress": "서울특별시 중구 서소문로 38",
     "lng": 126.9662021,
@@ -21262,7 +21262,7 @@ const data = [
   {
     "shopName": "산체스커피",
     "branchName": "양재점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 264-13",
     "roadAddress": "서울특별시 서초구 마방로10길 18-28",
     "lng": 127.0427129,
@@ -21271,7 +21271,7 @@ const data = [
   {
     "shopName": "디저트카페마루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 193-38",
     "roadAddress": "서울특별시 중랑구 겸재로 71",
     "lng": 127.0758357,
@@ -21298,7 +21298,7 @@ const data = [
   {
     "shopName": "합정빵다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 합정동 367-8",
     "roadAddress": "서울특별시 마포구 토정로3길 22",
     "lng": 126.9145531,
@@ -21334,7 +21334,7 @@ const data = [
   {
     "shopName": "설빙",
     "branchName": "고24대흥점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 대흥동 8-1",
     "roadAddress": "서울특별시 마포구 숭문길 143",
     "lng": 126.9464918,
@@ -21343,7 +21343,7 @@ const data = [
   {
     "shopName": "매머드익스프레스커피",
     "branchName": "노원롯데점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 716",
     "roadAddress": "서울특별시 노원구 노해로 485",
     "lng": 127.0619043,
@@ -21379,7 +21379,7 @@ const data = [
   {
     "shopName": "작은창고21",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 179-42",
     "roadAddress": "서울특별시 중랑구 동일로101길 11-21",
     "lng": 127.0791789,
@@ -21388,7 +21388,7 @@ const data = [
   {
     "shopName": "커파커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 역촌동 25-30",
     "roadAddress": "서울특별시 은평구 진흥로9길 21",
     "lng": 126.9199527,
@@ -21424,7 +21424,7 @@ const data = [
   {
     "shopName": "커피클리닉",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 32-1",
     "roadAddress": "서울특별시 서초구 고무래로 32",
     "lng": 127.0122077,
@@ -21433,7 +21433,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "가오리역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 605-373",
     "roadAddress": "서울특별시 강북구 삼각산로 108",
     "lng": 127.0161485,
@@ -21451,7 +21451,7 @@ const data = [
   {
     "shopName": "인스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 193-27",
     "roadAddress": "서울특별시 강남구 논현로111길 22",
     "lng": 127.0316864,
@@ -21478,7 +21478,7 @@ const data = [
   {
     "shopName": "88-1커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 88-1",
     "roadAddress": "서울특별시 송파구 중대로9길 33",
     "lng": 127.1183696,
@@ -21532,7 +21532,7 @@ const data = [
   {
     "shopName": "광자커피",
     "branchName": "천호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 334-9",
     "roadAddress": "서울특별시 강동구 올림픽로77길 14",
     "lng": 127.1240195,
@@ -21541,7 +21541,7 @@ const data = [
   {
     "shopName": "카페운",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 효창동 286-1",
     "roadAddress": "서울특별시 용산구 백범로51길 6",
     "lng": 126.9591906,
@@ -21550,7 +21550,7 @@ const data = [
   {
     "shopName": "둘리커피호프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 묵동 239-169",
     "roadAddress": "서울특별시 중랑구 동일로 909",
     "lng": 127.0772418,
@@ -21604,7 +21604,7 @@ const data = [
   {
     "shopName": "더벤티",
     "branchName": "목동하이스트점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 408-40",
     "roadAddress": "서울특별시 양천구 목동서로 250",
     "lng": 126.8693295,
@@ -21631,7 +21631,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "신정네거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 1031-1",
     "roadAddress": "서울특별시 양천구 중앙로 276",
     "lng": 126.8528642,
@@ -21640,7 +21640,7 @@ const data = [
   {
     "shopName": "커피포유",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 행당동 306-16",
     "roadAddress": "서울특별시 성동구 행당로15길 15-14",
     "lng": 127.0308682,
@@ -21658,7 +21658,7 @@ const data = [
   {
     "shopName": "커피이레",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 829-2",
     "roadAddress": "서울특별시 강서구 금낭화로 287-10",
     "lng": 126.8118398,
@@ -21685,7 +21685,7 @@ const data = [
   {
     "shopName": "비터커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 길동 103",
     "roadAddress": "서울특별시 강동구 명일로 229",
     "lng": 127.1463995,
@@ -21703,7 +21703,7 @@ const data = [
   {
     "shopName": "카페동네",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 372-19",
     "roadAddress": "서울특별시 강서구 월정로32길 35",
     "lng": 126.8372393,
@@ -21721,7 +21721,7 @@ const data = [
   {
     "shopName": "영다방",
     "branchName": "중화역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 중화동 312-1",
     "roadAddress": "서울특별시 중랑구 봉화산로 30",
     "lng": 127.0775473,
@@ -21739,7 +21739,7 @@ const data = [
   {
     "shopName": "알리바바커피",
     "branchName": "답십리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 3-11",
     "roadAddress": "서울특별시 동대문구 답십리로 226",
     "lng": 127.0653481,
@@ -21748,7 +21748,7 @@ const data = [
   {
     "shopName": "나우커피",
     "branchName": "서울상암점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1680",
     "roadAddress": "서울특별시 마포구 월드컵로42길 40",
     "lng": 126.8807212,
@@ -21757,7 +21757,7 @@ const data = [
   {
     "shopName": "매머드익스프레스우장산",
     "branchName": "롯데캐슬점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1145",
     "roadAddress": "서울특별시 강서구 공항대로 382",
     "lng": 126.8495351,
@@ -21766,7 +21766,7 @@ const data = [
   {
     "shopName": "카페안온",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 노고산동 31-72",
     "roadAddress": "서울특별시 마포구 고산길 19",
     "lng": 126.9381591,
@@ -21775,7 +21775,7 @@ const data = [
   {
     "shopName": "심풀",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 77-2",
     "roadAddress": "서울특별시 강남구 학동로33길 40",
     "lng": 127.0322591,
@@ -21820,7 +21820,7 @@ const data = [
   {
     "shopName": "펠어커피잠실본동",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 228-7",
     "roadAddress": "서울특별시 송파구 올림픽로12길 62",
     "lng": 127.0829278,
@@ -21874,7 +21874,7 @@ const data = [
   {
     "shopName": "설래임엔씨",
     "branchName": "강서점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 689",
     "roadAddress": "서울특별시 강서구 강서로56길 17",
     "lng": 126.8404826,
@@ -21892,7 +21892,7 @@ const data = [
   {
     "shopName": "자휴정",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도1동 407-6",
     "roadAddress": "서울특별시 동작구 상도로47가길 28",
     "lng": 126.9508237,
@@ -21910,7 +21910,7 @@ const data = [
   {
     "shopName": "8PLUS",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 1150",
     "roadAddress": "서울특별시 금천구 벚꽃로 30",
     "lng": 126.8936201,
@@ -21928,7 +21928,7 @@ const data = [
   {
     "shopName": "르가든",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로6가 17-2",
     "roadAddress": "서울특별시 중구 장충단로13길 20",
     "lng": 127.0076538,
@@ -21946,7 +21946,7 @@ const data = [
   {
     "shopName": "히코코",
     "branchName": "잠실롯데마트점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 40-1",
     "roadAddress": "서울특별시 송파구 송파대로 521",
     "lng": 127.0981244,
@@ -21964,7 +21964,7 @@ const data = [
   {
     "shopName": "매머드익스프레스봉은사로",
     "branchName": "선정릉점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 114-1",
     "roadAddress": "서울특별시 강남구 봉은사로 438",
     "lng": 127.0478244,
@@ -22009,7 +22009,7 @@ const data = [
   {
     "shopName": "더스몰리스트커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 467-44",
     "roadAddress": "서울특별시 동대문구 사가정로 35",
     "lng": 127.0510512,
@@ -22018,7 +22018,7 @@ const data = [
   {
     "shopName": "닉슈타인커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 둔촌동 63-2",
     "roadAddress": "서울특별시 강동구 천호대로 1178",
     "lng": 127.1423108,
@@ -22027,7 +22027,7 @@ const data = [
   {
     "shopName": "올웨더",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 124-6",
     "roadAddress": "서울특별시 서대문구 연희로15길 43",
     "lng": 126.9298787,
@@ -22036,7 +22036,7 @@ const data = [
   {
     "shopName": "나를위한하루날위한커피",
     "branchName": "사당점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 68-1",
     "roadAddress": "서울특별시 동작구 동작대로35길 53",
     "lng": 126.9797449,
@@ -22045,7 +22045,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "수락중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 1118",
     "roadAddress": "서울특별시 노원구 동일로 1651",
     "lng": 127.0549958,
@@ -22054,7 +22054,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "당산중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동5가 42",
     "roadAddress": "서울특별시 영등포구 당산로 214",
     "lng": 126.9028131,
@@ -22072,7 +22072,7 @@ const data = [
   {
     "shopName": "가비노",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 133-13",
     "roadAddress": "서울특별시 서대문구 연희로15안길 2",
     "lng": 126.9305883,
@@ -22081,7 +22081,7 @@ const data = [
   {
     "shopName": "링동",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 83-19",
     "roadAddress": "서울특별시 광진구 긴고랑로36길 42",
     "lng": 127.0904038,
@@ -22090,7 +22090,7 @@ const data = [
   {
     "shopName": "온실커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 436-10",
     "roadAddress": "서울특별시 서초구 방배천로2안길 118",
     "lng": 126.9841846,
@@ -22117,7 +22117,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피대림사거리점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 990-4",
     "roadAddress": "서울특별시 영등포구 시흥대로 629",
     "lng": 126.9056437,
@@ -22126,7 +22126,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "중화역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 중화동 305-45",
     "roadAddress": "서울특별시 중랑구 봉화산로 39",
     "lng": 127.0785967,
@@ -22135,7 +22135,7 @@ const data = [
   {
     "shopName": "온오프커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 남영동 3-1",
     "roadAddress": "서울특별시 용산구 두텁바위로 12",
     "lng": 126.9733612,
@@ -22162,7 +22162,7 @@ const data = [
   {
     "shopName": "장수카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 65-3",
     "roadAddress": "서울특별시 광진구 군자로 142-4",
     "lng": 127.0751887,
@@ -22171,7 +22171,7 @@ const data = [
   {
     "shopName": "히시커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 398-20",
     "roadAddress": "서울특별시 영등포구 당산로29길 3",
     "lng": 126.8947594,
@@ -22180,7 +22180,7 @@ const data = [
   {
     "shopName": "토핑듬뿍대왕커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 955-51",
     "roadAddress": "서울특별시 관악구 은천로5길 7",
     "lng": 126.937978,
@@ -22198,7 +22198,7 @@ const data = [
   {
     "shopName": "업.사이드커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 16-9",
     "roadAddress": "서울특별시 성동구 성수일로 45",
     "lng": 127.0495057,
@@ -22207,7 +22207,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "종암사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 종암동 80-1",
     "roadAddress": "서울특별시 성북구 종암로27길 13",
     "lng": 127.0314165,
@@ -22216,7 +22216,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "장안중랑천점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 350-3",
     "roadAddress": "서울특별시 동대문구 장한로18길 32",
     "lng": 127.0707548,
@@ -22225,7 +22225,7 @@ const data = [
   {
     "shopName": "더벤티",
     "branchName": "강서구청사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 656",
     "roadAddress": "서울특별시 강서구 화곡로64길 2",
     "lng": 126.8535506,
@@ -22234,7 +22234,7 @@ const data = [
   {
     "shopName": "만리커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 공덕동 118",
     "roadAddress": "서울특별시 마포구 마포대로14길 20",
     "lng": 126.9567285,
@@ -22243,7 +22243,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피한남오거리점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 78-10",
     "roadAddress": "서울특별시 용산구 한남대로21길 33",
     "lng": 127.0065839,
@@ -22252,7 +22252,7 @@ const data = [
   {
     "shopName": "메가MGC커피상일",
     "branchName": "고덕점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 상일동 521",
     "roadAddress": "서울특별시 강동구 상일로 55",
     "lng": 127.1687729,
@@ -22261,7 +22261,7 @@ const data = [
   {
     "shopName": "커피모이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 72-8",
     "roadAddress": "서울특별시 중랑구 겸재로50길 31",
     "lng": 127.0920486,
@@ -22279,7 +22279,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "위례포레샤인점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 거여동 651",
     "roadAddress": "서울특별시 송파구 위례송파로 123",
     "lng": 127.1477797,
@@ -22306,7 +22306,7 @@ const data = [
   {
     "shopName": "카페반월",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 645",
     "roadAddress": "서울특별시 송파구 법원로11길 25",
     "lng": 127.1162166,
@@ -22315,7 +22315,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "도로로",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 424-28",
     "roadAddress": "서울특별시 서초구 방배천로18길 11",
     "lng": 126.9830911,
@@ -22324,7 +22324,7 @@ const data = [
   {
     "shopName": "돌마리커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 석촌동 219-6",
     "roadAddress": "서울특별시 송파구 백제고분로34길 34",
     "lng": 127.0986519,
@@ -22333,7 +22333,7 @@ const data = [
   {
     "shopName": "브레댄코",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 문래동3가 55-3",
     "roadAddress": "서울특별시 영등포구 당산로 42",
     "lng": 126.8958677,
@@ -22342,7 +22342,7 @@ const data = [
   {
     "shopName": "볼랫",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 530-17",
     "roadAddress": "서울특별시 동대문구 황물로 168",
     "lng": 127.0562393,
@@ -22351,7 +22351,7 @@ const data = [
   {
     "shopName": "펀",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 358-50",
     "roadAddress": "서울특별시 마포구 와우산로21길 36-8",
     "lng": 126.9220457,
@@ -22369,7 +22369,7 @@ const data = [
   {
     "shopName": "먼슬리커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 622",
     "roadAddress": "서울특별시 송파구 충민로 5",
     "lng": 127.1192241,
@@ -22378,7 +22378,7 @@ const data = [
   {
     "shopName": "킁킁커피",
     "branchName": "목동1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 782-3",
     "roadAddress": "서울특별시 양천구 목동중앙남로3길 63",
     "lng": 126.864078,
@@ -22387,7 +22387,7 @@ const data = [
   {
     "shopName": "니어커피컴퍼니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 1155",
     "roadAddress": "서울특별시 금천구 시흥대로 291",
     "lng": 126.8972251,
@@ -22414,7 +22414,7 @@ const data = [
   {
     "shopName": "헤비커피드링커",
     "branchName": "마포구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 성산동 590-2",
     "roadAddress": "서울특별시 마포구 월드컵로36길 18",
     "lng": 126.9035134,
@@ -22423,7 +22423,7 @@ const data = [
   {
     "shopName": "아띠커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 955-17",
     "roadAddress": "서울특별시 동대문구 황물로15길 32",
     "lng": 127.0585611,
@@ -22432,7 +22432,7 @@ const data = [
   {
     "shopName": "카페토브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 대흥동 28-45",
     "roadAddress": "서울특별시 마포구 대흥로 156",
     "lng": 126.9462378,
@@ -22441,7 +22441,7 @@ const data = [
   {
     "shopName": "텐퍼센트커피가산W센터점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 371-106",
     "roadAddress": "서울특별시 금천구 가산디지털1로 181",
     "lng": 126.8803768,
@@ -22450,7 +22450,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "언덕길",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 534-194",
     "roadAddress": "서울특별시 노원구 월계로44가길 40",
     "lng": 127.0542049,
@@ -22459,7 +22459,7 @@ const data = [
   {
     "shopName": "봉스세상의커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 960-4",
     "roadAddress": "서울특별시 영등포구 시흥대로 671",
     "lng": 126.908133,
@@ -22468,7 +22468,7 @@ const data = [
   {
     "shopName": "봄길",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 320-19",
     "roadAddress": "서울특별시 강동구 천호옛길 15",
     "lng": 127.1212157,
@@ -22495,7 +22495,7 @@ const data = [
   {
     "shopName": "카페브이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 662-4",
     "roadAddress": "서울특별시 강남구 언주로172길 51",
     "lng": 127.038029,
@@ -22504,7 +22504,7 @@ const data = [
   {
     "shopName": "스윗플로어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 492-3",
     "roadAddress": "서울특별시 도봉구 우이천로 483",
     "lng": 127.0154438,
@@ -22513,7 +22513,7 @@ const data = [
   {
     "shopName": "인카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 1265",
     "roadAddress": "서울특별시 구로구 도림로 59",
     "lng": 126.8896179,
@@ -22522,7 +22522,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "배봉사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 111-8",
     "roadAddress": "서울특별시 동대문구 한천로 189",
     "lng": 127.0678627,
@@ -22531,7 +22531,7 @@ const data = [
   {
     "shopName": "분카샤롯데월드몰점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 29",
     "roadAddress": "서울특별시 송파구 올림픽로 300",
     "lng": 127.1042839,
@@ -22540,7 +22540,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "차이장위뉴타운점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 장위동 216-2",
     "roadAddress": "서울특별시 성북구 돌곶이로 211",
     "lng": 127.0462661,
@@ -22549,7 +22549,7 @@ const data = [
   {
     "shopName": "커피인류",
     "branchName": "강남구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 7-3",
     "roadAddress": "서울특별시 강남구 선릉로130길 20",
     "lng": 127.0433221,
@@ -22567,7 +22567,7 @@ const data = [
   {
     "shopName": "호말커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 행당동 19-104",
     "roadAddress": "서울특별시 성동구 마조로 15-16",
     "lng": 127.0401345,
@@ -22576,7 +22576,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "공릉중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 338-26",
     "roadAddress": "서울특별시 노원구 공릉로 137",
     "lng": 127.0790663,
@@ -22585,7 +22585,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "난곡우체국사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1680-24",
     "roadAddress": "서울특별시 관악구 난곡로 264",
     "lng": 126.9156533,
@@ -22603,7 +22603,7 @@ const data = [
   {
     "shopName": "텐퍼센트커피",
     "branchName": "공덕점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 공덕동 385-65",
     "roadAddress": "서울특별시 마포구 백범로31길 7",
     "lng": 126.9487923,
@@ -22612,7 +22612,7 @@ const data = [
   {
     "shopName": "0125커피바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍은동 9-56",
     "roadAddress": "서울특별시 서대문구 홍은중앙로 110-2",
     "lng": 126.9489246,
@@ -22621,7 +22621,7 @@ const data = [
   {
     "shopName": "24시무인카페만월경",
     "branchName": "길동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 길동 137-2",
     "roadAddress": "서울특별시 강동구 명일로 200-33",
     "lng": 127.1474882,
@@ -22639,7 +22639,7 @@ const data = [
   {
     "shopName": "쏘티커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 대방동 17-12",
     "roadAddress": "서울특별시 동작구 등용로 91",
     "lng": 126.9320011,
@@ -22657,7 +22657,7 @@ const data = [
   {
     "shopName": "보통커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1445-3",
     "roadAddress": "서울특별시 서초구 효령로 304",
     "lng": 127.0177891,
@@ -22684,7 +22684,7 @@ const data = [
   {
     "shopName": "달리는커피",
     "branchName": "강북구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 188-4",
     "roadAddress": "서울특별시 강북구 노해로 76",
     "lng": 127.0225738,
@@ -22711,7 +22711,7 @@ const data = [
   {
     "shopName": "날쌘카페",
     "branchName": "수유점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 번동 460-15",
     "roadAddress": "서울특별시 강북구 한천로124가길 29",
     "lng": 127.0307699,
@@ -22729,7 +22729,7 @@ const data = [
   {
     "shopName": "행복한단백질행단",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 마장동 388-18",
     "roadAddress": "서울특별시 성동구 마조로 58",
     "lng": 127.0418936,
@@ -22738,7 +22738,7 @@ const data = [
   {
     "shopName": "테이퍼드커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 등촌동 628-18",
     "roadAddress": "서울특별시 강서구 화곡로68길 47",
     "lng": 126.8567756,
@@ -22756,7 +22756,7 @@ const data = [
   {
     "shopName": "512coffee",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 용두동 129-85",
     "roadAddress": "서울특별시 동대문구 무학로 92-14",
     "lng": 127.0311416,
@@ -22765,7 +22765,7 @@ const data = [
   {
     "shopName": "브라운핸즈창비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 475-34",
     "roadAddress": "서울특별시 마포구 월드컵로12길 7",
     "lng": 126.9114483,
@@ -22774,7 +22774,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피고덕래미안점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 고덕동 688",
     "roadAddress": "서울특별시 강동구 아리수로50길 50",
     "lng": 127.1485777,
@@ -22783,7 +22783,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "송파방이시장점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 111-14",
     "roadAddress": "서울특별시 송파구 백제고분로48길 8",
     "lng": 127.1140376,
@@ -22819,7 +22819,7 @@ const data = [
   {
     "shopName": "카페샤르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 759-1",
     "roadAddress": "서울특별시 강서구 마곡서로 152",
     "lng": 126.8256231,
@@ -22837,7 +22837,7 @@ const data = [
   {
     "shopName": "카페쿼리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 하계동 72-18",
     "roadAddress": "서울특별시 노원구 공릉로58길 122",
     "lng": 127.0750572,
@@ -22846,7 +22846,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "구일역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 685-155",
     "roadAddress": "서울특별시 구로구 구일로8길 56",
     "lng": 126.8740805,
@@ -22891,7 +22891,7 @@ const data = [
   {
     "shopName": "커피홀",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 종로6가 289-57",
     "roadAddress": "서울특별시 종로구 종로 272",
     "lng": 127.0080789,
@@ -22900,7 +22900,7 @@ const data = [
   {
     "shopName": "인생카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 851",
     "roadAddress": "서울특별시 구로구 디지털로 242",
     "lng": 126.8926642,
@@ -22909,7 +22909,7 @@ const data = [
   {
     "shopName": "디저트39",
     "branchName": "등촌역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 염창동 274-18",
     "roadAddress": "서울특별시 강서구 공항대로 531",
     "lng": 126.8654487,
@@ -22918,7 +22918,7 @@ const data = [
   {
     "shopName": "더벤티",
     "branchName": "코리아",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 방학동 665-17",
     "roadAddress": "서울특별시 도봉구 방학로 172",
     "lng": 127.0331886,
@@ -22927,7 +22927,7 @@ const data = [
   {
     "shopName": "트리플에이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 649-1",
     "roadAddress": "서울특별시 노원구 동일로 1554",
     "lng": 127.0575096,
@@ -22936,7 +22936,7 @@ const data = [
   {
     "shopName": "디저트앙",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 염리동 14-149",
     "roadAddress": "서울특별시 마포구 대흥로24길 24",
     "lng": 126.94764,
@@ -22990,7 +22990,7 @@ const data = [
   {
     "shopName": "텐퍼센트서초마제스타",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1498-5",
     "roadAddress": "서울특별시 서초구 서초대로38길 12",
     "lng": 127.0053652,
@@ -23008,7 +23008,7 @@ const data = [
   {
     "shopName": "디저트39",
     "branchName": "방배서래점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 797-12",
     "roadAddress": "서울특별시 서초구 동광로 95",
     "lng": 126.9926453,
@@ -23026,7 +23026,7 @@ const data = [
   {
     "shopName": "디저트39",
     "branchName": "중랑신내SKV1점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 신내동 821-2",
     "roadAddress": "서울특별시 중랑구 신내역로 111",
     "lng": 127.1128102,
@@ -23098,7 +23098,7 @@ const data = [
   {
     "shopName": "디저트39",
     "branchName": "구로디지털단지역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 1127-30",
     "roadAddress": "서울특별시 구로구 디지털로32가길 13",
     "lng": 126.8990378,
@@ -23152,7 +23152,7 @@ const data = [
   {
     "shopName": "요거트빌리지",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 명일동 328-10",
     "roadAddress": "서울특별시 강동구 구천면로 436",
     "lng": 127.1467428,
@@ -23179,7 +23179,7 @@ const data = [
   {
     "shopName": "까페인모아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 11-4",
     "roadAddress": "서울특별시 광진구 동일로18길 62",
     "lng": 127.0660396,
@@ -23287,7 +23287,7 @@ const data = [
   {
     "shopName": "이너스마일",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 140-162",
     "roadAddress": "서울특별시 노원구 한글비석로36길 82",
     "lng": 127.073424,
@@ -23296,7 +23296,7 @@ const data = [
   {
     "shopName": "코코버블티",
     "branchName": "명동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 명동1가 42-1",
     "roadAddress": "서울특별시 중구 명동7길 20",
     "lng": 126.9843903,
@@ -23305,7 +23305,7 @@ const data = [
   {
     "shopName": "파머스빈",
     "branchName": "선릉역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 702-13",
     "roadAddress": "서울특별시 강남구 테헤란로 313",
     "lng": 127.0452491,
@@ -23332,7 +23332,7 @@ const data = [
   {
     "shopName": "짐빠띠스리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 565",
     "roadAddress": "서울특별시 강동구 성내로14길 18",
     "lng": 127.1266021,
@@ -23341,7 +23341,7 @@ const data = [
   {
     "shopName": "앤선커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 105-13",
     "roadAddress": "서울특별시 송파구 오금로17길 4-7",
     "lng": 127.1117907,
@@ -23404,7 +23404,7 @@ const data = [
   {
     "shopName": "커스텀커피",
     "branchName": "대치점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 623",
     "roadAddress": "서울특별시 강남구 남부순환로 2921",
     "lng": 127.0597536,
@@ -23440,7 +23440,7 @@ const data = [
   {
     "shopName": "더히어로",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 7-28",
     "roadAddress": "서울특별시 송파구 올림픽로 293-19",
     "lng": 127.1024898,
@@ -23449,7 +23449,7 @@ const data = [
   {
     "shopName": "어드밴스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 368-1",
     "roadAddress": "서울특별시 마포구 잔다리로6길 20",
     "lng": 126.9202324,
@@ -23458,7 +23458,7 @@ const data = [
   {
     "shopName": "플렉시블커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동4가 72",
     "roadAddress": "서울특별시 성북구 아리랑로4길 8",
     "lng": 127.0166087,
@@ -23476,7 +23476,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "그레이박스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 277-101",
     "roadAddress": "서울특별시 성동구 아차산로13길 16",
     "lng": 127.0613405,
@@ -23494,7 +23494,7 @@ const data = [
   {
     "shopName": "파프카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 13-18",
     "roadAddress": "서울특별시 성동구 상원12길 35",
     "lng": 127.0513027,
@@ -23503,7 +23503,7 @@ const data = [
   {
     "shopName": "곰단지GomdanG",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 83-4",
     "roadAddress": "서울특별시 송파구 새말로6길 15",
     "lng": 127.1270134,
@@ -23512,7 +23512,7 @@ const data = [
   {
     "shopName": "카페이루",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 520",
     "roadAddress": "서울특별시 강북구 삼각산로 58",
     "lng": 127.0103711,
@@ -23521,7 +23521,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "동양미래대학점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 고척동 76-153",
     "roadAddress": "서울특별시 구로구 중앙로6길 50",
     "lng": 126.8665497,
@@ -23530,7 +23530,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "이공일삼",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 마천동 82-5",
     "roadAddress": "서울특별시 송파구 마천로43길 36",
     "lng": 127.1504825,
@@ -23557,7 +23557,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피디에이치자이",
     "branchName": "개포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 일원동 743",
     "roadAddress": "서울특별시 강남구 영동대로 22",
     "lng": 127.0741452,
@@ -23575,7 +23575,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "강남구청역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 241-3",
     "roadAddress": "서울특별시 강남구 학동로 342",
     "lng": 127.0405828,
@@ -23584,7 +23584,7 @@ const data = [
   {
     "shopName": "매머드익스프레스청계",
     "branchName": "다동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 다동 70",
     "roadAddress": "서울특별시 중구 다동길 43",
     "lng": 126.9816022,
@@ -23593,7 +23593,7 @@ const data = [
   {
     "shopName": "카페컴온",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 쌍문동 321",
     "roadAddress": "서울특별시 도봉구 노해로 170",
     "lng": 127.0278531,
@@ -23602,7 +23602,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "인충전소",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 244-139",
     "roadAddress": "서울특별시 관악구 대학7길 51",
     "lng": 126.9405036,
@@ -23620,7 +23620,7 @@ const data = [
   {
     "shopName": "테이큰커피",
     "branchName": "노량진점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 119-16",
     "roadAddress": "서울특별시 동작구 노량진로16길 34",
     "lng": 126.9439621,
@@ -23629,7 +23629,7 @@ const data = [
   {
     "shopName": "해머스미스커피",
     "branchName": "역삼초교사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 834",
     "roadAddress": "서울특별시 강남구 역삼로 128",
     "lng": 127.0336475,
@@ -23638,7 +23638,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "중앙대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 흑석동 180-4",
     "roadAddress": "서울특별시 동작구 흑석로 115",
     "lng": 126.9614283,
@@ -23647,7 +23647,7 @@ const data = [
   {
     "shopName": "라보아르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 223-9",
     "roadAddress": "서울특별시 마포구 동교로51안길 24",
     "lng": 126.9241053,
@@ -23656,7 +23656,7 @@ const data = [
   {
     "shopName": "프롤라",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 272-35",
     "roadAddress": "서울특별시 성동구 연무장17길 5",
     "lng": 127.0609197,
@@ -23665,7 +23665,7 @@ const data = [
   {
     "shopName": "크림데이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 대림동 760-11",
     "roadAddress": "서울특별시 영등포구 도림로 189-1",
     "lng": 126.9019017,
@@ -23674,7 +23674,7 @@ const data = [
   {
     "shopName": "트다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 111-4",
     "roadAddress": "서울특별시 광진구 천호대로129길 51",
     "lng": 127.0918962,
@@ -23683,7 +23683,7 @@ const data = [
   {
     "shopName": "달보드레",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1091",
     "roadAddress": "서울특별시 강서구 화곡로13길 107",
     "lng": 126.8322257,
@@ -23692,7 +23692,7 @@ const data = [
   {
     "shopName": "콩카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 197-14",
     "roadAddress": "서울특별시 중구 퇴계로73길 54-37",
     "lng": 127.0145696,
@@ -23701,7 +23701,7 @@ const data = [
   {
     "shopName": "홀스베이크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 회기동 3-14",
     "roadAddress": "서울특별시 동대문구 회기로23길 20",
     "lng": 127.054466,
@@ -23710,7 +23710,7 @@ const data = [
   {
     "shopName": "설탕한스푼설렘두스푼",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 하계동 166-6",
     "roadAddress": "서울특별시 노원구 공릉로58나길 20-5",
     "lng": 127.0739172,
@@ -23719,7 +23719,7 @@ const data = [
   {
     "shopName": "하브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 503-16",
     "roadAddress": "서울특별시 동대문구 서울시립대로 72-2",
     "lng": 127.049009,
@@ -23728,7 +23728,7 @@ const data = [
   {
     "shopName": "플랜터PLANTER247",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동3가 247",
     "roadAddress": "서울특별시 성북구 보문로34가길 1",
     "lng": 127.0197722,
@@ -23737,7 +23737,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "건대동문회관점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 227-336",
     "roadAddress": "서울특별시 광진구 아차산로36길 5",
     "lng": 127.074625,
@@ -23764,7 +23764,7 @@ const data = [
   {
     "shopName": "브라운필",
     "branchName": "을지로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 초동 21-9",
     "roadAddress": "서울특별시 중구 마른내로 35",
     "lng": 126.9916879,
@@ -23773,7 +23773,7 @@ const data = [
   {
     "shopName": "꽁다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 840-30",
     "roadAddress": "서울특별시 금천구 독산로21길 26",
     "lng": 126.9046599,
@@ -23782,7 +23782,7 @@ const data = [
   {
     "shopName": "카페파브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 236-16",
     "roadAddress": "서울특별시 동작구 솔밭로 59",
     "lng": 126.9663795,
@@ -23791,7 +23791,7 @@ const data = [
   {
     "shopName": "매머드커피익스프레스삼성역현대GBC점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 169-10",
     "roadAddress": "서울특별시 강남구 테헤란로107길 11",
     "lng": 127.0650384,
@@ -23809,7 +23809,7 @@ const data = [
   {
     "shopName": "루시드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상수동 325-2",
     "roadAddress": "서울특별시 마포구 독막로14길 24",
     "lng": 126.9221792,
@@ -23827,7 +23827,7 @@ const data = [
   {
     "shopName": "어굿이어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 연희동 128-26",
     "roadAddress": "서울특별시 서대문구 연희로11나길 7-5",
     "lng": 126.9282412,
@@ -23836,7 +23836,7 @@ const data = [
   {
     "shopName": "마미카롱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 11-9",
     "roadAddress": "서울특별시 송파구 올림픽로35가길 11",
     "lng": 127.1039807,
@@ -23854,7 +23854,7 @@ const data = [
   {
     "shopName": "달보드레",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1114-22",
     "roadAddress": "서울특별시 강서구 까치산로 191",
     "lng": 126.853993,
@@ -23863,7 +23863,7 @@ const data = [
   {
     "shopName": "설빙",
     "branchName": "강남세곡점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 세곡동 581",
     "roadAddress": "서울특별시 강남구 헌릉로 569",
     "lng": 127.1012154,
@@ -23872,7 +23872,7 @@ const data = [
   {
     "shopName": "로스팅마스터즈",
     "branchName": "공덕점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 염리동 159-2",
     "roadAddress": "서울특별시 마포구 백범로26길 2",
     "lng": 126.946148,
@@ -23881,7 +23881,7 @@ const data = [
   {
     "shopName": "가비엔누리",
     "branchName": "용산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 원효로3가 49-6",
     "roadAddress": "서울특별시 용산구 원효로 152",
     "lng": 126.9599547,
@@ -23899,7 +23899,7 @@ const data = [
   {
     "shopName": "디어원밀",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 삼선동4가 352-5",
     "roadAddress": "서울특별시 성북구 보문로 184-6",
     "lng": 127.0151422,
@@ -23908,7 +23908,7 @@ const data = [
   {
     "shopName": "요거트월드",
     "branchName": "홍대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 창전동 5-74",
     "roadAddress": "서울특별시 마포구 와우산로30길 3",
     "lng": 126.930237,
@@ -23917,7 +23917,7 @@ const data = [
   {
     "shopName": "정성다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 동자동 43-21",
     "roadAddress": "서울특별시 용산구 한강대로 365",
     "lng": 126.9718316,
@@ -23926,7 +23926,7 @@ const data = [
   {
     "shopName": "크로플덕",
     "branchName": "영등포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 194-27",
     "roadAddress": "서울특별시 영등포구 영등포로64길 35",
     "lng": 126.9149564,
@@ -23935,7 +23935,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "쏭스디저트",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 신창동 82-13",
     "roadAddress": "서울특별시 용산구 효창원로23길 11",
     "lng": 126.9546432,
@@ -23953,7 +23953,7 @@ const data = [
   {
     "shopName": "카페휘낭",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 사직동 1-41",
     "roadAddress": "서울특별시 종로구 인왕산로 5",
     "lng": 126.9669532,
@@ -23962,7 +23962,7 @@ const data = [
   {
     "shopName": "더온도",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 555-3",
     "roadAddress": "서울특별시 강동구 올림픽로48길 31-31",
     "lng": 127.1221304,
@@ -23971,7 +23971,7 @@ const data = [
   {
     "shopName": "프렌치크로플",
     "branchName": "장안점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 403-14",
     "roadAddress": "서울특별시 동대문구 천호대로77나길 3",
     "lng": 127.0631092,
@@ -23980,7 +23980,7 @@ const data = [
   {
     "shopName": "다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신수동 85-15",
     "roadAddress": "서울특별시 마포구 광성로6길 34",
     "lng": 126.9389591,
@@ -23998,7 +23998,7 @@ const data = [
   {
     "shopName": "씨롱카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 498-5",
     "roadAddress": "서울특별시 동대문구 천호대로 247",
     "lng": 127.0498788,
@@ -24016,7 +24016,7 @@ const data = [
   {
     "shopName": "홀리빈스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 405-350",
     "roadAddress": "서울특별시 양천구 목동동로12길 15",
     "lng": 126.8729005,
@@ -24025,7 +24025,7 @@ const data = [
   {
     "shopName": "빙달",
     "branchName": "송파점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 74-13",
     "roadAddress": "서울특별시 송파구 송이로20길 4-18",
     "lng": 127.1204516,
@@ -24043,7 +24043,7 @@ const data = [
   {
     "shopName": "카페29",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 아현동 723-10",
     "roadAddress": "서울특별시 마포구 환일길 29",
     "lng": 126.9608926,
@@ -24052,7 +24052,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "영등포리드원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 550",
     "roadAddress": "서울특별시 영등포구 양산로 91",
     "lng": 126.8931095,
@@ -24061,7 +24061,7 @@ const data = [
   {
     "shopName": "코너드커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 12-15",
     "roadAddress": "서울특별시 강남구 도산대로12길 14",
     "lng": 127.0238609,
@@ -24070,7 +24070,7 @@ const data = [
   {
     "shopName": "우장산로스터리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동7가 94-79",
     "roadAddress": "서울특별시 영등포구 버드나루로12가길 2",
     "lng": 126.910193,
@@ -24079,7 +24079,7 @@ const data = [
   {
     "shopName": "24시무인카페만월경",
     "branchName": "시흥점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 794-11",
     "roadAddress": "서울특별시 금천구 독산로50길 90",
     "lng": 126.9091124,
@@ -24088,7 +24088,7 @@ const data = [
   {
     "shopName": "루히그",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 914-1",
     "roadAddress": "서울특별시 서초구 효령로25길 24",
     "lng": 126.9940891,
@@ -24106,7 +24106,7 @@ const data = [
   {
     "shopName": "흐룻",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 15-7",
     "roadAddress": "서울특별시 광진구 군자로 19",
     "lng": 127.071012,
@@ -24124,7 +24124,7 @@ const data = [
   {
     "shopName": "피에스타7커피",
     "branchName": "사당점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 1031-39",
     "roadAddress": "서울특별시 동작구 동작대로 39",
     "lng": 126.9814898,
@@ -24133,7 +24133,7 @@ const data = [
   {
     "shopName": "라젠후르츠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 108-3",
     "roadAddress": "서울특별시 강남구 언주로136길 27",
     "lng": 127.037708,
@@ -24142,7 +24142,7 @@ const data = [
   {
     "shopName": "헤이호미",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 221-36",
     "roadAddress": "서울특별시 강북구 노해로14길 7",
     "lng": 127.0231293,
@@ -24160,7 +24160,7 @@ const data = [
   {
     "shopName": "스웨이성수",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 685-337",
     "roadAddress": "서울특별시 성동구 서울숲2길 11-12",
     "lng": 127.040108,
@@ -24169,7 +24169,7 @@ const data = [
   {
     "shopName": "토리만쥬",
     "branchName": "용산역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로3가 40-999",
     "roadAddress": "서울특별시 용산구 한강대로23길 55",
     "lng": 126.9647243,
@@ -24178,7 +24178,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "신풍역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 425-8",
     "roadAddress": "서울특별시 영등포구 대방천로 155",
     "lng": 126.9082894,
@@ -24196,7 +24196,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "곰달래사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 228-1",
     "roadAddress": "서울특별시 양천구 곰달래로 48",
     "lng": 126.8381756,
@@ -24205,7 +24205,7 @@ const data = [
   {
     "shopName": "에페소커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 수색동 361-3",
     "roadAddress": "서울특별시 은평구 수색로18길 5",
     "lng": 126.8937443,
@@ -24214,7 +24214,7 @@ const data = [
   {
     "shopName": "크앙",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 222-48",
     "roadAddress": "서울특별시 동작구 만양로12길 6-2",
     "lng": 126.9457724,
@@ -24223,7 +24223,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "아뜰리에",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 448-5",
     "roadAddress": "서울특별시 서초구 방배천로4길 48",
     "lng": 126.9850879,
@@ -24241,7 +24241,7 @@ const data = [
   {
     "shopName": "선물",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1639-5",
     "roadAddress": "서울특별시 관악구 관천로 42",
     "lng": 126.927248,
@@ -24286,7 +24286,7 @@ const data = [
   {
     "shopName": "프로틴카페H247",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 80-23",
     "roadAddress": "서울특별시 강남구 논현로136길 3",
     "lng": 127.0303209,
@@ -24304,7 +24304,7 @@ const data = [
   {
     "shopName": "컨트롤브이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 135-6",
     "roadAddress": "서울특별시 강남구 학동로20길 12",
     "lng": 127.0281285,
@@ -24331,7 +24331,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "희다역삼점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 728-21",
     "roadAddress": "서울특별시 강남구 역삼로25길 16",
     "lng": 127.0397558,
@@ -24376,7 +24376,7 @@ const data = [
   {
     "shopName": "카페오름",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1735-10",
     "roadAddress": "서울특별시 관악구 난곡로 38",
     "lng": 126.920994,
@@ -24385,7 +24385,7 @@ const data = [
   {
     "shopName": "24시무인카페만월경",
     "branchName": "상계점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 1090-5",
     "roadAddress": "서울특별시 노원구 동일로237길 70",
     "lng": 127.0513324,
@@ -24394,7 +24394,7 @@ const data = [
   {
     "shopName": "초록카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 도봉동 568-48",
     "roadAddress": "서울특별시 도봉구 도봉로181길 38",
     "lng": 127.0437667,
@@ -24403,7 +24403,7 @@ const data = [
   {
     "shopName": "제이원플러스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 737-9",
     "roadAddress": "서울특별시 서초구 강남대로 491",
     "lng": 127.0232557,
@@ -24412,7 +24412,7 @@ const data = [
   {
     "shopName": "만월경성내",
     "branchName": "2동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 504-8",
     "roadAddress": "서울특별시 강동구 풍성로45길 53",
     "lng": 127.131233,
@@ -24421,7 +24421,7 @@ const data = [
   {
     "shopName": "라임카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1680-1",
     "roadAddress": "서울특별시 서초구 서초대로 357",
     "lng": 127.0204665,
@@ -24430,7 +24430,7 @@ const data = [
   {
     "shopName": "더카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 800-1",
     "roadAddress": "서울특별시 강서구 공항대로 212",
     "lng": 126.8307769,
@@ -24439,7 +24439,7 @@ const data = [
   {
     "shopName": "와츠폴",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 마장동 797-75",
     "roadAddress": "서울특별시 성동구 마조로15길 16",
     "lng": 127.0399568,
@@ -24448,7 +24448,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "센트럴",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 732-21",
     "roadAddress": "서울특별시 용산구 우사단로10길 39",
     "lng": 126.9975913,
@@ -24457,7 +24457,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피논현아크로힐스점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 276-1",
     "roadAddress": "서울특별시 강남구 언주로 604",
     "lng": 127.0383787,
@@ -24466,7 +24466,7 @@ const data = [
   {
     "shopName": "엘마르조",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 회기동 54-61",
     "roadAddress": "서울특별시 동대문구 회기로23길 59",
     "lng": 127.0557778,
@@ -24475,7 +24475,7 @@ const data = [
   {
     "shopName": "애틱인서울하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 405-334",
     "roadAddress": "서울특별시 양천구 오목로54길 9",
     "lng": 126.8734313,
@@ -24484,7 +24484,7 @@ const data = [
   {
     "shopName": "이정컴퍼니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로2가 132",
     "roadAddress": "서울특별시 용산구 한강대로 126-3",
     "lng": 126.9698146,
@@ -24493,7 +24493,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "문정역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 643-1",
     "roadAddress": "서울특별시 송파구 법원로 114",
     "lng": 127.1209979,
@@ -24502,7 +24502,7 @@ const data = [
   {
     "shopName": "뚜카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 96-12",
     "roadAddress": "서울특별시 관악구 서림길 30",
     "lng": 126.9379202,
@@ -24511,7 +24511,7 @@ const data = [
   {
     "shopName": "그린코너",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로3가 40-480",
     "roadAddress": "서울특별시 용산구 한강대로11길 26",
     "lng": 126.9623605,
@@ -24520,7 +24520,7 @@ const data = [
   {
     "shopName": "씨씨디CCD",
     "branchName": "구로디지털점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 170-10",
     "roadAddress": "서울특별시 구로구 디지털로33길 48",
     "lng": 126.8944921,
@@ -24529,7 +24529,7 @@ const data = [
   {
     "shopName": "357텐",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 271-21",
     "roadAddress": "서울특별시 강남구 선릉로111길 36",
     "lng": 127.040518,
@@ -24538,7 +24538,7 @@ const data = [
   {
     "shopName": "핑크레이디",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 압구정동 369-1",
     "roadAddress": "서울특별시 강남구 압구정로29길 71",
     "lng": 127.0283048,
@@ -24547,7 +24547,7 @@ const data = [
   {
     "shopName": "종이꽃",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 성산동 277-1",
     "roadAddress": "서울특별시 마포구 성산로2길 21",
     "lng": 126.9062938,
@@ -24556,7 +24556,7 @@ const data = [
   {
     "shopName": "요거하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 241-48",
     "roadAddress": "서울특별시 마포구 성미산로29길 34",
     "lng": 126.9219976,
@@ -24565,7 +24565,7 @@ const data = [
   {
     "shopName": "헤라스컴퍼니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 29",
     "roadAddress": "서울특별시 송파구 올림픽로 300",
     "lng": 127.1042839,
@@ -24574,7 +24574,7 @@ const data = [
   {
     "shopName": "더아담수서역",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 수서동 728",
     "roadAddress": "서울특별시 강남구 광평로 270",
     "lng": 127.1018383,
@@ -24583,7 +24583,7 @@ const data = [
   {
     "shopName": "망티커피",
     "branchName": "성수점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 301-7",
     "roadAddress": "서울특별시 성동구 연무장3길 17",
     "lng": 127.0517044,
@@ -24592,7 +24592,7 @@ const data = [
   {
     "shopName": "멜팅쿠키하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 919-17",
     "roadAddress": "서울특별시 강남구 선릉로68길 25",
     "lng": 127.0537289,
@@ -24601,7 +24601,7 @@ const data = [
   {
     "shopName": "필링필링",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 126-10",
     "roadAddress": "서울특별시 동작구 만양로18길 22",
     "lng": 126.9453875,
@@ -24610,7 +24610,7 @@ const data = [
   {
     "shopName": "크로플덕오리아가씨",
     "branchName": "구로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 개봉동 38-5",
     "roadAddress": "서울특별시 구로구 고척로21나길 38-4",
     "lng": 126.8436325,
@@ -24619,7 +24619,7 @@ const data = [
   {
     "shopName": "참팬트리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1533-14",
     "roadAddress": "서울특별시 관악구 호암로22길 31",
     "lng": 126.9344981,
@@ -24628,7 +24628,7 @@ const data = [
   {
     "shopName": "노베첸토",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 성북동 209-10",
     "roadAddress": "서울특별시 성북구 성북로23길 25-2",
     "lng": 126.9950506,
@@ -24637,7 +24637,7 @@ const data = [
   {
     "shopName": "푸드트립크로플",
     "branchName": "두타점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 을지로6가 18-12",
     "roadAddress": "서울특별시 중구 장충단로 275",
     "lng": 127.0087611,
@@ -24646,7 +24646,7 @@ const data = [
   {
     "shopName": "달빛스테이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 종암동 23-27",
     "roadAddress": "서울특별시 성북구 북악산로31길 39",
     "lng": 127.0347069,
@@ -24655,7 +24655,7 @@ const data = [
   {
     "shopName": "파란만잔",
     "branchName": "영등포구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 550",
     "roadAddress": "서울특별시 영등포구 양산로 91",
     "lng": 126.8931095,
@@ -24664,7 +24664,7 @@ const data = [
   {
     "shopName": "마닐마닐하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 776-2",
     "roadAddress": "서울특별시 강서구 양천로 344",
     "lng": 126.8403421,
@@ -24673,7 +24673,7 @@ const data = [
   {
     "shopName": "인잇",
     "branchName": "약수점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 신당동 340-80",
     "roadAddress": "서울특별시 중구 다산로 152",
     "lng": 127.0122217,
@@ -24682,7 +24682,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "홍제역해링턴점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 270-1",
     "roadAddress": "서울특별시 서대문구 세무서8길 30",
     "lng": 126.9469314,
@@ -24691,7 +24691,7 @@ const data = [
   {
     "shopName": "블루빈스커피",
     "branchName": "거여점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 거여동 202-180",
     "roadAddress": "서울특별시 송파구 거마로 56",
     "lng": 127.1472085,
@@ -24700,7 +24700,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "서울시청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 다동 59-2",
     "roadAddress": "서울특별시 중구 다동길 34",
     "lng": 126.9811437,
@@ -24709,7 +24709,7 @@ const data = [
   {
     "shopName": "벌크커피",
     "branchName": "방이점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 155-22",
     "roadAddress": "서울특별시 송파구 백제고분로50길 30-4",
     "lng": 127.117783,
@@ -24718,7 +24718,7 @@ const data = [
   {
     "shopName": "프라이빗",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 414-36",
     "roadAddress": "서울특별시 마포구 월드컵로23길 38",
     "lng": 126.9072476,
@@ -24727,7 +24727,7 @@ const data = [
   {
     "shopName": "크로플덕",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 476-26",
     "roadAddress": "서울특별시 마포구 방울내로 80-16",
     "lng": 126.9045445,
@@ -24736,7 +24736,7 @@ const data = [
   {
     "shopName": "스트랏",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 315-107",
     "roadAddress": "서울특별시 성동구 성수이로 93",
     "lng": 127.0565468,
@@ -24745,7 +24745,7 @@ const data = [
   {
     "shopName": "카페로와",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1036-21",
     "roadAddress": "서울특별시 강서구 화곡로21길 51",
     "lng": 126.8363755,
@@ -24754,7 +24754,7 @@ const data = [
   {
     "shopName": "99밀크티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 343-13",
     "roadAddress": "서울특별시 마포구 와우산로29가길 79",
     "lng": 126.9251553,
@@ -24763,7 +24763,7 @@ const data = [
   {
     "shopName": "파스쿠찌",
     "branchName": "신림역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1640-8",
     "roadAddress": "서울특별시 관악구 남부순환로 1608",
     "lng": 126.9291634,
@@ -24781,7 +24781,7 @@ const data = [
   {
     "shopName": "매머드익스프레스양재산기협점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 16-5",
     "roadAddress": "서울특별시 서초구 바우뫼로37길 36",
     "lng": 127.038922,
@@ -24790,7 +24790,7 @@ const data = [
   {
     "shopName": "반달커피",
     "branchName": "구로오류점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 오류동 6-64",
     "roadAddress": "서울특별시 구로구 고척로3길 13",
     "lng": 126.8400267,
@@ -24799,7 +24799,7 @@ const data = [
   {
     "shopName": "램커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1327-15",
     "roadAddress": "서울특별시 서초구 강남대로53길 8",
     "lng": 127.0280078,
@@ -24808,7 +24808,7 @@ const data = [
   {
     "shopName": "커피분의커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 782",
     "roadAddress": "서울특별시 강서구 마곡중앙8로5길 63",
     "lng": 126.8384094,
@@ -24817,7 +24817,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "상봉역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 상봉동 107-28",
     "roadAddress": "서울특별시 중랑구 면목로 478-1",
     "lng": 127.0861701,
@@ -24826,7 +24826,7 @@ const data = [
   {
     "shopName": "르데스크서초",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 902-2",
     "roadAddress": "서울특별시 서초구 방배로20길 8-6",
     "lng": 126.9954799,
@@ -24835,7 +24835,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "홍제삼거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 469",
     "roadAddress": "서울특별시 서대문구 통일로 397",
     "lng": 126.9473806,
@@ -24844,7 +24844,7 @@ const data = [
   {
     "shopName": "앨버트커피앤디저트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동7가 208",
     "roadAddress": "서울특별시 영등포구 국회대로50길 20",
     "lng": 126.9056623,
@@ -24853,7 +24853,7 @@ const data = [
   {
     "shopName": "마타사",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 도화동 1-352",
     "roadAddress": "서울특별시 마포구 새창로6나길 31",
     "lng": 126.9543605,
@@ -24862,7 +24862,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "헤세드",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 가양동 187-13",
     "roadAddress": "서울특별시 강서구 강서로 499",
     "lng": 126.8413317,
@@ -24871,7 +24871,7 @@ const data = [
   {
     "shopName": "루트비커피",
     "branchName": "왕십리역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 도선동 46",
     "roadAddress": "서울특별시 성동구 왕십리로 320",
     "lng": 127.0343496,
@@ -24880,7 +24880,7 @@ const data = [
   {
     "shopName": "유캔두잇",
     "branchName": "서초교대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1642-1",
     "roadAddress": "서울특별시 서초구 사임당로17길 68",
     "lng": 127.0169713,
@@ -24889,7 +24889,7 @@ const data = [
   {
     "shopName": "카페시월",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 488-11",
     "roadAddress": "서울특별시 마포구 성미산로 105",
     "lng": 126.9187089,
@@ -24898,7 +24898,7 @@ const data = [
   {
     "shopName": "카페위한",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 535-24",
     "roadAddress": "서울특별시 양천구 목동중앙북로16길 36",
     "lng": 126.8737408,
@@ -24907,7 +24907,7 @@ const data = [
   {
     "shopName": "갈마루북까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 갈현동 502-3",
     "roadAddress": "서울특별시 은평구 연서로27길 31-6",
     "lng": 126.9157589,
@@ -24916,7 +24916,7 @@ const data = [
   {
     "shopName": "매머드익스프레스역삼신일유토빌점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 735-11",
     "roadAddress": "서울특별시 강남구 논현로87길 41",
     "lng": 127.0335054,
@@ -24925,7 +24925,7 @@ const data = [
   {
     "shopName": "히어커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 328-8",
     "roadAddress": "서울특별시 서초구 강남대로10길 6",
     "lng": 127.0414301,
@@ -24934,7 +24934,7 @@ const data = [
   {
     "shopName": "매머드익스프레스",
     "branchName": "면목시장점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 341-40",
     "roadAddress": "서울특별시 중랑구 면목로33길 38",
     "lng": 127.0836831,
@@ -24943,7 +24943,7 @@ const data = [
   {
     "shopName": "오늘의기쁨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 874-14",
     "roadAddress": "서울특별시 관악구 봉천로 448",
     "lng": 126.9496196,
@@ -24952,7 +24952,7 @@ const data = [
   {
     "shopName": "비찰",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1636-61",
     "roadAddress": "서울특별시 관악구 신원로 10",
     "lng": 126.9280622,
@@ -24961,7 +24961,7 @@ const data = [
   {
     "shopName": "르데스크에프앤비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 44-17",
     "roadAddress": "서울특별시 용산구 녹사평대로32길 47",
     "lng": 126.9907748,
@@ -24970,7 +24970,7 @@ const data = [
   {
     "shopName": "카페비글",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신수동 89-6",
     "roadAddress": "서울특별시 마포구 광성로 36-1",
     "lng": 126.9370848,
@@ -24979,7 +24979,7 @@ const data = [
   {
     "shopName": "저스트단비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 366-8",
     "roadAddress": "서울특별시 마포구 잔다리로6길 30",
     "lng": 126.9208306,
@@ -25006,7 +25006,7 @@ const data = [
   {
     "shopName": "끽다느와",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 95",
     "roadAddress": "서울특별시 송파구 송파대로40길 6",
     "lng": 127.1098482,
@@ -25015,7 +25015,7 @@ const data = [
   {
     "shopName": "양양팥빙수",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 성산동 446",
     "roadAddress": "서울특별시 마포구 월드컵북로 233",
     "lng": 126.9031007,
@@ -25024,7 +25024,7 @@ const data = [
   {
     "shopName": "꾸따GGUDDA",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 198-5",
     "roadAddress": "서울특별시 강서구 양천로30길 76",
     "lng": 126.8226144,
@@ -25033,7 +25033,7 @@ const data = [
   {
     "shopName": "과일샵CAFE리치",
     "branchName": "서초점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1538-4",
     "roadAddress": "서울특별시 서초구 반포대로19길 10",
     "lng": 127.0090685,
@@ -25042,7 +25042,7 @@ const data = [
   {
     "shopName": "국민우유집",
     "branchName": "건대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 12-35",
     "roadAddress": "서울특별시 광진구 능동로13길 34",
     "lng": 127.0704875,
@@ -25051,7 +25051,7 @@ const data = [
   {
     "shopName": "해머스미스커피",
     "branchName": "서울시립대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 150-4",
     "roadAddress": "서울특별시 동대문구 서울시립대로 155",
     "lng": 127.0540326,
@@ -25060,7 +25060,7 @@ const data = [
   {
     "shopName": "요요일",
     "branchName": "마포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 창전동 33-18",
     "roadAddress": "서울특별시 마포구 서강로3길 45",
     "lng": 126.9296478,
@@ -25078,7 +25078,7 @@ const data = [
   {
     "shopName": "다온",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 망우동 444-26",
     "roadAddress": "서울특별시 중랑구 용마산로 458",
     "lng": 127.0984094,
@@ -25087,7 +25087,7 @@ const data = [
   {
     "shopName": "카페온도",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 종로1가 24",
     "roadAddress": "서울특별시 종로구 종로 19",
     "lng": 126.9799024,
@@ -25096,7 +25096,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "강동길동역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 길동 412-10",
     "roadAddress": "서울특별시 강동구 양재대로 1461",
     "lng": 127.1390209,
@@ -25105,7 +25105,7 @@ const data = [
   {
     "shopName": "무지개정원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 182-64",
     "roadAddress": "서울특별시 중랑구 동일로109길 69",
     "lng": 127.0763386,
@@ -25114,7 +25114,7 @@ const data = [
   {
     "shopName": "리키커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 공항동 41-78",
     "roadAddress": "서울특별시 강서구 공항대로8길 41",
     "lng": 126.8123564,
@@ -25123,7 +25123,7 @@ const data = [
   {
     "shopName": "퍼스트커피랩",
     "branchName": "서초점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1309",
     "roadAddress": "서울특별시 서초구 서초대로77길 61",
     "lng": 127.0236646,
@@ -25141,7 +25141,7 @@ const data = [
   {
     "shopName": "리아트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 392-25",
     "roadAddress": "서울특별시 노원구 동일로192길 62",
     "lng": 127.076362,
@@ -25150,7 +25150,7 @@ const data = [
   {
     "shopName": "커피타임",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 방화동 571-49",
     "roadAddress": "서울특별시 강서구 양천로 85",
     "lng": 126.8132593,
@@ -25168,7 +25168,7 @@ const data = [
   {
     "shopName": "라라커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 문래동5가 14",
     "roadAddress": "서울특별시 영등포구 선유로9나길 8",
     "lng": 126.8862799,
@@ -25177,7 +25177,7 @@ const data = [
   {
     "shopName": "감성커피장안동사거리점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 307-3",
     "roadAddress": "서울특별시 동대문구 장한로 139",
     "lng": 127.0714127,
@@ -25186,7 +25186,7 @@ const data = [
   {
     "shopName": "시나본",
     "branchName": "양천구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 322-12",
     "roadAddress": "서울특별시 양천구 목동동로 77",
     "lng": 126.8635294,
@@ -25195,7 +25195,7 @@ const data = [
   {
     "shopName": "콩제",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 신설동 45-2",
     "roadAddress": "서울특별시 동대문구 한빛로 29",
     "lng": 127.0257441,
@@ -25204,7 +25204,7 @@ const data = [
   {
     "shopName": "어보브더힐",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 858-31",
     "roadAddress": "서울특별시 서초구 방배중앙로13길 2",
     "lng": 126.9890262,
@@ -25231,7 +25231,7 @@ const data = [
   {
     "shopName": "바모스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 신대방동 692-60",
     "roadAddress": "서울특별시 동작구 신대방길 9",
     "lng": 126.9120557,
@@ -25240,7 +25240,7 @@ const data = [
   {
     "shopName": "일공일이엘스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 19-9",
     "roadAddress": "서울특별시 송파구 올림픽로 119",
     "lng": 127.084168,
@@ -25249,7 +25249,7 @@ const data = [
   {
     "shopName": "리틀비터",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 20-1",
     "roadAddress": "서울특별시 송파구 송이로32길 30",
     "lng": 127.1269745,
@@ -25276,7 +25276,7 @@ const data = [
   {
     "shopName": "카페루엘",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 도화동 203-8",
     "roadAddress": "서울특별시 마포구 삼개로3길 9",
     "lng": 126.9480571,
@@ -25294,7 +25294,7 @@ const data = [
   {
     "shopName": "보야쥬",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 1671-35",
     "roadAddress": "서울특별시 관악구 행운1길 40",
     "lng": 126.9573632,
@@ -25303,7 +25303,7 @@ const data = [
   {
     "shopName": "데일리",
     "branchName": "커피송파지점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 삼전동 72-3",
     "roadAddress": "서울특별시 송파구 백제고분로 254",
     "lng": 127.0945115,
@@ -25321,7 +25321,7 @@ const data = [
   {
     "shopName": "케인다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 오금동 129-19",
     "roadAddress": "서울특별시 송파구 마천로26길 10",
     "lng": 127.1385986,
@@ -25339,7 +25339,7 @@ const data = [
   {
     "shopName": "기류",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 625-13",
     "roadAddress": "서울특별시 광진구 뚝섬로51길 57",
     "lng": 127.0813446,
@@ -25375,7 +25375,7 @@ const data = [
   {
     "shopName": "디코이커피로스터스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 보문동4가 53-1",
     "roadAddress": "서울특별시 성북구 고려대로6길 48",
     "lng": 127.0212918,
@@ -25384,7 +25384,7 @@ const data = [
   {
     "shopName": "푸가장미상가점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 7",
     "roadAddress": "서울특별시 송파구 올림픽로35길 124",
     "lng": 127.0984584,
@@ -25393,7 +25393,7 @@ const data = [
   {
     "shopName": "베베베",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 683-43",
     "roadAddress": "서울특별시 용산구 이태원로42길 46-12",
     "lng": 127.0010443,
@@ -25402,7 +25402,7 @@ const data = [
   {
     "shopName": "동원홈푸드크리스피프레시",
     "branchName": "서울스퀘어점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남대문로5가 541",
     "roadAddress": "서울특별시 중구 한강대로 416",
     "lng": 126.9737396,
@@ -25411,7 +25411,7 @@ const data = [
   {
     "shopName": "오븐,비스킷",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 279-49",
     "roadAddress": "서울특별시 강북구 한천로 1180",
     "lng": 127.0147542,
@@ -25420,7 +25420,7 @@ const data = [
   {
     "shopName": "컴포",
     "branchName": "즈마장중앙점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 마장동 772-3",
     "roadAddress": "서울특별시 성동구 마장로 299",
     "lng": 127.0427206,
@@ -25429,7 +25429,7 @@ const data = [
   {
     "shopName": "몬떼비서울",
     "branchName": "도화점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 도화동 560",
     "roadAddress": "서울특별시 마포구 독막로 320",
     "lng": 126.947862,
@@ -25438,7 +25438,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "관악구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 856-5",
     "roadAddress": "서울특별시 관악구 관악로 164",
     "lng": 126.9528777,
@@ -25456,7 +25456,7 @@ const data = [
   {
     "shopName": "클랩커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 청파동2가 84-2",
     "roadAddress": "서울특별시 용산구 청파로47길 26",
     "lng": 126.9690079,
@@ -25465,7 +25465,7 @@ const data = [
   {
     "shopName": "더웨이브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 375-111",
     "roadAddress": "서울특별시 마포구 성미산로23길 74",
     "lng": 126.9197666,
@@ -25492,7 +25492,7 @@ const data = [
   {
     "shopName": "빈더바닐라",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 635-4",
     "roadAddress": "서울특별시 강남구 테헤란로7길 22",
     "lng": 127.0307215,
@@ -25501,7 +25501,7 @@ const data = [
   {
     "shopName": "제제커피마곡",
     "branchName": "나루점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 759-5",
     "roadAddress": "서울특별시 강서구 마곡중앙5로 18",
     "lng": 126.8258236,
@@ -25510,7 +25510,7 @@ const data = [
   {
     "shopName": "메멘토모리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 제기동 1200",
     "roadAddress": "서울특별시 동대문구 정릉천동로 115",
     "lng": 127.0356625,
@@ -25519,7 +25519,7 @@ const data = [
   {
     "shopName": "커피사피엔스",
     "branchName": "역삼푸르지오점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 735-17",
     "roadAddress": "서울특별시 강남구 논현로85길 52",
     "lng": 127.0337964,
@@ -25528,7 +25528,7 @@ const data = [
   {
     "shopName": "칼도에스프레소바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 729-32",
     "roadAddress": "서울특별시 관악구 보라매로3길 29",
     "lng": 126.9250567,
@@ -25537,7 +25537,7 @@ const data = [
   {
     "shopName": "카멜커피",
     "branchName": "7호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 685-310",
     "roadAddress": "서울특별시 성동구 서울숲7길 4",
     "lng": 127.0426324,
@@ -25546,7 +25546,7 @@ const data = [
   {
     "shopName": "스턴하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 갈월동 19-4",
     "roadAddress": "서울특별시 용산구 두텁바위로1길 5",
     "lng": 126.9726322,
@@ -25564,7 +25564,7 @@ const data = [
   {
     "shopName": "매머드커피에이스하이앤드6차점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 60-25",
     "roadAddress": "서울특별시 금천구 벚꽃로 234",
     "lng": 126.8861221,
@@ -25582,7 +25582,7 @@ const data = [
   {
     "shopName": "유별커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 213-25",
     "roadAddress": "서울특별시 동작구 사당로 172",
     "lng": 126.9678773,
@@ -25591,7 +25591,7 @@ const data = [
   {
     "shopName": "콩스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1678-4",
     "roadAddress": "서울특별시 서초구 서초대로 356",
     "lng": 127.0202277,
@@ -25600,7 +25600,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "오엔오",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 석관동 168-59",
     "roadAddress": "서울특별시 성북구 화랑로42길 52-8",
     "lng": 127.0645383,
@@ -25609,7 +25609,7 @@ const data = [
   {
     "shopName": "망티커피문정",
     "branchName": "법조타운점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 644",
     "roadAddress": "서울특별시 송파구 법원로11길 11",
     "lng": 127.1184237,
@@ -25618,7 +25618,7 @@ const data = [
   {
     "shopName": "라에비뉴",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 289-27",
     "roadAddress": "서울특별시 성동구 성수일로10길 33",
     "lng": 127.0539387,
@@ -25627,7 +25627,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "허니힐",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 1131-15",
     "roadAddress": "서울특별시 강서구 화곡로58길 51",
     "lng": 126.8537791,
@@ -25636,7 +25636,7 @@ const data = [
   {
     "shopName": "컴포",
     "branchName": "즈노량진2동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 40-32",
     "roadAddress": "서울특별시 동작구 노량진로12길 8",
     "lng": 126.938307,
@@ -25672,7 +25672,7 @@ const data = [
   {
     "shopName": "빅싸커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 155",
     "roadAddress": "서울특별시 송파구 중대로 192",
     "lng": 127.126298,
@@ -25690,7 +25690,7 @@ const data = [
   {
     "shopName": "아이엠피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 시흥동 887",
     "roadAddress": "서울특별시 금천구 시흥대로54길 36",
     "lng": 126.9027492,
@@ -25699,7 +25699,7 @@ const data = [
   {
     "shopName": "아키비스트한남",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 726-354",
     "roadAddress": "서울특별시 용산구 한남대로42길 41",
     "lng": 127.002969,
@@ -25708,7 +25708,7 @@ const data = [
   {
     "shopName": "키니베이크샵",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 번동 412-97",
     "roadAddress": "서울특별시 강북구 덕릉로41길 38",
     "lng": 127.0302605,
@@ -25726,7 +25726,7 @@ const data = [
   {
     "shopName": "파우즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 536-9",
     "roadAddress": "서울특별시 양천구 목동중앙북로16길 43",
     "lng": 126.873962,
@@ -25735,7 +25735,7 @@ const data = [
   {
     "shopName": "코코펠리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 성산동 244-8",
     "roadAddress": "서울특별시 마포구 성미산로 35",
     "lng": 126.9121198,
@@ -25744,7 +25744,7 @@ const data = [
   {
     "shopName": "젠젠",
     "branchName": "성수점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 273-61",
     "roadAddress": "서울특별시 성동구 연무장11길 10",
     "lng": 127.0575489,
@@ -25762,7 +25762,7 @@ const data = [
   {
     "shopName": "카페일분",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 4624",
     "roadAddress": "서울특별시 영등포구 신길로16길 7-24",
     "lng": 126.9087009,
@@ -25771,7 +25771,7 @@ const data = [
   {
     "shopName": "오지메이커",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 51-11",
     "roadAddress": "서울특별시 송파구 백제고분로 509",
     "lng": 127.1151626,
@@ -25780,7 +25780,7 @@ const data = [
   {
     "shopName": "펠라쉽",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 도림동 253-1",
     "roadAddress": "서울특별시 영등포구 도림로112길 16",
     "lng": 126.9017168,
@@ -25789,7 +25789,7 @@ const data = [
   {
     "shopName": "크로플덕",
     "branchName": "신길점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 308-44",
     "roadAddress": "서울특별시 영등포구 가마산로61다길 3-3",
     "lng": 126.9044417,
@@ -25798,7 +25798,7 @@ const data = [
   {
     "shopName": "캠핑고양이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 897-3",
     "roadAddress": "서울특별시 강남구 선릉로 420",
     "lng": 127.0502535,
@@ -25816,7 +25816,7 @@ const data = [
   {
     "shopName": "호롤커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 석촌동 21",
     "roadAddress": "서울특별시 송파구 백제고분로33길 28",
     "lng": 127.0988549,
@@ -25825,7 +25825,7 @@ const data = [
   {
     "shopName": "텐퍼센트커피가산",
     "branchName": "대성디폴리스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 543-1",
     "roadAddress": "서울특별시 금천구 서부샛길 606",
     "lng": 126.8769955,
@@ -25834,7 +25834,7 @@ const data = [
   {
     "shopName": "야르르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 800-5",
     "roadAddress": "서울특별시 강서구 공항대로 228",
     "lng": 126.8326591,
@@ -25843,7 +25843,7 @@ const data = [
   {
     "shopName": "도회",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 동교동 198-7",
     "roadAddress": "서울특별시 마포구 동교로27길 8-3",
     "lng": 126.9230299,
@@ -25852,7 +25852,7 @@ const data = [
   {
     "shopName": "차차커피코",
     "branchName": "노량진1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 90-1",
     "roadAddress": "서울특별시 동작구 노량진로16길 25",
     "lng": 126.9439797,
@@ -25861,7 +25861,7 @@ const data = [
   {
     "shopName": "벌크커피",
     "branchName": "오금점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 오금동 24-2",
     "roadAddress": "서울특별시 송파구 위례성대로22길 27",
     "lng": 127.1303575,
@@ -25879,7 +25879,7 @@ const data = [
   {
     "shopName": "아임일리터",
     "branchName": "아차산역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 115-21",
     "roadAddress": "서울특별시 광진구 천호대로129길 7",
     "lng": 127.0900103,
@@ -25888,7 +25888,7 @@ const data = [
   {
     "shopName": "라벤더",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 238-8",
     "roadAddress": "서울특별시 강남구 언주로130길 11",
     "lng": 127.0363396,
@@ -25906,7 +25906,7 @@ const data = [
   {
     "shopName": "오늘도벨카롱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 472-58",
     "roadAddress": "서울특별시 동대문구 답십리로30길 13",
     "lng": 127.0487505,
@@ -25915,7 +25915,7 @@ const data = [
   {
     "shopName": "얼웨이즈스프링",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 387-38",
     "roadAddress": "서울특별시 마포구 성미산로 190-33",
     "lng": 126.9257426,
@@ -25951,7 +25951,7 @@ const data = [
   {
     "shopName": "티아유",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 72-8",
     "roadAddress": "서울특별시 노원구 덕릉로126길 2",
     "lng": 127.0814691,
@@ -25960,7 +25960,7 @@ const data = [
   {
     "shopName": "레커베이크하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 566-50",
     "roadAddress": "서울특별시 강북구 인수봉로 310",
     "lng": 127.0107004,
@@ -25978,7 +25978,7 @@ const data = [
   {
     "shopName": "바빈스",
     "branchName": "커피상암DMC점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1601",
     "roadAddress": "서울특별시 마포구 월드컵북로 402",
     "lng": 126.8890206,
@@ -26005,7 +26005,7 @@ const data = [
   {
     "shopName": "페이보릿연남",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 383-44",
     "roadAddress": "서울특별시 마포구 동교로38길 27-14",
     "lng": 126.9261682,
@@ -26059,7 +26059,7 @@ const data = [
   {
     "shopName": "극락왕생",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 문래동2가 40-6",
     "roadAddress": "서울특별시 영등포구 경인로77길 14",
     "lng": 126.8928908,
@@ -26068,7 +26068,7 @@ const data = [
   {
     "shopName": "앙시엔",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 하월곡동 90-208",
     "roadAddress": "서울특별시 성북구 종암로34길 12",
     "lng": 127.0324291,
@@ -26374,7 +26374,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "마포아트센터점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 대흥동 30-3",
     "roadAddress": "서울특별시 마포구 대흥로20길 28",
     "lng": 126.9455819,
@@ -26617,7 +26617,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "길음롯데캐슬클라시아점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 길음동 1289",
     "roadAddress": "서울특별시 성북구 숭인로8길 80",
     "lng": 127.0270809,
@@ -26662,7 +26662,7 @@ const data = [
   {
     "shopName": "꼬꼬드릴로",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 충무로5가 36-1",
     "roadAddress": "서울특별시 중구 퇴계로45길 22-24",
     "lng": 127.0004102,
@@ -26671,7 +26671,7 @@ const data = [
   {
     "shopName": "원퍼밀상암디디엠씨점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1610",
     "roadAddress": "서울특별시 마포구 매봉산로 75",
     "lng": 126.8928847,
@@ -26680,7 +26680,7 @@ const data = [
   {
     "shopName": "긱스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 390-31",
     "roadAddress": "서울특별시 마포구 동교로38길 27-12",
     "lng": 126.9260346,
@@ -26707,7 +26707,7 @@ const data = [
   {
     "shopName": "심온",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 97-4",
     "roadAddress": "서울특별시 서초구 양재천로 103-3",
     "lng": 127.0399537,
@@ -26716,7 +26716,7 @@ const data = [
   {
     "shopName": "공그릭",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 338-14",
     "roadAddress": "서울특별시 노원구 공릉로33길 12-9",
     "lng": 127.0784169,
@@ -26734,7 +26734,7 @@ const data = [
   {
     "shopName": "매머드익스프레스서초쌍용플래티넘점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1445-13",
     "roadAddress": "서울특별시 서초구 서초중앙로 18",
     "lng": 127.0173231,
@@ -26743,7 +26743,7 @@ const data = [
   {
     "shopName": "성북동과일카페138",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동4가 138",
     "roadAddress": "서울특별시 성북구 동소문로23길 8-10",
     "lng": 127.0180951,
@@ -26752,7 +26752,7 @@ const data = [
   {
     "shopName": "비유어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 72-4",
     "roadAddress": "서울특별시 동대문구 답십리로51길 20-1",
     "lng": 127.0587549,
@@ -26770,7 +26770,7 @@ const data = [
   {
     "shopName": "헤르만의정원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 청진동 246",
     "roadAddress": "서울특별시 종로구 종로3길 17",
     "lng": 126.9788929,
@@ -26779,7 +26779,7 @@ const data = [
   {
     "shopName": "와이블랙",
     "branchName": "사당점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 1033-22",
     "roadAddress": "서울특별시 동작구 동작대로7길 36",
     "lng": 126.9799631,
@@ -26797,7 +26797,7 @@ const data = [
   {
     "shopName": "포타모",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 하월곡동 64-4",
     "roadAddress": "서울특별시 성북구 화랑로5길 13",
     "lng": 127.0388723,
@@ -26806,7 +26806,7 @@ const data = [
   {
     "shopName": "피프틴,스위티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 중림동 473-5",
     "roadAddress": "서울특별시 중구 청파로 453",
     "lng": 126.9679415,
@@ -26824,7 +26824,7 @@ const data = [
   {
     "shopName": "정릉동커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 정릉동 372-30",
     "roadAddress": "서울특별시 성북구 솔샘로6길 36-16",
     "lng": 127.0071002,
@@ -26833,7 +26833,7 @@ const data = [
   {
     "shopName": "그린파파야향기",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 사근동 201",
     "roadAddress": "서울특별시 성동구 사근동11길 12",
     "lng": 127.0482176,
@@ -26842,7 +26842,7 @@ const data = [
   {
     "shopName": "뚠뚠커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 646-46",
     "roadAddress": "서울특별시 광진구 뚝섬로52마길 49",
     "lng": 127.0811808,
@@ -26860,7 +26860,7 @@ const data = [
   {
     "shopName": "메가커피구로",
     "branchName": "항동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 항동 83-8",
     "roadAddress": "서울특별시 구로구 서해안로 2124",
     "lng": 126.8253777,
@@ -26878,7 +26878,7 @@ const data = [
   {
     "shopName": "에쏘피리언스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 312-1",
     "roadAddress": "서울특별시 강동구 천중로15길 51",
     "lng": 127.1280638,
@@ -26914,7 +26914,7 @@ const data = [
   {
     "shopName": "매머드익스프레스",
     "branchName": "잠실나루역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 신천동 17-4",
     "roadAddress": "서울특별시 송파구 올림픽로37길 130",
     "lng": 127.1044814,
@@ -26941,7 +26941,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "희다왕십리센트라스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 하왕십리동 1070",
     "roadAddress": "서울특별시 성동구 왕십리로 410",
     "lng": 127.0240621,
@@ -26950,7 +26950,7 @@ const data = [
   {
     "shopName": "쉼카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 588-1",
     "roadAddress": "서울특별시 관악구 난우길 39",
     "lng": 126.9173806,
@@ -26977,7 +26977,7 @@ const data = [
   {
     "shopName": "개러지로스터",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도1동 362-4",
     "roadAddress": "서울특별시 동작구 상도로37길 39",
     "lng": 126.9507298,
@@ -26986,7 +26986,7 @@ const data = [
   {
     "shopName": "크로플로",
     "branchName": "장안점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 443-7",
     "roadAddress": "서울특별시 동대문구 천호대로91길 54",
     "lng": 127.0699849,
@@ -27022,7 +27022,7 @@ const data = [
   {
     "shopName": "퍼플리프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 607-11",
     "roadAddress": "서울특별시 강남구 논현로 557",
     "lng": 127.0342414,
@@ -27031,7 +27031,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "일단시켜찹쌀타코야끼&",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 40-103",
     "roadAddress": "서울특별시 관악구 은천로39길 22",
     "lng": 126.9552981,
@@ -27040,7 +27040,7 @@ const data = [
   {
     "shopName": "오마이베이글",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 561",
     "roadAddress": "서울특별시 강동구 성내로10길 9-10",
     "lng": 127.1251202,
@@ -27058,7 +27058,7 @@ const data = [
   {
     "shopName": "께",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 657-123",
     "roadAddress": "서울특별시 도봉구 도봉로114길 29-5",
     "lng": 127.0358849,
@@ -27067,7 +27067,7 @@ const data = [
   {
     "shopName": "글래드앤쏠티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 염리동 532-3",
     "roadAddress": "서울특별시 마포구 대흥로24바길 11",
     "lng": 126.9488566,
@@ -27076,7 +27076,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "하인나",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 267-2",
     "roadAddress": "서울특별시 동대문구 전농로 43",
     "lng": 127.0566345,
@@ -27112,7 +27112,7 @@ const data = [
   {
     "shopName": "보리수",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동3가 2",
     "roadAddress": "서울특별시 성북구 고려대로8길 25",
     "lng": 127.0216617,
@@ -27121,7 +27121,7 @@ const data = [
   {
     "shopName": "헬로마치",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 삼전동 4-9",
     "roadAddress": "서울특별시 송파구 삼전로10길 7",
     "lng": 127.0902382,
@@ -27130,7 +27130,7 @@ const data = [
   {
     "shopName": "할리스",
     "branchName": "강변역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 589-10",
     "roadAddress": "서울특별시 광진구 구의강변로 64",
     "lng": 127.0925786,
@@ -27139,7 +27139,7 @@ const data = [
   {
     "shopName": "아임엘렌",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 명륜2가 8-29",
     "roadAddress": "서울특별시 종로구 창경궁로 257",
     "lng": 126.99995,
@@ -27148,7 +27148,7 @@ const data = [
   {
     "shopName": "감성커피",
     "branchName": "월계점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 월계동 776",
     "roadAddress": "서울특별시 노원구 초안산로5길 12",
     "lng": 127.0517276,
@@ -27157,7 +27157,7 @@ const data = [
   {
     "shopName": "영다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 공항동 41-53",
     "roadAddress": "서울특별시 강서구 공항대로8길 27",
     "lng": 126.8123681,
@@ -27175,7 +27175,7 @@ const data = [
   {
     "shopName": "티블랙",
     "branchName": "가산점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 60-19",
     "roadAddress": "서울특별시 금천구 벚꽃로 278",
     "lng": 126.8846229,
@@ -27184,7 +27184,7 @@ const data = [
   {
     "shopName": "영플레이스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한남동 683-14",
     "roadAddress": "서울특별시 용산구 이태원로54길 40",
     "lng": 127.001516,
@@ -27193,7 +27193,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피서울은빛초점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 22",
     "roadAddress": "서울특별시 은평구 진관3로 67",
     "lng": 126.9212139,
@@ -27211,7 +27211,7 @@ const data = [
   {
     "shopName": "디저트39",
     "branchName": "신사역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 논현동 16-47",
     "roadAddress": "서울특별시 강남구 강남대로146길 25",
     "lng": 127.0221512,
@@ -27220,7 +27220,7 @@ const data = [
   {
     "shopName": "오아오아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 660-2",
     "roadAddress": "서울특별시 성동구 왕십리로6길 4-5",
     "lng": 127.0452656,
@@ -27238,7 +27238,7 @@ const data = [
   {
     "shopName": "크로플각",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 326-8",
     "roadAddress": "서울특별시 동대문구 답십리로69길 87",
     "lng": 127.0739982,
@@ -27256,7 +27256,7 @@ const data = [
   {
     "shopName": "브라운프론트도어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 403-12",
     "roadAddress": "서울특별시 마포구 포은로 94",
     "lng": 126.9051658,
@@ -27265,7 +27265,7 @@ const data = [
   {
     "shopName": "다&원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 종로5가 33-1",
     "roadAddress": "서울특별시 종로구 종로 235-1",
     "lng": 127.0040771,
@@ -27283,7 +27283,7 @@ const data = [
   {
     "shopName": "79파운야드영등포포레나",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동7가 208",
     "roadAddress": "서울특별시 영등포구 국회대로50길 20",
     "lng": 126.9056623,
@@ -27292,7 +27292,7 @@ const data = [
   {
     "shopName": "댕스데이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 224-15",
     "roadAddress": "서울특별시 강북구 노해로8길 29",
     "lng": 127.0242094,
@@ -27310,7 +27310,7 @@ const data = [
   {
     "shopName": "에스플러스인터내셔널",
     "branchName": "고대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 제기동 136-189",
     "roadAddress": "서울특별시 동대문구 안암로22길 22",
     "lng": 127.0356065,
@@ -27319,7 +27319,7 @@ const data = [
   {
     "shopName": "휘카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 127-75",
     "roadAddress": "서울특별시 동대문구 서울시립대로 117",
     "lng": 127.0513734,
@@ -27328,7 +27328,7 @@ const data = [
   {
     "shopName": "슬라임앤",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 517-2",
     "roadAddress": "서울특별시 노원구 동일로184길 30",
     "lng": 127.0755363,
@@ -27346,7 +27346,7 @@ const data = [
   {
     "shopName": "에슬로우커피",
     "branchName": "태평로점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 태평로2가 52-4",
     "roadAddress": "서울특별시 중구 남대문로1길 57-1",
     "lng": 126.9775557,
@@ -27373,7 +27373,7 @@ const data = [
   {
     "shopName": "레드테이프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동 624-20",
     "roadAddress": "서울특별시 영등포구 도영로22길 38",
     "lng": 126.903406,
@@ -27391,7 +27391,7 @@ const data = [
   {
     "shopName": "어블리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 467-1",
     "roadAddress": "서울특별시 광진구 천호대로 516",
     "lng": 127.0756682,
@@ -27400,7 +27400,7 @@ const data = [
   {
     "shopName": "커피두",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 아현동 604-2",
     "roadAddress": "서울특별시 마포구 마포대로 214",
     "lng": 126.9571731,
@@ -27409,7 +27409,7 @@ const data = [
   {
     "shopName": "메가커피신",
     "branchName": "상도점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 209-18",
     "roadAddress": "서울특별시 동작구 양녕로 193",
     "lng": 126.9436002,
@@ -27418,7 +27418,7 @@ const data = [
   {
     "shopName": "커피드니로",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 공덕동 7-27",
     "roadAddress": "서울특별시 마포구 효창원로 251",
     "lng": 126.9634538,
@@ -27436,7 +27436,7 @@ const data = [
   {
     "shopName": "욘보스페이스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 숭인동 181-21",
     "roadAddress": "서울특별시 종로구 종로65길 41-2",
     "lng": 127.0196315,
@@ -27463,7 +27463,7 @@ const data = [
   {
     "shopName": "카페로쏘",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 876-41",
     "roadAddress": "서울특별시 서초구 방배로26길 22",
     "lng": 126.994073,
@@ -27472,7 +27472,7 @@ const data = [
   {
     "shopName": "하나길",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 426-15",
     "roadAddress": "서울특별시 마포구 포은로 129",
     "lng": 126.9037084,
@@ -27481,7 +27481,7 @@ const data = [
   {
     "shopName": "희희카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 오금동 73-5",
     "roadAddress": "서울특별시 송파구 성내천로 48",
     "lng": 127.1362395,
@@ -27508,7 +27508,7 @@ const data = [
   {
     "shopName": "마온",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 440-10",
     "roadAddress": "서울특별시 노원구 공릉로 221",
     "lng": 127.076902,
@@ -27544,7 +27544,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피양천양",
     "branchName": "서중점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신월동 199-1",
     "roadAddress": "서울특별시 양천구 남부순환로 398",
     "lng": 126.8307249,
@@ -27553,7 +27553,7 @@ const data = [
   {
     "shopName": "카페랑",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 수색동 110-1",
     "roadAddress": "서울특별시 은평구 은평터널로 5",
     "lng": 126.8957995,
@@ -27562,7 +27562,7 @@ const data = [
   {
     "shopName": "멜티드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 연남동 241-90",
     "roadAddress": "서울특별시 마포구 성미산로29안길 27-7",
     "lng": 126.923229,
@@ -27571,7 +27571,7 @@ const data = [
   {
     "shopName": "오페라빈에스프레소바",
     "branchName": "필동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 필동3가 41-2",
     "roadAddress": "서울특별시 중구 필동로 27-1",
     "lng": 126.9962942,
@@ -27580,7 +27580,7 @@ const data = [
   {
     "shopName": "베러댄커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 신사동 502-11",
     "roadAddress": "서울특별시 강남구 강남대로 620",
     "lng": 127.0196833,
@@ -27589,7 +27589,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "래비니",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 687-11",
     "roadAddress": "서울특별시 강남구 언주로108길 24",
     "lng": 127.0411283,
@@ -27598,7 +27598,7 @@ const data = [
   {
     "shopName": "마실",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 191-98",
     "roadAddress": "서울특별시 광진구 긴고랑로7길 79",
     "lng": 127.0807934,
@@ -27607,7 +27607,7 @@ const data = [
   {
     "shopName": "크로앙쥬",
     "branchName": "송파점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 194",
     "roadAddress": "서울특별시 송파구 송파대로38길 6",
     "lng": 127.1123551,
@@ -27625,7 +27625,7 @@ const data = [
   {
     "shopName": "파란만잔",
     "branchName": "교대역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1670-9",
     "roadAddress": "서울특별시 서초구 서초중앙로22길 45",
     "lng": 127.0164412,
@@ -27679,7 +27679,7 @@ const data = [
   {
     "shopName": "멜트커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 195",
     "roadAddress": "서울특별시 송파구 백제고분로7길 6",
     "lng": 127.0794284,
@@ -27706,7 +27706,7 @@ const data = [
   {
     "shopName": "콘레드커피경희대점앤그리기요거트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 회기동 16-13",
     "roadAddress": "서울특별시 동대문구 경희대로4길 8",
     "lng": 127.0531316,
@@ -27724,7 +27724,7 @@ const data = [
   {
     "shopName": "팔일공",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 풍납동 410-2",
     "roadAddress": "서울특별시 송파구 풍성로26길 51",
     "lng": 127.1165145,
@@ -27733,7 +27733,7 @@ const data = [
   {
     "shopName": "에프피에프피문정동",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 642",
     "roadAddress": "서울특별시 송파구 송파대로 201",
     "lng": 127.1206383,
@@ -27742,7 +27742,7 @@ const data = [
   {
     "shopName": "호텔드앤유",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 84-15",
     "roadAddress": "서울특별시 강남구 도산대로55길 39",
     "lng": 127.0408344,
@@ -27760,7 +27760,7 @@ const data = [
   {
     "shopName": "온다파도",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 갈현동 419-32",
     "roadAddress": "서울특별시 은평구 갈현로 328-6",
     "lng": 126.918526,
@@ -27769,7 +27769,7 @@ const data = [
   {
     "shopName": "시에로시네마CieloCinema",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 530-82",
     "roadAddress": "서울특별시 동대문구 서울시립대로 80-1",
     "lng": 127.0493519,
@@ -27796,7 +27796,7 @@ const data = [
   {
     "shopName": "더홀릭보드게임카페",
     "branchName": "수유역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 224-15",
     "roadAddress": "서울특별시 강북구 노해로8길 29",
     "lng": 127.0242094,
@@ -27805,7 +27805,7 @@ const data = [
   {
     "shopName": "매머드익스프레스",
     "branchName": "선유도점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동4가 101-3",
     "roadAddress": "서울특별시 영등포구 양평로21길 1",
     "lng": 126.893898,
@@ -27814,7 +27814,7 @@ const data = [
   {
     "shopName": "레쏘",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 184-47",
     "roadAddress": "서울특별시 중랑구 중랑천로10길 84",
     "lng": 127.0775998,
@@ -27823,7 +27823,7 @@ const data = [
   {
     "shopName": "컾강서점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 839-12",
     "roadAddress": "서울특별시 강서구 곰달래로 231",
     "lng": 126.8587023,
@@ -27832,7 +27832,7 @@ const data = [
   {
     "shopName": "리스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 방학동 632-48",
     "roadAddress": "서울특별시 도봉구 도당로13길 37",
     "lng": 127.0344454,
@@ -27841,7 +27841,7 @@ const data = [
   {
     "shopName": "사당1038",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 1038-42",
     "roadAddress": "서울특별시 동작구 동작대로3길 45",
     "lng": 126.9789161,
@@ -27850,7 +27850,7 @@ const data = [
   {
     "shopName": "나흐바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 누하동 45-2",
     "roadAddress": "서울특별시 종로구 필운대로 42",
     "lng": 126.9687988,
@@ -27886,7 +27886,7 @@ const data = [
   {
     "shopName": "해담이엔티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 서교동 334-3",
     "roadAddress": "서울특별시 마포구 와우산로29길 39",
     "lng": 126.9277337,
@@ -27895,7 +27895,7 @@ const data = [
   {
     "shopName": "띵스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 번동 464-1",
     "roadAddress": "서울특별시 강북구 도봉로 388",
     "lng": 127.029611,
@@ -27931,7 +27931,7 @@ const data = [
   {
     "shopName": "로플봉봉",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1635-63",
     "roadAddress": "서울특별시 관악구 신원로 8-1",
     "lng": 126.9280416,
@@ -27985,7 +27985,7 @@ const data = [
   {
     "shopName": "하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 장충동2가 197",
     "roadAddress": "서울특별시 중구 동호로 257-8",
     "lng": 127.0037941,
@@ -27994,7 +27994,7 @@ const data = [
   {
     "shopName": "루바토",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 49-13",
     "roadAddress": "서울특별시 관악구 중앙길 41",
     "lng": 126.952393,
@@ -28039,7 +28039,7 @@ const data = [
   {
     "shopName": "파스쿠찌",
     "branchName": "이화사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 연건동 195-10",
     "roadAddress": "서울특별시 종로구 대학로 47",
     "lng": 127.0018251,
@@ -28066,7 +28066,7 @@ const data = [
   {
     "shopName": "이슬재/YISEULJAE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 13-15",
     "roadAddress": "서울특별시 송파구 백제고분로41길 19-24",
     "lng": 127.1063977,
@@ -28075,7 +28075,7 @@ const data = [
   {
     "shopName": "황금십원빵",
     "branchName": "한성대입구역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 성북동1가 35-2",
     "roadAddress": "서울특별시 성북구 성북로 5-9",
     "lng": 127.0052497,
@@ -28102,7 +28102,7 @@ const data = [
   {
     "shopName": "카페보너",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 둔촌동 108-5",
     "roadAddress": "서울특별시 강동구 풍성로 311-8",
     "lng": 127.1462277,
@@ -28111,7 +28111,7 @@ const data = [
   {
     "shopName": "디오브닝",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 홍제동 270-1",
     "roadAddress": "서울특별시 서대문구 세무서8길 30",
     "lng": 126.9469314,
@@ -28120,7 +28120,7 @@ const data = [
   {
     "shopName": "빵긋",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 신길동 4934",
     "roadAddress": "서울특별시 영등포구 가마산로79길 7",
     "lng": 126.9145868,
@@ -28138,7 +28138,7 @@ const data = [
   {
     "shopName": "바빈스",
     "branchName": "커피중계브라운스톤점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 중계동 506",
     "roadAddress": "서울특별시 노원구 동일로203가길 29",
     "lng": 127.0642452,
@@ -28147,7 +28147,7 @@ const data = [
   {
     "shopName": "텐퍼센트커피",
     "branchName": "방배점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 방배동 981-16",
     "roadAddress": "서울특별시 서초구 효령로 120",
     "lng": 126.9974283,
@@ -28156,7 +28156,7 @@ const data = [
   {
     "shopName": "과일에반하다.프루타",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 중곡동 621-1",
     "roadAddress": "서울특별시 광진구 면목로 77",
     "lng": 127.0782309,
@@ -28201,7 +28201,7 @@ const data = [
   {
     "shopName": "라파파라",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 석관동 127-76",
     "roadAddress": "서울특별시 성북구 한천로78길 49",
     "lng": 127.0645526,
@@ -28210,7 +28210,7 @@ const data = [
   {
     "shopName": "구월오일",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 48-40",
     "roadAddress": "서울특별시 광진구 동일로56길 60",
     "lng": 127.0750392,
@@ -28219,7 +28219,7 @@ const data = [
   {
     "shopName": "신림카페강우",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 691-33",
     "roadAddress": "서울특별시 관악구 당곡2길 22",
     "lng": 126.9301836,
@@ -28228,7 +28228,7 @@ const data = [
   {
     "shopName": "로씨카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 91-14",
     "roadAddress": "서울특별시 송파구 송이로14길 13",
     "lng": 127.1181019,
@@ -28246,7 +28246,7 @@ const data = [
   {
     "shopName": "언더지",
     "branchName": "망원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 413-38",
     "roadAddress": "서울특별시 마포구 포은로 72",
     "lng": 126.9059946,
@@ -28255,7 +28255,7 @@ const data = [
   {
     "shopName": "카프요거트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 대현동 34-44",
     "roadAddress": "서울특별시 서대문구 이화여대길 88-19",
     "lng": 126.9439285,
@@ -28264,7 +28264,7 @@ const data = [
   {
     "shopName": "커피콤마",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 1158",
     "roadAddress": "서울특별시 금천구 문성로 48",
     "lng": 126.9091192,
@@ -28273,7 +28273,7 @@ const data = [
   {
     "shopName": "더벤티",
     "branchName": "마천역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 마천동 301-9",
     "roadAddress": "서울특별시 송파구 마천로57길 22",
     "lng": 127.1533913,
@@ -28291,7 +28291,7 @@ const data = [
   {
     "shopName": "커피온리",
     "branchName": "녹두거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1516-4",
     "roadAddress": "서울특별시 관악구 대학길 6",
     "lng": 126.9377459,
@@ -28309,7 +28309,7 @@ const data = [
   {
     "shopName": "펀구공카페",
     "branchName": "방이점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 오금동 42",
     "roadAddress": "서울특별시 송파구 마천로 70",
     "lng": 127.1280522,
@@ -28318,7 +28318,7 @@ const data = [
   {
     "shopName": "엘에스와이신림",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1580-1",
     "roadAddress": "서울특별시 관악구 남부순환로172길 45",
     "lng": 126.9233695,
@@ -28327,7 +28327,7 @@ const data = [
   {
     "shopName": "다이브포인트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 이문동 288-65",
     "roadAddress": "서울특별시 동대문구 이문로 108",
     "lng": 127.0602749,
@@ -28336,7 +28336,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "송파방이역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 방이동 201-4",
     "roadAddress": "서울특별시 송파구 위례성대로18길 28-20",
     "lng": 127.1239945,
@@ -28354,7 +28354,7 @@ const data = [
   {
     "shopName": "커피집",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 사당동 91-5",
     "roadAddress": "서울특별시 동작구 동작대로29나길 28",
     "lng": 126.9807645,
@@ -28363,7 +28363,7 @@ const data = [
   {
     "shopName": "공간",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도동 29-120",
     "roadAddress": "서울특별시 동작구 상도로30길 63-4",
     "lng": 126.9444868,
@@ -28381,7 +28381,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "온수북부점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 온수동 116-5",
     "roadAddress": "서울특별시 구로구 부일로1길 26-1",
     "lng": 126.8205301,
@@ -28390,7 +28390,7 @@ const data = [
   {
     "shopName": "포트캔커피",
     "branchName": "가락점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 가락동 49",
     "roadAddress": "서울특별시 송파구 송이로 91",
     "lng": 127.1209363,
@@ -28408,7 +28408,7 @@ const data = [
   {
     "shopName": "리앤장도민까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 여의도동 41-2",
     "roadAddress": "서울특별시 영등포구 여의대방로 417",
     "lng": 126.9343004,
@@ -28435,7 +28435,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "신촌로터리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서대문구 창천동 72-6",
     "roadAddress": "서울특별시 서대문구 신촌로 75",
     "lng": 126.9349222,
@@ -28453,7 +28453,7 @@ const data = [
   {
     "shopName": "오뜨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 삼선동2가 389",
     "roadAddress": "서울특별시 성북구 삼선교로16길 116",
     "lng": 127.0103711,
@@ -28507,7 +28507,7 @@ const data = [
   {
     "shopName": "노력스터디카페",
     "branchName": "까치산역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 343-6",
     "roadAddress": "서울특별시 강서구 강서로 47-8",
     "lng": 126.8458593,
@@ -28516,7 +28516,7 @@ const data = [
   {
     "shopName": "푸쉬오프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 414-25",
     "roadAddress": "서울특별시 마포구 포은로8길 28-6",
     "lng": 126.9063747,
@@ -28534,7 +28534,7 @@ const data = [
   {
     "shopName": "그라츠커피랩",
     "branchName": "문정점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 642-3",
     "roadAddress": "서울특별시 송파구 법원로 128",
     "lng": 127.1204685,
@@ -28552,7 +28552,7 @@ const data = [
   {
     "shopName": "러프스케치",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 역촌동 33-2",
     "roadAddress": "서울특별시 은평구 진흥로1나길 2",
     "lng": 126.9183371,
@@ -28570,7 +28570,7 @@ const data = [
   {
     "shopName": "어프리시티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 전농동 124-32",
     "roadAddress": "서울특별시 동대문구 서울시립대로28가길 1",
     "lng": 127.0531027,
@@ -28588,7 +28588,7 @@ const data = [
   {
     "shopName": "노르웨이안우드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 192-33",
     "roadAddress": "서울특별시 강북구 도봉로87길 32-6",
     "lng": 127.0243249,
@@ -28597,7 +28597,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "가산대륭18차점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 670-2",
     "roadAddress": "서울특별시 금천구 가산디지털1로 19",
     "lng": 126.8864952,
@@ -28615,7 +28615,7 @@ const data = [
   {
     "shopName": "스윗바이브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 8-29",
     "roadAddress": "서울특별시 성동구 왕십리로4길 26-18",
     "lng": 127.0469186,
@@ -28642,7 +28642,7 @@ const data = [
   {
     "shopName": "추탄상회",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 강일동 18-8",
     "roadAddress": "서울특별시 강동구 가래여울길 14",
     "lng": 127.1684171,
@@ -28651,7 +28651,7 @@ const data = [
   {
     "shopName": "심풀",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 119-16",
     "roadAddress": "서울특별시 중랑구 면목로73길 31",
     "lng": 127.08561,
@@ -28660,7 +28660,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "봄날브런치",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 장위동 189-3",
     "roadAddress": "서울특별시 성북구 돌곶이로40길 46",
     "lng": 127.0496012,
@@ -28669,7 +28669,7 @@ const data = [
   {
     "shopName": "팔공티.팔라쪼",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신공덕동 173",
     "roadAddress": "서울특별시 마포구 백범로 212",
     "lng": 126.9533465,
@@ -28687,7 +28687,7 @@ const data = [
   {
     "shopName": "커피콩나무",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 마곡동 784-11",
     "roadAddress": "서울특별시 강서구 강서로 429",
     "lng": 126.8394916,
@@ -28696,7 +28696,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "천호힐데스하임점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 천호동 437-5",
     "roadAddress": "서울특별시 강동구 올림픽로78길 30",
     "lng": 127.1259894,
@@ -28705,7 +28705,7 @@ const data = [
   {
     "shopName": "빙고",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 172-153",
     "roadAddress": "서울특별시 강북구 도봉로97길 33-1",
     "lng": 127.0275806,
@@ -28723,7 +28723,7 @@ const data = [
   {
     "shopName": "더벤티",
     "branchName": "영등포구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동3가 395-31",
     "roadAddress": "서울특별시 영등포구 당산로31길 16-1",
     "lng": 126.8949026,
@@ -28759,7 +28759,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "삼양시장점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 미아동 867-118",
     "roadAddress": "서울특별시 강북구 솔매로 52",
     "lng": 127.017953,
@@ -28777,7 +28777,7 @@ const data = [
   {
     "shopName": "알짜",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 705-18",
     "roadAddress": "서울특별시 강남구 테헤란로 333",
     "lng": 127.0479975,
@@ -28786,7 +28786,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "흑석역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 흑석동 9-89",
     "roadAddress": "서울특별시 동작구 현충로 100-1",
     "lng": 126.9647246,
@@ -28795,7 +28795,7 @@ const data = [
   {
     "shopName": "치디커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 갈현동 461-12",
     "roadAddress": "서울특별시 은평구 연서로23길 8-6",
     "lng": 126.9175547,
@@ -28804,7 +28804,7 @@ const data = [
   {
     "shopName": "요거다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 상도1동 774-1",
     "roadAddress": "서울특별시 동작구 상도로 283-1",
     "lng": 126.9486343,
@@ -28813,7 +28813,7 @@ const data = [
   {
     "shopName": "어니스트밀크",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 40-1",
     "roadAddress": "서울특별시 송파구 올림픽로 240",
     "lng": 127.0981244,
@@ -28822,7 +28822,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "서울대입구역1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 봉천동 874-1",
     "roadAddress": "서울특별시 관악구 봉천로 456",
     "lng": 126.9504686,
@@ -28831,7 +28831,7 @@ const data = [
   {
     "shopName": "원스카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동2가 336-1",
     "roadAddress": "서울특별시 성동구 뚝섬로 390",
     "lng": 127.0538989,
@@ -28849,7 +28849,7 @@ const data = [
   {
     "shopName": "메머드익스프레스동아프라임밸리점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동2가 37-1",
     "roadAddress": "서울특별시 영등포구 영등포로5길 19",
     "lng": 126.8842079,
@@ -28858,7 +28858,7 @@ const data = [
   {
     "shopName": "어스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 보광동 265-214",
     "roadAddress": "서울특별시 용산구 우사단로4길 22-22",
     "lng": 126.9979992,
@@ -28867,7 +28867,7 @@ const data = [
   {
     "shopName": "에이유에프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 합정동 394-5",
     "roadAddress": "서울특별시 마포구 포은로2가길 42",
     "lng": 126.9091816,
@@ -28903,7 +28903,7 @@ const data = [
   {
     "shopName": "추카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 청담동 118-15",
     "roadAddress": "서울특별시 강남구 압구정로 459",
     "lng": 127.0470094,
@@ -28912,7 +28912,7 @@ const data = [
   {
     "shopName": "마쵸커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 368-6",
     "roadAddress": "서울특별시 강서구 가로공원로84길 14",
     "lng": 126.8402735,
@@ -28921,7 +28921,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "어린이대공원후문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 구의동 76-1",
     "roadAddress": "서울특별시 광진구 천호대로 666",
     "lng": 127.0893011,
@@ -28930,7 +28930,7 @@ const data = [
   {
     "shopName": "카페더함",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 신수동 91-15",
     "roadAddress": "서울특별시 마포구 광성로 20",
     "lng": 126.9352491,
@@ -28939,7 +28939,7 @@ const data = [
   {
     "shopName": "쉬즈베이글커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 상월곡동 62",
     "roadAddress": "서울특별시 성북구 장월로1길 60",
     "lng": 127.0448612,
@@ -28948,7 +28948,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "송파석촌점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 24-7",
     "roadAddress": "서울특별시 송파구 백제고분로41길 18",
     "lng": 127.1077372,
@@ -28957,7 +28957,7 @@ const data = [
   {
     "shopName": "켜켜이커피",
     "branchName": "상명대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 홍지동 20-1",
     "roadAddress": "서울특별시 종로구 홍지문2길 11",
     "lng": 126.9555457,
@@ -28966,7 +28966,7 @@ const data = [
   {
     "shopName": "국가참전상이유공자커피집",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 2-8",
     "roadAddress": "서울특별시 서초구 신반포로15길 29",
     "lng": 126.9946818,
@@ -28975,7 +28975,7 @@ const data = [
   {
     "shopName": "파운드커피노원",
     "branchName": "을지병원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 하계동 280-1",
     "roadAddress": "서울특별시 노원구 한글비석로 68",
     "lng": 127.0695673,
@@ -29020,7 +29020,7 @@ const data = [
   {
     "shopName": "카일커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 신내동 577-1",
     "roadAddress": "서울특별시 중랑구 신내로10길 21",
     "lng": 127.0967722,
@@ -29038,7 +29038,7 @@ const data = [
   {
     "shopName": "좋은날",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 자곡동 271-1",
     "roadAddress": "서울특별시 강남구 밤고개로14길 6",
     "lng": 127.1040632,
@@ -29047,7 +29047,7 @@ const data = [
   {
     "shopName": "카페로카",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 양평동3가 49-4",
     "roadAddress": "서울특별시 영등포구 선유로33길 2-2",
     "lng": 126.8907203,
@@ -29065,7 +29065,7 @@ const data = [
   {
     "shopName": "와이블랙",
     "branchName": "개포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 개포동 186-11",
     "roadAddress": "서울특별시 강남구 개포로82길 5-8",
     "lng": 127.0676369,
@@ -29083,7 +29083,7 @@ const data = [
   {
     "shopName": "달리는커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1639-6",
     "roadAddress": "서울특별시 관악구 관천로 44",
     "lng": 126.9272578,
@@ -29092,7 +29092,7 @@ const data = [
   {
     "shopName": "플로이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 685-345",
     "roadAddress": "서울특별시 성동구 서울숲2길 12",
     "lng": 127.0399312,
@@ -29101,7 +29101,7 @@ const data = [
   {
     "shopName": "블루너리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성동구 성수동1가 72-41",
     "roadAddress": "서울특별시 성동구 성덕정3길 8",
     "lng": 127.047611,
@@ -29110,7 +29110,7 @@ const data = [
   {
     "shopName": "케이브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 442-170",
     "roadAddress": "서울특별시 구로구 구로중앙로24길 6",
     "lng": 126.8879711,
@@ -29128,7 +29128,7 @@ const data = [
   {
     "shopName": "오와케이크",
     "branchName": "문정역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 652-1",
     "roadAddress": "서울특별시 송파구 법원로4길 17",
     "lng": 127.1224792,
@@ -29137,7 +29137,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "양재숲",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 양재동 3-4",
     "roadAddress": "서울특별시 서초구 바우뫼로43길 56",
     "lng": 127.0414766,
@@ -29146,7 +29146,7 @@ const data = [
   {
     "shopName": "마마쿡키친뿌당커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1416-28",
     "roadAddress": "서울특별시 관악구 봉천로 270",
     "lng": 126.9308619,
@@ -29164,7 +29164,7 @@ const data = [
   {
     "shopName": "매머드익스프레스",
     "branchName": "잠실리센츠점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 잠실동 22-6",
     "roadAddress": "서울특별시 송파구 올림픽로 145",
     "lng": 127.0870198,
@@ -29182,7 +29182,7 @@ const data = [
   {
     "shopName": "이디야커피",
     "branchName": "남부지방법원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 1014-5",
     "roadAddress": "서울특별시 양천구 은행정로4길 25",
     "lng": 126.8625827,
@@ -29191,7 +29191,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "화곡8동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 화곡동 159-41",
     "roadAddress": "서울특별시 강서구 곰달래로 157",
     "lng": 126.8505372,
@@ -29200,7 +29200,7 @@ const data = [
   {
     "shopName": "엉클두",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 도봉구 창동 263-33",
     "roadAddress": "서울특별시 도봉구 노해로63가길 37",
     "lng": 127.0450926,
@@ -29209,7 +29209,7 @@ const data = [
   {
     "shopName": "포비아워스현대",
     "branchName": "캐피탈점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남대문로5가 831",
     "roadAddress": "서울특별시 중구 세종대로 14",
     "lng": 126.9743981,
@@ -29218,7 +29218,7 @@ const data = [
   {
     "shopName": "구석탱이",
     "branchName": "카페인",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 종로구 창신동 330-3",
     "roadAddress": "서울특별시 종로구 종로 330",
     "lng": 127.0145799,
@@ -29254,7 +29254,7 @@ const data = [
   {
     "shopName": "유캔두잇세종대학교점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 군자동 98",
     "roadAddress": "서울특별시 광진구 능동로 209",
     "lng": 127.0731707,
@@ -29263,7 +29263,7 @@ const data = [
   {
     "shopName": "묘해",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 문정동 618",
     "roadAddress": "서울특별시 송파구 송파대로 111",
     "lng": 127.1248723,
@@ -29290,7 +29290,7 @@ const data = [
   {
     "shopName": "쿡,키",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 50-3",
     "roadAddress": "서울특별시 금천구 벚꽃로 298",
     "lng": 126.883859,
@@ -29326,7 +29326,7 @@ const data = [
   {
     "shopName": "매머드익스프레스휘문고교점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 대치동 966-7",
     "roadAddress": "서울특별시 강남구 역삼로 538",
     "lng": 127.0618395,
@@ -29335,7 +29335,7 @@ const data = [
   {
     "shopName": "매머드익스프레스",
     "branchName": "불광역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 대조동 11-1",
     "roadAddress": "서울특별시 은평구 통일로 735-1",
     "lng": 126.9290413,
@@ -29344,7 +29344,7 @@ const data = [
   {
     "shopName": "토다코리아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 구산동 198-3",
     "roadAddress": "서울특별시 은평구 서오릉로 165",
     "lng": 126.9150148,
@@ -29353,7 +29353,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "고척아이파크점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 고척동 102-1",
     "roadAddress": "서울특별시 구로구 중앙로5길 59",
     "lng": 126.8594297,
@@ -29362,7 +29362,7 @@ const data = [
   {
     "shopName": "인셀덤커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강북구 수유동 726-2",
     "roadAddress": "서울특별시 강북구 노해로27길 66",
     "lng": 127.0209823,
@@ -29371,7 +29371,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "잠실대교북단점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 자양동 679-31",
     "roadAddress": "서울특별시 광진구 자양로 49",
     "lng": 127.0851669,
@@ -29398,7 +29398,7 @@ const data = [
   {
     "shopName": "킹콩커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 영등포동6가 35-1",
     "roadAddress": "서울특별시 영등포구 영등포로35길 23",
     "lng": 126.9042372,
@@ -29407,7 +29407,7 @@ const data = [
   {
     "shopName": "카페고메",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 독산동 1100-6",
     "roadAddress": "서울특별시 금천구 금하로1마길 35-4",
     "lng": 126.8895015,
@@ -29416,7 +29416,7 @@ const data = [
   {
     "shopName": "더스위트리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강서구 내발산동 708-12",
     "roadAddress": "서울특별시 강서구 강서로47가길 38",
     "lng": 126.8354392,
@@ -29425,7 +29425,7 @@ const data = [
   {
     "shopName": "카페달다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 829-8",
     "roadAddress": "서울특별시 강남구 역삼로7길 8",
     "lng": 127.0332764,
@@ -29434,7 +29434,7 @@ const data = [
   {
     "shopName": "커피사피엔스가산",
     "branchName": "1호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 345-33",
     "roadAddress": "서울특별시 금천구 가산디지털2로 67",
     "lng": 126.8810723,
@@ -29461,7 +29461,7 @@ const data = [
   {
     "shopName": "마실",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 광장동 393-26",
     "roadAddress": "서울특별시 광진구 광장로1나길 14",
     "lng": 127.1020324,
@@ -29470,7 +29470,7 @@ const data = [
   {
     "shopName": "테이블비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 태평로1가 84",
     "roadAddress": "서울특별시 중구 세종대로 136",
     "lng": 126.9782375,
@@ -29479,7 +29479,7 @@ const data = [
   {
     "shopName": "가배차",
     "branchName": "성북점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 종암동 130-2",
     "roadAddress": "서울특별시 성북구 종암로27길 26",
     "lng": 127.0308828,
@@ -29488,7 +29488,7 @@ const data = [
   {
     "shopName": "크로플덕오리아가씨",
     "branchName": "답십리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 답십리동 64-36",
     "roadAddress": "서울특별시 동대문구 답십리로 175",
     "lng": 127.059717,
@@ -29497,7 +29497,7 @@ const data = [
   {
     "shopName": "륭구미",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 이문동 264-137",
     "roadAddress": "서울특별시 동대문구 천장산로4길 42",
     "lng": 127.0581211,
@@ -29506,7 +29506,7 @@ const data = [
   {
     "shopName": "위드요크커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 상계동 169-472",
     "roadAddress": "서울특별시 노원구 한글비석로37길 11",
     "lng": 127.069469,
@@ -29515,7 +29515,7 @@ const data = [
   {
     "shopName": "세컨드랠리살롱",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 금천구 가산동 146-84",
     "roadAddress": "서울특별시 금천구 남부순환로 1282",
     "lng": 126.8931278,
@@ -29524,7 +29524,7 @@ const data = [
   {
     "shopName": "보험대리점cafe",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 구로구 구로동 554-23",
     "roadAddress": "서울특별시 구로구 구로중앙로34길 77",
     "lng": 126.8869132,
@@ -29542,7 +29542,7 @@ const data = [
   {
     "shopName": "클래식로스터리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 송파동 112-3",
     "roadAddress": "서울특별시 송파구 백제고분로42길 17",
     "lng": 127.1104811,
@@ -29569,7 +29569,7 @@ const data = [
   {
     "shopName": "피노",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 반포동 738-14",
     "roadAddress": "서울특별시 서초구 사평대로57길 39-1",
     "lng": 127.0226576,
@@ -29596,7 +29596,7 @@ const data = [
   {
     "shopName": "챔프커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 서초구 서초동 1610-6",
     "roadAddress": "서울특별시 서초구 효령로67길 71-13",
     "lng": 127.0221903,
@@ -29605,7 +29605,7 @@ const data = [
   {
     "shopName": "카페조이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 성내동 112-35",
     "roadAddress": "서울특별시 강동구 올림픽로60길 14",
     "lng": 127.1230933,
@@ -29614,7 +29614,7 @@ const data = [
   {
     "shopName": "사브레",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 장안동 460-3",
     "roadAddress": "서울특별시 동대문구 장한로6길 18",
     "lng": 127.0670832,
@@ -29632,7 +29632,7 @@ const data = [
   {
     "shopName": "카페인투",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 이문동 64",
     "roadAddress": "서울특별시 동대문구 한천로58길 47",
     "lng": 127.0687564,
@@ -29650,7 +29650,7 @@ const data = [
   {
     "shopName": "디오티",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 망원동 398-31",
     "roadAddress": "서울특별시 마포구 희우정로16길 16",
     "lng": 126.9028613,
@@ -29677,7 +29677,7 @@ const data = [
   {
     "shopName": "벙커",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 636-21",
     "roadAddress": "서울특별시 강남구 강남대로94길 55-3",
     "lng": 127.031582,
@@ -29704,7 +29704,7 @@ const data = [
   {
     "shopName": "아이노우",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 안암동2가 139-20",
     "roadAddress": "서울특별시 성북구 고려대로7가길 6",
     "lng": 127.0214159,
@@ -29713,7 +29713,7 @@ const data = [
   {
     "shopName": "트리킹즈커피",
     "branchName": "공릉점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 노원구 공릉동 758",
     "roadAddress": "서울특별시 노원구 공릉로34길 86",
     "lng": 127.0815856,
@@ -29722,7 +29722,7 @@ const data = [
   {
     "shopName": "콘레드커피",
     "branchName": "노량진점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 117-12",
     "roadAddress": "서울특별시 동작구 만양로 112",
     "lng": 126.9444096,
@@ -29740,7 +29740,7 @@ const data = [
   {
     "shopName": "커스텀커피",
     "branchName": "상암점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1597",
     "roadAddress": "서울특별시 마포구 월드컵북로54길 17",
     "lng": 126.8885286,
@@ -29758,7 +29758,7 @@ const data = [
   {
     "shopName": "복화당",
     "branchName": "동대문이문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 이문동 251-5",
     "roadAddress": "서울특별시 동대문구 이문로 203",
     "lng": 127.0618549,
@@ -29767,7 +29767,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "비스킷",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 251-63",
     "roadAddress": "서울특별시 용산구 회나무로13가길 22",
     "lng": 126.9907677,
@@ -29776,7 +29776,7 @@ const data = [
   {
     "shopName": "매머드익스프레스",
     "branchName": "용산구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 이태원동 44-18",
     "roadAddress": "서울특별시 용산구 녹사평대로32길 51",
     "lng": 126.990856,
@@ -29794,7 +29794,7 @@ const data = [
   {
     "shopName": "만랩커피",
     "branchName": "을지로입구역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 다동 166",
     "roadAddress": "서울특별시 중구 다동길 24",
     "lng": 126.9805797,
@@ -29830,7 +29830,7 @@ const data = [
   {
     "shopName": "별책다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 광진구 화양동 17-12",
     "roadAddress": "서울특별시 광진구 광나루로16길 5",
     "lng": 127.0694898,
@@ -29857,7 +29857,7 @@ const data = [
   {
     "shopName": "멜리플루어스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 영등포구 당산동4가 1-146",
     "roadAddress": "서울특별시 영등포구 국회대로37길 4",
     "lng": 126.8996572,
@@ -29866,7 +29866,7 @@ const data = [
   {
     "shopName": "덴스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 송파구 풍납동 500-2",
     "roadAddress": "서울특별시 송파구 풍성로 69",
     "lng": 127.1201467,
@@ -29884,7 +29884,7 @@ const data = [
   {
     "shopName": "산투아리오",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1601",
     "roadAddress": "서울특별시 마포구 월드컵북로 402",
     "lng": 126.8890206,
@@ -29911,7 +29911,7 @@ const data = [
   {
     "shopName": "킷사텐",
     "branchName": "역삼점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 역삼동 723-31",
     "roadAddress": "서울특별시 강남구 언주로85길 23-10",
     "lng": 127.0414729,
@@ -29947,7 +29947,7 @@ const data = [
   {
     "shopName": "커피사이드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 도곡동 174-5",
     "roadAddress": "서울특별시 강남구 남부순환로 2749",
     "lng": 127.0467712,
@@ -29956,7 +29956,7 @@ const data = [
   {
     "shopName": "드르와디저트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 은평구 진관동 25",
     "roadAddress": "서울특별시 은평구 진관3로 77",
     "lng": 126.9208312,
@@ -29965,7 +29965,7 @@ const data = [
   {
     "shopName": "하이",
     "branchName": "더기즈",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 관악구 신림동 1464-13",
     "roadAddress": "서울특별시 관악구 관천로 59",
     "lng": 126.9251002,
@@ -29974,7 +29974,7 @@ const data = [
   {
     "shopName": "금커피별빙수",
     "branchName": "사가정역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중랑구 면목동 496-15",
     "roadAddress": "서울특별시 중랑구 면목로45길 3-6",
     "lng": 127.0881764,
@@ -29983,7 +29983,7 @@ const data = [
   {
     "shopName": "공감",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 신정동 888-28",
     "roadAddress": "서울특별시 양천구 목동로23길 5",
     "lng": 126.8629715,
@@ -29992,7 +29992,7 @@ const data = [
   {
     "shopName": "디저브커피바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로2가 71",
     "roadAddress": "서울특별시 용산구 한강대로40길 43",
     "lng": 126.971665,
@@ -30001,7 +30001,7 @@ const data = [
   {
     "shopName": "크로플덕오리아가씨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 동선동1가 121-6",
     "roadAddress": "서울특별시 성북구 동소문로20나길 47",
     "lng": 127.0191194,
@@ -30010,7 +30010,7 @@ const data = [
   {
     "shopName": "테스트원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강동구 암사동 513-33",
     "roadAddress": "서울특별시 강동구 올림픽로 757",
     "lng": 127.126768,
@@ -30019,7 +30019,7 @@ const data = [
   {
     "shopName": "드래곤힐프린트샵",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 용산구 한강로1가 241-1",
     "roadAddress": "서울특별시 용산구 한강대로 176",
     "lng": 126.9731155,
@@ -30037,7 +30037,7 @@ const data = [
   {
     "shopName": "루아르정릉",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 정릉동 409-40",
     "roadAddress": "서울특별시 성북구 보국문로8길 15",
     "lng": 127.01133,
@@ -30046,7 +30046,7 @@ const data = [
   {
     "shopName": "과일에반하다푸르타염창",
     "branchName": "목동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 양천구 목동 506-7",
     "roadAddress": "서울특별시 양천구 목동중앙본로 113",
     "lng": 126.8708387,
@@ -30064,7 +30064,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "케이스팟수국전망대",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 중구 남대문로5가 67-4",
     "roadAddress": "서울특별시 중구 퇴계로 33",
     "lng": 126.9765864,
@@ -30082,7 +30082,7 @@ const data = [
   {
     "shopName": "서서다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동작구 노량진동 16-1",
     "roadAddress": "서울특별시 동작구 노들로2길 7",
     "lng": 126.938572,
@@ -30091,7 +30091,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "종암점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 성북구 종암동 88-9",
     "roadAddress": "서울특별시 성북구 종암로 98",
     "lng": 127.0346915,
@@ -30100,7 +30100,7 @@ const data = [
   {
     "shopName": "베이비피그BabyPig",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 동대문구 휘경동 293-103",
     "roadAddress": "서울특별시 동대문구 망우로14가길 29-1",
     "lng": 127.0597118,
@@ -30109,7 +30109,7 @@ const data = [
   {
     "shopName": "월성맨션",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 마포구 상암동 1607",
     "roadAddress": "서울특별시 마포구 상암산로 76",
     "lng": 126.8922963,
@@ -30118,7 +30118,7 @@ const data = [
   {
     "shopName": "덩키카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "서울특별시 강남구 삼성동 141",
     "roadAddress": "서울특별시 강남구 선릉로 514",
     "lng": 127.0491509,
@@ -30127,7 +30127,7 @@ const data = [
   {
     "shopName": "안성다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 영화동 134-3",
     "roadAddress": "경기도 수원시 장안구 경수대로775번길 68",
     "lng": 127.0178554,
@@ -30136,7 +30136,7 @@ const data = [
   {
     "shopName": "다온카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 75-5",
     "roadAddress": "경기도 수원시 장안구 수성로 247",
     "lng": 126.9995689,
@@ -30154,7 +30154,7 @@ const data = [
   {
     "shopName": "아바",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 구운동 908-6",
     "roadAddress": "경기도 수원시 권선구 일월천로 6",
     "lng": 126.9726163,
@@ -30163,7 +30163,7 @@ const data = [
   {
     "shopName": "커피넛",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1125-2",
     "roadAddress": "경기도 수원시 팔달구 권광로 146",
     "lng": 127.031847,
@@ -30172,7 +30172,7 @@ const data = [
   {
     "shopName": "커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 하동 973",
     "roadAddress": "경기도 수원시 영통구 법조로149번길 126",
     "lng": 127.0691946,
@@ -30181,7 +30181,7 @@ const data = [
   {
     "shopName": "피노",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 고색동 141-16",
     "roadAddress": "경기도 수원시 권선구 고현로 29-1",
     "lng": 126.9868397,
@@ -30190,7 +30190,7 @@ const data = [
   {
     "shopName": "카페나노",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 천천동 323-10",
     "roadAddress": "경기도 수원시 장안구 일월로90번길 42-2",
     "lng": 126.9778492,
@@ -30199,7 +30199,7 @@ const data = [
   {
     "shopName": "이디야커피수원영통디지털점",
     "branchName": "수원영통디지털점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 980-3",
     "roadAddress": "경기도 수원시 영통구 덕영대로1556번길 16",
     "lng": 127.0591607,
@@ -30208,7 +30208,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "수원경희대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 1024-4",
     "roadAddress": "경기도 수원시 영통구 덕영대로 1695",
     "lng": 127.0767449,
@@ -30217,7 +30217,7 @@ const data = [
   {
     "shopName": "카페마조앤새디",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1338",
     "roadAddress": "경기도 수원시 영통구 도청로 10",
     "lng": 127.0559103,
@@ -30226,7 +30226,7 @@ const data = [
   {
     "shopName": "매듭까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 지동 116-23",
     "roadAddress": "경기도 수원시 팔달구 중부대로 79",
     "lng": 127.0254406,
@@ -30235,7 +30235,7 @@ const data = [
   {
     "shopName": "TOP카페테리아",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 1276",
     "roadAddress": "경기도 수원시 영통구 효원로 400",
     "lng": 127.0453721,
@@ -30244,7 +30244,7 @@ const data = [
   {
     "shopName": "탑빈스토리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 탑동 766-4",
     "roadAddress": "경기도 수원시 권선구 탑동로 52",
     "lng": 126.9742418,
@@ -30253,7 +30253,7 @@ const data = [
   {
     "shopName": "노리터",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 우만동 518",
     "roadAddress": "경기도 수원시 팔달구 월드컵로 319-1",
     "lng": 127.0336989,
@@ -30262,7 +30262,7 @@ const data = [
   {
     "shopName": "구슬다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 고등동 107-9",
     "roadAddress": "경기도 수원시 팔달구 고등로 51",
     "lng": 127.0027492,
@@ -30271,7 +30271,7 @@ const data = [
   {
     "shopName": "커피하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 천천동 480-3",
     "roadAddress": "경기도 수원시 장안구 정자로41번길 9",
     "lng": 126.9811206,
@@ -30280,7 +30280,7 @@ const data = [
   {
     "shopName": "달콤커피",
     "branchName": "수원역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 매산로1가 59-4",
     "roadAddress": "경기도 수원시 팔달구 매산로 3",
     "lng": 127.0019635,
@@ -30289,7 +30289,7 @@ const data = [
   {
     "shopName": "에드가까페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 세류동 544-8",
     "roadAddress": "경기도 수원시 권선구 정조로 509",
     "lng": 127.0110441,
@@ -30298,7 +30298,7 @@ const data = [
   {
     "shopName": "CAFESAN&TOA",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 고색동 1102",
     "roadAddress": "경기도 수원시 권선구 산업로156번길 201",
     "lng": 126.9872041,
@@ -30307,7 +30307,7 @@ const data = [
   {
     "shopName": "늘숲",
     "branchName": "아주대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 우만동 575-1",
     "roadAddress": "경기도 수원시 팔달구 아주로 37",
     "lng": 127.0435388,
@@ -30316,7 +30316,7 @@ const data = [
   {
     "shopName": "카페제이제이크레마",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 하동 959-3",
     "roadAddress": "경기도 수원시 영통구 법조로149번길 55",
     "lng": 127.0706901,
@@ -30325,7 +30325,7 @@ const data = [
   {
     "shopName": "카페스토리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 75-5",
     "roadAddress": "경기도 수원시 장안구 수성로 247",
     "lng": 126.9995689,
@@ -30343,7 +30343,7 @@ const data = [
   {
     "shopName": "카페마실",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 화서동 206-6",
     "roadAddress": "경기도 수원시 팔달구 화양로 33",
     "lng": 126.9967386,
@@ -30352,7 +30352,7 @@ const data = [
   {
     "shopName": "도치더치",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 1038-2",
     "roadAddress": "경기도 수원시 영통구 청명남로 52",
     "lng": 127.076988,
@@ -30361,7 +30361,7 @@ const data = [
   {
     "shopName": "식스브레드&클럽에스프레소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1332",
     "roadAddress": "경기도 수원시 영통구 센트럴타운로 85",
     "lng": 127.0504641,
@@ -30379,7 +30379,7 @@ const data = [
   {
     "shopName": "커피먹고놀자",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 율전동 297-2",
     "roadAddress": "경기도 수원시 장안구 율전로98번길 7",
     "lng": 126.9692048,
@@ -30388,7 +30388,7 @@ const data = [
   {
     "shopName": "전통매듭연구회",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 지동 116-23",
     "roadAddress": "경기도 수원시 팔달구 중부대로 79",
     "lng": 127.0254406,
@@ -30397,7 +30397,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "수원남문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 팔달로3가 30-5",
     "roadAddress": "경기도 수원시 팔달구 정조로 756-1",
     "lng": 127.0168717,
@@ -30406,7 +30406,7 @@ const data = [
   {
     "shopName": "플레이타임",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 매산로1가 18",
     "roadAddress": "경기도 수원시 팔달구 덕영대로 924",
     "lng": 127.0000881,
@@ -30415,7 +30415,7 @@ const data = [
   {
     "shopName": "이콩이콩",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 우만동 522-20",
     "roadAddress": "경기도 수원시 팔달구 월드컵로311번길 39",
     "lng": 127.0328991,
@@ -30424,7 +30424,7 @@ const data = [
   {
     "shopName": "스터디카페스터디인투",
     "branchName": "매탄점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 1264-2",
     "roadAddress": "경기도 수원시 영통구 매탄로108번길 28",
     "lng": 127.0449098,
@@ -30433,7 +30433,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "수원영통점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 1011-6",
     "roadAddress": "경기도 수원시 영통구 청명남로34번길 3",
     "lng": 127.0759536,
@@ -30451,7 +30451,7 @@ const data = [
   {
     "shopName": "캔다방탑동래미안점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 탑동 757-6",
     "roadAddress": "경기도 수원시 권선구 탑동로 60",
     "lng": 126.9740417,
@@ -30460,7 +30460,7 @@ const data = [
   {
     "shopName": "카페76",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 172-67",
     "roadAddress": "경기도 수원시 영통구 중부대로246번길 43",
     "lng": 127.0419469,
@@ -30478,7 +30478,7 @@ const data = [
   {
     "shopName": "크리스피크림도넛",
     "branchName": "수원인계점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1114-7",
     "roadAddress": "경기도 수원시 팔달구 권광로 200",
     "lng": 127.0335576,
@@ -30487,7 +30487,7 @@ const data = [
   {
     "shopName": "굿커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 우만동 573-1",
     "roadAddress": "경기도 수원시 팔달구 아주로 47",
     "lng": 127.0435171,
@@ -30496,7 +30496,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "수원광교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1325-5",
     "roadAddress": "경기도 수원시 영통구 센트럴타운로 94",
     "lng": 127.0508992,
@@ -30505,7 +30505,7 @@ const data = [
   {
     "shopName": "커피하우스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 세류동 533",
     "roadAddress": "경기도 수원시 권선구 정조로 526",
     "lng": 127.0114866,
@@ -30514,7 +30514,7 @@ const data = [
   {
     "shopName": "로이맘도라지가게",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 당수동 282-54",
     "roadAddress": "경기도 수원시 권선구 수인로621번길 68",
     "lng": 126.937005,
@@ -30523,7 +30523,7 @@ const data = [
   {
     "shopName": "카페데일리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 연무동 7-7",
     "roadAddress": "경기도 수원시 장안구 광교산로138번길 1",
     "lng": 127.0303741,
@@ -30532,7 +30532,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "수원영통점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 958-2",
     "roadAddress": "경기도 수원시 영통구 봉영로 1617",
     "lng": 127.0743079,
@@ -30559,7 +30559,7 @@ const data = [
   {
     "shopName": "엔제리너스",
     "branchName": "르노삼성점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 원천동 318-1",
     "roadAddress": "경기도 수원시 영통구 삼성로 300",
     "lng": 127.0660995,
@@ -30568,7 +30568,7 @@ const data = [
   {
     "shopName": "더카페",
     "branchName": "수원터미널NC백화점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 1189",
     "roadAddress": "경기도 수원시 권선구 경수대로 270",
     "lng": 127.0200877,
@@ -30577,7 +30577,7 @@ const data = [
   {
     "shopName": "와우커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 오목천동 763",
     "roadAddress": "경기도 수원시 권선구 서부로 1371",
     "lng": 126.98395,
@@ -30586,7 +30586,7 @@ const data = [
   {
     "shopName": "착한커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 화서동 721-4",
     "roadAddress": "경기도 수원시 팔달구 일월로42번길 8-10",
     "lng": 126.9793334,
@@ -30595,7 +30595,7 @@ const data = [
   {
     "shopName": "커피로맨스",
     "branchName": "본점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 1217-7",
     "roadAddress": "경기도 수원시 영통구 동탄원천로 1035",
     "lng": 127.0498164,
@@ -30604,7 +30604,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "오디디오수원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 원천동 30-68",
     "roadAddress": "경기도 수원시 영통구 월드컵로179번길 14-6",
     "lng": 127.0451616,
@@ -30613,7 +30613,7 @@ const data = [
   {
     "shopName": "포토카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 원천동 29-35",
     "roadAddress": "경기도 수원시 영통구 월드컵로179번길 14-12",
     "lng": 127.0449346,
@@ -30622,7 +30622,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "블레스롤광교카페거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1321",
     "roadAddress": "경기도 수원시 영통구 센트럴파크로127번길 88",
     "lng": 127.0521045,
@@ -30640,7 +30640,7 @@ const data = [
   {
     "shopName": "복다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 교동 197-2",
     "roadAddress": "경기도 수원시 팔달구 매산로 96",
     "lng": 127.0114492,
@@ -30649,7 +30649,7 @@ const data = [
   {
     "shopName": "삼성전자",
     "branchName": "정보통신총괄연구소",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 416",
     "roadAddress": "경기도 수원시 영통구 삼성로 129",
     "lng": 127.0531221,
@@ -30658,7 +30658,7 @@ const data = [
   {
     "shopName": "라팽블랑",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 600-31",
     "roadAddress": "경기도 수원시 장안구 이목로 24-9",
     "lng": 126.9848564,
@@ -30667,7 +30667,7 @@ const data = [
   {
     "shopName": "에이치투디갈비명가서서갈비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 탑동 432-1",
     "roadAddress": "경기도 수원시 권선구 서부로 1780-24",
     "lng": 126.9729835,
@@ -30685,7 +30685,7 @@ const data = [
   {
     "shopName": "카페혜시",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 조원동 760-4",
     "roadAddress": "경기도 수원시 장안구 조원로89번길 46",
     "lng": 127.013761,
@@ -30694,7 +30694,7 @@ const data = [
   {
     "shopName": "수남다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 영화동 117-3",
     "roadAddress": "경기도 수원시 장안구 경수대로 781-2",
     "lng": 127.0192521,
@@ -30703,7 +30703,7 @@ const data = [
   {
     "shopName": "YILDIZCOFFEE",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 조원동 894",
     "roadAddress": "경기도 수원시 장안구 경수대로 940",
     "lng": 127.0080409,
@@ -30712,7 +30712,7 @@ const data = [
   {
     "shopName": "탐앤탐스광교역경기대점",
     "branchName": "광교역경기대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1257-3",
     "roadAddress": "경기도 수원시 영통구 대학3로4번길 12",
     "lng": 127.0434106,
@@ -30721,7 +30721,7 @@ const data = [
   {
     "shopName": "카페정덕",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 매향동 122-51",
     "roadAddress": "경기도 수원시 팔달구 창룡대로41번길 4",
     "lng": 127.0206768,
@@ -30730,7 +30730,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "숨갤러리",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1284",
     "roadAddress": "경기도 수원시 영통구 창룡대로 250",
     "lng": 127.0368989,
@@ -30739,7 +30739,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "수원팔달문점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 팔달로2가 128-2",
     "roadAddress": "경기도 수원시 팔달구 정조로777번길 2",
     "lng": 127.0161224,
@@ -30748,7 +30748,7 @@ const data = [
   {
     "shopName": "공주다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 북수동 171",
     "roadAddress": "경기도 수원시 팔달구 정조로 868",
     "lng": 127.0158161,
@@ -30757,7 +30757,7 @@ const data = [
   {
     "shopName": "스마일아이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 매산로1가 16-10",
     "roadAddress": "경기도 수원시 팔달구 향교로 3-2",
     "lng": 127.0016175,
@@ -30775,7 +30775,7 @@ const data = [
   {
     "shopName": "cafedrawing",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 호매실동 1400-2",
     "roadAddress": "경기도 수원시 권선구 호매실로104번길 24-61",
     "lng": 126.9626271,
@@ -30784,7 +30784,7 @@ const data = [
   {
     "shopName": "쥬씨망포역점",
     "branchName": "망포역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 973-3",
     "roadAddress": "경기도 수원시 영통구 영통로 232",
     "lng": 127.0584677,
@@ -30793,7 +30793,7 @@ const data = [
   {
     "shopName": "easycoffee",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 이목동 285-2",
     "roadAddress": "경기도 수원시 장안구 장안로 394",
     "lng": 126.9841403,
@@ -30811,7 +30811,7 @@ const data = [
   {
     "shopName": "101커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 지동 261-1",
     "roadAddress": "경기도 수원시 팔달구 경수대로 697",
     "lng": 127.0257397,
@@ -30820,7 +30820,7 @@ const data = [
   {
     "shopName": "북문충전소커피판매기",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 영화동 365-1",
     "roadAddress": "경기도 수원시 장안구 팔달로247번길 1",
     "lng": 127.0120914,
@@ -30829,7 +30829,7 @@ const data = [
   {
     "shopName": "브리즈피씨까페",
     "branchName": "수원영통점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 998-7",
     "roadAddress": "경기도 수원시 영통구 청명남로 25",
     "lng": 127.074718,
@@ -30838,7 +30838,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "수원망포DT점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 망포동 38-23",
     "roadAddress": "경기도 수원시 영통구 덕영대로 1467",
     "lng": 127.0513306,
@@ -30847,7 +30847,7 @@ const data = [
   {
     "shopName": "탐앤탐스",
     "branchName": "수원경희대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 1024-8",
     "roadAddress": "경기도 수원시 영통구 덕영대로 1701",
     "lng": 127.0773423,
@@ -30856,7 +30856,7 @@ const data = [
   {
     "shopName": "소유",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 354-2",
     "roadAddress": "경기도 수원시 장안구 대평로 154",
     "lng": 126.9897914,
@@ -30874,7 +30874,7 @@ const data = [
   {
     "shopName": "나는카페수원의료원점",
     "branchName": "수원의료원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 886-9",
     "roadAddress": "경기도 수원시 장안구 수성로245번길 69",
     "lng": 126.9963695,
@@ -30883,7 +30883,7 @@ const data = [
   {
     "shopName": "쥬씨",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 망포동 544-11",
     "roadAddress": "경기도 수원시 영통구 태장로 84",
     "lng": 127.0555198,
@@ -30892,7 +30892,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "매직샵",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 하동 987-4",
     "roadAddress": "경기도 수원시 영통구 광교중앙로 242",
     "lng": 127.0665646,
@@ -30901,7 +30901,7 @@ const data = [
   {
     "shopName": "독다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 남창동 98-3",
     "roadAddress": "경기도 수원시 팔달구 행궁로 36",
     "lng": 127.0149177,
@@ -30910,7 +30910,7 @@ const data = [
   {
     "shopName": "웰스헬스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 1364",
     "roadAddress": "경기도 수원시 권선구 동수원로177번길 40",
     "lng": 127.0301416,
@@ -30919,7 +30919,7 @@ const data = [
   {
     "shopName": "홍라드",
     "branchName": "2호점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 신풍동 120-1",
     "roadAddress": "경기도 수원시 팔달구 화서문로16번길 15",
     "lng": 127.0096488,
@@ -30928,7 +30928,7 @@ const data = [
   {
     "shopName": "쥬씨",
     "branchName": "북수원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 조원동 898-1",
     "roadAddress": "경기도 수원시 장안구 송원로 81",
     "lng": 127.009216,
@@ -30937,7 +30937,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "또,봄플라워앤",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 40-11",
     "roadAddress": "경기도 수원시 장안구 장안로 106",
     "lng": 127.0012999,
@@ -30946,7 +30946,7 @@ const data = [
   {
     "shopName": "알리바바커피&도넛",
     "branchName": "호매실점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1105-10",
     "roadAddress": "경기도 수원시 권선구 금곡로197번길 59-31",
     "lng": 126.9536051,
@@ -30955,7 +30955,7 @@ const data = [
   {
     "shopName": "정지영커피로스터즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 북수동 33-9",
     "roadAddress": "경기도 수원시 팔달구 수원천로 375",
     "lng": 127.0172088,
@@ -30982,7 +30982,7 @@ const data = [
   {
     "shopName": "요거프레소",
     "branchName": "광교SK뷰레이크점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 하동 1016-1",
     "roadAddress": "경기도 수원시 영통구 법조로 25",
     "lng": 127.0598979,
@@ -30991,7 +30991,7 @@ const data = [
   {
     "shopName": "모노로그",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1088",
     "roadAddress": "경기도 수원시 권선구 금곡로118번길 10-31",
     "lng": 126.9423803,
@@ -31000,7 +31000,7 @@ const data = [
   {
     "shopName": "아뜰리에202",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 원천동 589",
     "roadAddress": "경기도 수원시 영통구 광교호수공원로 277",
     "lng": 127.0566058,
@@ -31009,7 +31009,7 @@ const data = [
   {
     "shopName": "커피라운지",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 971-1",
     "roadAddress": "경기도 수원시 영통구 덕영대로1555번길 20",
     "lng": 127.0618068,
@@ -31018,7 +31018,7 @@ const data = [
   {
     "shopName": "푸르릇",
     "branchName": "호매실점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 262-10",
     "roadAddress": "경기도 수원시 권선구 금호로15번길 15",
     "lng": 126.9529242,
@@ -31027,7 +31027,7 @@ const data = [
   {
     "shopName": "요거프레소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 남수동 95-5",
     "roadAddress": "경기도 수원시 팔달구 수원천로 292",
     "lng": 127.0188717,
@@ -31036,7 +31036,7 @@ const data = [
   {
     "shopName": "우드바인",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 고색동 40-1",
     "roadAddress": "경기도 수원시 권선구 매송고색로 723",
     "lng": 126.9835093,
@@ -31045,7 +31045,7 @@ const data = [
   {
     "shopName": "anoldchum",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 고등동 86-6",
     "roadAddress": "경기도 수원시 팔달구 고화로39번길 76",
     "lng": 127.0047364,
@@ -31054,7 +31054,7 @@ const data = [
   {
     "shopName": "쏭다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 화서동 180-5",
     "roadAddress": "경기도 수원시 팔달구 동말로38번길 9-10",
     "lng": 126.9990343,
@@ -31063,7 +31063,7 @@ const data = [
   {
     "shopName": "오프에어",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 장안동 315-2",
     "roadAddress": "경기도 수원시 팔달구 화서문로 33",
     "lng": 127.0115596,
@@ -31072,7 +31072,7 @@ const data = [
   {
     "shopName": "완벽한순간",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 율전동 300",
     "roadAddress": "경기도 수원시 장안구 율전로108번길 9",
     "lng": 126.9698227,
@@ -31081,7 +31081,7 @@ const data = [
   {
     "shopName": "COFFEE21",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 고색동 890-15",
     "roadAddress": "경기도 수원시 권선구 매송고색로711번길 3-4",
     "lng": 126.9818108,
@@ -31090,7 +31090,7 @@ const data = [
   {
     "shopName": "아란커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 송죽동 239-2",
     "roadAddress": "경기도 수원시 장안구 정조로 1087",
     "lng": 127.002543,
@@ -31099,7 +31099,7 @@ const data = [
   {
     "shopName": "아지랑이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 호매실동 665-1",
     "roadAddress": "경기도 수원시 권선구 칠보로88번길 20",
     "lng": 126.9479789,
@@ -31108,7 +31108,7 @@ const data = [
   {
     "shopName": "콘트란쉐리에",
     "branchName": "롯데아울렛광교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1338",
     "roadAddress": "경기도 수원시 영통구 도청로 10",
     "lng": 127.0559605,
@@ -31117,7 +31117,7 @@ const data = [
   {
     "shopName": "삼성웰스토리소재연구단지",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 560",
     "roadAddress": "경기도 수원시 영통구 삼성로 130",
     "lng": 127.0574429,
@@ -31126,7 +31126,7 @@ const data = [
   {
     "shopName": "뜰커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 1267-7",
     "roadAddress": "경기도 수원시 영통구 효원로 397",
     "lng": 127.0451567,
@@ -31135,7 +31135,7 @@ const data = [
   {
     "shopName": "부릉카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 하동 957-10",
     "roadAddress": "경기도 수원시 영통구 법조로149번길 62",
     "lng": 127.0703815,
@@ -31144,7 +31144,7 @@ const data = [
   {
     "shopName": "박철두의브라더스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 1053-4",
     "roadAddress": "경기도 수원시 권선구 경수대로352번길 48",
     "lng": 127.0255664,
@@ -31153,7 +31153,7 @@ const data = [
   {
     "shopName": "원포레스트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 탑동 835-6",
     "roadAddress": "경기도 수원시 권선구 하탑로 29",
     "lng": 126.9748449,
@@ -31162,7 +31162,7 @@ const data = [
   {
     "shopName": "달리는커피",
     "branchName": "수원영통점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 1093",
     "roadAddress": "경기도 수원시 영통구 봉영로1482번길 18",
     "lng": 127.0661993,
@@ -31171,7 +31171,7 @@ const data = [
   {
     "shopName": "달리는커피",
     "branchName": "수원장안점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 327-2",
     "roadAddress": "경기도 수원시 장안구 대평로142번길 23-14",
     "lng": 126.9914408,
@@ -31180,7 +31180,7 @@ const data = [
   {
     "shopName": "시루아네",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 조원동 896",
     "roadAddress": "경기도 수원시 장안구 경수대로 930",
     "lng": 127.0088017,
@@ -31189,7 +31189,7 @@ const data = [
   {
     "shopName": "미크레",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 곡반정동 589-8",
     "roadAddress": "경기도 수원시 권선구 동수원로36번길 9",
     "lng": 127.0242195,
@@ -31198,7 +31198,7 @@ const data = [
   {
     "shopName": "엔제리너스",
     "branchName": "수원인계점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1113",
     "roadAddress": "경기도 수원시 팔달구 권광로 187",
     "lng": 127.0324639,
@@ -31207,7 +31207,7 @@ const data = [
   {
     "shopName": "안목",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1300",
     "roadAddress": "경기도 수원시 영통구 센트럴파크로128번길 75",
     "lng": 127.0582317,
@@ -31216,7 +31216,7 @@ const data = [
   {
     "shopName": "카페로뎀",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 세류동 1128",
     "roadAddress": "경기도 수원시 권선구 덕영대로1152번길 1",
     "lng": 127.0168134,
@@ -31225,7 +31225,7 @@ const data = [
   {
     "shopName": "물가에심기운카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1263-1",
     "roadAddress": "경기도 수원시 영통구 대학1로 62",
     "lng": 127.0462296,
@@ -31234,7 +31234,7 @@ const data = [
   {
     "shopName": "뜰7",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 세류동 1119-13",
     "roadAddress": "경기도 수원시 권선구 경수대로261번길 20",
     "lng": 127.0177198,
@@ -31243,7 +31243,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "매탄삼성점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 486-8",
     "roadAddress": "경기도 수원시 영통구 신원로 213",
     "lng": 127.0599312,
@@ -31252,7 +31252,7 @@ const data = [
   {
     "shopName": "카페바를정",
     "branchName": "바를정",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 462-1",
     "roadAddress": "경기도 수원시 장안구 정자로 132-9",
     "lng": 126.9916004,
@@ -31261,7 +31261,7 @@ const data = [
   {
     "shopName": "디자인108",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 구운동 889",
     "roadAddress": "경기도 수원시 권선구 수성로35번길 60",
     "lng": 126.976739,
@@ -31270,7 +31270,7 @@ const data = [
   {
     "shopName": "G커피앤카페",
     "branchName": "G커피앤",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 997",
     "roadAddress": "경기도 수원시 팔달구 장다리로 179",
     "lng": 127.0241661,
@@ -31279,7 +31279,7 @@ const data = [
   {
     "shopName": "커피볶는집",
     "branchName": "우리동네",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 화서동 678-2",
     "roadAddress": "경기도 수원시 팔달구 수성로157번길 27-4",
     "lng": 126.9893568,
@@ -31288,7 +31288,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "솔대",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 송죽동 496",
     "roadAddress": "경기도 수원시 장안구 경수대로973번길 13-4",
     "lng": 127.0043238,
@@ -31297,7 +31297,7 @@ const data = [
   {
     "shopName": "할리스커피광교테크노밸리점",
     "branchName": "광교테크노밸리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1351",
     "roadAddress": "경기도 수원시 영통구 에듀타운로 108",
     "lng": 127.0454383,
@@ -31306,7 +31306,7 @@ const data = [
   {
     "shopName": "카페드파리롯데백화점수원점",
     "branchName": "오가다더심플수원롯데몰점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 서둔동 381",
     "roadAddress": "경기도 수원시 권선구 세화로 134",
     "lng": 126.9972782,
@@ -31315,7 +31315,7 @@ const data = [
   {
     "shopName": "플리터커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 988",
     "roadAddress": "경기도 수원시 권선구 경수대로359번길 11",
     "lng": 127.0222302,
@@ -31324,7 +31324,7 @@ const data = [
   {
     "shopName": "어썸PC카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 영화동 398-1",
     "roadAddress": "경기도 수원시 장안구 수성로258번길 3",
     "lng": 127.0010239,
@@ -31333,7 +31333,7 @@ const data = [
   {
     "shopName": "라온커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 882-5",
     "roadAddress": "경기도 수원시 장안구 대평로51번길 56",
     "lng": 126.9917515,
@@ -31342,7 +31342,7 @@ const data = [
   {
     "shopName": "봄을꿈꾸는카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 1311-2",
     "roadAddress": "경기도 수원시 권선구 동수원로224번길 10",
     "lng": 127.0343572,
@@ -31351,7 +31351,7 @@ const data = [
   {
     "shopName": "망고키즈카페",
     "branchName": "망고키즈",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 망포동 570-5",
     "roadAddress": "경기도 수원시 영통구 영통로 103",
     "lng": 127.0583003,
@@ -31360,7 +31360,7 @@ const data = [
   {
     "shopName": "정식클럽",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 395",
     "roadAddress": "경기도 수원시 장안구 장안로 232",
     "lng": 126.9934621,
@@ -31369,7 +31369,7 @@ const data = [
   {
     "shopName": "만랩커피광교sk레이크점",
     "branchName": "광교SK레이크점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 하동 1016-1",
     "roadAddress": "경기도 수원시 영통구 법조로 25",
     "lng": 127.0598979,
@@ -31378,7 +31378,7 @@ const data = [
   {
     "shopName": "cafei",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 호매실동 1350-1",
     "roadAddress": "경기도 수원시 권선구 금곡로140번길 95-64",
     "lng": 126.943249,
@@ -31387,7 +31387,7 @@ const data = [
   {
     "shopName": "호호",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 호매실동 1369",
     "roadAddress": "경기도 수원시 권선구 칠보로 169",
     "lng": 126.9579118,
@@ -31396,7 +31396,7 @@ const data = [
   {
     "shopName": "힐링&카페라떼르",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 매산로1가 35",
     "roadAddress": "경기도 수원시 팔달구 향교로 11-2",
     "lng": 127.0024704,
@@ -31405,7 +31405,7 @@ const data = [
   {
     "shopName": "북카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 고색동 890-191",
     "roadAddress": "경기도 수원시 권선구 매송고색로721번길 26",
     "lng": 126.9828202,
@@ -31414,7 +31414,7 @@ const data = [
   {
     "shopName": "더치앤빈",
     "branchName": "병점점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 지동 116-22",
     "roadAddress": "경기도 수원시 팔달구 중부대로 81",
     "lng": 127.0255755,
@@ -31423,7 +31423,7 @@ const data = [
   {
     "shopName": "카페다",
     "branchName": "광교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 하동 985-2",
     "roadAddress": "경기도 수원시 영통구 광교중앙로248번길 107",
     "lng": 127.0691935,
@@ -31432,7 +31432,7 @@ const data = [
   {
     "shopName": "커피빈코리아수원송죽DT점",
     "branchName": "코리아수원송죽DT점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 송죽동 451-24",
     "roadAddress": "경기도 수원시 장안구 경수대로 989",
     "lng": 127.0029169,
@@ -31441,7 +31441,7 @@ const data = [
   {
     "shopName": "라떼야커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 고색동 886-125",
     "roadAddress": "경기도 수원시 권선구 서부로1596번길 10",
     "lng": 126.9765474,
@@ -31450,7 +31450,7 @@ const data = [
   {
     "shopName": "엔제리너스",
     "branchName": "롯데아울렛광교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1338",
     "roadAddress": "경기도 수원시 영통구 도청로 10",
     "lng": 127.0559103,
@@ -31459,7 +31459,7 @@ const data = [
   {
     "shopName": "청춘물고기낚시카페",
     "branchName": "청춘물고기낚시",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 매산로1가 13-4",
     "roadAddress": "경기도 수원시 팔달구 향교로1번길 22-15",
     "lng": 127.0008539,
@@ -31468,7 +31468,7 @@ const data = [
   {
     "shopName": "커피에이앤컴퍼니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 991-9",
     "roadAddress": "경기도 수원시 권선구 경수대로335번길 10",
     "lng": 127.0214985,
@@ -31477,7 +31477,7 @@ const data = [
   {
     "shopName": "커피홀릭",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 372-20",
     "roadAddress": "경기도 수원시 영통구 신원로 295",
     "lng": 127.0602959,
@@ -31486,7 +31486,7 @@ const data = [
   {
     "shopName": "쉬어가다",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 조원동 57-1",
     "roadAddress": "경기도 수원시 장안구 수일로219번길 50",
     "lng": 127.0140069,
@@ -31495,7 +31495,7 @@ const data = [
   {
     "shopName": "옥다방",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 신풍동 198-2",
     "roadAddress": "경기도 수원시 팔달구 정조로 857",
     "lng": 127.0157047,
@@ -31504,7 +31504,7 @@ const data = [
   {
     "shopName": "스무디킹",
     "branchName": "영통메가박스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 961-1",
     "roadAddress": "경기도 수원시 영통구 청명로 151",
     "lng": 127.0720442,
@@ -31513,7 +31513,7 @@ const data = [
   {
     "shopName": "요거프레소",
     "branchName": "수원SK스카이뷰점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 945",
     "roadAddress": "경기도 수원시 장안구 이목로 24",
     "lng": 126.983592,
@@ -31522,7 +31522,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "수원이비스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1132-12",
     "roadAddress": "경기도 수원시 팔달구 권광로 132",
     "lng": 127.0312995,
@@ -31531,7 +31531,7 @@ const data = [
   {
     "shopName": "할리스커피",
     "branchName": "인계써드아이점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1036-5",
     "roadAddress": "경기도 수원시 팔달구 인계로 130",
     "lng": 127.0317631,
@@ -31540,7 +31540,7 @@ const data = [
   {
     "shopName": "카페델로",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 958-2",
     "roadAddress": "경기도 수원시 팔달구 장다리로 282-5",
     "lng": 127.0285957,
@@ -31549,7 +31549,7 @@ const data = [
   {
     "shopName": "커피가",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 입북동 412-4",
     "roadAddress": "경기도 수원시 권선구 입북로 35",
     "lng": 126.9592901,
@@ -31558,7 +31558,7 @@ const data = [
   {
     "shopName": "이따금",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 신풍동 69",
     "roadAddress": "경기도 수원시 팔달구 화서문로32번길 15",
     "lng": 127.0120312,
@@ -31567,7 +31567,7 @@ const data = [
   {
     "shopName": "카페베네",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 매산로1가 18",
     "roadAddress": "경기도 수원시 팔달구 덕영대로 924",
     "lng": 127.0000881,
@@ -31576,7 +31576,7 @@ const data = [
   {
     "shopName": "커피빈",
     "branchName": "코리아광교아브뉴프랑점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1332",
     "roadAddress": "경기도 수원시 영통구 센트럴타운로 85",
     "lng": 127.0504641,
@@ -31585,7 +31585,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "홈플러스동수원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1045",
     "roadAddress": "경기도 수원시 팔달구 효원로 257",
     "lng": 127.0301156,
@@ -31594,7 +31594,7 @@ const data = [
   {
     "shopName": "스위티두",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 1022-5",
     "roadAddress": "경기도 수원시 영통구 영일로6번길 35",
     "lng": 127.0778788,
@@ -31612,7 +31612,7 @@ const data = [
   {
     "shopName": "너라는계절",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1124-1",
     "roadAddress": "경기도 수원시 권선구 금곡로196번길 62",
     "lng": 126.954739,
@@ -31621,7 +31621,7 @@ const data = [
   {
     "shopName": "인터라켄",
     "branchName": "드인터라켄",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 1027-6",
     "roadAddress": "경기도 수원시 권선구 권선로 716-1",
     "lng": 127.0293745,
@@ -31630,7 +31630,7 @@ const data = [
   {
     "shopName": "오제뉴어리카페",
     "branchName": "오제뉴어리",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 원천동 590",
     "roadAddress": "경기도 수원시 영통구 광교호수공원로 155",
     "lng": 127.0601915,
@@ -31639,7 +31639,7 @@ const data = [
   {
     "shopName": "카페쉘터",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 매교동 161-3",
     "roadAddress": "경기도 수원시 팔달구 정조로 643",
     "lng": 127.015503,
@@ -31657,7 +31657,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "구운점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 구운동 527-1",
     "roadAddress": "경기도 수원시 권선구 구운로27번길 28",
     "lng": 126.9741769,
@@ -31666,7 +31666,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "인중독광교에듀하임점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1352",
     "roadAddress": "경기도 수원시 영통구 에듀타운로 101",
     "lng": 127.0449493,
@@ -31675,7 +31675,7 @@ const data = [
   {
     "shopName": "덕스커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 매산로1가 13-5",
     "roadAddress": "경기도 수원시 팔달구 향교로1번길 22-19",
     "lng": 127.0009987,
@@ -31684,7 +31684,7 @@ const data = [
   {
     "shopName": "음음음",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 208-7",
     "roadAddress": "경기도 수원시 영통구 매원로12번길 6",
     "lng": 127.0471272,
@@ -31693,7 +31693,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "수원인계점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1131",
     "roadAddress": "경기도 수원시 팔달구 권광로 138",
     "lng": 127.031607,
@@ -31702,7 +31702,7 @@ const data = [
   {
     "shopName": "스타벅스",
     "branchName": "수원광교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1332",
     "roadAddress": "경기도 수원시 영통구 센트럴타운로 85",
     "lng": 127.0512039,
@@ -31711,7 +31711,7 @@ const data = [
   {
     "shopName": "탐앤탐스",
     "branchName": "아주대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 원천동 18-1",
     "roadAddress": "경기도 수원시 영통구 아주로 46",
     "lng": 127.0440729,
@@ -31720,7 +31720,7 @@ const data = [
   {
     "shopName": "커피주택",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 화서동 722-14",
     "roadAddress": "경기도 수원시 팔달구 일월로42번길 8-15",
     "lng": 126.9796377,
@@ -31729,7 +31729,7 @@ const data = [
   {
     "shopName": "쉐르본",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 망포동 295",
     "roadAddress": "경기도 수원시 영통구 영통로153번길 30",
     "lng": 127.053492,
@@ -31738,7 +31738,7 @@ const data = [
   {
     "shopName": "디샤커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 고등동 4-1",
     "roadAddress": "경기도 수원시 팔달구 고화로 103",
     "lng": 127.006401,
@@ -31747,7 +31747,7 @@ const data = [
   {
     "shopName": "메가커피",
     "branchName": "수원율전점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 율전동 407-5",
     "roadAddress": "경기도 수원시 장안구 서부로2105번길 16-4",
     "lng": 126.9694691,
@@ -31756,7 +31756,7 @@ const data = [
   {
     "shopName": "시작스터디카페",
     "branchName": "수원매탄점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 1263-4",
     "roadAddress": "경기도 수원시 영통구 매탄로100번길 17",
     "lng": 127.0442141,
@@ -31765,7 +31765,7 @@ const data = [
   {
     "shopName": "루움",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 구운동 912-6",
     "roadAddress": "경기도 수원시 권선구 일월천로4번길 49-6",
     "lng": 126.9749503,
@@ -31774,7 +31774,7 @@ const data = [
   {
     "shopName": "카페일프로",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 1302",
     "roadAddress": "경기도 수원시 권선구 세권로 331",
     "lng": 127.040479,
@@ -31783,7 +31783,7 @@ const data = [
   {
     "shopName": "이코나",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 고색동 1152",
     "roadAddress": "경기도 수원시 권선구 산업로156번길 142-10",
     "lng": 126.9864605,
@@ -31792,7 +31792,7 @@ const data = [
   {
     "shopName": "다정커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 북수동 75",
     "roadAddress": "경기도 수원시 팔달구 화서문로71번길 6",
     "lng": 127.0156956,
@@ -31801,7 +31801,7 @@ const data = [
   {
     "shopName": "카페그로브",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 곡반정동 563-1",
     "roadAddress": "경기도 수원시 권선구 곡선로50번길 5-3",
     "lng": 127.0299296,
@@ -31810,7 +31810,7 @@ const data = [
   {
     "shopName": "커피잡은손",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1306-20",
     "roadAddress": "경기도 수원시 영통구 센트럴파크로127번길 18",
     "lng": 127.0552215,
@@ -31819,7 +31819,7 @@ const data = [
   {
     "shopName": "카페로디",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 율전동 288-2",
     "roadAddress": "경기도 수원시 장안구 화산로213번길 11",
     "lng": 126.9728469,
@@ -31828,7 +31828,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "이플러스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 955-1",
     "roadAddress": "경기도 수원시 팔달구 경수대로 549",
     "lng": 127.0293488,
@@ -31837,7 +31837,7 @@ const data = [
   {
     "shopName": "chanceonsomeone",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 고등동 49-5",
     "roadAddress": "경기도 수원시 팔달구 고화로61번길 12",
     "lng": 127.0055132,
@@ -31846,7 +31846,7 @@ const data = [
   {
     "shopName": "다온블리스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 곡반정동 511-1",
     "roadAddress": "경기도 수원시 권선구 동수원로146번길 115",
     "lng": 127.0349228,
@@ -31855,7 +31855,7 @@ const data = [
   {
     "shopName": "쿠오레에스프레소",
     "branchName": "수원시청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1044-14",
     "roadAddress": "경기도 수원시 팔달구 효원로249번길 18-21",
     "lng": 127.0307074,
@@ -31864,7 +31864,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "플러스셀",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 오목천동 775",
     "roadAddress": "경기도 수원시 권선구 서수원로53번길 25-36",
     "lng": 126.9779101,
@@ -31882,7 +31882,7 @@ const data = [
   {
     "shopName": "요거프레소",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 세류동 1146-12",
     "roadAddress": "경기도 수원시 권선구 정조로388번길 3",
     "lng": 127.0148322,
@@ -31891,7 +31891,7 @@ const data = [
   {
     "shopName": "카페놀이",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1344",
     "roadAddress": "경기도 수원시 영통구 도청로 65",
     "lng": 127.0493983,
@@ -31900,7 +31900,7 @@ const data = [
   {
     "shopName": "그랜드커피숍",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 고등동 86-3",
     "roadAddress": "경기도 수원시 팔달구 고매로 4",
     "lng": 127.0046216,
@@ -31909,7 +31909,7 @@ const data = [
   {
     "shopName": "공간샘스터디카페",
     "branchName": "호매실점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1085-3",
     "roadAddress": "경기도 수원시 권선구 금곡로 112",
     "lng": 126.9425974,
@@ -31918,7 +31918,7 @@ const data = [
   {
     "shopName": "톡",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 1025-1",
     "roadAddress": "경기도 수원시 영통구 청명로 28",
     "lng": 127.0806461,
@@ -31927,7 +31927,7 @@ const data = [
   {
     "shopName": "애견카페이지독",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 송죽동 258-3",
     "roadAddress": "경기도 수원시 장안구 파장로 1",
     "lng": 126.9999152,
@@ -31954,7 +31954,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "올웨이즈24시",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 1337",
     "roadAddress": "경기도 수원시 권선구 덕영대로1190번길 100",
     "lng": 127.0193806,
@@ -31963,7 +31963,7 @@ const data = [
   {
     "shopName": "퍼블리크",
     "branchName": "롯데아울렛광교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1338",
     "roadAddress": "경기도 수원시 영통구 도청로 10",
     "lng": 127.0559605,
@@ -31972,7 +31972,7 @@ const data = [
   {
     "shopName": "메가커피",
     "branchName": "수원영통구청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 1267-3",
     "roadAddress": "경기도 수원시 영통구 효원로 387",
     "lng": 127.0439369,
@@ -31981,7 +31981,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "하이라이트",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 오목천동 666-4",
     "roadAddress": "경기도 수원시 권선구 서수원로75번길 70-18",
     "lng": 126.9724627,
@@ -31990,7 +31990,7 @@ const data = [
   {
     "shopName": "45민",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 962-3",
     "roadAddress": "경기도 수원시 영통구 영통로 383",
     "lng": 127.0677885,
@@ -31999,7 +31999,7 @@ const data = [
   {
     "shopName": "피노키오",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 서둔동 105-5",
     "roadAddress": "경기도 수원시 권선구 상탑로 132-3",
     "lng": 126.9857678,
@@ -32008,7 +32008,7 @@ const data = [
   {
     "shopName": "카페제주",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 율전동 109-6",
     "roadAddress": "경기도 수원시 장안구 상률로46번길 33",
     "lng": 126.9701991,
@@ -32026,7 +32026,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "영통역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 960-3",
     "roadAddress": "경기도 수원시 영통구 봉영로 1569",
     "lng": 127.0710137,
@@ -32035,7 +32035,7 @@ const data = [
   {
     "shopName": "레스티드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 우만동 85-3",
     "roadAddress": "경기도 수원시 팔달구 중부대로239번길 5",
     "lng": 127.0421619,
@@ -32044,7 +32044,7 @@ const data = [
   {
     "shopName": "3X-라지커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 호매실동 1403-4",
     "roadAddress": "경기도 수원시 권선구 호매실로90번길 27",
     "lng": 126.9633981,
@@ -32053,7 +32053,7 @@ const data = [
   {
     "shopName": "디앤요",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 198-3",
     "roadAddress": "경기도 수원시 영통구 매여울로 27-1",
     "lng": 127.0461347,
@@ -32071,7 +32071,7 @@ const data = [
   {
     "shopName": "에이프런",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1319-4",
     "roadAddress": "경기도 수원시 영통구 센트럴파크로127번길 138",
     "lng": 127.054958,
@@ -32080,7 +32080,7 @@ const data = [
   {
     "shopName": "우디앤",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1088-2",
     "roadAddress": "경기도 수원시 권선구 금곡로118번길 24",
     "lng": 126.942913,
@@ -32089,7 +32089,7 @@ const data = [
   {
     "shopName": "루시퍼",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1026",
     "roadAddress": "경기도 수원시 팔달구 효원로219번길 46-4",
     "lng": 127.0268271,
@@ -32098,7 +32098,7 @@ const data = [
   {
     "shopName": "더리터권선",
     "branchName": "인계점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 1330",
     "roadAddress": "경기도 수원시 권선구 권광로 55",
     "lng": 127.0258065,
@@ -32107,7 +32107,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "人충전",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 구운동 897-2",
     "roadAddress": "경기도 수원시 권선구 일월천로15번길 22-23",
     "lng": 126.9729261,
@@ -32116,7 +32116,7 @@ const data = [
   {
     "shopName": "커피엔줄리엣행궁점",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 북수동 346-1",
     "roadAddress": "경기도 수원시 팔달구 정조로 844",
     "lng": 127.0164878,
@@ -32125,7 +32125,7 @@ const data = [
   {
     "shopName": "필드키친",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 51-55",
     "roadAddress": "경기도 수원시 장안구 영화로85번길 2",
     "lng": 127.005702,
@@ -32134,7 +32134,7 @@ const data = [
   {
     "shopName": "플레르윤",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 조원동 11-5",
     "roadAddress": "경기도 수원시 장안구 수일로233번길 126",
     "lng": 127.0204662,
@@ -32143,7 +32143,7 @@ const data = [
   {
     "shopName": "하울즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 1020-2",
     "roadAddress": "경기도 수원시 영통구 매영로415번길 52",
     "lng": 127.0790372,
@@ -32161,7 +32161,7 @@ const data = [
   {
     "shopName": "브라운가비",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 연무동 251-26",
     "roadAddress": "경기도 수원시 장안구 월드컵로429번길 2",
     "lng": 127.0251059,
@@ -32170,7 +32170,7 @@ const data = [
   {
     "shopName": "다이나믹카페인",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 1031-2",
     "roadAddress": "경기도 수원시 권선구 경수대로370번길 16",
     "lng": 127.0245607,
@@ -32179,7 +32179,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "수원정자시장점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 75-11",
     "roadAddress": "경기도 수원시 장안구 수성로 261",
     "lng": 127.000826,
@@ -32188,7 +32188,7 @@ const data = [
   {
     "shopName": "커피베이",
     "branchName": "곡반정동점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 곡반정동 539-8",
     "roadAddress": "경기도 수원시 권선구 동수원로146번길 283",
     "lng": 127.0296204,
@@ -32224,7 +32224,7 @@ const data = [
   {
     "shopName": "원유로커피광교",
     "branchName": "중앙역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1348",
     "roadAddress": "경기도 수원시 영통구 에듀타운로 102",
     "lng": 127.0460539,
@@ -32233,7 +32233,7 @@ const data = [
   {
     "shopName": "모로커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 화서동 743",
     "roadAddress": "경기도 수원시 팔달구 수성로244번길 25",
     "lng": 126.9999409,
@@ -32242,7 +32242,7 @@ const data = [
   {
     "shopName": "커피에반하다",
     "branchName": "수원시청역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1034-3",
     "roadAddress": "경기도 수원시 팔달구 경수대로466번길 52",
     "lng": 127.0298174,
@@ -32251,7 +32251,7 @@ const data = [
   {
     "shopName": "라우드커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 하동 972-5",
     "roadAddress": "경기도 수원시 영통구 법조로149번길 173",
     "lng": 127.0704906,
@@ -32260,7 +32260,7 @@ const data = [
   {
     "shopName": "커스텀커피",
     "branchName": "호매실점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1078",
     "roadAddress": "경기도 수원시 권선구 서수원로577번길 341",
     "lng": 126.9370843,
@@ -32269,7 +32269,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "마더스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 율전동 416-9",
     "roadAddress": "경기도 수원시 장안구 율전로64번길 12-17",
     "lng": 126.9675563,
@@ -32278,7 +32278,7 @@ const data = [
   {
     "shopName": "카페다운",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 우만동 520-5",
     "roadAddress": "경기도 수원시 팔달구 월드컵로311번길 11-22",
     "lng": 127.0346472,
@@ -32287,7 +32287,7 @@ const data = [
   {
     "shopName": "정원",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 우만동 575-1",
     "roadAddress": "경기도 수원시 팔달구 아주로 37",
     "lng": 127.0435388,
@@ -32305,7 +32305,7 @@ const data = [
   {
     "shopName": "모어브레드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 하동 1016-1",
     "roadAddress": "경기도 수원시 영통구 법조로 25",
     "lng": 127.0598985,
@@ -32314,7 +32314,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "더리치스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1118-4",
     "roadAddress": "경기도 수원시 권선구 금곡로196번길 35",
     "lng": 126.9531607,
@@ -32323,7 +32323,7 @@ const data = [
   {
     "shopName": "아이캔커피",
     "branchName": "수원점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 833-28",
     "roadAddress": "경기도 수원시 영통구 매탄로160번길 15",
     "lng": 127.0461139,
@@ -32332,7 +32332,7 @@ const data = [
   {
     "shopName": "에버닌",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 장안동 322-3",
     "roadAddress": "경기도 수원시 팔달구 화서문로31번길 9-5",
     "lng": 127.0108343,
@@ -32350,7 +32350,7 @@ const data = [
   {
     "shopName": "도어온",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1331",
     "roadAddress": "경기도 수원시 영통구 센트럴타운로 107",
     "lng": 127.0481276,
@@ -32359,7 +32359,7 @@ const data = [
   {
     "shopName": "다니즈커피랩",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 오목천동 39-4",
     "roadAddress": "경기도 수원시 권선구 온정로 56",
     "lng": 126.9641001,
@@ -32377,7 +32377,7 @@ const data = [
   {
     "shopName": "데이롱카페",
     "branchName": "수원매탄점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 176",
     "roadAddress": "경기도 수원시 영통구 권광로260번길 36",
     "lng": 127.041902,
@@ -32395,7 +32395,7 @@ const data = [
   {
     "shopName": "온앤오프",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 고색동 890-191",
     "roadAddress": "경기도 수원시 권선구 매송고색로721번길 26",
     "lng": 126.9828202,
@@ -32413,7 +32413,7 @@ const data = [
   {
     "shopName": "카페베네",
     "branchName": "수원시연화장점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 하동 20",
     "roadAddress": "경기도 수원시 영통구 광교호수로 278",
     "lng": 127.0841603,
@@ -32422,7 +32422,7 @@ const data = [
   {
     "shopName": "텐퍼센트커피",
     "branchName": "호매실점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1085-3",
     "roadAddress": "경기도 수원시 권선구 금곡로 112",
     "lng": 126.9425974,
@@ -32431,7 +32431,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "온화광교중앙역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1336",
     "roadAddress": "경기도 수원시 영통구 도청로18번길 26",
     "lng": 127.0568514,
@@ -32440,7 +32440,7 @@ const data = [
   {
     "shopName": "마이오븐북",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1083",
     "roadAddress": "경기도 수원시 권선구 금곡로102번길 30",
     "lng": 126.9411353,
@@ -32458,7 +32458,7 @@ const data = [
   {
     "shopName": "메가커피",
     "branchName": "수원오목천점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 오목천동 367-7",
     "roadAddress": "경기도 수원시 권선구 삼천병마로1597번길 6",
     "lng": 126.9633211,
@@ -32521,7 +32521,7 @@ const data = [
   {
     "shopName": "디저트39",
     "branchName": "수원역점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 매산로1가 14-8",
     "roadAddress": "경기도 수원시 팔달구 향교로3번길 21",
     "lng": 127.001123,
@@ -32530,7 +32530,7 @@ const data = [
   {
     "shopName": "카페비쥬",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 세류동 975-9",
     "roadAddress": "경기도 수원시 권선구 덕영대로1126번길 54",
     "lng": 127.0129789,
@@ -32548,7 +32548,7 @@ const data = [
   {
     "shopName": "왕호다방",
     "branchName": "화서점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 화서동 275-15",
     "roadAddress": "경기도 수원시 팔달구 수성로182번길 97-1",
     "lng": 126.9941527,
@@ -32566,7 +32566,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "아이스하우스",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 탑동 512",
     "roadAddress": "경기도 수원시 권선구 효탑로16번길 20",
     "lng": 126.9770297,
@@ -32575,7 +32575,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "오리네",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 천천동 475-12",
     "roadAddress": "경기도 수원시 장안구 하률로 41",
     "lng": 126.977596,
@@ -32584,7 +32584,7 @@ const data = [
   {
     "shopName": "푸룻앤타르트",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 율전동 207-4",
     "roadAddress": "경기도 수원시 장안구 덕영대로425번길 14-1",
     "lng": 126.9697873,
@@ -32593,7 +32593,7 @@ const data = [
   {
     "shopName": "요거트월드",
     "branchName": "영통점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 983-2",
     "roadAddress": "경기도 수원시 영통구 봉영로1482번길 7-1",
     "lng": 127.0659673,
@@ -32602,7 +32602,7 @@ const data = [
   {
     "shopName": "비트윈어스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1322-5",
     "roadAddress": "경기도 수원시 영통구 센트럴타운로 106",
     "lng": 127.0501447,
@@ -32629,7 +32629,7 @@ const data = [
   {
     "shopName": "도넛벅헤드",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 곡반정동 520-4",
     "roadAddress": "경기도 수원시 권선구 동수원로146번길 151",
     "lng": 127.03411,
@@ -32647,7 +32647,7 @@ const data = [
   {
     "shopName": "컴포즈커피",
     "branchName": "수원삼성미래기술점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 560",
     "roadAddress": "경기도 수원시 영통구 삼성로 130",
     "lng": 127.0574429,
@@ -32656,7 +32656,7 @@ const data = [
   {
     "shopName": "요거트홈",
     "branchName": "망포점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 망포동 509-2",
     "roadAddress": "경기도 수원시 영통구 영통로154번길 116",
     "lng": 127.0628098,
@@ -32665,7 +32665,7 @@ const data = [
   {
     "shopName": "카페콕콕",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 팔달로1가 11-1",
     "roadAddress": "경기도 수원시 팔달구 정조로810번길 6",
     "lng": 127.0170464,
@@ -32674,7 +32674,7 @@ const data = [
   {
     "shopName": "천천동카페그린",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 천천동 509-8",
     "roadAddress": "경기도 수원시 장안구 덕영대로511번길 9",
     "lng": 126.9790775,
@@ -32683,7 +32683,7 @@ const data = [
   {
     "shopName": "브라운아토",
     "branchName": "장안점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 영화동 275-1",
     "roadAddress": "경기도 수원시 장안구 정조로934번길 22",
     "lng": 127.0139365,
@@ -32692,7 +32692,7 @@ const data = [
   {
     "shopName": "멍스타일",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 연무동 7-8",
     "roadAddress": "경기도 수원시 장안구 광교산로138번길 8",
     "lng": 127.030219,
@@ -32701,7 +32701,7 @@ const data = [
   {
     "shopName": "아원차",
     "branchName": "호매실점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1089-3",
     "roadAddress": "경기도 수원시 권선구 금곡로118번길 34-4",
     "lng": 126.9430538,
@@ -32710,7 +32710,7 @@ const data = [
   {
     "shopName": "가드니",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 남수동 11-129",
     "roadAddress": "경기도 수원시 팔달구 창룡대로 90-1",
     "lng": 127.0238568,
@@ -32719,7 +32719,7 @@ const data = [
   {
     "shopName": "쏠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 1016-4",
     "roadAddress": "경기도 수원시 영통구 영일로 16-10",
     "lng": 127.0766214,
@@ -32728,7 +32728,7 @@ const data = [
   {
     "shopName": "우리카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 매향동 49",
     "roadAddress": "경기도 수원시 팔달구 창룡대로 21",
     "lng": 127.0189675,
@@ -32737,7 +32737,7 @@ const data = [
   {
     "shopName": "지트",
     "branchName": "카페아",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 구운동 506",
     "roadAddress": "경기도 수원시 권선구 구운로4번길 24",
     "lng": 126.9770676,
@@ -32746,7 +32746,7 @@ const data = [
   {
     "shopName": "포트캔커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1036-7",
     "roadAddress": "경기도 수원시 팔달구 인계로138번길 8",
     "lng": 127.0323988,
@@ -32755,7 +32755,7 @@ const data = [
   {
     "shopName": "하덴로스터리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 구운동 462",
     "roadAddress": "경기도 수원시 권선구 수성로 47",
     "lng": 126.9787553,
@@ -32773,7 +32773,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "수원매탄위브점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 923-29",
     "roadAddress": "경기도 수원시 영통구 인계로220번길 10",
     "lng": 127.0412427,
@@ -32782,7 +32782,7 @@ const data = [
   {
     "shopName": "토스트카페마리",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 인계동 1131-1",
     "roadAddress": "경기도 수원시 팔달구 효원로292번길 50",
     "lng": 127.0320027,
@@ -32791,7 +32791,7 @@ const data = [
   {
     "shopName": "카페공감",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1209",
     "roadAddress": "경기도 수원시 영통구 대학로 88",
     "lng": 127.0474334,
@@ -32800,7 +32800,7 @@ const data = [
   {
     "shopName": "롤33",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 947",
     "roadAddress": "경기도 수원시 장안구 이목로 24-25",
     "lng": 126.9863873,
@@ -32809,7 +32809,7 @@ const data = [
   {
     "shopName": "마틸다",
     "branchName": "수원시청점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 권선동 1042-16",
     "roadAddress": "경기도 수원시 권선구 권광로 89",
     "lng": 127.0293583,
@@ -32863,7 +32863,7 @@ const data = [
   {
     "shopName": "마이요거트립",
     "branchName": "호매실점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1117-6",
     "roadAddress": "경기도 수원시 권선구 금곡로196번길 67",
     "lng": 126.9547762,
@@ -32872,7 +32872,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "중보뜰",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 고색동 249",
     "roadAddress": "경기도 수원시 권선구 오목천로 276",
     "lng": 126.9903902,
@@ -32890,7 +32890,7 @@ const data = [
   {
     "shopName": "굼굼당",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 호매실동 1344-4",
     "roadAddress": "경기도 수원시 권선구 금곡로140번길 95-9",
     "lng": 126.9442716,
@@ -32908,7 +32908,7 @@ const data = [
   {
     "shopName": "니어스",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 신풍동 123-12",
     "roadAddress": "경기도 수원시 팔달구 신풍로23번길 59",
     "lng": 127.0117134,
@@ -32917,7 +32917,7 @@ const data = [
   {
     "shopName": "언포겟터블",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 탑동 32-16",
     "roadAddress": "경기도 수원시 권선구 상탑로53번길 37-5",
     "lng": 126.9762925,
@@ -32926,7 +32926,7 @@ const data = [
   {
     "shopName": "프룻팡",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 정자동 383",
     "roadAddress": "경기도 수원시 장안구 장안로217번길 14",
     "lng": 126.9934288,
@@ -32935,7 +32935,7 @@ const data = [
   {
     "shopName": "웨쉬웨쉬커피",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 팔달로2가 128-2",
     "roadAddress": "경기도 수원시 팔달구 정조로777번길 2",
     "lng": 127.0161224,
@@ -32944,7 +32944,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피구운",
     "branchName": "일월점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 구운동 911-5",
     "roadAddress": "경기도 수원시 권선구 일월천로16번길 30",
     "lng": 126.9748737,
@@ -32953,7 +32953,7 @@ const data = [
   {
     "shopName": "이손코페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 연무동 187-45",
     "roadAddress": "경기도 수원시 장안구 수원천로414번길 16",
     "lng": 127.0201545,
@@ -32962,7 +32962,7 @@ const data = [
   {
     "shopName": "케이꾸",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 원천동 582-7",
     "roadAddress": "경기도 수원시 영통구 광교중앙로25번길 68",
     "lng": 127.0505413,
@@ -32971,7 +32971,7 @@ const data = [
   {
     "shopName": "카페온즈",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 매탄동 1249-5",
     "roadAddress": "경기도 수원시 영통구 매탄로140번길 54-14",
     "lng": 127.0465402,
@@ -32980,7 +32980,7 @@ const data = [
   {
     "shopName": "빽다방",
     "branchName": "수원호매실칠보점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 호매실동 82-10",
     "roadAddress": "경기도 수원시 권선구 금호로 56",
     "lng": 126.9578566,
@@ -32998,7 +32998,7 @@ const data = [
   {
     "shopName": "카페스몰",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 송죽동 499-7",
     "roadAddress": "경기도 수원시 장안구 경수대로927번길 12-4",
     "lng": 127.0082543,
@@ -33025,7 +33025,7 @@ const data = [
   {
     "shopName": "카페원천",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 원천동 250-9",
     "roadAddress": "경기도 수원시 영통구 삼성로267번길 2",
     "lng": 127.063041,
@@ -33043,7 +33043,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "아에광교점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1325-3",
     "roadAddress": "경기도 수원시 영통구 센트럴타운로100번길 8",
     "lng": 127.0508039,
@@ -33052,7 +33052,7 @@ const data = [
   {
     "shopName": "혜성모카",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 교동 11-44",
     "roadAddress": "경기도 수원시 팔달구 향교로 141",
     "lng": 127.0148796,
@@ -33061,7 +33061,7 @@ const data = [
   {
     "shopName": "와이블랙",
     "branchName": "오목천점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 오목천동 472-30",
     "roadAddress": "경기도 수원시 권선구 삼천병마로 1588",
     "lng": 126.9637297,
@@ -33079,7 +33079,7 @@ const data = [
   {
     "shopName": "미로당",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 세류동 868-32",
     "roadAddress": "경기도 수원시 권선구 세권로101번길 20",
     "lng": 127.0159632,
@@ -33097,7 +33097,7 @@ const data = [
   {
     "shopName": "심야카페",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 원천동 209-67",
     "roadAddress": "경기도 수원시 영통구 동탄원천로1109번길 10",
     "lng": 127.0579605,
@@ -33106,7 +33106,7 @@ const data = [
   {
     "shopName": "카페냠냠",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1352",
     "roadAddress": "경기도 수원시 영통구 에듀타운로 101",
     "lng": 127.0449493,
@@ -33115,7 +33115,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피",
     "branchName": "경희대국제캠퍼스점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 영통동 1024-10",
     "roadAddress": "경기도 수원시 영통구 덕영대로 1705",
     "lng": 127.0778383,
@@ -33124,7 +33124,7 @@ const data = [
   {
     "shopName": "공차",
     "branchName": "화서사거리점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 팔달구 화서동 71-51",
     "roadAddress": "경기도 수원시 팔달구 동말로 81",
     "lng": 127.0031263,
@@ -33160,7 +33160,7 @@ const data = [
   {
     "shopName": "해피그",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 이의동 1352",
     "roadAddress": "경기도 수원시 영통구 에듀타운로 101",
     "lng": 127.0457566,
@@ -33178,7 +33178,7 @@ const data = [
   {
     "shopName": "장안건강카페샘",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 조원동 888",
     "roadAddress": "경기도 수원시 장안구 송원로 101",
     "lng": 127.0103073,
@@ -33187,7 +33187,7 @@ const data = [
   {
     "shopName": "판사티로스",
     "branchName": "장안점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 영화동 424-7",
     "roadAddress": "경기도 수원시 장안구 장안로7번길 44",
     "lng": 127.0047117,
@@ -33205,7 +33205,7 @@ const data = [
   {
     "shopName": "카페",
     "branchName": "쓰리몽키즈",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 입북동 188-10",
     "roadAddress": "경기도 수원시 권선구 율전로63번길 5-10",
     "lng": 126.9654858,
@@ -33223,7 +33223,7 @@ const data = [
   {
     "shopName": "투썸플레이스",
     "branchName": "수원성균관대점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 장안구 율전동 408-8",
     "roadAddress": "경기도 수원시 장안구 서부로2105번길 13",
     "lng": 126.9693392,
@@ -33241,7 +33241,7 @@ const data = [
   {
     "shopName": "꾸어봄",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 영통구 망포동 800",
     "roadAddress": "경기도 수원시 영통구 영통로89번길 83",
     "lng": 127.0541229,
@@ -33250,7 +33250,7 @@ const data = [
   {
     "shopName": "메가엠지씨커피수원",
     "branchName": "센트럴점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 세류동 1277-2",
     "roadAddress": "경기도 수원시 권선구 세류로 32",
     "lng": 127.007275,
@@ -33277,7 +33277,7 @@ const data = [
   {
     "shopName": "그릭박스",
     "branchName": "구운점",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 구운동 519-11",
     "roadAddress": "경기도 수원시 권선구 구운로45번길 5",
     "lng": 126.9733086,
@@ -33286,7 +33286,7 @@ const data = [
   {
     "shopName": "카페엘림",
     "branchName": "",
-    "category": "일반카페",
+    "category": "카페",
     "jibunAddress": "경기도 수원시 권선구 금곡동 1136-1",
     "roadAddress": "경기도 수원시 권선구 금호로 73-17",
     "lng": 126.9583283,
