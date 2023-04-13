@@ -3,13 +3,18 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Reviews extends Model {
+  class Feeds extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
+      // define association here
+      this.hasMany(models.Tegs, {
+        sourceKey: "feedId",
+        foreignKey: "FeedId",
+      });
 
       this.belongsTo(models.Users, {
         targetKey: "userId",
@@ -24,8 +29,8 @@ module.exports = (sequelize, DataTypes) => {
       });
     }
   }
-  Reviews.init( {
-    reviewId: {
+  Feeds.init({
+    feedId: {
       allowNull: false,
       autoIncrement: true,
       primaryKey: true,
@@ -39,11 +44,11 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    content: {
+    feedPic: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    reviewImage: {
+    comment: {
       type: DataTypes.STRING,
       allowNull: true,
     },
@@ -59,7 +64,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }, {
     sequelize,
-    modelName: 'Reviews',
+    modelName: 'Feeds',
   });
-  return Reviews;
+  return Feeds;
 };

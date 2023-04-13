@@ -16,13 +16,9 @@ module.exports = {
           model: "Admins",
           key: "adminId",
         },
-        onDelete: "NO ACTION",
+        onDelete: "CASCADE",
       },
       shopName: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      category: {
         allowNull: false,
         type: Sequelize.STRING
       },
@@ -30,16 +26,20 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
-      detailAddress: {
+      category: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      x: {
+      lng: {
         allowNull: true,
         type: Sequelize.STRING
       },
-      y: {
+      lat: {
         allowNull: true,
+        type: Sequelize.STRING
+      },
+      thumbnail: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       operatingTime: {
@@ -47,10 +47,6 @@ module.exports = {
         type: Sequelize.STRING
       },
       phoneNumber: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      thumbnail: {
         allowNull: false,
         type: Sequelize.STRING
       },
