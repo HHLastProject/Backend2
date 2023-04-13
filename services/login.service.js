@@ -71,17 +71,17 @@ class LoginService {
     console.log(properties, kakao_account);
     console.log("======================");
 
-    const userInfo = {
-      id,
-    };
-
-    // 유저 정보 저장하기
     // const userInfo = {
     //   id,
-    //   nickname : properties.nickname,
-    //   gender : kakao_account.gender,
-    //   email : kakao_account.email
     // };
+
+    // 유저 정보 저장하기
+    const userInfo = {
+      id,
+      nickname : properties.nickname,
+      gender : kakao_account.gender,
+      email : kakao_account.email
+    };
 
     return userInfo;
   };
