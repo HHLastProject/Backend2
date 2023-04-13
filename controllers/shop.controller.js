@@ -32,6 +32,7 @@ class ShopController {
         const { x, y, range } = req.body;
         try {
             const shops = await this.ShopService.getAllMainShop2();
+            console.log("확인")
             // const shops = await Shops.findAll({
             //     attributes: [
             //         "shopId",
