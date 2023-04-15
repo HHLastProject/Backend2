@@ -44,25 +44,43 @@ app.get('/kakaologin', (req, res) => {
 
 // //로컬에서 네이버 로그인을 할때 사용
 // //1~3번 과정이다 
+/*
+const NAVER_CLIENT_ID =  process.env.NAVER_CLIENT_ID
+const NAVER_REDIRECT_URI = encodeURI(process.env.NAVER_REDIRECT_URI); 
+app.get("/naverlogin", function (req, res) {
+  var api_url ="https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=" +
+  NAVER_CLIENT_ID + "&redirect_uri=" + NAVER_REDIRECT_URI;
+  res.end(
+    "<a href='" +
+      api_url +
+      "'><img height='50' src='http://static.nid.naver.com/oauth/small_g_in.PNG'/></a>"
+  );
+});
 
-// const NAVER_CLIENT_ID =  process.env.NAVER_CLIENT_ID
-// const NAVER_REDIRECT_URI = encodeURI(process.env.NAVER_REDIRECT_URI); 
-// app.get("/naverlogin", function (req, res) {
-//   var api_url ="https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=" +
-//   NAVER_CLIENT_ID + "&redirect_uri=" + NAVER_REDIRECT_URI;
-//   res.end(
-//     "<a href='" +
-//       api_url +
-//       "'><img height='50' src='http://static.nid.naver.com/oauth/small_g_in.PNG'/></a>"
-//   );
-// });
-
-
-// // api_url = 'https://nid.naver.com/oauth2.0/token?grant_type=authorization_code&client_id='
-// //      + NAVER_CLIENT_ID + '&client_secret=' + client_secret + '&redirect_uri=' + NAVER_REDIRECT_URI + '&code=' + code + '&state=' + state;
 // api_url = 'https://nid.naver.com/oauth2.0/token?grant_type=authorization_code&client_id='
-//      + NAVER_CLIENT_ID + '&redirect_uri=' + NAVER_REDIRECT_URI + '&code=' + code + '&state=' + state;
-//////////////////////////////////////////////////////////////
+//      + NAVER_CLIENT_ID + '&client_secret=' + client_secret + '&redirect_uri=' + NAVER_REDIRECT_URI + '&code=' + code + '&state=' + state;
+api_url = 'https://nid.naver.com/oauth2.0/token?grant_type=authorization_code&client_id='
+     + NAVER_CLIENT_ID + '&redirect_uri=' + NAVER_REDIRECT_URI + '&code=' + code + '&state=' + state;*/
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+const NAVER_CLIENT_ID =  process.env.NAVER_CLIENT_ID
+const NAVER_REDIRECT_URI = encodeURI(process.env.NAVER_REDIRECT_URI); 
+app.get("/naverlogin", function (req, res) {
+  var api_url ="https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=" +
+  NAVER_CLIENT_ID + "&redirect_uri=" + NAVER_REDIRECT_URI;
+  res.end(
+    "<a href='" +
+      api_url +
+      "'><img height='50' src='http://static.nid.naver.com/oauth/small_g_in.PNG'/></a>"
+  );
+});
+
+ api_url = 'https://nid.naver.com/oauth2.0/token?grant_type=authorization_code&client_id='
+      + NAVER_CLIENT_ID + '&redirect_uri=' + NAVER_REDIRECT_URI 
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////     
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 // app.use('/uploads', express.static('uploads'));
