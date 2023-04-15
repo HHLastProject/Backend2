@@ -1,5 +1,5 @@
 // const MypageService = require("../services/mypage.service.js"); 
-const { Users, Feeds, Shops, Tegs, Scrap, Sequelize } = require('../models')
+const { Users, Feeds, Shops, Tags, Scrap, Sequelize } = require('../models')
 
 class mypageController {
 
@@ -63,6 +63,18 @@ class mypageController {
         const { feedId } = req.params;
         console.log(userId, feedId)
         try {
+            // const findOneUser = await Feeds.findOne({
+            //     where: { UserId: userId },
+            // })
+            // if (findOneUser !== userId) {
+            //     return res.status(403).json({ errorMsg: "해당 피드는 다른사람이 작성한 피드입니다." })
+            // }
+            const findOneFeed = await Feeds.findOne({
+                where: { feedId: feedId },
+            })
+            if (!findOneFeed) {
+                return res.status(404).json({ errorMsg: "해당 피드가 존재하지 않습니다." })
+            }
             const mypage = await Feeds.findOne({
                 attributes: [
                     // "Users.nickname",
@@ -91,25 +103,21 @@ class mypageController {
                 where: { userId: userId, feedId: feedId },
                 // raw: true,
             })
-            // console.log(mypage)
-            // console.log(mypage.Shop.shopId)
             const isExistScrap = await Scrap.findOne({
-                where: { ShopId: mypage.Shop.shopId }, // 불확실함 해당 ShopId를 기준인데 확실하지 않음
+                where: { ShopId: mypage.Shop.shopId, UserId : userId }, // ShopId뿐만이 아니라 UserId도 조건에 추가로 넣어야 정상적으로 작동됨
             })
-            // console.log(isExistScrap)
-
             // 데이터를 가공하는 작업
             const result = {
                 nickname: mypage.User.nickname,
-                profilePic: mypage.User.profilePic, // 현재 prifilePic 오타, 추후 수정 필요
+                profilePic: mypage.User.profilePic, 
                 createdAt: mypage.createdAt,
                 feedPic: mypage.feedPic,
                 comment: mypage.comment,
-                Tags: mypage.Tags.map(tag => tag.tag), // Tegs 오타, 추후 수정 필요
+                Tags: mypage.Tags.map(tag => tag.tag),
                 shopName: mypage.Shop.shopName,
                 shopAddress: mypage.Shop.address,
                 shopThumbnail: mypage.Shop.thumbnail,
-                isScrap: isExistScrap ? true : false // 불확실함
+                isScrap: isExistScrap ? true : false 
             };
             
             res.status(200).json({ mypage: result });
