@@ -1,5 +1,7 @@
 const ShopService = require("../services/shop.service.js"); 
 const haversine = require('haversine');
+const { Feeds } = require('../models');
+const feeds = require("../models/feeds.js");
 
 class ShopController {
     constructor() {
@@ -41,7 +43,7 @@ class ShopController {
                 const distanceB = haversine(userLocate, shopBLocate, { unit: 'meter' });
                 return distanceA - distanceB;
             });
-            
+
             let result = [];
             // 2. for문을 만든다 , 반복횟수 : 전체가게 갯수
             for (let i = 0; i < shops.length; i++) {
@@ -50,7 +52,10 @@ class ShopController {
                 // 4. 유저 현 위치 좌표(x, y)와 가게 현위치 좌표(x, y)를 참고해서 계산을 한다.
                 const shopLocate = { latitude: shops[i].lng, longitude: shops[i].lat };
                 const totalDistance = haversine(userLocate, shopLocate, { unit: 'meter' }); // meter가 미터를 뜻함
-                console.log(totalDistance.toFixed(2) + " m");
+                const findFeed = await Feeds.findAll({
+                    where: { ShopId : shops[i].shopId }
+                })
+                console.log(findFeed)
                 const shopInfo = {
                     shopId: shops[i].shopId,
                     address: shops[i].address,
@@ -62,7 +67,8 @@ class ShopController {
                     maxPrice: shops[i].maxPrice,
                     minPrice: shops[i].minPrice,
                     category: shops[i].category,
-                    distance: totalDistance.toFixed(0) + " m"
+                    distance: Number(totalDistance.toFixed(0)),
+                    feedCount : findFeed.length,
                 };
                 // 5. 그 계산한 값이 if문을 사용해서 range(예시에는 500) 값보다 작는 조건문을 쓴다. => 3번의 자료를 저장한다
                 if (totalDistance <= range) {
