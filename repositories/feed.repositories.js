@@ -1,4 +1,4 @@
-const {Feeds,Shops,Tegs,Users,Scrap}= require("../models");
+const {Feeds,Shops,Tags,Users,Scrap}= require("../models");
 const { Op,sequelize } = require("sequelize");
 
 class FeedRepository {
@@ -10,10 +10,10 @@ class FeedRepository {
             include: [
                 {
                     model: Users,             
-                    attributes: ["nickname","prifilePic","userId"],
+                    attributes: ["nickname","profilePic","userId"],
                 },
                 {
-                    model: Tegs,
+                    model: Tags,
                     attributes: ['tag'],
                 },
                 {
