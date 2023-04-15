@@ -78,7 +78,7 @@ class LoginService {
     // 유저 정보 저장하기
     const userInfo = {
       id,
-      prifilePic : properties.profile_image, //이름 변경하기
+      profilePic : properties.profile_image, //이름 변경하기
       nickname : properties.nickname,
       gender : kakao_account.gender,
       email : kakao_account.email

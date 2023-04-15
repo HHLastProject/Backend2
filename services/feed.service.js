@@ -12,7 +12,7 @@ class FeedService {
 
       const result = await Promise.all(value.map(async (feed) => {
       
-        const {Shop,Tegs,User } = feed;
+        const {Shop,Tags,User } = feed;
 
        let data = await Scrap.findOne({
           where : {ShopId : Shop.shopId, UserId : User.userId }
@@ -26,7 +26,7 @@ class FeedService {
         createdAt : feed.createdAt,
         feedPic: feed.feedPic,
         comment : feed.comment,
-        tag : Tegs.map((value) => ({ tag: value.tag })) ,
+        tag : Tags.map((value) => ({ tag: value.tag })) ,
         shopName : Shop.shopName,
         shopAddress : Shop.address,
         shopThumbnail : Shop.thumbnail,
