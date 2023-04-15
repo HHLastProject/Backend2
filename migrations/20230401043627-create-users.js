@@ -17,7 +17,7 @@ module.exports = {
         allowNull: true,
         type: Sequelize.STRING
       },
-      prifilePic: {
+      profilePic: {
         allowNull: true,
         type: Sequelize.STRING,
       },
