@@ -4,8 +4,6 @@ const {Users}= require("../models");
 class LoginRepository {
 
     saveUser = async(resultUser) => { 
-        // console.log("레파지토리입니다");
-    
         const boolean = await Users.findOne({where : {id : resultUser.id}});
 
         if(!boolean){

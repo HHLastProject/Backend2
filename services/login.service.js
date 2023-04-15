@@ -149,7 +149,6 @@ class LoginService {
   };
 
   saveUser = async (resultUser) => {
-    console.log("서비스 입니다");
     await this.loginRepository.saveUser(resultUser);
   };
 }
