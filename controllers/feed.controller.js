@@ -29,7 +29,9 @@ class FeedController {
     // 썸네일 메인 사진을 0번째 껄로 선택한다
     const thumbnailFilename = await req.files.thumbnail[0].filename;
     const thumbnail = thumbnailFilename;
-
+    console.log("thumbnailFilename");
+    console.log(thumbnailFilename);
+    console.log("===================");
     //배열로 받기로 수정
     const jsonTags = JSON.parse(tags)
 

@@ -12,7 +12,7 @@ let operatingTime = "연중무휴";
 let phoneNumber = "010-1111-2222";
 
 router.get("/test", async (req, res) => {
-  for (let i = 46; i < 66; i++) {
+  for (let i = 1; i < 20; i++) {
     let flontNumber = Math.ceil(getRandomArbitrary(1000, 9999));
     let backNumber = Math.ceil(getRandomArbitrary(1000, 9999));
 
@@ -31,10 +31,10 @@ router.get("/test", async (req, res) => {
     }
 
     const shop = await Shops.create({
-      AdminId: AdminId,
+      AdminId: 1,
       shopName: data[i].shopName,
-      category: data[i].category,
       address: data[i].roadAddress,
+      category: data[i].category,
       lng: data[i].lng,
       lat: data[i].lat,
       thumbnail: thumbnail,

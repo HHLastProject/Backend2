@@ -70,10 +70,10 @@ class FeedRepository {
             include: [
                 {
                     model: Users,             
-                    attributes: ["nickname","prifilePic","userId"],
+                    attributes: ["nickname","profilePic","userId"],
                 },
                 {
-                    model: Tegs,
+                    model: Tags,
                     attributes: ['tag'],
                 },
                 {
@@ -107,7 +107,7 @@ class FeedRepository {
 
     //태그 작성하기
     postTag = async(feed,tag) => { 
-        await Tegs.create({
+        await Tags.create({
             FeedId : feed.feedId,
             tag : tag
         })

@@ -12,7 +12,7 @@ class LoginRepository {
             await Users.create({
             id : resultUser.id,
             email : resultUser.email,
-            prifilePic : resultUser.prifilePic, //이름 바꿔야햄
+            profilePic : resultUser.profilePic, //이름 바꿔야햄
             nickname : resultUser.nickname,
             gender : resultUser.gender,
         }); 
