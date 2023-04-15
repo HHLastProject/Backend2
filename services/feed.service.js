@@ -61,7 +61,7 @@ feedFindOne = async (shopId) => {
         createdAt : value.createdAt,
         feedPic: value.feedPic,
         comment : value.comment,
-        tag : value.Tegs.map((value) => ({ tag: value.tag })) ,
+        tag : value.Tags.map((value) => ({ tag: value.tag })) ,
         shopName : value.Shop.shopName,
         shopAddress : value.Shop.address,
         shopThumbnail : value.Shop.thumbnail,

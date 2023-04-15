@@ -137,7 +137,7 @@ class LoginService {
       //원하는 정보만 얻고 싶을때 
       id : response.id,
       nickname : response.nickname,
-      prifilePic : response.profile_image,  // 이름 바꿔야함
+      profilePic : response.profile_image,  // 이름 바꿔야함
       age : response.age,
       email : response.email,
       gender : gender,
