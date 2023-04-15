@@ -8,8 +8,8 @@ class LoginController {
 
   loginKakao = async (req, res) => {
     try {
-      const { code } = req.query;       //백에서만 할때
-      // const { code } = req.body;        //프론트에 배포할때
+      // const { code } = req.query;       //백에서만 할때
+      const { code } = req.body;        //프론트에 배포할때
 
       const resultToken = await this.loginServices.getKakaoToken(code);
       const resultUser = await this.loginServices.getKaKaoUserInfo(resultToken);
@@ -35,17 +35,17 @@ class LoginController {
 
   loginNaver = async (req,res) => {
     try {
-      const { code } = req.query;     //백에서 할때
-      // const { code } = req.body    //프론트에서 할때
+      // const { code } = req.query;     //백에서 할때
+      const { code } = req.body    //프론트에서 할때
 
      
       //백에서 사용
-      const resultToken = await this.loginServices.getNaverToken(code);
-      const resultUser = await this.loginServices.getNaverUserInfo(resultToken);
+      // const resultToken = await this.loginServices.getNaverToken(code);
+      // const resultUser = await this.loginServices.getNaverUserInfo(resultToken);
       
       //프론트에서 사용
       // 현재 발급 받은 토큰이 유저 정보가 담긴 토큰인지 확인
-      // const resultUser = await this.loginServices.getNaverUserInfo(code);
+      const resultUser = await this.loginServices.getNaverUserInfo(code);
       
 
       //유저정보저장
