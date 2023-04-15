@@ -13,7 +13,7 @@ class mypageController {
             const mypages = await Users.findAll({
                 attributes: [
                     "nickname",
-                    "prifilePic",
+                    "profilePic",
                 ],
                 include: [
                     {
@@ -31,7 +31,7 @@ class mypageController {
             // let result = mypages.map((mypage) =>{
             //     return{
             //     nickname : mypage.nickname,
-            //     profilePic : mypage.prifilePic,
+            //     profilePic : mypage.profilePic,
 
             //     }
                 
@@ -40,7 +40,7 @@ class mypageController {
                 const { Feeds } = mypage;
                 return {
                     nickname: mypage.nickname,
-                    profilePic: mypage.prifilePic,
+                    profilePic: mypage.profilePic,
                     feeds : Feeds.map((feed) => ({
                         feadId: feed.feedId,
                         feedPic: feed.feedPic,
@@ -77,14 +77,14 @@ class mypageController {
                 include: [
                     {
                         model: Users,
-                        attributes: ["nickname", "prifilePic"], // 현재 prifilePic 오타, 추후 수정 필요
+                        attributes: ["nickname", "profilePic"], 
                     },
                     {
                         model: Shops,
                         attributes: ["shopId", "shopName", "address", "thumbnail"],
                     },
                     {
-                        model: Tegs, // Tegs 오타, 추후 수정 필요
+                        model: Tags, 
                         attributes: ["tag"],
                     },
                 ],
@@ -101,11 +101,11 @@ class mypageController {
             // 데이터를 가공하는 작업
             const result = {
                 nickname: mypage.User.nickname,
-                profilePic: mypage.User.prifilePic, // 현재 prifilePic 오타, 추후 수정 필요
+                profilePic: mypage.User.profilePic, // 현재 prifilePic 오타, 추후 수정 필요
                 createdAt: mypage.createdAt,
                 feedPic: mypage.feedPic,
                 comment: mypage.comment,
-                Tags: mypage.Tegs.map(tag => tag.tag), // Tegs 오타, 추후 수정 필요
+                Tags: mypage.Tags.map(tag => tag.tag), // Tegs 오타, 추후 수정 필요
                 shopName: mypage.Shop.shopName,
                 shopAddress: mypage.Shop.address,
                 shopThumbnail: mypage.Shop.thumbnail,
