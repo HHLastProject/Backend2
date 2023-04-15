@@ -5,13 +5,16 @@ const MypageController = require("../controllers/mypage.controller");
 const mypageController = new MypageController();
 const midle = require("../middlewares/snsAuthmiddleware");
 
-//피드전체보기  
-router.get("/feed",mypageController.test)
-//상세페이지  업체 피드 조회    
-router.get("/shop/:shopId/feed",mypageController.test)
-//피드작성                       
-router.post("/shop/:shopId/feed",mypageController.test)
+// 마이페이지 전체조회 API
+// localhost:3060/api/mypage
+router.get("/mypage", midle, mypageController.getAllMypage)
+// 마이페이지 상세조회 API
+// localhost:3060/api/mypage/:feedId
+router.get("/mypage/:feedId", midle, mypageController.getOneMypage)
+// 마이페이지 피드삭제 API
+// localhost:3060/api/mypage/:feedId
+router.delete("/mypage/:feedId", midle, mypageController.deleteMypage)
 
 
 
-module.exports =router;
+module.exports = router;
