@@ -9,7 +9,7 @@ const searchController = new SearchController();
 router.post("/search",searchController.test)
 
 //추후 이것으로 수정 req.qurey
-router.get("/search",searchController.test)
+// router.get("/search",searchController.test)
 
 
 

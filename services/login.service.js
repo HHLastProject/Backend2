@@ -67,9 +67,9 @@ class LoginService {
 
     const { id, properties, kakao_account } = responseUser.data;
 
-    console.log("★responseUser.data");
-    console.log(properties, kakao_account);
-    console.log("======================");
+    // console.log("★responseUser.data");
+    // console.log(properties, kakao_account);
+    // console.log("======================");
 
     // const userInfo = {
     //   id,
@@ -78,7 +78,7 @@ class LoginService {
     // 유저 정보 저장하기
     const userInfo = {
       id,
-      prifilePic : properties.prifilePic,
+      prifilePic : properties.profile_image, //이름 변경하기
       nickname : properties.nickname,
       gender : kakao_account.gender,
       email : kakao_account.email
@@ -123,39 +123,34 @@ class LoginService {
       },
     });
 
-    console.log("1번 meResponse");
-    console.log(meResponse);
-    console.log("===============================");
 
     const { response } = meResponse.data; 
 
-    console.log("2번 response");
-    console.log(response.data);
-    console.log("===============================");
+    let gender = "male"
+    if(response.gender == "M"){ 
+      gender = "male"
+    } else { 
+      gender = "women"
+    }
 
-    // let gender = "male"
-    // if(response.gender == "M"){ 
-    //   gender = "male"
-    // } else { 
-    //   gender = "women"
-    // }
-
-    // const result = { 
-    //   //원하는 정보만 얻고 싶을때 
-    //   id : response.id,
-    //   nickname : response.nickname,
-    //   age : response.age,
-    //   gender : response.gender,
-    //   email : response.email,
-    // }
+    const result = { 
+      //원하는 정보만 얻고 싶을때 
+      id : response.id,
+      nickname : response.nickname,
+      prifilePic : response.profile_image,  // 이름 바꿔야함
+      age : response.age,
+      email : response.email,
+      gender : gender,
+      
+    }
 
 
-    return response;
+    return result;
   };
 
   saveUser = async (resultUser) => {
     console.log("서비스 입니다");
-    return this.loginRepository.saveUser(resultUser);
+    await this.loginRepository.saveUser(resultUser);
   };
 }
 module.exports = LoginService;
