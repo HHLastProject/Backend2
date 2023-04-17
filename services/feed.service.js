@@ -7,16 +7,13 @@ class FeedService {
  
 //전체 피드 가져오기
   feedFindAll = async () => {
-    console.log("서비스 입니다");
      const value = await this.feedRepository.findByFeed();
 
       const result = await Promise.all(value.map(async (feed) => {
       
         const {Shop,Tags,User } = feed;
 
-       let data = await Scrap.findOne({
-          where : {ShopId : Shop.shopId, UserId : User.userId }
-       })
+       let isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : User.userId }})
 
       data ? data = true : data = false
 
@@ -30,7 +27,7 @@ class FeedService {
         shopName : Shop.shopName,
         shopAddress : Shop.address,
         shopThumbnail : Shop.thumbnail,
-        isScrap : data
+        isScrap
       }
     }));
 
@@ -47,16 +44,14 @@ shopFindOne = async (shopId) => {
 
 //하나의 피드 가져오기
 feedFindOne = async (shopId) => {
-    console.log("서비스 입니다");
+   
     let value = await this.feedRepository.findOneByShop(shopId);
 
-    console.log(value);
-    let data = await Scrap.findOne({where :{ UserId : value.User.userId, ShopId : value.Shop.shopId}})
-    
-    data ? data = true : data = false
+    let isScrap = await Scrap.findOne({where :{ UserId : value.User.userId, ShopId : value.Shop.shopId}})
+    isScrap ? isScrap = true : isScrap = false
 
     let result ={
-      nickname : value.User.nickname,
+        nickname : value.User.nickname,
         profilePic : value.User.profilePic,
         createdAt : value.createdAt,
         feedPic: value.feedPic,
@@ -65,25 +60,17 @@ feedFindOne = async (shopId) => {
         shopName : value.Shop.shopName,
         shopAddress : value.Shop.address,
         shopThumbnail : value.Shop.thumbnail,
-        isScrap : data
+        isScrap
     } 
-
-    console.log(result)
-
 
     return result
   };
 
 //피드 작성하기
-  feedPost = async (userId,shopId,feedPic,comment,jsonTags,thumbnail) => {
-    console.log("서비스 입니다");
+  feedPost = async (userId,shopId,comment,jsonTags,feedPic) => {
     
-    const feed = await this.feedRepository.postFeed(userId,shopId,feedPic,comment,thumbnail);
-    console.log("여기가 문제일텐데")
-    console.log(jsonTags);
-    console.log("jsonTags " + jsonTags);
-    console.log(jsonTags.length)
-    console.log("=======================")
+    const feed = await this.feedRepository.postFeed(userId,shopId,comment,feedPic);
+    
     for(let i =0; i < jsonTags.length; i++){
       let tag = jsonTags[i]
       tag = jsonTags[i].tag

@@ -1,5 +1,7 @@
 const ShopService = require("../services/shop.service.js"); 
 const haversine = require('haversine');
+const { Feeds, Scrap } = require('../models');
+const feeds = require("../models/feeds.js");
 
 class ShopController {
     constructor() {
@@ -41,7 +43,7 @@ class ShopController {
                 const distanceB = haversine(userLocate, shopBLocate, { unit: 'meter' });
                 return distanceA - distanceB;
             });
-            
+
             let result = [];
             // 2. for문을 만든다 , 반복횟수 : 전체가게 갯수
             for (let i = 0; i < shops.length; i++) {
@@ -50,7 +52,10 @@ class ShopController {
                 // 4. 유저 현 위치 좌표(x, y)와 가게 현위치 좌표(x, y)를 참고해서 계산을 한다.
                 const shopLocate = { latitude: shops[i].lng, longitude: shops[i].lat };
                 const totalDistance = haversine(userLocate, shopLocate, { unit: 'meter' }); // meter가 미터를 뜻함
-                console.log(totalDistance.toFixed(2) + " m");
+                const findFeed = await Feeds.findAll({
+                    where: { ShopId : shops[i].shopId }
+                })
+                // console.log(findFeed)
                 const shopInfo = {
                     shopId: shops[i].shopId,
                     address: shops[i].address,
@@ -62,7 +67,8 @@ class ShopController {
                     maxPrice: shops[i].maxPrice,
                     minPrice: shops[i].minPrice,
                     category: shops[i].category,
-                    distance: totalDistance.toFixed(0) + " m"
+                    distance: Number(totalDistance.toFixed(0)),
+                    feedCount : findFeed.length,
                 };
                 // 5. 그 계산한 값이 if문을 사용해서 range(예시에는 500) 값보다 작는 조건문을 쓴다. => 3번의 자료를 저장한다
                 if (totalDistance <= range) {
@@ -86,7 +92,24 @@ class ShopController {
             if (!shop) {
                 return res.status(404).json({ errorMsg: "맛집이 존재하지 않습니다."});
             }
-            res.status(200).json({ shop : shop });
+            // const isExistScrap = await Scrap.findOne({
+            //     where: { ShopId: shopId }, // 불확실, 현재 기준은 로그인 했을 때 저게 나타나야 하는데, 현재 코드 상태는 누구든 스크랩 하나라도 했으면 ture로 나오고 있음
+            // })
+            const result = {
+                shopName : shop.shopName,
+                thumbnail : shop.thumbnail,
+                category : shop.category,
+                address : shop.address,
+                lng : shop.lng,
+                lat : shop.lat,
+                operatingTime : shop.operatingTime,
+                phoneNumber : shop.phoneNumber,
+                // isScrap: isExistScrap ? true : false,
+                // isScrap : false, // 일단 비로그인 기준일때만 적용 (모두 false) 
+                Menus : shop.Menus,
+            }
+            res.status(200).json({ shop : result });
+            // res.status(200).json({ shop : shop });
         } catch(error) {
             console.log(error);
             res.status(400).json({ errorMsg: "예기치 못한 오류가 발생했습니다" });
