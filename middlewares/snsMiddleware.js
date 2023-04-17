@@ -11,9 +11,15 @@ module.exports = async (req, res, next) => {
     const authorization = req.headers.authorization;
     const [authType, token] = (authorization ?? "").split(" ");
 
+    console.log("token");
+    console.log(token);
+    console.log("=============");
     if (authorization) {
+      console.log("1")
       const { id } = jwt.verify(token, "key");
+      console.log("2")
       const user = await Users.findOne({ where: { id } });
+      console.log("3")
       res.locals.user = user;
     } else { 
       res.locals.user = null;
