@@ -1,5 +1,4 @@
 const {Feeds,Shops,Tags,Users,Scrap}= require("../models");
-const { Op,sequelize } = require("sequelize");
 
 class FeedRepository {
 
@@ -20,31 +19,11 @@ class FeedRepository {
                     model: Shops,
                     attributes: ['shopName',"address","thumbnail","shopId"],
                 }
-                // ,{
-                //     model: Scrap,
-                //     attributes: ["scrapId"],
-                // }
             ]
     });
   
 
-    /*/////////////////////////////////////////////////////////\
-    const findAll = await Feeds.findAll({
-        attributes: ['feedPic', 'comment', 'createdAt'],
-        include: [
-          {
-            model: Users,
-            attributes: ['nickname', 'profilePic', 'userId'],
-          },
-          {
-            model: Tegs,
-            attributes: ['tag'],
-          },
-          {
-            model: Shops,
-            attributes: ['shopName', 'address', 'thumbnail'],
-          },
-        ],
+    /*/////////////////////////////////////////////////////////
         // Scrap 모델의 데이터를 가져오기 위해 SQL 쿼리문을 작성합니다.
         // Feeds 모델과 Scrap 모델의 관계 설정이 필요 없습니다.
         raw: true,
@@ -64,7 +43,6 @@ class FeedRepository {
     
     //하나의 가게를 가져오기
     findOneByShop = async(shopId) => { 
-        // let a = await Shops.findOne({where :{shopId}});
         const findOne = await Feeds.findOne({
             attributes: ['feedPic', "comment","createdAt"],
             include: [
@@ -82,7 +60,6 @@ class FeedRepository {
                 }
             ],
             where: {ShopId : shopId}
-           
         });
         return findOne;
     };
@@ -93,15 +70,15 @@ class FeedRepository {
     };
 
     //피드 작성하기
-    postFeed = async(userId,shopId,feedPic,comment,thumbnail) => { 
-        const value = await Feeds.create({
+    postFeed = async(userId,shopId,comment,feedPic) => { 
+        
+        const FeedsCreate = await Feeds.create({
             ShopId : shopId,
             UserId : userId,
-            feedPic : thumbnail,
+            feedPic,
             comment
         });
-
-        return value;
+        return FeedsCreate;
 
     };
 
@@ -109,7 +86,7 @@ class FeedRepository {
     postTag = async(feed,tag) => { 
         await Tags.create({
             FeedId : feed.feedId,
-            tag : tag
+            tag
         })
     };
 
