@@ -84,13 +84,6 @@ class ShopController {
 
   getAllMainShop3 = async (req, res, next) => {
     const { lng, lat, range } = req.body;
-    // let userId = null;
-
-    // if (res.locals.user) {
-    //     let userIdData = res.locals.user
-    //     userId = userIdData.userIds
-    // }
-
     try {
       if (res.locals.user) {
         const { userId } = res.locals.user;
@@ -151,6 +144,7 @@ class ShopController {
 
         res.status(200).json({ shops: result });
       } else {
+        
         const shops = await this.ShopService.getAllMainShop2();
 
         shops.sort((a, b) => {
@@ -180,7 +174,7 @@ class ShopController {
             unit: "meter",
           });
 
-          console.log(totalDistance.toFixed(2) + " m");
+          // console.log(totalDistance.toFixed(2) + " m");
           const shopInfo = {
             shopId: shops[i].shopId,
             address: shops[i].address,
