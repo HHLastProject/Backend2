@@ -17,6 +17,12 @@ module.exports = (sequelize, DataTypes) => {
         sourceKey: "userId",
         foreignKey: "UserId",
       });
+
+      this.hasMany(models.SearchHistory, {
+        sourceKey: "userId",
+        foreignKey: "UserId",
+      });
+
     }
   }
   Users.init(

@@ -1,4 +1,4 @@
-const { Shops, Menus, Feeds, Scrap, Sequelize } = require("../models");
+const { Shops, Menus, Sequelize } = require("../models");
 const { Op } = Sequelize;
 
 class ShopRepository {
@@ -62,7 +62,7 @@ class ShopRepository {
                 {
                     model: Menus,
                     attributes: [],
-                },
+                }
             ],
             order: [['createdAt', 'DESC']],
             group: ['Shops.shopId'],
@@ -93,13 +93,7 @@ class ShopRepository {
                         "menuDescription",
                         "picture",
                     ]
-                },
-                // {
-                //     model: Scrap,
-                //     attributes: [
-                //         "UserId"
-                //     ]
-                // },
+                }
             ],
         });
         if (!shop) {
