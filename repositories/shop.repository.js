@@ -93,7 +93,13 @@ class ShopRepository {
                         "menuDescription",
                         "picture",
                     ]
-                }
+                },
+                // {
+                //     model: Scrap,
+                //     attributes: [
+                //         "UserId"
+                //     ]
+                // },
             ],
         });
         if (!shop) {
