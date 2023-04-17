@@ -13,7 +13,7 @@ router.get('/main', shopController.getAllMainShop);
 router.get('/main2', shopController.getAllMainShop2);
 
 
-router.post('/main3',middle, shopController.getAllMainShop3);
+router.get('/main3',middle, shopController.getAllMainShop3);
 
 // 상세페이지 업체정보 API
 // localhost:3060/api/shop/:shopId
