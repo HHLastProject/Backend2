@@ -1,6 +1,6 @@
 const ShopService = require("../services/shop.service.js");
 const haversine = require("haversine");
-const { Scrap } = require("../models");
+const { Scrap, Feeds } = require("../models");
 
 class ShopController {
   constructor() {
@@ -121,6 +121,12 @@ class ShopController {
             where: { ShopId: shops[i].shopId, UserId: userId },
           });
 
+          let findFeedAll = await Feeds.findAll({
+            where: { ShopId : shops[i].shopId }
+          })
+
+          let feedCount = findFeedAll.length
+
           console.log(totalDistance.toFixed(2) + " m");
           const shopInfo = {
             shopId: shops[i].shopId,
@@ -133,6 +139,7 @@ class ShopController {
             maxPrice: shops[i].maxPrice,
             minPrice: shops[i].minPrice,
             category: shops[i].category,
+            feedCount: feedCount,
             distance: totalDistance.toFixed(0) + " m",
             isScrap: isScrap ? true : false,
           };
