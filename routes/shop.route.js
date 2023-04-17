@@ -17,7 +17,7 @@ router.post('/main3',middle, shopController.getAllMainShop3);
 
 // 상세페이지 업체정보 API
 // localhost:3060/api/shop/:shopId
-router.get('/:shopId', shopController.getFindOneShop);
+router.get('/:shopId',middle, shopController.getFindOneShop);
 
 
 

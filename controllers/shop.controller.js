@@ -1,7 +1,6 @@
 const ShopService = require("../services/shop.service.js");
 const haversine = require("haversine");
-const {Scrap} = require("../models");
-
+const { Scrap } = require("../models");
 
 class ShopController {
   constructor() {
@@ -88,125 +87,122 @@ class ShopController {
     // let userId = null;
 
     // if (res.locals.user) {
-    //     let userIdData = res.locals.user 
+    //     let userIdData = res.locals.user
     //     userId = userIdData.userIds
-    // } 
+    // }
 
     try {
-        if (res.locals.user) {
-            const {userId} = res.locals.user 
-            
-            const shops = await this.ShopService.getAllMainShop2();
-      
-            shops.sort((a, b) => {
-              const userLocate = { latitude: lng, longitude: lat };
-              const shopALocate = { latitude: a.lng, longitude: a.lat };
-              const shopBLocate = { latitude: b.lng, longitude: b.lat };
-              const distanceA = haversine(userLocate, shopALocate, { unit: "meter" });
-              const distanceB = haversine(userLocate, shopBLocate, { unit: "meter" });
-              return distanceA - distanceB;
-            });
-      
-            let result = [];
-            
-          
-           
-            for (let i = 0; i < shops.length; i++) {
-            
-              const userLocate = { latitude: lng, longitude: lat };
-            
-              const shopLocate = { latitude: shops[i].lng, longitude: shops[i].lat };
-              
-              const totalDistance = haversine(userLocate, shopLocate, {
-                unit: "meter",
-              }); 
-      
-              let isScrap =  await Scrap.findOne({where : {ShopId : shops[i].shopId, UserId : userId}})
-      
-              console.log(totalDistance.toFixed(2) + " m");
-              const shopInfo = {
-                shopId: shops[i].shopId,
-                address: shops[i].address,
-                lng: shops[i].lng,
-                lat: shops[i].lat,
-                shopName: shops[i].shopName,
-                thumbnail: shops[i].thumbnail,
-                menuName: shops[i].menuName,
-                maxPrice: shops[i].maxPrice,
-                minPrice: shops[i].minPrice,
-                category: shops[i].category,
-                distance: totalDistance.toFixed(0) + " m",
-                isScrap  : isScrap ? true : false 
-              };
-      
-            
-              if (totalDistance <= range) {
-            
-                result.push(shopInfo); 
-              }
-            } 
-      
-      
-      
-            res.status(200).json({ shops: result });
-            
-        } else { 
-            const shops = await this.ShopService.getAllMainShop2();
-      
-            shops.sort((a, b) => {
-              const userLocate = { latitude: lng, longitude: lat };
-              const shopALocate = { latitude: a.lng, longitude: a.lat };
-              const shopBLocate = { latitude: b.lng, longitude: b.lat };
-              const distanceA = haversine(userLocate, shopALocate, { unit: "meter" });
-              const distanceB = haversine(userLocate, shopBLocate, { unit: "meter" });
-              return distanceA - distanceB;
-            });
-      
-            let result = [];
-            
-          
-           
-            for (let i = 0; i < shops.length; i++) {
-            
-              const userLocate = { latitude: lng, longitude: lat };
-            
-              const shopLocate = { latitude: shops[i].lng, longitude: shops[i].lat };
-              
-              const totalDistance = haversine(userLocate, shopLocate, {
-                unit: "meter",
-              }); 
-      
-              console.log(totalDistance.toFixed(2) + " m");
-              const shopInfo = {
-                shopId: shops[i].shopId,
-                address: shops[i].address,
-                lng: shops[i].lng,
-                lat: shops[i].lat,
-                shopName: shops[i].shopName,
-                thumbnail: shops[i].thumbnail,
-                menuName: shops[i].menuName,
-                maxPrice: shops[i].maxPrice,
-                minPrice: shops[i].minPrice,
-                category: shops[i].category,
-                distance: totalDistance.toFixed(0) + " m",
-                isScrap : false
-              };
-      
-            
-              if (totalDistance <= range) {
-            
-                result.push(shopInfo); 
-              }
-            } 
-      
-      
-      
-            res.status(200).json({ shops: result });
+      if (res.locals.user) {
+        const { userId } = res.locals.user;
 
+        const shops = await this.ShopService.getAllMainShop2();
+
+        shops.sort((a, b) => {
+          const userLocate = { latitude: lng, longitude: lat };
+          const shopALocate = { latitude: a.lng, longitude: a.lat };
+          const shopBLocate = { latitude: b.lng, longitude: b.lat };
+          const distanceA = haversine(userLocate, shopALocate, {
+            unit: "meter",
+          });
+          const distanceB = haversine(userLocate, shopBLocate, {
+            unit: "meter",
+          });
+          return distanceA - distanceB;
+        });
+
+        let result = [];
+
+        for (let i = 0; i < shops.length; i++) {
+          const userLocate = { latitude: lng, longitude: lat };
+
+          const shopLocate = {
+            latitude: shops[i].lng,
+            longitude: shops[i].lat,
+          };
+
+          const totalDistance = haversine(userLocate, shopLocate, {
+            unit: "meter",
+          });
+
+          let isScrap = await Scrap.findOne({
+            where: { ShopId: shops[i].shopId, UserId: userId },
+          });
+
+          console.log(totalDistance.toFixed(2) + " m");
+          const shopInfo = {
+            shopId: shops[i].shopId,
+            address: shops[i].address,
+            lng: shops[i].lng,
+            lat: shops[i].lat,
+            shopName: shops[i].shopName,
+            thumbnail: shops[i].thumbnail,
+            menuName: shops[i].menuName,
+            maxPrice: shops[i].maxPrice,
+            minPrice: shops[i].minPrice,
+            category: shops[i].category,
+            distance: totalDistance.toFixed(0) + " m",
+            isScrap: isScrap ? true : false,
+          };
+
+          if (totalDistance <= range) {
+            result.push(shopInfo);
+          }
         }
-       
 
-     
+        res.status(200).json({ shops: result });
+      } else {
+        const shops = await this.ShopService.getAllMainShop2();
+
+        shops.sort((a, b) => {
+          const userLocate = { latitude: lng, longitude: lat };
+          const shopALocate = { latitude: a.lng, longitude: a.lat };
+          const shopBLocate = { latitude: b.lng, longitude: b.lat };
+          const distanceA = haversine(userLocate, shopALocate, {
+            unit: "meter",
+          });
+          const distanceB = haversine(userLocate, shopBLocate, {
+            unit: "meter",
+          });
+          return distanceA - distanceB;
+        });
+
+        let result = [];
+
+        for (let i = 0; i < shops.length; i++) {
+          const userLocate = { latitude: lng, longitude: lat };
+
+          const shopLocate = {
+            latitude: shops[i].lng,
+            longitude: shops[i].lat,
+          };
+
+          const totalDistance = haversine(userLocate, shopLocate, {
+            unit: "meter",
+          });
+
+          console.log(totalDistance.toFixed(2) + " m");
+          const shopInfo = {
+            shopId: shops[i].shopId,
+            address: shops[i].address,
+            lng: shops[i].lng,
+            lat: shops[i].lat,
+            shopName: shops[i].shopName,
+            thumbnail: shops[i].thumbnail,
+            menuName: shops[i].menuName,
+            maxPrice: shops[i].maxPrice,
+            minPrice: shops[i].minPrice,
+            category: shops[i].category,
+            distance: totalDistance.toFixed(0) + " m",
+            isScrap: false,
+          };
+
+          if (totalDistance <= range) {
+            result.push(shopInfo);
+          }
+        }
+
+        res.status(200).json({ shops: result });
+      }
     } catch (error) {
       console.log(error);
       res.status(400).json({ errorMsg: "예기치 못한 오류가 발생했습니다" });
@@ -216,12 +212,56 @@ class ShopController {
 
   getFindOneShop = async (req, res, next) => {
     const { shopId } = req.params;
+
     try {
       const shop = await this.ShopService.getFindOneShop({ shopId });
       if (!shop) {
         return res.status(404).json({ errorMsg: "맛집이 존재하지 않습니다." });
       }
-      res.status(200).json({ shop: shop });
+      // const isExistScrap = await Scrap.findOne({
+      // where: { ShopId: shopId }, // 불확실, 현재 기준은 로그인 했을 때 저게 나타나야 하는데, 현재 코드 상태는 누구든 스크랩 하나라도 했으면 ture로 나오고 있음
+      // })
+
+      if (res.locals.user) {
+        const { userId } = res.locals.user;
+
+
+        let isScrap = await Scrap.findOne({
+          where: { ShopId: shopId, UserId: userId },
+        });
+
+
+        const result = {
+          shopName: shop.shopName,
+          thumbnail: shop.thumbnail,
+          category: shop.category,
+          address: shop.address,
+          lng: shop.lng,
+          lat: shop.lat,
+          operatingTime: shop.operatingTime,
+          phoneNumber: shop.phoneNumber,
+          isScrap : isScrap ? true : false,
+          Menus: shop.Menus,
+        };
+        res.status(200).json({ shop: result });
+      } else { 
+        const result = {
+          shopName: shop.shopName,
+          thumbnail: shop.thumbnail,
+          category: shop.category,
+          address: shop.address,
+          lng: shop.lng,
+          lat: shop.lat,
+          operatingTime: shop.operatingTime,
+          phoneNumber: shop.phoneNumber,
+          isScrap : false, // 일단 비로그인 기준일때만 적용 (모두 false)
+          Menus: shop.Menus,
+        };
+        res.status(200).json({ shop: result });
+      }
+      
+     
+      // res.status(200).json({ shop : shop });
     } catch (error) {
       console.log(error);
       res.status(400).json({ errorMsg: "예기치 못한 오류가 발생했습니다" });
