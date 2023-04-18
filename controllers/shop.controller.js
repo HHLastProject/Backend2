@@ -131,16 +131,16 @@ class ShopController {
           const shopInfo = {
             shopId: shops[i].shopId,
             address: shops[i].address,
-            lng: shops[i].lng,
-            lat: shops[i].lat,
+            lng: Number(shops[i].lng),
+            lat: Number(shops[i].lat),
             shopName: shops[i].shopName,
             thumbnail: shops[i].thumbnail,
             menuName: shops[i].menuName,
-            maxPrice: shops[i].maxPrice,
-            minPrice: shops[i].minPrice,
+            maxPrice: Number(shops[i].maxPrice),
+            minPrice: Number(shops[i].minPrice),
             category: shops[i].category,
+            distance: Number(totalDistance.toFixed(0)),
             feedCount: feedCount,
-            distance: totalDistance.toFixed(0) + " m",
             isScrap: isScrap ? true : false,
           };
 
@@ -181,19 +181,26 @@ class ShopController {
             unit: "meter",
           });
 
+          let findFeedAll = await Feeds.findAll({
+            where: { ShopId : shops[i].shopId }
+          })
+
+          let feedCount = findFeedAll.length
+
           // console.log(totalDistance.toFixed(2) + " m");
           const shopInfo = {
             shopId: shops[i].shopId,
             address: shops[i].address,
-            lng: shops[i].lng,
-            lat: shops[i].lat,
+            lng: Number(shops[i].lng),
+            lat: Number(shops[i].lat),
             shopName: shops[i].shopName,
             thumbnail: shops[i].thumbnail,
             menuName: shops[i].menuName,
-            maxPrice: shops[i].maxPrice,
-            minPrice: shops[i].minPrice,
+            maxPrice: Number(shops[i].maxPrice),
+            minPrice: Number(shops[i].minPrice),
             category: shops[i].category,
-            distance: totalDistance.toFixed(0) + " m",
+            distance: Number(totalDistance.toFixed(0)),
+            feedCount: feedCount,
             isScrap: false,
           };
 
@@ -237,12 +244,17 @@ class ShopController {
           thumbnail: shop.thumbnail,
           category: shop.category,
           address: shop.address,
-          lng: shop.lng,
-          lat: shop.lat,
+          lng: Number(shop.lng),
+          lat: Number(shop.lat),
           operatingTime: shop.operatingTime,
           phoneNumber: shop.phoneNumber,
           isScrap : isScrap ? true : false,
-          Menus: shop.Menus,
+          Menus: shop.Menus.map((menu) => ({
+              menuName: menu.menuName,
+              price: Number(menu.price),
+              menuDescription: menu.menuDescription,
+              picture: menu.picture
+          })),
         };
         res.status(200).json({ shop: result });
       } else { 
@@ -251,12 +263,17 @@ class ShopController {
           thumbnail: shop.thumbnail,
           category: shop.category,
           address: shop.address,
-          lng: shop.lng,
-          lat: shop.lat,
+          lng: Number(shop.lng),
+          lat: Number(shop.lat),
           operatingTime: shop.operatingTime,
           phoneNumber: shop.phoneNumber,
           isScrap : false, // 일단 비로그인 기준일때만 적용 (모두 false)
-          Menus: shop.Menus,
+          Menus: shop.Menus.map((menu) => ({
+            menuName: menu.menuName,
+            price: Number(menu.price),
+            menuDescription: menu.menuDescription,
+            picture: menu.picture
+          })),
         };
         res.status(200).json({ shop: result });
       }
