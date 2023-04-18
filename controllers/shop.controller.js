@@ -1,6 +1,6 @@
 const ShopService = require("../services/shop.service.js");
 const haversine = require("haversine");
-const { Scrap, Feeds } = require("../models");
+const { Scrap, Feeds ,Shops} = require("../models");
 
 class ShopController {
   constructor() {
@@ -144,7 +144,7 @@ class ShopController {
             isScrap: isScrap ? true : false,
           };
 
-          if (totalDistance <= range) {
+          if (totalDistance <= Number(range)) {
             result.push(shopInfo);
           }
         }
@@ -217,6 +217,145 @@ class ShopController {
       return;
     }
   };
+
+
+  getAllMainShop4 = async (req, res, next) => {
+    const { lng, lat, range } = req.body;
+    try {
+      if (res.locals.user) {
+        const { userId } = res.locals.user;
+
+        const shops = await this.ShopService.getAllMainShop2();
+
+        shops.sort((a, b) => {
+          const userLocate = { latitude: lng, longitude: lat };
+          const shopALocate = { latitude: a.lng, longitude: a.lat };
+          const shopBLocate = { latitude: b.lng, longitude: b.lat };
+          const distanceA = haversine(userLocate, shopALocate, {
+            unit: "meter",
+          });
+          const distanceB = haversine(userLocate, shopBLocate, {
+            unit: "meter",
+          });
+          return distanceA - distanceB;
+        });
+
+        let result = [];
+
+        for (let i = 0; i < shops.length; i++) {
+          const userLocate = { latitude: lng, longitude: lat };
+
+          const shopLocate = {
+            latitude: shops[i].lng,
+            longitude: shops[i].lat,
+          };
+
+          const totalDistance = haversine(userLocate, shopLocate, {
+            unit: "meter",
+          });
+
+          let isScrap = await Scrap.findOne({
+            where: { ShopId: shops[i].shopId, UserId: userId },
+          });
+
+          let findFeedAll = await Feeds.findAll({
+            where: { ShopId : shops[i].shopId }
+          })
+
+          let feedCount = findFeedAll.length
+
+          console.log(totalDistance.toFixed(2) + " m");
+          const shopInfo = {
+            shopId: shops[i].shopId,
+            address: shops[i].address,
+            lng: Number(shops[i].lng),
+            lat: Number(shops[i].lat),
+            shopName: shops[i].shopName,
+            thumbnail: shops[i].thumbnail,
+            menuName: shops[i].menuName,
+            maxPrice: Number(shops[i].maxPrice),
+            minPrice: Number(shops[i].minPrice),
+            category: shops[i].category,
+            distance: Number(totalDistance.toFixed(0)),
+            feedCount: feedCount,
+            isScrap: isScrap ? true : false,
+          };
+
+          if (totalDistance <= Number(range)) {
+            result.push(shopInfo);
+          }
+        }
+
+        res.status(200).json({ shops: result });
+      } else {
+        
+        const shops = await this.ShopService.getAllMainShop2();
+
+        shops.sort((a, b) => {
+          const userLocate = { latitude: lng, longitude: lat };
+          const shopALocate = { latitude: a.lng, longitude: a.lat };
+          const shopBLocate = { latitude: b.lng, longitude: b.lat };
+          const distanceA = haversine(userLocate, shopALocate, {
+            unit: "meter",
+          });
+          const distanceB = haversine(userLocate, shopBLocate, {
+            unit: "meter",
+          });
+          return distanceA - distanceB;
+        });
+
+        let result = [];
+
+        for (let i = 0; i < shops.length; i++) {
+          const userLocate = { latitude: lng, longitude: lat };
+
+          const shopLocate = {
+            latitude: shops[i].lng,
+            longitude: shops[i].lat,
+          };
+
+          const totalDistance = haversine(userLocate, shopLocate, {
+            unit: "meter",
+          });
+
+          let findFeedAll = await Feeds.findAll({
+            where: { ShopId : shops[i].shopId }
+          })
+
+          let feedCount = findFeedAll.length
+
+          // console.log(totalDistance.toFixed(2) + " m");
+          const shopInfo = {
+            shopId: shops[i].shopId,
+            address: shops[i].address,
+            lng: Number(shops[i].lng),
+            lat: Number(shops[i].lat),
+            shopName: shops[i].shopName,
+            thumbnail: shops[i].thumbnail,
+            menuName: shops[i].menuName,
+            maxPrice: Number(shops[i].maxPrice),
+            minPrice: Number(shops[i].minPrice),
+            category: shops[i].category,
+            distance: Number(totalDistance.toFixed(0)),
+            feedCount: feedCount,
+            isScrap: false,
+          };
+
+          if (totalDistance <= range) {
+            result.push(shopInfo);
+          }
+        }
+
+        res.status(200).json({ shops: result });
+      }
+    } catch (error) {
+      console.log(error);
+      res.status(400).json({ errorMsg: "예기치 못한 오류가 발생했습니다" });
+      return;
+    }
+  };
+
+
 
   getFindOneShop = async (req, res, next) => {
     const { shopId } = req.params;
