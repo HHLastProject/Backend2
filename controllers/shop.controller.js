@@ -356,6 +356,134 @@ class ShopController {
         }
         
         res.status(200).json({ shops: result2 });
+      } else {
+        const shops = await this.ShopService.getAllMainShop2();
+
+        shops.sort((a, b) => {
+          const userLocate = { latitude: lng, longitude: lat };
+          const shopALocate = { latitude: a.lng, longitude: a.lat };
+          const shopBLocate = { latitude: b.lng, longitude: b.lat };
+          
+          const distanceA = haversine(userLocate, shopALocate, {
+            unit: "meter",
+          });
+          
+          const distanceB = haversine(userLocate, shopBLocate, {
+            unit: "meter",
+          });
+
+          return distanceA - distanceB;
+        });
+
+        let result = [];
+
+        for (let i = 0; i < shops.length; i++) {
+          const userLocate = { latitude: lng, longitude: lat };
+
+          const shopLocate = {
+            latitude: shops[i].lng,
+            longitude: shops[i].lat,
+          };
+
+          const totalDistance = haversine(userLocate, shopLocate, {
+            unit: "meter",
+          });
+
+
+          // let isScrap =  await Scrap.findOne({
+          //   where: { ShopId: shops[i].shopId, UserId: userId },
+          // });
+  
+          // let findFeedAll = await Feeds.findAll({
+          //   where: { ShopId : shops[i].shopId }
+          // })
+
+          // let feedCount = findFeedAll.length
+       
+          const shopInfo = {
+            shopId: shops[i].shopId,
+            address: shops[i].address,
+            lng: Number(shops[i].lng),
+            lat: Number(shops[i].lat),
+            shopName: shops[i].shopName,
+            thumbnail: shops[i].thumbnail,
+            menuName: shops[i].menuName,
+            maxPrice: Number(shops[i].maxPrice),
+            minPrice: Number(shops[i].minPrice),
+            category: shops[i].category,
+            distance: Number(totalDistance.toFixed(0)),
+            // feedCount: feedCount,
+            // isScrap: isScrap ? true : false,
+          };
+
+          if (totalDistance <= Number(range)) {
+            result.push(shopInfo);
+          }
+        }
+
+ 
+        let result2 = []
+        let cn = result.length
+
+
+        shops.sort((a, b) => {
+          const userLocate = { latitude: lng, longitude: lat };
+          const shopALocate = { latitude: a.lng, longitude: a.lat };
+          const shopBLocate = { latitude: b.lng, longitude: b.lat };
+          
+          const distanceA = haversine(userLocate, shopALocate, {
+            unit: "meter",
+          });
+          
+          const distanceB = haversine(userLocate, shopBLocate, {
+            unit: "meter",
+          });
+          
+          return distanceA - distanceB;
+        });
+
+        
+
+
+        for(let i = 0 ;i < cn; i++) {
+  
+          let findFeedAll = await Feeds.findAll({
+            where: { ShopId : shops[i].shopId }
+          })
+          const userLocate = { latitude: lng, longitude: lat };
+
+          const shopLocate = {
+            latitude: shops[i].lng,
+            longitude: shops[i].lat,
+          };
+
+          
+          const totalDistance = haversine(userLocate, shopLocate, {
+            unit: "meter",
+          });
+
+          let feedCount = findFeedAll.length
+          
+          result = { 
+            shopId: shops[i].shopId,
+            address: shops[i].address,
+            lng: Number(shops[i].lng),
+            lat: Number(shops[i].lat),
+            shopName: shops[i].shopName,
+            thumbnail: shops[i].thumbnail,
+            menuName: shops[i].menuName,
+            maxPrice: Number(shops[i].maxPrice),
+            minPrice: Number(shops[i].minPrice),
+            category: shops[i].category,
+            distance: Number(totalDistance.toFixed(0)),
+            feedCount: feedCount,
+            isScrap: false,
+          }
+
+          result2.push(result);
+        }
+        
+        res.status(200).json({ shops: result2 });
       }
     } catch (error) {
       console.log(error);
