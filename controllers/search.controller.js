@@ -12,7 +12,7 @@ class searchController {
         const {serchValue} = req.body
         console.log(serchValue)
         //  const value = await Shops.findOne({ where : {address : serchValue}});
-        const value2 = await Shops.findAll({ where : {address : { [Op.like]: '%' + serchValue + '%' }}});
+        const value2 = await Shops.findAll({ where : {shopName : { [Op.like]: '%' + serchValue + '%' }}});
           
       
          console.log("value2");
