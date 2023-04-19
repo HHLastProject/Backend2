@@ -47,6 +47,20 @@ class FeedController {
     res.send("완료");
   };
 
+
+  postFeed2 = async (req, res, next) => {
+    const { shopId } = req.params;
+    const {comment } = req.body;
+    const { userId } = res.locals.user;
+  
+    console.log("shopId = " + shopId);
+    console.log("comment = " + comment);
+    console.log("userId = " + userId);
+
+    const feedPic = await req.files.feedPic[0].filename;
+    console.log("feedPic = " + feedPic);
+    res.send("완료")
+  }
 }
 
 module.exports = FeedController;
