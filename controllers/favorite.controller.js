@@ -1,26 +1,33 @@
 
 const {Scrap,Shops,Feeds} = require("../models");
-const { Op } = require("sequelize");
+ const FavoriteService = require("../services/favorite.service");
 class favoriteController {
 
+    favoriteService = new FavoriteService();
 
-    test = async(req,res,next) => {
+    listFavorite = async(req,res,next) => {
         const { userId } = res.locals.user;
+        //내가 Scrap한 데이터 가져오기
+        const result = await this.favoriteService.findAllScrap(userId)
+        //Scrap 데이터에 가계정보 가져오기
+        const result2 = await this.favoriteService.findOneShops(result,userId)
+      
+        res.status(200).json({scrapList : result2});
+    };
 
-        console.log(userId)
-        //  const value = await Shops.findOne({ where : {address : serchValue}});
-         const value2 = await Scrap.findAll({where:{UserId:userId}});
+    /*
+    test2 = async(req,res,next) => {
+        const { userId } = res.locals.user;
+        // 스크랩가져오기 (유저정보)
+        const value2 = await Scrap.findAll({where:{UserId:userId}});
 
-       
          let result = await value2.map((value)=> {
-
-            return { 
-                shopId : value.ShopId
-            }
-
+            return { shopId : value.ShopId }
         })
 
         let result3 = [];
+
+        //가게 정보 하나 가져오기
         for(let i = 0; i < result.length; i++) { 
             
             let result2 = await Shops.findOne({
@@ -49,20 +56,9 @@ class favoriteController {
 
             result3.push(value);
         }
-        
-        // console.log(result2);
-        // await Shop.findOne({result});
-
-         console.log(result3[1]);
-
-        //  shopId : number,
-        //  address: string, //도로명으로 통일
-        //  shopName: string, 
-        //  thumbnail : string,
-        //  feedCount : number,
-        //  isScrap: boolean,
+  
          res.send(result3);
-    };
+    };*/
 } 
 
 module.exports = favoriteController;

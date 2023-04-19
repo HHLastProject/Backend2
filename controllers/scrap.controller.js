@@ -1,30 +1,25 @@
-const {Shops,Scrap} = require("../models");
+const  ScrapService = require("../services/scrap.service")
+
 class scrapController {
+    
+   scrapService = new ScrapService();
 
-
-    test = async(req,res,next) => {
-        const {userId} = res.locals.user
+    updateScrap = async(req,res,next) => {
+        const { userId } = res.locals.user
         const { shopId } = req.params
-       
-        const findScrap = await Scrap.findOne({
-            where : {ShopId : shopId}
-        });
 
+        const findScrap = await this.scrapService.findOneScrap(shopId)
+     
         let boolean = true;
 
         if(!findScrap) { 
-            const data = await Scrap.create({
-                UserId : userId,
-                ShopId : shopId
-            });    
+            this.scrapService.createScrap(userId,shopId)
         } else { 
-            const data = await Scrap.destroy({
-                where : {ShopId : shopId}
-            });   
+            this.scrapService.deleteScrap(shopId)
             boolean = false
         }
 
-         res.send(boolean);
+         res.status(200).json({isScrap : boolean});
     };
 } 
 

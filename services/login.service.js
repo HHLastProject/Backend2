@@ -36,18 +36,8 @@ class LoginService {
       }
     );
    
-    // console.log("1번 responseToken.data");
-    // console.log(responseToken.data);
-    // console.log("================================");
-
     const { access_token } = responseToken.data;
     // req.session.accessToken = access_token;   //이게 어떠한 기능인지 알아보기
-
-
-    // console.log("2번 access_token");
-    // console.log(access_token);
-    // console.log("================================");
-
 
     if (!access_token) {
       return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
@@ -66,14 +56,6 @@ class LoginService {
     });
 
     const { id, properties, kakao_account } = responseUser.data;
-
-    // console.log("★responseUser.data");
-    // console.log(properties, kakao_account);
-    // console.log("======================");
-
-    // const userInfo = {
-    //   id,
-    // };
 
     // 유저 정보 저장하기
     const userInfo = {

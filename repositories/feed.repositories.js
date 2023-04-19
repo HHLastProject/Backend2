@@ -22,8 +22,8 @@ class FeedRepository {
             ]
     });
   
-
-    /*/////////////////////////////////////////////////////////
+        return findAll
+    /*/////////////////////////////////////////////////////////  ★★★★★ 알아보기
         // Scrap 모델의 데이터를 가져오기 위해 SQL 쿼리문을 작성합니다.
         // Feeds 모델과 Scrap 모델의 관계 설정이 필요 없습니다.
         raw: true,
@@ -38,7 +38,7 @@ class FeedRepository {
         ],
       });
     ///////////////////////////////////////////////////////*/
-        return findAll
+        
     };
     
     //하나의 가게를 가져오기
@@ -78,6 +78,8 @@ class FeedRepository {
             feedPic,
             comment
         });
+
+        console.log("FeedsCreate = " + FeedsCreate)
         return FeedsCreate;
 
     };
@@ -88,6 +90,7 @@ class FeedRepository {
             FeedId : feed.feedId,
             tag
         })
+        console.log("tag완료")
     };
 
 }
