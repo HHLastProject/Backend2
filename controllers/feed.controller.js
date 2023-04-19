@@ -56,8 +56,7 @@ class FeedController {
    console.log("shopId = " + shopId);
    console.log("comment = " + comment);
    console.log("userId = " + userId);
-   console.log("tags = " + tags);
-
+   
     console.log("==============================")
     console.log("[ ■ req.files]")
     console.log(req.files)
@@ -66,6 +65,7 @@ class FeedController {
     console.log("[ ■ req.files typeof] = " + typeof(req.files.feedPic[0].filename))
     const feedPic = await req.files.feedPic[0].filename;
     console.log("[ ■ feedPic] = " + feedPic);
+    console.log("tags = " + tags);
     console.log("==============================")
     
     res.send("완료")
