@@ -1,7 +1,7 @@
 const express = require("express");
 const ShopController = require("../controllers/shop.controller.js");
-// const middle = require("../middlewares/snsMiddleware.js");
-const middle = require("../middlewares/snsAuthmiddleware.js");
+const middle = require("../middlewares/snsMiddleware.js");
+// const middle = require("../middlewares/snsAuthmiddleware.js");  //★★★★★★ 프론트에서는 이거를 실행
 const shopController = new ShopController();
 const router = express.Router();
 

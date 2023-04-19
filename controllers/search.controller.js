@@ -1,6 +1,5 @@
 const { Shops } = require("../models");
 const { Op } = require("sequelize");
-const { SearchHistory } = require("../models");
 const SearchService = require("../services/search.service");
 
 class searchController {
@@ -43,6 +42,11 @@ class searchController {
     }
   };
 
+
+  count = async (req, res, next) => { 
+     const value = Shops.findAll({});
+     res.send(value)
+  }
 
 }
 

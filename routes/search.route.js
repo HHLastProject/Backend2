@@ -11,6 +11,8 @@ router.post("/search",middle,searchController.searchShop)
 
 router.get("/search/history",middle,searchController.searchHistory)
 
+router.get("/search/summary", searchController.count)
+
 //추후 이것으로 수정 req.qurey
 // router.get("/search",searchController.test)
 

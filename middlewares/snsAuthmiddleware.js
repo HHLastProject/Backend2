@@ -1,18 +1,14 @@
 require('dotenv').config();
 // const AdminRepository = require('../repositories/admin.repository');
 // const adminRepository = new AdminRepository();
- const { Users }= require("../models")
+const { Users } = require("../models");
 const jwt = require("jsonwebtoken");
 const Boom = require("boom");
 
-
 module.exports = async (req, res, next) => {
-    const label = "adminAuthmiddleware.js";
   try {
-
     const authorization = req.headers.authorization;
     const [authType, token] = (authorization ?? "").split(" ");
-
 
     console.log("token 여기는 로그인이 필수 입니다");
     console.log(token);
