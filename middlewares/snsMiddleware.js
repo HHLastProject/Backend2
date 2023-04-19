@@ -11,9 +11,10 @@ module.exports = async (req, res, next) => {
     const authorization = req.headers.authorization;
     const [authType, token] = (authorization ?? "").split(" ");
 
-    console.log("token");
+    console.log("token 여기는 로그인이 필수가 아닙니다");
     console.log(token);
     console.log("=============");
+
     if (authorization) {
       console.log("1")
       const { id } = jwt.verify(token, "key");
