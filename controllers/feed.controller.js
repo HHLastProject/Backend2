@@ -50,15 +50,22 @@ class FeedController {
 
   postFeed2 = async (req, res, next) => {
     const { shopId } = req.params;
-    const {comment } = req.body;
+    const {comment, tags } = req.body;
     const { userId } = res.locals.user;
-  
-    console.log("shopId = " + shopId);
-    console.log("comment = " + comment);
-    console.log("userId = " + userId);
+   
+   console.log("shopId = " + shopId);
+   console.log("comment = " + comment);
+   console.log("userId = " + userId);
+   console.log("tags = " + tags);
 
+    console.log("==============================")
+    console.log("[ ■ req.files]")
+    console.log(req.files)
+    console.log("[ ■ req.files typeof] = " + typeof(req.files.feedPic[0].filename))
     const feedPic = await req.files.feedPic[0].filename;
-    console.log("feedPic = " + feedPic);
+    console.log("[ ■ feedPic] = " + feedPic);
+    console.log("==============================")
+    
     res.send("완료")
   }
 }
