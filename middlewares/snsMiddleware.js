@@ -6,7 +6,6 @@ const jwt = require("jsonwebtoken");
 const Boom = require("boom");
 
 module.exports = async (req, res, next) => {
-  const label = "adminAuthmiddleware.js";
   try {
     const authorization = req.headers.authorization;
     const [authType, token] = (authorization ?? "").split(" ");
@@ -16,11 +15,8 @@ module.exports = async (req, res, next) => {
     console.log("=============");
 
     if (authorization) {
-      console.log("1")
       const { id } = jwt.verify(token, "key");
-      console.log("2")
       const user = await Users.findOne({ where: { id } });
-      console.log("3")
       res.locals.user = user;
     } else { 
       res.locals.user = null;
