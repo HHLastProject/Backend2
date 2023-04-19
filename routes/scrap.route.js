@@ -6,7 +6,7 @@ const scrapController = new ScrapController();
 const middle = require("../middlewares/snsAuthmiddleware");
 
 
-router.put("/:shopId/scrap",middle,scrapController.test)
+router.put("/:shopId/scrap",middle,scrapController.updateScrap)
 
 
 
