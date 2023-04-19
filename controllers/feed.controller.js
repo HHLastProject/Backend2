@@ -58,10 +58,15 @@ class FeedController {
    console.log("userId = " + userId);
    
     console.log("==============================")
-    console.log("[ ■ req.files] = " + typeof(req.files))
-    console.log("[ ■ req.files]")
-    console.log(req.files)
-
+    // console.log("[ ■ req.files] = " + typeof(req.files))
+    // console.log("[ ■ req.files]")
+    console.log("req")
+    console.log(req)
+    
+    console.log("==============================")
+    console.log("req.feedPic")
+    console.log(req.feedPic)
+    
     console.log("여기는 사진 추출")
 
     console.log("[ ■ req.files typeof] = " + typeof(req.files.feedPic[0].filename))
