@@ -58,11 +58,11 @@ class FeedController {
    console.log("userId = " + userId);
    
     console.log("==============================")
+    console.log("[ ■ req.files typeof] = " + typeof(req.files.feedPic[0].filename))
     console.log("[ ■ req.files]")
     console.log(req.files)
     console.log("[ ■ req.feedPic]")
     console.log(req.feedPic)
-    console.log("[ ■ req.files typeof] = " + typeof(req.files.feedPic[0].filename))
     const feedPic = await req.files.feedPic[0].filename;
     console.log("[ ■ feedPic] = " + feedPic);
     console.log("tags = " + tags);
