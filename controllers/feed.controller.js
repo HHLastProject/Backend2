@@ -48,6 +48,22 @@ class FeedController {
   };
 
 
+  postFeed22  = async (req, res, next) => { 
+    const { shopId } = req.params;
+    const {comment, tags } = req.body;
+    const { userId } = res.locals.user;
+   
+   console.log("shopId = " + shopId);
+   console.log("comment = " + comment);
+   console.log("userId = " + userId);
+
+   console.log("req.file")
+   console.log(req.file)
+   
+   res.send("ghs")
+  }
+
+
   postFeed2 = async (req, res, next) => {
     const { shopId } = req.params;
     const {comment, tags } = req.body;
@@ -56,6 +72,8 @@ class FeedController {
    console.log("shopId = " + shopId);
    console.log("comment = " + comment);
    console.log("userId = " + userId);
+
+  //  console.log(feedPic.get('feedPic'))
    
     console.log("==============================")
     // console.log("[ ■ req.files] = " + typeof(req.files))
@@ -63,8 +81,11 @@ class FeedController {
     console.log("req")
     console.log(req)
     console.log("==============================")
-    console.log("req.files")
-    console.log(req.files)
+    console.log("req.file")
+    console.log(req.file)
+    console.log("==============================")
+    console.log("req.body")
+    console.log(req.feedPic)
     console.log("==============================")
     console.log("여기는 사진 추출")
     console.log("[ ■ req.files.feedPic[0].filename ] = "  + req.files.feedPic[0].filename)
