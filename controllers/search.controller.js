@@ -1,78 +1,49 @@
-
-const {Shops} = require("../models");
+const { Shops } = require("../models");
 const { Op } = require("sequelize");
-const {SearchHistory} = require("../models")
-
+const { SearchHistory } = require("../models");
+const SearchService = require("../services/search.service");
 
 class searchController {
+  searchService = new SearchService();
 
+  searchShop = async (req, res, next) => {
+    const { searchName } = req.body;
+    //가게 정보 가져오기
+    const result = await this.searchService.findAllShop(searchName);
 
-    test = async(req,res,next) => {
-       
-        const {searchName} = req.body
-        //  const value = await Shops.findOne({ where : {address : serchValue}});
-        const value2 = await Shops.findAll({ where : {shopName : { [Op.like]: '%' + searchName + '%' }}});
-          
-      
-         console.log("value2");
-         console.log(value2);
-         console.log("======");
-        let result = await value2.map((value)=> {
-
-            return { 
-                shopId : value.shopId,
-                shopName : value.shopName,
-                shopAddress : value.address
-            }
-
-        })
-
-
-        
-
-         res.send(result);
-    };
-
-
-    test2 = async(req,res,next) => { 
-        const {userId}   = res.locals.user
-            /////////////////////////////////// 
-            const {serchValue} = req.body
-        
-            //가게검색중
-        const value2 = await Shops.findOne({ where : {address : { [Op.like]: '%' + serchValue + '%' }}});
-     
-
-        await SearchHistory.create({
-            UserId : userId, 
-            ShopId : value2.shopId
-        });
-    
-        //검색 기록수 확인
-        const findAllSH = await  SearchHistory.findAll({
-            where :{UserId : userId}
-        });
-
-      //30이 넘어가면 지우기
-        if(30 < findAllSH.length) { 
-            
-            const findAllSH2 = await SearchHistory.findOne({
-                where :{UserId : userId}
-            });
-
-            await findAllSH2.destroy({
-            })
-         } 
-
-         
-         let result = { 
-            shopId : value2.shopId, 
-            shopName : value2.shopName, 
-            shopAddress : value2.address, 
-         }
-
-        res.send({result});
+    //로그인 했을 경우 기록하기
+    if (res.locals.user) {
+      const { userId } = res.locals.user;
+      const shopId = result[0].shopId; //이부분 조정 해보기
+      this.searchService.createSearchHistory(userId, shopId);
+      this.searchService.findAllSearchHistory(userId);
     }
-} 
+
+    res.status(200).send(result);
+  };
+
+  searchHistory = async (req, res, next) => {
+    if (res.locals.user) {
+      const { userId } = res.locals.user;
+      const value2 =  await this.searchService.findAllSearchHistory(userId);
+      const value33 = await this.searchService.findAllSearchHistory(userId);
+
+       const value3 = await value2.map((value) => { 
+        return { 
+            shopId: value.shopId,
+            shopName: value.shopName,
+            shopAddress: value.address,
+            test : "t"
+        }
+      })
+   
+      return res.send({ value3 });
+    } else {
+      return res.send("로그인 하지 않아 기록이 없습니다");
+    }
+  };
+
+
+}
 
 module.exports = searchController;

@@ -1,8 +1,9 @@
-const multer = require('multer');
+
 const express = require("express");
 const router = express.Router();
 const middle = require("../middlewares/snsAuthmiddleware");
 
+const multer = require('multer');  // ★★★★★ 사용법 알아내기
 const { upload } = require('../middlewares/multer');
 
 const FeedController = require("../controllers/feed.controller");

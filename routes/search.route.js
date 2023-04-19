@@ -7,9 +7,9 @@ const searchController = new SearchController();
 const middle = require("../middlewares/snsMiddleware.js");
 
 //검색  추후에 get으로 수정 req.body
-router.post("/search",searchController.test)
+router.post("/search",middle,searchController.searchShop)
 
-router.post("/search/history",middle,searchController.test2)
+router.get("/search/history",middle,searchController.searchHistory)
 
 //추후 이것으로 수정 req.qurey
 // router.get("/search",searchController.test)
