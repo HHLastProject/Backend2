@@ -44,8 +44,9 @@ class searchController {
 
 
   count = async (req, res, next) => { 
-     const value = Shops.findAll({});
-     res.send(value)
+    //  const value = Shops.findAll({});
+    //  res.send(value)
+    res.send("확인")
   }
 
 }
