@@ -24,13 +24,22 @@ class FeedController {
     const {comment, tags } = req.body;
     const { userId } = res.locals.user;
    
+
    console.log("=====================================")
    console.log("req.file")
    console.log(req.file)
    console.log("=====================================")
+   console.log("shopId = " + shopId);
+   console.log("comment = " + comment);
+   console.log("userId = " + userId);
+   console.log("tags = " + tags);
+   console.log("=====================================")
 
+   
     // 썸네일 메인 사진을 0번째 껄로 선택한다
     const feedPic = await req.file.filename;
+    console.log("feedPic")
+    console.log(feedPic)
     const jsonTags = JSON.parse(tags)
 
     const createFeed = await this.feedService.feedPost(
@@ -92,10 +101,10 @@ class FeedController {
     const {comment, tags } = req.body;
     const { userId } = res.locals.user;
    
-  //  console.log("shopId = " + shopId);
-  //  console.log("comment = " + comment);
-  //  console.log("userId = " + userId);
-
+   console.log("shopId = " + shopId);
+   console.log("comment = " + comment);
+   console.log("userId = " + userId);
+   console.log("tags = " + tags);
    console.log("req.file")
    console.log(req.file)
    

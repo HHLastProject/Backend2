@@ -50,11 +50,17 @@ class SearchService {
     })
 
   let addresSummary =[];
-   for(let i = 0 ; i <5; i++){ 
-    const address = result[i].shopAddress
+   for(let i = 2800 ; i <2805; i++){ 
+    let address = result[i].shopAddress
+    let cityAddress = address.split(" ");
+
+    if(cityAddress[0] == "경기도") {
+      cityAddress = address.split(" ");
+    }
+
     // const address2 = address.replace(" ")
-    console.log(address)
-    addresSummary.push(address)
+    console.log(cityAddress)
+    addresSummary.push(cityAddress)
    }
 
   return addresSummary
