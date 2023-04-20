@@ -15,7 +15,7 @@ class FeedService {
 
        let isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : User.userId }})
 
-      data ? data = true : data = false
+       isScrap ? (isScrap = true) : (isScrap = false)
 
       return {
         nickname : User.nickname,
