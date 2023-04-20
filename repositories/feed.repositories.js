@@ -71,7 +71,8 @@ class FeedRepository {
 
     //피드 작성하기
     postFeed = async(userId,shopId,comment,feedPic) => { 
-        
+        console.log("feedPic 레파지토리입니다")
+        console.log(feedPic)
         const FeedsCreate = await Feeds.create({
             ShopId : shopId,
             UserId : userId,

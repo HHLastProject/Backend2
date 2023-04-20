@@ -35,8 +35,11 @@ class FeedController {
    console.log("tags = " + tags);
    console.log("=====================================")
 
+   
     // 썸네일 메인 사진을 0번째 껄로 선택한다
     const feedPic = await req.file.filename;
+    console.log("feedPic")
+    console.log(feedPic)
     // const jsonTags = JSON.parse(tags)
 
     const createFeed = await this.feedService.feedPost(
