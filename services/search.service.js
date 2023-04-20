@@ -1,20 +1,24 @@
 const SearchRepository = require("../repositories/search.repositories");
+const { Shops } = require("../models");
 
 class SearchService {
   constructor() {
     this.searchRepository = new SearchRepository();
   }
-
+  
   findAllShop = async (searchName) => {
-    let result = await this.searchRepository.findAllbyShop(searchName);
 
-    result = await result.map((value) => {
+    let result = await this.searchRepository.findAllbyShop(searchName);
+   
+    if(result) {
+     result = await result.map((value) => {
       return {
         shopId: value.shopId,
         shopName: value.shopName,
         shopAddress: value.address,
       };
     });
+  } 
 
     return result;
   };
@@ -34,8 +38,13 @@ class SearchService {
     return findAllSearchHistory
   };
 
-  findAllShop = async (shopId) => { 
-    await this.searchRepository.findAllbyShop(shopId)
+  // findAllShop = async (shopId) => { 
+  //   await this.searchRepository.findAllbyShop(shopId)
+  // }
+
+  test = async (shopId) => { 
+    let a = "여기오나"
+  return a
   }
 }
 

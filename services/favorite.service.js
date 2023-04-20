@@ -31,6 +31,7 @@ class FavoriteService {
              shopName: result2.shopName, 
              thumbnail : result2.thumbnail,
              feedCount : result2.Feeds.length,
+             category : result2.category,
              isScrap: isScrap
             }
 
