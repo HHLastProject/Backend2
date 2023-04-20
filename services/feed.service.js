@@ -67,7 +67,7 @@ feedFindOne = async (shopId) => {
   };
 
 //피드 작성하기
-  feedPost = async (userId,shopId,comment,jsonTags,feedPic) => {
+  feedPost = async (userId,shopId,comment,feedPic) => {
     
     const feed = await this.feedRepository.postFeed(userId,shopId,comment,feedPic);
     
