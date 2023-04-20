@@ -14,7 +14,7 @@ class FavoriteRepository {
 
     findOnebyShop = async(shopId) => { 
         let result2 = await Shops.findOne({
-            attributes: ['shopName', "address","thumbnail","shopId"],
+            attributes: ['shopName', "address","thumbnail","shopId","category"],
             include: [
                 {
                     model: Feeds,             
