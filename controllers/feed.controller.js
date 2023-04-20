@@ -37,13 +37,13 @@ class FeedController {
 
     // 썸네일 메인 사진을 0번째 껄로 선택한다
     const feedPic = await req.file.filename;
-    const jsonTags = JSON.parse(tags)
+    // const jsonTags = JSON.parse(tags)
 
     const createFeed = await this.feedService.feedPost(
       userId,
       shopId,
       comment,
-      jsonTags,
+      // jsonTags,
       feedPic 
     );
     //shopId값 가져오기
