@@ -38,10 +38,6 @@ class SearchService {
     return findAllSearchHistory
   };
 
-  // findAllShop = async (shopId) => { 
-  //   await this.searchRepository.findAllbyShop(shopId)
-  // }
-
   summaryShop = async (result) => { 
     result = result.map((value)=> {
         return { 
@@ -50,21 +46,46 @@ class SearchService {
     })
 
   let addresSummary =[];
-   for(let i = 2800 ; i <2805; i++){ 
+   for(let i = 0 ; i <3699; i++){ 
     let address = result[i].shopAddress
     let cityAddress = address.split(" ");
 
+    
     if(cityAddress[0] == "경기도") {
-      cityAddress = address.split(" ");
+      addresSummary.push(cityAddress[2])
+    } else {
+      addresSummary.push(cityAddress[1])
     }
-
-    // const address2 = address.replace(" ")
-    console.log(cityAddress)
-    addresSummary.push(cityAddress)
    }
 
-  return addresSummary
+  let addresSummary2 = [];
+
+  // for(let i =0; i < addresSummary.length; i++){
+  //    let reuslt = addresSummary2.indexOf(addresSummary[i])
+
+  //    if(reuslt == -1){
+  //     addresSummary2.push(addresSummary[i])
+  //    }
+
+  // }
+  
+  // for (let i = 0; i < addresSummary2.length; i++) {
+  //   let obj = {};
+  //   obj[addresSummary2[i]] = parseInt(addresSummary[i]);
+  //   output.push(obj);
+  // }
+
+
+  const result2 = addresSummary.reduce((accu, curr) => { 
+    accu[curr] = (accu[curr] || 0)+1; 
+    return accu;
+  }, {});
+
+
+  return result2
   }
+
+
 }
 
 module.exports = SearchService;

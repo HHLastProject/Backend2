@@ -5,27 +5,12 @@ class SearchRepository {
 
     findAllbyShop = async(searchName) => { 
         // const result = await Shops.findAll({ where : {shopName : { [Op.like]: '%' + searchName + '%' }}});
-        console.log("searchName");
-        console.log(searchName);
         const result = await Shops.findAll({ 
             where : {
         [Op.or] : [
             {shopName : {[Op.like]: searchName ? '%' + searchName + '%' :  '%'}},
             ]
         }});
-
-    // const result = await Shops.findAll({
-    //     where: {
-    //       [Op.or]: [
-    //         {
-    //           shopName: {
-    //             [Op.like]: '%' + searchName + '%'
-    //           }
-    //         },
-    //         {}
-    //       ]
-    //     }
-    //   });
 
         return result
     };
