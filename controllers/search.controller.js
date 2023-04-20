@@ -14,8 +14,7 @@ class searchController {
     //로그인 했을 경우 기록하기
     if (res.locals.user) {
       const { userId } = res.locals.user;
-      const shopId = result[0].shopId; //이부분 조정 해보기
-      this.searchService.createSearchHistory(userId, shopId);
+      this.searchService.createSearchHistory(userId, searchName);
       this.searchService.findAllSearchHistory(userId);
     }
 
@@ -43,11 +42,11 @@ class searchController {
   };
 
 
-  count = async (req, res, next) => { 
-    //  const value = Shops.findAll({});
-    //  res.send(value)
-     const re = await this.searchService.test()
-    res.send(re)
+  searchSummary = async (req, res, next) => { 
+  const result = await this.searchService.findAllShop();
+  const re = await this.searchService.summaryShop(result);
+
+  res.send(re)
   }
 
 }

@@ -18,8 +18,9 @@ router.get("/shop/:shopId/feed",feedController.detailFeed)
 // router.post("/shop/:shopId/feed",middle, upload.fields([{ name: 'thumbnail', maxCount: 1 },{ name: 'menuPictures'}]), feedController.postFeed);
 // router.post("/shop/:shopId/feed",authMiddle, upload.fields([{ name: 'feedPic', maxCount: 1 }]), feedController.postFeed);
 router.post("/shop/:shopId/feed",authMiddle, upload.single('feedPic'), feedController.postFeed);
-// router.post("/shop/:shopId/feed2",authMiddle, upload.fields([{ name: 'feedPic', maxCount: 1 }]), feedController.postFeed2);
 router.post("/shop/:shopId/feed22",authMiddle, upload.single('feedPic'), feedController.postFeed22);
+router.post("/shop/:shopId/feed2",authMiddle, upload.fields([{ name: 'feedPic', maxCount: 1 }]), feedController.postFeed2);
+
 
 
 
