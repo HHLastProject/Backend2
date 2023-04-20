@@ -12,7 +12,7 @@ let operatingTime = "연중무휴";
 let phoneNumber = "010-1111-2222";
 
 router.get("/test", async (req, res) => {
-  for (let i = 0; i < 3000; i++) {
+  for (let i = 0; i < 3699; i++) {
     let flontNumber = Math.ceil(getRandomArbitrary(1000, 9999));
     let backNumber = Math.ceil(getRandomArbitrary(1000, 9999));
 

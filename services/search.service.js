@@ -50,11 +50,11 @@ class SearchService {
     })
 
   let addresSummary =[];
-   for(let i = 0 ; i <5; i++){ 
+   for(let i = 2800 ; i <2805; i++){ 
     let address = result[i].shopAddress
     let cityAddress = address.split(" ");
 
-    if(cityAddress == "경기도") {
+    if(cityAddress[0] == "경기도") {
       cityAddress = address.split(" ");
     }
 
