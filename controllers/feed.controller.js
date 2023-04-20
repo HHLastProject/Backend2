@@ -95,9 +95,13 @@ class FeedController {
   //  console.log("shopId = " + shopId);
   //  console.log("comment = " + comment);
   //  console.log("userId = " + userId);
-
+  console.log("req")
+  console.log(req)
+  console.log("============================================")
    console.log("req.file")
    console.log(req.file)
+   console.log("req.files")
+   console.log(req.files)
    
    res.send("ghs")
   }
