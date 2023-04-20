@@ -6,10 +6,11 @@ class searchController {
   searchService = new SearchService();
 
   searchShop = async (req, res, next) => {
+    
     const { searchName } = req.body;
     //가게 정보 가져오기
     const result = await this.searchService.findAllShop(searchName);
-
+  
     //로그인 했을 경우 기록하기
     if (res.locals.user) {
       const { userId } = res.locals.user;
@@ -25,14 +26,13 @@ class searchController {
     if (res.locals.user) {
       const { userId } = res.locals.user;
       const value2 =  await this.searchService.findAllSearchHistory(userId);
-      const value33 = await this.searchService.findAllSearchHistory(userId);
-
+      console.log("value2.shopId")
+      console.log(value2[0])
        const value3 = await value2.map((value) => { 
         return { 
             shopId: value.shopId,
             shopName: value.shopName,
             shopAddress: value.address,
-            test : "t"
         }
       })
    
@@ -46,7 +46,8 @@ class searchController {
   count = async (req, res, next) => { 
     //  const value = Shops.findAll({});
     //  res.send(value)
-    res.send("확인")
+     const re = await this.searchService.test()
+    res.send(re)
   }
 
 }
