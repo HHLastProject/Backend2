@@ -67,15 +67,15 @@ feedFindOne = async (shopId) => {
   };
 
 //피드 작성하기
-  feedPost = async (userId,shopId,comment,feedPic) => {
+  feedPost = async (userId,shopId,comment,jsonTags,feedPic) => {
     
     const feed = await this.feedRepository.postFeed(userId,shopId,comment,feedPic);
     
-    // for(let i =0; i < jsonTags.length; i++){
-    //   let tag = jsonTags[i]
-    //   tag = jsonTags[i].tag
-    //   this.feedRepository.postTag(feed,tag);
-    // }
+    for(let i =0; i < jsonTags.length; i++){
+      let tag = jsonTags[i]
+      tag = jsonTags[i].tag
+      this.feedRepository.postTag(feed,tag);
+    }
     
     return 0;
   };
