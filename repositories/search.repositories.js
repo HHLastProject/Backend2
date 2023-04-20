@@ -3,22 +3,37 @@ const { Op } = require("sequelize");
 
 class SearchRepository {
 
-    findAllbyShop = async(searchName,shopId) => { 
-        const result = await Shops.findAll({ where : {shopName : { [Op.like]: '%' + searchName + '%' }}});
-        //  const result = await Shops.findAll({ where : {
-        // [Op.or] : [
-        //     {shopName : { [Op.like]: '%' + searchName + '%' }},
-        //     // {shopId : shopId ? shopId : null},
-        //     ]
-        // }});
+    findAllbyShop = async(searchName) => { 
+        // const result = await Shops.findAll({ where : {shopName : { [Op.like]: '%' + searchName + '%' }}});
+        console.log("searchName");
+        console.log(searchName);
+        const result = await Shops.findAll({ 
+            where : {
+        [Op.or] : [
+            {shopName : {[Op.like]: searchName ? '%' + searchName + '%' :  '%'}},
+            ]
+        }});
+
+    // const result = await Shops.findAll({
+    //     where: {
+    //       [Op.or]: [
+    //         {
+    //           shopName: {
+    //             [Op.like]: '%' + searchName + '%'
+    //           }
+    //         },
+    //         {}
+    //       ]
+    //     }
+    //   });
 
         return result
     };
 
-    createbySearchHistory = async(userId,shopId) => {  
+    createbySearchHistory = async(userId,searchName) => {  
         await SearchHistory.create({
             UserId : userId, 
-            ShopId : shopId
+            searchContent : searchName
         });
     }
 
