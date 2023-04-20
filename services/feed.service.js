@@ -1,5 +1,5 @@
 const FeedRepository = require("../repositories/feed.repositories");
-const {Scrap,Feeds}= require("../models");
+const {Scrap,Feeds,Users}= require("../models");
 
 
 class FeedService {
@@ -18,12 +18,14 @@ class FeedService {
        isScrap ? (isScrap = true) : (isScrap = false)
 
       return {
+        feedId : feed.feedId,
         nickname : User.nickname,
         profilePic : User.profilePic,
         createdAt : feed.createdAt,
         feedPic: feed.feedPic,
         comment : feed.comment,
         tag : Tags.map((value) => ({ tag: value.tag })) ,
+        shopId : Shop.shopId,
         shopName : Shop.shopName,
         shopAddress : Shop.address,
         shopThumbnail : Shop.thumbnail,
@@ -46,17 +48,18 @@ shopFindOne = async (shopId) => {
 feedFindOne = async (shopId) => {
    
     let value = await this.feedRepository.findOneByShop(shopId);
-
-    let isScrap = await Scrap.findOne({where :{ UserId : value.User.userId, ShopId : value.Shop.shopId}})
+    let isScrap = await Scrap.findOne({where :{ UserId : value.UserId, ShopId : value.ShopId}})
     isScrap ? isScrap = true : isScrap = false
 
-    let result ={
+    let result = {
+        feedId : value.feedId,
         nickname : value.User.nickname,
         profilePic : value.User.profilePic,
         createdAt : value.createdAt,
         feedPic: value.feedPic,
         comment : value.comment,
-        tag : value.Tags.map((value) => ({ tag: value.tag })) ,
+        tag : value.Tags.map((value) => ({ tag: value.tag })),
+        shopId : value.ShopId,
         shopName : value.Shop.shopName,
         shopAddress : value.Shop.address,
         shopThumbnail : value.Shop.thumbnail,
