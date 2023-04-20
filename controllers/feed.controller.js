@@ -40,13 +40,13 @@ class FeedController {
     const feedPic = await req.file.filename;
     console.log("feedPic")
     console.log(feedPic)
-    // const jsonTags = JSON.parse(tags)
+    const jsonTags = JSON.parse(tags)
 
     const createFeed = await this.feedService.feedPost(
       userId,
       shopId,
       comment,
-      // jsonTags,
+      jsonTags,
       feedPic 
     );
     //shopId값 가져오기
