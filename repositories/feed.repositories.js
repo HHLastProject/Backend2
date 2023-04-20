@@ -5,7 +5,7 @@ class FeedRepository {
     // 전체 피드 가져오기
     findByFeed = async() => { 
         const findAll = await Feeds.findAll({
-            attributes: ['feedPic', "comment","createdAt"],
+            attributes: ['feedPic', "comment","createdAt","feedId"],
             include: [
                 {
                     model: Users,             
@@ -43,12 +43,13 @@ class FeedRepository {
     
     //하나의 가게를 가져오기
     findOneByShop = async(shopId) => { 
+        
         const findOne = await Feeds.findOne({
-            attributes: ['feedPic', "comment","createdAt"],
+            attributes: ['feedPic', "comment","createdAt","feedId","UserId","ShopId"],
             include: [
                 {
                     model: Users,             
-                    attributes: ["nickname","profilePic","userId"],
+                    attributes: ["nickname","profilePic"],
                 },
                 {
                     model: Tags,
@@ -56,18 +57,18 @@ class FeedRepository {
                 },
                 {
                     model: Shops,
-                    attributes: ['shopName',"address","thumbnail","shopId"],
+                    attributes: ['shopName',"address","thumbnail"],
                 }
             ],
             where: {ShopId : shopId}
-        });
+        });    
         return findOne;
     };
     
     //하나의 피드 가져오기
-    findOneByFeed = async(shopId) => { 
-        console.log("레파지토리입니다");
-    };
+    // findOneByFeed = async(shopId) => { 
+    //     console.log("레파지토리입니다");
+    // };
 
     //피드 작성하기
     postFeed = async(userId,shopId,comment,feedPic) => { 
