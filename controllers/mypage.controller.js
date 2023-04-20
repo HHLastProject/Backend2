@@ -113,7 +113,7 @@ class mypageController {
                 createdAt: mypage.createdAt,
                 feedPic: mypage.feedPic,
                 comment: mypage.comment,
-                Tags: mypage.Tags.map(tag => tag.tag),
+                tags: mypage.Tags.map(tag => tag.tag),
                 shopName: mypage.Shop.shopName,
                 shopAddress: mypage.Shop.address,
                 shopThumbnail: mypage.Shop.thumbnail,
