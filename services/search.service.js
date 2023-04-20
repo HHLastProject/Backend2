@@ -23,8 +23,8 @@ class SearchService {
     return result;
   };
 
-  createSearchHistory = async (userId, shopId) => {
-    await this.searchRepository.createbySearchHistory(userId, shopId);
+  createSearchHistory = async (userId, searchName) => {
+    await this.searchRepository.createbySearchHistory(userId, searchName);
   };
 
   findAllSearchHistory = async (userId) => {
@@ -42,9 +42,22 @@ class SearchService {
   //   await this.searchRepository.findAllbyShop(shopId)
   // }
 
-  test = async (shopId) => { 
-    let a = "여기오나"
-  return a
+  summaryShop = async (result) => { 
+    result = result.map((value)=> {
+        return { 
+          shopAddress : value.shopAddress
+        }
+    })
+
+  let addresSummary =[];
+   for(let i = 0 ; i <5; i++){ 
+    const address = result[i].shopAddress
+    // const address2 = address.replace(" ")
+    console.log(address)
+    addresSummary.push(address)
+   }
+
+  return addresSummary
   }
 }
 

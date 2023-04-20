@@ -18,14 +18,9 @@ module.exports = {
         },
         onDelete: "CASCADE",
       },
-      ShopId: {
+      searchContent: {
         allowNull: false,
-        type: Sequelize.INTEGER,
-        references: {
-          model: "Shops",
-          key: "shopId",
-        },
-        onDelete: "CASCADE",
+        type: Sequelize.STRING,
       },
       createdAt: {
         allowNull: false,

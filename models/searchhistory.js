@@ -17,11 +17,11 @@ module.exports = (sequelize, DataTypes) => {
         onDelete: "CASCADE",
       });
 
-      this.belongsTo(models.Shops, {
-        targetKey: "shopId",
-        foreignKey: "ShopId",
-        onDelete: "CASCADE",
-      });
+      // this.belongsTo(models.Shops, {
+      //   targetKey: "shopId",
+      //   foreignKey: "ShopId",
+      //   onDelete: "CASCADE",
+      // });
     }
 
 
@@ -37,8 +37,8 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    ShopId: {
-      type: DataTypes.INTEGER,
+    searchContent: {
+      type: DataTypes.STRING,
       allowNull: false,
     },
     createdAt: {

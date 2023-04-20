@@ -31,10 +31,10 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: "ShopId",
       });
                           
-      this.hasMany(models.SearchHistory, {
-        sourceKey: "shopId",
-        foreignKey: "ShopId",
-      });
+      // this.hasMany(models.SearchHistory, {
+      //   sourceKey: "shopId",
+      //   foreignKey: "ShopId",
+      // });
     }
   }
   Shops.init({
