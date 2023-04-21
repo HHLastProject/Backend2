@@ -9,7 +9,8 @@ class FeedController {
 
   listsFeed = async (req, res, next) => {
     const { userId } = res.locals.user;
-    const feedFindAll = await this.feedService.feedFindAll();
+    console.log("userId  = " + userId)
+    const feedFindAll = await this.feedService.feedFindAll(userId);
     res.send(feedFindAll);
   };
 
