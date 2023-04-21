@@ -7,37 +7,36 @@ const router = express.Router();
 // console.log(data);
 
 let AdminId = 1;
-let thumbnail = "temp.jpg";
+let thumbnail = "cafe1.jpg";
 let operatingTime = "연중무휴";
-let phoneNumber = "010-1111-2222";
 
 router.get("/test", async (req, res) => {
-  for (let i = 3695; i < 3699; i++) {
+  for (let i = 0; i < 3699; i++) {
     let flontNumber = Math.ceil(getRandomArbitrary(1000, 9999));
     let backNumber = Math.ceil(getRandomArbitrary(1000, 9999));
 
 
     //보드카페: 4.3% 전통찾집: 4.3% 사주카페: 2.9% 애견카페: 1.7% 일반카페: 86.8%
     if ("보드카페" == data[i].category) {
-      let random = Math.ceil(getRandomArbitrary(1, 5))
+      let random = Math.ceil(getRandomArbitrary(0, 6))
       // thumbnail = "borad.jpg";
       thumbnail = "borad" + random + ".jpg";
     } else if ("전통찻집" == data[i].category) {
-      let random = Math.ceil(getRandomArbitrary(1, 3))
+      let random = Math.ceil(getRandomArbitrary(0, 4))
       // thumbnail = "tradition.jpg";
       thumbnail = "tradition" + random + ".jpg"
     } else if ("애견카페" == data[i].category) {
-      let random = Math.ceil(getRandomArbitrary(1, 2))
+      let random = Math.ceil(getRandomArbitrary(0, 3))
       // thumbnail = "dog.jpg";
-      thumbnail = "dog" + random + "jpg"
+      thumbnail = "dog" + random + ".jpg"
     } else if ("사주카페" == data[i].category) {
-      let random = Math.ceil(getRandomArbitrary(1, 4))
+      let random = Math.ceil(getRandomArbitrary(0, 5))
       // thumbnail = "sandbar.jpg";
-      thumbnail = "sandbar" + random + "jpg"
+      thumbnail = "sandbar" + random + ".jpg"
     } else if ("카페" == data[i].category) {
-      let random = Math.ceil(getRandomArbitrary(1, 100))
+      let random = Math.ceil(getRandomArbitrary(0, 101))
       // thumbnail = "cafe.jpg";
-      thumbnail = "cafe" + random + "jpg";
+      thumbnail = "cafe" + random + ".jpg";
     } else {
       console.log("존재하지 않는 카페가 있습니다");
     }
@@ -56,11 +55,11 @@ router.get("/test", async (req, res) => {
 
     let totalMenu = Math.ceil(getRandomArbitrary(1, 8));
     let menuName = "아메리카노";
-    let menuImg = null;
+    let menuImg = "americano.jpg";
 
     for (let i = 0; i < totalMenu; i++) {
-      let random = Math.ceil(getRandomArbitrary(1, 14));
-      let menuPrice = Math.ceil(getRandomArbitrary(20, 80)) * 100;
+      let random = Math.ceil(getRandomArbitrary(0, 15));
+      let menuPrice = Math.ceil(getRandomArbitrary(19, 81)) * 100;
       let total = [];
 
       let checkRondomNumber = 1;
