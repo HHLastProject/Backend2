@@ -5,8 +5,8 @@ class ScrapService {
         this.scrapRepository = new ScrapRepository();
     }
 
-    findOneScrap = async (shopId) => {
-       return await this.scrapRepository.findOnebyScrap(shopId)
+    findOneScrap = async (shopId,userId) => {
+       return await this.scrapRepository.findOnebyScrap(shopId,userId)
     }
 
     createScrap = async (userId,shopId) => {

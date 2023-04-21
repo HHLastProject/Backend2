@@ -82,6 +82,41 @@ feedFindOne = async (shopId) => {
     
     return 0;
   };
+  
+  detailShopFeed = async (shopId) => {
+    const value = await this.feedRepository.findByShopFeed(shopId);
+
+    const result = await Promise.all(value.map(async (feed) => {
+    
+      const {Shop,Tags,User } = feed;
+
+     let isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : User.userId }})
+
+     isScrap ? (isScrap = true) : (isScrap = false)
+
+    return {
+      feedId : feed.feedId,
+      nickname : User.nickname,
+      profilePic : User.profilePic,
+      createdAt : feed.createdAt,
+      feedPic: feed.feedPic,
+      comment : feed.comment,
+      tag : Tags.map((value) => ({ tag: value.tag })) ,
+      shopId : Shop.shopId,
+      shopName : Shop.shopName,
+      shopAddress : Shop.address,
+      shopThumbnail : Shop.thumbnail,
+      isScrap
+    }
+  }));
+
+
+  return result
+  
+  }
+ 
+
+
 }
 module.exports = FeedService;
 

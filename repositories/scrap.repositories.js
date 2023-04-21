@@ -3,9 +3,9 @@ const {Scrap} = require("../models");
 
 class ScrapRepository {
 
-    findOnebyScrap = async(shopId) => { 
+    findOnebyScrap = async(shopId,userId) => { 
         const findScrap = await Scrap.findOne({
-            where : {ShopId : shopId}
+            where : {ShopId : shopId,UserId :userId}
         });
         return findScrap
     };
