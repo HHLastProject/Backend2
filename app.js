@@ -16,7 +16,7 @@ app.use(
     origin: "*", //origin 확인 필요
     credentials: true,
     optionsSuccessStatus: 200,
-    exposedHeaders: ["authorization","code"], //클라이언트가 응답에서 액세스할 수 있는 헤더 목록
+    exposedHeaders: ["authorization"], //클라이언트가 응답에서 액세스할 수 있는 헤더 목록
   })
 );
 

@@ -79,6 +79,7 @@ class mypageController {
                 attributes: [
                     // "Users.nickname",
                     // "Users.profilePic",
+                    "ShopId",
                     "createdAt",
                     "feedPic",
                     "comment",
@@ -114,6 +115,7 @@ class mypageController {
                 feedPic: mypage.feedPic,
                 comment: mypage.comment,
                 tags: mypage.Tags.map(tag => tag.tag),
+                shopId : mypage.ShopId,
                 shopName: mypage.Shop.shopName,
                 shopAddress: mypage.Shop.address,
                 shopThumbnail: mypage.Shop.thumbnail,
