@@ -25,7 +25,12 @@ class LoginService {
       redirect_uri: KAKAO_REDIRECT_URI, 
       code,
     };
-
+    console.log("============================")
+    console.log("redirect_uri") 
+    console.log(redirect_uri) 
+    console.log("code") 
+    console.log(code) 
+    console.log("============================")
     const responseToken = await axios.post(
       "https://kauth.kakao.com/oauth/token",
       qs.stringify(data),
