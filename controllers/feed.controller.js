@@ -1,8 +1,7 @@
 const FeedService = require("../services/feed.service");
-const {Feeds, Users, Tags,Shops} = require("../models")
-const bcrypt = require("bcrypt");
-const Joi = require("joi");
-const multer = require("multer");
+// const bcrypt = require("bcrypt");
+// const Joi = require("joi");
+// const multer = require("multer");
 
 class FeedController {
   feedService = new FeedService();
@@ -20,18 +19,16 @@ class FeedController {
     const value = await this.feedService.feedFindOne(shopId);
     res.send(value);
   };
-//////////////////////////////////////////////////////////////////////////
+
   detailShopFeed = async (req, res, next) => {
     const { shopId } = req.params;
     const { userId } = res.locals.user;
- 
-   const feedFindAll = await this.feedService.detailShopFeed(shopId);
+
+    const feedFindAll = await this.feedService.detailShopFeed(shopId);
     
-    
-   res.send(feedFindAll)
+    res.send(feedFindAll)
   };
 
-  //////////////////////////////////////////////////////////////////////////
   postFeed = async (req, res, next) => {
     const { shopId } = req.params;
     const { comment, tags } = req.body;
