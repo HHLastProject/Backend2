@@ -7,6 +7,9 @@ class favoriteController {
 
     listFavorite = async(req,res,next) => {
         const { userId } = res.locals.user;
+        console.log("userId 내 id가 들어 있어야 함")
+        console.log(userId)
+        console.log("============================")
         //내가 Scrap한 데이터 가져오기
         const result = await this.favoriteService.findAllScrap(userId)
         //Scrap 데이터에 가계정보 가져오기
