@@ -1,20 +1,23 @@
 const FeedRepository = require("../repositories/feed.repositories");
-const {Scrap,Feeds,Users}= require("../models");
+const {Scrap,Feeds,Users,Menus}= require("../models");
 
 
 class FeedService {
   feedRepository = new FeedRepository();
  
 //전체 피드 가져오기
-  feedFindAll = async () => {
+  feedFindAll = async (userId) => {
      const value = await this.feedRepository.findByFeed();
+  
+    console.log("----------------------------------------")
 
       const result = await Promise.all(value.map(async (feed) => {
       
         const {Shop,Tags,User } = feed;
 
-       let isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : User.userId }})
-
+      //  let isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : User.userId }})
+      let isScrap = await Scrap.findOne({where : {UserId : 2,ShopId : Shop.shopId }})
+      
        isScrap ? (isScrap = true) : (isScrap = false)
 
       return {
