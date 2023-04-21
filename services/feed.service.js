@@ -8,16 +8,13 @@ class FeedService {
 //전체 피드 가져오기
   feedFindAll = async (userId) => {
      const value = await this.feedRepository.findByFeed();
-  
-    console.log("----------------------------------------")
 
       const result = await Promise.all(value.map(async (feed) => {
       
         const {Shop,Tags,User } = feed;
 
-      //  let isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : User.userId }})
-      let isScrap = await Scrap.findOne({where : {UserId : 2,ShopId : Shop.shopId }})
-      
+      let isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : userId }})
+  
        isScrap ? (isScrap = true) : (isScrap = false)
 
       return {
