@@ -8,7 +8,7 @@ class scrapController {
         const { userId } = res.locals.user
         const { shopId } = req.params
 
-        const findScrap = await this.scrapService.findOneScrap(shopId)
+        const findScrap = await this.scrapService.findOneScrap(shopId,userId)
      
         let boolean = true;
 
