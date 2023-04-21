@@ -38,14 +38,20 @@ class LoginController {
       // const { code } = req.query;     //백에서 할때
       const { code } = req.body    //프론트에서 할때
 
-     
+      console.log("=========================")
+      console.log("code 프톤트에서 넘겨 받을때")
+      console.log(code)
+      console.log("=========================")
       //백에서 사용
       // const resultToken = await this.loginServices.getNaverToken(code);
       // const resultUser = await this.loginServices.getNaverUserInfo(resultToken);
-      
+    
       //프론트에서 사용
       // 현재 발급 받은 토큰이 유저 정보가 담긴 토큰인지 확인
       const resultUser = await this.loginServices.getNaverUserInfo(code);
+
+      console.log("인가코드 받고 유저 값 보낼때")
+      console.log(resultToken)
       
 
       //유저정보저장
