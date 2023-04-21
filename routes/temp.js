@@ -12,20 +12,32 @@ let operatingTime = "연중무휴";
 let phoneNumber = "010-1111-2222";
 
 router.get("/test", async (req, res) => {
-  for (let i = 0; i < 3699; i++) {
+  for (let i = 3695; i < 3699; i++) {
     let flontNumber = Math.ceil(getRandomArbitrary(1000, 9999));
     let backNumber = Math.ceil(getRandomArbitrary(1000, 9999));
 
+
+    //보드카페: 4.3% 전통찾집: 4.3% 사주카페: 2.9% 애견카페: 1.7% 일반카페: 86.8%
     if ("보드카페" == data[i].category) {
-      thumbnail = "borad.jpg";
+      let random = Math.ceil(getRandomArbitrary(1, 5))
+      // thumbnail = "borad.jpg";
+      thumbnail = "borad" + random + ".jpg";
     } else if ("전통찻집" == data[i].category) {
-      thumbnail = "tradition.jpg";
+      let random = Math.ceil(getRandomArbitrary(1, 3))
+      // thumbnail = "tradition.jpg";
+      thumbnail = "tradition" + random + ".jpg"
     } else if ("애견카페" == data[i].category) {
-      thumbnail = "dog.jpg";
+      let random = Math.ceil(getRandomArbitrary(1, 2))
+      // thumbnail = "dog.jpg";
+      thumbnail = "dog" + random + "jpg"
     } else if ("사주카페" == data[i].category) {
-      thumbnail = "sandbar.jpg";
+      let random = Math.ceil(getRandomArbitrary(1, 4))
+      // thumbnail = "sandbar.jpg";
+      thumbnail = "sandbar" + random + "jpg"
     } else if ("카페" == data[i].category) {
-      thumbnail = "cafe.jpg";
+      let random = Math.ceil(getRandomArbitrary(1, 100))
+      // thumbnail = "cafe.jpg";
+      thumbnail = "cafe" + random + "jpg";
     } else {
       console.log("존재하지 않는 카페가 있습니다");
     }
@@ -55,7 +67,6 @@ router.get("/test", async (req, res) => {
       while (checkRondomNumber) {
         //랜덤숫자중 없는 값이면 -1
         checkRondomNumber = total.indexOf(random);
-        console.log(checkRondomNumber);
 
         //값이 없으면 push로 넣어주기 있으면 다시돌리기
         if (checkRondomNumber == -1) {
@@ -64,9 +75,7 @@ router.get("/test", async (req, res) => {
         } else {
           random = Math.ceil(getRandomArbitrary(1, 14));
         }
-
-        
-
+      }
         switch (random) {
           case 1:
           menuName = "에스프레소";
@@ -125,9 +134,8 @@ router.get("/test", async (req, res) => {
             menuImg = "smoothie.jpg";
             break;
         }
-      }
+      
 
-      console.log("=====================");
       await Menus.create({
         ShopId: shop.shopId,
         menuName: menuName,
