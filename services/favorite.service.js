@@ -1,5 +1,5 @@
 const FavoriteRepository = require("../repositories/favorite.repositories")
-const {Scrap,Shops,Feeds} = require("../models");
+const {Folders,Lists} = require("../models");
 class FavoriteService {
     constructor() {
         this.favoriteRepository = new FavoriteRepository();
@@ -9,7 +9,10 @@ class FavoriteService {
         const value2 = await this.favoriteRepository.findAllbyScrap(userId)
         
         let result = await value2.map((value)=> {
-            return { shopId : value.ShopId }
+            return { 
+                scrapId : value.scrapId,
+                shopId : value.ShopId 
+            }
         })
         return result
     }
@@ -39,6 +42,23 @@ class FavoriteService {
         }
         return result3
     }
+
+    folderCreate =  async(ScrapId,folderName,)=> { 
+         const result = await Folders.create({
+            ScrapId,
+            folderName
+        })
+
+        return result
+    }
+
+    listCreate =  async(FolderId)=> { 
+        const result = await Lists.create({
+            FolderId
+       })
+
+       return result
+   }
 
 }
 

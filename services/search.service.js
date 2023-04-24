@@ -58,28 +58,25 @@ class SearchService {
     }
    }
 
-  let addresSummary2 = [];
+  // const result2 = addresSummary.reduce((accu, curr) => { 
+  //   accu[curr] = (accu[curr] || 0)+1; 
+  //   return accu;
+  // }, {});
 
-  // for(let i =0; i < addresSummary.length; i++){
-  //    let reuslt = addresSummary2.indexOf(addresSummary[i])
-
-  //    if(reuslt == -1){
-  //     addresSummary2.push(addresSummary[i])
-  //    }
-
-  // }
+  // const result2 = addresSummary.reduce((accu, curr) => { 
+  //   accu.push({ [curr]: (accu.filter(item => Object.keys(item)[0] === curr).length + 1) || 1 });
+  //   return accu;
+  // }, []);
   
-  // for (let i = 0; i < addresSummary2.length; i++) {
-  //   let obj = {};
-  //   obj[addresSummary2[i]] = parseInt(addresSummary[i]);
-  //   output.push(obj);
-  // }
-
-
-  const result2 = addresSummary.reduce((accu, curr) => { 
-    accu[curr] = (accu[curr] || 0)+1; 
+  const result2 = addresSummary.reduce((accu, curr) => {
+    const existingObj = accu.find(item => Object.keys(item)[0] === curr);
+    if (existingObj) {
+      existingObj[curr] += 1; // 이미 존재하는 키라면 값을 1 증가
+    } else {
+      accu.push({ [curr]: 1 }); // 존재하지 않는 키라면 새로운 객체 추가
+    }
     return accu;
-  }, {});
+  }, []);
 
 
   return result2
