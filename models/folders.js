@@ -3,7 +3,7 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Scrap extends Model {
+  class Folders extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -11,38 +11,31 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      this.belongsTo(models.Users, {
-        targetKey: "userId",
-        foreignKey: "UserId",
-        onDelete: "CASCADE",
+      this.hasMany(models.Lists, {
+        sourceKey: "folderId",
+        foreignKey: "FolderId",
       });
 
-      this.belongsTo(models.Shops, {
-        targetKey: "shopId",
-        foreignKey: "ShopId",
-        onDelete: "CASCADE",
-      });
-
-      this.hasMany(models.Folders, {
-        sourceKey: "scrapId",
+      this.belongsTo(models.Scrap, {
+        targetKey: "scrapId",
         foreignKey: "ScrapId",
       });
     }
   }
-  Scrap.init({
-    scrapId: {
+  Folders.init({
+    folderId: {
       allowNull: false,
       autoIncrement: true,
       primaryKey: true,
       type: DataTypes.INTEGER
     },
-    UserId: {
-      type: DataTypes.INTEGER,
+    ScrapId: {
       allowNull: false,
+      type: DataTypes.INTEGER,
     },
-    ShopId: {
-      type: DataTypes.INTEGER,
+    folderName: {
       allowNull: false,
+      type: DataTypes.STRING
     },
     createdAt: {
       allowNull: false,
@@ -56,7 +49,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }, {
     sequelize,
-    modelName: 'Scrap',
+    modelName: 'Folders',
   });
-  return Scrap;
+  return Folders;
 };
