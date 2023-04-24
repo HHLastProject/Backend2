@@ -45,6 +45,7 @@ router.get("/test", async (req, res) => {
       AdminId: 1,
       shopName: data[i].shopName,
       address: data[i].roadAddress,
+      dong : "temp",
       category: data[i].category,
       lng: data[i].lng,
       lat: data[i].lat,
