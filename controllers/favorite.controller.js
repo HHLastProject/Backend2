@@ -18,34 +18,34 @@ class favoriteController {
         res.status(200).json({scrapList : result2});
     };
 
-    makeFolders = async(req,res,next) => {
-        const { userId } = res.locals.user;
-        const {folderName,shopList} = req.body
+    // makeFolders = async(req,res,next) => {
+    //     const { userId } = res.locals.user;
+    //     const {folderName,shopList} = req.body
 
-        //내가 Scrap한 데이터 가져오기
-        const result = await this.favoriteService.findAllScrap(userId)
-        //Scrap 데이터에 가계정보 가져오기
-        const result2 = await this.favoriteService.findOneShops(result,userId)
+    //     //내가 Scrap한 데이터 가져오기
+    //     const result = await this.favoriteService.findAllScrap(userId)
+    //     //Scrap 데이터에 가계정보 가져오기
+    //     const result2 = await this.favoriteService.findOneShops(result,userId)
 
-        // console.log("아마도 가계정보 가져오기")
-        // console.log(result2[0].shopId)
+    //     // console.log("아마도 가계정보 가져오기")
+    //     // console.log(result2[0].shopId)
         
-        const result3 = await this.favoriteService.folderCreate(result[0].scrapId,folderName)
-        console.log(result3.folderId)
-        console.log("===========================")
+    //     const result3 = await this.favoriteService.folderCreate(result[0].scrapId,folderName)
+    //     console.log(result3.folderId)
+    //     console.log("===========================")
 
-        const folder = result3.folderId
-        const result4 = await this.favoriteService.listCreate(folder)
+    //     const folder = result3.folderId
+    //     const result4 = await this.favoriteService.listCreate(folder)
 
-        const result5 = { 
-            folderName : result3.folderName,
-            shopList : result4.
+    //     // const result5 = { 
+    //     //     folderName : result3.folderName,
+    //     //     shopList : result4.
 
 
-        }
+    //     // }
 
-        res.status(200).json({scrapList : result5});
-    };
+    //     res.status(200).json({scrapList : result5});
+    // };
     /*
     test2 = async(req,res,next) => {
         const { userId } = res.locals.user;
