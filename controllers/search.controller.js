@@ -44,9 +44,9 @@ class searchController {
 
   searchSummary = async (req, res, next) => { 
   const result = await this.searchService.findAllShop();
-  const re = await this.searchService.summaryShop(result);
+  const result2 = await this.searchService.summaryShop(result);
 
-  res.send(re)
+  res.send(result2)
   }
 
 }
