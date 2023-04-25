@@ -52,9 +52,10 @@ class FavoriteService {
         return result
     }
 
-    listCreate =  async(FolderId)=> { 
+    listCreate =  async(FolderId,seletedShopId)=> { 
         const result = await Lists.create({
-            FolderId
+            FolderId, 
+            ShopId : seletedShopId
        })
 
        return result
