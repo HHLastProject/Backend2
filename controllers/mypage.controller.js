@@ -1,5 +1,5 @@
 // const MypageService = require("../services/mypage.service.js"); 
-const { Users, Feeds, Shops, Tags, Scrap, Sequelize } = require('../models')
+const { Users, Feeds, Shops, Tags, Scrap, Likes, Sequelize } = require('../models')
 
 class mypageController {
 
@@ -79,6 +79,7 @@ class mypageController {
                 attributes: [
                     // "Users.nickname",
                     // "Users.profilePic",
+                    "feedId",
                     "ShopId",
                     "createdAt",
                     "feedPic",
@@ -107,6 +108,12 @@ class mypageController {
             const isExistScrap = await Scrap.findOne({
                 where: { ShopId: mypage.Shop.shopId, UserId : userId }, // ShopId뿐만이 아니라 UserId도 조건에 추가로 넣어야 정상적으로 작동됨
             })
+            const totalLike = await Likes.findAll({
+                where: { FeedId : feedId, UserId : userId }
+            })
+
+            let likeCount = totalLike.length
+
             // 데이터를 가공하는 작업
             const result = {
                 nickname: mypage.User.nickname,
@@ -119,9 +126,9 @@ class mypageController {
                 shopName: mypage.Shop.shopName,
                 shopAddress: mypage.Shop.address,
                 shopThumbnail: mypage.Shop.thumbnail,
-                isScrap: isExistScrap ? true : false 
+                isScrap: isExistScrap ? true : false,
+                likeCount
             };
-            
             res.status(200).json({ mypage: result });
 
         } catch(error) {
@@ -153,16 +160,20 @@ class mypageController {
         }
     };
 
-    patchNickname= async(req, res, next) => { 
-         const {nickname} = req.body
-         const { userId } = res.locals.user;
-         await Users.update(
-            {
-                nickname
-            },
-            {where: {userId}}
-            )
-         return res.send("완")
+    patchNickname= async(req, res, next) => {
+        const {nickname} = req.body
+        const { userId } = res.locals.user;
+        try {
+            if (!nickname) {
+                return res.status(404).json({ errorMsg : "닉네임을 입력해주세요." })
+            }
+            await Users.update({nickname},{where: {userId}})
+            res.status(200).json({ msg : "닉네임 변경을 성공했습니다."})
+    } catch(error) {
+        console.log(error);
+            res.status(400).json({ errorMsg: "예기치 못한 오류가 발생했습니다" });
+            return;
+        }
     }
 } 
 
