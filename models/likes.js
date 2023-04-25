@@ -3,7 +3,7 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Feeds extends Model {
+  class Likes extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -11,70 +11,45 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      this.hasMany(models.Tags, {
-        sourceKey: "feedId",
-        foreignKey: "FeedId",
-      });
-
-      this.hasMany(models.Likes, {
-        sourceKey: "feedId",
-        foreignKey: "FeedId",
-      });
-
-      this.hasMany(models.FeedComments, {
-        sourceKey: "feedId",
-        foreignKey: "FeedId",
-      });
-
       this.belongsTo(models.Users, {
         targetKey: "userId",
         foreignKey: "UserId",
         onDelete: "CASCADE",
       });
 
-      this.belongsTo(models.Shops, {
-        targetKey: "shopId",
-        foreignKey: "ShopId",
+      this.belongsTo(models.Feeds, {
+        targetKey: "feedId",
+        foreignKey: "FeedId",
         onDelete: "CASCADE",
       });
     }
   }
-  Feeds.init({
-    feedId: {
+  Likes.init({
+    likeId: {
       allowNull: false,
       autoIncrement: true,
       primaryKey: true,
       type: DataTypes.INTEGER
     },
-    ShopId: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-    },
     UserId: {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    feedPic: {
-      type: DataTypes.STRING,
+    FeedId: {
+      type: DataTypes.INTEGER,
       allowNull: false,
-    },
-    comment: {
-      type: DataTypes.STRING,
-      allowNull: true,
     },
     createdAt: {
       allowNull: false,
-      type: DataTypes.DATE,
-      defaultValue: DataTypes.NOW,
+      type: DataTypes.DATE
     },
     updatedAt: {
       allowNull: false,
-      type: DataTypes.DATE,
-      defaultValue: DataTypes.NOW,
+      type: DataTypes.DATE
     }
   }, {
     sequelize,
-    modelName: 'Feeds',
+    modelName: 'Likes',
   });
-  return Feeds;
+  return Likes;
 };
