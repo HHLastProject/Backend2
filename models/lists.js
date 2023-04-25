@@ -16,6 +16,11 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: "FolderId",
         onDelete: "CASCADE",
       });
+      this.belongsTo(models.Shops, {
+        targetKey: "shopId",
+        foreignKey: "ShopId",
+        onDelete: "CASCADE",
+      });
     }
   }
   Lists.init({
@@ -26,6 +31,10 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
     },
     FolderId: {
+      allowNull: false,
+      type: DataTypes.INTEGER,
+    },
+    ShopId: {
       allowNull: false,
       type: DataTypes.INTEGER,
     },
