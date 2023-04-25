@@ -18,6 +18,15 @@ module.exports = {
         },
         onDelete: "CASCADE",
       },
+      ShopId : {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Shops",
+          key: "shopId",
+        },
+        onDelete: "CASCADE",
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
