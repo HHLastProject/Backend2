@@ -15,6 +15,8 @@ router.get("/mypage/:feedId", authMiddle, mypageController.getOneMypage)
 // localhost:3060/api/mypage/:feedId
 router.delete("/mypage/:feedId", authMiddle, mypageController.deleteMypage)
 
+router.patch("/mypage/change/nickname",authMiddle,mypageController.patchNickname)
+
 
 
 module.exports = router;

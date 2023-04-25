@@ -51,12 +51,12 @@ class favoriteController {
     const { userId } = res.locals.user;
     // const { folderName, shopList } = req.body;
     const  total = req.body;
-    
-    console.log(total[0].folderName)
    
      //내가 Scrap한 데이터 가져오기
      const result = await this.favoriteService.findAllScrap(userId);
-
+     console.log("============================")
+    // console.log("result = " + result)
+     return res.send(result)
 
     for(let i = 0; i < total.length ; i++){
 

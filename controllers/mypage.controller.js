@@ -152,6 +152,18 @@ class mypageController {
             return;
         }
     };
+
+    patchNickname= async(req, res, next) => { 
+         const {nickname} = req.body
+         const { userId } = res.locals.user;
+         await Users.update(
+            {
+                nickname
+            },
+            {where: {userId}}
+            )
+         return res.send("완")
+    }
 } 
 
 module.exports = mypageController;
