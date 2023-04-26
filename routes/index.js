@@ -11,11 +11,12 @@ const searchRouter = require('./search.route');
 const scrapRouter = require('./scrap.route');
 const favoriteRouter = require('./favorite.route');
 const likeRouter = require('./like.route');
+const feedCommentRouter = require('./feedComment.route');
 
 router.use("/api/shop", shopRouter);
 router.use('/api/admin', adminRouter);
 router.use('/api/login', loginRouter);
-router.use("/api", feedRouter,mypageRouter,searchRouter,scrapRouter,favoriteRouter,likeRouter);
+router.use("/api", feedRouter,mypageRouter,searchRouter,scrapRouter,favoriteRouter,likeRouter,feedCommentRouter);
 
 const tempRouter = require('./temp.js');
 router.use('/api/temp', tempRouter);
