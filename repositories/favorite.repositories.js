@@ -1,4 +1,4 @@
-const {Scrap,Shops,Feeds} = require("../models");
+const {Scrap,Shops,Feeds,Folders} = require("../models");
 
 class FavoriteRepository {
 
@@ -6,6 +6,17 @@ class FavoriteRepository {
         const value2 = await Scrap.findAll({where:{UserId:userId}});
         return value2
     };
+    
+    findAllbyFolder = async() => { 
+        const value2 = await Folders.findAll({});
+        return value2
+    };
+
+    findOnebyFolder = async(scrapId) => { 
+        const value2 = await Folders.findOne({where:{scrapId}});
+        return value2
+    };
+
 
     findOnebyScrap = async(userId,shopId2) => { 
         const value2 = await Scrap.findAll({where:{UserId:userId, ShopId : shopId2}});

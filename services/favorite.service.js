@@ -17,15 +17,28 @@ class FavoriteService {
         return result
     }
 
-    findOneShops = async(result,userId)=> { 
+    findAllFolder = async () => {
+        const value2 = await this.favoriteRepository.findAllbyFolder()
+        
+        let result = await value2.map((value)=> {
+            return value.folderName
+        })
+
+        return result
+    }
+
+    findOneShops = async(myAllScrap,userId)=> { 
         let result3 = [];
 
-        for(let i = 0; i < result.length; i++) { 
-            let shopId = result[i].shopId
-           
+        for(let i = 0; i < myAllScrap.length; i++) { 
+            let shopId = myAllScrap[i].shopId
+            let scrapId = myAllScrap[i].scrapId
+
             let result2 = await this.favoriteRepository.findOnebyShop(shopId)
             let isScrap = await this.favoriteRepository.findOnebyScrap(userId,shopId)
-        
+     
+            let folderName = await this.favoriteRepository.findOnebyFolder(scrapId)
+
             isScrap ? isScrap = true : isScrap = false
 
             let value = { 
@@ -34,13 +47,18 @@ class FavoriteService {
              shopName: result2.shopName, 
              thumbnail : result2.thumbnail,
              feedCount : result2.Feeds.length,
+             isScrap: isScrap,
              category : result2.category,
-             isScrap: isScrap
+             folderName : folderName.folderName
             }
 
             result3.push(value);
         }
         return result3
+    }
+
+    folderDelete = async(myAllScrapId)=> { 
+        await Folders.destroy({where :{ScrapId:myAllScrapId}})
     }
 
     folderCreate =  async(ScrapId,folderName,)=> { 
