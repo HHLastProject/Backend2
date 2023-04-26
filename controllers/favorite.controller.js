@@ -11,7 +11,8 @@ class favoriteController {
     //Scrap 데이터에 가계정보 가져오기
     const result2 = await this.favoriteService.findOneShops(myAllScrap, userId);
 
-    let folderList = await this.favoriteService.findAllFolder();
+   
+    let folderList = await this.favoriteService.findAllFolder(myAllScrap);
     //수정
     // let folderList = await Folders.findAll({}) 
     // folderList = folderList.map((value)=> { 

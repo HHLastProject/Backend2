@@ -17,14 +17,31 @@ class FavoriteService {
         return result
     }
 
-    findAllFolder = async () => {
-        const value2 = await this.favoriteRepository.findAllbyFolder()
+    findAllFolder = async (myAllScrap) => {
         
+       // 스크랩에서 스크랩id가져오기
+        myAllScrap = myAllScrap.map((value)=> { 
+            return value.scrapId
+        })
+        
+        let finalValue = []
+        //스크랩ID
+        for(let i =0; i < myAllScrap.length; i++){
+            let myAllScrapId = myAllScrap[i]
+            let value = await this.favoriteRepository.findOnebyFolder(myAllScrapId)
+            finalValue.push(value)
+        }
+        
+        finalValue = finalValue.map((value)=> { 
+            return value.folderName
+        })
+
+        const value2 = await this.favoriteRepository.findAllbyFolder()
         let result = await value2.map((value)=> {
             return value.folderName
         })
 
-        return result
+        return finalValue
     }
 
     findOneShops = async(myAllScrap,userId)=> { 
@@ -37,7 +54,7 @@ class FavoriteService {
             let result2 = await this.favoriteRepository.findOnebyShop(shopId)
             let isScrap = await this.favoriteRepository.findOnebyScrap(userId,shopId)
      
-            let folderName = await this.favoriteRepository.findOnebyFolder(scrapId)
+            let folderName = await this.favoriteRepository.findOnebyFolderScrapId(scrapId)
 
             isScrap ? isScrap = true : isScrap = false
 
