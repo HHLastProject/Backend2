@@ -1,5 +1,5 @@
 // const MypageService = require("../services/mypage.service.js"); 
-const { Users, Feeds, Shops, Tags, Scrap, Likes, Sequelize } = require('../models')
+const { Users, Feeds, Shops, Tags, Scrap, Likes, FeedComments, Sequelize } = require('../models')
 
 class mypageController {
 
@@ -114,6 +114,12 @@ class mypageController {
 
             let likeCount = totalLike.length
 
+            const totalComment = await FeedComments.findAll({
+                where: { FeedId : feedId }
+            })
+
+            let commentCount = totalComment.length
+
             // 데이터를 가공하는 작업
             const result = {
                 nickname: mypage.User.nickname,
@@ -127,7 +133,8 @@ class mypageController {
                 shopAddress: mypage.Shop.address,
                 shopThumbnail: mypage.Shop.thumbnail,
                 isScrap: isExistScrap ? true : false,
-                likeCount
+                likeCount,
+                commentCount,
             };
             res.status(200).json({ mypage: result });
 
