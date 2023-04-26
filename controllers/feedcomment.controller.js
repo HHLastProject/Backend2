@@ -50,6 +50,7 @@ class feedCommentController {
                 }
                 const commentAllList = await FeedComments.findAll({
                     attributes: [
+                        "UserId",
                         "feedCommentId",
                         "feedComment",
                         "createdAt",
@@ -64,19 +65,16 @@ class feedCommentController {
                     order: [['createdAt', 'DESC']],
                 })
 
-                let findCommentOne = await FeedComments.findAll({
-                    where: { UserId : userId }
-                })
-
                 let result = [];
                 for (let i = 0; i < commentAllList.length; i++) {
                     const commentList = {
+                        // userId : commentAllList[i].UserId,
                         nickname : commentAllList[i].User.nickname,
                         profilePic : commentAllList[i].User.profilePic,
                         feedCommentId : commentAllList[i].feedCommentId,
                         feedComment : commentAllList[i].feedComment,
                         createdAt : commentAllList[i].createdAt,
-                        isMine : findCommentOne ? true : false, // 다른분 댓글 작성하면 false 나오는지 확인 해봐야 됨
+                        isMine : commentAllList[i].UserId === userId ? true : false, // 다른분 댓글 작성하면 false, 내가 댓글 쓴건 true
                     }
                     result.push(commentList)
 
