@@ -16,7 +16,7 @@ class FeedRepository {
         },
         {
           model: Shops,
-          attributes: ["shopName", "address", "thumbnail", "shopId"],
+          attributes: ["shopName", "address", "thumbnail", "shopId","category"],
         },
       ],
     });

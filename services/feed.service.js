@@ -32,6 +32,7 @@ class FeedService {
         shopName : Shop.shopName,
         shopAddress : Shop.address,
         shopThumbnail : Shop.thumbnail,
+        shopCategory: Shop.category,
         isScrap
       }
     }));

@@ -29,18 +29,14 @@ class FavoriteService {
         for(let i =0; i < myAllScrap.length; i++){
             let myAllScrapId = myAllScrap[i]
             let value = await this.favoriteRepository.findOnebyFolder(myAllScrapId)
-            finalValue.push(value)
+            if(value) {
+                finalValue.push(value)     
+            }
         }
-        
-        finalValue = finalValue.map((value)=> { 
+
+        finalValue = finalValue.map((value)=>{
             return value.folderName
         })
-
-        const value2 = await this.favoriteRepository.findAllbyFolder()
-        let result = await value2.map((value)=> {
-            return value.folderName
-        })
-
         return finalValue
     }
 
@@ -66,7 +62,7 @@ class FavoriteService {
              feedCount : result2.Feeds.length,
              isScrap: isScrap,
              category : result2.category,
-             folderName : folderName.folderName
+             folderName : folderName ? folderName.folderName : null
             }
 
             result3.push(value);
