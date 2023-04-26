@@ -12,9 +12,11 @@ class FeedService {
       const result = await Promise.all(value.map(async (feed) => {
       
         const {Shop,Tags,User } = feed;
-
-      let isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : userId }})
-  
+       
+        let isScrap 
+        if(userId) {
+          isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : userId }})
+        }
        isScrap ? (isScrap = true) : (isScrap = false)
 
       return {

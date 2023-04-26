@@ -49,19 +49,31 @@ class favoriteController {
 
   makeFolders = async (req, res, next) => {
     const { userId } = res.locals.user;
-    // const { folderName, shopList } = req.body;
-    const  total = req.body;
+    const { shopList } = req.body;
+    let total = req.body;
    
-     //내가 Scrap한 데이터 가져오기
-     const result = await this.favoriteService.findAllScrap(userId);
-     console.log("============================")
-    // console.log("result = " + result)
-     return res.send(result)
+    //내가 Scrap한 데이터 가져오기
+     const myAllScrap = await this.favoriteService.findAllScrap(userId);
 
+    //나의 스크랩한 shopId 전체
+    let myAllScrapShopId = myAllScrap.map((value)=> { 
+      return value.shopId
+    })
+
+    for(let i = 0; i < total.length;i++){
+      for(let j =0; j < total[i].shopList.length; j++){
+        let result = total[i].shopList[j].shopId
+        let isMyScrapbyshopList = myAllScrapShopId.indexOf(result)
+        if(isMyScrapbyshopList  == -1){
+          return res.send("즐겨찾기에 추가된 목록이 아닙니다")
+        }
+      }
+    }
+
+    //트랜잭션 사용
     for(let i = 0; i < total.length ; i++){
-
       const createFolder = await this.favoriteService.folderCreate(
-        1,
+        myAllScrap[i].scrapId,
         total[i].folderName
       );
 
