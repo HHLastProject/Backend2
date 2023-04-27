@@ -1,5 +1,5 @@
 const FeedRepository = require("../repositories/feed.repositories");
-const {Scrap,Feeds,Users,Menus}= require("../models");
+const {Scrap,Likes,FeedComments,Menus}= require("../models");
 
 
 class FeedService {
@@ -52,9 +52,12 @@ shopFindOne = async (shopId) => {
 feedFindOne = async (shopId) => {
    
     let value = await this.feedRepository.findOneByShop(shopId);
-    let isScrap = await Scrap.findOne({where :{ UserId : value.UserId, ShopId : value.ShopId}})
-    isScrap ? isScrap = true : isScrap = false
 
+    let isScrap = await Scrap.findOne({where :{ UserId : value.UserId, ShopId : value.ShopId}})
+    isScrap ? isScrap = true : isScrap = false;
+    let likeCount = await Likes.findAll({where : { FeedId :value.feedId}})
+    let commentCount = await FeedComments.findAll({where : { FeedId : value.feedId}});
+   
     let result = {
         feedId : value.feedId,
         nickname : value.User.nickname,
@@ -62,12 +65,15 @@ feedFindOne = async (shopId) => {
         createdAt : value.createdAt,
         feedPic: value.feedPic,
         comment : value.comment,
-        // tag : value.Tags.map((value) => ({ tag: value.tag })),
         tag : value.Tags.map((value) => value.tag ),
         shopId : value.ShopId,
         shopName : value.Shop.shopName,
         shopAddress : value.Shop.address,
         shopThumbnail : value.Shop.thumbnail,
+        //구현해야 하는것 
+        likeCount : likeCount.length, 
+        commentCount : commentCount.length,
+        ///////////////////////////
         isScrap
     } 
 
