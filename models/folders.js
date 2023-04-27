@@ -20,6 +20,11 @@ module.exports = (sequelize, DataTypes) => {
         targetKey: "scrapId",
         foreignKey: "ScrapId",
       });
+
+      this.belongsTo(models.Users, {
+        targetKey: "userId",
+        foreignKey: "UserId",
+      });
     }
   }
   Folders.init({
@@ -30,6 +35,10 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER
     },
     ScrapId: {
+      allowNull: true,
+      type: DataTypes.INTEGER,
+    },
+    UserId: {
       allowNull: false,
       type: DataTypes.INTEGER,
     },
