@@ -10,12 +10,17 @@ class SearchService {
 
     let result = await this.searchRepository.findAllbyShop(searchName);
    
+    console.log("result")
+    console.log(result)
+    console.log("-=--------------")
     if(result) {
      result = await result.map((value) => {
       return {
         shopId: value.shopId,
         shopName: value.shopName,
         shopAddress: value.address,
+        lng : value.lng,
+        lat : value.lat
       };
     });
   } 
