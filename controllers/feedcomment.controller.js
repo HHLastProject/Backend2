@@ -144,7 +144,7 @@ class feedCommentController {
             if (!existComment) {
                 return res.status(404).json({ errorMsg: "해당 댓글이 존재하지 않습니다." });
             }
-            if (existComment.userId !== userId)  {
+            if (existComment.UserId !== userId)  {
                 return res.status(403).json({ errorMsg: "댓글 삭제의 권한이 없습니다." });
             }
             await FeedComments.destroy({
