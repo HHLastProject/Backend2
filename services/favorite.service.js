@@ -74,9 +74,11 @@ class FavoriteService {
         await Folders.destroy({where :{ScrapId:myAllScrapId}})
     }
 
-    folderCreate =  async(ScrapId,folderName,)=> { 
+    folderCreate =  async(ScrapId,userId,folderName,)=> { 
+  
          const result = await Folders.create({
             ScrapId,
+            UserId : userId,
             folderName
         })
 

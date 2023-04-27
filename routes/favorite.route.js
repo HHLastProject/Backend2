@@ -9,6 +9,8 @@ const authMiddle = require("../middlewares/snsAuthmiddleware");
 router.get("/favorite",authMiddle, favoriteController.listFavorite)
 router.post("/favorite/modify",authMiddle, favoriteController.makeFolders)
 
+//폴더 하나 생성
+router.post("/favorite/folder",authMiddle,favoriteController.makeFolder)
 
 //추후 이것으로 수정 req.qurey
 // router.get("/search",searchController.test)
