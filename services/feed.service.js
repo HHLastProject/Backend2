@@ -17,7 +17,24 @@ class FeedService {
         if(userId) {
           isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : userId }})
         }
-       isScrap ? (isScrap = true) : (isScrap = false)
+        isScrap ? (isScrap = true) : (isScrap = false)
+
+        // 좋아요 유무 확인
+        let isLike
+        if(userId) {
+          isLike = await Likes.findOne({where : { FeedId : feed.feedId, UserId : userId }})
+        }
+        isLike ? (isLike = true) : (isLike = false)
+
+        // 해당 피드 좋아요 개수
+        let likeCount = await Likes.findAll({where : { FeedId : feed.feedId }})
+        likeCount = likeCount.length
+
+        // 해당 피드의 댓글 개수
+        let feedCommentCount = await FeedComments.findAll({where : { FeedId : feed.feedId }})
+        feedCommentCount = feedCommentCount.length
+
+
 
       return {
         feedId : feed.feedId,
@@ -33,7 +50,12 @@ class FeedService {
         shopAddress : Shop.address,
         shopThumbnail : Shop.thumbnail,
         shopCategory: Shop.category,
-        isScrap
+        isScrap,
+        isLike,
+        likeCount,
+        feedCommentCount,
+
+
       }
     }));
 
@@ -57,6 +79,28 @@ feedFindOne = async (shopId) => {
     isScrap ? isScrap = true : isScrap = false;
     let likeCount = await Likes.findAll({where : { FeedId :value.feedId}})
     let commentCount = await FeedComments.findAll({where : { FeedId : value.feedId}});
+
+    // 좋아요 유무 체크
+    let isLike = await Likes.findOne({where : { FeedId : value.feedId }})
+
+    isLike ? (isLike = true) : (isLike = false)
+
+    // 해당 피드의 코멘트 전체 조회
+    let feedCommentResult = []
+    let findAllFeedComment = await FeedComments.findAll({ where : { FeedId : value.feedId }})
+    for (let i = 0; i < findAllFeedComment.length; i++) {
+      let findFeedComment = await FeedComments.findAll({ where : { FeedId : value.feedId }})
+
+      let result = {
+          userNickName : value.User.nickname,
+          userComment : findFeedComment[i].feedComment,
+          userProfile : value.User.profilePic,
+          createdAt : findFeedComment[i].createdAt,
+      }
+
+      feedCommentResult.push(result)
+    }
+
    
     let result = {
         feedId : value.feedId,
@@ -72,9 +116,9 @@ feedFindOne = async (shopId) => {
         shopThumbnail : value.Shop.thumbnail,
         isScrap,
         //구현해야 하는것 
-        isLike : "",
+        isLike,
         likeCount : likeCount.length, 
-        feedComment : ""
+        feedComment : feedCommentResult,
         ///////////////////////////
         
     } 
@@ -103,9 +147,25 @@ feedFindOne = async (shopId) => {
     
       const {Shop,Tags,User } = feed;
 
-     let isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : User.userId }})
+      let isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : User.userId }})
 
-     isScrap ? (isScrap = true) : (isScrap = false)
+      isScrap ? (isScrap = true) : (isScrap = false)
+
+      // 좋아요 유무 확인
+      let isLike = await Likes.findOne({where : { FeedId : feed.feedId }})
+
+      isLike ? (isLike = true) : (isLike = false)
+
+      // 해당 피드 좋아요 개수
+      let likeCount = await Likes.findAll({where : { FeedId : feed.feedId }})
+      likeCount = likeCount.length
+
+      // 해당 피드의 댓글 개수
+      let feedCommentCount = await FeedComments.findAll({where : { FeedId : feed.feedId }})
+      feedCommentCount = feedCommentCount.length
+      
+
+
 
     return {
       feedId : feed.feedId,
@@ -121,9 +181,9 @@ feedFindOne = async (shopId) => {
       shopThumbnail : Shop.thumbnail,
       isScrap,
       /////
-      isLike : "",
-      likeCount : "",
-      FeedCommentCount : ""
+      isLike,
+      likeCount,
+      feedCommentCount,
       /////
     }
   }));
