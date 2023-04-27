@@ -70,11 +70,13 @@ feedFindOne = async (shopId) => {
         shopName : value.Shop.shopName,
         shopAddress : value.Shop.address,
         shopThumbnail : value.Shop.thumbnail,
+        isScrap,
         //구현해야 하는것 
+        isLike : "",
         likeCount : likeCount.length, 
-        commentCount : commentCount.length,
+        feedComment : ""
         ///////////////////////////
-        isScrap
+        
     } 
 
     return result
@@ -117,7 +119,12 @@ feedFindOne = async (shopId) => {
       shopName : Shop.shopName,
       shopAddress : Shop.address,
       shopThumbnail : Shop.thumbnail,
-      isScrap
+      isScrap,
+      /////
+      isLike : "",
+      likeCount : "",
+      FeedCommentCount : ""
+      /////
     }
   }));
 
