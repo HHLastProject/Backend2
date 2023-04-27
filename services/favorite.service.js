@@ -17,30 +17,60 @@ class FavoriteService {
     return result;
   };
 
-  findAllFolder = async (myAllScrap) => {
-    // 스크랩에서 스크랩id가져오기
-    myAllScrap = myAllScrap.map((value) => {
-      return value.scrapId;
-    });
+  
+  ///////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////
 
-    let finalValue = [];
-    //스크랩ID
-    for (let i = 0; i < myAllScrap.length; i++) {
-      let myAllScrapId = myAllScrap[i];
-      let value = await this.favoriteRepository.findOnebyFolder(myAllScrapId);
-      if (value) {
-        finalValue.push(value);
-      }
-    }
+//   findAllFolder = async (myAllScrap) => {
+//     // 스크랩에서 스크랩id가져오기
+//     myAllScrap = myAllScrap.map((value) => {
+//       return value.scrapId;
+//     });
 
+//     let finalValue = [];
+//     //스크랩ID
+//     for (let i = 0; i < myAllScrap.length; i++) {
+//       let myAllScrapId = myAllScrap[i];
+//       let value = await this.favoriteRepository.findOnebyFolder(myAllScrapId);
+//       if (value) {
+//         finalValue.push(value);
+//       }
+//     }
+
+//     finalValue = finalValue.map((value) => {
+//       return {
+//         folderId: value.folderId,
+//         folderName: value.folderName,
+//       };
+//     });
+//     return finalValue;
+//   };
+
+
+findAllFolder = async (userId) => {
+  
+    let finalValue = await Folders.findAll({where : {userId}})
+    
     finalValue = finalValue.map((value) => {
       return {
         folderId: value.folderId,
         folderName: value.folderName,
       };
     });
+
     return finalValue;
   };
+  
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+
 
   findOneShops = async (myAllScrap, userId) => {
     let result3 = [];
