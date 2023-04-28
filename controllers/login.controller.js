@@ -8,8 +8,8 @@ class LoginController {
 
   loginKakao = async (req, res) => {
     try {
-      // const { code } = req.query;       //백에서만 할때
-      const { code } = req.body;        //프론트에 배포할때
+      const { code } = req.query;       //백에서만 할때
+      // const { code } = req.body;        //프론트에 배포할때
 
       const resultToken = await this.loginServices.getKakaoToken(code);
       const resultUser = await this.loginServices.getKaKaoUserInfo(resultToken);

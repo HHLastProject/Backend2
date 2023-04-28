@@ -44,5 +44,9 @@ class FavoriteRepository {
 
         return result2
     }
+
+    findOnebyFolderList = async() => { 
+        return 
+    }
 }
 module.exports = FavoriteRepository;
