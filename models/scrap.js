@@ -28,10 +28,6 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: "ScrapId",
       });
 
-      this.hasMany(models.Lists, {
-        sourceKey: "ShopId",
-        foreignKey: "ShopId",
-      });
     }
   }
   Scrap.init({

@@ -2,43 +2,42 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('Folders', {
-      folderId: {
+    await queryInterface.createTable('Lists', {
+      listId: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
-      },
-      ScrapId: {
-        allowNull: true,
         type: Sequelize.INTEGER,
       },
-      UserId : {
+      FolderId: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: {
-          model: "Users",
-          key: "userId",
+          model: "Folders",
+          key: "folderId",
         },
         onDelete: "CASCADE",
       },
-      folderName: {
+      ScrapId : {
         allowNull: false,
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Scrap",
+          key: "scrapId",
+        },
+        onDelete: "CASCADE",
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.fn("now"),
+        type: Sequelize.DATE
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.fn("now"),
+        type: Sequelize.DATE
       }
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('Folders');
+    await queryInterface.dropTable('Lists');
   }
 };

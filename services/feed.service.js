@@ -78,7 +78,7 @@ feedFindOne = async (shopId) => {
     let isScrap = await Scrap.findOne({where :{ UserId : value.UserId, ShopId : value.ShopId}})
     isScrap ? isScrap = true : isScrap = false;
     let likeCount = await Likes.findAll({where : { FeedId :value.feedId}})
-    let commentCount = await FeedComments.findAll({where : { FeedId : value.feedId}});
+    // let commentCount = await FeedComments.findAll({where : { FeedId : value.feedId}});
 
     // 좋아요 유무 체크
     let isLike = await Likes.findOne({where : { FeedId : value.feedId }})

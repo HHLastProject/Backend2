@@ -16,14 +16,15 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: "FolderId",
       });
 
-      this.belongsTo(models.Scrap, {
-        targetKey: "scrapId",
-        foreignKey: "ScrapId",
-      });
-
       this.belongsTo(models.Users, {
         targetKey: "userId",
         foreignKey: "UserId",
+        onDelete: "CASCADE",
+      });
+
+      this.belongsTo(models.Lists, {
+        targetKey: "listId",
+        foreignKey: "ListId",
       });
     }
   }
@@ -34,12 +35,12 @@ module.exports = (sequelize, DataTypes) => {
       primaryKey: true,
       type: DataTypes.INTEGER
     },
-    ScrapId: {
-      allowNull: true,
-      type: DataTypes.INTEGER,
-    },
     UserId: {
       allowNull: false,
+      type: DataTypes.INTEGER,
+    },
+    ListId: {
+      allowNull: true,
       type: DataTypes.INTEGER,
     },
     folderName: {
