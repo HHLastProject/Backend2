@@ -11,10 +11,6 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      this.hasMany(models.Folders, {
-        sourceKey: "listId",
-        foreignKey: "ListId",
-      });
 
       this.belongsTo(models.Folders, {
         targetKey: "folderId",
