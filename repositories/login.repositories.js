@@ -22,7 +22,6 @@ class LoginRepository {
     creatFolder = async(UserId) => { 
         Folders.create({
             UserId,
-            ScripId : null, 
             folderName : "즐겨찾기"
         })
     }

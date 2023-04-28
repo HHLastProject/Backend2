@@ -16,6 +16,7 @@ class favoriteController {
 
     //내가 Scrap한 데이터 가져오기
     const myAllScrap = await this.favoriteService.findAllScrap(userId);
+
     //Scrap 데이터에 가계정보 가져오기
     const result2 = await this.favoriteService.findOneShops(myAllScrap, userId);
 
@@ -26,6 +27,27 @@ class favoriteController {
     // folderList = folderList.map((value)=> {
     //   return value.folderName
     // })
+    /*
+    //원하는 결과물
+    {
+      scrapList : [
+       {
+       shopId : number,
+       address: string, //도로명으로 통일
+       shopName: string, 
+       thumbnail : string,
+       feedCount : number,
+       isScrap: boolean,
+       category : string,
+       folderName : string (추가됨),
+     }
+      ],
+      folderList : [ {
+       folderId : number,
+       folderName : string
+     }, ]
+     }
+      */
 
     res.status(200).json({ scrapList: result2, folderList });
   };
