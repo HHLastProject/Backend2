@@ -53,7 +53,7 @@ class FavoriteService {
 findAllFolder = async (userId) => {
   
     let finalValue = await Folders.findAll({where : {userId}})
-    
+
     finalValue = finalValue.map((value) => {
       return {
         folderId: value.folderId,
@@ -70,8 +70,6 @@ findAllFolder = async (userId) => {
 ///////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////
 
-
-
   findOneShops = async (myAllScrap, userId) => {
     let result3 = [];
 
@@ -85,9 +83,26 @@ findAllFolder = async (userId) => {
         shopId
       );
 
-      let folderName = await this.favoriteRepository.findOnebyFolderScrapId(
-        scrapId
-      );
+      let folderName = await this.favoriteRepository.findOnebyFolderScrapId(scrapId);
+
+      // //폴더ID를 가지고 폴더 이름 가져오기
+      // let name = await Folders.findOne({
+      //   where : { }
+      // })
+      // console.log("========================")
+      // console.log("========================")
+      // console.log("========================")
+      // console.log("========================")
+      // console.log("========================")
+      // console.log("name")
+      // console.log(name)
+      // console.log("========================")
+      // console.log("========================")
+      // console.log("========================")
+      // console.log("========================")
+
+      // let folderName = await this.favoriteRepository.findOnebyFolderList()
+
 
       isScrap ? (isScrap = true) : (isScrap = false);
 
@@ -99,7 +114,8 @@ findAllFolder = async (userId) => {
         feedCount: result2.Feeds.length,
         isScrap: isScrap,
         category: result2.category,
-        folderName: folderName ? folderName.folderName : null,
+        // folderName: folderName
+        folderName: folderName ? folderName.folderName : "null값이 존재 하면 안됨",
       };
 
       result3.push(value);

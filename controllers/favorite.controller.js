@@ -122,12 +122,12 @@ makeFolder = async (req, res, next) => {
     return res.status(410).json({"msg" : "동일한 파일 이름을 설정하였습니다" })
   }
 
-  //생성된 폴더가 기존 폴더이름과 동일한지 비교 
-  const FolderNameResult = await this.favoriteService.compareFolderName(folderList)
+  // //생성된 폴더가 기존 폴더이름과 동일한지 비교 
+  // const FolderNameResult = await this.favoriteService.compareFolderName(folderList)
 
-  if(FolderNameResult != null){
-    return res.status(410).json({"msg" : "기존에 존재하는 파일과 이름이 동일 합니다"})
-  }
+  // if(FolderNameResult != null){
+  //   return res.status(410).json({"msg" : "기존에 존재하는 파일과 이름이 동일 합니다"})
+  // }
 
   for (let i = 0; i < folderList.length; i++) {
     await this.favoriteService.folderCreate(null, userId, folderList[i]);

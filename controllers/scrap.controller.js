@@ -9,13 +9,16 @@ class scrapController {
         const { shopId } = req.params
 
         const findScrap = await this.scrapService.findOneScrap(shopId,userId)
-     
+
+        //즐겨찾기 폴더ID 가져오기
+        let folderId = await this.scrapService.findOneFolder(userId)
+
         let boolean = true;
 
         if(!findScrap) { 
-            this.scrapService.createScrap(userId,shopId)
+            this.scrapService.createScrap(userId,shopId,folderId)
         } else { 
-            this.scrapService.deleteScrap(shopId)
+            this.scrapService.deleteScrap(userId,shopId,folderId)
             boolean = false
         }
 

@@ -136,7 +136,13 @@ class LoginService {
   };
 
   saveUser = async (resultUser) => {
-    await this.loginRepository.saveUser(resultUser);
+    const userData = await this.loginRepository.saveUser(resultUser);
+
+    if(userData) { 
+      let UserId = userData.userId
+      await this.loginRepository.creatFolder(UserId)
+    }
+
   };
 }
 module.exports = LoginService;
