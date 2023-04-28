@@ -11,14 +11,16 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+
       this.belongsTo(models.Folders, {
         targetKey: "folderId",
         foreignKey: "FolderId",
         onDelete: "CASCADE",
       });
-      this.belongsTo(models.Shops, {
-        targetKey: "shopId",
-        foreignKey: "ShopId",
+      
+      this.belongsTo(models.Scrap, {
+        targetKey: "scrapId",
+        foreignKey: "ScrapId",
         onDelete: "CASCADE",
       });
     }
@@ -31,11 +33,11 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
     },
     FolderId: {
-      allowNull: false,
+      allowNull: true,
       type: DataTypes.INTEGER,
     },
-    ShopId: {
-      allowNull: false,
+    ScrapId: {
+      allowNull: true,
       type: DataTypes.INTEGER,
     },
     createdAt: {

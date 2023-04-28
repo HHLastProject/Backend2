@@ -23,15 +23,11 @@ module.exports = (sequelize, DataTypes) => {
         onDelete: "CASCADE",
       });
 
-      this.hasMany(models.Folders, {
+      this.hasMany(models.Lists, {
         sourceKey: "scrapId",
         foreignKey: "ScrapId",
       });
 
-      this.hasMany(models.Lists, {
-        sourceKey: "ShopId",
-        foreignKey: "ShopId",
-      });
     }
   }
   Scrap.init({

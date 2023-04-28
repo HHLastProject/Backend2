@@ -16,15 +16,12 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: "FolderId",
       });
 
-      this.belongsTo(models.Scrap, {
-        targetKey: "scrapId",
-        foreignKey: "ScrapId",
-      });
-
       this.belongsTo(models.Users, {
         targetKey: "userId",
         foreignKey: "UserId",
+        onDelete: "CASCADE",
       });
+
     }
   }
   Folders.init({
@@ -33,10 +30,6 @@ module.exports = (sequelize, DataTypes) => {
       autoIncrement: true,
       primaryKey: true,
       type: DataTypes.INTEGER
-    },
-    ScrapId: {
-      allowNull: true,
-      type: DataTypes.INTEGER,
     },
     UserId: {
       allowNull: false,

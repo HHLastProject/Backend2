@@ -9,10 +9,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      ScrapId: {
-        allowNull: true,
-        type: Sequelize.INTEGER,
-      },
       UserId : {
         allowNull: false,
         type: Sequelize.INTEGER,
