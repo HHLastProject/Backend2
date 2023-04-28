@@ -9,21 +9,21 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
+      ScrapId : {
+        allowNull: true,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Scraps",
+          key: "scrapId",
+        },
+        onDelete: "CASCADE",
+      },
       FolderId: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.INTEGER,
         references: {
           model: "Folders",
           key: "folderId",
-        },
-        onDelete: "CASCADE",
-      },
-      ScrapId : {
-        allowNull: false,
-        type: Sequelize.INTEGER,
-        references: {
-          model: "Scrap",
-          key: "scrapId",
         },
         onDelete: "CASCADE",
       },

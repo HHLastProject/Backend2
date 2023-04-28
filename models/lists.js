@@ -37,11 +37,11 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
     },
     FolderId: {
-      allowNull: false,
+      allowNull: true,
       type: DataTypes.INTEGER,
     },
     ScrapId: {
-      allowNull: false,
+      allowNull: true,
       type: DataTypes.INTEGER,
     },
     createdAt: {

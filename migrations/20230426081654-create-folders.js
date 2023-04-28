@@ -18,10 +18,6 @@ module.exports = {
         },
         onDelete: "CASCADE",
       },
-      ListId: {
-        allowNull: true,
-        type: Sequelize.INTEGER,
-      },
       folderName: {
         allowNull: false,
         type: Sequelize.STRING

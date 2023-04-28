@@ -22,10 +22,6 @@ module.exports = (sequelize, DataTypes) => {
         onDelete: "CASCADE",
       });
 
-      this.belongsTo(models.Lists, {
-        targetKey: "listId",
-        foreignKey: "ListId",
-      });
     }
   }
   Folders.init({
@@ -37,10 +33,6 @@ module.exports = (sequelize, DataTypes) => {
     },
     UserId: {
       allowNull: false,
-      type: DataTypes.INTEGER,
-    },
-    ListId: {
-      allowNull: true,
       type: DataTypes.INTEGER,
     },
     folderName: {
