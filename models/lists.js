@@ -11,14 +11,20 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      this.hasMany(models.Folders, {
+        sourceKey: "listId",
+        foreignKey: "ListId",
+      });
+
       this.belongsTo(models.Folders, {
         targetKey: "folderId",
         foreignKey: "FolderId",
         onDelete: "CASCADE",
       });
-      this.belongsTo(models.Shops, {
-        targetKey: "shopId",
-        foreignKey: "ShopId",
+      
+      this.belongsTo(models.Scrap, {
+        targetKey: "scrapId",
+        foreignKey: "ScrapId",
         onDelete: "CASCADE",
       });
     }
@@ -34,7 +40,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.INTEGER,
     },
-    ShopId: {
+    ScrapId: {
       allowNull: false,
       type: DataTypes.INTEGER,
     },
