@@ -21,11 +21,6 @@ module.exports = {
       FolderId: {
         allowNull: true,
         type: Sequelize.INTEGER,
-        references: {
-          model: "Folders",
-          key: "folderId",
-        },
-        onDelete: "CASCADE",
       },
       createdAt: {
         allowNull: false,
