@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
       this.belongsTo(models.Folders, {
         targetKey: "folderId",
         foreignKey: "FolderId",
-        onDelete: "CASCADE",
+        // onDelete: "CASCADE",
       });
       
       this.belongsTo(models.Scrap, {
