@@ -18,8 +18,8 @@ class FavoriteRepository {
     };
     
 
-    findOnebyFolder = async(myAllScrapId) => { 
-        const value2 = await Folders.findOne({where : {scrapId : myAllScrapId}});
+    findOnebyFolder = async(folderName) => { 
+        const value2 = await Folders.findOne({where : {folderName}});
         return value2
     };
 
@@ -40,6 +40,7 @@ class FavoriteRepository {
     }
 
     findOnebyScrap = async(userId,shopId2) => { 
+     
         const value2 = await Scrap.findAll({where:{UserId:userId, ShopId : shopId2}});
         return value2
     }; 
