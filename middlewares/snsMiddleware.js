@@ -14,6 +14,19 @@ module.exports = async (req, res, next) => {
     console.log(token);
     console.log("=============");
 
+   
+
+    if(authorization) { 
+      console.log("authorization 값이 있어서 생긴문제")
+    } else {
+      console.log("authorization 랑 관계없다")
+    }
+
+    if(!token){
+      res.locals.user = null
+      return next();
+    }
+    
     if (authorization) {
       const { id } = jwt.verify(token, "key");
       const user = await Users.findOne({ where: { id } });
