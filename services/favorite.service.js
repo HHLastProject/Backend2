@@ -190,12 +190,7 @@ class FavoriteService {
 
   
     findAllFolderbyLists = async (folderId) => {
-      // let data = await Lists.findAll({where : {FolderId : folderId}})
-
-      // data = data.map((value)=> { 
-      //   return value.listId
-      // })
-
+ 
      await Lists.update(
       {FolderId : 200},  
       {where : {FolderId : folderId}}
@@ -210,6 +205,8 @@ class FavoriteService {
 
   listPatch = async (folderCreate, existFolderId) => {
     let finalData = [];
+
+    console.log("현재 반복문은 " + existFolderId.length * folderCreate.length + "번 실행해야 합니다")
     for (let i = 0; i < existFolderId.length; i++) {
       let existFolderName = existFolderId[i].folderName;
       for (let j = 0; j < folderCreate.length; j++) {
@@ -217,10 +214,8 @@ class FavoriteService {
           finalData.push(folderCreate[j].folderId);
 
           //리스트에서 없어져버린 폴더 id데신 새로 생긴 폴더 id를 넣는다
-          console.log("이번호 있어?");
-          console.log(existFolderId[i].folderId);
-          console.log("이번로 바꿔줘");
-          console.log(folderCreate[j].folderId);
+          console.log("이번호 있어? = " + existFolderId[i].folderId);
+          console.log("이번로 바꿔줘 = " + folderCreate[j].folderId);
 
           await Lists.update(
             { FolderId: folderCreate[j].folderId },
