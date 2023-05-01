@@ -10,9 +10,9 @@ class SearchService {
 
     let result = await this.searchRepository.findAllbyShop(searchName);
    
-    console.log("result")
-    console.log(result)
-    console.log("-=--------------")
+    // console.log("result")
+    // console.log(result)
+    // console.log("-=--------------")
     if(result) {
      result = await result.map((value) => {
       return {
@@ -51,11 +51,12 @@ class SearchService {
     })
 
   let addresSummary =[];
-   for(let i = 0 ; i <3699; i++){ 
+   for(let i = 0 ; i <result.length; i++){ 
     let address = result[i].shopAddress
     let cityAddress = address.split(" ");
 
     
+
     if(cityAddress[0] == "경기도") {
       addresSummary.push(cityAddress[2])
     } else {
