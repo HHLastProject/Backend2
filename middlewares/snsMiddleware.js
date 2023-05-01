@@ -16,24 +16,38 @@ module.exports = async (req, res, next) => {
 
    
 
-    if(authorization) { 
-      console.log("authorization 값이 있어서 생긴문제")
-    } else {
-      console.log("authorization 랑 관계없다")
-    }
+    // if(authorization) { 
+    //   console.log("authorization 값이 있어서 생긴문제")
+    // } else {
+    //   console.log("authorization 랑 관계없다")
+    // }
 
-    if(!token){
-      res.locals.user = null
-      return next();
-    }
-    
-    if (authorization) {
+    // if(!token){
+    //   res.locals.user = null
+    //   return next();
+    // }
+
+    // if (authorization) {
+    //   const { id } = jwt.verify(token, "key");
+    //   const user = await Users.findOne({ where: { id } });
+    //   res.locals.user = user;
+    // } 
+
+    if (token) {
       const { id } = jwt.verify(token, "key");
       const user = await Users.findOne({ where: { id } });
       res.locals.user = user;
-    } else { 
-      res.locals.user = null;
+    } else {
+      res.locals.user = null
+      return next();
     }
+
+
+
+
+    // else { 
+    //   res.locals.user = null;
+    // }
 
     next();
   } catch (error) {
