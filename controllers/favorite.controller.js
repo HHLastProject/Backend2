@@ -6,20 +6,25 @@ class favoriteController {
 
   //즐겨찾기 리스트 보여주기
   listFavorite = async (req, res, next) => {
-    console.log("★ 즐겨찾기 목록입니다")  //★지우기
+    console.log("======================================================================")
+    console.log("★ 즐겨찾기 보여주기 목록입니다") 
+    console.log("======================================================================")
     const { userId } = res.locals.user;
 
     //내가 Scrap한 데이터 가져오기
     const myAllScrap = await this.favoriteService.findAllScrap(userId);
+    console.log("======================================================================")
     console.log("★ 나의 스크랩한 데이터 갯수  = " + myAllScrap.length)
+    console.log("======================================================================")
 
     //Scrap 데이터에 가계정보 가져오기
     const result2 = await this.favoriteService.findOneShops(myAllScrap, userId);
 
     // let folderList = await this.favoriteService.findAllFolder(myAllScrap);
     let folderList = await this.favoriteService.findAllFolder(userId);
-
+    console.log("======================================================================")
     console.log("===즐겨찾기 보여주기 api종료=======================================================")
+    console.log("======================================================================")
     res.status(200).json({ scrapList: result2, folderList });
   };
 //////////////////////////////////////////////////////////////////////////
@@ -31,8 +36,9 @@ class favoriteController {
 
 
 modifyFolders = async (req, res, next) => {
-
+  console.log("======================================================================")
   console.log(" ★ 파일 위치 옮기는 api입니다")
+  console.log("======================================================================")
 
   const { userId } = res.locals.user;
   let { folderList } = req.body;
@@ -83,8 +89,9 @@ modifyFolders = async (req, res, next) => {
 
   let tempData =await this.favoriteService.listPatch2(folderList,userId)
   console.log(folderList)
-
+  console.log("======================================================================")
   console.log("===스크랩 폴더 변경 api종료=======================================================")
+  console.log("======================================================================")
   return res.json({tempData})
 
   return res.status(200).json({ msg: "업로드에 성공했습니다" });
@@ -95,7 +102,9 @@ modifyFolders = async (req, res, next) => {
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
 makeFolder = async (req, res, next) => {
+console.log("======================================================================")
  console.log(" ★ 폴더를 생성하는 api입니다")
+ console.log("======================================================================")
   const { userId } = res.locals.user;
   const { folderList } = req.body;
 
@@ -125,19 +134,38 @@ makeFolder = async (req, res, next) => {
 
   await this.favoriteService.deleteExistFolderId(existFolderId)
 
+  console.log("======================================================================")
   console.log("===폴더 생성 api종료=======================================================")
+  console.log("======================================================================")
   return res.status(200).json({"msg" : "폴더를 생성했습니다"});
   return res.json({myAllScrapData,findAllListsData,findAllFoldersData})
 };
 
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+
 deleteFolder = async (req, res, next) => {
+  console.log("======================================================================")
   console.log("★ 폴더 삭제 api입니다")
+  console.log("======================================================================")
   let { folderId } = req.params
-  await this.favoriteService.findAllFolderbyLists(folderId)
+  
   await this.favoriteService.deleteFolder(folderId)
+  
+  console.log("★ ★ ★폴 더 삭제 완료")
 
+  await this.favoriteService.findAllFolderbyLists(folderId)
 
+  console.log("★ ★ ★ 폴더 위치 바뀌는것 적용")
+
+  console.log("======================================================================")
   console.log("===삭제 api 종료=======================================================")
+  console.log("======================================================================")
   res.status(200).json({"msg" : "폴더를 삭제하였습니다"})
 }
 

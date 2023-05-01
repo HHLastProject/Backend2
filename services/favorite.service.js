@@ -190,7 +190,6 @@ class FavoriteService {
 
   
     findAllFolderbyLists = async (folderId) => {
- 
      await Lists.update(
       {FolderId : 200},  
       {where : {FolderId : folderId}}
