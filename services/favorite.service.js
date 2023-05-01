@@ -18,30 +18,6 @@ class FavoriteService {
     return result;
   };
 
-  //   findAllFolder = async (myAllScrap) => {
-  //     // 스크랩에서 스크랩id가져오기
-  //     myAllScrap = myAllScrap.map((value) => {
-  //       return value.scrapId;
-  //     });
-
-  //     let finalValue = [];
-  //     //스크랩ID
-  //     for (let i = 0; i < myAllScrap.length; i++) {
-  //       let myAllScrapId = myAllScrap[i];
-  //       let value = await this.favoriteRepository.findOnebyFolder(myAllScrapId);
-  //       if (value) {
-  //         finalValue.push(value);
-  //       }
-  //     }
-
-  //     finalValue = finalValue.map((value) => {
-  //       return {
-  //         folderId: value.folderId,
-  //         folderName: value.folderName,
-  //       };
-  //     });
-  //     return finalValue;
-  //   };
 
   findAllFolder = async (userId) => {
     let finalValue = await Folders.findAll({ where: { userId } });
@@ -86,6 +62,7 @@ class FavoriteService {
     }
 
     let findeFolderId = []
+
     //폴더이름으로 폴더id찾아오기 
     for(let i =0; i <folderName.length; i++ ){
       let findFolder = await this.favoriteRepository.findOnebyFolder(folderName[i])
@@ -209,6 +186,23 @@ class FavoriteService {
 
     return result;
   };
+
+
+  
+    findAllFolderbyLists = async (folderId) => {
+      // let data = await Lists.findAll({where : {FolderId : folderId}})
+
+      // data = data.map((value)=> { 
+      //   return value.listId
+      // })
+
+     await Lists.update(
+      {FolderId : 200},  
+      {where : {FolderId : folderId}}
+    )
+
+    }
+
 
   deleteFolder = async (folderId) => {
     await Folders.destroy({ where: { folderId } });

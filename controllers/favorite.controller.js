@@ -215,7 +215,7 @@ modifyFolders = async (req, res, next) => {
 
 deleteFolder = async (req, res, next) => {
   let { folderId } = req.params
-
+  await this.favoriteService.findAllFolderbyLists(folderId)
   await this.favoriteService.deleteFolder(folderId)
 
   res.status(200).json({"msg" : "폴더를 삭제하였습니다"})
