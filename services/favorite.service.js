@@ -12,44 +12,15 @@ class FavoriteService {
       return {
         scrapId: value.scrapId,
         shopId: value.ShopId,
-        ListId : value.Lists[0].listId
+        ListId: value.Lists[0].listId,
       };
     });
     return result;
   };
 
-  
-  
 
-//   findAllFolder = async (myAllScrap) => {
-//     // 스크랩에서 스크랩id가져오기
-//     myAllScrap = myAllScrap.map((value) => {
-//       return value.scrapId;
-//     });
-
-//     let finalValue = [];
-//     //스크랩ID
-//     for (let i = 0; i < myAllScrap.length; i++) {
-//       let myAllScrapId = myAllScrap[i];
-//       let value = await this.favoriteRepository.findOnebyFolder(myAllScrapId);
-//       if (value) {
-//         finalValue.push(value);
-//       }
-//     }
-
-//     finalValue = finalValue.map((value) => {
-//       return {
-//         folderId: value.folderId,
-//         folderName: value.folderName,
-//       };
-//     });
-//     return finalValue;
-//   };
-
-
-findAllFolder = async (userId) => {
-  
-    let finalValue = await Folders.findAll({where : {userId}})
+  findAllFolder = async (userId) => {
+    let finalValue = await Folders.findAll({ where: { userId } });
 
     finalValue = finalValue.map((value) => {
       return {
@@ -60,12 +31,64 @@ findAllFolder = async (userId) => {
 
     return finalValue;
   };
-  
-///////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////
+
+  listPatch2 = async (folderList, userId) => {
+    let shopId = [];
+    let folderName = [];
+    let scrapId = [];
+
+   
+    for (let i = 0; i < folderList.length; i++) {
+      console.log("====================")
+      console.log(folderList[i].folderName)
+      console.log("====================")
+      for (let j = 0; j < folderList[i].shopList.length; j++) {
+      
+        // shopid ,유저를 기준으로 스크랩id가져온다
+        let tempdata = await this.favoriteRepository.findOnebyScrap(
+          userId,
+          folderList[i].shopList[j].shopId
+        );
+       
+        tempdata = tempdata.map((value)=> { 
+          return value.scrapId
+        })
+
+       
+        //순차적으로 가게id를 스크랩id로 변환 완료
+         folderName.push(folderList[i].folderName)
+         scrapId.push(tempdata);
+      }
+    }
+
+    let findeFolderId = []
+
+    //폴더이름으로 폴더id찾아오기 
+    for(let i =0; i <folderName.length; i++ ){
+      let findFolder = await this.favoriteRepository.findOnebyFolder(folderName[i])
+      findFolder = findFolder.folderId
+     
+      findeFolderId.push(findFolder)
+    }
+
+
+    //스크랩 id로 찾아서 forlderid변경하기
+    for(let i =0; i < scrapId.length ; i++) { 
+      await Lists.update(
+        {FolderId : findeFolderId[i]},
+        {where : { ScrapId : scrapId[i]}}
+        )
+      
+    }
+
+    return findeFolderId;
+  };
+
+  ///////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////
 
   findOneShops = async (myAllScrap, userId) => {
     let result3 = [];
@@ -74,16 +97,20 @@ findAllFolder = async (userId) => {
       let shopId = myAllScrap[i].shopId;
       let scrapId = myAllScrap[i].scrapId;
       let ListId = myAllScrap[i].ListId;
-      
-      let shopData = await this.favoriteRepository.findOnebyShop(shopId);
-      let isScrap = await this.favoriteRepository.findOnebyScrap(userId,shopId);
 
-      
+      let shopData = await this.favoriteRepository.findOnebyShop(shopId);
+      let isScrap = await this.favoriteRepository.findOnebyScrap(
+        userId,
+        shopId
+      );
+
       //기존에 가지고 있던 ListId를 통해 해당 lists정보를 가져온다 그 후 거기에 있는 폴더 id를 가져온다
       let findList = await this.favoriteRepository.findOnebyLists(ListId);
-      let folderId = findList.FolderId
+      let folderId = findList.FolderId;
 
-      let folderData = await this.favoriteRepository.findOnebyFolderName(folderId)
+      let folderData = await this.favoriteRepository.findOnebyFolderName(
+        folderId
+      );
 
       isScrap ? (isScrap = true) : (isScrap = false);
 
@@ -95,7 +122,7 @@ findAllFolder = async (userId) => {
         feedCount: shopData.Feeds.length,
         isScrap: isScrap,
         category: shopData.category,
-        folderName : folderData.folderName
+        folderName: folderData.folderName,
       };
 
       result3.push(value);
@@ -103,26 +130,23 @@ findAllFolder = async (userId) => {
     return result3;
   };
 
-
   ///////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////
   findAllLists = async (myAllScrap) => {
-    let listAllData =[]
+    let listAllData = [];
     for (let i = 0; i < myAllScrap.length; i++) {
       let ListId = myAllScrap[i].ListId;
-      const findListData= await this.favoriteRepository.findOnebyLists(ListId);
-      listAllData.push(findListData)
+      const findListData = await this.favoriteRepository.findOnebyLists(ListId);
+      listAllData.push(findListData);
     }
-    return listAllData
+    return listAllData;
   };
 
-
-  
   folderDelete = async (userId) => {
-    await Folders.destroy({ where: { UserId:userId } });
+    await Folders.destroy({ where: { UserId: userId } });
   };
 
   compareFolderName = async (folderList) => {
@@ -146,16 +170,15 @@ findAllFolder = async (userId) => {
     const set = new Set(folderList);
 
     if (folderList.length !== set.size) {
-        return true
+      return true;
     }
 
-    return false
+    return false;
   };
 
-  findListData = async (userId,shopId) => {
-  }
+  findListData = async (userId, shopId) => {};
 
-  folderCreate = async ( userId, folderName) => {
+  folderCreate = async (userId, folderName) => {
     const result = await Folders.create({
       UserId: userId,
       folderName,
@@ -164,41 +187,53 @@ findAllFolder = async (userId) => {
     return result;
   };
 
-  deleteFolder  = async (folderId) => {
-    await Folders.destroy({where : { folderId}})
+
+  
+    findAllFolderbyLists = async (folderId) => {
+      // let data = await Lists.findAll({where : {FolderId : folderId}})
+
+      // data = data.map((value)=> { 
+      //   return value.listId
+      // })
+
+     await Lists.update(
+      {FolderId : 200},  
+      {where : {FolderId : folderId}}
+    )
+
+    }
+
+
+  deleteFolder = async (folderId) => {
+    await Folders.destroy({ where: { folderId } });
   };
 
-  listPatch = async (folderCreate,existFolderId) => {
-  
+  listPatch = async (folderCreate, existFolderId) => {
     let finalData = [];
-      for(let i = 0; i <existFolderId.length; i++ ){
-        let existFolderName = existFolderId[i].folderName
-        for(let j =0 ; j < folderCreate.length ; j++){
+    for (let i = 0; i < existFolderId.length; i++) {
+      let existFolderName = existFolderId[i].folderName;
+      for (let j = 0; j < folderCreate.length; j++) {
+        if (existFolderName == folderCreate[j].folderName) {
+          finalData.push(folderCreate[j].folderId);
 
-          if(existFolderName == folderCreate[j].folderName){
-            finalData.push(folderCreate[j].folderId)
+          //리스트에서 없어져버린 폴더 id데신 새로 생긴 폴더 id를 넣는다
+          console.log("이번호 있어?");
+          console.log(existFolderId[i].folderId);
+          console.log("이번로 바꿔줘");
+          console.log(folderCreate[j].folderId);
 
-            //리스트에서 없어져버린 폴더 id데신 새로 생긴 폴더 id를 넣는다
-            console.log("이번호 있어?")
-            console.log(existFolderId[i].folderId)
-            console.log("이번로 바꿔줘")
-            console.log(folderCreate[j].folderId)
-
-            await Lists.update(
-              { FolderId: folderCreate[j].folderId },
-              {where : {folderId : existFolderId[i].folderId}}
-           )
-          }
-
+          await Lists.update(
+            { FolderId: folderCreate[j].folderId },
+            { where: { folderId: existFolderId[i].folderId } }
+          );
         }
       }
+    }
 
-     
+    //  console.log(folderCreate[0].folderName)
+    //  console.log(existFolderId[0].folderName)
 
-  //  console.log(folderCreate[0].folderName)
-  //  console.log(existFolderId[0].folderName)
-
-    return finalData
+    return finalData;
   };
 
   listCreate = async (FolderId, seletedShopId) => {
@@ -211,19 +246,15 @@ findAllFolder = async (userId) => {
   };
 
   deleteExistFolderId = async (existFolderId) => {
+    existFolderId = existFolderId.map((value) => {
+      return value.folderId;
+    });
 
-    existFolderId = existFolderId.map((value)=>{
-      return value.folderId
-    }) 
-
-    for(let i = 0; i < existFolderId.length; i++){
+    for (let i = 0; i < existFolderId.length; i++) {
       await Folders.destroy({
-        where : {folderId : existFolderId[i]}
+        where: { folderId: existFolderId[i] },
       });
-    
     }
-    
-
   };
 }
 

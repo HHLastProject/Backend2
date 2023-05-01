@@ -8,8 +8,8 @@ const authMiddle = require("../middlewares/snsAuthmiddleware");
 //검색  추후에 get으로 수정 req.body
 router.get("/favorite",authMiddle, favoriteController.listFavorite)
 
-//폴더생성
-router.post("/favorite/modify",authMiddle, favoriteController.makeFolders)
+//즐겨찾기 위치 옮기기
+router.post("/favorite/modify",authMiddle, favoriteController.modifyFolders)
 
 //폴더만 생성
 router.post("/favorite/folder",authMiddle,favoriteController.makeFolder)
