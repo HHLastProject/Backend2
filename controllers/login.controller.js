@@ -12,6 +12,7 @@ class LoginController {
       const { code } = req.body;        //프론트에 배포할때
 
       const resultToken = await this.loginServices.getKakaoToken(code);
+      
       const resultUser = await this.loginServices.getKaKaoUserInfo(resultToken);
 
       //유저정보 저장
