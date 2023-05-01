@@ -27,10 +27,12 @@ class LoginService {
     };
     
     console.log("============================")
+    console.log("============================")
     console.log("redirect_uri") 
     console.log(data.redirect_uri) 
     console.log("code") 
     console.log(code) 
+    console.log("============================")
     console.log("============================")
 
     const responseToken = await axios.post(
