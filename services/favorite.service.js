@@ -189,9 +189,11 @@ class FavoriteService {
 
 
   
-    findAllFolderbyLists = async (folderId) => {
+    findAllFolderbyLists = async (folderId,userId) => {
+
+     let favoriteFolder= await Folders.findOne({where :{UserId : userId,folderName : "즐겨찾기"}})
      await Lists.update(
-      {FolderId : 200},  
+      {FolderId : favoriteFolder.folderId},  
       {where : {FolderId : folderId}}
     )
 
