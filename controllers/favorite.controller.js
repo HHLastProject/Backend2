@@ -12,7 +12,7 @@ class favoriteController {
     const { userId } = res.locals.user;
 
     //내가 Scrap한 데이터 가져오기
-    const myAllScrap = await this.favoriteService.findAllScrap(userId);
+    const myAllScrap = await this.favoriteService.findAllScraps(userId);
 
     //Scrap 데이터에 가계정보 가져오기
     const scrapList = await this.favoriteService.findAllShops(myAllScrap, userId);
@@ -40,7 +40,7 @@ modifyFolders = async (req, res, next) => {
   const { folderList } = req.body;
 
   //내가 Scrap한 데이터 가져오기
-  const myAllScrap = await this.favoriteService.findAllScrap(userId);
+  const myAllScrap = await this.favoriteService.findAllScraps(userId);
 
   //나의 스크랩한 shopId 전체
   let myAllScrapShopId = myAllScrap.map((value) => {
@@ -109,7 +109,7 @@ console.log("===================================================================
 
 
   //나의 전체 스크랩 가져오기 - scrapId,shopId,listId
-  const myAllScrapData = await this.favoriteService.findAllScrap(userId);
+  const myAllScrapData = await this.favoriteService.findAllScraps(userId);
 
   // //나의 전체 리스트 가져오기 - ScrapId,listId,FolderId
   // const findAllListsData = await this.favoriteService.findAllLists(myAllScrapData)

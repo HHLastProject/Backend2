@@ -5,8 +5,8 @@ class FavoriteService {
     this.favoriteRepository = new FavoriteRepository();
   }
 
-  findAllScrap = async (userId) => {
-    let findAllDataScrap = await this.favoriteRepository.findAllbyScrap(userId);
+  findAllScraps = async (userId) => {
+    let findAllDataScrap = await this.favoriteRepository.findAllbyScraps(userId);
 
     findAllDataScrap = await findAllDataScrap.map((value) => {
       return {
@@ -92,37 +92,33 @@ class FavoriteService {
   ///////////////////////////////////////////////////////////////
 
   findAllShops = async (myAllScrap, userId) => {
-    let result3 = [];
+    let findAllDataShops = [];
 
     for (let i = 0; i < myAllScrap.length; i++) {
       const shopId = myAllScrap[i].shopId;
       const ListId = myAllScrap[i].ListId;
 
-      let findOneDataShop = await this.favoriteRepository.findOnebyShop(shopId);
+      const findOneDataShop = await this.favoriteRepository.findOnebyShop(shopId);
       let isScrap = await this.favoriteRepository.findOnebyScrap(userId,shopId);
 
       //기존에 가지고 있던 ListId를 통해 해당 lists정보를 가져온다 그 후 거기에 있는 폴더 id를 가져온다
-      let findList = await this.favoriteRepository.findOnebyLists(ListId);
-      let folderId = findList.FolderId;
+      const findList = await this.favoriteRepository.findOnebyLists(ListId);
+      const folderData = await this.favoriteRepository.findOnebyFolderName(findList.FolderId);
 
-      let folderData = await this.favoriteRepository.findOnebyFolderName(folderId);
-
-      isScrap ? (isScrap = true) : (isScrap = false);
-
-      let value = {
+      const redefine = {
         shopId: findOneDataShop.shopId,
         address: findOneDataShop.address,
         shopName: findOneDataShop.shopName,
         thumbnail: findOneDataShop.thumbnail,
         feedCount: findOneDataShop.Feeds.length,
-        isScrap: isScrap,
+        isScrap: isScrap ?  true : false,
         category: findOneDataShop.category,
         folderName: folderData.folderName,
       };
 
-      result3.push(value);
+      findAllDataShops.push(redefine);
     }
-    return result3;
+    return findAllDataShops;
   };
 
   ///////////////////////////////////////////////////////////////
