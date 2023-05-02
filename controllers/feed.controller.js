@@ -29,9 +29,7 @@ class FeedController {
 
   detailShopFeed = async (req, res, next) => {
     const { shopId } = req.params;
-    // const { userId } = res.locals.user;
 
-    // const feedFindAll = await this.feedService.detailShopFeed(shopId,userId);
     let feedFindAll = null
     if(res.locals.user){
       const { userId } = res.locals.user;
@@ -42,7 +40,7 @@ class FeedController {
     
     res.send(feedFindAll)
   };
-
+///////////////////////////////////////////////////////////
   postFeed = async (req, res, next) => {
     const { shopId } = req.params;
     const { comment, tags } = req.body;
