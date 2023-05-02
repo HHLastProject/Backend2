@@ -2,8 +2,8 @@ const {Scrap,Shops,Feeds,Folders,Lists} = require("../models");
 
 class FavoriteRepository {
 
-    findAllbyScrap = async(userId) => { 
-        const result = await Scrap.findAll({
+    findAllbyScraps = async(userId) => { 
+        return await Scrap.findAll({
             attributes: ['ShopId',"scrapId"],
             include: [
                 {
@@ -12,9 +12,7 @@ class FavoriteRepository {
                 }
             ],
             where:{UserId:userId}
-        
         });
-        return result
     };
     
 
@@ -35,18 +33,15 @@ class FavoriteRepository {
     };
 
     findOnebyFolderName =  async(folderId) => { 
-        const value2 = await Folders.findOne({where : {folderId }})
-        return value2
+        return await Folders.findOne({where : {folderId }})
     }
 
-    findOnebyScrap = async(userId,shopId2) => { 
-     
-        const value2 = await Scrap.findAll({where:{UserId:userId, ShopId : shopId2}});
-        return value2
+    findOnebyScrap = async(userId,shopId) => { 
+        return await Scrap.findAll({where:{UserId : userId, ShopId : shopId}});
     }; 
 
     findOnebyShop = async(shopId) => { 
-        let result2 = await Shops.findOne({
+        return await Shops.findOne({
             attributes: ['shopName', "address","thumbnail","shopId","category"],
             include: [
                 {
@@ -56,8 +51,6 @@ class FavoriteRepository {
             ],
             where: {shopId}
         });
-
-        return result2
     }
 
     findOnebyFolderList = async() => { 
