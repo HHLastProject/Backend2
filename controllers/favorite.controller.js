@@ -154,12 +154,12 @@ deleteFolder = async (req, res, next) => {
   console.log("★ 폴더 삭제 api입니다")
   console.log("======================================================================")
   let { folderId } = req.params
-  
+  const { userId } = res.locals.user;
   await this.favoriteService.deleteFolder(folderId)
   
   console.log("★ ★ ★폴 더 삭제 완료")
 
-  await this.favoriteService.findAllFolderbyLists(folderId)
+  await this.favoriteService.findAllFolderbyLists(folderId,userId)
 
   console.log("★ ★ ★ 폴더 위치 바뀌는것 적용")
 
