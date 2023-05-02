@@ -27,7 +27,32 @@ class feedCommentController {
                 feedComment : feedComment
             })
 
-            res.status(201).json({ msg : "댓글 작성에 성공했습니다." })
+            const comment = await FeedComments.findOne({
+                attributes: [
+                    "UserId",
+                    "feedCommentId",
+                    "feedComment",
+                    "createdAt",
+                ],
+                include : [
+                    {
+                        model: Users,
+                        attributes: ["nickname", "profilePic"],
+                    },
+                ],
+                where : [{ FeedId: feedId }], 
+                order: [['createdAt', 'DESC']],
+            })
+            let result = {
+                nickname : comment.User.nickname,
+                profilePic : comment.User.profilePic,
+                feedComment : comment.feedComment,
+                feedCommentId: comment.feedCommentId,
+                createdAt : comment.createdAt,
+            }
+
+
+            res.status(201).json({ msg : "댓글 작성에 성공했습니다.", comment : result })
 
         } catch(error) {
             console.log(error);
