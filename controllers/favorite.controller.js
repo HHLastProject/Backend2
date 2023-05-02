@@ -40,7 +40,7 @@ modifyFolders = async (req, res, next) => {
   console.log("======================================================================")
 
   const { userId } = res.locals.user;
-  const { folderList } = req.body;
+  let { folderList } = req.body;
 
   //내가 Scrap한 데이터 가져오기
   const myAllScrap = await this.favoriteService.findAllScrap(userId);
@@ -86,7 +86,7 @@ modifyFolders = async (req, res, next) => {
   console.log("======================================================================")
   console.log("===스크랩 폴더 변경 api종료=======================================================")
   console.log("======================================================================")
-
+  return res.json({tempData})
   return res.status(200).json({ msg: "업로드에 성공했습니다" });
 };
 //////////////////////////////////////////////////////////////////////////
