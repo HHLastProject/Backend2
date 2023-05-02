@@ -13,6 +13,10 @@ class ShopService {
         return await this.ShopRepository.getAllMainShop2();
     };
 
+    getAllBestShop = async () => {
+        return await this.ShopRepository.getAllBestShop()
+    }
+
     getFindOneShop = async ({shopId}) => {
         return await this.ShopRepository.getFindOneShop({shopId})
     }

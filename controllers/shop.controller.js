@@ -322,6 +322,11 @@ class ShopController {
           let findFeedAll = await Feeds.findAll({
             where: { ShopId : shops[i].shopId }
           })
+
+          let findScrapAll = await Scrap.findAll({
+            where: { ShopId : shops[i].shopId }
+          })
+
           const userLocate = { latitude: lng, longitude: lat };
 
           const shopLocate = {
@@ -335,6 +340,8 @@ class ShopController {
           });
 
           let feedCount = findFeedAll.length
+
+          let scrapCount = findScrapAll.length
           
           result = { 
             shopId: shops[i].shopId,
@@ -350,6 +357,7 @@ class ShopController {
             distance: Number(totalDistance.toFixed(0)),
             feedCount: feedCount,
             isScrap: isScrap ? true : false,
+            scrapCount: scrapCount,
           }
 
           result2.push(result);
@@ -450,6 +458,11 @@ class ShopController {
           let findFeedAll = await Feeds.findAll({
             where: { ShopId : shops[i].shopId }
           })
+
+          let findScrapAll = await Scrap.findAll({
+            where: { ShopId : shops[i].shopId }
+          })
+
           const userLocate = { latitude: lng, longitude: lat };
 
           const shopLocate = {
@@ -463,6 +476,8 @@ class ShopController {
           });
 
           let feedCount = findFeedAll.length
+
+          let scrapCount = findScrapAll.length
           
           result = { 
             shopId: shops[i].shopId,
@@ -478,6 +493,7 @@ class ShopController {
             distance: Number(totalDistance.toFixed(0)),
             feedCount: feedCount,
             isScrap: false,
+            scrapCount: scrapCount,
           }
 
           result2.push(result);
@@ -491,6 +507,124 @@ class ShopController {
       return;
     }
   };
+
+
+  getAllBestShop = async (req, res, next) => {
+    const { lng, lat } = req.body;
+    try {
+      if (res.locals.user) {
+        const { userId } = res.locals.user;
+        console.log(userId)
+        const shops = await this.ShopService.getAllBestShop()
+        let best10Shop = []
+
+        // 무작위로 10개만 조회 하기  
+      for (let i = 0; i < 10; i++) {
+        const userLocate = { latitude: lng, longitude: lat };
+
+          const shopLocate = {
+            latitude: shops[i].lng,
+            longitude: shops[i].lat,
+          };
+
+          const totalDistance = haversine(userLocate, shopLocate, {
+            unit: "meter",
+          });
+        
+        let isScrap =  await Scrap.findOne({
+          where: { ShopId: shops[i].shopId, UserId: userId },
+        });
+
+        let findFeedAll = await Feeds.findAll({
+          where: { ShopId : shops[i].shopId }
+        })
+
+        let findScrapAll = await Scrap.findAll({
+          where: { ShopId : shops[i].shopId }
+        })
+
+        let feedCount = findFeedAll.length
+
+        let scrapCount = findScrapAll.length
+
+        let result = {
+          shopId: shops[i].shopId,
+          address: shops[i].address,
+          lng: Number(shops[i].lng),
+          lat: Number(shops[i].lat),
+          shopName: shops[i].shopName,
+          thumbnail: shops[i].thumbnail,
+          menuName: shops[i].menuName,
+          maxPrice: Number(shops[i].maxPrice),
+          minPrice: Number(shops[i].minPrice),
+          distance: Number(totalDistance.toFixed(0)),
+          category: shops[i].category,
+          feedCount : feedCount,
+          isScrap: isScrap ? true : false,
+          scrapCount : scrapCount,
+
+        }
+        best10Shop.push(result)
+      } 
+
+      res.status(200).json({ shops : best10Shop });
+    } else {
+        const shops = await this.ShopService.getAllBestShop()
+        let best10Shop = []
+
+        // 무작위로 10개만 조회 하기  
+      for (let i = 0; i < 10; i++) {
+        const userLocate = { latitude: lng, longitude: lat };
+
+        const shopLocate = {
+          latitude: shops[i].lng,
+          longitude: shops[i].lat,
+        };
+
+        const totalDistance = haversine(userLocate, shopLocate, {
+          unit: "meter",
+        });
+
+        let findFeedAll = await Feeds.findAll({
+          where: { ShopId : shops[i].shopId }
+        })
+
+        let findScrapAll = await Scrap.findAll({
+          where: { ShopId : shops[i].shopId }
+        })
+
+        let feedCount = findFeedAll.length
+
+        let scrapCount = findScrapAll.length
+
+        let result = {
+          shopId: shops[i].shopId,
+          address: shops[i].address,
+          lng: Number(shops[i].lng),
+          lat: Number(shops[i].lat),
+          shopName: shops[i].shopName,
+          thumbnail: shops[i].thumbnail,
+          menuName: shops[i].menuName,
+          maxPrice: Number(shops[i].maxPrice),
+          minPrice: Number(shops[i].minPrice),
+          distance: Number(totalDistance.toFixed(0)),
+          category: shops[i].category,
+          feedCount : feedCount,
+          isScrap: false,
+          scrapCount : scrapCount,
+
+        }
+        best10Shop.push(result)
+      } 
+
+      res.status(200).json({ shops : best10Shop });
+    }
+    } catch(error) {
+      console.log(error);
+      res.status(400).json({ errorMsg: "예기치 못한 오류가 발생했습니다" });
+      return;
+    }
+  }
 
 
 

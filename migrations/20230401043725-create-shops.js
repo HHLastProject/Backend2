@@ -26,10 +26,6 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
-      dong: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
       category: {
         allowNull: false,
         type: Sequelize.STRING
