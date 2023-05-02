@@ -152,11 +152,8 @@ feedFindOne = async (shopId) => {
 
     const result = await Promise.all(value.map(async (feed) => {
     
-      const {Shop,Tags,User } = feed;
+    const {Shop,Tags,User } = feed;
 
-      // let isScrap = await Scrap.findOne({where : {ShopId : Shop.shopId, UserId : User.userId }})
-
-      // isScrap ? (isScrap = true) : (isScrap = false)
 
       // 카페 스크랩 유무 확인(새로 변경된 코드)
       let isScrap 
@@ -166,9 +163,6 @@ feedFindOne = async (shopId) => {
       isScrap ? (isScrap = true) : (isScrap = false)
 
       // 좋아요 유무 확인
-      // let isLike = await Likes.findOne({where : { FeedId : feed.feedId }})
-
-      // isLike ? (isLike = true) : (isLike = false)
       let isLike
         if(userId) {
           isLike = await Likes.findOne({where : { FeedId : feed.feedId, UserId : userId }})
@@ -190,10 +184,6 @@ feedFindOne = async (shopId) => {
         }
       isMine ? (isMine = true) : (isMine = false)
 
-      
-
-
-
     return {
       feedId : feed.feedId,
       nickname : User.nickname,
@@ -201,18 +191,16 @@ feedFindOne = async (shopId) => {
       createdAt : feed.createdAt,
       feedPic: feed.feedPic,
       comment : feed.comment,
-      tag : Tags.map((value) => ({ tag: value.tag })) ,
+      tag : Tags.map((value)=> { return value.tag  }) ,
       shopId : Shop.shopId,
       shopName : Shop.shopName,
       shopAddress : Shop.address,
       shopThumbnail : Shop.thumbnail,
       isMine,
       isScrap,
-      /////
       isLike,
       likeCount,
       feedCommentCount,
-      /////
     }
   }));
 
