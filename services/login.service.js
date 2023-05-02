@@ -16,13 +16,13 @@ const NAVER_REDIRECT_URI = encodeURI(process.env.NAVER_REDIRECT_URI);
 class LoginService {
   loginRepository = new LoginRepository();
 
-  getKakaoToken = async (code) => {
+  getKakaoToken = async (code,redirectURL) => {
     console.log("서비스 입니다");
     
     const data = {
       grant_type: "authorization_code",
       client_id: KAKAO_CLIENT_ID,  
-      redirect_uri: KAKAO_REDIRECT_URI, 
+      redirect_uri: redirectURL, 
       code,
     };
     
