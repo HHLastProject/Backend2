@@ -46,7 +46,7 @@ class searchController {
   const result = await this.searchService.findAllShop();
   const result2 = await this.searchService.summaryShop(result);
 
-  res.status(200).json({guList : result2})
+  res.send(result2)
   }
 
 }
