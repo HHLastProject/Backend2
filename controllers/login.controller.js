@@ -8,7 +8,7 @@ class LoginController {
 
   loginKakao = async (req, res) => {
     try {
-      // const { code } = req.query;       //백에서만 할때
+      // const { code } = req.query;    const redirectURL =  "http://localhost:3060/api/login/kaKao" //백에서만 할때              
       const { code,redirectURL  } = req.body;        //프론트에 배포할때
 
       const resultToken = await this.loginServices.getKakaoToken(code,redirectURL);
