@@ -3,7 +3,7 @@ const {Scrap,Shops,Feeds,Folders,Lists} = require("../models");
 class FavoriteRepository {
 
     findAllbyScrap = async(userId) => { 
-        const value2 = await Scrap.findAll({
+        const result = await Scrap.findAll({
             attributes: ['ShopId',"scrapId"],
             include: [
                 {
@@ -14,7 +14,7 @@ class FavoriteRepository {
             where:{UserId:userId}
         
         });
-        return value2
+        return result
     };
     
 
