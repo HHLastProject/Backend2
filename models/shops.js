@@ -53,10 +53,6 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.STRING
     },
-    dong: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
     address: {
       allowNull: false,
       type: DataTypes.STRING
