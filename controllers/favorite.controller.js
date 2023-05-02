@@ -18,14 +18,14 @@ class favoriteController {
     console.log("======================================================================")
 
     //Scrap 데이터에 가계정보 가져오기
-    const result2 = await this.favoriteService.findOneShops(myAllScrap, userId);
+    const scrapList = await this.favoriteService.findOneShops(myAllScrap, userId);
 
     // let folderList = await this.favoriteService.findAllFolder(myAllScrap);
     let folderList = await this.favoriteService.findAllFolder(userId);
     console.log("======================================================================")
     console.log("===즐겨찾기 보여주기 api종료=======================================================")
     console.log("======================================================================")
-    res.status(200).json({ scrapList: result2, folderList });
+    res.status(200).json({ scrapList, folderList });
   };
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
