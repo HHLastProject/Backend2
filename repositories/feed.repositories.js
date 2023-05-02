@@ -19,6 +19,7 @@ class FeedRepository {
           attributes: ["shopName", "address", "thumbnail", "shopId","category"],
         },
       ],
+      order: [['createdAt', 'DESC']],
     });
 
     return findAll;
@@ -57,6 +58,7 @@ class FeedRepository {
         },
       ],
       where: { ShopId: shopId },
+      order: [['createdAt', 'DESC']],
     });
     return findAll;
   };
