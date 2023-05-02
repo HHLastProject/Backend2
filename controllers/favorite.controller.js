@@ -18,18 +18,14 @@ class favoriteController {
     console.log("======================================================================")
 
     //Scrap 데이터에 가계정보 가져오기
-
-    const reuslt2 = await this.favoriteService.findAllShops(myAllScrap, userId);
-    const folderList = await this.favoriteService.findAllFolders(userId);
-
+    const result2 = await this.favoriteService.findAllShops(myAllScrap, userId);
 
     // let folderList = await this.favoriteService.findAllFolder(myAllScrap);
-    let folderList = await this.favoriteService.findAllFolder(userId);
+    let folderList = await this.favoriteService.findAllFolders(userId);
     console.log("======================================================================")
     console.log("===즐겨찾기 보여주기 api종료=======================================================")
     console.log("======================================================================")
-
-    res.status(200).json({ scrapList :reuslt2, folderList });
+    res.status(200).json({ scrapList: result2, folderList });
 
   };
 //////////////////////////////////////////////////////////////////////////
@@ -52,8 +48,13 @@ modifyFolders = async (req, res, next) => {
   const myAllScrap = await this.favoriteService.findAllScrap(userId);
 
   //나의 스크랩한 shopId 전체
-  const myAllScrapShopId = myAllScrap.map((value) => {
+  let myAllScrapShopId = myAllScrap.map((value) => {
     return value.shopId;
+  });
+
+  //나의 스크랩한 scrapId전체
+  let myAllScrapId = myAllScrap.map((value) => {
+    return value.scrapId;
   });
 
   //나의 전체 폴더 가져오기 - folderId, folderName
@@ -87,12 +88,13 @@ modifyFolders = async (req, res, next) => {
     }
   }
 
-  await this.favoriteService.listPatch2(folderList,userId)
-  
+  let tempData =await this.favoriteService.listPatch2(folderList,userId)
+  console.log(folderList)
   console.log("======================================================================")
   console.log("===스크랩 폴더 변경 api종료=======================================================")
   console.log("======================================================================")
   return res.json({tempData})
+
   return res.status(200).json({ msg: "업로드에 성공했습니다" });
 };
 //////////////////////////////////////////////////////////////////////////
