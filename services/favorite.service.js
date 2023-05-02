@@ -6,16 +6,17 @@ class FavoriteService {
   }
 
   findAllScrap = async (userId) => {
-    const value2 = await this.favoriteRepository.findAllbyScrap(userId);
+    let findAllDataScrap = await this.favoriteRepository.findAllbyScrap(userId);
 
-    let result = await value2.map((value) => {
+    findAllDataScrap = await findAllDataScrap.map((value) => {
       return {
         scrapId: value.scrapId,
         shopId: value.ShopId,
         ListId: value.Lists[0].listId,
       };
     });
-    return result;
+
+    return findAllDataScrap;
   };
 
 
@@ -90,38 +91,32 @@ class FavoriteService {
   ///////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////
 
-  findOneShops = async (myAllScrap, userId) => {
+  findAllShops = async (myAllScrap, userId) => {
     let result3 = [];
 
     for (let i = 0; i < myAllScrap.length; i++) {
-      let shopId = myAllScrap[i].shopId;
-      let scrapId = myAllScrap[i].scrapId;
-      let ListId = myAllScrap[i].ListId;
+      const shopId = myAllScrap[i].shopId;
+      const ListId = myAllScrap[i].ListId;
 
-      let shopData = await this.favoriteRepository.findOnebyShop(shopId);
-      let isScrap = await this.favoriteRepository.findOnebyScrap(
-        userId,
-        shopId
-      );
+      let findOneDataShop = await this.favoriteRepository.findOnebyShop(shopId);
+      let isScrap = await this.favoriteRepository.findOnebyScrap(userId,shopId);
 
       //기존에 가지고 있던 ListId를 통해 해당 lists정보를 가져온다 그 후 거기에 있는 폴더 id를 가져온다
       let findList = await this.favoriteRepository.findOnebyLists(ListId);
       let folderId = findList.FolderId;
 
-      let folderData = await this.favoriteRepository.findOnebyFolderName(
-        folderId
-      );
+      let folderData = await this.favoriteRepository.findOnebyFolderName(folderId);
 
       isScrap ? (isScrap = true) : (isScrap = false);
 
       let value = {
-        shopId: shopData.shopId,
-        address: shopData.address,
-        shopName: shopData.shopName,
-        thumbnail: shopData.thumbnail,
-        feedCount: shopData.Feeds.length,
+        shopId: findOneDataShop.shopId,
+        address: findOneDataShop.address,
+        shopName: findOneDataShop.shopName,
+        thumbnail: findOneDataShop.thumbnail,
+        feedCount: findOneDataShop.Feeds.length,
         isScrap: isScrap,
-        category: shopData.category,
+        category: findOneDataShop.category,
         folderName: folderData.folderName,
       };
 
