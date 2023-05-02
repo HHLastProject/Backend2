@@ -13,28 +13,28 @@ let operatingTime = "연중무휴";
 router.get("/test", async (req, res) => {
   for (let i = 0; i < 3699; i++) {
     let flontNumber = Math.ceil(getRandomArbitrary(1000, 9999));
-    let backNumber = Math.ceil(getRandomArbitrary(1000, 9999));
+    let backNumber = Math.ceil(getRandomArbitrary(-1, 9));
 
 
     //보드카페: 4.3% 전통찾집: 4.3% 사주카페: 2.9% 애견카페: 1.7% 일반카페: 86.8%
     if ("보드카페" == data[i].category) {
-      let random = Math.ceil(getRandomArbitrary(0, 6))
+      let random = Math.ceil(getRandomArbitrary(0, 5))
       // thumbnail = "borad.jpg";
       thumbnail = "borad" + random + ".jpg";
     } else if ("전통찻집" == data[i].category) {
-      let random = Math.ceil(getRandomArbitrary(0, 4))
+      let random = Math.ceil(getRandomArbitrary(0, 3))
       // thumbnail = "tradition.jpg";
       thumbnail = "tradition" + random + ".jpg"
     } else if ("애견카페" == data[i].category) {
-      let random = Math.ceil(getRandomArbitrary(0, 3))
+      let random = Math.ceil(getRandomArbitrary(0, 2))
       // thumbnail = "dog.jpg";
       thumbnail = "dog" + random + ".jpg"
     } else if ("사주카페" == data[i].category) {
-      let random = Math.ceil(getRandomArbitrary(0, 5))
+      let random = Math.ceil(getRandomArbitrary(0, 4))
       // thumbnail = "sandbar.jpg";
       thumbnail = "sandbar" + random + ".jpg"
     } else if ("카페" == data[i].category) {
-      let random = Math.ceil(getRandomArbitrary(0, 101))
+      let random = Math.ceil(getRandomArbitrary(0, 100))
       // thumbnail = "cafe.jpg";
       thumbnail = "cafe" + random + ".jpg";
     } else {
@@ -45,13 +45,12 @@ router.get("/test", async (req, res) => {
       AdminId: 1,
       shopName: data[i].shopName,
       address: data[i].roadAddress,
-      dong : "temp",
       category: data[i].category,
       lng: data[i].lng,
       lat: data[i].lat,
       thumbnail: thumbnail,
       operatingTime: operatingTime,
-      phoneNumber: "010-" + flontNumber + "-" + backNumber,
+      phoneNumber: "010-" + flontNumber + "-" + backNumber + "XXX",
     });
 
     let totalMenu = Math.ceil(getRandomArbitrary(1, 8));
@@ -145,6 +144,9 @@ router.get("/test", async (req, res) => {
       });
     }
   }
+
+
+
   return res.send("완2");
 });
 
