@@ -6,30 +6,31 @@ class FavoriteService {
   }
 
   findAllScrap = async (userId) => {
-    const value2 = await this.favoriteRepository.findAllbyScrap(userId);
+    let findAllDataScrap = await this.favoriteRepository.findAllbyScrap(userId);
 
-    let result = await value2.map((value) => {
+    findAllDataScrap = await findAllDataScrap.map((value) => {
       return {
         scrapId: value.scrapId,
         shopId: value.ShopId,
         ListId: value.Lists[0].listId,
       };
     });
-    return result;
+    return findAllDataScrap;
   };
 
 
-  findAllFolder = async (userId) => {
-    let finalValue = await Folders.findAll({ where: { userId } });
-
-    finalValue = finalValue.map((value) => {
+  findAllFolders = async (userId) => {
+   
+    let findAllDataFolders = await this.favoriteRepository.findAllbyFolders(userId)
+    
+    findAllDataFolders = findAllDataFolders.map((value) => {
       return {
         folderId: value.folderId,
         folderName: value.folderName,
       };
     });
 
-    return finalValue;
+    return findAllDataFolders;
   };
 
   listPatch2 = async (folderList, userId) => {
@@ -90,44 +91,34 @@ class FavoriteService {
   ///////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////
 
-  findOneShops = async (myAllScrap, userId) => {
-    let result3 = [];
+  findAllShops = async (myAllScrap, userId) => {
+    let resultFindAllShops = [];
 
     for (let i = 0; i < myAllScrap.length; i++) {
-      let shopId = myAllScrap[i].shopId;
-      let scrapId = myAllScrap[i].scrapId;
-      let ListId = myAllScrap[i].ListId;
+      const shopId = myAllScrap[i].shopId;
+      const ListId = myAllScrap[i].ListId;
 
-      let shopData = await this.favoriteRepository.findOnebyShop(shopId);
-      let isScrap = await this.favoriteRepository.findOnebyScrap(
-        userId,
-        shopId
-      );
+      const findOneDataShop = await this.favoriteRepository.findOnebyShop(shopId);
 
       //기존에 가지고 있던 ListId를 통해 해당 lists정보를 가져온다 그 후 거기에 있는 폴더 id를 가져온다
-      let findList = await this.favoriteRepository.findOnebyLists(ListId);
-      let folderId = findList.FolderId;
+      const findOneDataList = await this.favoriteRepository.findOnebyLists(ListId);
+      const findOneDataFolder = await this.favoriteRepository.findOnebyFolderName(findOneDataList.FolderId);
+      const isScrap = await this.favoriteRepository.findOnebyScrap(userId,shopId);
 
-      let folderData = await this.favoriteRepository.findOnebyFolderName(
-        folderId
-      );
-
-      isScrap ? (isScrap = true) : (isScrap = false);
-
-      let value = {
-        shopId: shopData.shopId,
-        address: shopData.address,
-        shopName: shopData.shopName,
-        thumbnail: shopData.thumbnail,
-        feedCount: shopData.Feeds.length,
-        isScrap: isScrap,
-        category: shopData.category,
-        folderName: folderData.folderName,
+      const modify = {
+        shopId: findOneDataShop.shopId,
+        address: findOneDataShop.address,
+        shopName: findOneDataShop.shopName,
+        thumbnail: findOneDataShop.thumbnail,
+        feedCount: findOneDataShop.Feeds.length,
+        isScrap: isScrap ? true : false,
+        category: findOneDataShop.category,
+        folderName: findOneDataFolder.folderName,
       };
 
-      result3.push(value);
+      resultFindAllShops.push(modify);
     }
-    return result3;
+    return resultFindAllShops;
   };
 
   ///////////////////////////////////////////////////////////////

@@ -24,9 +24,9 @@ class FavoriteRepository {
     };
 
 
-    findAllbyFolder = async() => { 
-        const value2 = await Folders.findAll({});
-        return value2
+    findAllbyFolders = async(userId) => { 
+        const resultFindAllFolders = await Folders.findAll({ where: { userId } });
+        return resultFindAllFolders
     };
 
     findOnebyLists = async(ListId) => { 

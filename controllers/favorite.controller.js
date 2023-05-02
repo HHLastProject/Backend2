@@ -18,14 +18,13 @@ class favoriteController {
     console.log("======================================================================")
 
     //Scrap 데이터에 가계정보 가져오기
-    const result2 = await this.favoriteService.findOneShops(myAllScrap, userId);
+    const scrapList = await this.favoriteService.findAllShops(myAllScrap, userId);
+    const folderList = await this.favoriteService.findAllFolders(userId);
 
-    // let folderList = await this.favoriteService.findAllFolder(myAllScrap);
-    let folderList = await this.favoriteService.findAllFolder(userId);
     console.log("======================================================================")
     console.log("===즐겨찾기 보여주기 api종료=======================================================")
     console.log("======================================================================")
-    res.status(200).json({ scrapList: result2, folderList });
+    res.status(200).json({ scrapList, folderList });
   };
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
@@ -138,7 +137,6 @@ console.log("===================================================================
   console.log("===폴더 생성 api종료=======================================================")
   console.log("======================================================================")
   return res.status(200).json({"msg" : "폴더를 생성했습니다"});
-  return res.json({myAllScrapData,findAllListsData,findAllFoldersData})
 };
 
 //////////////////////////////////////////////////////////////////////////
