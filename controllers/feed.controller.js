@@ -8,6 +8,16 @@ class FeedController {
 
   listsFeed = async (req, res, next) => {
    
+    const { pageNumber } = req.query;
+    console.log("===========================")
+    console.log("===========================")
+    console.log("===========================")
+
+    console.log("pageNumber는")
+    console.log(pageNumber)
+    console.log("===========================")
+    console.log("===========================")
+    console.log("===========================")
     let feedFindAll = null
    if(res.locals.user){
     const { userId } = res.locals.user;
