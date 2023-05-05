@@ -21,18 +21,7 @@ class FavoriteService {
     return findAllDataScraps;
   };
 
-  checkFolderLists = async (folderList, myAllScrapShopId) => {
-    for (let i = 0; i < folderList.length; i++) {
-      for (let j = 0; j < folderList[i].shopList.length; j++) {
-        const oneFolderShopId = folderList[i].shopList[j].shopId;
-        const isMyScrapbyshopList = myAllScrapShopId.indexOf(oneFolderShopId);
-        if (isMyScrapbyshopList == -1) {
-          // return res.status(400).json({"msg" : "즐겨찾기에 추가된 목록이 아닙니다"});
-          throw new Error("즐겨찾기에 추가된 목록이 아닙니다", 400);
-        }
-      }
-    }
-  };
+
 
   findAllFolders = async (userId) => {
     let findAllDataFolders = await this.favoriteRepository.findAllbyFolders(
@@ -49,10 +38,6 @@ class FavoriteService {
     return findAllDataFolders;
   };
 
-  ///////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////
-
   listPatch2 = async (folderList, userId) => {
     let folderName = [];
     let scrapId = [];
@@ -60,18 +45,13 @@ class FavoriteService {
     for (let i = 0; i < folderList.length; i++) {
       for (let j = 0; j < folderList[i].shopList.length; j++) {
         // shopid ,유저를 기준으로 스크랩id가져온다
-        let findOneDataScrap = await this.favoriteRepository.findOnebyScrap(
+        const findOneDataScrap = await this.favoriteRepository.findOnebyScrap(
           userId,
           folderList[i].shopList[j].shopId
         );
 
-        // findOneDataScrap = findOneDataScrap.map((value) => {
-        //   return value.scrapId;
-        // });
-
         //순차적으로 가게id를 스크랩id로 변환 완료
         folderName.push(folderList[i].folderName);
-        // scrapId.push(findOneDataScrap);
         scrapId.push(findOneDataScrap.scrapId);
       }
     }
@@ -80,7 +60,7 @@ class FavoriteService {
 
     //폴더이름으로 폴더id찾아오기
     for (let i = 0; i < folderName.length; i++) {
-      let findFolder = await this.favoriteRepository.findOnebyFolder(
+      const findFolder = await this.favoriteRepository.findOnebyFolder(
         folderName[i]
       );
       findFolderId.push(findFolder.folderId);
@@ -95,10 +75,6 @@ class FavoriteService {
     }
   };
 
-  ///////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////
-
   findAllShops = async (myAllScrap, userId) => {
     let findAllDataShops = [];
 
@@ -106,19 +82,12 @@ class FavoriteService {
       const shopId = myAllScrap[i].shopId;
       const ListId = myAllScrap[i].ListId;
 
-      const findOneDataShop = await this.favoriteRepository.findOnebyShop(
-        shopId
-      );
-      let isScrap = await this.favoriteRepository.findOnebyScrap(
-        userId,
-        shopId
-      );
+      const findOneDataShop = await this.favoriteRepository.findOnebyShop(shopId);
+      let isScrap = await this.favoriteRepository.findOnebyScrap(userId,shopId);
 
       //기존에 가지고 있던 ListId를 통해 해당 lists정보를 가져온다 그 후 거기에 있는 폴더 id를 가져온다
       const findList = await this.favoriteRepository.findOnebyLists(ListId);
-      const folderData = await this.favoriteRepository.findOnebyFolderName(
-        findList.FolderId
-      );
+      const folderData = await this.favoriteRepository.findOnebyFolderName(findList.FolderId);
 
       const redefine = {
         shopId: findOneDataShop.shopId,
@@ -136,11 +105,6 @@ class FavoriteService {
     return findAllDataShops;
   };
 
-  ///////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////
   findAllLists = async (myAllScrap) => {
     let listAllData = [];
     for (let i = 0; i < myAllScrap.length; i++) {
@@ -187,15 +151,6 @@ class FavoriteService {
   folderCreate = async (userId, folderName) => {
     return await this.favoriteRepository.folderbyCreate(userId, folderName);
   };
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
 
   findAllFolderLists = async (folderId, userId) => {
     let favoriteFolder = await Folders.findOne({
@@ -206,20 +161,11 @@ class FavoriteService {
       { where: { FolderId: folderId } }
     );
   };
-    //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////
+
   deleteFolder = async (folderId) => {
     await this.favoriteRepository.deletebyFolder(folderId);
   };
-  ///////////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////////
+
   listPatch = async (folderCreate, existFolderId) => {
     // let finalData = [];
 
@@ -241,8 +187,7 @@ class FavoriteService {
       }
     }
   };
-  ///////////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////////
+
   listCreate = async (FolderId, seletedShopId) => {
     const result = await Lists.create({
       FolderId,
@@ -263,6 +208,8 @@ class FavoriteService {
       });
     }
   };
+
+
 }
 
 module.exports = FavoriteService;
