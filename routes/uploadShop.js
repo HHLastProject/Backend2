@@ -10,7 +10,7 @@ let AdminId = 1;
 let thumbnail = "cafe1.jpg";
 let operatingTime = "연중무휴";
 
-router.get("/test", async (req, res) => {
+router.get("/start", async (req, res) => {
   for (let i = 0; i < 3699; i++) {
     let flontNumber = Math.ceil(getRandomArbitrary(1000, 9999));
     let backNumber = Math.ceil(getRandomArbitrary(-1, 9));

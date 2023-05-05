@@ -18,7 +18,10 @@ router.use('/api/admin', adminRouter);
 router.use('/api/login', loginRouter);
 router.use("/api", feedRouter,mypageRouter,searchRouter,scrapRouter,favoriteRouter,likeRouter,feedCommentRouter);
 
-const tempRouter = require('./temp.js');
-router.use('/api/temp', tempRouter);
+const uploadShopRouter = require('./uploadShop.js');
+router.use('/api/uploadShop', uploadShopRouter);
+
+const testCodeRouter = require('./testCode.js');
+router.use('/api/testCode', testCodeRouter);
 
 module.exports = router;
