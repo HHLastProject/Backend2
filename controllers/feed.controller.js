@@ -21,7 +21,7 @@ class FeedController {
     let pageFeedFindAll = [];
 
     if(5 * (pageNumber - 1) > feedFindAll.length) {
-      res.status(204).json({"msg" : "feed가 없는 페이지 입니다"})
+      return res.send(pageFeedFindAll)
     }
 
     for (let i = 0; i < 5; i++) {
