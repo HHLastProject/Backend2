@@ -1,6 +1,4 @@
 const LoginRepository = require("../repositories/login.repositories.js");
-
-// 
 const qs = require("querystring");
 const axios = require("axios");
 
@@ -46,7 +44,6 @@ class LoginService {
     );
    
     const { access_token } = responseToken.data;
-    // req.session.accessToken = access_token;   //이게 어떠한 기능인지 알아보기
 
     if (!access_token) {
       return res.status(401).send({ errorMsg: "로그인이 필요합니다." });
@@ -55,9 +52,6 @@ class LoginService {
   };
 
   getKaKaoUserInfo = async (resultToken) => {
-
-    console.log("유저 info 서비스입니다");
-
     const responseUser = await axios.get("https://kapi.kakao.com/v2/user/me", {
       headers: {
         Authorization: `Bearer ${resultToken}`,
@@ -69,7 +63,7 @@ class LoginService {
     // 유저 정보 저장하기
     const userInfo = {
       id,
-      profilePic : properties.profile_image, //이름 변경하기
+      profilePic : properties.profile_image, 
       nickname : properties.nickname,
       gender : kakao_account.gender,
       email : kakao_account.email

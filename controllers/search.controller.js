@@ -37,13 +37,12 @@ class searchController {
     if (res.locals.user) {
       const { userId } = res.locals.user;
       const value2 =  await this.searchService.findAllSearchHistory(userId);
-      console.log("value2.shopId")
-      console.log(value2[0])
+    
        const value3 = await value2.map((value) => { 
         return { 
-            shopId: value.shopId,
-            shopName: value.shopName,
-            shopAddress: value.address,
+            // shopId: value.shopId,
+            // shopName: value.shopName,
+            searchContent: value.searchContent,
         }
       })
    

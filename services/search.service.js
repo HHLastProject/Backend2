@@ -7,18 +7,9 @@ class SearchService {
   }
   
   findAllShop = async (searchName) => {
-    console.log("")
-    console.log("")
-    console.log("가게를 검색합니다")
-    console.log("")
-    console.log("")
+   
     let result = await this.searchRepository.findAllbyShop(searchName);
   
-    console.log("")
-    console.log("")
-    console.log("검색한 가게를 가져왔습니다")
-    console.log("")
-    console.log("")
     if(result) {
      result = await result.map((value) => {
       return {
@@ -30,12 +21,7 @@ class SearchService {
       };
     });
   } 
-  console.log("")
-  console.log("")
-  console.log("검색한 가게를 내용을 정리해서 보냅니다")
-  console.log("")
-  console.log("")
-
+  
     return result;
   };
 
