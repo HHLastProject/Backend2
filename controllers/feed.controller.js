@@ -7,27 +7,33 @@ class FeedController {
   feedService = new FeedService();
 
   listsFeed = async (req, res, next) => {
-   
-    const { pageNumber } = req.query;
-    console.log("===========================")
-    console.log("===========================")
-    console.log("===========================")
+    let { pageNumber } = req.query;
+    pageNumber = Number(pageNumber);
 
-    console.log("pageNumber는")
-    console.log(pageNumber)
-    console.log("===========================")
-    console.log("===========================")
-    console.log("===========================")
-    let feedFindAll = null
-   if(res.locals.user){
-    const { userId } = res.locals.user;
-    feedFindAll = await this.feedService.feedFindAll(userId);
-   } else { 
-    feedFindAll = await this.feedService.feedFindAll()
-   }
-    
-   
-    res.send(feedFindAll);
+    let feedFindAll = null;
+    if (res.locals.user) {
+      const { userId } = res.locals.user;
+      feedFindAll = await this.feedService.feedFindAll(userId);
+    } else {
+      feedFindAll = await this.feedService.feedFindAll();
+    }
+
+    let pageFeedFindAll = [];
+
+    if(5 * (pageNumber - 1) > feedFindAll.length) {
+      res.status(204).json({"msg" : "feed가 없는 페이지 입니다"})
+    }
+
+    for (let i = 0; i < 5; i++) {
+      let feedCount = 5 * pageNumber - 4 + i;
+      pageFeedFindAll.push(feedFindAll[feedCount]);
+    }
+
+    if (pageNumber) {
+      res.status(200).json(pageFeedFindAll);
+    } else {
+      res.status(200).json(feedFindAll);
+    }
   };
 
   detailFeed = async (req, res, next) => {
@@ -40,17 +46,17 @@ class FeedController {
   detailShopFeed = async (req, res, next) => {
     const { shopId } = req.params;
 
-    let feedFindAll = null
-    if(res.locals.user){
+    let feedFindAll = null;
+    if (res.locals.user) {
       const { userId } = res.locals.user;
-      feedFindAll = await this.feedService.detailShopFeed(shopId,userId);
-    } else { 
-      feedFindAll = await this.feedService.detailShopFeed(shopId)
+      feedFindAll = await this.feedService.detailShopFeed(shopId, userId);
+    } else {
+      feedFindAll = await this.feedService.detailShopFeed(shopId);
     }
-    
-    res.send(feedFindAll)
+
+    res.send(feedFindAll);
   };
-///////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////
   postFeed = async (req, res, next) => {
     const { shopId } = req.params;
     const { comment, tags } = req.body;
