@@ -25,7 +25,7 @@ class scrapController {
       res.status(200).json({ isScrap: boolean });
     } catch (err) {
       console.log(err);
-      res.status(400).json({ msg: "예기치 못한 오류가 발생했습니다" });
+      res.status(400).json({ "msg": "예기치 못한 오류가 발생했습니다" });
     }
   };
 }
