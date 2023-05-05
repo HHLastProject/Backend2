@@ -25,7 +25,7 @@ class FeedController {
     }
 
     for (let i = 0; i < 5; i++) {
-      let feedCount = 5 * pageNumber - 4 + i;
+      let feedCount = 5 * pageNumber - 5 + i;
       pageFeedFindAll.push(feedFindAll[feedCount]);
     }
 
