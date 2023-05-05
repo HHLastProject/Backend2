@@ -1,6 +1,8 @@
 # Cafe log(카페 로그)
 안녕하세요 카페로그 개발한 항해99 13기 10조 입니다.
 
+<img src="https://velog.velcdn.com/images/clue97/post/cb5cdb33-c8b2-466c-a98d-cd475a708a2f/image.png"/>
+
 ## 목차
 (추후 추가 예정)
 
