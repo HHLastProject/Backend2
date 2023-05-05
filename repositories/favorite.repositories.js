@@ -17,21 +17,19 @@ class FavoriteRepository {
     
     findOnebyScrap = async(userId,shopId) => { 
         return await Scrap.findOne({where:{UserId : userId, ShopId : shopId}});
-        // return await Scrap.findAll({where:{UserId : userId, ShopId : shopId}});
     }; 
     
     findOnebyFolder = async(folderName) => { 
         return await Folders.findOne({where : {folderName}});
     };
 
+    findOnebyFolderName =  async(folderId) => { 
+        return await Folders.findOne({where : {folderId }})
+    }
+
     findAllbyFolders = async(userId) => { 
         return await Folders.findAll({ where: { userId } });
     }
-
-    // findAllbyFolder = async() => { 
-    //     const value2 = await Folders.findAll({});
-    //     return value2
-    // };
 
     folderbyCreate = async(userId,folderName) => { 
         return await Folders.create({
@@ -44,13 +42,8 @@ class FavoriteRepository {
         await Folders.destroy({ where: { folderId } });
     }
 
-    findOnebyFolderName =  async(folderId) => { 
-        return await Folders.findOne({where : {folderId }})
-    }
-
     findOnebyLists = async(ListId) => { 
-        const value2 = await Lists.findOne({where : {listId :ListId}})
-       return value2
+        return await Lists.findOne({where : {listId :ListId}})
    };
 
     findOnebyShop = async(shopId) => { 
@@ -66,8 +59,5 @@ class FavoriteRepository {
         });
     }
 
-    findOnebyFolderList = async() => { 
-        return 
-    }
 }
 module.exports = FavoriteRepository;

@@ -15,7 +15,9 @@ module.exports = async (req, res, next) => {
     console.log("=============");
  
     if (authType !== "Bearer" || !token) {
-      throw Boom.unauthorized("로그인 후에 이용할 수 있는 기능입니다.");
+      // throw Boom.unauthorized("로그인 후에 이용할 수 있는 기능입니다.");
+      req.status(200).json("비로그인")
+      next();
     }
 
     const { id} = jwt.verify(token, "key");
