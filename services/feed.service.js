@@ -1,15 +1,15 @@
 const FeedRepository = require("../repositories/feed.repositories");
-const {Scrap,Likes,FeedComments,Feeds,Menus}= require("../models");
-
+const {Scrap,Likes,FeedComments,Feeds}= require("../models");
 
 class FeedService {
   feedRepository = new FeedRepository();
  
 //전체 피드 가져오기
   feedFindAll = async (userId) => {
-     const value = await this.feedRepository.findByFeed();
 
-      const result = await Promise.all(value.map(async (feed) => {
+     const findAllDataFeed = await this.feedRepository.findByFeed();
+
+      const result = await Promise.all(findAllDataFeed.map(async (feed) => {
       
         const {Shop,Tags,User } = feed;
        
@@ -50,7 +50,6 @@ class FeedService {
         createdAt : feed.createdAt,
         feedPic: feed.feedPic,
         comment : feed.comment,
-        // tag : Tags.map((value) => ({ tag: value.tag })) ,
         tag : Tags.map((value) => value.tag) ,
         shopId : Shop.shopId,
         shopName : Shop.shopName,
@@ -144,7 +143,6 @@ feedFindOne = async (shopId) => {
       this.feedRepository.postTag(feed,tag);
     }
     
-    return 0;
   };
   
   detailShopFeed = async (shopId,userId) => {

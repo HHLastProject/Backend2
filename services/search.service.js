@@ -1,5 +1,4 @@
 const SearchRepository = require("../repositories/search.repositories");
-const { Shops } = require("../models");
 
 class SearchService {
   constructor() {
@@ -8,10 +7,10 @@ class SearchService {
   
   findAllShop = async (searchName) => {
    
-    let result = await this.searchRepository.findAllbyShop(searchName);
+    let findAllDatabyShop = await this.searchRepository.findAllbyShop(searchName);
   
-    if(result) {
-     result = await result.map((value) => {
+    if(findAllDatabyShop) {
+      findAllDatabyShop = await findAllDatabyShop.map((value) => {
       return {
         shopId: value.shopId,
         shopName: value.shopName,
@@ -22,7 +21,7 @@ class SearchService {
     });
   } 
   
-    return result;
+    return findAllDatabyShop;
   };
 
   createSearchHistory = async (userId, searchName) => {
@@ -31,28 +30,26 @@ class SearchService {
 
   findAllSearchHistory = async (userId) => {
     //전체값  가져오기
-    const findAllSearchHistory = await this.searchRepository.findAllbySearchHistory(userId);
+    const findAllDataSearchHistory = await this.searchRepository.findAllbySearchHistory(userId);
 
-    if (5 < findAllSearchHistory.length) {
+    if (5 < findAllDataSearchHistory.length) {
       await this.searchRepository.deletebySearchHistory(userId);
     }
 
-    return findAllSearchHistory
+    return findAllDataSearchHistory
   };
 
-  summaryShop = async (result) => { 
-    result = result.map((value)=> {
+  summaryShop = async (findAllDataShop) => { 
+    findAllDataShop = findAllDataShop.map((value)=> {
         return { 
           shopAddress : value.shopAddress
         }
     })
 
   let addresSummary =[];
-   for(let i = 0 ; i <result.length; i++){ 
-    let address = result[i].shopAddress
-    let cityAddress = address.split(" ");
-
-    
+   for(let i = 0 ; i <findAllDataShop.length; i++){ 
+    const address = findAllDataShop[i].shopAddress
+    const cityAddress = address.split(" ");
 
     if(cityAddress[0] == "경기도") {
       addresSummary.push(cityAddress[2])
@@ -61,17 +58,7 @@ class SearchService {
     }
    }
 
-  // const result2 = addresSummary.reduce((accu, curr) => { 
-  //   accu[curr] = (accu[curr] || 0)+1; 
-  //   return accu;
-  // }, {});
-
-  // const result2 = addresSummary.reduce((accu, curr) => { 
-  //   accu.push({ [curr]: (accu.filter(item => Object.keys(item)[0] === curr).length + 1) || 1 });
-  //   return accu;
-  // }, []);
-  
-  const result2 = addresSummary.reduce((accu, curr) => {
+  const addresDataSummary = addresSummary.reduce((accu, curr) => {
     const existingObj = accu.find(item => Object.keys(item)[0] === curr);
     if (existingObj) {
       existingObj[curr] += 1; // 이미 존재하는 키라면 값을 1 증가
@@ -82,7 +69,7 @@ class SearchService {
   }, []);
 
 
-  return result2
+  return addresDataSummary
   }
 
 

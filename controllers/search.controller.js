@@ -6,60 +6,55 @@ class searchController {
   searchService = new SearchService();
 
   searchShop = async (req, res, next) => {
+    try {
+      const { searchName } = req.body;
 
-    console.log("검색 api 실행중입니다")
- 
-    
-    const { searchName } = req.body;
- 
-    console.log("searchName = " + searchName)
+      console.log("searchName = " + searchName);
 
-    //가게 정보 가져오기
-    const result = await this.searchService.findAllShop(searchName);
-   
-    console.log("검색기록입니다 = " + result)
-  
+      //가게 정보 가져오기
+      const findAllDataShop = await this.searchService.findAllShop(searchName);
 
-    //로그인 했을 경우 기록하기
-    if (res.locals.user) {
-      const { userId } = res.locals.user;
-      this.searchService.createSearchHistory(userId, searchName);
-      this.searchService.findAllSearchHistory(userId);
+      //로그인 했을 경우 기록하기
+      if (res.locals.user) {
+        const { userId } = res.locals.user;
+        this.searchService.createSearchHistory(userId, searchName);
+        this.searchService.findAllSearchHistory(userId);
+      }
+
+      res.status(200).send(findAllDataShop);
+    } catch (err) {
+      console.log(err);
+      res.status(400).json({ msg: "예기치 못한 오류가 발생했습니다" });
     }
-
-   
-    console.log("검색 api 마무리 입니다")
-  
-    res.status(200).send(result);
   };
 
   searchHistory = async (req, res, next) => {
-    if (res.locals.user) {
-      const { userId } = res.locals.user;
-      const value2 =  await this.searchService.findAllSearchHistory(userId);
-    
-       const value3 = await value2.map((value) => { 
-        return { 
-            // shopId: value.shopId,
-            // shopName: value.shopName,
-            searchContent: value.searchContent,
-        }
-      })
-   
-      return res.send({ value3 });
-    } else {
-      return res.send("로그인 하지 않아 기록이 없습니다");
+    try {
+      if (res.locals.user) {
+        const { userId } = res.locals.user;
+        let searchHistoryData = await this.searchService.findAllSearchHistory(userId);
+
+        searchHistoryData = await searchHistoryData.map((value) => {
+          return value.searchContent;
+        });
+
+        return res.send(searchHistoryData);
+        
+      } else {
+        return res.status(204).json({ msg: "로그인 하지 않아 기록이 없습니다" });
+      }
+    } catch (err) {
+      console.log(err);
+      res.status(400).json({ msg: "예기치 못한 오류가 발생했습니다" });
     }
   };
 
+  searchSummary = async (req, res, next) => {
+    const findAllDataShop = await this.searchService.findAllShop();
+    const guList = await this.searchService.summaryShop(findAllDataShop);
 
-  searchSummary = async (req, res, next) => { 
-  const result = await this.searchService.findAllShop();
-  const result2 = await this.searchService.summaryShop(result);
-
-  res.status(200).json({guList : result2})
-  }
-
+    res.status(200).json({ guList });
+  };
 }
 
 module.exports = searchController;
