@@ -8,7 +8,7 @@ class mypageController {
     // }
     getAllMypage = async(req, res, next) => {
         const { userId } = res.locals.user;
-        console.log(userId)
+
         try {
             const mypages = await Users.findAll({
                 attributes: [
@@ -25,17 +25,9 @@ class mypageController {
                     },
                 ],
                 where : { userId : userId },
-                // raw: true,
-            })
-            // console.log(mypages.userId)
-            // let result = mypages.map((mypage) =>{
-            //     return{
-            //     nickname : mypage.nickname,
-            //     profilePic : mypage.profilePic,
 
-            //     }
-                
-            // })
+            })
+
             const result = mypages.map((mypage) => {
                 const { Feeds } = mypage;
                 return {
@@ -59,16 +51,9 @@ class mypageController {
 
     getOneMypage = async(req, res, next) => {
         const { userId } = res.locals.user;
-        console.log(userId)
         const { feedId } = req.params;
-        console.log(userId, feedId)
         try {
-            // const findOneUser = await Feeds.findOne({
-            //     where: { UserId: userId },
-            // })
-            // if (findOneUser !== userId) {
-            //     return res.status(403).json({ errorMsg: "해당 피드는 다른사람이 작성한 피드입니다." })
-            // }
+
             const findOneFeed = await Feeds.findOne({
                 where: { feedId: feedId },
             })
@@ -77,16 +62,11 @@ class mypageController {
             }
             const mypage = await Feeds.findOne({
                 attributes: [
-                    // "Users.nickname",
-                    // "Users.profilePic",
                     "feedId",
                     "ShopId",
                     "createdAt",
                     "feedPic",
                     "comment",
-                    // "Shops.shopName",
-                    // "Shops.address",
-                    // "Shops.thumbnail",
                 ],
                 include: [
                     {
@@ -103,7 +83,6 @@ class mypageController {
                     },
                 ],
                 where: { userId: userId, feedId: feedId },
-                // raw: true,
             })
             const isExistScrap = await Scrap.findOne({
                 where: { ShopId: mypage.Shop.shopId, UserId : userId }, // ShopId뿐만이 아니라 UserId도 조건에 추가로 넣어야 정상적으로 작동됨
