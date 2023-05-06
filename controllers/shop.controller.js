@@ -257,16 +257,6 @@ class ShopController {
             unit: "meter",
           });
 
-
-          // let isScrap =  await Scrap.findOne({
-          //   where: { ShopId: shops[i].shopId, UserId: userId },
-          // });
-  
-          // let findFeedAll = await Feeds.findAll({
-          //   where: { ShopId : shops[i].shopId }
-          // })
-
-          // let feedCount = findFeedAll.length
        
           const shopInfo = {
             shopId: shops[i].shopId,
@@ -280,8 +270,6 @@ class ShopController {
             minPrice: Number(shops[i].minPrice),
             category: shops[i].category,
             distance: Number(totalDistance.toFixed(0)),
-            // feedCount: feedCount,
-            // isScrap: isScrap ? true : false,
           };
 
           if (totalDistance <= Number(range)) {
@@ -396,17 +384,6 @@ class ShopController {
           const totalDistance = haversine(userLocate, shopLocate, {
             unit: "meter",
           });
-
-
-          // let isScrap =  await Scrap.findOne({
-          //   where: { ShopId: shops[i].shopId, UserId: userId },
-          // });
-  
-          // let findFeedAll = await Feeds.findAll({
-          //   where: { ShopId : shops[i].shopId }
-          // })
-
-          // let feedCount = findFeedAll.length
        
           const shopInfo = {
             shopId: shops[i].shopId,
@@ -636,9 +613,6 @@ class ShopController {
       if (!shop) {
         return res.status(404).json({ errorMsg: "맛집이 존재하지 않습니다." });
       }
-      // const isExistScrap = await Scrap.findOne({
-      // where: { ShopId: shopId }, // 불확실, 현재 기준은 로그인 했을 때 저게 나타나야 하는데, 현재 코드 상태는 누구든 스크랩 하나라도 했으면 ture로 나오고 있음
-      // })
 
       if (res.locals.user) {
         const { userId } = res.locals.user;
@@ -687,9 +661,7 @@ class ShopController {
         };
         res.status(200).json({ shop: result });
       }
-      
-     
-      // res.status(200).json({ shop : shop });
+
     } catch (error) {
       console.log(error);
       res.status(400).json({ errorMsg: "예기치 못한 오류가 발생했습니다" });
