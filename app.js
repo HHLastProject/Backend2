@@ -5,11 +5,8 @@ const cookieParser = require('cookie-parser');
 const app = express();
 const cors = require('cors');
 const path = require('path');
-// app.use('/uploads', express.static('uploads'));
 
-// app.use('/uploads', express.static(path.join(__dirname, 'uploads')))
 app.use('/uploads', express.static(path.join(__dirname, 'uploads'))) //파일저장위치 변경
-
 
 app.use(
   cors({

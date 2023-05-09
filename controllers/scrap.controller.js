@@ -12,7 +12,7 @@ class scrapController {
       const findDataScrap = await this.scrapService.findOneScrap(shopId, userId);
 
       //즐겨찾기 폴더ID 가져오기
-      let folderId = await this.scrapService.findOneFolder(userId);
+      const folderId = await this.scrapService.findOneFolder(userId);
 
       let boolean = true;
       if (!findDataScrap) {

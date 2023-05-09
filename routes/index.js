@@ -21,7 +21,9 @@ router.use("/api", feedRouter,mypageRouter,searchRouter,scrapRouter,favoriteRout
 const uploadShopRouter = require('./uploadShop.js');
 router.use('/api/uploadShop', uploadShopRouter);
 
-const testCodeRouter = require('./testCode.js');
-router.use('/api/testCode', testCodeRouter);
+router.get("/test",(req,res)=> { 
+    console.log("test")
+    res.send("테스트는 성공적")
+})
 
 module.exports = router;

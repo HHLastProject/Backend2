@@ -1,26 +1,20 @@
 require('dotenv').config();
-// const AdminRepository = require('../repositories/admin.repository');
-// const adminRepository = new AdminRepository();
 const { Users } = require("../models");
 const jwt = require("jsonwebtoken");
 const Boom = require("boom");
+require("dotenv").config();
 
 module.exports = async (req, res, next) => {
   try {
     const authorization = req.headers.authorization;
     const [authType, token] = (authorization ?? "").split(" ");
 
-    console.log("token 여기는 로그인이 필수 입니다");
-    console.log(token);
-    console.log("=============");
- 
     if (authType !== "Bearer" || !token) {
-      // throw Boom.unauthorized("로그인 후에 이용할 수 있는 기능입니다.");
       req.status(200).json("비로그인")
       next();
     }
 
-    const { id} = jwt.verify(token, "key");
+    const { id} = jwt.verify(token, process.env.JWT_KEY);
     const user = await Users.findOne( {where: {id}});
 
     if (!user) {
