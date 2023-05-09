@@ -9,8 +9,6 @@ class searchController {
     try {
       const { searchName } = req.body;
 
-      console.log("searchName = " + searchName);
-
       //가게 정보 가져오기
       const findAllDataShop = await this.searchService.findAllShop(searchName);
 

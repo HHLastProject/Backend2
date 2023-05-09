@@ -9,17 +9,8 @@ module.exports = async (req, res, next) => {
     const label = "adminAuthmiddleware.js";
   try {
 
-    console.log("req.headers.authorization");
-    console.log(req.headers.authorization);
-    console.log("=================================");
     const authorization = req.headers.authorization;
     const [authType, token] = (authorization ?? "").split(" ");
-
-    console.log("authType");
-    console.log(authType);
-    console.log("token");
-    console.log(token);
-    console.log("=================================");
 
     if (authType !== "Bearer" || !token) {
       throw Boom.unauthorized("로그인 후에 이용할 수 있는 기능입니다.");

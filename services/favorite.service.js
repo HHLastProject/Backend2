@@ -1,5 +1,5 @@
 const FavoriteRepository = require("../repositories/favorite.repositories")
-const {Folders,Lists,Users} = require("../models");
+const {Folders,Lists} = require("../models");
 class FavoriteService {
   constructor() {
     this.favoriteRepository = new FavoriteRepository();
@@ -38,7 +38,7 @@ class FavoriteService {
     return findAllDataFolders;
   };
 
-  listPatch2 = async (folderList, userId) => {
+  listMovePatch = async (folderList, userId) => {
     let folderName = [];
     let scrapId = [];
 
@@ -146,16 +146,16 @@ class FavoriteService {
     return false;
   };
 
-  findListData = async (userId, shopId) => {};
-
   folderCreate = async (userId, folderName) => {
     return await this.favoriteRepository.folderbyCreate(userId, folderName);
   };
 
   findAllFolderLists = async (folderId, userId) => {
-    let favoriteFolder = await Folders.findOne({
+
+    const favoriteFolder = await Folders.findOne({
       where: { UserId: userId, folderName: "즐겨찾기" },
     });
+
     await Lists.update(
       { FolderId: favoriteFolder.folderId },
       { where: { FolderId: folderId } }
@@ -167,13 +167,11 @@ class FavoriteService {
   };
 
   listPatch = async (folderCreate, existFolderId) => {
-    // let finalData = [];
 
     for (let i = 0; i < existFolderId.length; i++) {
       const existFolderName = existFolderId[i].folderName;
       for (let j = 0; j < folderCreate.length; j++) {
         if (existFolderName == folderCreate[j].folderName) {
-          // finalData.push(folderCreate[j].folderId);
 
           //리스트에서 없어져버린 폴더 id데신 새로 생긴 폴더 id를 넣는다
           console.log("이번호 있어? = " + existFolderId[i].folderId);
