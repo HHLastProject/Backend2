@@ -23,15 +23,6 @@ class LoginService {
       redirect_uri: redirectURL, 
       code,
     };
-    
-    console.log("============================")
-    console.log("============================")
-    console.log("redirect_uri") 
-    console.log(data.redirect_uri) 
-    console.log("code") 
-    console.log(code) 
-    console.log("============================")
-    console.log("============================")
 
     const responseToken = await axios.post(
       "https://kauth.kakao.com/oauth/token",
@@ -122,7 +113,7 @@ class LoginService {
       //원하는 정보만 얻고 싶을때 
       id : response.id,
       nickname : response.nickname,
-      profilePic : response.profile_image,  // 이름 바꿔야함
+      profilePic : response.profile_image, 
       age : response.age,
       email : response.email,
       gender : gender,

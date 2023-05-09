@@ -1,12 +1,9 @@
 const { data } = require("../data");
 const { Shops, Menus } = require("../models");
-// const { borad,cafe,dog,sandbar,tradition } = require("../uploads");
 const express = require("express");
 const router = express.Router();
 
-// console.log(data);
 
-let AdminId = 1;
 let thumbnail = "cafe1.jpg";
 let operatingTime = "연중무휴";
 
@@ -147,7 +144,7 @@ router.get("/start", async (req, res) => {
 
 
 
-  return res.send("완2");
+  return res.send("가게등록 완료");
 });
 
 function getRandomArbitrary(min, max) {

@@ -1,14 +1,15 @@
 const LoginServices = require("../services/login.service");
 const jwt = require("jsonwebtoken");
+require("dotenv").config();
 
-const {Users}= require("../models");
 
 class LoginController {
   loginServices = new LoginServices();
 
   loginKakao = async (req, res) => {
     try {
-      // const { code } = req.query;    const redirectURL =  "http://localhost:3060/api/login/kaKao" //백에서만 할때              
+      // const { code } = req.query;    
+      // const redirectURL =  "http://localhost:3060/api/login/kaKao" //백에서만 할때              
       const { code,redirectURL  } = req.body;        //프론트에 배포할때
 
       const resultToken = await this.loginServices.getKakaoToken(code,redirectURL);
@@ -20,7 +21,8 @@ class LoginController {
 
       const token = jwt.sign(
         { id :  resultUser.id },
-        "key", //나중에 .env로 바꿔서 해야함
+        process.env.JWT_KEY,
+        {expiresIn: '30d'}
         );
 
       res.set("authorization", `Bearer ${token}`);  
