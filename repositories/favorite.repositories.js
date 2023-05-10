@@ -19,8 +19,8 @@ class FavoriteRepository {
         return await Scrap.findOne({where:{UserId : userId, ShopId : shopId}});
     }; 
     
-    findOnebyFolder = async(folderName) => { 
-        return await Folders.findOne({where : {folderName}});
+    findOnebyFolder = async(folderName,userId) => { 
+        return await Folders.findOne({where : {folderName,UserId :userId}});
     };
 
     findOnebyFolderName =  async(folderId) => { 
