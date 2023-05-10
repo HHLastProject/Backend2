@@ -42,7 +42,7 @@ Cafe Log는 지역과 범위에 따라 가맹점 카페들을 소개하고,
 
 
 ## 시스템 아키텍쳐
-<img src="https://user-images.githubusercontent.com/121918099/236741003-328d14e6-c36b-4a1c-86fa-780a12a33163.png"/>
+<img src="https://velog.velcdn.com/images/clue97/post/f16d40cc-5b0e-426c-8a3a-c90edebc8577/image.png"/>
 
 ## 기술적 의사 결정
 | 요구 사항 | 사용한 기술스택 | 핵심 기술을 선택한 이유 및 근거 |
