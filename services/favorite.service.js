@@ -61,7 +61,7 @@ class FavoriteService {
     //폴더이름으로 폴더id찾아오기
     for (let i = 0; i < folderName.length; i++) {
       const findFolder = await this.favoriteRepository.findOnebyFolder(
-        folderName[i]
+        folderName[i],userId
       );
       findFolderId.push(findFolder.folderId);
     }
